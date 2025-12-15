@@ -1,6 +1,0 @@
-﻿=========================================================
-TARGETED PROJECT SNAPSHOT
-Generated: 12/09/2025 21:35:53
-This file contains the full content of the 28 JSON files
-modified by the terminology audit script.
-=========================================================
