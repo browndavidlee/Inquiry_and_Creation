@@ -1,0 +1,132 @@
+{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "welcome":  {
+                    "title":  "Welcome to An Integrated Language for Inquiry and Creation",
+                    "subtitle":  "A Structured Guide for Cross-Functional Teams",
+                    "description":  "This tool is a flexible guide for navigating complex projects, from scientific research to artistic creation. It provides a shared language to help teams collaborate across different ways of knowing.",
+                    "actions":  [
+                                    {
+                                        "title":  "I\u0027m Stuck. Help Me Find the Right Tool.",
+                                        "description":  "Start with your current struggle.",
+                                        "target_view":  "diagnostic",
+                                        "target_id":  null,
+                                        "icon":  "fas fa-diagnoses"
+                                    },
+                                    {
+                                        "title":  "Interactive Overview",
+                                        "description":  "Explore the 10-stage workflow.",
+                                        "target_view":  "overview",
+                                        "target_id":  null,
+                                        "icon":  "fas fa-rocket"
+                                    },
+                                    {
+                                        "title":  "View the Full Map",
+                                        "description":  "Get a bird\u0027s-eye view of the framework.",
+                                        "target_view":  "map",
+                                        "target_id":  null,
+                                        "icon":  "fas fa-map-signs"
+                                    }
+                                ],
+                    "_tag_title":  "JSON@views.json::welcome.header.title",
+                    "_tag_subtitle":  "JSON@views.json::welcome.header.subtitle"
+                },
+    "diagnostic":  {
+                       "title":  "Diagnostic Navigator",
+                       "description":  "What is your current struggle? Select the card that best describes your situation to find the right tool for the job.",
+                       "struggles":  [
+                                         {
+                                             "struggle":  "I don\u0027t know where to start.",
+                                             "diagnosing":  "You need to find a compelling entry point. You are in a pre-Tool 1 state.",
+                                             "target_tool":  "tool1",
+                                             "icon":  "fas fa-play-circle",
+                                             "_tag_struggle":  "JSON@views.json::diagnostic.struggleCard[0].title",
+                                             "_tag_diagnosing":  "JSON@views.json::diagnostic.struggleCard[0].description"
+                                         },
+                                         {
+                                             "struggle":  "I\u0027m afraid my plan will fail.",
+                                             "diagnosing":  "Your plan lacks resilience. You need to anticipate risks.",
+                                             "target_tool":  "tool2",
+                                             "icon":  "fas fa-shield-alt",
+                                             "_tag_struggle":  "JSON@views.json::diagnostic.struggleCard[1].title",
+                                             "_tag_diagnosing":  "JSON@views.json::diagnostic.struggleCard[1].description"
+                                         },
+                                         {
+                                             "struggle":  "We\u0027re stuck on one idea.",
+                                             "diagnosing":  "You need to break out of convergent thinking and explore more possibilities.",
+                                             "target_tool":  "tool3",
+                                             "icon":  "fas fa-lightbulb",
+                                             "_tag_struggle":  "JSON@views.json::diagnostic.struggleCard[2].title",
+                                             "_tag_diagnosing":  "JSON@views.json::diagnostic.struggleCard[2].description"
+                                         },
+                                         {
+                                             "struggle":  "We have too many ideas and can\u0027t decide.",
+                                             "diagnosing":  "You are in a divergent state and need to converge on a single path.",
+                                             "target_tool":  "tool4",
+                                             "icon":  "fas fa-crosshairs",
+                                             "_tag_struggle":  "JSON@views.json::diagnostic.struggleCard[3].title",
+                                             "_tag_diagnosing":  "JSON@views.json::diagnostic.struggleCard[3].description"
+                                         },
+                                         {
+                                             "struggle":  "My idea is clear in my head, but I can\u0027t explain it.",
+                                             "diagnosing":  "You need to translate your non-linear mental model into a communicable structure.",
+                                             "target_tool":  "tool5",
+                                             "icon":  "fas fa-drafting-compass",
+                                             "_tag_struggle":  "JSON@views.json::diagnostic.struggleCard[4].title",
+                                             "_tag_diagnosing":  "JSON@views.json::diagnostic.struggleCard[4].description"
+                                         },
+                                         {
+                                             "struggle":  "I\u0027m tired of planning and just want to build something.",
+                                             "diagnosing":  "You are ready to move from abstract thought to concrete action.",
+                                             "target_tool":  "tool6",
+                                             "icon":  "fas fa-tools",
+                                             "_tag_struggle":  "JSON@views.json::diagnostic.struggleCard[5].title",
+                                             "_tag_diagnosing":  "JSON@views.json::diagnostic.struggleCard[5].description"
+                                         },
+                                         {
+                                             "struggle":  "I\u0027m scared to get feedback on my work.",
+                                             "diagnosing":  "You know your work needs improvement but are anxious about the critique process.",
+                                             "target_tool":  "tool7",
+                                             "icon":  "fas fa-search",
+                                             "_tag_struggle":  "JSON@views.json::diagnostic.struggleCard[6].title",
+                                             "_tag_diagnosing":  "JSON@views.json::diagnostic.struggleCard[6].description"
+                                         },
+                                         {
+                                             "struggle":  "It\u0027s time for the final presentation/defense.",
+                                             "diagnosing":  "You are at a high-stakes moment of judgment and need to validate your work.",
+                                             "target_tool":  "tool8",
+                                             "icon":  "fas fa-trophy",
+                                             "_tag_struggle":  "JSON@views.json::diagnostic.struggleCard[7].title",
+                                             "_tag_diagnosing":  "JSON@views.json::diagnostic.struggleCard[7].description"
+                                         },
+                                         {
+                                             "struggle":  "The project is over, what did we actually learn?",
+                                             "diagnosing":  "You need to synthesize your experience into transferable knowledge.",
+                                             "target_tool":  "tool9",
+                                             "icon":  "fas fa-book-open",
+                                             "_tag_struggle":  "JSON@views.json::diagnostic.struggleCard[8].title",
+                                             "_tag_diagnosing":  "JSON@views.json::diagnostic.struggleCard[8].description"
+                                         },
+                                         {
+                                             "struggle":  "My team is arguing and going in circles.",
+                                             "diagnosing":  "The process itself is the problem. You need to step back and manage the workflow.",
+                                             "target_tool":  "tool10",
+                                             "icon":  "fas fa-sync-alt",
+                                             "_tag_struggle":  "JSON@views.json::diagnostic.struggleCard[9].title",
+                                             "_tag_diagnosing":  "JSON@views.json::diagnostic.struggleCard[9].description"
+                                         },
+                                         {
+                                             "struggle":  "Our solutions aren\u0027t working.",
+                                             "diagnosing":  "You\u0027ve tried multiple solutions, but the problem persists. This is a sign that the issue is systemic, or your team is stuck in a flawed process. It\u0027s time to stop working *in* the system and start working *on* the system.",
+                                             "target_tool":  "tool10",
+                                             "icon":  "fas fa-ban"
+                                         }
+                                     ],
+                       "_tag_title":  "JSON@views.json::diagnostic.header.title",
+                       "_tag_description":  "JSON@views.json::diagnostic.header.description"
+                   }
+}

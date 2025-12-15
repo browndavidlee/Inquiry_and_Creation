@@ -1,0 +1,3657 @@
+﻿=========================================================
+MINIMAL JAVASCRIPT PROJECT SNAPSHOT
+Generated: 12/09/2025 21:39:40
+This file contains the core JS logic for the application.
+=========================================================
+
+--- START OF FILE js/app.js ---
+
+// js/app.js
+
+import { loadFrameworkData } from './dataLoader.js';
+import { UI } from './uiComponents.js';
+import { Visuals } from './visuals.js';
+import { parseInternalLinks } from './utils/linkParser.js';
+
+// Helper function to safely parse markdown content
+function parseMarkdown(text) {
+    if (typeof text !== 'string' || !text.trim()) {
+        return '';
+    }
+    return window.marked ? window.marked.parse(text, { breaks: true }) : text;
+}
+
+// Simple, Zustand-like store for managing global state
+const createStore = (createState) => {
+    let state;
+    const listeners = new Set();
+    const setState = (partial) => {
+        const oldState = state;
+        state = { ...state, ...partial };
+        listeners.forEach((listener) => listener(state, oldState));
+    };
+    const subscribe = (selector, callback) => {
+        let lastState = selector(state);
+        const listener = (newState, oldState) => {
+            const nextState = selector(newState);
+            if (nextState !== lastState) {
+                lastState = nextState;
+                callback(nextState, selector(oldState));
+            }
+        };
+        listeners.add(listener);
+        return () => listeners.delete(listener);
+    };
+    const getState = () => state;
+    state = createState(setState, getState);
+    return { setState, subscribe, getState };
+};
+
+const useStore = createStore((set) => ({
+    currentDomain: 'general',
+    setDomain: (domain) => set({ currentDomain: domain }),
+    conceptCloudFilterDomain: 'all', // 'all', 'science', 'business', etc.
+    setConceptCloudFilterDomain: (domain) => set({ conceptCloudFilterDomain: domain }),
+}));
+
+// State for the currently active tool view
+let currentToolState = {
+    activePerspective: 'jobToBeDone' 
+};
+let previousToolId = null; // Track the last viewed tool ID
+
+// Rendering lock to prevent race conditions
+let isRendering = false;
+
+function handleDomainConceptFilter(e) {
+    const filterBtn = e.target.closest('.concept-cloud-toggle-btn');
+    if (!filterBtn) return false;
+
+    const selectedDomain = filterBtn.dataset.domainFilter;
+    
+    document.querySelectorAll('.concept-cloud-toggle-btn').forEach(btn => btn.classList.remove('active'));
+    filterBtn.classList.add('active');
+
+    document.querySelectorAll('#concept-cloud-accordion-group .accordion-item').forEach(item => {
+        const itemDomains = item.dataset.domains.split(',');
+        if (selectedDomain === 'all' || itemDomains.includes(selectedDomain)) {
+            item.style.display = '';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+
+    return true;
+}
+
+// --- NEW SCROLL CONTROL LOGIC ---
+function setupScrollControls(containerId, wrapperClass) {
+    const container = document.getElementById(containerId);
+    if (!container) {
+        console.warn(`[ScrollControls] Container not found: ${containerId}`);
+        return;
+    }
+
+    const scrollArea = container.querySelector(wrapperClass);
+    const leftBtn = container.querySelector('.scroll-paddle.left');
+    const rightBtn = container.querySelector('.scroll-paddle.right');
+
+    if (!scrollArea || !leftBtn || !rightBtn) {
+        console.warn(`[ScrollControls] Missing elements in ${containerId}`);
+        return;
+    }
+
+    const SCROLL_STEP = 300; // Pixels to move on click
+    const HOVER_SPEED = 15;  // Pixels per frame on hover
+    let scrollInterval;
+
+    // Helper for continuous scrolling
+    const startScrolling = (direction) => {
+        if (scrollInterval) return; // Prevent multiple intervals
+        
+        const scrollStep = direction === 'right' ? HOVER_SPEED : -HOVER_SPEED;
+        
+        const animate = () => {
+            // Check if we can actually scroll
+            if (scrollArea.scrollWidth > scrollArea.clientWidth) {
+                scrollArea.scrollLeft += scrollStep;
+            }
+            scrollInterval = requestAnimationFrame(animate);
+        };
+        scrollInterval = requestAnimationFrame(animate);
+    };
+
+    const stopScrolling = () => {
+        if (scrollInterval) {
+            cancelAnimationFrame(scrollInterval);
+            scrollInterval = null;
+        }
+    };
+
+    // --- LEFT BUTTON ---
+    // Click (Incremental)
+    leftBtn.onclick = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        scrollArea.scrollBy({ left: -SCROLL_STEP, behavior: 'smooth' });
+    };
+    // Hover (Continuous)
+    leftBtn.onmouseenter = () => startScrolling('left');
+    leftBtn.onmouseleave = stopScrolling;
+    leftBtn.onmousedown = stopScrolling; // Stop hover scroll if they click
+
+    // --- RIGHT BUTTON ---
+    // Click (Incremental)
+    rightBtn.onclick = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        scrollArea.scrollBy({ left: SCROLL_STEP, behavior: 'smooth' });
+    };
+    // Hover (Continuous)
+    rightBtn.onmouseenter = () => startScrolling('right');
+    rightBtn.onmouseleave = stopScrolling;
+    rightBtn.onmousedown = stopScrolling;
+    
+    console.log(`[ScrollControls] Initialized for ${containerId}`);
+}
+
+
+document.addEventListener('DOMContentLoaded', async () => {
+    const cognitiveToolkitData = await loadFrameworkData();
+    
+    if (!cognitiveToolkitData) {
+        const mainContent = document.getElementById('main-content');
+        if (mainContent) {
+            mainContent.innerHTML = `
+                <div class="card full-width" style="border-left: 5px solid var(--danger-color);">
+                    <h1>Application Error</h1>
+                    <p>Could not load the necessary framework data. The application cannot start.</p>
+                    <p>This is often due to a missing or malformed data file. Please check the browser's developer console (F12) for a more specific error message from the data loader.</p>
+                </div>
+            `;
+        }
+        console.error("Application cannot start without data. Halting initialization.");
+        return;
+    }
+
+    let currentStance = localStorage.getItem('cognitive-toolkit-stance') || 'learning';
+    let currentPersona = localStorage.getItem('cognitive-toolkit-persona') || 'practitioner';
+    
+    let nodeFrameworkData;
+    let mapFrameworkData;
+    let modalitiesFrameworkData;
+    let glossaryToolData;
+
+    function init() {
+        const cleanTitle = cognitiveToolkitData.framework_data.frameworkTitle.replace('Dialogic ', '');
+        document.title = cleanTitle;
+        
+        // Restore Sidebar State immediately to prevent FOUC
+        const isSidebarCollapsed = localStorage.getItem('cognitive-toolkit-sidebar-collapsed') === 'true';
+        if (isSidebarCollapsed) {
+            document.body.classList.add('sidebar-collapsed');
+        }
+
+        populateSidebar();
+        renderMiniMap();
+        setupEventListeners();
+        
+        initializeAccessibilityToggles();
+        initializeStanceSwitch();
+
+        const params = new URLSearchParams(window.location.search);
+        const view = params.get('view') || 'welcome';
+        const id = params.get('id');
+        renderView(view, id);
+    }
+
+function populateSidebar() {
+        const toolNav = document.getElementById('tool-nav');
+        
+        // 1. Generate Tool Links (Dynamic)
+        const toolLinksHTML = cognitiveToolkitData.framework_data.tools.map((tool, index) => {
+            return `<li><a href="?view=tool&id=${tool.id}" data-view="tool" data-id="${tool.id}">
+                <span class="nav-item-number">${index + 1}.</span>
+                <span class="tool-swatch" style="background-color: ${tool.color};"></span>
+                <span class="nav-text" data-jargon="${tool.name}" data-simple="${tool.simpleName}">${tool.name}</span>
+            </a></li>`;
+        }).join('');
+
+        // 2. Helper to generate Resource Links
+        const createNavLink = (view, icon, text) => `<li><a href="?view=${view}" data-view="${view}">
+            <i class="fas ${icon} nav-icon"></i> 
+            <span class="nav-text">${text}</span>
+        </a></li>`;
+
+        // 3. Define Link Groups
+        const referenceLinks = [
+            createNavLink('synthesis-table', 'fa-compress-arrows-alt', 'Grand Synthesis Table'),
+            createNavLink('glossary-tool', 'fa-language', 'Dynamic Glossary'),
+            createNavLink('rubrics', 'fa-tasks', 'Rubric Library'),
+            createNavLink('glossary', 'fa-book', 'Full Glossary'),
+            createNavLink('bibliography', 'fa-scroll', 'Bibliography')
+        ].join('');
+
+        const advancedLinks = [
+            createNavLink('pathways', 'fa-star-of-life', 'Pathway Explorer')
+        ].join('');
+
+        const metaLinks = [
+            createNavLink('strategy', 'fa-chess-board', 'Strategic Blueprint'),
+            createNavLink('protocol', 'fa-robot', 'AI Command Protocol'),
+            createNavLink('playbooks-reports', 'fa-book-reader', 'Playbooks & Reports'),
+            createNavLink('community', 'fa-users', 'Community & Contribution'),
+            createNavLink('about', 'fa-info-circle', 'About this Framework')
+        ].join('');
+
+        // 4. Helper to build a Section with Header Icon
+        const buildSection = (title, iconClass, contentHTML) => `
+            <div class="nav-section">
+                <h3 class="nav-section-title" title="${title}">
+                    <i class="fas ${iconClass} section-icon"></i>
+                    <span class="section-text">${title}</span>
+                </h3>
+                <ul id="${title.toLowerCase()}-nav">
+                    ${contentHTML}
+                </ul>
+            </div>
+        `;
+
+        // 5. Inject Full HTML
+        // We manually build the "Tools" section first, then the others
+        const toolsSection = buildSection('Tools', 'fa-toolbox', toolLinksHTML);
+        
+        // Inject into the sidebar nav container
+        const sidebarNav = document.getElementById('sidebar-nav');
+        sidebarNav.innerHTML = `
+            ${toolsSection}
+            ${buildSection('Reference', 'fa-book', referenceLinks)}
+            ${buildSection('Advanced', 'fa-layer-group', advancedLinks)}
+            ${buildSection('Meta', 'fa-globe', metaLinks)}
+        `;
+        
+        // Add Planner link separately or inside Tools if preferred (Currently in Resource Nav in previous code, moving to Tools for consistency or keeping separate)
+        // For this update, I will ensure the Planner is included in the "Tools" list or its own section if it was separate. 
+        // Based on previous code, Planner was in "Tools" list in resource-nav. Let's add it to the top of the Tools list or a specific "Workspace" section.
+        // Adding Planner to the top of the Tools list for better UX:
+        const plannerLink = createNavLink('planner', 'fa-clipboard-list', 'Integrated Planner');
+        const diagnosticLink = createNavLink('diagnostic', 'fa-diagnoses', 'Diagnostic Navigator');
+        const overviewLink = createNavLink('overview', 'fa-rocket', 'Interactive Overview');
+        const mapLink = createNavLink('map', 'fa-map-signs', 'Visual Map');
+        const networkLink = createNavLink('network', 'fa-project-diagram', 'Network Map');
+        const nodesLink = createNavLink('nodes', 'fa-project-diagram', 'Node Explorer');
+        const modalitiesLink = createNavLink('modalities', 'fa-brain', 'Modality Explorer');
+        const hubLink = createNavLink('hub', 'fa-tools', 'Actionability Hub');
+        const logLink = createNavLink('log', 'fa-feather-alt', 'Positionality Log');
+
+        // Re-assembling Tools to include the utility tools
+        const utilityToolsHTML = [plannerLink, diagnosticLink, overviewLink, mapLink, networkLink, nodesLink, modalitiesLink, hubLink, logLink].join('');
+        
+        // Final Assembly
+        sidebarNav.innerHTML = `
+            ${buildSection('Tools', 'fa-toolbox', utilityToolsHTML + toolLinksHTML)}
+            ${buildSection('Reference', 'fa-book', referenceLinks)}
+            ${buildSection('Advanced', 'fa-layer-group', advancedLinks)}
+            ${buildSection('Meta', 'fa-globe', metaLinks)}
+        `;
+    }
+    
+    function renderMiniMap() {
+        const container = document.getElementById('mini-map-container');
+        container.innerHTML = cognitiveToolkitData.framework_data.tools.map(tool => 
+            `<div class="mini-map-segment" data-id="${tool.id}" style="background-color: ${tool.color};" title="${tool.name}"></div>`
+        ).join('');
+    }
+
+    function setupEventListeners() {
+        document.getElementById('sidebar-nav').addEventListener('click', handleSidebarClick);
+        document.body.addEventListener('click', handleMainContentClick);
+        document.getElementById('menu-toggle').addEventListener('click', toggleMobileMenu);
+        
+        document.getElementById('simple-mode-checkbox').addEventListener('change', e => toggleSimpleMode(e.target.checked));
+        document.getElementById('dark-mode-checkbox').addEventListener('change', e => toggleAccessibilityMode('dark-mode-active', e.target.checked));
+        document.getElementById('high-contrast-checkbox').addEventListener('change', e => toggleAccessibilityMode('high-contrast-mode', e.target.checked));
+        document.getElementById('reader-mode-checkbox').addEventListener('change', e => toggleAccessibilityMode('reader-mode', e.target.checked));
+        document.getElementById('exit-reader-mode-btn').addEventListener('click', () => {
+            document.getElementById('reader-mode-checkbox').checked = false;
+            toggleAccessibilityMode('reader-mode', false);
+        });
+
+        // Sidebar Collapse Logic
+        const sidebarCollapseBtn = document.getElementById('sidebar-collapse-btn');
+        if (sidebarCollapseBtn) {
+            sidebarCollapseBtn.addEventListener('click', () => {
+                document.body.classList.toggle('sidebar-collapsed');
+                
+                // Save state
+                const isCollapsed = document.body.classList.contains('sidebar-collapsed');
+                localStorage.setItem('cognitive-toolkit-sidebar-collapsed', isCollapsed);
+            });
+        }
+
+        window.addEventListener('popstate', (event) => {
+            const params = new URLSearchParams(window.location.search);
+            renderView(params.get('view') || 'welcome', params.get('id'));
+        });
+
+        const backToTopBtn = document.getElementById('back-to-top-btn');
+        if (backToTopBtn) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    backToTopBtn.classList.add('visible');
+                } else {
+                    backToTopBtn.classList.remove('visible');
+                }
+            });
+            backToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        const shortcutsModal = document.getElementById('keyboard-shortcuts-modal');
+        if (shortcutsModal) {
+            document.addEventListener('keydown', (e) => {
+                if (e.key === '?' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+                    if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+                        e.preventDefault();
+                        shortcutsModal.showModal();
+                    }
+                }
+                if (e.key >= '1' && e.key <= '9') {
+                    const toolIndex = parseInt(e.key) - 1;
+                    const tool = cognitiveToolkitData.framework_data.tools[toolIndex];
+                    if (tool && !e.ctrlKey && !e.metaKey && !e.altKey && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+                        const url = new URL(window.location);
+                        url.searchParams.set('view', 'tool');
+                        url.searchParams.set('id', tool.id);
+                        history.pushState({}, '', url.search);
+                        renderView('tool', tool.id);
+                    }
+                }
+                if (e.key === '0') {
+                    const tool = cognitiveToolkitData.framework_data.tools[9]; // Tool 10
+                    if (tool && !e.ctrlKey && !e.metaKey && !e.altKey && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+                        const url = new URL(window.location);
+                        url.searchParams.set('view', 'tool');
+                        url.searchParams.set('id', tool.id);
+                        history.pushState({}, '', url.search);
+                        renderView('tool', tool.id);
+                    }
+                }
+            });
+            shortcutsModal.addEventListener('keydown', (e) => { if (e.key === 'Escape') { shortcutsModal.close(); } });
+            shortcutsModal.querySelector('.close-modal').addEventListener('click', () => { shortcutsModal.close(); });
+        }
+
+        const nodeModal = document.getElementById('node-details-modal');
+        if (nodeModal) {
+            nodeModal.querySelector('.close-modal').addEventListener('click', () => {
+                nodeModal.close();
+            });
+
+            nodeModal.addEventListener('click', (event) => {
+                if (event.target === nodeModal) {
+                    nodeModal.close();
+                }
+            });
+        }
+    }
+
+    function handleSidebarClick(e) {
+        const link = e.target.closest('a');
+        if (link && link.hasAttribute('data-view')) {
+            e.preventDefault();
+            const url = new URL(link.href);
+            history.pushState({}, '', url.search);
+            renderView(link.dataset.view, link.dataset.id);
+            if (window.innerWidth <= 1024) {
+                document.getElementById('sidebar').classList.remove('open');
+                document.getElementById('menu-toggle').setAttribute('aria-expanded', 'false');
+            }
+        }
+    }
+
+    function handleConceptCloudEvents(e) {
+        const filterBtn = e.target.closest('.filter-chip');
+        const bubbleBtn = e.target.closest('.concept-bubble');
+        const closeBtn = e.target.closest('#popover-close-btn');
+        const overlay = e.target.closest('#concept-popover-overlay');
+
+        const formatTheoryText = (text) => {
+            if (!text) return "No theory available.";
+            return text
+                .replace('Definition:', '<span class="highlight-key">Definition:</span>')
+                .replace('Procedural Link:', '<br><br><span class="highlight-key">Procedural Link:</span>');
+        };
+
+        if (filterBtn) {
+            document.querySelectorAll('.filter-chip').forEach(btn => btn.classList.remove('active'));
+            filterBtn.classList.add('active');
+
+            const selectedDomain = filterBtn.dataset.domain;
+            const bubbles = document.querySelectorAll('.concept-bubble');
+
+            bubbles.forEach(bubble => {
+                const domains = bubble.dataset.domains.split(',');
+                if (selectedDomain === 'all' || domains.includes(selectedDomain)) {
+                    bubble.classList.remove('hidden');
+                    bubble.classList.add('fade-in');
+                } else {
+                    bubble.classList.add('hidden');
+                    bubble.classList.remove('fade-in');
+                }
+            });
+            return;
+        }
+
+        if (bubbleBtn) {
+            const conceptId = bubbleBtn.dataset.conceptId;
+            
+            let conceptData = null;
+            const allTools = cognitiveToolkitData.framework_data.toolConcepts;
+            for (const toolId in allTools) {
+                const found = allTools[toolId].find(c => c.id === conceptId);
+                if (found) { conceptData = found; break; }
+            }
+
+            if (conceptData) {
+                const activeFilterBtn = document.querySelector('.filter-chip.active');
+                const activeFilter = activeFilterBtn ? activeFilterBtn.dataset.domain : 'all';
+                
+                let variation = conceptData.variations[0]; // Default
+                if (activeFilter !== 'all') {
+                    const match = conceptData.variations.find(v => v.domain === activeFilter);
+                    if (match) variation = match;
+                }
+
+                document.getElementById('popover-title').textContent = conceptData.name;
+                document.getElementById('popover-domain-badge').textContent = variation.domain;
+                document.getElementById('popover-expert').textContent = variation.expert || "N/A";
+                document.getElementById('popover-theory').innerHTML = formatTheoryText(variation.theory);
+                document.getElementById('popover-deliverable').textContent = variation.specific_deliverable || "N/A";
+                document.getElementById('popover-rubric').textContent = variation.rubric || "N/A";
+
+                const colors = {
+                    "Science": "var(--domain-science)",
+                    "Business": "var(--domain-business)",
+                    "Humanities": "var(--domain-humanities)",
+                    "Arts": "var(--domain-arts)",
+                    "Culture": "var(--domain-culture)",
+                    "Pedagogy": "var(--domain-pedagogy)"
+                };
+                const header = document.getElementById('popover-header');
+                if(header) header.style.borderTopColor = colors[variation.domain] || "#5f6368";
+
+                document.getElementById('concept-popover-overlay').classList.add('visible');
+                document.getElementById('concept-popover-card').classList.add('visible');
+            }
+            return;
+        }
+
+        if (closeBtn || (e.target.id === 'concept-popover-overlay')) {
+            document.getElementById('concept-popover-overlay').classList.remove('visible');
+            document.getElementById('concept-popover-card').classList.remove('visible');
+        }
+    }
+
+    function handleMainContentClick(e) {
+        if (handleDomainConceptFilter(e)) return;
+
+        handleConceptCloudEvents(e);
+
+        const nodeCard = e.target.closest('#nodes-view .node-card');
+        const systemsLensToggle = e.target.closest('[data-action="toggle-systems-lens"]');
+        const tab = e.target.closest('.systems-lens-tab');
+        const translationsToggle = e.target.closest('[data-action="toggle-translations"]');
+        const navLink = e.target.closest('[data-view]');
+        const accordionHeader = e.target.closest('.accordion-header');
+        const perspectiveTab = e.target.closest('.perspective-tab');
+        const miniMapSegment = e.target.closest('.mini-map-segment');
+        const exportButton = e.target.closest('#export-log-btn');
+        const generateBtn = e.target.closest('#generate-prompt-btn');
+        const internalLink = e.target.closest('a.internal-link');
+        const personaButton = e.target.closest('.persona-switch button');
+        const onboardingClose = e.target.closest('[data-action="dismiss-onboarding"]');
+
+        if (onboardingClose) {
+            const viewId = onboardingClose.dataset.viewId;
+            localStorage.setItem(`onboarding-dismissed-${viewId}`, 'true');
+            const card = document.getElementById(`onboarding-${viewId}`);
+            if (card) {
+                card.classList.add('dismissed');
+            }
+            return;
+        }
+
+        if (personaButton) {
+            currentPersona = personaButton.dataset.persona;
+            localStorage.setItem('cognitive-toolkit-persona', currentPersona);
+            const params = new URLSearchParams(window.location.search);
+            renderView(params.get('view'), params.get('id'), { scroll: false });
+            return;
+        }
+
+        if (nodeCard) {
+            const nodeId = nodeCard.dataset.nodeId;
+            const nodeData = cognitiveToolkitData.framework_data.frameworkNodes.nodes.find(n => n.id === nodeId);
+            if (nodeData) {
+                showNodeModal(nodeData);
+            }
+        } else if (systemsLensToggle) {
+            const content = systemsLensToggle.nextElementSibling;
+            const icon = systemsLensToggle.querySelector('.accordion-icon');
+            const isOpening = !content.style.display || content.style.display === 'none';
+            content.style.display = isOpening ? 'block' : 'none';
+            icon.style.transform = isOpening ? 'rotate(180deg)' : 'rotate(0deg)';
+        } else if (tab) {
+            const target = tab.dataset.tabTarget;
+            const tabContainer = tab.closest('.systems-lens-tabs');
+            const contentContainer = tabContainer.nextElementSibling;
+            tabContainer.querySelectorAll('.systems-lens-tab').forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            contentContainer.querySelectorAll('.systems-lens-tab-content').forEach(c => c.classList.remove('active'));
+            contentContainer.querySelector(`[data-tab-content="${target}"]`).classList.add('active');
+        } else if (translationsToggle) {
+            e.preventDefault();
+            const content = translationsToggle.nextElementSibling;
+            const isOpening = !content.style.display || content.style.display === 'none';
+            content.style.display = isOpening ? 'block' : 'none';
+            translationsToggle.innerHTML = isOpening ? 'Hide Domain Translations ?' : 'Show Domain Translations ?';
+        } else if (internalLink && internalLink.dataset.linkType === 'node') {
+            e.preventDefault();
+            const nodeId = internalLink.dataset.nodeUid;
+            const nodeData = cognitiveToolkitData.framework_data.frameworkNodes.nodes.find(n => n.uid === nodeId);
+            if (nodeData) {
+                showNodeModal(nodeData);
+            }
+        } else if (navLink && navLink.dataset.view && !navLink.closest('#sidebar-nav')) {
+            e.preventDefault();
+            const url = new URL(window.location);
+            url.searchParams.set('view', navLink.dataset.view);
+            if (navLink.dataset.id) url.searchParams.set('id', navLink.dataset.id);
+            else url.searchParams.delete('id');
+            history.pushState({}, '', url.search);
+            renderView(navLink.dataset.view, navLink.dataset.id);
+        } else if (accordionHeader && !accordionHeader.closest('#pathway-matrix') && !accordionHeader.closest('.concept-cloud-item')) {
+            toggleAccordion(accordionHeader);
+        } else if (accordionHeader && accordionHeader.closest('#concept-cloud-accordion-group')) {
+            toggleAccordion(accordionHeader);
+        } else if (perspectiveTab) {
+            handlePerspectiveTabClick(perspectiveTab);
+        } else if (miniMapSegment) {
+            const toolId = miniMapSegment.dataset.id;
+            const url = new URL(window.location);
+            url.searchParams.set('view', 'tool');
+            url.searchParams.set('id', toolId);
+            history.pushState({}, '', url.search);
+            renderView('tool', toolId);
+        } else if (exportButton) {
+            exportLog();
+        } else if (generateBtn) {
+            generatePlannerPrompt();
+        }
+    }
+    
+    function showNodeModal(nodeData) {
+        const modal = document.getElementById('node-details-modal');
+        if (!modal) return;
+
+        const { frameworkNodes, tools } = cognitiveToolkitData.framework_data;
+        const theme = frameworkNodes.themes[nodeData.theme];
+        const parentTool = tools.find(t => t.id === nodeData.parentTool);
+
+        document.getElementById('modal-node-icon').className = `fas ${theme.icon}`;
+        document.getElementById('modal-node-icon').style.color = theme.color;
+        document.getElementById('modal-node-name').textContent = nodeData.name;
+        document.getElementById('modal-node-uid').textContent = nodeData.uid;
+
+        document.getElementById('modal-node-description').innerHTML = parseMarkdown(nodeData.description);
+        document.getElementById('modal-node-parent-tool').textContent = parentTool ? parentTool.name : 'N/A';
+        document.getElementById('modal-node-theme').textContent = theme ? theme.name : 'N/A';
+
+        const tagsEl = document.getElementById('modal-node-tags');
+        tagsEl.innerHTML = nodeData.tags.map(tag => `<span>${tag}</span>`).join('');
+
+        const inputsEl = document.getElementById('modal-node-inputs');
+        inputsEl.innerHTML = nodeData.inputs.map(input => `<li>${input}</li>`).join('');
+
+        const outputsEl = document.getElementById('modal-node-outputs');
+        outputsEl.innerHTML = nodeData.outputs.map(output => `<li>${output}</li>`).join('');
+
+        const systemsLensContainer = document.getElementById('modal-systems-lens-container');
+        if (systemsLensContainer) {
+            const { render } = window.litHtml;
+            render(UI.renderSystemsLensAnalysis(nodeData.systemsThinkingAnalysis), systemsLensContainer);
+        }
+
+        modal.showModal();
+    }
+
+    // --- FIX: Optimized Tab Switching Logic ---
+    function handlePerspectiveTabClick(tab) {
+        if (!tab) return;
+        const perspectiveKey = tab.dataset.perspective;
+        
+        // 1. Update State
+        currentToolState.activePerspective = perspectiveKey;
+
+        // 2. DOM Manipulation (Fast, no re-render)
+        // Update Buttons
+        const container = tab.closest('.perspectives-container');
+        if (container) {
+            container.querySelectorAll('.perspective-tab').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.perspective === perspectiveKey);
+            });
+
+            // Update Content
+            const contentContainer = container.querySelector('.perspectives-content');
+            if (contentContainer) {
+                contentContainer.querySelectorAll('.perspective-content').forEach(content => {
+                    content.classList.toggle('active', content.dataset.perspectiveContent === perspectiveKey);
+                });
+            }
+        }
+        // No renderView() call! This prevents the jump.
+    }
+
+    function renderView(view, id = null, options = { scroll: true }) {
+        if (isRendering) {
+            console.warn(`[WARN] Render already in progress. Ignoring request for view: '${view}'`);
+            return;
+        }
+        isRendering = true;
+        console.log(`[DEBUG] Starting renderView for view: '${view}', id: '${id}'`);
+
+        let targetView; 
+        try {
+            const { render, html } = window.litHtml;
+
+            const viewId = view === 'tool' ? 'tool-focus-view' : `${view}-view`;
+            targetView = document.getElementById(viewId);
+
+            if (!targetView) {
+                console.error(`[FATAL] View container with id '${viewId}' not found in the DOM. Aborting render.`);
+                isRendering = false;
+                return; 
+            }
+
+            // --- CRITICAL FIX: Explicitly clear the container first ---
+            // This forces lit-html to unmount the previous template and reset its internal state.
+            // This prevents the "Cannot set properties of null (setting 'data')" error when switching tools.
+            render(html``, targetView);
+
+            // Only toggle visibility if we are actually switching views
+            if (!targetView.classList.contains('active-view')) {
+                document.querySelectorAll('.view-container').forEach(v => v.classList.remove('active-view'));
+                targetView.classList.add('active-view');
+            }
+            
+            // Reset perspective state when navigating to a NEW tool.
+            if (view === 'tool' && id !== previousToolId) {
+                currentToolState.activePerspective = 'jobToBeDone';
+            } else if (view !== 'tool') {
+                currentToolState.activePerspective = 'jobToBeDone';
+            }
+            previousToolId = (view === 'tool') ? id : null; // Update tracker
+            
+            updateActiveSidebarLink(view, id);
+            updateMiniMap(view, id);
+            updateBreadcrumbs(view, id);
+            
+            if (options.scroll) {
+                window.scrollTo(0, 0);
+            }
+
+            const viewLabels = {
+                'welcome': 'Welcome', 'diagnostic': 'Diagnostic Navigator', 'tool': `Tool: ${id ? cognitiveToolkitData.framework_data.tools.find(t => t.id === id)?.name : 'Unknown'}`,
+                'overview': 'Overview', 'map': 'Visual Map', 'network': 'Network Map', 'nodes': 'Node Explorer', 'modalities': 'Modality Explorer', 'hub': 'Actionability Hub',
+                'log': 'Positionality Log', 'synthesis-table': 'Grand Synthesis Table', 'rubrics': 'Rubrics', 'glossary': 'Glossary', 'glossary-tool': 'Dynamic Glossary', 'playbooks-reports': 'Playbooks & Reports',
+                'genesis-project': 'Project Genesis Case Study','bibliography': 'Bibliography',
+                'strategy': 'Strategic Blueprint', 'protocol': 'AI Command Protocol', 'about': 'About', 'community': 'Community & Contribution',
+                'advanced-toolkits': 'Advanced Toolkits', 'pathways': 'Pathway Explorer', 'planner': 'Integrated Planner'
+            };
+            const announcer = document.getElementById('main-content');
+            if (announcer) { announcer.setAttribute('aria-label', `Loading ${viewLabels[view] || view} view`); }
+            
+            const isDismissed = localStorage.getItem(`onboarding-dismissed-${viewId}`) === 'true';
+            const onboardingData = (!isDismissed && cognitiveToolkitData.onboarding_content.onboarding[viewId]) 
+                ? cognitiveToolkitData.onboarding_content.onboarding[viewId] 
+                : null;
+
+            if (view === 'planner') {
+                const plannerContainer = document.getElementById('planner-view');
+                if (window.litHtml && cognitiveToolkitData.planner_content) {
+                    render(UI.renderPlannerView(cognitiveToolkitData.planner_content, onboardingData, viewId), plannerContainer);
+                } else {
+                    render(html`<h1>Error: Planner content could not be loaded.</h1>`, plannerContainer);
+                }
+                if (announcer) { announcer.setAttribute('aria-label', `${viewLabels[view] || view} view loaded`); }
+                isRendering = false;
+                requestAnimationFrame(initializeNativePlanner);
+                return; 
+            }
+
+            if (view === 'about') {
+                const aboutData = cognitiveToolkitData.framework_data.about;
+                const aboutContent = html`
+                    <h1>${aboutData.title}</h1>
+                    ${window.litHtml.unsafeHTML(parseMarkdown(aboutData.content))}
+                `;
+                render(aboutContent, targetView);
+                if (announcer) { announcer.setAttribute('aria-label', `${viewLabels[view] || view} view loaded`); }
+                isRendering = false;
+                return; 
+            }
+
+            if (view === 'tool') {
+                const tool = cognitiveToolkitData.framework_data.tools.find(t => t.id === id);
+                if (tool) {
+                    const conceptCloudFilterDomain = useStore.getState().conceptCloudFilterDomain;
+                    render(UI.renderToolFocus(tool, currentStance, currentPersona, cognitiveToolkitData, onboardingData, viewId, currentToolState.activePerspective, conceptCloudFilterDomain), targetView);
+                } else {
+                    render(html`<h1>Tool not found</h1>`, targetView);
+                }
+                if (announcer) { announcer.setAttribute('aria-label', `${viewLabels[view] || view} view loaded`); }
+                applySimpleMode(localStorage.getItem('cognitive-toolkit-simple-mode') === 'true');
+                isRendering = false;
+                return; 
+            }
+            
+            let content;
+            switch(view) {
+                case 'welcome':
+                    content = UI.renderWelcome(cognitiveToolkitData.application_views, onboardingData, viewId);
+                    break;
+                case 'diagnostic':
+                    content = UI.renderDiagnostic(cognitiveToolkitData.application_views);
+                    break;
+                case 'overview':
+                    content = UI.renderOverviewView(cognitiveToolkitData.framework_data.tools, cognitiveToolkitData.methodologies_data.methodologies);
+                    break;
+                case 'map':
+                    content = UI.renderVisualMap(cognitiveToolkitData.framework_data.frameworkNodes, cognitiveToolkitData.framework_data.tools, onboardingData, viewId);
+                    break;
+                case 'network':
+                    content = UI.renderNetworkMapView(cognitiveToolkitData.framework_data.frameworkNodes, cognitiveToolkitData.framework_data.tools, onboardingData, viewId);
+                    break;
+                case 'nodes':
+                    content = UI.renderNodeExplorer(cognitiveToolkitData.framework_data.frameworkNodes, cognitiveToolkitData.framework_data.tools, onboardingData, viewId);
+                    break;
+                case 'modalities':
+                    content = UI.renderModalityExplorer(cognitiveToolkitData.framework_data.dls_modalities_framework, onboardingData, viewId);
+                    break;
+                case 'hub':
+                    content = UI.renderHub();
+                    break;
+                case 'log':
+                    content = UI.renderLog(getLogData());
+                    break;
+                case 'synthesis-table':
+                    content = UI.renderGrandSynthesisTable(cognitiveToolkitData.framework_data.grandSynthesisTable, onboardingData, viewId);
+                    break;
+                case 'rubrics':
+                    content = UI.renderRubricsView(cognitiveToolkitData.framework_data.rubrics);
+                    break;
+                case 'glossary':
+                    content = UI.renderGlossaryView(cognitiveToolkitData.framework_data.glossary);
+                    break;
+                case 'glossary-tool':
+                    content = UI.renderGlossaryToolView();
+                    break;
+                case 'playbooks-reports':
+                    content = UI.renderPlaybooksReports(cognitiveToolkitData.playbooks_and_reports_data);
+                    break;
+                case 'bibliography':
+                    content = UI.renderBibliographyView(cognitiveToolkitData.framework_data.bibliography);
+                    break;
+                case 'advanced-toolkits':
+                    content = UI.renderAdvancedToolkits(cognitiveToolkitData.framework_data.node_foundry_enhanced);
+                    break;
+                case 'pathways':
+                    content = UI.renderPathwayExplorer(cognitiveToolkitData.scaffold_model_data.content, cognitiveToolkitData.framework_data.tools, cognitiveToolkitData.framework_data.bibliography, onboardingData, viewId);
+                    break;
+                case 'strategy':
+                    content = UI.renderStrategyView(cognitiveToolkitData.framework_data.strategy);
+                    break;
+                case 'protocol':
+                    content = UI.renderProtocolView(cognitiveToolkitData.framework_data.ai_command_protocol);
+                    break;
+                case 'community':
+                    content = UI.renderCommunity();
+                    break;
+                case 'genesis-project':
+                    content = UI.renderGenesisProjectView(cognitiveToolkitData.project_genesis_data, onboardingData, viewId);
+                    break;
+                default:
+                    content = UI.renderWelcome(cognitiveToolkitData.application_views, onboardingData, viewId);
+            }
+            
+            render(content, targetView);
+
+            requestAnimationFrame(() => {
+                if (announcer) { announcer.setAttribute('aria-label', `${viewLabels[view] || view} view loaded`); }
+
+                if (view === 'overview') {
+                    const methodologySelect = document.getElementById('methodology-select');
+                    if (methodologySelect) {
+                        methodologySelect.addEventListener('change', handleMethodologySelect);
+                    }
+                }
+                if (view === 'network') initializeNetworkMapEvents();
+                if (view === 'nodes') initializeNodeExplorerEvents();
+                if (view === 'map') initializeVisualMapEvents();
+                if (view === 'modalities') initializeModalityExplorerEvents();
+                if (view === 'glossary-tool') initializeGlossaryToolEvents();
+                if (view === 'welcome') applyStanceHighlight();
+                if (view === 'pathways') initializePathwayExplorerEvents();
+            });
+            
+            applySimpleMode(localStorage.getItem('cognitive-toolkit-simple-mode') === 'true');
+
+        } catch (error) {
+            console.error(`[FATAL] Error during lit-html render() for view '${view}':`, error);
+            if (targetView) {
+                targetView.innerHTML = `<h1>Render Error</h1><p>Could not render this view. Please check the console for the specific error message.</p><pre>${error.stack}</pre>`;
+            }
+        } finally {
+            isRendering = false;
+        }
+    }
+    
+    function getLogData() {
+        return cognitiveToolkitData.framework_data.tools.map(tool => {
+            const promptItem = tool.pedagogicalPlaybook.find(item => item.title.includes("Reflection Prompt"));
+            if (!promptItem) return null;
+            const promptText = promptItem.content;
+            const textareaId = `log-prompt-${tool.id}`;
+            const savedAnswer = localStorage.getItem(textareaId) || 'No entry yet.';
+            return { toolName: tool.name, prompt: promptText, answer: savedAnswer };
+        }).filter(Boolean);
+    }
+
+    function exportLog() {
+        let fullLog = `An Integrated Language for Inquiry and Creation Positionality Log\nExported: ${new Date().toLocaleString()}\n\n========================================\n\n`;
+        getLogData().forEach(entry => {
+            fullLog += `TOOL: ${entry.toolName}\n`;
+            fullLog += `PROMPT: ${entry.prompt}\n\n`;
+            fullLog += `RESPONSE:\n${entry.answer.replace(/<br>/g, '\n')}\n\n========================================\n\n`;
+        });
+        const blob = new Blob([fullLog], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'CognitiveToolkit_Log.txt';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
+    function renderCognitiveModel(toolId) {
+        const { render } = window.litHtml;
+        const tool = cognitiveToolkitData.framework_data.tools.find(t => t.id === toolId);
+        const container = document.getElementById('cognitive-model-content');
+        if (!container) return;
+        render(UI.renderCognitiveModel(tool), container);
+    }
+
+    function renderCynefinAnalysis(toolId) {
+        const { render } = window.litHtml;
+        const tool = cognitiveToolkitData.framework_data.tools.find(t => t.id === toolId);
+        const container = document.getElementById('cynefin-analysis-content');
+        if (!container) return;
+        render(UI.renderCynefinAnalysis(tool), container);
+    }
+    
+    function handleMethodologySelect(e) {
+        const methodologyId = e.target.value;
+        const overviewContainer = document.querySelector('.workflow-container-wrapper');
+        const svg = document.getElementById('overview-path-svg');
+
+        if (!methodologyId) {
+            svg.innerHTML = '';
+            return;
+        }
+
+        const methodology = cognitiveToolkitData.methodologies_data.methodologies.find(m => m.id === methodologyId);
+        if (methodology) {
+            Visuals.drawOverlayPath(overviewContainer, methodology.path, '#e67e22');
+        }
+    }
+
+    function applyStance(stance) {
+        const params = new URLSearchParams(window.location.search);
+        const view = params.get('view');
+        const id = params.get('id');
+        if (view === 'tool' && id) {
+            renderView(view, id);
+        } else {
+            applyStanceHighlight();
+        }
+    }
+
+    function applyStanceHighlight() {
+        const learnCard = document.getElementById('welcome-choice-learn');
+        const findCard = document.getElementById('welcome-choice-find');
+        if (learnCard && findCard) {
+            learnCard.classList.toggle('is-recommended', currentStance === 'learning');
+            findCard.classList.toggle('is-recommended', currentStance === 'performance');
+        }
+    }
+
+    function updateActiveSidebarLink(view, id) {
+        document.querySelectorAll('.sidebar nav a').forEach(a => a.classList.remove('active'));
+        const selector = id ? `.sidebar a[data-view="${view}"][data-id="${id}"]` : `.sidebar a[data-view="${view}"]:not([data-id])`;
+        const activeLink = document.querySelector(selector);
+        if (activeLink) activeLink.classList.add('active');
+    }
+    function updateMiniMap(view, id) {
+        const container = document.getElementById('mini-map-container');
+        container.querySelectorAll('.mini-map-segment').forEach(seg => seg.classList.remove('active-tool'));
+        if (view === 'tool' && id) {
+            const activeSegment = container.querySelector(`.mini-map-segment[data-id="${id}"]`);
+            if (activeSegment) activeSegment.classList.add('active-tool');
+        }
+    }
+    function updateBreadcrumbs(view, id) {
+        const breadcrumbList = document.getElementById('breadcrumb-list');
+        if (!breadcrumbList) return;
+        let breadcrumbs = [{ label: 'Home', view: 'welcome' }];
+        const viewLabels = {
+            'welcome': 'Home', 'diagnostic': 'Diagnostic Navigator', 'tool': 'Tool', 'overview': 'Overview', 'map': 'Visual Map', 'network': 'Network Map',
+            'nodes': 'Node Explorer', 'modalities': 'Modality Explorer', 'hub': 'Actionability Hub', 'log': 'Positionality Log',
+            'synthesis-table': 'Grand Synthesis Table', 'rubrics': 'Rubrics', 'glossary': 'Glossary', 'glossary-tool': 'Dynamic Glossary', 'playbooks-reports': 'Playbooks & Reports',
+            'genesis-project': 'Project Genesis Case Study','bibliography': 'Bibliography',
+            'strategy': 'Strategic Blueprint', 'protocol': 'AI Command Protocol', 'about': 'About', 'community': 'Community & Contribution',
+            'advanced-toolkits': 'Advanced Toolkits', 'pathways': 'Pathway Explorer', 'planner': 'Integrated Planner'
+        };
+        if (view !== 'welcome') {
+            if (view === 'tool') {
+                const tool = cognitiveToolkitData.framework_data.tools.find(t => t.id === id);
+                breadcrumbs.push({ label: tool ? tool.name : 'Tool', view: view, id: id });
+            } else {
+                breadcrumbs.push({ label: viewLabels[view] || view, view: view });
+            }
+        }
+        breadcrumbList.innerHTML = breadcrumbs.map((crumb, i) => {
+            if (i === breadcrumbs.length - 1) {
+                return `<li><span aria-current="page">${crumb.label}</span></li>`;
+            }
+            return `<li><a href="?view=${crumb.view}${crumb.id ? '&id=' + crumb.id : ''}" data-view="${crumb.view}" data-id="${crumb.id || ''}">${crumb.label}</a></li>`;
+        }).join('');
+    }
+    function toggleAccordion(header) {
+        const item = header.closest('.accordion-item');
+        const content = item.querySelector('.accordion-content');
+        const wasActive = item.classList.contains('active');
+        item.classList.toggle('active', !wasActive);
+        content.style.maxHeight = !wasActive ? content.scrollHeight + "px" : null;
+    }
+    
+    function handlePerspectiveTabClick(tab) {
+        if (!tab) return;
+        const perspectiveKey = tab.dataset.perspective;
+        currentToolState.activePerspective = perspectiveKey;
+        const params = new URLSearchParams(window.location.search);
+        renderView(params.get('view'), params.get('id'), { scroll: false });
+    }
+    function toggleMobileMenu() {
+        const sidebar = document.getElementById('sidebar');
+        const isExpanded = sidebar.classList.toggle('open');
+        document.getElementById('menu-toggle').setAttribute('aria-expanded', isExpanded);
+    }
+    
+    function initializeAccessibilityToggles() {
+        const restoreToggle = (checkboxId, storageKey, className, isSimpleMode = false) => {
+            const checkbox = document.getElementById(checkboxId);
+            if (!checkbox) return;
+            const isEnabled = localStorage.getItem(storageKey) === 'true';
+            checkbox.checked = isEnabled;
+            if (isSimpleMode) {
+                toggleSimpleMode(isEnabled);
+            } else {
+                toggleAccessibilityMode(className, isEnabled);
+            }
+        };
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const savedTheme = localStorage.getItem('theme');
+        const isDarkInitially = savedTheme ? savedTheme === 'dark' : prefersDark;
+        localStorage.setItem('cognitive-toolkit-dark-mode-active', String(isDarkInitially));
+        restoreToggle('dark-mode-checkbox', 'cognitive-toolkit-dark-mode-active', 'dark-mode-active');
+        restoreToggle('high-contrast-checkbox', 'cognitive-toolkit-high-contrast-mode', 'high-contrast-mode');
+        restoreToggle('reader-mode-checkbox', 'cognitive-toolkit-reader-mode', 'reader-mode');
+        restoreToggle('simple-mode-checkbox', 'cognitive-toolkit-simple-mode', 'simple-mode', true);
+    }
+    function toggleAccessibilityMode(modeClass, isEnabled) {
+        document.body.classList.toggle(modeClass, isEnabled);
+        localStorage.setItem('cognitive-toolkit-' + modeClass, isEnabled);
+        if (modeClass === 'dark-mode-active') {
+            localStorage.setItem('theme', isEnabled ? 'dark' : 'light');
+        }
+    }
+    function toggleSimpleMode(isSimple) {
+        localStorage.setItem('cognitive-toolkit-simple-mode', isSimple);
+        applySimpleMode(isSimple);
+    }
+    function applySimpleMode(isSimple) {
+        document.querySelectorAll('[data-jargon]').forEach(el => {
+            el.textContent = isSimple ? el.dataset.simple : el.dataset.jargon;
+        });
+    }
+    function initializeStanceSwitch() {
+        document.querySelectorAll('.stance-switch button').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.stance === currentStance);
+        });
+        document.querySelector('.stance-switch').addEventListener('click', e => {
+            const button = e.target.closest('button');
+            if (button) {
+                currentStance = button.dataset.stance;
+                localStorage.setItem('cognitive-toolkit-stance', currentStance);
+                document.querySelectorAll('.stance-switch button').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                applyStance(currentStance);
+            }
+        });
+    }
+
+    function initializeNativePlanner() {
+        const domainData = {
+            general: { name: 'General / Pluralist', icon: '🌐' },
+            science_and_engineering: { name: 'Science & Engineering', icon: '🔬' },
+            humanities_and_ss: { name: 'Humanities & Social Sciences', icon: '🏛️' },
+            arts_and_design: { name: 'Arts & Design', icon: '🎨' },
+            business_and_agile: { name: 'Business & Agile', icon: '🚀' },
+            culture_and_ethics: { name: 'Culture & Ethics', icon: '🌏' },
+            pedagogy_and_facilitation: { name: 'Pedagogy & Facilitation', icon: '🧑‍🏫' }
+        };
+
+        const domainSwitcherContainer = document.getElementById('domain-switcher-container');
+        if (domainSwitcherContainer) {
+            const optionsHTML = Object.entries(domainData).map(([key, value]) => 
+                `<option value="${key}">${value.icon} ${value.name}</option>`
+            ).join('');
+            
+            domainSwitcherContainer.innerHTML = `
+                <label for="domain-select">Active Domain:</label>
+                <select id="domain-select">${optionsHTML}</select>
+            `;
+            
+            const domainSelect = document.getElementById('domain-select');
+            const savedDomain = localStorage.getItem('planner-currentDomain') || 'general';
+            useStore.setState({ currentDomain: savedDomain });
+            domainSelect.value = savedDomain;
+            
+            domainSelect.addEventListener('change', (e) => {
+                const newDomain = e.target.value;
+                localStorage.setItem('planner-currentDomain', newDomain);
+                useStore.setState({ currentDomain: newDomain });
+            });
+        }
+
+        let debounceTimer;
+        const statusEl = document.getElementById('persistence-status');
+        const textareas = document.querySelectorAll('.planner-textarea');
+        textareas.forEach(textarea => {
+            const savedValue = localStorage.getItem(textarea.id);
+            if (savedValue) {
+                textarea.value = savedValue;
+            }
+            textarea.addEventListener('input', () => {
+                if (statusEl) {
+                    statusEl.textContent = 'Saving...';
+                    statusEl.style.opacity = '1';
+                }
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => {
+                    localStorage.setItem(textarea.id, textarea.value);
+                    if (statusEl) {
+                        statusEl.textContent = 'Saved.';
+                        setTimeout(() => { statusEl.style.opacity = '0'; }, 1500);
+                    }
+                }, 500);
+            });
+        });
+
+        useStore.subscribe(
+            (state) => state.currentDomain,
+            (currentDomain) => {
+                const container = document.getElementById('planner-view');
+                if (container) {
+                    for (const key in domainData) {
+                        container.classList.remove(`domain-active-${key}`);
+                    }
+                    container.classList.add(`domain-active-${currentDomain}`);
+                }
+            }
+        );
+        document.getElementById('planner-view').classList.add(`domain-active-${useStore.getState().currentDomain}`);
+    }
+
+    function generatePlannerPrompt() {
+        const currentDomain = useStore.getState().currentDomain;
+        const domainData = cognitiveToolkitData.planner_content.parts[0].tools[0].domains.find(d => d.domainId === currentDomain);
+        const domainName = domainData ? domainData.name : currentDomain;
+
+        let prompt = `# PROJECT BRIEF & AI PROMPT\n\n**Active Domain Context: ${domainName}**\n\n`;
+
+        cognitiveToolkitData.planner_content.parts[0].tools.forEach(tool => {
+            prompt += `### ${tool.title}\n`;
+            const generalDomain = tool.domains.find(d => d.domainId === 'general');
+            const specificDomain = tool.domains.find(d => d.domainId === currentDomain);
+
+            const fieldsToUse = specificDomain ? specificDomain.fields : (generalDomain ? generalDomain.fields : []);
+
+            fieldsToUse.forEach(field => {
+                const el = document.getElementById(field.id);
+                const value = el && el.value.trim() ? el.value.trim() : 'Not specified.';
+                prompt += `- **${field.label}** ${value}\n`;
+            });
+            prompt += '\n';
+        });
+
+        prompt += `---
+## AI TASK REQUEST
+
+Based on the comprehensive plan above, please [**INSERT YOUR SPECIFIC REQUEST HERE**]. 
+
+For example:
+- "Critique the alignment between the Guiding Question and the Definition of Success."
+- "Brainstorm three more creative options for Tool 3 based on the generated possibilities."
+- "Help me flesh out the Work Breakdown Structure in Tool 5 for the chosen decision."
+- "Act as a 'red team' and identify two more potential challenges for the plan in Tool 2."`;
+        
+        const promptTextarea = document.getElementById('generated-prompt');
+        if (promptTextarea) {
+            promptTextarea.value = prompt.trim();
+            promptTextarea.readOnly = false;
+        }
+    }
+
+    function initializeNodeExplorerEvents() {
+        nodeFrameworkData = cognitiveToolkitData;
+        const searchInput = document.getElementById('node-search');
+        const pathwaySelect = document.getElementById('pathway-select');
+        const container = document.querySelector('#nodes-view .node-explorer-container');
+
+        if (searchInput) searchInput.addEventListener('input', filterNodes);
+        if (pathwaySelect) pathwaySelect.addEventListener('change', highlightPathway);
+        if (container) container.addEventListener('click', handleNodeExplorerEvents);
+
+        // --- ADD THIS LINE ---
+        setupScrollControls('node-scroll-container', '.node-map-wrapper');
+    }
+    function handleNodeExplorerEvents(e) {
+        const card = e.target.closest('.node-card');
+        if (card) {
+            document.querySelectorAll('.node-card.is-active').forEach(c => c.classList.remove('is-active'));
+            card.classList.add('is-active');
+            displayNodeDetails(card.dataset.nodeId);
+            return;
+        }
+        const themeButton = e.target.closest('.theme-filter-btn');
+        if (themeButton) {
+            document.querySelectorAll('.theme-filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+                btn.setAttribute('aria-checked', 'false');
+            });
+            themeButton.classList.add('active');
+            themeButton.setAttribute('aria-checked', 'true');
+            filterNodes();
+            return;
+        }
+    }
+    function displayNodeDetails(nodeId) {
+        const node = nodeFrameworkData.framework_data.frameworkNodes.nodes.find(n => n.id === nodeId);
+        const pane = document.getElementById('node-details-pane');
+        if (!node || !pane) return;
+        const theme = nodeFrameworkData.framework_data.frameworkNodes.themes[node.theme];
+        const inputsHTML = node.inputs.map(i => `<li>${i}</li>`).join('');
+        const outputsHTML = node.outputs.map(o => `<li>${o}</li>`).join('');
+        const tagsHTML = node.tags.map(t => `<span>${t}</span>`).join('');
+        pane.innerHTML = `<h3><i class="fas ${theme.icon}" style="color: ${theme.color};"></i> ${node.name} <code class="uid-tag">${node.uid}</code></h3>
+            <p>${node.description}</p>
+            <h4>Parent Tool</h4><ul><li>${nodeFrameworkData.framework_data.tools.find(t => t.id === node.parentTool).name}</li></ul>
+            <h4>Inputs</h4><ul>${inputsHTML}</ul>
+            <h4>Outputs</h4><ul>${outputsHTML}</ul>
+            <h4>Tags</h4><div class="tags">${tagsHTML}</div>`;
+    }
+    function filterNodes() {
+        const searchInput = document.getElementById('node-search');
+        if (!searchInput) return;
+        const searchTerm = searchInput.value.toLowerCase();
+        const activeTheme = document.querySelector('.theme-filter-btn.active')?.dataset.theme || 'all';
+        document.querySelectorAll('.node-card').forEach(card => {
+            const matchesSearch = card.textContent.toLowerCase().includes(searchTerm);
+            const matchesTheme = activeTheme === 'all' || card.dataset.nodeTheme === activeTheme;
+            card.classList.toggle('is-hidden', !(matchesSearch && matchesTheme));
+        });
+    }
+    function highlightPathway() {
+        const select = document.getElementById('pathway-select');
+        if (!select) return;
+        const pathwayKey = select.value;
+        const { pathways } = nodeFrameworkData.framework_data.frameworkNodes;
+        document.querySelectorAll('.node-card').forEach(c => c.classList.remove('is-path-member', 'is-hidden'));
+        const svg = document.getElementById('pathway-lines-svg');
+        const map = document.querySelector('.node-map');
+        if (!pathwayKey || !svg || !map) {
+            if (svg) { svg.innerHTML = ''; svg.classList.remove('visible'); }
+            return;
+        }
+        const pathway = pathways[pathwayKey];
+        const pathNodeIds = pathway.nodes;
+        document.querySelectorAll('.node-card').forEach(card => {
+            const isMember = pathNodeIds.includes(card.dataset.nodeId);
+            card.classList.toggle('is-path-member', isMember);
+            card.classList.toggle('is-hidden', !isMember);
+        });
+        Visuals.drawPathwayLines(svg, map, pathNodeIds, pathway.color || '#3498db', true);
+    }
+
+    function initializeVisualMapEvents() {
+        mapFrameworkData = cognitiveToolkitData;
+        const pathwaySelect = document.getElementById('map-pathway-select');
+        if (pathwaySelect) {
+            pathwaySelect.addEventListener('change', highlightMapPathway);
+        }
+
+        // --- ADD THIS LINE ---
+        setupScrollControls('map-scroll-container', '.map-grid-wrapper');
+    }
+    function highlightMapPathway() {
+        const select = document.getElementById('map-pathway-select');
+        if (!select) return;
+        const pathwayKey = select.value;
+        const { pathways } = mapFrameworkData.framework_data.frameworkNodes;
+        const svg = document.getElementById('map-pathway-svg');
+        const map = document.querySelector('.map-grid');
+        document.querySelectorAll('.node-item').forEach(item => item.classList.remove('is-hidden'));
+        if (!pathwayKey || !svg || !map) {
+            if (svg) { svg.innerHTML = ''; svg.classList.remove('visible'); }
+            return;
+        }
+        const pathway = pathways[pathwayKey];
+        const pathNodeIds = pathway.nodes;
+        document.querySelectorAll('.node-item').forEach(item => {
+            item.classList.toggle('is-hidden', !pathNodeIds.includes(item.dataset.nodeId));
+        });
+        Visuals.drawPathwayLines(svg, map, pathNodeIds, pathway.color || '#e67e22', false);
+    }
+
+    function initializeModalityExplorerEvents() {
+        modalitiesFrameworkData = cognitiveToolkitData.framework_data.dls_modalities_framework;
+        const view = document.getElementById('modalities-view');
+        if (view) {
+            view.addEventListener('click', handleModalityExplorerEvents);
+        }
+    }
+    function handleModalityExplorerEvents(e) {
+        const card = e.target.closest('.modality-card');
+        if (card) {
+            const modalityId = card.dataset.modalityId;
+            document.querySelectorAll('.modality-card').forEach(c => c.classList.remove('active'));
+            card.classList.add('active');
+            displayModalityDetails(modalityId);
+        }
+    }
+    function displayModalityDetails(modalityId) {
+        const modality = modalitiesFrameworkData.modalities.find(m => m.id === modalityId);
+        const pane = document.getElementById('modality-details-pane');
+        if (!modality || !pane) return;
+        const depsToList = (arr, title) => {
+            if (!arr || arr.length === 0) return '';
+            return `<h4>${title}</h4><ul class="dependency-list">${arr.map(dep => `<li><strong>${modalitiesFrameworkData.modalities.find(m => m.id === dep.modality_id).name}</strong> <span class="strength strength-${dep.strength}">${dep.strength}</span><p>${dep.reasoning}</p></li>`).join('')}</ul>`;
+        };
+        pane.innerHTML = `<h3>${modality.name}</h3><p>${modality.definition}</p>
+            <h4>Neuroscientific Grounding</h4><div class="neuro-grounding">${modality.neuroscientific_grounding}</div>
+            ${depsToList(modality.prerequisites, 'Prerequisites')}
+            ${depsToList(modality.dependents, 'Dependents')}`;
+    }
+
+    function initializeGlossaryToolEvents() {
+        glossaryToolData = cognitiveToolkitData.glossary_tool_data;
+        const searchInput = document.getElementById('glossary-search-input');
+        if (searchInput) {
+            searchInput.addEventListener('input', filterGlossary);
+            filterGlossary();
+        }
+    }
+    function filterGlossary() {
+        const searchInput = document.getElementById('glossary-search-input');
+        if (!searchInput) return;
+        const searchTerm = searchInput.value.toLowerCase();
+        const resultsContainer = document.getElementById('glossary-results');
+        if (!resultsContainer || !glossaryToolData) return;
+        const filteredData = glossaryToolData.filter(entry => entry.term.toLowerCase().includes(searchTerm));
+        if (filteredData.length === 0) {
+            resultsContainer.innerHTML = '<p>No matching terms found.</p>';
+            return;
+        }
+        resultsContainer.innerHTML = filteredData.map(entry => {
+            const translationsHTML = entry.translations.map(t => `<li><strong>${t.domain}:</strong><span>${t.expression}</span></li>`).join('');
+            return `<div class="glossary-entry"><h3>${entry.term}</h3>
+                <div class="glossary-entry-details">
+                    <p><strong>Home Domain:</strong> ${entry.home_domain}</p>
+                    <p><strong>Parent Tool:</strong> ${entry.parent_tool}</p>
+                    <p><strong>Universal Principle:</strong> <em>${entry.general_principle}</em></p>
+                    <h4>Conceptual Expressions:</h4><ul class="translation-list">${translationsHTML}</ul>
+                </div></div>`;
+        }).join('');
+    }
+    
+    function initializeNetworkMapEvents() {
+        const gridContainer = document.getElementById('network-grid');
+        const svg = document.getElementById('connection-svg');
+        
+        if (!gridContainer || !svg) {
+            console.error("Network Map initialization failed: Core container or SVG element not found.");
+            return;
+        }
+
+        // State to track clicked/locked card
+        let lockedMethodId = null;
+
+        const methodsData = cognitiveToolkitData.framework_data.frameworkNodes.nodes
+            .filter(node => node.isProcessPattern)
+            .map(node => ({
+                id: node.uid,
+                name: node.name,
+                primary: node.parentTool || node.primaryParentTool,
+                secondary: (node.secondaryApplications || []).map(app => app.toolId)
+            }));
+
+        const styles = getComputedStyle(document.documentElement);
+        const primaryLineColor = styles.getPropertyValue('--primary-line-color').trim();
+        const secondaryLineColor = styles.getPropertyValue('--secondary-line-color').trim();
+
+        const methodCards = document.querySelectorAll('.method-card');
+        let positions = {};
+
+        function calculatePositions() {
+            positions = {};
+            const allCards = document.querySelectorAll('.tool-card, .method-card');
+            allCards.forEach(card => {
+                const rect = card.getBoundingClientRect();
+                const containerRect = gridContainer.getBoundingClientRect();
+                positions[card.id] = {
+                    x: rect.left - containerRect.left + rect.width / 2,
+                    y: rect.top - containerRect.top + rect.height / 2,
+                    top: rect.top - containerRect.top,
+                    bottom: rect.top - containerRect.top + rect.height,
+                };
+            });
+        }
+
+        function drawLine(fromId, toId, isPrimary) {
+            const fromPos = positions[fromId];
+            const toPos = positions[toId];
+            if (!fromPos || !toPos) return;
+
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', fromPos.x);
+            line.setAttribute('y1', fromPos.bottom);
+            line.setAttribute('x2', toPos.x);
+            line.setAttribute('y2', toPos.top);
+            
+            line.setAttribute('stroke', isPrimary ? primaryLineColor : secondaryLineColor);
+            line.setAttribute('stroke-width', isPrimary ? '4' : '2');
+            
+            if (!isPrimary) {
+                line.setAttribute('stroke-dasharray', '6, 6');
+            }
+
+            const length = Math.hypot(toPos.x - fromPos.x, toPos.top - fromPos.bottom);
+            line.setAttribute('stroke-dasharray', length);
+            line.setAttribute('stroke-dashoffset', length);
+            
+            svg.appendChild(line);
+            setTimeout(() => line.setAttribute('stroke-dashoffset', 0), 10);
+        }
+
+        function highlightConnections(method) {
+            resetView();
+            
+            const methodEl = document.getElementById(method.id);
+            if (methodEl) methodEl.classList.add('highlighted');
+            
+            const primaryTool = document.getElementById(method.primary);
+            if (primaryTool) {
+                primaryTool.classList.add('highlighted');
+                drawLine(method.id, method.primary, true);
+            }
+
+            method.secondary.forEach(toolId => {
+                const secondaryTool = document.getElementById(toolId);
+                if (secondaryTool) {
+                    secondaryTool.classList.add('highlighted');
+                    drawLine(method.id, toolId, false);
+                }
+            });
+        }
+
+        function resetView() {
+            svg.innerHTML = '';
+            const highlighted = document.querySelectorAll('.highlighted');
+            highlighted.forEach(el => el.classList.remove('highlighted'));
+        }
+
+        const resizeObserver = new ResizeObserver(() => {
+            calculatePositions();
+            // Redraw if locked
+            if (lockedMethodId) {
+                const method = methodsData.find(m => m.id === lockedMethodId);
+                if (method) highlightConnections(method);
+            }
+        });
+        resizeObserver.observe(gridContainer);
+
+        setTimeout(calculatePositions, 100); 
+
+        // --- EVENT LISTENERS ---
+
+        // 1. Handle Method Card Interactions (Hover & Click)
+        methodCards.forEach(card => {
+            const method = methodsData.find(m => m.id === card.id);
+            if (!method) return;
+
+            // Hover Logic (Only works if nothing is locked)
+            card.addEventListener('mouseenter', () => {
+                if (!lockedMethodId) {
+                    highlightConnections(method);
+                }
+            });
+
+            // Click Logic (Locks/Unlocks)
+            card.addEventListener('click', (e) => {
+                // Ignore clicks on the info button (handled below)
+                if (e.target.closest('.method-info-btn')) return;
+
+                e.stopPropagation(); // Prevent background click from firing immediately
+                
+                if (lockedMethodId === card.id) {
+                    // If clicking the already locked card, unlock it
+                    lockedMethodId = null;
+                    resetView();
+                } else {
+                    // Lock this card
+                    lockedMethodId = card.id;
+                    highlightConnections(method);
+                }
+            });
+        });
+
+        // 2. Handle Info Button Clicks (Open Modal)
+        gridContainer.addEventListener('click', (e) => {
+            const infoBtn = e.target.closest('.method-info-btn');
+            if (infoBtn) {
+                e.stopPropagation();
+                const nodeId = infoBtn.dataset.nodeUid;
+                const nodeData = cognitiveToolkitData.framework_data.frameworkNodes.nodes.find(n => n.uid === nodeId);
+                if (nodeData) {
+                    showNodeModal(nodeData);
+                }
+                return;
+            }
+
+            // 3. Handle List Item Clicks (Open Modal)
+            const listLink = e.target.closest('.network-node-link');
+            if (listLink) {
+                e.stopPropagation();
+                const nodeId = listLink.dataset.nodeId; // Note: using ID here, not UID, based on render logic
+                const nodeData = cognitiveToolkitData.framework_data.frameworkNodes.nodes.find(n => n.id === nodeId);
+                if (nodeData) {
+                    showNodeModal(nodeData);
+                }
+                return;
+            }
+        });
+
+        // 4. Mouse Leave Logic (Only clears if nothing is locked)
+        gridContainer.addEventListener('mouseleave', () => {
+            if (!lockedMethodId) {
+                resetView();
+            }
+        });
+
+        // 5. Background Click Logic (Unlock when clicking empty space)
+        document.addEventListener('click', (e) => {
+            // If we have a lock, and the click target is NOT a method card or a modal
+            if (lockedMethodId && !e.target.closest('.method-card') && !e.target.closest('.node-modal')) {
+                lockedMethodId = null;
+                resetView();
+            }
+        });
+    }
+
+function initializePathwayExplorerEvents() {
+        const searchInput = document.getElementById('pathway-search');
+        const domainFilterGroup = document.getElementById('domain-filter-group');
+        const typeFilter = document.getElementById('type-filter');
+        const toolFilter = document.getElementById('tool-filter');
+        const matrix = document.getElementById('pathway-matrix');
+        const domainLabel = document.getElementById('selected-domain-name');
+    
+        if (!searchInput || !domainFilterGroup || !typeFilter || !toolFilter || !matrix) {
+            console.warn("Pathway Explorer controls not found. Skipping event listener setup.");
+            return;
+        }
+    
+        function applyFilters() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const activeDomain = domainFilterGroup.querySelector('.filter-btn.active')?.dataset.domain || 'all';
+            const activeType = typeFilter.value;
+    
+            document.querySelectorAll('#pathway-matrix .accordion-item').forEach(card => {
+                const cardDomain = card.dataset.domain || '';
+                const cardType = card.dataset.type || '';
+                const cardText = (card.textContent || '').toLowerCase();
+    
+                const matchesSearch = cardText.includes(searchTerm);
+                const matchesDomain = activeDomain === 'all' || cardDomain === activeDomain;
+                const matchesType = activeType === 'all' || cardType === activeType;
+    
+                card.style.display = (matchesSearch && matchesDomain && matchesType) ? '' : 'none';
+            });
+        }
+function handleToolFilter() {
+        const selectedTool = toolFilter.value;
+        
+        document.querySelectorAll('.tool-column').forEach(col => {
+            col.style.display = (selectedTool === 'all' || col.id === selectedTool) ? '' : 'none';
+        });
+    }
+
+    searchInput.addEventListener('input', applyFilters);
+    typeFilter.addEventListener('change', applyFilters);
+    toolFilter.addEventListener('change', handleToolFilter);
+
+    domainFilterGroup.addEventListener('click', (e) => {
+        const btn = e.target.closest('.filter-btn');
+        if (btn) {
+            domainFilterGroup.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            if (domainLabel) {
+                domainLabel.textContent = btn.dataset.domain === 'all' ? 'All Domains' : btn.title;
+            }
+            applyFilters();
+        }
+    });
+
+    matrix.addEventListener('click', (e) => {
+        const header = e.target.closest('.accordion-header');
+        if (header) {
+            const item = header.parentElement;
+            const content = item.querySelector('.accordion-content');
+            const wasActive = item.classList.contains('active');
+            
+            item.closest('.pathway-matrix').querySelectorAll('.accordion-item.active').forEach(openItem => {
+                if (openItem !== item) {
+                    openItem.classList.remove('active');
+                    const openContent = openItem.querySelector('.accordion-content');
+                    if(openContent) openContent.style.maxHeight = null;
+                }
+            });
+
+            item.classList.toggle('active', !wasActive);
+            if (content) {
+                content.style.maxHeight = !wasActive ? content.scrollHeight + "px" : null;
+            }
+        }
+    });
+
+    applyFilters();
+    handleToolFilter();
+
+    // --- NEW: Handle Deep Linking to specific Pathway ---
+    const params = new URLSearchParams(window.location.search);
+    const expandId = params.get('expand');
+
+    if (expandId) {
+        // Find the accordion item with the matching data-id
+        const targetItem = document.querySelector(`.accordion-item[data-id="${expandId}"]`);
+        
+        if (targetItem) {
+            // 1. Expand the item
+            targetItem.classList.add('active');
+            const content = targetItem.querySelector('.accordion-content');
+            if (content) {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+
+            // 2. Scroll into view with a slight delay to allow layout to settle
+            setTimeout(() => {
+                targetItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                // Optional: Add a temporary highlight effect
+                targetItem.style.transition = 'box-shadow 0.5s ease';
+                targetItem.style.boxShadow = '0 0 0 4px var(--color-highlight)';
+                setTimeout(() => {
+                    targetItem.style.boxShadow = '';
+                }, 2000);
+            }, 100);
+        }
+    }
+
+    // --- ADD THIS LINE ---
+    setupScrollControls('pathway-scroll-container', '.pathway-matrix-wrapper');
+}
+
+// --- START THE APP ---
+init();
+
+});
+
+--- END OF FILE js/app.js ---
+
+--- START OF FILE js/uiComponents.js ---
+
+// js/uiComponents.js
+
+import { html } from 'https://cdn.jsdelivr.net/npm/lit-html@3.1.2/lit-html.js';
+import { unsafeHTML } from 'https://cdn.jsdelivr.net/npm/lit-html@3.1.2/directives/unsafe-html.js';
+
+// Helper function to safely parse markdown content
+function parseMarkdown(text) {
+    if (typeof text !== 'string' || !text.trim()) {
+        return '';
+    }
+    return window.marked ? window.marked.parse(text, { breaks: true }) : text;
+}
+
+const escapeAttr = (str) => String(str || '')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+
+// --- MODALITY CONFIGURATION (V8 Colors) ---
+const modalityConfig = [
+    // Sensory (Blues)
+    { id: 'vis', name: 'Visual', fullName: 'Visual', group: 'Sensory', color: '#63b3ed' },
+    { id: 'aud', name: 'Auditory', fullName: 'Auditory', group: 'Sensory', color: '#4299e1' },
+    { id: 'tac', name: 'Tactile', fullName: 'Tactile', group: 'Sensory', color: '#3182ce' },
+    
+    // Embodied (Greens)
+    { id: 'prop', name: 'Proprio', fullName: 'Proprioceptive', group: 'Embodied', color: '#68d391' },
+    { id: 'int', name: 'Intero', fullName: 'Interoceptive', group: 'Embodied', color: '#48bb78' },
+    { id: 'kin', name: 'Kinest', fullName: 'Kinesthetic', group: 'Embodied', color: '#38a169' },
+    
+    // Symbolic (Oranges)
+    { id: 'ver', name: 'Verbal', fullName: 'Verbal', group: 'Symbolic', color: '#f6ad55' },
+    { id: 'num', name: 'Numeric', fullName: 'Numerical', group: 'Symbolic', color: '#ed8936' },
+    { id: 'spa', name: 'Spatial', fullName: 'Spatial', group: 'Symbolic', color: '#dd6b20' },
+    
+    // Cognitive (Reds)
+    { id: 'log', name: 'Logical', fullName: 'Logical', group: 'Cognitive', color: '#fc8181' },
+    { id: 'assoc', name: 'Assoc', fullName: 'Associative', group: 'Cognitive', color: '#f56565' },
+    { id: 'emo', name: 'Emotion', fullName: 'Emotional', group: 'Cognitive', color: '#e53e3e' },
+    { id: 'soc', name: 'Social', fullName: 'Social', group: 'Cognitive', color: '#c53030' },
+    
+    // Meta (Purples)
+    { id: 'crea', name: 'Creative', fullName: 'Creative', group: 'Meta', color: '#b794f4' },
+    { id: 'meta', name: 'Meta', fullName: 'Metacognitive', group: 'Meta', color: '#9f7aea' }
+];
+
+// --- GLOBAL CHART CONTROLLER ---
+// Defined globally so it can be called by onclick events in the Lit templates
+window.updateEqualizer = function(toolId, domain) {
+    // 1. Get the Data from the DOM
+    const stage = document.getElementById(`chart-stage-${toolId}`);
+    if (!stage || !stage.dataset.modalityJson) return;
+    
+    const allData = JSON.parse(stage.dataset.modalityJson);
+    const domainScores = allData[domain];
+
+    if (!domainScores) return;
+
+    // 2. Update the Bars
+    // We assume the order of scores matches the modalityConfig order
+    domainScores.forEach((score, index) => {
+        const bar = document.getElementById(`bar-${toolId}-${index}`);
+        const tooltip = document.getElementById(`tooltip-${toolId}-${index}`);
+        
+        if (bar) {
+            const height = (score / 5) * 100;
+            bar.style.height = `${height}%`;
+        }
+        if (tooltip) {
+            tooltip.innerText = score;
+        }
+    });
+
+    // 3. Update the Pills (Active State)
+    const pills = document.querySelectorAll(`#domain-pills-${toolId} .domain-pill`);
+    pills.forEach(p => {
+        if (p.dataset.domain === domain) {
+            p.classList.add('active');
+        } else {
+            p.classList.remove('active');
+        }
+    });
+};
+
+// Helper to parse the existing markdown table into structured data
+function parseModalityTable(markdownString) {
+    const data = {};
+    let insight = "Select a domain to see the cognitive signature.";
+
+    if (!markdownString) return { data, insight };
+
+    // 1. Extract Insight first (Split by the Insight marker)
+    // This prevents the table parser from accidentally eating the insight text
+    const parts = markdownString.split(/\*\*Insight:\*\*/i);
+    
+    // The table is likely in the first part
+    const tablePart = parts[0];
+    
+    // The insight is in the second part (if it exists)
+    if (parts.length > 1) {
+        insight = parts[1].trim();
+    }
+
+    // 2. Parse the Table
+    const lines = tablePart.split('\n');
+    
+    lines.forEach(line => {
+        // Check if line looks like a table row (has pipes) but isn't a separator row
+        if (line.includes('|') && !line.includes('---')) {
+            // Split by pipe and clean whitespace
+            const cols = line.split('|').map(c => c.trim()).filter(c => c !== "");
+            
+            // We need at least a domain name and some numbers
+            if (cols.length > 2) {
+                // Clean the domain name (remove **bold** markers)
+                const domainName = cols[0].replace(/\*\*/g, '').trim();
+                
+                // Try to parse the rest as numbers
+                const scores = cols.slice(1).map(val => {
+                    const num = parseFloat(val);
+                    return isNaN(num) ? 0 : num;
+                });
+
+                // Only add if we successfully parsed scores and it's not the header row
+                if (scores.length > 0 && domainName.toLowerCase() !== "domain") {
+                    data[domainName] = scores;
+                }
+            }
+        }
+    });
+
+    return { data, insight };
+}
+
+// Reusable function for the persona switch
+const renderPersonaSwitch = (currentPersona) => html`
+    <div class="persona-switch">
+        <button data-persona="practitioner" class="${currentPersona === 'practitioner' ? 'active' : ''}" title="View as the person doing the work">Practitioner</button>
+        <button data-persona="facilitator" class="${currentPersona === 'facilitator' ? 'active' : ''}" title="View as the person guiding the work">Facilitator</button>
+    </div>
+`;
+
+const renderActionCard = ({ href, view, id, icon, title, description }) => {
+    const linkHref = href || `?view=${view}${id ? '&id=' + id : ''}`;
+    const dataAttrs = `data-view="${view}" ${id ? `data-id="${id}"` : ''}`;
+    return html`<a href="${linkHref}" ${dataAttrs} class="welcome-action-card">
+        <i class="fas ${icon} resource-icon"></i>
+        <h4>${title}</h4>
+        <p>${description}</p>
+    </a>`;
+};
+
+const createCollapsibleNodeCard = (node) => {
+    return html`<div class="accordion-item genesis-node-card" data-uid="${node.uid}">
+        <button class="accordion-header">
+            <span class="accordion-title-group">
+                <code class="uid-tag">${node.uid}</code> ${node.name}
+            </span>
+            <i class="fas fa-chevron-down accordion-icon"></i>
+        </button>
+        <div class="accordion-content">
+            <div class="accordion-content-inner">
+                <h4>Action</h4>
+                <p>${unsafeHTML(parseMarkdown(node.action))}</p>
+                <h4>Deliverable</h4>
+                <p>${unsafeHTML(parseMarkdown(node.deliverable))}</p>
+                <h4>Reasoning</h4>
+                <p>${unsafeHTML(parseMarkdown(node.reasoning))}</p>
+            </div>
+        </div>
+    </div>`;
+};
+
+export const UI = {
+    renderOnboarding: function(data, viewId) {
+        if (!data) return '';
+        return html`
+            <div class="onboarding-card" id="onboarding-${viewId}">
+                <div class="onboarding-header">
+                    <h4><i class="fas fa-route"></i> ${data.title}</h4>
+                    <button class="onboarding-close" data-action="dismiss-onboarding" data-view-id="${viewId}" aria-label="Dismiss guide">&times;</button>
+                </div>
+                <div class="onboarding-content">
+                    <p>${data.text}</p>
+                </div>
+            </div>
+        `;
+    },
+
+    renderWelcome: function(data, onboardingData, viewId) {
+        if (!data || !data.welcome) return html`<h1>Error: Welcome data is missing.</h1>`;
+        const { title, subtitle } = data.welcome;
+        return html`<div>
+            <div class="card full-width">
+                <div class="welcome-header">
+                    <h1>${title}</h1>
+                    <p class="key-question">${subtitle.replace('Dialogic ', '')}</p>
+                </div>
+                <div class="welcome-hub-container">
+                    <div class="welcome-choice-card" id="welcome-choice-learn">
+                        <div class="welcome-choice-content">
+                            <i class="fas fa-graduation-cap welcome-choice-icon"></i>
+                            <h2>Learning Stance</h2>
+                            <p>I want to understand the process, explore the concepts, and build my capabilities as a practitioner.</p>
+                        </div>
+                        <a href="?view=overview" data-view="overview" class="welcome-choice-button">Start the Guided Tour</a>
+                    </div>
+                    <div class="welcome-choice-card" id="welcome-choice-find">
+                        <div class="welcome-choice-content">
+                            <i class="fas fa-map-signs welcome-choice-icon"></i>
+                            <h2>Performance Stance</h2>
+                            <p>I have a specific problem or job-to-be-done. Help me find the right tool to get unstuck and deliver results.</p>
+                        </div>
+                        <a href="?view=diagnostic" data-view="diagnostic" class="welcome-choice-button">Find My Tool</a>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: var(--space-6);">
+                    <a href="?view=about" data-view="about">Learn more about the framework's philosophy...</a>
+                </div>
+            </div>
+            ${UI.renderOnboarding(onboardingData, viewId)}
+        </div>`;
+    },
+
+    renderInternalLink: function(linkData, frameworkData) {
+        const { type, identifier, displayText } = linkData;
+        let targetData = null;
+        let defaultText = displayText || identifier;
+        let href = '#';
+        let dataAttributes = `data-link-type="${type}"`;
+        let titleAttribute = '';
+
+        try {
+            switch (type) {
+                case 'tool':
+                    targetData = frameworkData.tools.find(t => t.id === identifier);
+                    if (targetData) {
+                        defaultText = displayText || targetData.name;
+                        href = `?view=tool&id=${identifier}`;
+                        dataAttributes += ` data-view="tool" data-id="${identifier}"`;
+                        titleAttribute = `Navigate to Tool: ${targetData.name}`;
+                    }
+                    break;
+                case 'node':
+                    targetData = frameworkData.frameworkNodes.nodes.find(n => n.uid === identifier);
+                    if (targetData) {
+                        defaultText = displayText || targetData.name;
+                        dataAttributes += ` data-node-uid="${identifier}"`;
+                        titleAttribute = `View details for Node: ${targetData.name}`;
+                    }
+                    break;
+                case 'glossary':
+                    targetData = frameworkData.glossary.terms.find(t => t.term === identifier);
+                    if (targetData) {
+                        defaultText = displayText || targetData.term;
+                        href = `?view=glossary-tool&term=${encodeURIComponent(identifier)}`;
+                        dataAttributes += ` data-view="glossary-tool" data-term="${encodeURIComponent(identifier)}"`;
+                        titleAttribute = `View glossary definition for: ${targetData.term}`;
+                    }
+                    break;
+                case 'playbook':
+                    const entries = frameworkData.playbooks_and_reports_data.documents;
+                    targetData = entries.find(p => p.id === identifier);
+                    if (targetData) {
+                        defaultText = displayText || targetData.title;
+                        href = `?view=playbooks-reports&highlight=${identifier}`;
+                        dataAttributes += ` data-view="playbooks-reports" data-highlight-id="${identifier}"`;
+                        titleAttribute = `Go to Playbook: ${targetData.title}`;
+                    }
+                    break;
+            }
+        } catch (e) {
+            console.error("Error finding target for link:", linkData, e);
+            targetData = null;
+        }
+
+        if (!targetData) {
+            return `<em>${displayText || identifier} [unlinked]</em>`;
+        }
+
+        return `<a href="${href}" class="internal-link" ${dataAttributes} title="${escapeAttr(titleAttribute)}">${defaultText}</a>`;
+    },
+
+    renderGenesisProjectView: function(data, onboardingData, viewId) {
+        if (!data) return html`<h1>Error: Genesis Project data is missing.</h1>`;
+        const phasesHTML = data.phases.map(phase => html`
+            <div class="accordion-item genesis-phase-card">
+                <button class="accordion-header">
+                    <span class="accordion-title-group">${phase.phaseTitle}</span>
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </button>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        <p class="key-question"><strong>Goal:</strong> ${phase.phaseGoal}</p>
+                        <div class="accordion-group">
+                            ${phase.nodes.map(createCollapsibleNodeCard)}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `);
+
+        return html`<div>
+            <h1>${data.title}</h1>
+            <p class="key-question"><em>${data.guidingQuestion}</em></p>
+            <p>This is a living, interactive case study documenting the application of all 119 framework nodes to the creation of this very project. It serves as a master-level exemplar of the framework's process. Click on any phase or node to expand it and see the detailed action, deliverable, and reasoning for that step.</p>
+            <div class="accordion-group">${phasesHTML}</div>
+            <div class="card full-width" style="margin-top: var(--space-6); text-align: center;">
+                <h3>Continue Your Journey</h3>
+                <p>You've seen our journey. Now, it's your turn. Use the structure of our 'Genesis Project' as a scaffold to build the plan for your own inquiry.</p>
+                <a href="#" data-view="planner" data-action="pre-populate-genesis" class="welcome-choice-button">Apply this Process: Start Your Own Plan</a>
+            </div>
+            ${UI.renderOnboarding(onboardingData, viewId)}
+        </div>`;
+    },
+
+    renderDiagnostic: function(data) {
+        if (!data || !data.diagnostic) return html`<h1>Error: Diagnostic data is missing.</h1>`;
+        const { title, description, struggles } = data.diagnostic;
+        const cardsHTML = struggles.map(item => renderActionCard({
+            view: 'tool',
+            id: item.target_tool,
+            icon: item.icon,
+            title: item.struggle,
+            description: item.diagnosing
+        }));
+
+        return html`<div>
+            <h1>${title}</h1>
+            <p>${description}</p>
+            <div class="welcome-actions" style="justify-content: flex-start;">${cardsHTML}</div>
+        </div>`;
+    },
+
+    renderJtbdPerspective: function(jtbdData, currentPersona) {
+        if (!jtbdData) return html`<p>No Job-to-be-Done analysis available for this tool.</p>`;
+        
+        const personaData = jtbdData[currentPersona];
+        if (!personaData) return html`<p>No data for the selected persona.</p>`;
+
+        return html`
+            <div class="jtbd-perspective-content">
+                <div class="jtbd-core-story">
+                    <h3>Core Job Story</h3>
+                    <p><em>${jtbdData.coreJobStory}</em></p>
+                </div>
+                <div class="jtbd-forces-grid">
+                    <div class="jtbd-force-card push">
+                        <h4><i class="fas fa-arrow-down"></i> Push of the Situation</h4>
+                        <p>${jtbdData.forces.push}</p>
+                    </div>
+                    <div class="jtbd-force-card pull">
+                        <h4><i class="fas fa-arrow-up"></i> Pull of the New Solution</h4>
+                        <p>${jtbdData.forces.pull}</p>
+                    </div>
+                    <div class="jtbd-force-card habit">
+                        <h4><i class="fas fa-sync-alt"></i> Habit of the Present</h4>
+                        <p>${jtbdData.forces.habit}</p>
+                    </div>
+                    <div class="jtbd-force-card anxiety">
+                        <h4><i class="fas fa-exclamation-triangle"></i> Anxiety of the New Solution</h4>
+                        <p>${jtbdData.forces.anxiety}</p>
+                    </div>
+                </div>
+                <div class="jtbd-persona-plan">
+                    <div class="jtbd-persona-header">
+                        <h3>${currentPersona === 'practitioner' ? "Practitioner's Job" : "Facilitator's Job"}</h3>
+                        ${renderPersonaSwitch(currentPersona)}
+                    </div>
+                    <p>${personaData.job}</p>
+                    <h4>Plan of Action:</h4>
+                    <ol class="practitioner-plan">${personaData.plan.map(step => html`<li>${unsafeHTML(parseMarkdown(step))}</li>`)}</ol>
+                </div>
+            </div>
+        `;
+    },
+
+    createSummaryCard: function(tool) {
+        // 1. Extract Text Content (Objective, Actions, Dynamics)
+        const textBlocks = tool.summary.filter(b => 
+            b.title !== "Concept Cloud" && 
+            b.title !== "Data-Driven Modality Profile" &&
+            b.title !== "Core Modalities"
+        );
+
+        // 2. Extract Data for the Visualizer
+        const profileBlock = tool.summary.find(b => b.title === "Data-Driven Modality Profile");
+        let modalityData = {};
+        let insightText = "Select a domain to see the cognitive signature.";
+
+        if (profileBlock) {
+            const parsed = parseModalityTable(profileBlock.human_display_content);
+            modalityData = parsed.data;
+            insightText = parsed.insight;
+        }
+
+        // 3. Determine Initial State (First Domain)
+        const domains = Object.keys(modalityData);
+        const initialDomain = domains.length > 0 ? domains[0] : null;
+        const initialScores = initialDomain ? modalityData[initialDomain] : [];
+
+        // 4. Render the Context Grid (Top Section)
+        const contextGridHTML = html`
+            <div class="context-grid">
+                ${textBlocks.map(block => html`
+                    <div class="context-card">
+                        <h4>${block.title}</h4>
+                        ${unsafeHTML(parseMarkdown(block.content))}
+                    </div>
+                `)}
+            </div>
+        `;
+
+        // 5. Render the Equalizer (Bottom Section)
+        // Group modalities
+        const groups = { "Sensory": [], "Embodied": [], "Symbolic": [], "Cognitive": [], "Meta": [] };
+        modalityConfig.forEach((m, i) => groups[m.group].push({ ...m, index: i }));
+
+        // Render Legend
+        const legendHTML = html`
+            <div class="legend-container">
+                ${Object.entries(groups).map(([groupName, mods]) => html`
+                    <div class="legend-group">
+                        <h6>${groupName}</h6>
+                        ${mods.map(mod => html`
+                            <div class="legend-item">
+                                <div class="legend-swatch" style="background-color: ${mod.color}"></div>
+                                ${mod.fullName}
+                            </div>
+                        `)}
+                    </div>
+                `)}
+            </div>
+        `;
+
+        const equalizerHTML = html`
+            <div class="equalizer-wrapper">
+                <div class="equalizer-header">
+                    <h4>Cognitive Signature</h4>
+                    <div class="domain-pills" id="domain-pills-${tool.id}">
+                        ${domains.map((domain) => html`
+                            <button class="domain-pill ${domain === initialDomain ? 'active' : ''}" 
+                                    data-domain="${domain}"
+                                    onclick="window.updateEqualizer('${tool.id}', '${domain}')">
+                                ${domain}
+                            </button>
+                        `)}
+                    </div>
+                </div>
+                
+                <!-- 
+                    DATA INJECTION: 
+                    We store the JSON data in the data-modality-json attribute.
+                    We also render the initial heights inline so no script is needed for first load.
+                -->
+                <div class="chart-stage" 
+                     id="chart-stage-${tool.id}" 
+                     data-modality-json="${JSON.stringify(modalityData)}">
+                     
+                    ${Object.entries(groups).map(([groupName, mods]) => html`
+                        <div class="modality-group">
+                            ${mods.map(mod => {
+                                // Get initial score if available, otherwise 0
+                                const score = initialScores[mod.index] || 0;
+                                const height = (score / 5) * 100;
+                                
+                                return html`
+                                <div class="bar-container" onclick="void(0)"> <!-- void(0) helps mobile hover -->
+                                    <div class="bar-tooltip" id="tooltip-${tool.id}-${mod.index}">${score}</div>
+                                    <div class="bar" 
+                                         id="bar-${tool.id}-${mod.index}" 
+                                         style="height: ${height}%; background-color: ${mod.color};">
+                                    </div>
+                                </div>
+                            `})}
+                            <div class="group-label">${groupName}</div>
+                        </div>
+                    `)}
+                </div>
+
+                ${legendHTML}
+
+                <div class="insight-footer">
+                    <div class="insight-text" id="insight-${tool.id}">
+                        <h5><i class="fas fa-info-circle"></i> Insight</h5>
+                        <p>${insightText}</p>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // 6. Combine into Dashboard
+        return html`
+            <div class="tool-dashboard">
+                ${contextGridHTML}
+                ${equalizerHTML}
+            </div>
+        `;
+    },
+    
+    // Renders the Cloud, Filter, and Popover HTML
+    renderInteractiveConceptCloud: function(concepts) {
+        if (!concepts || concepts.length === 0) return html`<p>No concepts available.</p>`;
+
+        // 1. Extract unique domains for the filter bar
+        const domains = new Set();
+        concepts.forEach(c => c.variations.forEach(v => domains.add(v.domain)));
+        const uniqueDomains = Array.from(domains).sort();
+
+        // 2. Define Icons for domains
+        const domainIcons = {
+            "Science": "fa-flask", "Business": "fa-chart-line", "Humanities": "fa-book",
+            "Arts": "fa-palette", "Culture": "fa-globe-americas", "Pedagogy": "fa-chalkboard-teacher"
+        };
+
+        // 3. Define Colors for domains (for the icons)
+        const domainColors = {
+            "Science": "var(--domain-science)", "Business": "var(--domain-business)", "Humanities": "var(--domain-humanities)",
+            "Arts": "var(--domain-arts)", "Culture": "var(--domain-culture)", "Pedagogy": "var(--domain-pedagogy)"
+        };
+
+        // 4. Render
+        return html`
+            <div class="concept-cloud-wrapper">
+                <!-- Filter Bar -->
+                <div class="concept-filter-bar" id="concept-filter-bar">
+                    <button class="filter-chip active" data-domain="all">
+                        <i class="fas fa-layer-group"></i> All
+                    </button>
+                    ${uniqueDomains.map(domain => html`
+                        <button class="filter-chip" data-domain="${domain}">
+                            <i class="fas ${domainIcons[domain] || 'fa-circle'}" style="color: ${domainColors[domain] || '#ccc'};"></i> ${domain}
+                        </button>
+                    `)}
+                </div>
+
+                <!-- Bubbles Container -->
+                <div class="concept-bubbles-container" id="concept-bubbles-container">
+                    ${concepts.map(concept => {
+                        // Store domains as a data attribute for filtering
+                        const conceptDomains = concept.variations.map(v => v.domain).join(',');
+                        return html`
+                            <button class="concept-bubble" 
+                                    data-concept-id="${concept.id}" 
+                                    data-domains="${conceptDomains}">
+                                ${concept.name}
+                            </button>
+                        `;
+                    })}
+                </div>
+
+                <!-- Popover Overlay -->
+                <div class="popover-overlay" id="concept-popover-overlay"></div>
+
+                <!-- Rich Popover Card -->
+                <div class="concept-popover" id="concept-popover-card">
+                    <div class="popover-header" id="popover-header">
+                        <div style="display:flex; align-items:center;">
+                            <h2 id="popover-title">Concept Name</h2>
+                            <span class="popover-domain-badge" id="popover-domain-badge">DOMAIN</span>
+                        </div>
+                        <button class="popover-close" id="popover-close-btn"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="popover-body">
+                        <!-- 1. Expert -->
+                        <div class="data-section">
+                            <div class="data-label"><i class="fas fa-user-tie"></i> Expert Reference</div>
+                            <div class="data-content" id="popover-expert"></div>
+                        </div>
+                        <!-- 2. Theory -->
+                        <div class="data-section">
+                            <div class="data-label"><i class="fas fa-book"></i> Theory & Procedure</div>
+                            <div class="data-content" id="popover-theory"></div>
+                        </div>
+                        <!-- 3. Deliverable -->
+                        <div class="data-section">
+                            <div class="data-label"><i class="fas fa-file-alt"></i> Specific Deliverable</div>
+                            <div class="data-content" id="popover-deliverable"></div>
+                        </div>
+                        <!-- 4. Rubric -->
+                        <div class="data-section">
+                            <div class="data-label"><i class="fas fa-ruler-combined"></i> Objective Measurement</div>
+                            <div class="data-content" id="popover-rubric"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    },
+
+    renderToolFocus: function(tool, currentStance, currentPersona, frameworkData, onboardingData, viewId, activePerspective) {
+        // Fetch concepts
+        const currentToolConcepts = frameworkData.framework_data.toolConcepts[tool.id] || [];
+
+        // NEW: Find pathways that pass through this tool
+        const scaffoldData = frameworkData.scaffold_model_data.content || [];
+        const relatedPathways = scaffoldData.filter(p => 
+            p.tool_id === parseInt(tool.uid.replace('T', '')) // Matches T1 to 1, etc.
+        );
+
+        // Domain Icon Map for Pathways
+        const domainMap = {
+            "🎨 Arts & Design": { icon: "fa-palette", color: "var(--domain-arts)" },
+            "🚀 Business & Agile": { icon: "fa-chart-line", color: "var(--domain-business)" },
+            "🌏 Culture & Ethics": { icon: "fa-globe-americas", color: "var(--domain-culture)" },
+            "🌐 General / Pluralist": { icon: "fa-globe", color: "var(--domain-general)" },
+            "🧑‍🏫 Pedagogy & Facilitation": { icon: "fa-chalkboard-teacher", color: "var(--domain-pedagogy)" },
+            "📚 Science & Engineering": { icon: "fa-flask", color: "var(--domain-science)" },
+            "👥 Humanities & Social Sciences": { icon: "fa-landmark", color: "var(--domain-humanities)" }
+        };
+
+        // UPDATED: Collapsible, specific naming, and deep linking
+        const relatedPathwaysHTML = relatedPathways.length > 0 ? html`
+            <div class="related-pathways-container">
+                <details class="related-pathways-details">
+                    <summary class="related-pathways-summary">
+                        <span class="summary-label"><i class="fas fa-map-signs"></i> Related Pathways (${relatedPathways.length})</span>
+                        <i class="fas fa-chevron-down indicator-icon"></i>
+                    </summary>
+                    <div class="related-pathways-list">
+                        ${relatedPathways.map(p => {
+                            // 1. Clean up the title
+                            let displayTitle = p.title;
+                            let iconClass = "fa-external-link-alt"; // Default icon
+
+                            // 2. If the title is generic, try to make it specific using domain or type
+                            if (displayTitle === "Practitioner View" || displayTitle === "Facilitator View") {
+                                if (p.domain) {
+                                    // Shorten domain names for tags
+                                    const shortDomain = p.domain
+                                        .replace("Science & Engineering", "Science")
+                                        .replace("Humanities & Social Sciences", "Humanities")
+                                        .replace("Arts & Design", "Arts")
+                                        .replace("Business & Agile", "Business")
+                                        .replace("Pedagogy & Facilitation", "Pedagogy")
+                                        .replace("Culture & Ethics", "Culture");
+                                    
+                                    displayTitle = `${shortDomain}: ${displayTitle.replace(' View', '')}`;
+                                    
+                                    // Set icon based on domain
+                                    if (domainMap[p.domain]) {
+                                        iconClass = domainMap[p.domain].icon.replace('fa-', 'fa-'); // Ensure fa- prefix
+                                    }
+                                } else if (p.pathway_name) {
+                                     // If the data has a parent pathway name, use that
+                                     displayTitle = `${p.pathway_name} (${displayTitle.replace(' View', '')})`;
+                                }
+                            }
+                            
+                            // 3. Handle "HP" codes (e.g., "HP1: The Empirical Path") - keep them but clean them
+                            if (displayTitle.includes(":")) {
+                                const parts = displayTitle.split(":");
+                                if (parts[0].includes("HP")) {
+                                     displayTitle = parts[1].trim();
+                                }
+                            }
+
+                            // 4. Remove emojis if they exist (cleanup)
+                            displayTitle = displayTitle.replace(/^[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]\s*/u, '').trim();
+
+                            return html`
+                                <a href="?view=pathways&expand=${p.id}" class="pathway-tag" title="${p.summary || displayTitle}">
+                                    <i class="fas ${iconClass}"></i> ${displayTitle}
+                                </a>
+                            `;
+                        })}
+                    </div>
+                </details>
+            </div>
+        ` : '';
+
+        // Ensure activePerspective is valid, default if not
+        let validActivePerspective = activePerspective;
+        const availablePerspectives = [
+            'jobToBeDone',
+            tool.frameworkImplications ? 'frameworkImplications' : null,
+            tool.perspectives && tool.perspectives.disciplinaryapplication ? 'disciplinaryapplication' : null,
+            tool.perspectives && tool.perspectives.integrativeStrategies ? 'integrativeStrategies' : null,
+            tool.perspectives && tool.perspectives.cognitiveNeuroscience ? 'cognitiveNeuroscience' : null,
+            tool.perspectives && tool.perspectives.CultureTraditionsAndEthics ? 'CultureTraditionsAndEthics' : null,
+            tool.perspectives && tool.perspectives.psychologicalDynamics ? 'psychologicalDynamics' : null,
+            'cognitiveModel',
+            'cynefinAnalysis',
+            currentToolConcepts.length > 0 ? 'domainConcepts' : null // Add domainConcepts if data exists
+        ].filter(Boolean);
+
+        if (!availablePerspectives.includes(activePerspective)) {
+            validActivePerspective = availablePerspectives[0] || 'jobToBeDone'; // Default to first available
+        }
+
+        return html`<div>
+            <div class="tool-header-block" style="border-left-color: ${tool.color};">
+                ${currentStance === 'performance' ? html`
+                <div class="key-deliverables">
+                    <strong>Key Deliverable:</strong> ${tool.keyDeliverables}
+                </div>` : ''}
+
+                <h1>${tool.name}</h1>
+                ${relatedPathwaysHTML}
+                <p class="key-question">${tool.keyQuestion}</p>
+            </div>
+            
+            <div class="summary-card" data-tool-id="${tool.id}">
+                <div class="summary-grid">${UI.createSummaryCard(tool)}</div>
+            </div>
+
+            <!-- NEW: Interactive Concept Cloud Section -->
+            ${currentToolConcepts.length > 0 ? html`
+                <div class="card full-width">
+                    <h3><i class="fas fa-cloud"></i> Concept Cloud</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.9em; margin-bottom: 15px;">
+                        Explore the core concepts driving this tool. Filter by domain to see how these principles translate across fields. Click a bubble for details.
+                    </p>
+                    ${UI.renderInteractiveConceptCloud(currentToolConcepts)}
+                </div>
+            ` : ''}
+
+            <div class="card full-width perspectives-container">
+                <h3>Perspectives on this Tool</h3>
+                <div class="perspectives-nav" id="tool-perspectives-nav">
+                    ${UI.createPerspectiveTabs(tool, validActivePerspective, currentToolConcepts.length > 0)}
+                </div>
+                <div class="perspectives-content" id="tool-perspectives-content">
+                    ${UI.createPerspectiveContents(tool, validActivePerspective, currentPersona, currentToolConcepts, frameworkData.framework_data.frameworkNodes.themes)}
+                </div>
+            </div>
+            <div class="card full-width">
+                <div class="playbook-header">
+                    <h3>${currentPersona === 'practitioner' ? "Practitioner's Plan" : "Facilitator's Playbook"}</h3>
+                    ${renderPersonaSwitch(currentPersona)}
+                </div>
+                <div id="tool-playbook-content">${UI.createPlaybook(tool, currentPersona, currentStance)}</div>
+            </div>
+            ${UI.renderOnboarding(onboardingData, viewId)}
+        </div>`;
+    },
+
+    createPerspectiveTabs: function(tool, activePerspective, hasDomainConcepts) {
+        const perspectiveKeys = tool.perspectives ? Object.keys(tool.perspectives) : [];
+        let allPerspectiveKeys = ['jobToBeDone', 'frameworkImplications', ...perspectiveKeys, 'cognitiveModel', 'cynefinAnalysis'];
+        
+        if (hasDomainConcepts) {
+            allPerspectiveKeys.push('domainConcepts');
+        }
+
+        allPerspectiveKeys = allPerspectiveKeys.filter(key => 
+            key === 'jobToBeDone' ||
+            (key === 'frameworkImplications' && tool.frameworkImplications) ||
+            key === 'cognitiveModel' || key === 'cynefinAnalysis' ||
+            (tool.perspectives && tool.perspectives[key]) ||
+            key === 'domainConcepts'
+        );
+
+        return allPerspectiveKeys.map((key) => {
+            const isActive = key === activePerspective;
+            let title = '';
+            let icon = '';
+            if (key === 'jobToBeDone') {
+                icon = 'fa-user-tie';
+                title = 'Job to be Done';
+            } else if (key === 'frameworkImplications' && tool.frameworkImplications) {
+                icon = tool.frameworkImplications.icon;
+                title = tool.frameworkImplications.title;
+            } else if (key === 'cognitiveModel') {
+                icon = 'fa-brain';
+                title = 'Neurocognitive Model';
+            } else if (key === 'cynefinAnalysis') {
+                icon = 'fa-compass';
+                title = 'Navigational Context ';
+            } else if (key === 'domainConcepts') { // NEW TAB
+                icon = 'fa-cubes';
+                title = 'Domain Concepts';
+            } else if (tool.perspectives && tool.perspectives[key]) {
+                const p = tool.perspectives[key];
+                icon = p.icon || 'fa-lightbulb'; // Default icon if not specified
+                title = p.title;
+            }
+            return html`<button class="perspective-tab ${isActive ? 'active' : ''}" data-perspective="${key}">
+                <i class="fas ${icon}" aria-hidden="true"></i> <span data-jargon="${title}" data-simple="${tool.perspectives && tool.perspectives[key] && tool.perspectives[key].simpleTitle || title}">${title}</span>
+            </button>`;
+        });
+    },
+
+    createPerspectiveContents: function(tool, activePerspective, currentPersona, currentToolConcepts, themes) {
+        const localParseMarkdownInline = (text) => (window.marked ? window.marked.parseInline(text || '') : text);
+        const perspectiveKeys = tool.perspectives ? Object.keys(tool.perspectives) : [];
+        let allPerspectiveKeys = ['jobToBeDone', 'frameworkImplications', ...perspectiveKeys, 'cognitiveModel', 'cynefinAnalysis'];
+        
+        if (currentToolConcepts.length > 0) {
+            allPerspectiveKeys.push('domainConcepts');
+        }
+
+        allPerspectiveKeys = allPerspectiveKeys.filter(key => 
+            key === 'jobToBeDone' ||
+            (key === 'frameworkImplications' && tool.frameworkImplications) ||
+            key === 'cognitiveModel' || key === 'cynefinAnalysis' ||
+            (tool.perspectives && tool.perspectives[key]) ||
+            key === 'domainConcepts'
+        );
+
+        return allPerspectiveKeys.map((key) => {
+            const isActive = key === activePerspective;
+            let contentHTML = '';
+            if (key === 'jobToBeDone') {
+                contentHTML = UI.renderJtbdPerspective(tool.jtbdAnalysis, currentPersona);
+            } else if (key === 'frameworkImplications' && tool.frameworkImplications) {
+                const { summary, points } = tool.frameworkImplications;
+                contentHTML = html`<p><em>${summary}</em></p><ul>${points.map(p => html`<li>${unsafeHTML(localParseMarkdownInline(p))}</li>`)}</ul>`;
+            } else if (key === 'cognitiveModel') {
+                contentHTML = UI.renderCognitiveModel(tool);
+            } else if (key === 'cynefinAnalysis') {
+                contentHTML = UI.renderCynefinAnalysis(tool);
+            } else if (key === 'domainConcepts') { // NEW CONTENT FOR CONCEPTS
+                contentHTML = UI.renderDomainConcepts(currentToolConcepts, themes);
+            } else if (tool.perspectives && tool.perspectives[key]) {
+                const p = tool.perspectives[key];
+                let integrativeStrategiesHTML = '';
+                if (p.integrativeStrategies) {
+                    integrativeStrategiesHTML = html`<div class="accordion-group">${p.integrativeStrategies.map(item => html`
+                        <div class="accordion-item">
+                            <button class="accordion-header"><span class="accordion-title-group">${item.title}</span><i class="fas fa-chevron-down accordion-icon"></i></button>
+                            <div class="accordion-content"><div class="accordion-content-inner">${unsafeHTML(parseMarkdown(item.content))}</div></div>
+                        </div>`)}</div>`;
+                }
+                contentHTML = html`<p><em>${p.summary}</em></p>${unsafeHTML(parseMarkdown(p.content))}${integrativeStrategiesHTML}`;
+            }
+            return html`<div class="perspective-content ${isActive ? 'active' : ''}" data-perspective-content="${key}">${contentHTML}</div>`;
+        });
+    },
+
+    renderDomainConcepts: function(concepts, themes) {
+        if (!concepts || concepts.length === 0) {
+            return html`<p>No specific domain concepts defined for this tool yet.</p>`;
+        }
+
+        const domainIcons = {
+            "Science": "fa-flask", "Business": "fa-chart-line", "Humanities": "fa-book",
+            "Arts": "fa-palette", "Culture": "fa-globe-americas", "Pedagogy": "fa-chalkboard-teacher",
+            "General / Pluralist": "fa-globe", "Science & Engineering": "fa-flask",
+            "Business & Agile": "fa-chart-line", "Humanities & Social Sciences": "fa-book",
+            "Arts & Design": "fa-palette", "Culture & Ethics": "fa-globe-americas", "Pedagogy & Facilitation": "fa-chalkboard-teacher"
+        };
+        const domainColors = {
+            "Science": "#2196f3", "Business": "#4caf50", "Humanities": "#9c27b0",
+            "Arts": "#ff9800", "Culture": "#f44336", "Pedagogy": "#006400",
+            "General / Pluralist": "#7f8c8d", "Science & Engineering": "#2196f3",
+            "Business & Agile": "#4caf50", "Humanities & Social Sciences": "#9c27b0",
+            "Arts & Design": "#ff9800", "Culture & Ethics": "#f44336", "Pedagogy & Facilitation": "#006400"
+        };
+
+        // Extract all unique domains from the variations to create toggle buttons
+        const allDomains = new Set();
+        concepts.forEach(concept => {
+            concept.variations.forEach(v => allDomains.add(v.domain));
+        });
+        const uniqueDomains = Array.from(allDomains).sort();
+
+        return html`
+            <div class="domain-concepts-container">
+                <p>These are the specific concepts and their applications across different domains that embody the purpose of this tool. Each concept acts as a detailed node within the broader tool.</p>
+                
+                <div class="concept-cloud-controls" id="concept-cloud-controls">
+                    <button class="concept-cloud-toggle-btn active" data-domain-filter="all">
+                        <i class="fas fa-globe" style="color: var(--domain-general);"></i> All Domains
+                    </button>
+                    ${uniqueDomains.map(domain => html`
+                        <button class="concept-cloud-toggle-btn" data-domain-filter="${domain}">
+                            <i class="fas ${domainIcons[domain] || 'fa-question-circle'}" style="color: ${domainColors[domain] || '#ccc'};"></i> ${domain}
+                        </button>
+                    `)}
+                </div>
+
+                <div class="concept-cloud-items-wrapper" id="concept-cloud-accordion-group">
+                    ${concepts.map(concept => html`
+                        <div class="accordion-item concept-cloud-item" data-concept-id="${concept.id}" data-domains="${concept.variations.map(v => v.domain).join(',')}" tabindex="0">
+                            <button class="accordion-header">
+                                <span class="accordion-title-group">
+                                    <code class="uid-tag">${concept.id}</code> <strong>${concept.name}</strong>
+                                </span>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <h4>Integrated Deliverable: <em>${concept.integrated_deliverable}</em></h4>
+                                    <p><strong>Shared Project Scenario:</strong> ${concept.scenario}</p>
+                                    <p>${unsafeHTML(parseMarkdown(concept.theory_application))}</p>
+                                    
+                                    <h4>Domain Variations:</h4>
+                                    <div class="variations-grid">
+                                        ${concept.variations.map(variation => html`
+                                            <div class="variation-card" data-domain="${variation.domain}" style="border-left: 3px solid ${domainColors[variation.domain] || '#ccc'};">
+                                                <h5 style="color: ${domainColors[variation.domain] || '#ccc'};">
+                                                    <i class="fas ${domainIcons[variation.domain] || 'fa-question-circle'}"></i> 
+                                                    ${variation.domain}
+                                                </h5>
+                                                <p><strong>Expert:</strong> ${variation.expert}</p>
+                                                <p><strong>Theory & Procedure:</strong> ${unsafeHTML(parseMarkdown(variation.theory))}</p>
+                                                <p><strong>Specific Deliverable:</strong> ${variation.specific_deliverable}</p>
+                                                <p><strong>Objective Measurement:</strong> ${variation.rubric}</p>
+                                            </div>
+                                        `)}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `)}
+                </div>
+            </div>
+        `;
+    },
+
+    renderCognitiveModel: function(tool) {
+        if (!tool || !tool.neurocognitiveModel) {
+            return html`<p>No neurocognitive model available for this tool.</p>`;
+        }
+        let pathwaysData = tool.neurocognitiveModel.pathways;
+        if (typeof pathwaysData === 'object' && !Array.isArray(pathwaysData) && pathwaysData !== null) {
+            pathwaysData = Object.values(pathwaysData);
+        }
+        if (!Array.isArray(pathwaysData)) {
+             return html`<p>Neurocognitive model data is not in the correct format.</p>`;
+        }
+        const pathwaysHTML = pathwaysData.map(pathway => {
+            const sequence = pathway.sequence || (pathway.facilitator_model && pathway.facilitator_model.sequence) || (pathway.learner_model && pathway.learner_model.sequence) || [];
+            const stepsHTML = sequence.map(step => {
+                const state = step.neurocognitive_state || {};
+                const analysis = state.cognitive_mode_analysis || {};
+                const validation = step.validation_and_credibility || {};
+                const networksHTML = Array.isArray(state.dominant_networks) ? state.dominant_networks.map(n => html`<code>${n}</code>`) : 'N/A';
+                return html`<div class="neuro-step-card">
+                        <h4>${step.step}: ${step.pfic_word}</h4>
+                        <p>${unsafeHTML(parseMarkdown(validation.key_neuroscientific_principle || 'No principle provided.'))}</p>
+                        <div class="neuro-details-grid">
+                            <div><strong>Dominant Networks:</strong> ${networksHTML}</div>
+                            <div><strong>Processing Style:</strong> ${analysis.processing_style || 'N/A'}</div>
+                            <div><strong>System 1/2 Balance:</strong> ${analysis.s1_s2_balance || 'N/A'}</div>
+                            <div><strong>Confidence:</strong> <span class="confidence-tag confidence-${(validation.confidence_score || 'tier-3').toLowerCase()}">${validation.confidence_score || 'N/A'}</span></div>
+                        </div></div>`;
+            });
+            return html`<div class="accordion-item">
+                    <button class="accordion-header"><span class="accordion-title-group">${pathway.pathway_name}</span><i class="fas fa-chevron-down accordion-icon"></i></button>
+                    <div class="accordion-content"><div class="accordion-content-inner">${stepsHTML}</div></div>
+                </div>`;
+        });
+        return html`<div class="accordion-group">${pathwaysHTML}</div>`;
+    },
+
+    renderCynefinAnalysis: function(tool) {
+        if (!tool || !tool.cynefinAnalysis) {
+            return html`<p>No Cynefin analysis available for this tool.</p>`;
+        }
+        const { genotype, phenotypes } = tool.cynefinAnalysis;
+        const phenotypesHTML = phenotypes.map(p => html`
+            <tr>
+                <td data-col-name="Domain / Phenotype"><strong>${p.domainName}</strong><br><em>${p.phenotypeName}</em></td>
+                <td data-col-name="Classification & Reasoning">${unsafeHTML(parseMarkdown(p.classificationAndReasoning))}</td>
+                <td data-col-name="Implications & Risks">${unsafeHTML(parseMarkdown(p.implicationsAndRisk))}</td>
+            </tr>`);
+        return html`<div class="cynefin-summary-box">
+                <h4>Genotype: ${genotype.primaryDomain} Domain</h4>
+                ${unsafeHTML(parseMarkdown(genotype.reasoning))}
+                <p><strong>Implications:</strong> ${unsafeHTML(parseMarkdown(genotype.implications))}</p>
+            </div>
+            <h4>Phenotype Analysis</h4>
+            <div class="table-wrapper"><table class="cynefin-phenotypes-table">
+                    <thead><tr><th>Domain / Phenotype</th><th>Classification & Reasoning</th><th>Implications & Risks</th></tr></thead>
+                    <tbody>${phenotypesHTML}</tbody>
+                </table></div>`;
+    },
+
+    createPlaybook: function(tool, currentPersona, currentStance) {
+        if (currentPersona === 'practitioner') {
+            const plan = tool.jtbdAnalysis.practitioner.plan;
+            if (!plan || plan.length === 0) return html`<p>No practitioner plan available for this tool.</p>`;
+            return html`<ol class="practitioner-plan">${plan.map(step => html`<li>${unsafeHTML(parseMarkdown(step))}</li>`)}</ol>`;
+        } 
+        
+        // Default to facilitator
+        if (!tool.pedagogicalPlaybook) return html`<p>No facilitator playbook available for this tool.</p>`;
+        return html`<div class="accordion-group">${tool.pedagogicalPlaybook.map(item => {
+            const title = item.stanceTitle ? item.stanceTitle[currentStance] : item.title;
+            const defaultState = item.stance ? item.stance[currentStance].defaultState : 'collapsed';
+            const isActive = defaultState === 'expanded';
+
+            return html`
+            <div class="accordion-item ${isActive ? 'active' : ''}" data-uid="${item.uid}">
+                <button class="accordion-header" data-uid="${item.uid}">
+                    <span class="accordion-title-group"><i class="fas ${item.icon}"></i> ${title}</span>
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </button>
+                <div class="accordion-content" style="max-height: ${isActive ? '1000px' : '0'}"><div class="accordion-content-inner">${unsafeHTML(parseMarkdown(item.content))}</div></div>
+            </div>`;
+        })}</div>`;
+    },
+
+    renderHub: function() {
+        const hubCards = [
+            { href: '#', view: '', icon: 'fas fa-file-alt', title: 'Lesson Plan Shell', description: 'A customizable lesson plan template structured around the framework tools.' },
+            { href: '#', view: '', icon: 'fas fa-tasks', title: 'Rubric Template', description: 'A blank, editable version of the Holistic Inquiry Process Rubric.' },
+            { href: '#', view: '', icon: 'fas fa-users', title: 'Stakeholder Map Template', description: 'A visual template for mapping stakeholder needs and influence.' },
+            { href: '#', view: '', icon: 'fas fa-bomb', title: 'Pre-Mortem Facilitator\'s Guide', description: 'A step-by-step guide to running a pre-mortem risk analysis session.' }
+        ];
+        const cardsHTML = hubCards.map(card => renderActionCard(card));
+        return html`<div>
+            <h1>Actionability Hub</h1>
+            <p>Downloadable templates and resources to bridge the gap between theory and practice.</p>
+            <div class="resource-grid">${cardsHTML}</div>
+        </div>`;
+    },
+
+    renderLog: function(logData) {
+        const logEntriesHTML = logData.map(entry => html`
+            <div class="log-entry">
+                <h3>${entry.toolName}</h3>
+                <blockquote>${unsafeHTML(entry.prompt)}</blockquote>
+                <div class="log-entry-answer">${unsafeHTML(entry.answer.replace(/\n/g, '<br>'))}</div>
+            </div>
+        `);
+
+        return html`<div>
+            <h1>Your Positionality Log</h1>
+            <p>This is a living document of your reflections throughout the inquiry process. Your answers are saved in your browser and are not sent anywhere.</p>
+            <button id="export-log-btn">Export Log as Text File</button>
+            <hr style="margin: var(--space-5) 0;">
+            ${logEntriesHTML}
+        </div>`;
+    },
+
+    renderPlaybooksReports: function(data) {
+        if (!data || !data.documents) return html`<h1>Error: Playbooks & Reports data is missing or malformed.</h1>`;
+        const documentsHTML = data.documents.map(doc => html`
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span class="accordion-title-group"><i class="${doc.icon}"></i> ${doc.title}</span>
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </button>
+                <div class="accordion-content"><div class="accordion-content-inner">${unsafeHTML(parseMarkdown(doc.content))}</div></div>
+            </div>`);
+
+        return html`<div>
+            <h1>${data.title}</h1>
+            <p>${data.introduction}</p>
+            <div class="accordion-group">${documentsHTML}</div>
+        </div>`;
+    },
+
+    renderCommunity: function() {
+        const contributionCards = [
+            { href: '#', view: '', icon: 'fab fa-github', title: 'Report an Issue or Bug', description: "Found something that's not working? Let us know on our project's GitHub Issues page." },
+            { href: '#', view: '', icon: 'fas fa-lightbulb', title: 'Suggest a Feature', description: "Have an idea for a new feature or a change to the framework's logic? Start a discussion." },
+            { href: '#', view: '', icon: 'fas fa-book-open', title: 'Contribute Content', description: "Help us build out the Actionability Hub with new templates or write a case study." }
+        ];
+        const cardsHTML = contributionCards.map(card => renderActionCard(card));
+        return html`<div>
+            <h1>Community & Contribution</h1>
+            <p>This is a living system, co-created and refined by its community of users. Its stewardship is guided by the principle of evolution.</p>
+            <h3>The Evolving Systems Group</h3>
+            <p>"An Integrated Language for Inquiry and Creation Evolving Systems Group" is not a fixed committee but a name for the collective of educators, researchers, and practitioners who actively contribute to the framework's development.</p>
+            <h3>Version History</h3>
+            <div class="table-wrapper">
+                <table>
+                    <thead><tr><th>Version</th><th>Key Changes</th></tr></thead>
+                    <tbody>
+                        <tr><td><strong>28.0 (Current)</strong></td><td>Project "Genesis": Implemented a comprehensive, interactive case study of the framework's self-application.</td></tr>
+                        <tr><td><strong>23.0</strong></td><td>Project "Compass": Implemented new Navigation Hub and dynamic Methodology Overlays to address linear bias.</td></tr>
+                        <tr><td><strong>22.0</strong></td><td>Consolidation Cycle: Refactored data loading, styling, and component architecture. Centralized bibliography.</td></tr>
+                        <tr><td>21.0</td><td>Architectural refactor to modular files. Enhanced data loading and error handling.</td></tr>
+                        <tr><td>19.4</td><td>Integrated Jobs-to-be-Done (JTBD) analysis, adding Practitioner/Facilitator personas.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3 style="margin-top: var(--space-6);">How to Contribute</h3>
+            <div class="resource-grid">${cardsHTML}</div>
+        </div>`;
+    },
+
+    renderPlannerView: function(plannerData, onboardingData, viewId) {
+        if (!plannerData) return html`<h1>Error: Planner data is missing.</h1>`;
+        const localParseMarkdown = (text) => (window.marked ? window.marked.parse(text || '', { breaks: true }) : text);
+
+        const renderField = (field) => html`
+            <div class="planner-field">
+                <label for="${field.id}">${field.label}</label>
+                <textarea id="${field.id}" class="planner-textarea" rows="5" placeholder="${field.placeholder}"></textarea>
+                ${field.example ? html`<p class="planner-example"><em>e.g., ${field.example}</em></p>` : ''}
+            </div>
+        `;
+
+        const renderDomainContent = (tool) => tool.domains.map(domain => html`
+            <div class="domain-content" data-domain="${domain.domainId}">
+                ${domain.fields.map(field => renderField(field))}
+            </div>
+        `);
+
+        const renderTool = (tool) => html`
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span class="accordion-title-group">${tool.title}</span>
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </button>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        <p class="planner-challenge"><strong>Core Challenge:</strong> <em>"${tool.coreChallenge}"</em></p>
+                        <div class="planner-note">${unsafeHTML(localParseMarkdown(tool.facilitatorNote))}</div>
+                        ${renderDomainContent(tool)}
+                    </div>
+                </div>
+            </div>
+        `;
+
+        const allTools = plannerData.parts.flatMap(part => part.tools.map(tool => renderTool(tool)));
+
+        return html`
+            <div class="planner-sticky-header">
+                <div class="planner-header-controls">
+                    <h1>Integrated Planner</h1>
+                    <div id="domain-switcher-container"></div>
+                </div>
+                <div class="planner-actions">
+                    <span id="persistence-status"></span>
+                    <button id="generate-prompt-btn" class="planner-button">Generate Project Prompt</button>
+                </div>
+            </div>
+
+            <div id="planner-view-main" class="planner-main-content">
+                <div class="planner-body">
+                    <p>A lightweight, native tool for structuring your inquiry. Your work is saved automatically in your browser.</p>
+                    <div class="accordion-group">
+                        ${allTools}
+                    </div>
+                    <div id="prompt-synthesizer-container" class="card full-width">
+                         <h3>Prompt Synthesizer</h3>
+                         <p>After filling out the sections above, a comprehensive prompt for collaboration or AI assistance will appear here.</p>
+                         <textarea id="generated-prompt" class="planner-textarea" rows="20" readonly placeholder="Click 'Generate Project Prompt' to synthesize your plan..."></textarea>
+                    </div>
+                </div>
+                <div id="planner-minimap-container"></div>
+            </div>
+            ${UI.renderOnboarding(onboardingData, viewId)}
+        `;
+    },
+
+    renderOverviewView: function(tools, methodologies) {
+        const stagesHTML = tools.map(tool => html`
+            <div class="workflow-stage" style="border-top-color: ${tool.color};" data-view="tool" data-id="${tool.id}">
+                <h3 class="workflow-stage__title" data-jargon="${tool.name}" data-simple="${tool.simpleName}">${tool.name}</h3>
+                <p class="workflow-stage__deliverable">${tool.keyDeliverables}</p>
+                <p class="workflow-stage__principle">${tool.principle}</p>
+            </div>`);
+
+        const methodologyOptions = methodologies.map(m => html`<option value="${m.id}">${m.name}</option>`);
+
+        return html`<div>
+            <h1>Interactive Overview</h1>
+            <p>This is the "Curriculum" view, showing the ideal path for learning the full inquiry cycle. Use the dropdown to see how common methodologies trace unique paths through these universal stages.</p>
+            <div class="overview-controls">
+                <label for="methodology-select">Show me the path for:</label>
+                <select id="methodology-select">
+                    <option value="">-- Select a Methodology --</option>
+                    ${methodologyOptions}
+                </select>
+            </div>
+            <div class="workflow-container-wrapper">
+                <svg id="overview-path-svg"></svg>
+                <div class="workflow-container">${stagesHTML}</div>
+            </div>
+        </div>`;
+    },
+
+    renderGlossaryView: function(glossary) {
+        if (!glossary) return html`<h1>Error: Glossary data is missing.</h1>`;
+        const { title, terms } = glossary;
+        const sortedTerms = [...terms].sort((a, b) => a.term.localeCompare(b.term));
+        const termsHTML = sortedTerms.map(term => html`
+            <dt><strong>${term.term}</strong></dt>
+            <dd>${unsafeHTML(parseMarkdown(term.definition))}</dd>
+        `);
+        return html`<div><h1>${title}</h1><dl class="glossary-list">${termsHTML}</dl></div>`;
+    },
+
+    renderNodeExplorer: function(frameworkNodes, tools, onboardingData, viewId) {
+        if (!frameworkNodes) return html`<h1>Error: Node data is missing.</h1>`;
+        const { themes, nodes, pathways } = frameworkNodes;
+        const themeFiltersHTML = html`
+            <div class="segmented-control" role="radiogroup" aria-label="Filter by theme">
+                <button class="theme-filter-btn active" data-theme="all" role="radio" aria-checked="true">All</button>
+                ${Object.entries(themes).map(([key, theme]) => html`
+                    <button class="theme-filter-btn" data-theme="${key}" role="radio" aria-checked="false" title="${theme.name}">
+                        <i class="fas ${theme.icon} theme-icon" style="color: ${theme.color};"></i>
+                        <span>${theme.name}</span>
+                    </button>
+                `)}
+            </div>`;
+        const pathwayOptions = Object.entries(pathways).map(([key, pathway]) => html`<option value="${key}">${pathway.name}</option>`);
+        const columnsHTML = tools.map(tool => html`
+            <div class="tool-column">
+                <div class="tool-column-header" style="border-color: ${tool.color};">${tool.simpleName}</div>
+                ${nodes.filter(n => n.parentTool === tool.id).map(node => html`
+                    <button class="node-card" data-node-id="${node.id}" data-node-theme="${node.theme}" style="border-left-color: ${themes[node.theme].color};">
+                        <i class="fas ${themes[node.theme].icon} theme-icon" style="color: ${themes[node.theme].color};"></i>
+                        <span>${node.name}</span>
+                        <code class="uid-tag">${node.uid}</code>
+                    </button>`)}
+            </div>`);
+        return html`<div class="node-explorer-container">
+                <div class="node-map-area">
+                    <div class="node-explorer-controls">
+                        <input type="search" id="node-search" placeholder="Search nodes...">
+                        <select id="pathway-select" aria-label="Select a Pathway"><option value="">Highlight a Pathway...</option>${pathwayOptions}</select>
+                    </div>
+                    <div class="node-theme-filters">${themeFiltersHTML}</div>
+                    
+                    <!-- NEW SCROLL WRAPPER -->
+                    <div class="scroll-wrapper-relative" id="node-scroll-container">
+                        <button class="scroll-paddle left" data-direction="left"><i class="fas fa-chevron-left"></i></button>
+                        <div class="node-map-wrapper">
+                            <div class="node-map"><svg id="pathway-lines-svg"></svg>${columnsHTML}</div>
+                        </div>
+                        <button class="scroll-paddle right" data-direction="right"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="node-details" id="node-details-pane"><div class="node-details-placeholder">Select a node to view its details.</div></div>
+            </div>
+            ${UI.renderOnboarding(onboardingData, viewId)}`;
+    },
+
+    renderNetworkMapView: function(frameworkNodes, tools, onboardingData, viewId) {
+        if (!frameworkNodes) return html`<h1>Error: Node data is missing.</h1>`;
+        const methodsData = frameworkNodes.nodes
+            .filter(node => node.isProcessPattern)
+            .map(node => ({
+                id: node.uid,
+                name: node.name,
+                primary: node.parentTool || node.primaryParentTool,
+                secondary: (node.secondaryApplications || []).map(app => app.toolId)
+            }));
+
+        const toolsData = tools.map(tool => ({
+            id: tool.id,
+            name: tool.simpleName,
+            uid: tool.uid,
+            nodes: frameworkNodes.nodes.filter(n => n.parentTool === tool.id && !n.isProcessPattern)
+        }));
+
+        const renderToolCard = (tool) => {
+            // --- UPDATED: Interactive List Items ---
+            const nodesHTML = tool.nodes.map(node => html`
+                <li class="network-node-link" data-node-id="${node.id}" title="${node.uid}: ${node.name}">
+                    <span class="uid-mono">${node.uid}</span> ${node.name}
+                </li>`
+            );
+            return html`
+                <div class="tool-card" id="${tool.id}">
+                    <h3>${tool.name} <span class="uid">${tool.uid}</span></h3>
+                    <ul>${nodesHTML}</ul>
+                </div>`;
+        };
+
+        const renderMethodCard = (method) => {
+            const cleanName = method.name.replace(/^N\d+:\s*/, '');
+            // --- UPDATED: Info Button ---
+            return html`
+                <div class="method-card" id="${method.id}">
+                    <h4>${cleanName}</h4>
+                    <button class="method-info-btn" data-node-uid="${method.id}" aria-label="View Details">
+                        <i class="fas fa-info-circle"></i>
+                    </button>
+                </div>`;
+        };
+
+        // Filter to only include the 10 Process Patterns shown in the screenshot
+        const methodUids = ["N03", "N11", "N34", "N44", "N65", "N74", "N81", "N95", "N98", "N100"];
+        const filteredMethods = methodsData.filter(m => methodUids.includes(m.id));
+
+        // Split methods into two rows of 5
+        const methodRow1HTML = filteredMethods.slice(0, 5).map(renderMethodCard);
+        const methodRow2HTML = filteredMethods.slice(5, 10).map(renderMethodCard);
+        
+        // Split tools into two rows of 5
+        const toolRow1HTML = toolsData.slice(0, 5).map(renderToolCard);
+        const toolRow2HTML = toolsData.slice(5).map(renderToolCard);
+
+        return html`<div>
+            <div class="header">
+                <h1>The Framework as a Network</h1>
+            </div>
+            <div class="network-horizon-container" id="network-grid">
+                <svg id="connection-svg"></svg>
+                
+                <!-- TOP LAYER: PROCESS PATTERNS (10 ITEMS, WRAPPED INTO 2 ROWS OF 5) -->
+                <div class="method-row-container" id="row-top">
+                    ${methodRow1HTML}
+                </div>
+                <div class="method-row-container" id="row-top-2">
+                    ${methodRow2HTML}
+                </div>
+
+                <!-- MIDDLE LAYER: TOOLS T1-T5 -->
+                <div class="tool-row" id="row-middle">
+                    ${toolRow1HTML}
+                </div>
+                
+                <!-- BOTTOM LAYER: TOOLS T6-T10 -->
+                <div class="tool-row" id="row-bottom">
+                    ${toolRow2HTML}
+                </div>
+            </div>
+            ${UI.renderOnboarding(onboardingData, viewId)}
+        </div>`;
+    },
+
+    renderVisualMap: function(frameworkNodes, tools, onboardingData, viewId) {
+        if (!frameworkNodes) return html`<h1>Error: Node data is missing.</h1>`;
+        const { nodes, themes, pathways } = frameworkNodes;
+        const pathwayOptions = Object.entries(pathways).map(([key, pathway]) => html`<option value="${key}">${pathway.name}</option>`);
+        const toolCardsHTML = tools.map(tool => html`
+            <div class="map-tool-card" style="border-left-color: ${tool.color};">
+                <h3>${tool.name}</h3>
+                <div class="node-list-container">
+                    <ul>${nodes.filter(n => n.parentTool === tool.id).map(node => html`
+                        <li class="node-item" data-node-id="${node.id}">
+                            <i class="fas ${themes[node.theme].icon} theme-icon" style="color: ${themes[node.theme].color};"></i>
+                            <span>${node.name}</span>
+                        </li>`)}</ul>
+                </div>
+            </div>`);
+        return html`<div><h1>Visual Map</h1>
+            <div class="map-controls"><select id="map-pathway-select"><option value="">Select a Pathway to Visualize...</option>${pathwayOptions}</select></div>
+            
+            <!-- NEW SCROLL WRAPPER -->
+            <div class="scroll-wrapper-relative" id="map-scroll-container">
+                <button class="scroll-paddle left" data-direction="left"><i class="fas fa-chevron-left"></i></button>
+                <div class="map-grid-wrapper">
+                    <div class="map-grid"><svg id="map-pathway-svg"></svg>${toolCardsHTML}</div>
+                </div>
+                <button class="scroll-paddle right" data-direction="right"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            ${UI.renderOnboarding(onboardingData, viewId)}
+        </div>`;
+    },
+
+    renderModalityExplorer: function(data, onboardingData, viewId) {
+        if (!data) return html`<h1>Error: Modality data is missing.</h1>`;
+        const { title, introduction, modalities } = data;
+        
+        const groupIconMap = {
+            'Sensory': 'fa-eye',
+            'Embodied': 'fa-running',
+            'Symbolic': 'fa-font',
+            'Cognitive': 'fa-brain',
+            'Meta': 'fa-cogs'
+        };
+
+        const groups = modalities.reduce((acc, mod) => {
+            (acc[mod.group] = acc[mod.group] || []).push(mod);
+            return acc;
+        }, {});
+        
+        const groupsHTML = Object.entries(groups).map(([groupName, mods]) => {
+            const groupClass = groupName.toLowerCase().replace(/\s/g, '-') + '-icon';
+            const groupIcon = groupIconMap[groupName] || 'fa-circle';
+
+            return html`
+                <div class="modality-group">
+                    <h3><i class="fas ${groupIcon} ${groupClass}"></i> ${groupName}</h3>
+                    <div class="modality-grid">
+                        ${mods.map(mod => {
+                            const iconData = modalityIconMap[mod.id] || { icon: 'fa-question-circle', groupClass: 'default-icon' };
+                            return html`
+                                <button class="modality-card" data-modality-id="${mod.id}">
+                                    <i class="fas ${iconData.icon} modality-icon ${iconData.groupClass}"></i>
+                                    ${mod.name}
+                                </button>
+                            `;
+                        })}
+                    </div>
+                </div>
+            `;
+        });
+
+        return html`<div><h1>${title}</h1><p>${introduction}</p>
+            <div class="modality-explorer-container">
+                <div class="modality-map-area">${groupsHTML}</div>
+                <div class="modality-details" id="modality-details-pane"><div class="node-details-placeholder">Select a modality to view its details.</div></div>
+            </div>
+            ${UI.renderOnboarding(onboardingData, viewId)}
+        </div>`;
+    },
+
+    renderGrandSynthesisTable: function(tableData, onboardingData, viewId) {
+        if (!tableData) return html`<h1>Error: Synthesis Table data is missing.</h1>`;
+        const { title, subtitle, headers, rows } = tableData;
+        const headerHTML = headers.map(h => html`<th data-col="${h.key}">${h.name}</th>`);
+        const rowsHTML = rows.map(row => html`<tr>${headers.map(h => html`<td data-col-name="${h.name}" data-col="${h.key}">${unsafeHTML(parseMarkdown(row[h.key]))}</td>`)}</tr>`);
+        return html`<div><h1>${title}</h1><p>${subtitle}</p>
+            <div class="table-wrapper"><table id="synthesis-table"><thead><tr>${headerHTML}</tr></thead><tbody>${rowsHTML}</tbody></table></div>
+            ${UI.renderOnboarding(onboardingData, viewId)}
+        </div>`;
+    },
+
+    renderRubricsView: function(rubricsData) {
+        if (!rubricsData) return html`<h1>Error: Rubrics data is missing.</h1>`;
+        const { title, introduction, families } = rubricsData;
+        const familiesHTML = families.map(family => {
+            const headersHTML = family.table.headers.map(h => html`<th>${h}</th>`);
+            const rowsHTML = family.table.rows.map(row => html`<tr>${row.map((cell, i) => i === 0 ? html`<td><strong>${cell}</strong></td>` : html`<td>${unsafeHTML(parseMarkdown(cell))}</td>`)}</tr>`);
+            return html`<div class="rubric-family"><h3>${family.name}</h3><p>${family.description}</p>
+                <div class="table-wrapper"><table><thead><tr>${headersHTML}</tr></thead><tbody>${rowsHTML}</tbody></table></div></div>`;
+        });
+        return html`<div><h1>${title}</h1>${unsafeHTML(parseMarkdown(introduction))}${familiesHTML}</div>`;
+    },
+
+    renderGlossaryToolView: function() {
+        return html`<div><h1>Dynamic Translation Glossary</h1>
+            <p>This tool acts as a "tool for translation" for cross-disciplinary teams. Search for a term from any domain to see its underlying principle and its direct expression in other domains.</p>
+            <div class="glossary-tool-container">
+                <div class="glossary-search"><input type="search" id="glossary-search-input" placeholder="Search for a term (e.g., 'Peer Review', 'Moodboard')..."></div>
+                <div id="glossary-results" class="glossary-results"></div>
+            </div>
+        </div>`;
+    },
+
+    renderBibliographyView: function(bibliographyData) {
+        if (!bibliographyData) return html`<h1>Error: Bibliography data is missing.</h1>`;
+        const { title, entries } = bibliographyData;
+        const sortedEntries = [...entries].sort((a, b) => a.citation.localeCompare(b.citation));
+        const entriesHTML = sortedEntries.map(entry => html`<li><p>${unsafeHTML(parseMarkdown(entry.citation))}</p><div class="bibliography-rationale">${unsafeHTML(parseMarkdown(entry.rationale))}</div></li>`);
+        return html`<div><h1>${title}</h1><ul>${entriesHTML}</ul></div>`;
+    },
+
+    renderAdvancedToolkits: function(data) {
+        if (!data) return html`<h1>Advanced Toolkits</h1><p>Data not found.</p>`;
+        return html`<div><h1>${data.title}</h1><p>${data.introduction}</p>
+            <div class="accordion-item">
+                <button class="accordion-header"><span class="accordion-title-group">Pathway Optimization Algorithm</span><i class="fas fa-chevron-down accordion-icon"></i></button>
+                <div class="accordion-content"><div class="accordion-content-inner">
+                    <p>${data.pathway_optimization_algorithm.title}</p>
+                    <ol>${data.pathway_optimization_algorithm.steps.map(s => html`<li><strong>${s.title}:</strong> ${s.action}</li>`)}</ol>
+                </div></div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header"><span class="accordion-title-group">Node Generation Algorithm</span><i class="fas fa-chevron-down accordion-icon"></i></button>
+                <div class="accordion-content"><div class="accordion-content-inner">
+                    <p>${data.generative_algorithm.title}</p>
+                    <ol>${data.generative_algorithm.steps.map(s => html`<li><strong>${s.title}:</strong> ${s.action}</li>`)}</ol>
+                </div></div>
+            </div>
+        </div>`;
+    },
+
+    renderStrategyView: function(strategyData) {
+        if (!strategyData) return html`<h1>Error: Strategy data is missing.</h1>`;
+        const { title, introduction, sections } = strategyData;
+        const sectionsHTML = sections.map(section => html`
+            <div class="accordion-item">
+                <button class="accordion-header"><span class="accordion-title-group">${section.title}</span><i class="fas fa-chevron-down accordion-icon"></i></button>
+                <div class="accordion-content"><div class="accordion-content-inner">${unsafeHTML(parseMarkdown(section.content))}</div></div>
+            </div>`);
+        return html`<div><h1>${title}</h1><p>${introduction}</p><div class="accordion-group">${sectionsHTML}</div></div>`;
+    },
+
+    renderProtocolView: function(protocolData) {
+        if (!protocolData) return html`<h1>Error: Protocol data is missing.</h1>`;
+        const directivesHTML = protocolData.core_directives.map(d => html`<li><strong>${d.title}:</strong> ${d.description}</li>`);
+        return html`<div><h1>${protocolData.metadata.purpose}</h1><p>${protocolData.preamble}</p>
+            <h3>Core Directives</h3><ul>${directivesHTML}</ul>
+        </div>`;
+    },
+
+    renderSystemsLensAnalysis: function(analysisData) {
+        if (!Array.isArray(analysisData) || analysisData.length === 0) {
+            return '';
+        }
+
+        const componentGroups = {
+            'Structural Components': ['Stock', 'Cloud', 'System Boundary'],
+            'Control Components': ['Inflow', 'Outflow', 'Auxiliary Variable', 'Information Connector', 'Valve', 'Parameter', 'Goal'],
+            'Behavioral Dynamics': ['Feedback Loop', 'Delay']
+        };
+
+        const renderComponent = (comp) => {
+            const translationsHTML = comp.domainSpecificTranslations.length > 0
+                ? html`<a href="#" class="domain-translations-toggle" data-action="toggle-translations">Show Domain Translations ?</a>
+                   <div class="domain-translations-content">
+                       <ul>
+                           ${comp.domainSpecificTranslations.map(t => html`<li><strong>${t.domain}:</strong> ${t.expression}</li>`)}
+                       </ul>
+                   </div>`
+                : '';
+
+            return html`
+                <div class="systems-component-item">
+                    <h5>${comp.componentName}</h5>
+                    <p>${unsafeHTML(parseMarkdown(comp.domainAgnosticDescription))}</p>
+                    ${translationsHTML}
+                </div>
+            `;
+        };
+
+        const tabsHTML = Object.keys(componentGroups).map((groupName, index) => html`
+            <button class="systems-lens-tab ${index === 0 ? 'active' : ''}" data-tab-target="${groupName.replace(/\W/g, '')}">${groupName}</button>
+        `);
+
+        const tabContentsHTML = Object.entries(componentGroups).map(([groupName, components], index) => {
+            const content = components.map(compName => {
+                const compData = analysisData.find(c => c.componentName === compName);
+                return compData ? renderComponent(compData) : '';
+            });
+            return html`<div class="systems-lens-tab-content ${index === 0 ? 'active' : ''}" data-tab-content="${groupName.replace(/\W/g, '')}">${content}</div>`;
+        });
+
+        return html`
+            <div class="systems-lens-section">
+                <button class="systems-lens-toggle" data-action="toggle-systems-lens">
+                    <i class="fas fa-sitemap"></i>
+                    <span>Systems Thinking Lens</span>
+                    <i class="fas fa-chevron-down accordion-icon" style="margin-left: auto;"></i>
+                </button>
+                <div class="systems-lens-content">
+                    <div class="systems-lens-tabs">${tabsHTML}</div>
+                    <div class="systems-lens-tab-container">${tabContentsHTML}</div>
+                </div>
+            </div>
+        `;
+    },
+
+    renderPathwayExplorer: function(allPathways, tools, bibliography, onboardingData, viewId) {
+        if (!allPathways || !Array.isArray(allPathways)) {
+            return html`<h1>Error: Pathway data is missing or malformed.</h1>`;
+        }
+    
+        const localParseMarkdown = (text) =>
+            (window.marked ? window.marked.parse(text || '', { breaks: true }) : text);
+
+        const localParseMarkdownInline = (text) =>
+            (window.marked ? window.marked.parseInline(text || '') : text);
+    
+        const pathwaysByTool = {};
+        const toolIdToName = {};
+        tools.forEach(tool => {
+            // CORRECTED LINE: Use tool.id directly as the key (e.g., "tool1")
+            pathwaysByTool[tool.id] = []; 
+            toolIdToName[tool.id] = tool.name;
+        });
+    
+        allPathways.forEach(pathway => {
+            // CORRECTED LINE: Construct the key correctly (e.g., "tool" + 1 = "tool1")
+            const toolKey = `tool${pathway.tool_id}`;
+            if (pathway.tool_id && pathwaysByTool[toolKey]) {
+                pathwaysByTool[toolKey].push(pathway);
+            }
+        });
+    
+        const uniqueDomains = [...new Set(allPathways.map(p => p.domain).filter(Boolean))].sort();
+        const uniqueTypes = [...new Set(allPathways.map(p => p.type).filter(Boolean))].sort();
+    
+        const domainMap = {
+            "🎨 Arts & Design": { icon: "fa-palette", color: "var(--domain-arts)" },
+            "🚀 Business & Agile": { icon: "fa-chart-line", color: "var(--domain-business)" },
+            "🌏 Culture & Ethics": { icon: "fa-globe-americas", color: "var(--domain-culture)" },
+            "🌐 General / Pluralist": { icon: "fa-globe", color: "var(--domain-general)" },
+            "🧑‍🏫 Pedagogy & Facilitation": { icon: "fa-chalkboard-teacher", color: "var(--domain-pedagogy)" },
+            "📚 Science & Engineering": { icon: "fa-flask", color: "var(--domain-science)" },
+            "👥 Humanities & Social Sciences": { icon: "fa-landmark", color: "var(--domain-humanities)" }
+        };
+    
+        const renderCitation = (citationData) => {
+            if (!citationData || !citationData.citation_text) return '';
+            const text = escapeAttr(citationData.citation_text);
+            const rationale = escapeAttr(citationData.rationale || '');
+            return html`
+                <span class="citation-link" tabindex="0" role="button" aria-label="Show citation">
+                    <i class="fas fa-book-open"></i>
+                    <span class="citation-tooltip">${text}<br><br><strong>Rationale:</strong> ${rationale}</span>
+                </span>`;
+        };
+    
+        const renderPathwayCard = (pathway, parentToolId) => { // Accept parentToolId
+            const domainInfo = domainMap[pathway.domain] || { icon: 'fa-question-circle', color: '#ccc' };
+            const speculativeTag = pathway.isSpeculative ? html`<span class="speculative-tag">Speculative</span>` : '';
+            
+            const activityCitationHTML = renderCitation(pathway.activity_citation);
+            const neuroCitationHTML = renderCitation(pathway.neurocognitive_citation);
+    
+            const activitySequenceHTML = (pathway.activity_sequence || []).map(s => html`<li>${unsafeHTML(localParseMarkdownInline(s))}</li>`);
+            
+            const cognitiveSequenceHTML = (pathway.neurocognitive_sequence || []).map(s => {
+                if (!s || !s.step) return '';
+                
+                // FIX: Use the parent tool's ID, not the step number
+                const deepLink = `?view=tool&id=${parentToolId}&activePerspective=cognitiveModel`;
+            
+                const networksHTML = (s.networks || []).map(n => html`<code>${n}</code>`);
+                
+                return html`
+                    <li class="neuro-sequence-item">
+                        <a href="${deepLink}" class="step-link" title="View Cognitive Model">
+                            <i class="fas fa-external-link-alt"></i> ${s.step}
+                        </a>
+                        <span class="step-networks">${networksHTML}</span>
+                        <span class="step-desc">${s.pfic_word || ''}</span>
+                    </li>`;
+            });
+    
+            return html`
+                <div class="accordion-item" data-id="${pathway.id}" data-domain="${pathway.domain}" data-type="${pathway.type}">
+                    <button class="accordion-header">
+                        <span class="accordion-title-group">
+                            <i class="fas ${domainInfo.icon} domain-icon" style="color: ${domainInfo.color};"></i>
+                            ${pathway.title}
+                            ${speculativeTag}
+                        </span>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="pathway-summary"><em>${pathway.summary || ''}</em></p>
+                            <div class="pathway-details-grid">
+                                <div><strong>Rationale:</strong> ${unsafeHTML(localParseMarkdown(pathway.rationale || 'N/A'))}</div>
+                            </div>
+                            <h4>Activity Sequence ${activityCitationHTML}</h4>
+                            <ol>${activitySequenceHTML}</ol>
+                            <h4>Cognitive Sequence ${neuroCitationHTML}</h4>
+                            <ol>${cognitiveSequenceHTML}</ol>
+                        </div>
+                    </div>
+                </div>
+            `;
+        };
+    
+        const matrixHTML = tools.map(tool => {
+            const toolId = tool.id; // Use the direct tool ID
+            const toolName = tool.name;
+            const pathways = pathwaysByTool[toolId] || [];
+            // PASS toolId HERE
+            const pathwayCardsHTML = pathways.map(p => renderPathwayCard(p, toolId)); 
+    
+            return html`
+                <div class="tool-column" id="tool-${tool.id}">
+                    <div class="tool-column-header">T${tool.uid.replace('T','')}: ${toolName}</div>
+                    ${pathwayCardsHTML}
+                </div>
+            `;
+        });
+    
+        const domainFiltersHTML = html`
+            <div class="segmented-control">
+                <button class="filter-btn active" data-domain="all">All</button>
+                ${uniqueDomains.map(domain => {
+                    const domainInfo = domainMap[domain] || { icon: 'fa-question-circle' };
+                    return html`<button class="filter-btn" data-domain="${domain}" title="${domain}"><i class="fas ${domainInfo.icon}"></i></button>`;
+                })}
+            </div>
+        `;
+    
+        const typeFiltersHTML = html`
+            <option value="all">All Types</option>
+            ${uniqueTypes.map(type => html`<option value="${type}">${type.charAt(0).toUpperCase() + type.slice(1)}</option>`)}
+        `;
+    
+        const toolFiltersHTML = html`
+            <option value="all">All Tools</option>
+            ${tools.map(tool => html`<option value="tool-${tool.id}">T${tool.uid.replace('T','')}: ${tool.name}</option>`)}
+        `;
+    
+        return html`
+            <div class="explorer-container">
+                <header class="explorer-header">
+                    <h1>Pathway Explorer</h1>
+                    <p>Explore all high-probability pathways, which are effective, pre-defined workflows for specific tasks. Use the filters to narrow your search and click on any pathway to see its detailed rationale and sequence.</p>
+                </header>
+        
+                <div class="explorer-controls">
+                    <div class="control-group search-group">
+                        <label for="pathway-search">Search</label>
+                        <input type="search" id="pathway-search" placeholder="Search pathways by title, summary, rationale...">
+                    </div>
+                    <div class="control-group" id="domain-filter-group">
+                        <h4 id="selected-domain-name">All Domains</h4>
+                        ${domainFiltersHTML}
+                    </div>
+                    <div class="control-group">
+                        <label for="type-filter">Type</label>
+                        <select id="type-filter">${typeFiltersHTML}</select>
+                    </div>
+                    <div class="control-group">
+                        <label for="tool-filter">Tool</label>
+                        <select id="tool-filter">${toolFiltersHTML}</select>
+                    </div>
+                </div>
+        
+                <!-- NEW SCROLL WRAPPER -->
+                <div class="scroll-wrapper-relative" id="pathway-scroll-container">
+                    <button class="scroll-paddle left" data-direction="left"><i class="fas fa-chevron-left"></i></button>
+                    <div class="pathway-matrix-wrapper">
+                        <div class="pathway-matrix" id="pathway-matrix">
+                            ${matrixHTML}
+                        </div>
+                    </div>
+                    <button class="scroll-paddle right" data-direction="right"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            ${UI.renderOnboarding(onboardingData, viewId)}
+        `;
+    }
+};
+
+--- END OF FILE js/uiComponents.js ---
+
+--- START OF FILE js/dataLoader.js ---
+
+export async function loadFrameworkData() {
+
+    const dataPath = 'framework_data/'; 
+    const manifestFile = 'manifest.json';
+
+    try {
+        const manifestResponse = await fetch(`${dataPath}${manifestFile}`);
+        if (!manifestResponse.ok) {
+            throw new Error(`HTTP error! Status: ${manifestResponse.status} for manifest file.`);
+        }
+        const manifest = await manifestResponse.json();
+        const fileNames = manifest.files;
+
+        const fetchPromises = fileNames.map(async (file) => {
+            // Handle the special case for tool files and concepts_tool files being in a subdirectory
+            const fullPath = (file.startsWith('tool_') || file.startsWith('concepts_tool_')) 
+                ? `${dataPath}tools/${file}` 
+                : `${dataPath}${file}`;
+            
+            let response;
+            try {
+                response = await fetch(fullPath);
+            } catch (networkError) {
+                throw new Error(`Network error while fetching '${fullPath}': ${networkError.message}`);
+            }
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status} for file '${fullPath}'`);
+            }
+
+            const text = await response.text();
+            try {
+                // Attempt to parse the JSON content
+                return JSON.parse(text);
+            } catch (parseError) {
+                // Provide a more detailed error message if parsing fails
+                throw new Error(`JSON SyntaxError in file '${fullPath}': ${parseError.message}`);
+            }
+        });
+
+        const allData = await Promise.all(fetchPromises);
+
+        const dataMap = fileNames.reduce((acc, file, index) => {
+            acc[file] = allData[index];
+            return acc;
+        }, {});
+
+        // NEW: Compile the concepts_tool_N.json data into a single object indexed by toolId
+        const toolConceptsMap = {}; 
+        fileNames.forEach(file => {
+            if (file.startsWith('concepts_tool_') && dataMap[file] && dataMap[file].toolId) {
+                toolConceptsMap[dataMap[file].toolId] = dataMap[file].concepts; 
+            }
+        });
+
+        // Assemble the final, structured data object for the application
+        const cognitiveToolkitData = {
+            application_views: dataMap['views.json'],
+            glossary_tool_data: dataMap['glossary_data.json'],
+            playbooks_and_reports_data: dataMap['playbooks_and_reports.json'],
+            methodologies_data: dataMap['methodologies.json'],
+            planner_content: dataMap['planner_content.json'],
+            project_genesis_data: dataMap['project_genesis_content.json'],
+            systems_analysis_data: dataMap['systems_analysis_data.json'],
+            onboarding_content: dataMap['onboarding_content.json'],
+            // NEW: Integrate the single source of truth for pathway data
+            scaffold_model_data: dataMap['scaffold-model.json'],
+            framework_data: {
+                ...dataMap['config.json'],
+                dls_modalities_framework: dataMap['modalities.json'],
+                frameworkNodes: dataMap['nodes.json'],
+                ...dataMap['reference.json'],
+                ...dataMap['system.json'],
+                tools: [
+                    dataMap['tool_1.json'], dataMap['tool_2.json'], dataMap['tool_3.json'],
+                    dataMap['tool_4.json'], dataMap['tool_5.json'], dataMap['tool_6.json'],
+                    dataMap['tool_7.json'], dataMap['tool_8.json'], dataMap['tool_9.json'],
+                    dataMap['tool_10.json']
+                ].sort((a, b) => parseInt(a.uid.slice(1)) - parseInt(b.uid.slice(1))), // Ensure tools are always in order
+                toolConcepts: toolConceptsMap // --- NEW: Add the compiled concepts here ---
+            }
+        };
+        
+        console.log("Inquiry & Creation data loaded and assembled successfully:", cognitiveToolkitData);
+        return cognitiveToolkitData;
+
+    } catch (error) {
+        console.error("Failed to load or assemble framework data:", error);
+        // Return null to signal failure to the calling function. Do NOT touch the DOM.
+        return null;
+    }
+}
+
+--- END OF FILE js/dataLoader.js ---
+
+--- START OF FILE js/visuals.js ---
+
+// --- js/visuals.js (v23.0 "Compass" Update - CORRECTED) ---
+
+export const Visuals = {
+    drawPathwayLines: function(svgElement, mapElement, nodeIds, color, isNodeExplorer = true) {
+        if (!svgElement || !mapElement || !nodeIds || nodeIds.length < 2) {
+            if (svgElement) {
+                svgElement.innerHTML = '';
+                svgElement.classList.remove('visible');
+            }
+            return;
+        }
+
+        svgElement.innerHTML = ''; // Clear previous content
+        svgElement.setAttribute('width', mapElement.scrollWidth);
+        svgElement.setAttribute('height', mapElement.scrollHeight);
+
+        const points = [];
+        nodeIds.forEach(nodeId => {
+            const card = mapElement.querySelector(`.node-item[data-node-id="${nodeId}"], .node-card[data-node-id="${nodeId}"]`);
+            if (card) {
+                points.push({ 
+                    x: card.offsetLeft + (card.offsetWidth / 2), 
+                    y: card.offsetTop + (card.offsetHeight / 2) 
+                });
+            }
+        });
+
+        if (points.length < 2) {
+            svgElement.innerHTML = '';
+            svgElement.classList.remove('visible');
+            return;
+        }
+
+        let pathData = `M ${points[0].x} ${points[0].y}`;
+        for (let i = 1; i < points.length; i++) {
+            const p1 = points[i-1];
+            const p2 = points[i];
+            const cp1x = p1.x + (p2.x - p1.x) * 0.5;
+            const cp2x = p1.x + (p2.x - p1.x) * 0.5;
+            pathData += ` C ${cp1x} ${p1.y}, ${cp2x} ${p2.y}, ${p2.x} ${p2.y}`;
+        }
+
+        const strokeWidth = isNodeExplorer ? 4 : 3;
+        const markerId = `arrowhead-${color.replace(/[^a-zA-Z0-9]/g, '')}`;
+        
+        const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+        const marker = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
+        marker.setAttribute('id', markerId);
+        marker.setAttribute('markerWidth', '10');
+        marker.setAttribute('markerHeight', '7');
+        marker.setAttribute('refX', '8');
+        marker.setAttribute('refY', '3.5');
+        marker.setAttribute('orient', 'auto');
+        marker.setAttribute('markerUnits', 'strokeWidth');
+
+        const polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+        polygon.setAttribute('points', '0 0, 10 3.5, 0 7');
+        polygon.setAttribute('fill', color);
+
+        marker.appendChild(polygon);
+        defs.appendChild(marker);
+        svgElement.appendChild(defs);
+
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', pathData);
+        path.setAttribute('stroke', color);
+        path.setAttribute('stroke-width', strokeWidth);
+        path.setAttribute('fill', 'none');
+        path.setAttribute('stroke-linecap', 'round');
+        path.setAttribute('marker-end', `url(#${markerId})`);
+        
+        svgElement.appendChild(path);
+        svgElement.classList.add('visible');
+    },
+
+    drawOverlayPath: function(container, toolIds, color) {
+        const svgElement = container.querySelector('#overview-path-svg');
+        if (!svgElement || !toolIds || toolIds.length < 2) {
+            if (svgElement) svgElement.innerHTML = '';
+            return;
+        }
+
+        svgElement.innerHTML = ''; // Clear previous content
+        svgElement.setAttribute('width', container.scrollWidth);
+        svgElement.setAttribute('height', container.scrollHeight);
+
+        const points = toolIds.map(id => {
+            const stage = container.querySelector(`.workflow-stage[data-id="${id}"]`);
+            if (!stage) return null;
+            return {
+                x: stage.offsetLeft + stage.offsetWidth / 2,
+                y: stage.offsetTop + stage.offsetHeight / 2
+            };
+        }).filter(Boolean);
+
+        if (points.length < 2) {
+            svgElement.innerHTML = '';
+            return;
+        }
+
+        let pathData = `M ${points[0].x} ${points[0].y}`;
+        for (let i = 1; i < points.length; i++) {
+            const p1 = points[i-1];
+            const p2 = points[i];
+            const cp1x = p1.x + (p2.x - p1.x) * 0.5;
+            const cp2x = p1.x + (p2.x - p1.x) * 0.5;
+            pathData += ` C ${cp1x} ${p1.y}, ${cp2x} ${p2.y}, ${p2.x} ${p2.y}`;
+        }
+
+        const markerId = `overview-arrow-${color.replace(/[^a-zA-Z0-9]/g, '')}`;
+        
+        const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+        const marker = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
+        marker.setAttribute('id', markerId);
+        marker.setAttribute('markerWidth', '10');
+        marker.setAttribute('markerHeight', '7');
+        marker.setAttribute('refX', '8');
+        marker.setAttribute('refY', '3.5');
+        marker.setAttribute('orient', 'auto');
+        marker.setAttribute('markerUnits', 'strokeWidth');
+
+        const polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+        polygon.setAttribute('points', '0 0, 10 3.5, 0 7');
+        polygon.setAttribute('fill', color);
+        
+        marker.appendChild(polygon);
+        defs.appendChild(marker);
+        svgElement.appendChild(defs);
+        
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', pathData);
+        path.setAttribute('stroke', color);
+        path.setAttribute('stroke-width', '5');
+        path.setAttribute('fill', 'none');
+        path.setAttribute('stroke-linecap', 'round');
+        path.setAttribute('marker-end', `url(#${markerId})`);
+        path.style.strokeDasharray = path.getTotalLength();
+        path.style.strokeDashoffset = path.getTotalLength();
+        
+        svgElement.appendChild(path);
+
+        setTimeout(() => {
+            path.style.transition = 'stroke-dashoffset 1.5s ease-in-out';
+            path.style.strokeDashoffset = '0';
+        }, 100);
+    }
+};
+
+--- END OF FILE js/visuals.js ---
+
+--- START OF FILE js/onboarding.js ---
+
+
+// js/onboarding.js - Logic for the new Novice Onboarding guided tour.
+console.log("Onboarding module loaded.");
+
+--- END OF FILE js/onboarding.js ---
+
+--- START OF FILE js/utils/linkParser.js ---
+
+/* --- js/utils/linkParser.js (v28.2 - CORRECTED) --- */
+
+/**
+ * Parses a string for internal cross-links and replaces them with placeholder tokens,
+ * returning the processed text and a map of tokens to link data.
+ *
+ * Syntax: [[type:identifier|display text]]
+ * Example: "This links to [[node:N01|a specific node]]."
+ *
+ * @param {string} text The raw text content to parse.
+ * @returns {{processedText: string, linkMap: Map<string, object>}} An object containing the processed text
+ *          with placeholders and a map linking each placeholder to its structured data.
+ */
+export function parseInternalLinks(text) {
+    if (typeof text !== 'string' || !text) {
+        return { processedText: text || '', linkMap: new Map() };
+    }
+
+    const linkMap = new Map();
+    // Regex to find all instances of [[type:identifier|optional text]]
+    const linkRegex = /\[\[([a-z_]+):([^|\]]+)(?:\|([^\]]+))?\]\]/g;
+
+    const processedText = text.replace(linkRegex, (match, type, identifier, displayText) => {
+        // THIS IS THE CORRECTED LINE:
+        const token = `__LINK_${linkMap.size}__`;
+
+        linkMap.set(token, {
+            type: type.trim(),
+            identifier: identifier.trim(),
+            displayText: displayText ? displayText.trim() : null, // If null, UI will fetch default name
+        });
+
+        return token;
+    });
+
+    return { processedText, linkMap };
+}
+
+--- END OF FILE js/utils/linkParser.js ---

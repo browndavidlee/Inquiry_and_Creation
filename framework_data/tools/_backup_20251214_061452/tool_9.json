@@ -1,0 +1,863 @@
+{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "id":  "tool9",
+    "uid":  "T9",
+    "name":  "Synthesize Learnings",
+    "simpleName":  "Synthesize",
+    "keyQuestion":  "What principles carry forward? What are our ongoing responsibilities?",
+    "color":  "var(--color-tool-9)",
+    "keyDeliverables":  "A documented retrospective, a playbook of generalizable learnings, and a long-term stewardship plan.",
+    "principle":  "To update the high-level generative model by abstracting the learnings from a specific prediction error (a project) into a more generalizable and precise model (a Principle) for future prediction.",
+    "keyMediatingArtifact":  "Generalizable Principles",
+    "jtbdAnalysis":  {
+                         "coreJobStory":  "When a project is over, help me extract the generalizable principles from this specific experience, so I can become smarter for the future and share what I\u0027ve learned with others.",
+                         "hiringCircumstance":  "The project is finished. The \u0027Push\u0027 is the desire not to lose the valuable, hard-won lessons. The \u0027Habit\u0027 is to immediately jump to the next project. The \u0027Anxiety\u0027 is that the reflection will be a bureaucratic waste of time.",
+                         "practitioner":  {
+                                              "job":  "Reflect on the completed project to abstract generalizable principles, codify them into a shareable artifact (e.g., a playbook), and identify the key questions that will drive the next cycle of inquiry.",
+                                              "plan":  [
+                                                           "**Enter the Consolidation Period (`N97`):** Stop working. Your brain needs a period of rest (offline processing) to move memories from the Hippocampus to the Cortex. Schedule a \u0027do nothing\u0027 phase.",
+                                                           "**Conduct the Retrospective (`N44`):** Review the journey. Don\u0027t just list events; look for patterns. Ask: \u0027What was the root cause of our success/failure?\u0027",
+                                                           "**Codify the Playbook (`N45`):** Turn the pattern into a rule. \u0027In future projects like this, we will always X.\u0027 Write it down.",
+                                                           "**Define Stewardship (`N47`):** The work isn\u0027t done. Who owns it now? Create a plan for the long-term care of the artifact you created."
+                                                       ]
+                                          },
+                         "facilitator":  {
+                                             "job":  "Facilitate a structured retrospective that guides the team beyond recounting events to abstracting generalizable lessons, codifying them for future use, and ensuring the learning is transferred.",
+                                             "plan":  [
+                                                          "**Create the Container:** Set a tone of celebration and reflection. Use a ritual to mark the end of \u0027execution mode\u0027 and the start of \u0027learning mode.\u0027",
+                                                          "**Guide Abstraction:** When a team member shares a specific story, ask: \u0027What is the general principle behind that?\u0027 Help them move from the specific to the universal.",
+                                                          "**Design the Transfer Task (`N49`):** Challenge the team: \u0027How would we apply this new principle to a completely different problem?\u0027 This tests if they have truly learned.",
+                                                          "**Enforce Closure:** Ensure the team emotionally disconnects from the project. A clear ending allows them to fully engage with the next beginning."
+                                                      ]
+                                         },
+                         "forces":  {
+                                        "push":  "We can\u0027t keep making the same mistakes. All that work will be wasted if we don\u0027t learn from it.",
+                                        "pull":  "This tool promises a way to turn my experience into durable, shareable principles.",
+                                        "habit":  "Just move on to the next project immediately. We don\u0027t have time for this.",
+                                        "anxiety":  "What if we didn\u0027t learn anything? This feels like a bureaucratic exercise."
+                                    }
+                     },
+    "perspectives":  {
+                         "CultureTraditionsAndEthics":  {
+                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "simpleTitle":  "Ethical Viewpoints",
+                                                            "content":  "This perspective reframes the end of a project as the beginning of a long-term responsibility, emphasizing sustainability and intergenerational thinking.",
+                                                            "dynamic_playbook":  {
+                                                                                     "practitioner":  [
+                                                                                                          "**Practice Stewardship:** Shift from \u0027Creator\u0027 to \u0027Ancestor.\u0027 You have birthed something; now you must ensure it is cared for. Create a plan for its maintenance.",
+                                                                                                          "**Honor the Gift:** If the community gave you data or time, how are you returning value to them? Ensure the \u0027loop of reciprocity\u0027 is closed.",
+                                                                                                          "**Tell the Teaching Story:** Don\u0027t just write a report. Craft a story (`N91`) that carries the moral and ethical lessons of the project, not just the technical ones."
+                                                                                                      ],
+                                                                                     "facilitator":  [
+                                                                                                         "**Host a Closing Ceremony:** Rituals help humans process transitions. Create a meaningful closing ceremony to honor the work and the relationships formed.",
+                                                                                                         "**Acknowledge Impact:** Facilitate a discussion on the long-term impact of the work. \u0027Seven generations from now, how will this work be viewed?\u0027",
+                                                                                                         "**Release the Team:** Formally release the team from their duties. This clear boundary respects their energy and allows them to enter the next cycle refreshed."
+                                                                                                     ]
+                                                                                 }
+                                                        },
+                         "cynefinAnalysis":  {
+                                                 "title":  "🧭 Navigational Context",
+                                                 "simpleTitle":  "Complexity Check",
+                                                 "content":  "This tool involves reflecting on a completed project to abstract generalizable principles. This is an expert task of analysis and synthesis.",
+                                                 "dynamic_playbook":  {
+                                                                          "practitioner":  [
+                                                                                               "**Codify the Complex:** If you found a pattern in the Complex domain, can you now write a heuristic (rule of thumb) for it? Move knowledge from \u0027Emergent\u0027 to \u0027Good Practice.\u0027",
+                                                                                               "**Identify New Unknowns:** The end of one inquiry reveals the edge of the next. What are the new \u0027Unknown Unknowns\u0027 that this project revealed?",
+                                                                                               "**Don\u0027t Over-Generalize:** Be careful not to turn a context-specific success into a universal law. Acknowledge the specific conditions that made success possible."
+                                                                                           ],
+                                                                          "facilitator":  [
+                                                                                              "**Harvest Heuristics:** Ask: \u0027What simple rules guided us through the chaos?\u0027 Capture these as heuristics for the next Complex project.",
+                                                                                              "**Map the Trajectory:** Trace the project\u0027s path through the Cynefin domains. \u0027We started in Confusion, moved to Complex, and ended in Complicated.\u0027 Visualizing this helps the team understand their journey.",
+                                                                                              "**Prepare for Disorder:** The transition between projects is often a state of Disorder. Help the team navigate the ambiguity of \u0027what\u0027s next?\u0027"
+                                                                                          ]
+                                                                      }
+                                             },
+                         "disciplinaryapplication":  {
+                                                         "title":  "📚 Disciplinary Application",
+                                                         "simpleTitle":  "Field-Specific Methods",
+                                                         "content":  "The output of synthesis is about creating future value.",
+                                                         "dynamic_playbook":  {
+                                                                                  "practitioner":  [
+                                                                                                       "**Science:** Propose a **Generalizable Model**. Abstract the data into a theory. Output: A New Theory/Law.",
+                                                                                                       "**Business:** Create a **Playbook**. Codify the process for scaling. Output: A Standard Operating Procedure.",
+                                                                                                       "**Humanities:** Articulate a **Contribution**. Define how the field has shifted. Output: A Conclusion.",
+                                                                                                       "**Arts:** Define a **Style/Series**. Establish the aesthetic rules for future work. Output: A Manifesto.",
+                                                                                                       "**Pedagogy:** Design for **Transfer**. Create tasks to test application in new contexts. Output: A Transfer Task."
+                                                                                                   ],
+                                                                                  "facilitator":  [
+                                                                                                      "**Science:** **Check Scope.** Ask: \u0027Does the data support this level of generalization?\u0027",
+                                                                                                      "**Business:** **Check Scalability.** Ask: \u0027Will this process work if we double the team size?\u0027",
+                                                                                                      "**Humanities:** **Check Significance.** Ask: \u0027Why does this change in perspective matter?\u0027",
+                                                                                                      "**Arts:** **Check Coherence.** Ask: \u0027Does this manifesto accurately reflect the work produced?\u0027",
+                                                                                                      "**Pedagogy:** **Check Independence.** Ask: \u0027Can the learner apply this without my help?\u0027"
+                                                                                                  ]
+                                                                              }
+                                                     },
+                         "integrativeStrategies":  {
+                                                       "title":  "🧩 Integrative Strategies",
+                                                       "simpleTitle":  "Ways to Connect Ideas",
+                                                       "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**The \u0027Post-Mortem\u0027 Narrative:** Write the story of the project as a \u0027Hero\u0027s Journey.\u0027 This integrates the emotional highs/lows with the technical facts.",
+                                                                                                     "**Cross-Domain Analogy:** Explain your learnings using a metaphor from another field. \u0027Our software architecture is like a coral reef...\u0027",
+                                                                                                     "**Visual Synthesis:** Create a single diagram or map that captures the entire project journey. Visuals help integrate complex, multi-modal information."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Facilitate \u0027Teach-Backs\u0027:** Have the engineer teach the designer what they learned, and vice versa. Teaching is the highest form of synthesis.",
+                                                                                                    "**Connect to the Whole:** Ask: \u0027How does this project change our understanding of the entire system/organization?\u0027",
+                                                                                                    "**Create a \u0027Living Archive\u0027:** Don\u0027t just file the report. Create a dynamic, accessible way for others to engage with the learnings (e.g., a video, a poster, a lunch-and-learn)."
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "comparativeAnalysis":  {
+                                                     "summary":  "How \u0027Synthesize\u0027 differs from a post-mortem.",
+                                                     "title":  "Comparative Analysis",
+                                                     "selection_logic":  "Use this tool to generate wisdom. Use a post-mortem to assign blame or fix bugs.",
+                                                     "simpleTitle":  "Vs. Other Models",
+                                                     "models":  [
+                                                                    {
+                                                                        "value_add":  "Tool 9 focuses on \u0027Generalization\u0027—extracting reusable principles (Playbooks) that can be applied to *different* future contexts.",
+                                                                        "derivation":  "Medical Review",
+                                                                        "model":  "Post-Mortem",
+                                                                        "comparison":  "Post-mortems often focus on \u0027what went wrong\u0027.",
+                                                                        "vector":  "Review"
+                                                                    },
+                                                                    {
+                                                                        "value_add":  "Tool 9 focuses on \u0027Stewardship\u0027—defining the active, ongoing responsibility for the work\u0027s impact after the project closes.",
+                                                                        "derivation":  "Library Science",
+                                                                        "model":  "Archiving",
+                                                                        "comparison":  "Archiving stores files.",
+                                                                        "vector":  "Storage"
+                                                                    }
+                                                                ]
+                                                 },
+                         "cognitiveNeuroscience":  {
+                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "simpleTitle":  "The Brain at Work",
+                                                       "content":  "Synthesis is a reflective state for abstracting general principles (schema formation) from specific experiences to guide future behavior."
+                                                   },
+                         "psychologicalDynamics":  {
+                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "simpleTitle":  "Emotional Hurdles",
+                                                       "content":  "Synthesis requires a shift from active execution to reflective consolidation. The core friction is overcoming the \u0027Zeigarnik Effect\u0027 (inverted)—the brain\u0027s desire to flush completed tasks from memory to free up cognitive resources, making reflection feel like a waste of time.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Prioritize Sleep/Rest:** Memory consolidation (transfer from Hippocampus to Neocortex) happens during rest. You cannot synthesize while stressed.",
+                                                                                                     "**Engage the DMN:** Allow your mind to wander over the project. The Default Mode Network integrates experiences into a coherent narrative.",
+                                                                                                     "**Update the Schema:** Consciously identify where your old mental model was wrong. \u0027I used to think X, but now I know Y.\u0027"
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Slow Down:** Synthesis requires a slower cognitive tempo. Force the team to slow down their speech and thinking. Use silence.",
+                                                                                                    "**Use Narrative:** The brain encodes information best in story form. Ask team members to tell the \u0027story\u0027 of the project.",
+                                                                                                    "**Bridge to Future:** Activate prospection circuits. Ask: \u0027Imagine a future project. How will you use this tool differently?\u0027"
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "title":  "🧠 Psychological Dynamics",
+                         "simpleTitle":  "Emotional Hurdles",
+                         "content":  "Synthesis requires a shift from active execution to reflective consolidation. The core friction is overcoming the \u0027Zeigarnik Effect\u0027 (inverted)—the brain\u0027s desire to flush completed tasks from memory to free up cognitive resources, making reflection feel like a waste of time.",
+                         "dynamic_playbook":  {
+                                                  "practitioner":  [
+                                                                       "**Prioritize Sleep/Rest:** Memory consolidation (transfer from Hippocampus to Neocortex) happens during rest. You cannot synthesize while stressed.",
+                                                                       "**Engage the DMN:** Allow your mind to wander over the project. The Default Mode Network integrates experiences into a coherent narrative.",
+                                                                       "**Update the Schema:** Consciously identify where your old mental model was wrong. \u0027I used to think X, but now I know Y.\u0027"
+                                                                   ],
+                                                  "facilitator":  [
+                                                                      "**Slow Down:** Synthesis requires a slower cognitive tempo. Force the team to slow down their speech and thinking. Use silence.",
+                                                                      "**Use Narrative:** The brain encodes information best in story form. Ask team members to tell the \u0027story\u0027 of the project.",
+                                                                      "**Bridge to Future:** Activate prospection circuits. Ask: \u0027Imagine a future project. How will you use this tool differently?\u0027"
+                                                                  ]
+                                              }
+                     },
+    "pedagogicalPlaybook":  [
+                                {
+                                    "uid":  "T9-PP1",
+                                    "title":  "Learning Objectives (SWBAT)",
+                                    "stanceTitle":  {
+                                                        "learning":  "Learning Objectives (SWBAT)",
+                                                        "performance":  "Core Competencies"
+                                                    },
+                                    "icon":  "fa-bullseye",
+                                    "content":  "* Reflect on their process to synthesize key principles and lessons learned.\n* Generalize skills and concepts for transfer to novel contexts.\n* Articulate a plan for the long-term stewardship, maintenance, or responsible conclusion of the work and its outcomes.\n* Propose new inquiries that build upon the completed project.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T9-PP2",
+                                    "title":  "Facilitator Actions \u0026 Teacher Moves",
+                                    "stanceTitle":  {
+                                                        "learning":  "Facilitator Actions \u0026 Teacher Moves",
+                                                        "performance":  "Key Activities"
+                                                    },
+                                    "icon":  "fa-hands-helping",
+                                    "content":  "* **Pedagogical Dynamic: Fading the Scaffold.** Your final act is to design a transfer task and then strategically withdraw support, forcing the learner to become independent and self-regulated.\n* Lead a structured retrospective to facilitate metacognition about the process and product.\n* Guide a discussion on the long-term stewardship, impact, and ethical responsibilities of the completed work.\n* Provide opportunities for learners to teach or share what they learned.\n* Introduce a \u0027transfer task\u0027 to assess the application of learning in a new context.\n* **Trauma-Informed Consideration:** Endings can be difficult. Facilitate a closing ritual that allows for acknowledgment of the work and a sense of completion. Celebrate effort and growth, not just the final outcome.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T9-PP3",
+                                    "title":  "Common Failure Modes \u0026 Recovery Loops",
+                                    "stanceTitle":  {
+                                                        "learning":  "Common Failure Modes \u0026 Recovery Loops",
+                                                        "performance":  "Risk Mitigation"
+                                                    },
+                                    "icon":  "fa-exclamation-triangle",
+                                    "content":  "* **Failure Mode:** The team is exhausted and rushes through reflection, extracting only superficial \u0027lessons learned\u0027.\n* **Recovery Loop:** Insist on a period of genuine rest (The \u0027Consolidation Period\u0027 Path) before the retrospective. Use a structured protocol for the retrospective to ensure depth.\n* **Failure Mode:** The \u0027lessons learned\u0027 are documented but never used again.\n* **Recovery Loop:** The synthesis is not complete until the lessons are translated into a concrete artifact for the next cycle (e.g., an updated checklist, a new team principle, a \u0027playbook\u0027).",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "collapsed"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T9-PP4",
+                                    "title":  "Tool-Gate Checklist",
+                                    "stanceTitle":  {
+                                                        "learning":  "Tool-Gate Checklist",
+                                                        "performance":  "Definition of Done"
+                                                    },
+                                    "icon":  "fa-tasks",
+                                    "content":  "* [ ] A formal reflection or retrospective has been completed and documented.\n* [ ] Key learnings have been synthesized into generalizable principles or a playbook.\n* [ ] A plan for long-term stewardship has been established.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "collapsed"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "expanded"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T9-PP5",
+                                    "title":  "Team Reflection Prompt",
+                                    "stanceTitle":  {
+                                                        "learning":  "Team Reflection Prompt",
+                                                        "performance":  "Stewardship Check-in"
+                                                    },
+                                    "icon":  "fa-users-cog",
+                                    "content":  "Who benefits from this work\u0027s success, and who bears the long-term costs or risks? What is our plan for maintenance, decommissioning, or addressing unintended consequences? What is one principle from this project that your team will commit to upholding in all future work? How will you hold yourselves accountable to it?",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                }
+                            ],
+    "tableData":  {
+                      "pedagogy":  "**Gagné:** Enhance Transfer\n**5E:** Extend\n**DLS:** Transforming\n**// NEW //**\n**Transfer \u0026 Fading Path:** Metacognition, Transfer, Fade",
+                      "science":  "Generalizable Models / New Questions",
+                      "agile":  "Playbooks / Scaling / Productization",
+                      "humanities":  "Theoretical Synthesis / Reframing Debates",
+                      "creative":  "Series and Variations / New Aesthetics"
+                  },
+    "averagePathway":  {
+                           "title":  "The Average Pathway: The Consolidation Period Path",
+                           "rationale":  "This is the new default best practice for synthesis. It recognizes that deep learning is not just an analytical act but a biological one. It mandates a formal period of rest to allow for subconscious memory consolidation before engaging in the effortful work of abstracting principles. This ensures the learnings are more durable and the team is more resilient.",
+                           "cognitiveSequence":  [
+                                                     "Ritually Disconnect. The ECN exerts top-down inhibitory control to disengage from goal-directed work, a necessary prerequisite for entering a restful state.",
+                                                     "Rest \u0026 Consolidate. During this DMN-dominant state, the Hippocampus engages in \u0027neural replay\u0027 of key project events, strengthening and abstracting memories in dialogue with the cortex. This is the core of offline learning.",
+                                                     "Reflect \u0026 Abstract. The ECN re-engages to analyze the now-consolidated memories, identify patterns, and abstract generalizable principles.",
+                                                     "Make a Dual Commitment. The vmPFC computes the value of both the stewardship plan and the next inquiry, providing the \u0027go\u0027 signal for the ECN to formalize the commitment."
+                                                 ],
+                           "activitySequence":  [
+                                                    "Formally \u0027Enter a Consolidation Period\u0027 (N97) by holding a closing ritual and agreeing to a period of no work on the project.",
+                                                    "After the rest period, conduct a formal \u0027Retrospective\u0027 (N44) on the entire project.",
+                                                    "Synthesize the key learnings into a \u0027Playbook\u0027 (N45) or other durable artifact.",
+                                                    "Conclude by making a \u0027Dual Commitment\u0027: 1) Define a clear \u0027Stewardship Plan\u0027 (N47) for the work\u0027s outcomes, and 2) Articulate the key question for the next cycle of inquiry."
+                                                ]
+                       },
+    "neurocognitiveModel":  {
+                                "stage_id":  "tool9",
+                                "stage_name":  "Synthesis \u0026 Stewardship",
+                                "pathways":  [
+                                                 {
+                                                     "pathway_name":  "📚 Science \u0026 Engineering - The Generalization Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Reflect",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "Hippocampus"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                       "processing_style":  "Episodic Memory Replay"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The DMN and Hippocampus collaborate to replay and consolidate episodic memories of the project, forming the raw material for synthesis.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "squire-2009"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Abstract",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "Parietal Lobe"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Schema Formation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The frontoparietal control system works to extract general rules and principles (schemas) from the specific memories replayed by the DMN.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "new-mcclelland-1995"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Articulate",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "Language Network",
+                                                                                                                                 "ECN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Formal Generalization"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN directs the Language Network to codify the abstract principle into a formal, generalizable model or statement.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "hagoort-2013"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "ðŸš€ Business \u0026 Agile - The Playbook Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Deconstruct",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "Hippocampus"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Causal Analysis"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN directs the retrieval of episodic memories of the project to perform a causal analysis of what led to success.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "squire-2009"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Document",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "Language Network",
+                                                                                                                                 "ECN",
+                                                                                                                                 "SCN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Audience-Aware Translation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN directs the Language Network to translate the deconstructed process into a clear, actionable document, guided by the SCN\u0027s model of the audience.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "hagoort-2013"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Scale",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "ECN",
+                                                                                                                                 "Valuation Network (VNM)"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                       "processing_style":  "Prospective Risk/Value Analysis"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN, DMN, and VNM work together to create a strategic plan for scaling the successful process, balancing potential rewards with simulated risks.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "rangel-2008"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "âœ¨ Speculative - The \u0027Consolidation Period\u0027 Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Cease",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  "ECN",
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Active Inhibition"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN exerts top-down inhibitory control to disengage from goal-directed work, a necessary prerequisite for entering a restful state.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "diamond-2013"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Rest",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "Hippocampus"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                       "processing_style":  "Memory Consolidation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "During rest, the Hippocampus engages in \u0027neural replay\u0027 of recent experiences, strengthening and abstracting memories in dialogue with the cortex. This is the core of offline learning.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "new-mcclelland-1995"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Integrate",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  "ECN",
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Shifting to System 2",
+                                                                                                                                       "processing_style":  "Schema Updating"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN engages to bring the new insight into conscious awareness, analyze it, and integrate it into existing mental models (schemas).",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "new-schon-1983"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "🧠‘â€ ðŸ « Pedagogy \u0026 Facilitation - The Transfer \u0026 Fading Path",
+                                                     "facilitator_model":  {
+                                                                               "sequence":  [
+                                                                                                {
+                                                                                                    "step":  "T1",
+                                                                                                    "pfic_word":  "Metacognition",
+                                                                                                    "neurocognitive_state":  {
+                                                                                                                                 "dominant_networks":  [
+                                                                                                                                                           "SCN",
+                                                                                                                                                           "DMN"
+                                                                                                                                                       ],
+                                                                                                                                 "cognitive_mode_analysis":  {
+                                                                                                                                                                 "s1_s2_balance":  "Balanced",
+                                                                                                                                                                 "processing_style":  "Guided Reflection"
+                                                                                                                                                             }
+                                                                                                                             },
+                                                                                                    "validation_and_credibility":  {
+                                                                                                                                       "key_neuroscientific_principle":  "The facilitator uses their SCN to model the learner\u0027s mind and guide their DMN-driven self-reflection.",
+                                                                                                                                       "supporting_evidence":  {
+                                                                                                                                                                   "citation_id":  "new-schon-1983"
+                                                                                                                                                               },
+                                                                                                                                       "confidence_score":  "Tier 2"
+                                                                                                                                   }
+                                                                                                },
+                                                                                                {
+                                                                                                    "step":  "T2",
+                                                                                                    "pfic_word":  "Transfer",
+                                                                                                    "neurocognitive_state":  {
+                                                                                                                                 "dominant_networks":  [
+                                                                                                                                                           "DMN",
+                                                                                                                                                           "ECN",
+                                                                                                                                                           "Parietal Lobe"
+                                                                                                                                                       ],
+                                                                                                                                 "cognitive_mode_analysis":  {
+                                                                                                                                                                 "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                                 "processing_style":  "Analogical Design"
+                                                                                                                                                             }
+                                                                                                                             },
+                                                                                                    "validation_and_credibility":  {
+                                                                                                                                       "key_neuroscientific_principle":  "Designing a good transfer task is an act of analogical reasoning: creating a new problem with the same deep structure as the original.",
+                                                                                                                                       "supporting_evidence":  {
+                                                                                                                                                                   "citation_id":  "hofstadter-2013"
+                                                                                                                                                               },
+                                                                                                                                       "confidence_score":  "Tier 1"
+                                                                                                                                   }
+                                                                                                },
+                                                                                                {
+                                                                                                    "step":  "T3",
+                                                                                                    "pfic_word":  "Fade",
+                                                                                                    "neurocognitive_state":  {
+                                                                                                                                 "dominant_networks":  [
+                                                                                                                                                           "ECN",
+                                                                                                                                                           "SCN"
+                                                                                                                                                       ],
+                                                                                                                                 "cognitive_mode_analysis":  {
+                                                                                                                                                                 "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                                 "processing_style":  "Strategic Inhibition"
+                                                                                                                                                             }
+                                                                                                                             },
+                                                                                                    "validation_and_credibility":  {
+                                                                                                                                       "key_neuroscientific_principle":  "The facilitator uses their ECN to actively inhibit their own impulse to help, a strategic inaction based on their assessment of the learner.",
+                                                                                                                                       "supporting_evidence":  {
+                                                                                                                                                                   "citation_id":  "diamond-2013"
+                                                                                                                                                               },
+                                                                                                                                       "confidence_score":  "Tier 1"
+                                                                                                                                   }
+                                                                                                }
+                                                                                            ]
+                                                                           },
+                                                     "learner_model":  {
+                                                                           "sequence":  [
+                                                                                            {
+                                                                                                "step":  "T1",
+                                                                                                "pfic_word":  "Recall",
+                                                                                                "neurocognitive_state":  {
+                                                                                                                             "dominant_networks":  [
+                                                                                                                                                       "DMN",
+                                                                                                                                                       "Hippocampus"
+                                                                                                                                                   ],
+                                                                                                                             "cognitive_mode_analysis":  {
+                                                                                                                                                             "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                                             "processing_style":  "Episodic Replay"
+                                                                                                                                                         }
+                                                                                                                         },
+                                                                                                "validation_and_credibility":  {
+                                                                                                                                   "key_neuroscientific_principle":  "The learner retrieves memories of the project experience.",
+                                                                                                                                   "supporting_evidence":  {
+                                                                                                                                                               "citation_id":  "squire-2009"
+                                                                                                                                                           },
+                                                                                                                                   "confidence_score":  "Tier 1"
+                                                                                                                               }
+                                                                                            },
+                                                                                            {
+                                                                                                "step":  "T2",
+                                                                                                "pfic_word":  "Abstraction",
+                                                                                                "neurocognitive_state":  {
+                                                                                                                             "dominant_networks":  [
+                                                                                                                                                       "ECN",
+                                                                                                                                                       "Parietal Lobe"
+                                                                                                                                                   ],
+                                                                                                                             "cognitive_mode_analysis":  {
+                                                                                                                                                             "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                             "processing_style":  "Schema Formation"
+                                                                                                                                                         }
+                                                                                                                         },
+                                                                                                "validation_and_credibility":  {
+                                                                                                                                   "key_neuroscientific_principle":  "The learner forms a new, abstract mental model (schema) based on their experience.",
+                                                                                                                                   "supporting_evidence":  {
+                                                                                                                                                               "citation_id":  "new-mcclelland-1995"
+                                                                                                                                                           },
+                                                                                                                                   "confidence_score":  "Tier 1"
+                                                                                                                               }
+                                                                                            },
+                                                                                            {
+                                                                                                "step":  "T3",
+                                                                                                "pfic_word":  "Independence",
+                                                                                                "neurocognitive_state":  {
+                                                                                                                             "dominant_networks":  [
+                                                                                                                                                       "ECN",
+                                                                                                                                                       "Parietal Lobe",
+                                                                                                                                                       "SMN"
+                                                                                                                                                   ],
+                                                                                                                             "cognitive_mode_analysis":  {
+                                                                                                                                                             "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                             "processing_style":  "Self-Regulated Application"
+                                                                                                                                                         }
+                                                                                                                         },
+                                                                                                "validation_and_credibility":  {
+                                                                                                                                   "key_neuroscientific_principle":  "The learner successfully applies their new schema to solve the transfer task without external support.",
+                                                                                                                                   "supporting_evidence":  {
+                                                                                                                                                               "citation_id":  "vygotsky-1978"
+                                                                                                                                                           },
+                                                                                                                                   "confidence_score":  "Tier 1"
+                                                                                                                               }
+                                                                                            }
+                                                                                        ]
+                                                                       }
+                                                 },
+                                                 {
+                                                     "pathway_name":  "âœ¨ NEW: The \u0027Storytelling\u0027 Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Sense Block",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "ACC"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Conflict"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN\u0027s goal to abstract a principle is met with high conflict from the ACC, indicating a failure to find a coherent pattern.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Attempt to Teach",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "Language Network",
+                                                                                                                                 "ECN",
+                                                                                                                                 "SCN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Perspective-Taking"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The Language Network attempts to articulate the concept, while the ECN and SCN constantly monitor for simplicity and clarity from the imagined novice\u0027s perspective.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "hagoort-2013"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Capture Insight",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "Language Network"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Abstraction"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN captures this newly salient principle and uses the Language Network to articulate it as the core lesson.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "diamond-2013"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "âœ¨ NEW: The \u0027Cross-Project Retrospective\u0027 Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Sense Recurrence",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ACC",
+                                                                                                                                 "DMN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                       "processing_style":  "Pattern Recognition"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ACC flags a familiar feeling of conflict, and the DMN retrieves fragments of similar past project memories.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Analyze Projects",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "DMN",
+                                                                                                                                 "Hippocampus"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Comparative Analysis"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN holds multiple project memories (retrieved by DMN/Hippo) in working memory simultaneously to compare their structures and outcomes.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "diamond-2013"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Abstract Principle",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "Language Network",
+                                                                                                                                 "Parietal Lobe"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Generalization"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN directs the Language Network to articulate the abstract principle identified by the Parietal Lobe.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "kandel-2013"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 }
+                                             ]
+                            },
+    "frameworkImplications":  {
+                                  "title":  "Strategic Role",
+                                  "icon":  "fas fa-chess-board",
+                                  "summary":  "This tool closes the loop of the inquiry cycle, transforming the specific, hard-won experience of a single project into durable, transferable integrated knowledge that fuels future success.",
+                                  "points":  [
+                                                 "**The Engine of Learning:** This is where learning is formalized. The synthesis of generalizable principles is the mechanism that allows individuals and teams to get smarter over time, not just busier.",
+                                                 "**Codifies Success:** The JTBD highlights the creation of a \u0027playbook\u0027 or \u0027teaching story.\u0027 This act of codification is critical for scaling success and transferring knowledge across an organization.",
+                                                 "**Generates the Next Cycle:** A successful synthesis doesn\u0027t just conclude the past; it initiates the future. By identifying the \u0027New Questions\u0027 that emerge from the completed work, this tool ensures the framework is a continuous, generative cycle, not a linear process with a dead end."
+                                             ]
+                              },
+    "summary":  [
+                    {
+                        "content":  "To **abstract generalizable principles** from specific experiences and ensure the long-term stewardship of the work.\n\n##### Practitioner Actions\n\n**Reflect:** Review the process to identify patterns of success and failure.\n**Codify:** Turn lessons into reusable rules or playbooks.\n**Transfer:** Apply the new knowledge to future contexts.",
+                        "title":  "Objective \u0026 Actions"
+                    },
+                    {
+                        "content":  "**Consolidation:** The biological process of stabilizing memory traces for long-term storage.\n**Abstraction:** Extracting the underlying rule (schema) from specific episodic memories.\n**Prospection:** Using past learning to simulate and plan for future scenarios.",
+                        "title":  "Core Dynamics \u0026 Interactions"
+                    },
+                    {
+                        "human_display_content":  "##### Methodology Note\n\nThe following profile represents the cognitive state of *integration* and abstraction.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.5 | 1.5 | 0.5 | 0.5 | 1.0 | 0.5 | 4.0 | 3.5 | 3.0 | 5.0 | 4.0 | 1.0 | 2.0 | 3.0 | 4.0 |\n| **Humanities \u0026 SS.** | 1.5 | 1.5 | 0.2 | 0.2 | 1.5 | 0.2 | 5.0 | 1.0 | 2.0 | 4.5 | 4.5 | 2.0 | 2.5 | 3.5 | 4.5 |\n| **Arts \u0026 Design** | 3.5 | 1.5 | 1.5 | 1.0 | 3.0 | 1.0 | 3.5 | 0.5 | 3.5 | 3.0 | 5.0 | 3.5 | 2.0 | 4.5 | 4.0 |\n| **Business \u0026 Agile** | 2.5 | 2.0 | 0.5 | 0.5 | 1.5 | 0.5 | 4.0 | 2.5 | 2.5 | 4.0 | 4.0 | 2.0 | 3.0 | 3.0 | 4.5 |\n| **Integrated Knowledge \u0026 Ethics** | 1.5 | 2.0 | 0.5 | 0.5 | 3.5 | 0.5 | 4.5 | 1.0 | 2.0 | 3.5 | 4.5 | 3.0 | 3.5 | 3.0 | 5.0 |\n| **Pedagogy \u0026 Facil.** | 2.5 | 2.5 | 0.5 | 0.5 | 2.5 | 0.5 | 4.5 | 1.5 | 2.5 | 3.5 | 4.5 | 3.0 | 3.5 | 3.5 | 5.0 |\n\n#### Insight\n\n**Associative** scores spike significantly here, often matching **Logical** scores. This indicates that synthesis is not just summarizing facts, but creating new neural connections between disparate experiences—the definition of learning.",
+                        "title":  "Data-Driven Modality Profile",
+                        "ai_instructional_context":  {
+                                                         "key_domain_variations":  {
+
+                                                                                   }
+                                                     }
+                    }
+                ],
+    "cynefinAnalysis":  {
+                            "genotype":  {
+                                             "implications":  "Codify lessons into playbooks. Create standard operating procedures.",
+                                             "reasoning":  "Synthesis involves analyzing the past to create rules (heuristics) for the future. It is an expert task.",
+                                             "primaryDomain":  "Complicated"
+                                         },
+                            "dynamic_playbook":  {
+                                                     "practitioner":  [
+                                                                          "Codify the Complex: Turn patterns into heuristics.",
+                                                                          "Identify New Unknowns: What is the next mystery?",
+                                                                          "Don\u0027t Over-Generalize: Context matters."
+                                                                      ],
+                                                     "facilitator":  [
+                                                                         "Harvest Heuristics: What simple rules worked?",
+                                                                         "Map the Trajectory: Visualize the journey.",
+                                                                         "Prepare for Disorder: Navigate the transition."
+                                                                     ]
+                                                 },
+                            "phenotypes":  [
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Over-generalizing from limited data.",
+                                                   "phenotypeName":  "Theory Building",
+                                                   "classificationAndReasoning":  "Complicated: Abstracting laws from data is an expert synthesis task.",
+                                                   "domainName":  "Science \u0026 Engineering"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Creating a zombie process that no longer works.",
+                                                   "phenotypeName":  "Playbook",
+                                                   "classificationAndReasoning":  "Complicated: Creating a recipe for success based on past experience.",
+                                                   "domainName":  "Business \u0026 Agile"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Overstating the significance of the work.",
+                                                   "phenotypeName":  "Contribution",
+                                                   "classificationAndReasoning":  "Complicated: Defining how the work shifts the scholarly debate.",
+                                                   "domainName":  "Humanities \u0026 SS"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Forcing a style before it has matured.",
+                                                   "phenotypeName":  "Style",
+                                                   "classificationAndReasoning":  "Complex: Style is an emergent property of a body of work.",
+                                                   "domainName":  "Arts \u0026 Design"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Reducing wisdom to a set of rules.",
+                                                   "phenotypeName":  "Wisdom",
+                                                   "classificationAndReasoning":  "Complex: Wisdom is the integration of experience into character.",
+                                                   "domainName":  "Culture \u0026 Ethics"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Assuming transfer happens automatically.",
+                                                   "phenotypeName":  "Transfer",
+                                                   "classificationAndReasoning":  "Complicated: Designing tasks that test for transfer of learning.",
+                                                   "domainName":  "Pedagogy \u0026 Facilitation"
+                                               }
+                                           ]
+                        }
+}

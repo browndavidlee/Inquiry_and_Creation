@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../framework_data"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FrameworkApp"
+	}
+}

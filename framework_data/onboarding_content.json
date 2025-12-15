@@ -1,0 +1,50 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "onboarding":  {
+                       "welcome-view":  {
+                                            "title":  "Guided Tour",
+                                            "text":  "Welcome to the Tool Focus view. This is your deep dive into a single stage of the inquiry process. At the top, you\u0027ll find the core job-to-be-done. Below, you can explore different perspectives on the tool and find a step-by-step playbook for either a practitioner doing the work or a facilitator guiding a team."
+                                        },
+                       "tool-focus-view":  {
+                                               "title":  "Guided Tour",
+                                               "text":  "Welcome to the Tool Focus view. This is your deep dive into a single stage of the inquiry process. At the top, you\u0027ll find the core job-to-be-done. Below, you can explore different perspectives on the tool and find a step-by-step playbook for either a practitioner doing the work or a facilitator guiding a team."
+                                           },
+                       "nodes-view":  {
+                                          "title":  "Guided Tour",
+                                          "text":  "Welcome to the Node Explorer. This is a comprehensive library of all 240+ nodes, or specific actions, within the framework. Use the filters and search to find a specific node, or use the pathway dropdown to see how nodes are sequenced into effective workflows. Click any node to see its detailed description."
+                                      },
+                       "modalities-view":  {
+                                               "title":  "Guided Tour",
+                                               "text":  "Welcome to the Modality Explorer. This view maps the 15 core cognitive \"building blocks\" of the framework. Think of them as the different channels your brain uses to process information. Click on any modality to explore its definition, neuroscientific grounding, and its relationship to other modalities."
+                                           },
+                       "planner-view":  {
+                                            "title":  "Guided Tour",
+                                            "text":  "Welcome to the Integrated Planner. This is a hands-on tool to structure your project from start to finish. Use the Domain Switcher to tailor the prompts to your specific field. Your progress is saved automatically in your browser. When you\u0027re done, use the \"Generate Project Prompt\" button to create a comprehensive summary."
+                                        },
+                       "synthesis-table-view":  {
+                                                    "title":  "Guided Tour",
+                                                    "text":  "Welcome to the Grand Synthesis Table. This is a dense, multi-lens analysis of the entire 10-tool framework. To read it, pick a tool and read its row all the way across to get a deep understanding. Or, pick a column (like \"Scientific Method\") and read it down to see how that theme appears in each tool."
+                                                },
+                       "map-view":  {
+                                        "title":  "Guided Tour",
+                                        "text":  "Welcome to the Visual Map. This view gives you a bird\u0027s-eye view of all 240+ nodes organized by their parent tool. Use the dropdown menu to highlight how common methodologies trace a unique path through the framework."
+                                    },
+                       "network-view":  {
+                                            "title":  "Guided Tour",
+                                            "text":  "Welcome to the Network Map. This view shows the relationship between \"Process Patterns\" (reusable methods) and the Tools they apply to. Hover over a method in the top section to see its primary (solid line) and secondary (dashed line) applications in the framework below."
+                                        },
+                       "pathways-view":  {
+                                             "title":  "Guided Tour",
+                                             "text":  "Welcome to the Pathway Explorer. This is a complete library of all high-probability pathways, which are effective, pre-defined workflows for specific tasks. Use the search to find a relevant pathway, then click to expand it and see its detailed rationale and sequence."
+                                         },
+                       "genesis-project-view":  {
+                                                    "title":  "Guided Tour",
+                                                    "text":  "Welcome to the Project Genesis Case Study. This is a master-level, interactive example of the framework being applied to its own creation. Expand each phase and node to follow the step-by-step journey, including the specific actions, deliverables, and reasoning for each of the 240+ nodes."
+                                                }
+                   }
+}

@@ -1,0 +1,97 @@
+/* css/onboarding.css - Styles for the new Novice Onboarding guided tour. */
+.onboarding-card {
+    position: sticky;
+    bottom: var(--space-5);
+    left: var(--space-5);
+    max-width: 350px;
+    background-color: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-highlight);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-lg);
+    z-index: 998;
+    animation: slideInUp 0.5s ease-out;
+    margin-top: var(--space-5);
+    margin-left: auto; /* Aligns to the right */
+    margin-right: 0; /* Aligns to the right */
+}
+
+.onboarding-card.dismissed {
+    animation: slideOutDown 0.5s ease-in forwards;
+}
+
+.onboarding-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-3) var(--space-4);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.onboarding-header h4 {
+    margin: 0;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-highlight);
+}
+
+.onboarding-close {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+    padding: 0 var(--space-2);
+}
+.onboarding-close:hover {
+    color: var(--color-text-headings);
+}
+
+.onboarding-content {
+    padding: var(--space-4);
+}
+
+.onboarding-content p {
+    margin: 0;
+    font-size: 0.9em;
+    color: var(--color-text-secondary);
+    max-width: 100%;
+}
+
+body.dark-mode-active .onboarding-card {
+    background-color: #1b2733;
+    border-color: var(--color-border);
+}
+
+body.dark-mode-active .onboarding-header {
+    border-bottom-color: var(--color-border);
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideOutDown {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+        height: 0;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+}

@@ -1,0 +1,1137 @@
+{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "id":  "tool3",
+    "uid":  "T3",
+    "name":  "Generate Options",
+    "simpleName":  "Ideate",
+    "keyQuestion":  "What is the widest range of possibilities we can generate?",
+    "color":  "var(--color-tool-3)",
+    "keyDeliverables":  "A portfolio of at least three distinct, documented ideas or solution concepts.",
+    "principle":  "To transform a single, fixed idea into a portfolio of novel possibilities by temporarily inhibiting analytical judgment.",
+    "keyMediatingArtifact":  "Options Portfolio",
+    "jtbdAnalysis":  {
+                         "coreJobStory":  "When I\u0027m stuck on my first, obvious idea, help me break free and discover a wider range of innovative possibilities, so I can avoid settling for a mediocre solution and feel creatively confident.",
+                         "hiringCircumstance":  "The practitioner has a plan but only one path. They feel the \u0027Push\u0027 of pressure to be innovative or the sense that a better solution exists. They are held back by the \u0027Habit\u0027 of converging too quickly and the \u0027Anxiety\u0027 of their ideas being judged as stupid.",
+                         "practitioner":  {
+                                              "job":  "Employ divergent thinking techniques to generate a diverse portfolio of novel concepts and potential solutions that move beyond initial, obvious ideas.",
+                                              "plan":  [
+                                                           "**Reframe the Prompt:** Convert your problem statement into a \u0027How Might We\u0027 question. This linguistic shift primes the brain for possibility rather than analysis.",
+                                                           "**Force Divergence:** Use a \u0027Silent Brainstorming\u0027 (`N15`) protocol first. Set a high quota (e.g., 20 ideas in 10 minutes) to exhaust obvious solutions and force novel associations.",
+                                                           "**Apply Oblique Constraints:** If stuck, use a random constraint (`N66`) or analogy (`N18`). Ask: \u0027How would nature solve this?\u0027 or \u0027What if we had zero budget?\u0027",
+                                                           "**Defer Judgment:** Strictly separate generation from evaluation. Capture every idea, no matter how absurd. The \u0027bad\u0027 idea often contains the seed of the breakthrough."
+                                                       ]
+                                          },
+                         "facilitator":  {
+                                             "job":  "Establish and protect a psychologically safe environment that temporarily suspends critical judgment, enabling the team to engage in open, divergent thinking and generate a wide range of possibilities.",
+                                             "plan":  [
+                                                          "**Enforce the \u0027No Judgment\u0027 Rule:** Explicitly state that criticism is banned during this phase. Intervene immediately if someone critiques an idea (\u0027We are flaring, not focusing\u0027).",
+                                                          "**Manage Energy States:** Use time-boxing to create eustress (positive urgency). Keep the pace fast to prevent the Executive Control Network from over-analyzing.",
+                                                          "**Introduce Structured Disruption:** Don\u0027t just say \u0027brainstorm.\u0027 Introduce specific lateral thinking tools (SCAMPER, Reverse Thinking) to force the team out of cognitive ruts.",
+                                                          "**Visualize Everything:** Ensure every idea is externalized (Post-its, sketches). This turns abstract thoughts into tangible objects that can be recombined."
+                                                      ]
+                                         },
+                         "forces":  {
+                                        "push":  "My first idea feels too simple/boring. We keep having the same arguments.",
+                                        "pull":  "This tool promises a fun, energetic process that will lead to unexpected breakthroughs.",
+                                        "habit":  "Let\u0027s just go with the first idea that seems to work. It\u0027s faster.",
+                                        "anxiety":  "What if my ideas are stupid? Brainstorming is a waste of time and never works."
+                                    }
+                     },
+    "perspectives":  {
+                         "CultureTraditionsAndEthics":  {
+                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "simpleTitle":  "Ethical Viewpoints",
+                                                            "content":  "This perspective values receptive discovery as a complement to structured brainstorming, recognizing that breakthroughs often emerge from intuition and collective intelligence.",
+                                                            "dynamic_playbook":  {
+                                                                                     "practitioner":  [
+                                                                                                          "**Practice Receptive Insight:** Instead of \u0027forcing\u0027 ideas, practice \u0027deep listening\u0027 to the system. What solution is trying to emerge? (Daoist Wu Wei).",
+                                                                                                          "**Center the Margins:** Deliberately generate ideas from the perspective of the most marginalized stakeholder. \u0027How would this look if it were designed solely for [excluded group]?\u0027",
+                                                                                                          "**Honor Lineage:** Acknowledge that \u0027new\u0027 ideas are often recombinations of existing cultural knowledge. Cite your sources and inspirations."
+                                                                                                      ],
+                                                                                     "facilitator":  [
+                                                                                                         "**Democratize the Floor:** Use a \u0027Council\u0027 format where every voice is heard in the circle. This prevents dominant personalities from narrowing the solution space too early.",
+                                                                                                         "**Encourage Pluralism:** Explicitly ask for \u0027dangerous\u0027 or \u0027taboo\u0027 ideas. Frame the space as a \u0027brave space\u0027 where challenging the status quo is the goal.",
+                                                                                                         "**Value Silence:** Allow for moments of silence. In many cultures, silence is not empty but a space for integration and the emergence of wisdom."
+                                                                                                     ]
+                                                                                 }
+                                                        },
+                         "cynefinAnalysis":  {
+                                                 "title":  "🧭 Navigational Context",
+                                                 "simpleTitle":  "Complexity Check",
+                                                 "content":  "This stage re-engages with the unknown unknowns, seeking novel solutions that cannot be deduced from prior analysis. The goal is to create a portfolio of possibilities.",
+                                                 "dynamic_playbook":  {
+                                                                          "practitioner":  [
+                                                                                               "**Seek Emergence:** In the **Complex** domain, you cannot deduce the answer. You must generate variety. Aim for a \u0027portfolio of probes\u0027 rather than one perfect solution.",
+                                                                                               "**Avoid Best Practices:** Resist the urge to copy what worked elsewhere. Complex problems require novel, context-specific solutions, not \u0027best practices\u0027 (Clear domain).",
+                                                                                               "**Combine and Mutate:** Treat ideas as biological entities. Combine them, mutate them, and look for \u0027exaptations\u0027—features that evolved for one use but can be used for another."
+                                                                                           ],
+                                                                          "facilitator":  [
+                                                                                              "**Enforce Diversity:** Homogeneous teams produce homogeneous ideas. If the team is too similar, introduce \u0027persona cards\u0027 to force them to adopt different cognitive perspectives.",
+                                                                                              "**Protect the \u0027Weird\u0027:** In complexity, the outlier idea is often the seed of the breakthrough. Protect \u0027weird\u0027 ideas from early optimization or criticism.",
+                                                                                              "**Monitor for Coherence:** While generating, look for \u0027coherent clusters\u0027 of ideas that suggest an underlying attractor or pattern in the system."
+                                                                                          ]
+                                                                      }
+                                             },
+                         "integrativeStrategies":  {
+                                                       "title":  "🧩 Integrative Strategies",
+                                                       "simpleTitle":  "Ways to Connect Ideas",
+                                                       "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Use Analogical Thinking:** Map the structure of a solved problem in a distant domain (e.g., biology) to your current problem (e.g., logistics).",
+                                                                                                     "**Bodystorming:** Act out the problem physically. This engages the Sensorimotor network to find solutions that abstract thought misses.",
+                                                                                                     "**Constraint Blending:** Combine a \u0027Hard\u0027 constraint (budget) with a \u0027Soft\u0027 constraint (emotion). \u0027How do we make it cheap *and* delightful?\u0027"
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Facilitate Collision:** Deliberately pair people with opposite disciplines (e.g., Engineer + Artist) and give them a shared generative task.",
+                                                                                                    "**Visual Synthesis:** Use a large visual map to connect disparate ideas. \u0027How does this technical idea relate to that emotional need?\u0027",
+                                                                                                    "**Shift Modalities:** If the team is stuck in verbal mode, switch to visual or kinesthetic. \u0027Don\u0027t tell me, show me.\u0027"
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "disciplinaryapplication":  {
+                                                         "title":  "📚 Disciplinary Application",
+                                                         "simpleTitle":  "Field-Specific Methods",
+                                                         "summary":  "How different fields apply the principle of inhibiting judgment to generate a portfolio of possibilities.",
+                                                         "content":  "Generation requires a specific cognitive state: transient hypofrontality. Science achieves this by generating rival hypotheses; Art by sketching; Business by ideating user stories. The framework protects this fragile state from premature optimization.",
+                                                         "applications":  [
+                                                                              {
+                                                                                  "domainName":  "Science \u0026 Engineering",
+                                                                                  "phenotypeName":  "Hypothesis Generation",
+                                                                                  "icon":  "fa-lightbulb",
+                                                                                  "practitioner_output":  "A Set of Rival Hypotheses (N14).",
+                                                                                  "practitioner_method":  "Follow **The Deductive Path**: Generate at least three mutually exclusive explanations for the phenomenon.",
+                                                                                  "facilitator_method":  "Enforce **Pluralism**. Ask: \u0027Do we have a radical alternative to our preferred theory?\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Business \u0026 Agile",
+                                                                                  "phenotypeName":  "Ideation",
+                                                                                  "icon":  "fa-sticky-note",
+                                                                                  "practitioner_output":  "An Affinity Map (N15).",
+                                                                                  "practitioner_method":  "Follow **The User-Centered Path**: Use Silent Brainstorming to generate a high volume of ideas without social bias.",
+                                                                                  "facilitator_method":  "Enforce **Psychological Safety**. Intervene immediately if anyone critiques an idea during the generation phase."
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Humanities \u0026 Social Sciences",
+                                                                                  "phenotypeName":  "Rival Readings",
+                                                                                  "icon":  "fa-glasses",
+                                                                                  "practitioner_output":  "A Set of Rival Readings (N17).",
+                                                                                  "practitioner_method":  "Follow **The Dialectical Path**: Deliberately interpret the text through opposing theoretical lenses (e.g., Marx vs. Freud).",
+                                                                                  "facilitator_method":  "Enforce **Steelmanning**. Ask: \u0027Have we articulated the strongest possible version of the opposing view?\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Arts \u0026 Design",
+                                                                                  "phenotypeName":  "Sketching",
+                                                                                  "icon":  "fa-drafting-compass",
+                                                                                  "practitioner_output":  "A Portfolio of Concepts (N16).",
+                                                                                  "practitioner_method":  "Follow **The Transformative Path**: Apply Extreme Constraints to force non-obvious solutions.",
+                                                                                  "facilitator_method":  "Enforce **Divergence**. Ask: \u0027What is the idea that would get us fired? Let\u0027s explore that one.\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Culture \u0026 Ethics",
+                                                                                  "phenotypeName":  "Receptive Insight",
+                                                                                  "icon":  "fa-spa",
+                                                                                  "practitioner_output":  "An Emergent Insight (N19).",
+                                                                                  "practitioner_method":  "Follow **The Receptive Path**: Use silence and incubation to allow subconscious connections to surface.",
+                                                                                  "facilitator_method":  "Enforce **Patience**. Protect the silence and prevent the group from rushing to fill the void."
+                                                                              }
+                                                                          ],
+                                                         "dynamic_playbook":  {
+                                                                                  "practitioner":  [
+                                                                                                       "**Science \u0026 Engineering:** Follow **The Deductive Path**: Generate at least three mutually exclusive explanations for the phenomenon. Output: A Set of Rival Hypotheses (N14).",
+                                                                                                       "**Business \u0026 Agile:** Follow **The User-Centered Path**: Use Silent Brainstorming to generate a high volume of ideas without social bias. Output: An Affinity Map (N15).",
+                                                                                                       "**Humanities \u0026 Social Sciences:** Follow **The Dialectical Path**: Deliberately interpret the text through opposing theoretical lenses (e.g., Marx vs. Freud). Output: A Set of Rival Readings (N17).",
+                                                                                                       "**Arts \u0026 Design:** Follow **The Transformative Path**: Apply Extreme Constraints to force non-obvious solutions. Output: A Portfolio of Concepts (N16).",
+                                                                                                       "**Culture \u0026 Ethics:** Follow **The Receptive Path**: Use silence and incubation to allow subconscious connections to surface. Output: An Emergent Insight (N19)."
+                                                                                                   ],
+                                                                                  "facilitator":  [
+                                                                                                      "**Science \u0026 Engineering:** Enforce **Pluralism**. Ask: \u0027Do we have a radical alternative to our preferred theory?\u0027",
+                                                                                                      "**Business \u0026 Agile:** Enforce **Psychological Safety**. Intervene immediately if anyone critiques an idea during the generation phase.",
+                                                                                                      "**Humanities \u0026 Social Sciences:** Enforce **Steelmanning**. Ask: \u0027Have we articulated the strongest possible version of the opposing view?\u0027",
+                                                                                                      "**Arts \u0026 Design:** Enforce **Divergence**. Ask: \u0027What is the idea that would get us fired? Let\u0027s explore that one.\u0027",
+                                                                                                      "**Culture \u0026 Ethics:** Enforce **Patience**. Protect the silence and prevent the group from rushing to fill the void."
+                                                                                                  ]
+                                                                              }
+                                                     },
+                         "comparativeAnalysis":  {
+                                                     "summary":  "How \u0027Generate Options\u0027 differs from standard brainstorming.",
+                                                     "title":  "Comparative Analysis",
+                                                     "selection_logic":  "Use this tool when you need novelty. Use standard brainstorming when you need volume of known solutions.",
+                                                     "simpleTitle":  "Vs. Other Models",
+                                                     "models":  [
+                                                                    {
+                                                                        "value_add":  "Tool 3 uses \u0027Silent Brainstorming\u0027 and \u0027Rival Hypotheses\u0027 to structurally enforce divergence and protect minority ideas.",
+                                                                        "derivation":  "Osborn\u0027s Brainstorming",
+                                                                        "model":  "Brainstorming",
+                                                                        "comparison":  "Standard brainstorming often reverts to groupthink and the loudest voice.",
+                                                                        "vector":  "Ideation"
+                                                                    },
+                                                                    {
+                                                                        "value_add":  "Tool 3 integrates TRIZ-like constraints with intuitive and social methods, making it accessible to non-engineers.",
+                                                                        "derivation":  "Altshuller\u0027s TRIZ",
+                                                                        "model":  "TRIZ",
+                                                                        "comparison":  "TRIZ uses an algorithmic matrix to solve technical contradictions.",
+                                                                        "vector":  "Invention"
+                                                                    }
+                                                                ]
+                                                 },
+                         "cognitiveNeuroscience":  {
+                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "simpleTitle":  "The Brain at Work",
+                                                       "content":  "Generation involves cooperative interplay between divergent, associative thinking (DMN) and the evaluative filtering of those ideas (ECN)."
+                                                   },
+                         "psychologicalDynamics":  {
+                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "simpleTitle":  "Emotional Hurdles",
+                                                       "content":  "This stage requires \u0027transient hypofrontality\u0027—intentionally down-regulating the brain\u0027s critical judgment center (the ECN) to allow the creative, associative Default Mode Network (DMN) to operate freely. The core friction is \u0027Evaluation Apprehension\u0027—the social fear of being judged.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Induce Hypofrontality:** Use speed or exhaustion to temporarily down-regulate the inner critic.",
+                                                                                                     "**Leverage Associative Memory:** Expose yourself to random stimuli to trigger non-obvious memories.",
+                                                                                                     "**Manage Dopamine:** Celebrate the *quantity* of ideas, not quality, to create a reward loop for generation."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Reduce Social Threat:** Use anonymous methods (Brainwriting) to lower the social risk of sharing \u0027crazy\u0027 ideas.",
+                                                                                                    "**Promote Alpha Waves:** Encourage a relaxed, playful state to facilitate internal ideation.",
+                                                                                                    "**Bridge Networks:** Alternate between \u0027dreaming\u0027 (DMN) and \u0027doing\u0027 (Sensorimotor) to engage embodied cognition."
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "embodiedDynamics":  {
+                                                  "title":  "🤸 Embodied Dynamics",
+                                                  "simpleTitle":  "The Body\u0027s Role",
+                                                  "content":  "Divergent thinking is highly embodied. Physical movement, gesture, and even laughter can break cognitive fixation and allow for new associations. A tense, still body is often a sign of a blocked mind.",
+                                                  "dynamic_playbook":  {
+                                                                           "practitioner":  [
+                                                                                                "Stand up and move around during brainstorming.",
+                                                                                                "Use \u0027Bodystorming\u0027—physically acting out an idea—to generate insights."
+                                                                                            ],
+                                                                           "facilitator":  [
+                                                                                               "Incorporate movement and icebreakers into the session.",
+                                                                                               "Pay attention to the energy in the room; if it\u0027s low, change the physical state."
+                                                                                           ]
+                                                                       }
+                                              },
+                         "teamDynamics":  {
+                                              "title":  "🤝 Team Dynamics",
+                                              "simpleTitle":  "How We Work Together",
+                                              "content":  "This stage requires high psychological safety. The team must trust that \u0027wild\u0027 ideas will be welcomed, not judged. The dynamic is one of \u0027building on\u0027 ideas (\u0027Yes, and...\u0027) rather than critiquing them.",
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "Practice the \u0027Yes, and...\u0027 principle.",
+                                                                                            "Listen for the potential in others\u0027 ideas, not the flaws."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "Explicitly ban criticism during the divergent phase.",
+                                                                                           "Celebrate and amplify the \u0027wildest\u0027 ideas to signal that risk-taking is rewarded."
+                                                                                       ]
+                                                                   }
+                                          },
+                         "technologicalMediation":  {
+                                                        "title":  "💻 Technological Mediation",
+                                                        "simpleTitle":  "The Tools We Use",
+                                                        "content":  "Digital whiteboards (like Miro) are excellent for volume and remote collaboration, but physical post-it notes can create a more tactile, embodied experience that fosters a different kind of creativity. The choice of medium matters.",
+                                                        "dynamic_playbook":  {
+                                                                                 "practitioner":  [
+                                                                                                      "Use physical tools to get away from the screen.",
+                                                                                                      "Combine different media—sketching, writing, building—to activate different parts of the brain."
+                                                                                                  ],
+                                                                                 "facilitator":  [
+                                                                                                     "Choose the tool based on the desired outcome: digital for scale, physical for engagement.",
+                                                                                                     "Use anonymous tools (like silent brainwriting) to ensure psychological safety."
+                                                                                                 ]
+                                                                             }
+                                                    },
+                         "pedagogicalDynamics":  {
+                                                     "title":  "🧑‍🏫 Pedagogical Dynamics",
+                                                     "simpleTitle":  "How We Learn Here",
+                                                     "content":  "The dynamic is **Field Creation**. The facilitator\u0027s primary job is to create and protect a \u0027generative field\u0027—a psychologically safe space where the learner\u0027s inner critic is quieted, allowing their creative, associative networks (DMN) to flourish.",
+                                                     "dynamic_playbook":  {
+                                                                              "practitioner":  [
+                                                                                                   "Trust the process. Allow yourself to generate \u0027bad\u0027 ideas.",
+                                                                                                   "Build on the ideas of others without judgment."
+                                                                                               ],
+                                                                              "facilitator":  [
+                                                                                                  "Use structured protocols (like Silent Brainstorming) that enforce safety.",
+                                                                                                  "Model vulnerability by sharing a half-baked idea of your own."
+                                                                                              ]
+                                                                          }
+                                                 }
+                     },
+    "pedagogicalPlaybook":  [
+                                {
+                                    "uid":  "T3-PP1",
+                                    "title":  "Learning Objectives (SWBAT)",
+                                    "stanceTitle":  {
+                                                        "learning":  "Learning Objectives (SWBAT)",
+                                                        "performance":  "Core Competencies"
+                                                    },
+                                    "icon":  "fa-bullseye",
+                                    "content":  "* Generate multiple, distinct propositions (e.g., hypotheses, creative concepts, interpretive claims).\n* Employ both divergent (e.g., brainstorming) and receptive (e.g., incubation) methods to foster emergence.\n* Analyze and compare the potential of the generated propositions against the project\u0027s goals and constraints.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T3-PP2",
+                                    "title":  "Facilitator Actions \u0026 Teacher Moves",
+                                    "stanceTitle":  {
+                                                        "learning":  "Facilitator Actions \u0026 Teacher Moves",
+                                                        "performance":  "Key Activities"
+                                                    },
+                                    "icon":  "fa-hands-helping",
+                                    "content":  "* **Pedagogical Dynamic: Field Creation.** Your primary role is to actively protect the psychological safety of the group, allowing learners to down-regulate their inner critic and enter a creative, DMN-dominant state.\n* Use open-ended and divergent questioning to broaden the field of possibility.\n* Implement structured ideation techniques (e.g., silent brainstorming) to ensure equitable participation.\n* Schedule and protect time for incubation, reflection, or play to create conditions for emergent insight. Neurocognitively, this allows the Default Mode Network (DMN) to operate without interference from the analytical Executive Control Network (ECN).\n* Model the generation of a sample proposition (e.g., a hypothesis, an interpretive claim, an aesthetic concept).\n* **Facilitating Dialectic:** When using the Dialectical Path, the facilitator\u0027s goal is to heighten the intellectual conflict between a Thesis and an Antithesis, not to resolve it prematurely. This state of high cognitive dissonance is the necessary fuel for a true, emergent Synthesis.\n* **Trauma-Informed Consideration:** Brainstorming can be socially stressful. Use non-verbal or individual methods first (e.g., brainwriting) before sharing with the group to ensure all voices can contribute safely.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T3-PP3",
+                                    "title":  "Common Failure Modes \u0026 Recovery Loops",
+                                    "stanceTitle":  {
+                                                        "learning":  "Common Failure Modes \u0026 Recovery Loops",
+                                                        "performance":  "Risk Mitigation"
+                                                    },
+                                    "icon":  "fa-exclamation-triangle",
+                                    "content":  "* **Failure Mode:** The group generates only safe, incremental ideas due to fear of judgment (low psychological safety).\n* **Recovery Loop:** The facilitator must actively intervene to protect the space. Stop the brainstorm, reinforce the rules of non-judgment, and switch to a safer, anonymous ideation method.\n* **Failure Mode:** A few dominant voices monopolize the conversation.\n* **Recovery Loop:** Switch to a structured, turn-taking protocol (like a \u0027talking piece\u0027 from the Council Path) to ensure equitable participation.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "collapsed"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T3-PP4",
+                                    "title":  "Tool-Gate Checklist",
+                                    "stanceTitle":  {
+                                                        "learning":  "Tool-Gate Checklist",
+                                                        "performance":  "Definition of Done"
+                                                    },
+                                    "icon":  "fa-tasks",
+                                    "content":  "* [ ] At least three distinct ideas/propositions have been generated.\n* [ ] The ideas have been documented and are visible to the team.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "collapsed"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "expanded"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T3-PP5",
+                                    "title":  "Continuous Sensing Prompt",
+                                    "stanceTitle":  {
+                                                        "learning":  "Continuous Sensing Prompt",
+                                                        "performance":  "Assumption Check"
+                                                    },
+                                    "icon":  "fa-broadcast-tower",
+                                    "content":  "Are our generated ideas still relevant to the external context? Has anything changed that might invalidate one of our core assumptions?",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "collapsed"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T3-PP6",
+                                    "title":  "Team Reflection Prompt",
+                                    "stanceTitle":  {
+                                                        "learning":  "Team Reflection Prompt",
+                                                        "performance":  "Inclusion Check-in"
+                                                    },
+                                    "icon":  "fa-users-cog",
+                                    "content":  "Whose ideas are being amplified? Are there team dynamics influencing which possibilities are considered \u0027promising\u0027?",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                }
+                            ],
+    "tableData":  {
+                      "pedagogy":  "**Gagné:** Stimulate Recall\n**5E:** Explore\n**DLS:** Exploring\n**// NEW //**\n**Generative Field Path:** Constrain, Protect, Harvest",
+                      "science":  "Construct Hypothesis / Competing Models",
+                      "agile":  "Ideate User Stories / Options Portfolio",
+                      "humanities":  "Formulate Interpretive Claim / Rival Readings",
+                      "creative":  "Ideation / Sketching / Speculative Variants"
+                  },
+    "averagePathway":  {
+                           "title":  "The Average Pathway: Diverge → Compare → Converge on a Portfolio",
+                           "rationale":  "This is the classic creative problem-solving loop, improved to favor resilience over premature certainty. It begins by generating a wide range of possibilities, evaluates them against goals, and concludes by selecting a balanced portfolio of strong candidates to carry forward into more rigorous testing.",
+                           "cognitiveSequence":  [
+                                                     "Generate multiple, distinct options through divergent thinking, which involves a cooperative interplay between the DMN (for spontaneous idea generation) and the ECN (for combining ideas and strategic exploration).",
+                                                     "Implement the \u0027defer judgment\u0027 rule by using the ECN to actively suppress its own default critical evaluation function, thereby enabling a broader, more divergent search.",
+                                                     "Evaluate the generated options through a dual-process comparison: the vmPFC assesses each option\u0027s subjective value and alignment with implicit goals, while the ECN evaluates them against explicit, rule-based constraints.",
+                                                     "Make a final, strategic selection. This is a higher-order ECN function that integrates the value signals for individual options to construct a \u0027portfolio\u0027 that satisfies a complex goal, such as balancing risk and reward."
+                                                 ],
+                           "activitySequence":  [
+                                                    "Generate multiple, distinct options, hypotheses, or creative concepts.",
+                                                    "Compare these options against the success criteria defined in Tool 2.",
+                                                    "Converge by selecting a balanced \u0027portfolio\u0027 of the most promising options to prototype or test in the next tools (e.g., a safe bet, an ambitious bet)."
+                                                ]
+                       },
+    "neurocognitiveModel":  {
+                                "stage_id":  "tool3",
+                                "stage_name":  "Generation \u0026 Emergence",
+                                "pathways":  [
+                                                 {
+                                                     "pathway_name":  "📚 Science \u0026 Engineering - The Deductive Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Review",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "Hippocampus"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Rule-Based Retrieval"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Deductive reasoning begins with the controlled retrieval of established rules and principles from memory, a process directed by the ECN.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "squire-2009"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Formulate",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "ECN",
+                                                                                                                                 "Language Network"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                       "processing_style":  "Logical-Creative Synthesis"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Formulating a hypothesis involves a dynamic interplay between the DMN (generating possibilities) and the ECN (evaluating them for logical coherence and novelty).",
+                                                                                                             "supporting_evidence":  "Models of scientific reasoning and creativity.",
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Compete",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "DMN",
+                                                                                                                                 "Social Cognition Network"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Adversarial Simulation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Pitting hypotheses against each other involves simulating different perspectives (SCN) and analytically comparing their logical structures (ECN).",
+                                                                                                             "supporting_evidence":  "Studies on creative reasoning and perspective-taking.",
+                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "ðŸ‘¥ Humanities \u0026 Social Sciences - The Dialectical Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Propose",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "Language Network",
+                                                                                                                                 "Hippocampus"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                       "processing_style":  "Argument Formulation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Proposing a thesis involves retrieving relevant memories (Hippocampus) and weaving them into a coherent narrative (DMN, Language Network).",
+                                                                                                             "supporting_evidence":  "Neuroimaging studies of argumentation and narrative construction.",
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Oppose",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "Social Cognition Network",
+                                                                                                                                 "DMN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Controlled Adversarial Generation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Formulating a strong counterargument requires holding the opponent\u0027s perspective (SCN) while generating a logically sound rebuttal (ECN, DMN).",
+                                                                                                             "supporting_evidence":  "Studies on debate, argumentation, and Theory of Mind.",
+                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Synthesize",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "DMN",
+                                                                                                                                 "Valuation Network (vmPFC)",
+                                                                                                                                 "Parietal Lobe"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                       "processing_style":  "Conceptual Re-framing"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Resolving deep conflict requires a large-scale network reconfiguration to form a new, more complex conceptual schema that integrates both perspectives.",
+                                                                                                             "supporting_evidence":  "Neuroimaging studies of insight and creative problem-solving.",
+                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "ðŸŽ¨ Arts \u0026 Design - The Divergent Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Generate",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  "DMN",
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                       "processing_style":  "Divergent Ideation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Creative ideation is strongly associated with the DMN. This state often involves a temporary reduction in top-down filtering from the Executive Control Network (\u0027transient hypofrontality\u0027).",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "beaty-2016"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Group",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "Parietal Lobe"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Shifting towards balance",
+                                                                                                                                       "processing_style":  "Abstract Categorization"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Grouping ideas involves abstract categorization, a process supported by the parietal lobe\u0027s role in conceptual knowledge, guided by the ECN.",
+                                                                                                             "supporting_evidence":  "The role of the parietal lobe in categorization and conceptual knowledge.",
+                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Select",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "Valuation Network (vmPFC)",
+                                                                                                                                 "ECN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Value-Based Selection"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The final selection is a goal-directed action (ECN) based on the value signals computed by the vmPFC.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "rangel-2008"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "ðŸš€ Business \u0026 Agile - The User-Centered Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Empathize",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "Social Cognition Network",
+                                                                                                                                 "DMN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                       "processing_style":  "Perspective-Taking"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Empathizing with user stories involves modeling the user\u0027s mental state (SCN) and connecting it to one\u0027s own experiences (DMN).",
+                                                                                                             "supporting_evidence":  "Neuroimaging studies on Theory of Mind and empathy.",
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Brainstorm",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "Hippocampus"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                       "processing_style":  "Primed Divergent Ideation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Brainstorming involves the DMN making novel, associative connections between retrieved memories, guided by the initial empathetic framing.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "beaty-2016"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Select",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "Valuation Network (vmPFC)",
+                                                                                                                                 "ECN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "User-Centric Value Judgment"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The final selection is based on an integrated judgment of user value, business value, and feasibility, a core function of the vmPFC and ECN.",
+                                                                                                             "supporting_evidence":  "Neuroeconomic studies of choice and social decision-making.",
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "🌍  Culture \u0026 Ethics - The Receptive Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Quiet",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  "DMN",
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                       "processing_style":  "Wakeful Rest/Incubation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "This state involves intentionally reducing external input and goal-directed thought, allowing the DMN to engage in spontaneous, subconscious processing.",
+                                                                                                             "supporting_evidence":  "Neuroimaging studies of the creative process and the default mode network.",
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Wait",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "SN",
+                                                                                                                                 "ECN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Rapidly shifting to System 2",
+                                                                                                                                       "processing_style":  "Insight Capture"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Following an insight, the SN facilitates the engagement of the ECN to bring the new idea into conscious awareness for analysis and articulation.",
+                                                                                                             "supporting_evidence":  "Models of the interaction between SN, DMN, and ECN.",
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Harvest",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "Language Network"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Insight Formalization"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "Harvesting an insight involves the ECN directing the Language Network to capture and structure the emergent idea into a durable, shareable artifact.",
+                                                                                                             "supporting_evidence":  "Models of creative cognition and problem-solving.",
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "âœ¨ Speculative - The More-Than-Human Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Empathize",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "Social Cognition Network",
+                                                                                                                                 "ECN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                       "processing_style":  "Abstract Perspective-Taking"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "This is a speculative application of the SCN, using its capacity for abstract perspective-taking to model the \u0027interests\u0027 of a non-human entity.",
+                                                                                                             "supporting_evidence":  "Studies on abstract thought and the flexibility of the social cognition network.",
+                                                                                                             "confidence_score":  "Tier 3"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Imagine",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "Hippocampus",
+                                                                                                                                 "Sensory Cortices"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                       "processing_style":  "Multi-sensory Simulation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The DMN and Hippocampus are engaged to simulate potential futures from the imagined non-human perspective.",
+                                                                                                             "supporting_evidence":  "Neuroimaging studies of imagination and mental simulation.",
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Serve",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "Valuation Network (vmPFC)",
+                                                                                                                                 "ECN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Value-Aligned Decision"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The final decision is a goal-directed action (ECN) based on the value signals computed by the vmPFC, prioritizing the needs of the non-human entity.",
+                                                                                                             "supporting_evidence":  "Models of flexible decision-making and goal-directed behavior.",
+                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "🧠‘â€ ðŸ « Pedagogy \u0026 Facilitation - The Generative Field Path",
+                                                     "facilitator_model":  {
+                                                                               "sequence":  [
+                                                                                                {
+                                                                                                    "step":  "T1",
+                                                                                                    "pfic_word":  "Constrain",
+                                                                                                    "neurocognitive_state":  {
+                                                                                                                                 "dominant_networks":  [
+                                                                                                                                                           "ECN",
+                                                                                                                                                           "DMN"
+                                                                                                                                                       ],
+                                                                                                                                 "cognitive_mode_analysis":  {
+                                                                                                                                                                 "s1_s2_balance":  "Balanced",
+                                                                                                                                                                 "processing_style":  "Creative Rule-Setting"
+                                                                                                                                                             }
+                                                                                                                             },
+                                                                                                    "validation_and_credibility":  {
+                                                                                                                                       "key_neuroscientific_principle":  "Designing a good prompt requires a balance of generative thought (DMN) to imagine possibilities and executive control (ECN) to set effective constraints.",
+                                                                                                                                       "supporting_evidence":  {
+                                                                                                                                                                   "citation_id":  "beaty-2016"
+                                                                                                                                                               },
+                                                                                                                                       "confidence_score":  "Tier 1"
+                                                                                                                                   }
+                                                                                                },
+                                                                                                {
+                                                                                                    "step":  "T2",
+                                                                                                    "pfic_word":  "Protect",
+                                                                                                    "neurocognitive_state":  {
+                                                                                                                                 "dominant_networks":  [
+                                                                                                                                                           "SCN",
+                                                                                                                                                           "ECN",
+                                                                                                                                                           "Valuation Network (vmPFC)"
+                                                                                                                                                       ],
+                                                                                                                                 "cognitive_mode_analysis":  {
+                                                                                                                                                                 "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                                 "processing_style":  "Social Regulation"
+                                                                                                                                                             }
+                                                                                                                             },
+                                                                                                    "validation_and_credibility":  {
+                                                                                                                                       "key_neuroscientific_principle":  "Protecting psychological safety is an active, high-control state, requiring the facilitator to monitor social cues (SCN) and enforce rules (ECN).",
+                                                                                                                                       "supporting_evidence":  "Neuroscience of social regulation and psychological safety.",
+                                                                                                                                       "confidence_score":  "Tier 2"
+                                                                                                                                   }
+                                                                                                },
+                                                                                                {
+                                                                                                    "step":  "T3",
+                                                                                                    "pfic_word":  "Harvest",
+                                                                                                    "neurocognitive_state":  {
+                                                                                                                                 "dominant_networks":  [
+                                                                                                                                                           "DMN",
+                                                                                                                                                           "SN",
+                                                                                                                                                           "ECN"
+                                                                                                                                                       ],
+                                                                                                                                 "cognitive_mode_analysis":  {
+                                                                                                                                                                 "s1_s2_balance":  "Balanced",
+                                                                                                                                                                 "processing_style":  "Inductive Categorization"
+                                                                                                                                                             }
+                                                                                                                             },
+                                                                                                    "validation_and_credibility":  {
+                                                                                                                                       "key_neuroscientific_principle":  "Harvesting ideas involves detecting patterns (SN, DMN) and then using executive control (ECN) to group them into meaningful categories.",
+                                                                                                                                       "supporting_evidence":  "The role of the parietal lobe in categorization.",
+                                                                                                                                       "confidence_score":  "Tier 2"
+                                                                                                                                   }
+                                                                                                }
+                                                                                            ]
+                                                                           },
+                                                     "learner_model":  {
+                                                                           "sequence":  [
+                                                                                            {
+                                                                                                "step":  "T1",
+                                                                                                "pfic_word":  "Focus",
+                                                                                                "neurocognitive_state":  {
+                                                                                                                             "dominant_networks":  [
+                                                                                                                                                       "ECN",
+                                                                                                                                                       "DAN"
+                                                                                                                                                   ],
+                                                                                                                             "cognitive_mode_analysis":  {
+                                                                                                                                                             "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                             "processing_style":  "Goal Comprehension"
+                                                                                                                                                         }
+                                                                                                                         },
+                                                                                                "validation_and_credibility":  {
+                                                                                                                                   "key_neuroscientific_principle":  "The learner uses their ECN to understand and hold the creative constraint in working memory.",
+                                                                                                                                   "supporting_evidence":  "The role of the ECN in rule-guided behavior.",
+                                                                                                                                   "confidence_score":  "Tier 1"
+                                                                                                                               }
+                                                                                            },
+                                                                                            {
+                                                                                                "step":  "T2",
+                                                                                                "pfic_word":  "Diverge",
+                                                                                                "neurocognitive_state":  {
+                                                                                                                             "dominant_networks":  "DMN",
+                                                                                                                             "cognitive_mode_analysis":  {
+                                                                                                                                                             "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                                             "processing_style":  "Divergent Ideation"
+                                                                                                                                                         }
+                                                                                                                         },
+                                                                                                "validation_and_credibility":  {
+                                                                                                                                   "key_neuroscientific_principle":  "In a psychologically safe environment, the learner\u0027s brain can enter a DMN-dominant state, characterized by reduced executive filtering and increased associative thought.",
+                                                                                                                                   "supporting_evidence":  {
+                                                                                                                                                               "citation_id":  "beaty-2016"
+                                                                                                                                                           },
+                                                                                                                                   "confidence_score":  "Tier 1"
+                                                                                                                               }
+                                                                                            },
+                                                                                            {
+                                                                                                "step":  "T3",
+                                                                                                "pfic_word":  "Pattern",
+                                                                                                "neurocognitive_state":  {
+                                                                                                                             "dominant_networks":  [
+                                                                                                                                                       "ECN",
+                                                                                                                                                       "Parietal Lobe"
+                                                                                                                                                   ],
+                                                                                                                             "cognitive_mode_analysis":  {
+                                                                                                                                                             "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                             "processing_style":  "Abstract Categorization"
+                                                                                                                                                         }
+                                                                                                                         },
+                                                                                                "validation_and_credibility":  {
+                                                                                                                                   "key_neuroscientific_principle":  "The learner uses their frontoparietal networks to find patterns and group their ideas into abstract categories.",
+                                                                                                                                   "supporting_evidence":  "Neuroimaging studies of categorization and rule learning.",
+                                                                                                                                   "confidence_score":  "Tier 1"
+                                                                                                                               }
+                                                                                            }
+                                                                                        ]
+                                                                       }
+                                                 },
+                                                 {
+                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Inspiration Log\u0027 Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Sense Block",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ECN",
+                                                                                                                                 "ACC"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Conflict"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ECN\u0027s goal to generate ideas is met with high conflict from the ACC, indicating a failure of the DMN to produce novel associations.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Review Log",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "Hippocampus",
+                                                                                                                                 "Visual Cortex"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                       "processing_style":  "Priming"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The external stimuli (past ideas) act as cues, triggering the replay of old memory traces in the DMN/Hippo, priming these networks for new connections.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "raichle-2015"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Generate New Idea",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "ECN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                       "processing_style":  "Synthesis"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The DMN generates the novel association, which is then captured and articulated by the ECN.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "beaty-2016"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 },
+                                                 {
+                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Failure Retrospective\u0027 Path",
+                                                     "sequence":  [
+                                                                      {
+                                                                          "step":  "T1",
+                                                                          "pfic_word":  "Sense Default",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "ACC",
+                                                                                                                                 "Basal Ganglia"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                       "processing_style":  "Habit"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The ACC flags a conflict as the Basal Ganglia begins to activate a familiar but inappropriate (failed) problem-solving habit.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T2",
+                                                                          "pfic_word":  "Analyze Failure",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "Hippocampus",
+                                                                                                                                 "SCN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                       "processing_style":  "Analysis"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The team collectively replays the memory of the past failure (DMN/Hippo) to make the flawed logic explicit.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "andrews-hanna-2014"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                         }
+                                                                      },
+                                                                      {
+                                                                          "step":  "T3",
+                                                                          "pfic_word":  "Generate Anew",
+                                                                          "neurocognitive_state":  {
+                                                                                                       "dominant_networks":  [
+                                                                                                                                 "DMN",
+                                                                                                                                 "ECN"
+                                                                                                                             ],
+                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                       "processing_style":  "Constrained Ideation"
+                                                                                                                                   }
+                                                                                                   },
+                                                                          "validation_and_credibility":  {
+                                                                                                             "key_neuroscientific_principle":  "The DMN is engaged for divergent thinking, but now operates under the new constraint held in working memory by the ECN, forcing it to find novel pathways.",
+                                                                                                             "supporting_evidence":  {
+                                                                                                                                         "citation_id":  "beaty-2016"
+                                                                                                                                     },
+                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                         }
+                                                                      }
+                                                                  ]
+                                                 }
+                                             ]
+                            },
+    "frameworkImplications":  {
+                                  "title":  "Strategic Role",
+                                  "icon":  "fas fa-chess-board",
+                                  "summary":  "This tool is the divergent peak of the framework, a necessary injection of \u0027creative chaos\u0027 to escape local maxima and discover novel solutions.",
+                                  "points":  [
+                                                 "**The Mechanism for Innovation:** The quality and diversity of the options generated here often determine the project\u0027s ultimate potential for breakthrough success.",
+                                                 "**Enables Cognitive Flexibility:** It provides a structured process for temporarily suspending the brain\u0027s critical filters (ECN), allowing for more associative and creative thought (DMN).",
+                                                 "**Requires Environment of Open Communication:** The facilitator\u0027s primary job is to act as a social-emotional regulator, protecting the team from premature judgment and enabling creative risk-taking."
+                                             ]
+                              },
+    "summary":  [
+                    {
+                        "content":  "To generate a **diverse portfolio of possibilities** by temporarily suspending judgment and engaging associative thinking.\n\n##### Practitioner Actions\n\n**Diverge:** Generate a high volume of ideas (quantity over quality).\n**Reframe:** Shift perspective using analogies or constraints.\n**Defer Judgment:** Explicitly separate the act of creation from the act of criticism.",
+                        "title":  "Objective \u0026 Actions"
+                    },
+                    {
+                        "content":  "**Inhibition of Control:** The Executive Control Network (ECN) must relax its filter to allow the Default Mode Network (DMN) to associate freely.\n**Combinatorial Play:** Novelty arises from the collision of unrelated concepts.\n**Safety:** Psychological safety is the prerequisite for cognitive risk-taking.",
+                        "title":  "Core Dynamics \u0026 Interactions"
+                    },
+                    {
+                        "human_display_content":  "##### Methodology Note\n\nThe following profile represents the cognitive state of *divergence*.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.1 | 1.0 | 0.5 | 0.5 | 0.8 | 0.5 | 2.5 | 1.5 | 2.8 | 2.0 | 4.8 | 1.2 | 1.5 | 4.5 | 2.5 |\n| **Humanities \u0026 SS.** | 1.5 | 1.5 | 0.2 | 0.2 | 1.5 | 0.2 | 4.2 | 0.5 | 1.5 | 2.5 | 4.9 | 2.5 | 2.8 | 4.2 | 3.0 |\n| **Arts \u0026 Design** | 4.5 | 2.5 | 3.0 | 2.5 | 3.5 | 3.0 | 1.5 | 0.2 | 4.0 | 1.0 | 5.0 | 4.0 | 1.5 | 5.0 | 2.0 |\n| **Business \u0026 Agile** | 3.0 | 2.5 | 1.5 | 0.5 | 1.5 | 1.0 | 3.5 | 1.0 | 2.5 | 2.0 | 4.5 | 2.0 | 4.5 | 4.0 | 2.0 |\n| **Integrated Knowledge \u0026 Ethics** | 1.5 | 2.0 | 0.5 | 0.5 | 4.0 | 0.5 | 3.0 | 0.5 | 1.5 | 2.0 | 4.5 | 3.5 | 3.0 | 4.0 | 4.0 |\n| **Pedagogy \u0026 Facil.** | 2.5 | 3.0 | 1.0 | 1.0 | 2.0 | 1.5 | 3.5 | 0.5 | 2.0 | 2.0 | 4.0 | 3.0 | 4.8 | 4.2 | 3.5 |\n\n#### Insight\n\nAcross all domains, **Associative** and **Creative** modalities spike, while **Logical** scores drop. This reflects the cognitive necessity of *transient hypofrontality*—down-regulating the executive control network to allow novel connections to form.",
+                        "title":  "Data-Driven Modality Profile",
+                        "ai_instructional_context":  {
+                                                         "key_domain_variations":  {
+
+                                                                                   }
+                                                     }
+                    }
+                ],
+    "cynefinAnalysis":  {
+                            "genotype":  {
+                                             "implications":  "Maximize diversity. Use constraints to force emergence.",
+                                             "reasoning":  "Generating novelty requires navigating the unknown. Solutions emerge from the interaction of ideas.",
+                                             "primaryDomain":  "Complex"
+                                         },
+                            "dynamic_playbook":  {
+                                                     "practitioner":  [
+                                                                          "Seek Emergence: Generate a portfolio of probes.",
+                                                                          "Avoid Best Practices: Copying won\u0027t work here.",
+                                                                          "Combine and Mutate: Treat ideas as biological entities."
+                                                                      ],
+                                                     "facilitator":  [
+                                                                         "Enforce Diversity: Homogeneous teams produce homogeneous ideas.",
+                                                                         "Protect the Weird: The outlier is often the seed.",
+                                                                         "Monitor for Coherence: Look for clusters of ideas."
+                                                                     ]
+                                                 },
+                            "phenotypes":  [
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Only generating hypotheses that fit the current model (Complicated).",
+                                                   "phenotypeName":  "Hypothesis Generation",
+                                                   "classificationAndReasoning":  "Complex: Generating novel hypotheses requires associative leaps, not just deduction.",
+                                                   "domainName":  "Science \u0026 Engineering"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Groupthink (convergence) leading to safe, boring ideas.",
+                                                   "phenotypeName":  "Ideation",
+                                                   "classificationAndReasoning":  "Complex: The \u0027killer app\u0027 is an emergent property of combining user needs and tech.",
+                                                   "domainName":  "Business \u0026 Agile"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Prematurely settling on the \u0027obvious\u0027 reading.",
+                                                   "phenotypeName":  "Rival Readings",
+                                                   "classificationAndReasoning":  "Complex: Generating multiple interpretations requires holding contradictory ideas simultaneously.",
+                                                   "domainName":  "Humanities \u0026 SS"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Judging the sketch too early, killing the emergent form.",
+                                                   "phenotypeName":  "Sketching",
+                                                   "classificationAndReasoning":  "Complex: The image emerges from the physical act of drawing; it is not pre-planned.",
+                                                   "domainName":  "Arts \u0026 Design"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Filling the silence with busy work (Complicated).",
+                                                   "phenotypeName":  "Receptive Insight",
+                                                   "classificationAndReasoning":  "Complex: Wisdom often emerges from silence and deep listening, not active thought.",
+                                                   "domainName":  "Culture \u0026 Ethics"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Over-structuring the brainstorming session.",
+                                                   "phenotypeName":  "Generative Field",
+                                                   "classificationAndReasoning":  "Complex: Creating a space where students feel safe to take risks is an emergent social dynamic.",
+                                                   "domainName":  "Pedagogy \u0026 Facilitation"
+                                               }
+                                           ]
+                        }
+}

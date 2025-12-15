@@ -1,0 +1,929 @@
+{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "version":  "2.0",
+    "parts":  {
+                  "id":  "projectCyclePlan",
+                  "title":  "Part 1: Project Cycle Plan",
+                  "tools":  [
+                                {
+                                    "toolId":  "tool1",
+                                    "title":  "Tool 1: Defining the Inquiry",
+                                    "coreChallenge":  "I feel overwhelmed by a complex problem or a vague curiosity, and I need to transform it into a focused, compelling direction.",
+                                    "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on exploration in the \u003cstrong\u003eComplex Domain\u003c/strong\u003e. Your goal is to help the user discover a compelling question, not to find an answer. Use provocations to spark curiosity.",
+                                    "keyInput":  "An initial observation, feeling, or mandate.",
+                                    "domains":  [
+                                                    {
+                                                        "domainId":  "general",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t1_gen_phenomenon",
+                                                                           "label":  "Initial Phenomenon / Anomaly:",
+                                                                           "placeholder":  "Describe the initial observation, feeling, anomaly, or nagging question that is sparking this inquiry. Don\u0027t analyze, just capture.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t1_gen_ecosystem",
+                                                                           "label":  "Stakeholder Mapping (N03):",
+                                                                           "placeholder":  "Who and what is involved in this situation? Consider all actors, not just human \u0027stakeholders.\u0027 (e.g., community members, historical figures, non-human entities like a river or an ecosystem, key texts, institutions).",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t1_gen_question",
+                                                                           "label":  "Emergent Guiding Question:",
+                                                                           "placeholder":  "Synthesize the above into a single, compelling question that will guide the rest of this project. A great guiding question is specific enough to be actionable but open enough to allow for discovery.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "science_and_engineering",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t1_sci_anomaly",
+                                                                           "label":  "Observed Anomaly / Problem:",
+                                                                           "placeholder":  "Describe the specific, observable phenomenon that deviates from the expected model or the practical problem that needs to be solved.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t1_sci_question",
+                                                                           "label":  "Falsifiable Research Question / Engineering Goal:",
+                                                                           "placeholder":  "Formulate a question that can be answered with data, or a clear, measurable goal for a new design.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "arts_and_design",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t1_art_inspiration",
+                                                                           "label":  "Source of Inspiration / Felt Pertinence:",
+                                                                           "placeholder":  "Describe the internal feeling, aesthetic experience, or external stimulus that is the spark for this creative work.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t1_art_question",
+                                                                           "label":  "Core Creative Question / Intent:",
+                                                                           "placeholder":  "What is the central question this work is exploring, or the core feeling it aims to evoke?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "humanities_and_ss",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t1_hum_source",
+                                                                           "label":  "Primary Source / Social Issue:",
+                                                                           "placeholder":  "Identify the core text, artifact, or social phenomenon at the center of the inquiry.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t1_hum_question",
+                                                                           "label":  "Emergent Interpretive Question:",
+                                                                           "placeholder":  "Formulate a question that opens up a new way of understanding the source or issue.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "business_and_agile",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t1_biz_jtbd",
+                                                                           "label":  "Customer Problem / Unmet Need (JTBD):",
+                                                                           "placeholder":  "What is the \u0027job\u0027 the customer is trying to get done? What is the core pain point or opportunity?",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t1_biz_question",
+                                                                           "label":  "Value Proposition Question:",
+                                                                           "placeholder":  "How can we create significant value for our target audience by solving their core problem?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "culture_and_ethics",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t1_eth_context",
+                                                                           "label":  "Relational Context (Whakapapa):",
+                                                                           "placeholder":  "What is this project\u0027s relationship to the community, the land, and its history?",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t1_eth_question",
+                                                                           "label":  "Question of Responsibility (Ubuntu):",
+                                                                           "placeholder":  "How does this work serve the well-being of the whole community? What does this situation ask of us?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "pedagogy_and_facilitation",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t1_ped_context",
+                                                                           "label":  "Learner Context \u0026 Prior Knowledge:",
+                                                                           "placeholder":  "Who are the learners? What do they already know, and what are their needs and interests?",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t1_ped_question",
+                                                                           "label":  "Essential Learning Question:",
+                                                                           "placeholder":  "What is the core, open-ended question that will drive the learning experience for the students?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    }
+                                                ]
+                                },
+                                {
+                                    "toolId":  "tool2",
+                                    "title":  "Tool 2: Research and Plan",
+                                    "coreChallenge":  "I have a clear question but an uncertain path. I need a reliable map to move forward with confidence and persuade others to join me.",
+                                    "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on expert analysis in the \u003cstrong\u003eComplicated Domain\u003c/strong\u003e. Your goal is to help the user build a robust and resilient map before they start their journey. The Pre-Mortem is your highest-leverage move.",
+                                    "keyInput":  "The Emergent Guiding Question from Tool 1.",
+                                    "domains":  [
+                                                    {
+                                                        "domainId":  "general",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t2_gen_success",
+                                                                           "label":  "Definition of Success / DoD (N09):",
+                                                                           "placeholder":  "What does a successful outcome look like? List clear, measurable, and objective criteria. This is your destination. (e.g., \u0027The prototype can successfully complete task X in under 30 seconds.\u0027)",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t2_gen_research",
+                                                                           "label":  "Contextual Research Summary:",
+                                                                           "placeholder":  "Summarize key findings from your background research (e.g., literature review, competitive analysis, historical survey). What is the known terrain? What are the key precedents?",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t2_gen_risks",
+                                                                           "label":  "Risk Analysis (Pre-Mortem - N11):",
+                                                                           "placeholder":  "Imagine the project has failed. What went wrong? List potential obstacles, failure modes, or counterarguments. How will you mitigate them?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "science_and_engineering",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t2_sci_litreview",
+                                                                           "label":  "Literature Review Summary:",
+                                                                           "placeholder":  "What is the current state of knowledge in the field? What are the key papers and established findings? What is the primary gap this research will address?",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t2_sci_design",
+                                                                           "label":  "Experimental Design Overview:",
+                                                                           "placeholder":  "What is the proposed method for testing the hypothesis? What are the independent/dependent variables, controls, and key measurements?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "humanities_and_ss",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t2_hum_context",
+                                                                           "label":  "Historiography / Theoretical Context:",
+                                                                           "placeholder":  "What is the scholarly conversation surrounding this topic? What are the major schools of thought and key debates?",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t2_hum_thesis",
+                                                                           "label":  "Thesis Statement / Core Argument:",
+                                                                           "placeholder":  "State your provisional, central claim that the project will defend. It should be specific, arguable, and significant.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "arts_and_design",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t2_art_brief",
+                                                                           "label":  "Creative Brief:",
+                                                                           "placeholder":  "Define the project\u0027s goals, target audience, tone, and message. What is the single most important thing you want the audience to feel or think?",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t2_art_refs",
+                                                                           "label":  "References \u0026 Constraints (N12):",
+                                                                           "placeholder":  "What existing works serve as key references? What are the formal constraints (e.g., medium, budget, timeline, color palette) that will guide the work?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "business_and_agile",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t2_biz_goal",
+                                                                           "label":  "Sprint Goal / Project Objective:",
+                                                                           "placeholder":  "What is the single, measurable objective for this work cycle? (e.g., \u0027Increase user sign-ups by 10% by launching the new onboarding flow.\u0027)",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t2_biz_dod",
+                                                                           "label":  "Definition of Done (DoD):",
+                                                                           "placeholder":  "What is the shared checklist of criteria that must be met for the work to be considered complete? (e.g., \u0027Code reviewed, all tests passing, deployed to staging, PO approved.\u0027)",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "culture_and_ethics",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t2_eth_principles",
+                                                                           "label":  "Guiding Principles / Values:",
+                                                                           "placeholder":  "What are the non-negotiable ethical principles that will guide all decisions in this project? (e.g., \u0027We will prioritize community safety over engagement metrics.\u0027)",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t2_eth_flow",
+                                                                           "label":  "Alignment with the \u0027Flow\u0027 (Strategic Alignment):",
+                                                                           "placeholder":  "Where is the energy and momentum in the system? How can this plan align with existing currents rather than fighting against them?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "pedagogy_and_facilitation",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t2_ped_objectives",
+                                                                           "label":  "Learning Objectives \u0026 Success Criteria:",
+                                                                           "placeholder":  "What will learners be able to do at the end of this experience? (e.g., \u0027Students will be able to analyze a primary source for bias.\u0027) How will we measure that success?",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t2_ped_scaffold",
+                                                                           "label":  "Scaffolding Plan:",
+                                                                           "placeholder":  "What temporary supports (e.g., templates, models, sentence starters) will be provided to reduce cognitive load and support learners in completing the task?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    }
+                                                ]
+                                },
+                                {
+                                    "toolId":  "tool3",
+                                    "title":  "Tool 3: Generate Options",
+                                    "coreChallenge":  "I\u0027m stuck on my first, obvious idea. I need to break free and discover a wider range of innovative possibilities.",
+                                    "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on divergent thinking in the \u003cstrong\u003eComplex Domain\u003c/strong\u003e. Your goal is to create a psychologically safe space for generating a high quantity of ideas. Defer all judgment.",
+                                    "keyInput":  "A clear Guiding Question and an understanding of the constraints from Tool 2.",
+                                    "domains":  [
+                                                    {
+                                                        "domainId":  "general",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t3_gen_prompt",
+                                                                           "label":  "Generative Prompt:",
+                                                                           "placeholder":  "Frame your core challenge as a generative question. (e.g., A \u0027How Might We...\u0027 question for design, a \u0027Testable Hypothesis\u0027 for science, a \u0027Core Interpretive Problem\u0027 for humanities.)",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t3_gen_portfolio",
+                                                                           "label":  "Portfolio of Possibilities:",
+                                                                           "placeholder":  "Document at least 2-3 distinct and viable options, concepts, or hypotheses that respond to your prompt. Focus on capturing the essence of each possibility. Do not critique or evaluate them yet.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "science_and_engineering",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t3_sci_hypotheses",
+                                                                           "label":  "Rival Hypotheses:",
+                                                                           "placeholder":  "Generate at least three distinct, plausible, and structurally different hypotheses to explain the phenomenon. Treat all three as equal rivals.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t3_sci_analogy",
+                                                                           "label":  "First-Principles Thinking:",
+                                                                           "placeholder":  "Deconstruct the problem into its fundamental scientific truths. What are the absolute, unchangeable facts? Generate a solution from this foundation, ignoring current conventions.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "humanities_and_ss",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t3_hum_rival",
+                                                                           "label":  "Rival Readings / Interpretations (N17):",
+                                                                           "placeholder":  "Generate multiple, competing interpretations of the text or phenomenon. \u0027Steelman\u0027 the strongest version of the opposing argument.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t3_hum_deconstruct",
+                                                                           "label":  "Deconstruction:",
+                                                                           "placeholder":  "Identify an unstable binary opposition in the text (e.g., nature/culture). How does the text undermine its own logic? What hidden ideology does this reveal?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "arts_and_design",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t3_art_sketch",
+                                                                           "label":  "Divergent Sketching:",
+                                                                           "placeholder":  "Generate a high volume of quick, low-fidelity sketches or variations. Go for quantity over quality. Set a timer and a high quota (e.g., 20 sketches in 10 minutes).",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t3_art_scamper",
+                                                                           "label":  "Transformative Operations (SCAMPER):",
+                                                                           "placeholder":  "Apply a transformative operation to an existing idea: Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "business_and_agile",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t3_biz_hmw",
+                                                                           "label":  "User-Centered Ideation (HMW - N15):",
+                                                                           "placeholder":  "Frame the user\u0027s problem as a \u0027How Might We...\u0027 question. Run a silent brainstorming session to generate a high volume of potential solutions.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t3_biz_model",
+                                                                           "label":  "Business Model Variations:",
+                                                                           "placeholder":  "Use the Business Model Canvas to brainstorm variations on each component (e.g., revenue stream, channels, customer segments).",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "culture_and_ethics",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t3_eth_receptive",
+                                                                           "label":  "Receptive Insight / Incubation (N19):",
+                                                                           "placeholder":  "After a period of focused work, step away. Engage in a low-cognitive-load activity (e.g., walking, gardening) and be prepared to capture emergent ideas.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t3_eth_council",
+                                                                           "label":  "Dialogic Path (Council - N65):",
+                                                                           "placeholder":  "Convene a diverse circle around a single, powerful, generative question. Use a formal protocol (e.g., a \u0027talking piece\u0027) to ensure deep listening and allow collective integrated knowledge to emerge.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "pedagogy_and_facilitation",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t3_ped_field",
+                                                                           "label":  "Facilitating a Generative Field:",
+                                                                           "placeholder":  "How will you establish and protect psychological safety? What structured technique (e.g., silent brainwriting, 1-2-4-All) will you use to ensure equitable participation?",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t3_ped_constraint",
+                                                                           "label":  "Designing a Generative Constraint:",
+                                                                           "placeholder":  "What focused, open-ended prompt or constraint will you provide to the group to guide their brainstorming? (e.g., \u0027How might we solve this with no technology?\u0027 or \u0027What if our only material was cardboard?\u0027)",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    }
+                                                ]
+                                },
+                                {
+                                    "toolId":  "tool4",
+                                    "title":  "Tool 4: Select a Course of Action",
+                                    "coreChallenge":  "My team is overwhelmed by too many good options. We need to make a clear, confident, and defensible decision to move forward.",
+                                    "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on convergent thinking in the \u003cstrong\u003eComplicated Domain\u003c/strong\u003e. Make a clear, committed, and defensible decision. Crucially, first decide *how* you will decide.",
+                                    "keyInput":  "A portfolio of distinct possibilities from Tool 3.",
+                                    "domains":  [
+                                                    {
+                                                        "domainId":  "general",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t4_gen_method",
+                                                                           "label":  "Decision-Making Method:",
+                                                                           "placeholder":  "How will you make this choice? State your method clearly. (e.g., Analytical scoring against criteria from Tool 2, intuitive aesthetic judgment, group consensus, testing the riskiest assumption first.)",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t4_gen_decision",
+                                                                           "label":  "Documented Decision \u0026 Rationale:",
+                                                                           "placeholder":  "State the final chosen path (e.g., \u0027We will proceed with Hypothesis B\u0027). Justify the choice based on your selected method (e.g., \u0027...as it scored highest on our RICE analysis\u0027).",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t4_gen_tradeoffs",
+                                                                           "label":  "Acknowledged Trade-offs / Scope Reduction:",
+                                                                           "placeholder":  "What are we explicitly choosing NOT to do right now? What potential benefits, values, or alternative paths are we giving up by making this choice?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "science_and_engineering",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t4_sci_method",
+                                                                           "label":  "Decision Method (e.g., Trade Study - N53):",
+                                                                           "placeholder":  "Systematically score technical alternatives against a weighted set of criteria (e.g., performance, cost, risk) to make a transparent and justifiable selection.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t4_sci_decision",
+                                                                           "label":  "Selected Hypothesis / Solution:",
+                                                                           "placeholder":  "State the selected hypothesis for testing or the chosen technical solution for development.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "humanities_and_ss",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t4_hum_stance",
+                                                                           "label":  "Commitment to an Interpretive Stance (N55):",
+                                                                           "placeholder":  "Make a deliberate choice to analyze the subject through a specific theoretical lens (e.g., Marxist, post-colonial), acknowledging the stakes and trade-offs of that perspective.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t4_hum_thesis",
+                                                                           "label":  "Final Thesis Statement:",
+                                                                           "placeholder":  "State the final, committed thesis statement that will be defended throughout the rest of the work.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "arts_and_design",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t4_art_judgment",
+                                                                           "label":  "Aesthetic Judgment (N58):",
+                                                                           "placeholder":  "Select a creative direction by trusting your intuitive, embodied \u0027felt sense\u0027 of rightness, then articulate the principle behind that choice. (e.g., \u0027Option C feels more honest and aligns with our core intent.\u0027)",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t4_art_decision",
+                                                                           "label":  "Selected Creative Direction:",
+                                                                           "placeholder":  "Describe the chosen creative concept that will be developed into a final work.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "business_and_agile",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t4_biz_method",
+                                                                           "label":  "Prioritization Method (e.g., RICE):",
+                                                                           "placeholder":  "Use a prioritization framework (e.g., RICE: Reach, Impact, Confidence, Effort) to score options. Make a feature cut to decide what will not be built.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t4_biz_decision",
+                                                                           "label":  "Go/No-Go Decision / Sized Bet (N62):",
+                                                                           "placeholder":  "Make a formal Go/No-Go decision on the project, or \u0027size the bet\u0027 by deciding on a proportional investment of time and resources for the next experiment.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "culture_and_ethics",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t4_eth_discernment",
+                                                                           "label":  "Value-Based Judgment / Value-Based Judgment (N64):",
+                                                                           "placeholder":  "Use a contemplative process of quiet reflection to determine the course of action most aligned with the core values defined in Tool 2.",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t4_eth_decision",
+                                                                           "label":  "Resolution of Ethical Dilemma (N56):",
+                                                                           "placeholder":  "Use competing ethical frameworks (e.g., consequentialist vs. deontological) to analyze the decision and make a justified choice, acknowledging any \u0027ethical remainder\u0027.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "pedagogy_and_facilitation",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t4_ped_choice",
+                                                                           "label":  "Curricular Choice / Differentiated Plan (N67):",
+                                                                           "placeholder":  "Select a pedagogical strategy that is in the \u0027Zone of Proximal Development.\u0027 Decide whether to create multiple pathways to the same learning goal (differentiated instruction).",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t4_ped_triage",
+                                                                           "label":  "Triage Feedback (N69):",
+                                                                           "placeholder":  "Sort feedback into \u0027global\u0027 (structural) and \u0027local\u0027 (surface) issues, then prioritize the single most impactful revision for the learner to focus on.",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    }
+                                                ]
+                                },
+                                {
+                                    "toolId":  "tool5",
+                                    "title":  "Tool 5: Structure the Solution",
+                                    "coreChallenge":  "My idea is clear in my head, but messy to explain. I need to translate it into a simple, shareable plan so my team can build it correctly.",
+                                    "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on translating the chosen concept into a detailed, communicable blueprint. Your goal is to eliminate ambiguity. This is expert work in the \u003cstrong\u003eComplicated Domain\u003c/strong\u003e.",
+                                    "keyInput":  "The documented decision from Tool 4.",
+                                    "domains":  [
+                                                    {
+                                                        "domainId":  "general",
+                                                        "fields":  [
+                                                                       {
+                                                                           "id":  "t5_gen_artifact",
+                                                                           "label":  "Artifact Type:",
+                                                                           "placeholder":  "What kind of plan is this? (e.g., Experimental Protocol, Argument Outline, Storyboard, Technical Specification, Musical Score)",
+                                                                           "type":  "textarea"
+                                                                       },
+                                                                       {
+                                                                           "id":  "t5_gen_plan",
+                                                                           "label":  "Work Breakdown Structure (N24):",
+                                                                           "placeholder":  "Create the detailed, communicable plan. Decompose the project into a sequence of logical steps, a map of an emotional journey, or a set of rules for a system. Think like the person who will execute this: What needs to be explicit?",
+                                                                           "type":  "textarea"
+                                                                       }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "domainId":  "science_and_engineering",
+                                                        "fields":  {
+                                                                       "id":  "t5_sci_protocol",
+                                                                       "label":  "Experimental Protocol (N21) / Technical Spec (N25):",
+                                                                       "placeholder":  "Create a detailed, step-by-step plan for conducting the experiment, including variables, controls, and measurement procedures. Or, write a formal technical specification for the product.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "humanities_and_ss",
+                                                        "fields":  {
+                                                                       "id":  "t5_hum_outline",
+                                                                       "label":  "Argument Map (N22) / Outline:",
+                                                                       "placeholder":  "Visually structure the argument by mapping claims, evidence, and warrants. Translate this map into a linear outline for the paper, with a clear topic sentence for each paragraph.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "arts_and_design",
+                                                        "fields":  {
+                                                                       "id":  "t5_art_storyboard",
+                                                                       "label":  "Storyboard (N23) / Score / Maquette:",
+                                                                       "placeholder":  "Create a sequence of visual panels to plan a narrative or user journey. Or, write a musical score. Or, build a small-scale physical model (maquette).",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "business_and_agile",
+                                                        "fields":  {
+                                                                       "id":  "t5_biz_backlog",
+                                                                       "label":  "Sprint Backlog / User Story Map:",
+                                                                       "placeholder":  "Create a Work Breakdown Structure by decomposing the project into smaller tasks. Organize these tasks into a prioritized sprint backlog or a user story map.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "culture_and_ethics",
+                                                        "fields":  {
+                                                                       "id":  "t5_eth_narrative",
+                                                                       "label":  "Narrative Structuring / Ritual Design:",
+                                                                       "placeholder":  "Structure knowledge through storytelling. Or, design the steps of a ritual or ceremony that will embody the project\u0027s principles, including who does what, when, and why.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "pedagogy_and_facilitation",
+                                                        "fields":  {
+                                                                       "id":  "t5_ped_lessonplan",
+                                                                       "label":  "Lesson Plan / Heuristic Design:",
+                                                                       "placeholder":  "Create a detailed lesson plan with a sequence of activities, timings, and materials. Or, design a simple heuristic or template that will act as a cognitive scaffold for learners.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    }
+                                                ]
+                                },
+                                {
+                                    "toolId":  "tool6",
+                                    "title":  "Tool 6: Execute the Plan",
+                                    "coreChallenge":  "I\u0027m tired of planning and just want to build something. I need to get into a state of focused, productive flow.",
+                                    "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on the \u0027doing\u0027 phase, which can be \u003cstrong\u003eClear\u003c/strong\u003e (if the plan is perfect) or \u003cstrong\u003eComplex\u003c/strong\u003e (if reality provides unexpected feedback). The goal is to transform the theoretical plan into embodied knowledge through a dialogue with the material world.",
+                                    "keyInput":  "A detailed, communicable plan or blueprint from Tool 5.",
+                                    "domains":  [
+                                                    {
+                                                        "domainId":  "general",
+                                                        "fields":  {
+                                                                       "id":  "t6_gen_iteration",
+                                                                       "label":  "Plan for First Iteration:",
+                                                                       "placeholder":  "Describe the plan for creating the first tangible version of the work (e.g., a working prototype, a first draft, collected data). What is the smallest, most valuable piece to execute first?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "science_and_engineering",
+                                                        "fields":  {
+                                                                       "id":  "t6_sci_execution",
+                                                                       "label":  "Execution Plan (Experiment / Build - N26, N28):",
+                                                                       "placeholder":  "Plan the execution of the experiment according to the protocol. Or, plan the build of the first functional prototype.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "humanities_and_ss",
+                                                        "fields":  {
+                                                                       "id":  "t6_hum_execution",
+                                                                       "label":  "Execution Plan (Drafting / Fieldwork - N27, N29):",
+                                                                       "placeholder":  "Plan the writing of the first full draft. Or, plan the logistics and ethics of conducting fieldwork.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "arts_and_design",
+                                                        "fields":  {
+                                                                       "id":  "t6_art_execution",
+                                                                       "label":  "Execution Plan (Fabrication / Rehearsal - N30):",
+                                                                       "placeholder":  "Plan the physical fabrication of the work. Or, schedule and structure a series of rehearsals.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "business_and_agile",
+                                                        "fields":  {
+                                                                       "id":  "t6_biz_execution",
+                                                                       "label":  "Sprint Execution Plan:",
+                                                                       "placeholder":  "Plan the execution of the sprint backlog to produce a \u0027potentially shippable increment\u0027 of the product.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "culture_and_ethics",
+                                                        "fields":  {
+                                                                       "id":  "t6_eth_execution",
+                                                                       "label":  "Execution Plan (Focused, Present-Moment Action / Ceremony):",
+                                                                       "placeholder":  "Plan the enactment of the work as a mindful practice or a ceremonial performance that renews cultural bonds.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "pedagogy_and_facilitation",
+                                                        "fields":  {
+                                                                       "id":  "t6_ped_execution",
+                                                                       "label":  "Coaching / Tutoring Plan:",
+                                                                       "placeholder":  "Plan how you will act as a \u0027guide on the side,\u0027 observing performance and providing targeted, minimal interventions to support learners.",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    }
+                                                ]
+                                },
+                                {
+                                    "toolId":  "tool7",
+                                    "title":  "Tool 7: Analyze and Revise",
+                                    "coreChallenge":  "I know my work isn’t perfect, but I’m too close to see its flaws. I need to transform painful criticism into a clear, actionable plan for improvement.",
+                                    "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on the plan for the feedback loop, which is a diagnostic process in the \u003cstrong\u003eComplicated Domain\u003c/strong\u003e. How will the first iteration be analyzed and refined?",
+                                    "keyInput":  "A tangible first iteration of the work from Tool 6.",
+                                    "domains":  [
+                                                    {
+                                                        "domainId":  "general",
+                                                        "fields":  {
+                                                                       "id":  "t7_gen_feedback",
+                                                                       "label":  "Feedback \u0026 Analysis Plan:",
+                                                                       "placeholder":  "How will feedback be gathered on the first iteration? (e.g., Peer critique, user testing, data analysis). What is the plan for synthesizing this feedback into a revision plan?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "science_and_engineering",
+                                                        "fields":  {
+                                                                       "id":  "t7_sci_analysis",
+                                                                       "label":  "Data Analysis / Root Cause Analysis (RCA):",
+                                                                       "placeholder":  "What statistical methods will be used to analyze the data? What is the plan for debugging the prototype and finding the root cause of errors?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "humanities_and_ss",
+                                                        "fields":  {
+                                                                       "id":  "t7_hum_revision",
+                                                                       "label":  "Revision / Counterargument Plan (N36):",
+                                                                       "placeholder":  "How will the first draft be revised based on feedback? What is the plan for anticipating and addressing potential counterarguments?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "arts_and_design",
+                                                        "fields":  {
+                                                                       "id":  "t7_art_critique",
+                                                                       "label":  "Critique / Iteration Plan (N34, N37):",
+                                                                       "placeholder":  "What structured protocol will be used for peer critique? What is the plan for creating multiple variations to refine the work\u0027s aesthetic qualities?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "business_and_agile",
+                                                        "fields":  {
+                                                                       "id":  "t7_biz_qa",
+                                                                       "label":  "Validation Plan (QA, UAT, User Testing):",
+                                                                       "placeholder":  "What is the plan for systematically testing the product to find bugs (QA)? How will an internal review be conducted? How will you test it with real users (User Acceptance Testing)?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "culture_and_ethics",
+                                                        "fields":  {
+                                                                       "id":  "t7_eth_listening",
+                                                                       "label":  "Non-defensive listening / Self-Inquiry Plan:",
+                                                                       "placeholder":  "What is the plan for receiving feedback with open, non-judgmental attention? How will you use moments of friction as a trigger for self-inquiry?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "pedagogy_and_facilitation",
+                                                        "fields":  {
+                                                                       "id":  "t7_ped_feedback",
+                                                                       "label":  "Constructive Feedback Plan:",
+                                                                       "placeholder":  "How will you frame feedback to be constructive and psychologically safe? How will you guide learners to synthesize feedback into their own revision plan?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    }
+                                                ]
+                                },
+                                {
+                                    "toolId":  "tool8",
+                                    "title":  "Tool 8: Present for Assessment",
+                                    "coreChallenge":  "I\u0027m facing a high-stakes moment of judgment. I need to successfully demonstrate the value of my work to get the validation I need.",
+                                    "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on the plan for the final validation, which is a social reality test in the \u003cstrong\u003eComplex Domain\u003c/strong\u003e. Who is the authentic audience or \u0027jury\u0027, and how will the work be presented to them for summative assessment?",
+                                    "keyInput":  "A revised and refined artifact from Tool 7.",
+                                    "domains":  [
+                                                    {
+                                                        "domainId":  "general",
+                                                        "fields":  {
+                                                                       "id":  "t8_gen_validation",
+                                                                       "label":  "Validation Event Plan:",
+                                                                       "placeholder":  "Describe the final presentation or submission event. Who is the audience/jury? What are the specific criteria for success they will use? (e.g., Thesis defense, product launch, juried exhibition, peer review submission).",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "science_and_engineering",
+                                                        "fields":  {
+                                                                       "id":  "t8_sci_validation",
+                                                                       "label":  "Validation Plan (Peer Review / Replication - N38):",
+                                                                       "placeholder":  "What is the plan for submitting the work for formal peer review? Is there a plan to collaborate with another lab for replication?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "humanities_and_ss",
+                                                        "fields":  {
+                                                                       "id":  "t8_hum_validation",
+                                                                       "label":  "Validation Plan (Defense / Publication - N38):",
+                                                                       "placeholder":  "What is the plan for the dissertation defense? Which journals will the manuscript be submitted to for publication?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "arts_and_design",
+                                                        "fields":  {
+                                                                       "id":  "t8_art_validation",
+                                                                       "label":  "Validation Plan (Exhibition / Juried Review - N40):",
+                                                                       "placeholder":  "Where will the work be exhibited? Which juried reviews or competitions will it be submitted to?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "business_and_agile",
+                                                        "fields":  {
+                                                                       "id":  "t8_biz_validation",
+                                                                       "label":  "Validation Plan (Sprint Review / Launch - N39):",
+                                                                       "placeholder":  "What is the plan for the stakeholder sprint review? What are the key metrics that will define a successful product launch?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "culture_and_ethics",
+                                                        "fields":  {
+                                                                       "id":  "t8_eth_validation",
+                                                                       "label":  "Validation Plan (Community Accountability - N41):",
+                                                                       "placeholder":  "How will the work be presented to community leaders or elders for their formal approval? How will you ensure they have genuine authority in the validation process?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "pedagogy_and_facilitation",
+                                                        "fields":  {
+                                                                       "id":  "t8_ped_validation",
+                                                                       "label":  "Summative Assessment Plan:",
+                                                                       "placeholder":  "What is the final, summative assessment for this learning experience? What rubric will be used, and how will the judgment be delivered in a fair and justified way?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    }
+                                                ]
+                                },
+                                {
+                                    "toolId":  "tool9",
+                                    "title":  "Tool 9: Synthesize Learnings",
+                                    "coreChallenge":  "The project is over. How do I extract the timeless integrated knowledge from this specific experience so I can become smarter for the future?",
+                                    "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on the plan for ensuring learning endures. How will the team\u0027s experience be transformed into transferable integrated knowledge? This is an analytical process in the \u003cstrong\u003eComplicated Domain\u003c/strong\u003e.",
+                                    "keyInput":  "Documented validation and feedback from Tool 8.",
+                                    "domains":  [
+                                                    {
+                                                        "domainId":  "general",
+                                                        "fields":  {
+                                                                       "id":  "t9_gen_synthesis",
+                                                                       "label":  "Synthesis \u0026 Stewardship Plan:",
+                                                                       "placeholder":  "What is the plan for synthesizing the project\u0027s key learnings? (e.g., A formal retrospective, writing a playbook, designing a transfer task). What is the plan for the work\u0027s long-term legacy and stewardship?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "science_and_engineering",
+                                                        "fields":  {
+                                                                       "id":  "t9_sci_synthesis",
+                                                                       "label":  "Synthesis Plan (Generalizable Model - N43):",
+                                                                       "placeholder":  "How will the specific findings be abstracted into a broader theoretical model? What new, compelling questions does this work now allow you to ask?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "humanities_and_ss",
+                                                        "fields":  {
+                                                                       "id":  "t9_hum_synthesis",
+                                                                       "label":  "Synthesis Plan (Theoretical Contribution):",
+                                                                       "placeholder":  "How will this work contribute to or reframe the existing scholarly debate? What is the plan for archiving research materials for future scholars?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "arts_and_design",
+                                                        "fields":  {
+                                                                       "id":  "t9_art_synthesis",
+                                                                       "label":  "Synthesis Plan (New Aesthetic / Series - N46):",
+                                                                       "placeholder":  "How can this work serve as the foundation for a new series or the codification of a new aesthetic? What is the plan for documenting the process for future curators?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "business_and_agile",
+                                                        "fields":  {
+                                                                       "id":  "t9_biz_synthesis",
+                                                                       "label":  "Synthesis Plan (Playbook / Scaling - N45):",
+                                                                       "placeholder":  "How will the successful processes from this project be codified into a repeatable playbook? What is the plan for scaling the product or service?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "culture_and_ethics",
+                                                        "fields":  {
+                                                                       "id":  "t9_eth_synthesis",
+                                                                       "label":  "Synthesis Plan (Teaching Story / Stewardship - N47):",
+                                                                       "placeholder":  "How will the project\u0027s lessons be synthesized into a memorable \u0027teaching story\u0027? What is the long-term stewardship plan for the work\u0027s impact on the community?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    },
+                                                    {
+                                                        "domainId":  "pedagogy_and_facilitation",
+                                                        "fields":  {
+                                                                       "id":  "t9_ped_synthesis",
+                                                                       "label":  "Synthesis Plan (Designing for Transfer - N49):",
+                                                                       "placeholder":  "How will you guide learners to abstract general principles from their experience? What new \u0027transfer task\u0027 will you design to assess if they can apply these principles in a novel context?",
+                                                                       "type":  "textarea"
+                                                                   }
+                                                    }
+                                                ]
+                                },
+                                {
+                                    "toolId":  "tool10",
+                                    "title":  "Tool 10: Manage the Workflow",
+                                    "coreChallenge":  "My team is stuck, arguing, or inefficient. I need to diagnose the problem with our process and find a clear intervention to get us back on track.",
+                                    "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on self-regulation. Use this log when the team enters a state of \u003cstrong\u003eDisorder\u003c/strong\u003e. Your goal is to diagnose the process friction and make a deliberate intervention.",
+                                    "keyInput":  "A feeling of being \u0027stuck\u0027 or a breakdown in the process.",
+                                    "domains":  {
+                                                    "domainId":  "general",
+                                                    "fields":  {
+                                                                   "id":  "t10_gen_log",
+                                                                   "label":  "Process Intervention Log (N44):",
+                                                                   "placeholder":  "e.g., Sticking Point: Team arguing in circles during Tool 4. Intervention: Paused debate, introduced a prioritization matrix. Outcome: Decision was made quickly. We learned to use the right tool for the job.",
+                                                                   "type":  "textarea"
+                                                               }
+                                                }
+                                }
+                            ]
+              }
+}
