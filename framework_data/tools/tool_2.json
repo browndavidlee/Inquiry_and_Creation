@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -73,7 +73,7 @@
                     },
                     {
                         "title":  "Concept Cloud",
-                        "content":  "Blueprint, Constraints, Consultation, Contextual Analysis, Creative Brief, Definition of Done, Deliberation, Effortless Action, Framework, Instruction, Leverage Points, Literature Review, Map, Modeling, Orientation, Patterning, Prospective Hindsight, Purpose, Reciprocity, Research, Roadmap, Scaffolding, Scope, Sprint Goal, Strategy, Study, Thesis Statement, Wayfinding"
+                        "content":  "Blueprint, Constraints, Consultation, Contextual Analysis, Creative Brief, Definition of Done, Deliberation, Effortless Action, Framework, Instruction, Leverage Points, Literature Review, Map, Modeling, Orientation, Patterning, Prospective Hindsight, Purpose, Reciprocity, Research, Roadmap, Scaffolding, Scope, Sprint Goal, Strategy, Study, Thesis Statement, Wayfinding, Pre-Mortem, Unknowns Matrix, Capacity"
                     },
                     {
                         "title":  "Core Modalities",

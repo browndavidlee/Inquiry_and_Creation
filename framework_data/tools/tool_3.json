@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -1075,6 +1075,10 @@
 
                                                                                    }
                                                      }
+                    },
+                    {
+                        "title":  "Concept Cloud",
+                        "content":  "Abduction, Analogy, Bodystorming, Brainstorming, Co-Creation, Conception, Creativity, Divergence, Emergence, Exaptation, Expression, Generation, Guide: Facilitation, How Might We, Hypothesis, Ideation, Incubation, Intuition, Invention, Play, Possibility, Environment of Open Communication, Rival Readings, SCAMPER, Sketching, Steelmanning, User Story, Psychological Safety, Combinatorial Play, Enabling Constraints"
                     }
                 ],
     "cynefinAnalysis":  {

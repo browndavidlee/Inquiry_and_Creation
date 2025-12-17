@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -885,6 +885,138 @@
                                                 "theory":  "Definition: Integrated Knowledge is the integrated knowledge of what actions lead to flourishing. Procedural Link: The action is to aim for the integrated knowledge of what actions lead to collective flourishing and long-term resilience.",
                                                 "specific_deliverable":  "A Legacy Statement.",
                                                 "rubric":  "Integrated knowledge."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.21",
+                         "name":  "Schema",
+                         "integrated_deliverable":  "A Mental Model Diagram.",
+                         "scenario":  "Realizing that \u0027more features\u0027 does not equal \u0027more value\u0027.",
+                         "theory_application":  "Update the fundamental mental structure or framework used to interpret the world based on the new evidence from the project.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Jean Piaget - The Psychologist",
+                                                "theory":  "Definition: Accommodation is altering existing schemas to fit new information. Procedural Link: The action is to redraw the model of the atom (or system) to account for the new data.",
+                                                "specific_deliverable":  "A Revised Model.",
+                                                "rubric":  "Alters model to fit new data."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Peter Senge - The Systems Thinker",
+                                                "theory":  "Definition: Mental Models determine how we act. Procedural Link: The action is to explicitly state the old belief (\u0027Customers want cheap\u0027) and the new belief (\u0027Customers want fast\u0027).",
+                                                "specific_deliverable":  "A Belief Shift Table.",
+                                                "rubric":  "States old vs. new belief."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Archaeologist",
+                                                "theory":  "Definition: Episteme is the unconscious structure of knowledge. Procedural Link: The action is to identify the underlying assumption that made the previous error possible.",
+                                                "specific_deliverable":  "An Epistemic Audit.",
+                                                "rubric":  "Identifies underlying assumption."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Style - The Historian",
+                                                "theory":  "Definition: Style is a coherent system of forms. Procedural Link: The action is to define the new set of rules (e.g., \u0027No straight lines\u0027) that will govern the next body of work.",
+                                                "specific_deliverable":  "A Style Manifesto.",
+                                                "rubric":  "Defines new formal rules."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paradigm Shift - The Activist",
+                                                "theory":  "Definition: Shifting the window of discourse. Procedural Link: The action is to articulate the new social norm that the project has established.",
+                                                "specific_deliverable":  "A New Norm Statement.",
+                                                "rubric":  "Articulates new social norm."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.22",
+                         "name":  "Unlearning",
+                         "integrated_deliverable":  "A Deprecation Notice.",
+                         "scenario":  "A team realizing their \u0027Agile\u0027 process has become bureaucratic.",
+                         "theory_application":  "Consciously discard obsolete knowledge, habits, or processes that are no longer effective, creating space for new learning.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Thomas Kuhn - The Revolutionary",
+                                                "theory":  "Definition: Paradigm shifts require the destruction of the old model. Procedural Link: The action is to explicitly list the theories or methods that are now considered \u0027disproven\u0027 and must be abandoned.",
+                                                "specific_deliverable":  "A Disproven Theory List.",
+                                                "rubric":  "Lists theories to abandon."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Barry O\u0027Reilly - The Consultant",
+                                                "theory":  "Definition: Unlearning is the process of letting go of past success formulas. Procedural Link: The action is to stop doing a report or meeting that used to add value but is now waste.",
+                                                "specific_deliverable":  "A \u0027Stop Doing\u0027 List.",
+                                                "rubric":  "Identifies successful habits to stop."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Gayatri Spivak - The Theorist",
+                                                "theory":  "Definition: Unlearning privilege. Procedural Link: The action is to critically examine and discard the colonial or patriarchal assumptions that shaped the initial inquiry.",
+                                                "specific_deliverable":  "A Bias Renunciation.",
+                                                "rubric":  "Discards specific biased assumptions."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Picasso - The Modernist",
+                                                "theory":  "Definition: \u0027It took me a lifetime to paint like a child.\u0027 Procedural Link: The action is to consciously break a technical habit (e.g., perfect perspective) to regain expressiveness.",
+                                                "specific_deliverable":  "A Habit Breaker Exercise.",
+                                                "rubric":  "Breaks a technical habit."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Zen - The Master",
+                                                "theory":  "Definition: Shoshin (Beginner\u0027s Mind). Procedural Link: The action is to empty the cup—to let go of the status of \u0027expert\u0027 to approach the next problem with humility.",
+                                                "specific_deliverable":  "A Beginner\u0027s Mind Ritual.",
+                                                "rubric":  "Relinquishes expert status."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.23",
+                         "name":  "Heuristic",
+                         "integrated_deliverable":  "A Rule of Thumb Card.",
+                         "scenario":  "Onboarding a new employee to the company culture.",
+                         "theory_application":  "Distill complex wisdom into a simple, memorable rule of thumb that guides decision-making in uncertain situations.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Occam\u0027s Razor - The Logician",
+                                                "theory":  "Definition: The simplest explanation is usually the best. Procedural Link: The action is to create a simple rule for selecting hypotheses (e.g., \u0027If the data is messy, check the sensor first\u0027).",
+                                                "specific_deliverable":  "A Troubleshooting Rule.",
+                                                "rubric":  "Creates simple selection rule."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Bezos - The CEO",
+                                                "theory":  "Definition: The Pizza Rule (teams shouldn\u0027t be larger than two pizzas can feed). Procedural Link: The action is to create a memorable slogan that encodes a complex management philosophy.",
+                                                "specific_deliverable":  "A Management Slogan.",
+                                                "rubric":  "Encodes philosophy in slogan."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "George Orwell - The Writer",
+                                                "theory":  "Definition: \u0027Never use a long word where a short one will do.\u0027 Procedural Link: The action is to create a simple editing rule to improve clarity.",
+                                                "specific_deliverable":  "A Writing Commandment.",
+                                                "rubric":  "Creates simple editing rule."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Dieter Rams - The Designer",
+                                                "theory":  "Definition: \u0027Good design is as little design as possible.\u0027 Procedural Link: The action is to create a guiding principle for aesthetic decisions.",
+                                                "specific_deliverable":  "A Design Principle.",
+                                                "rubric":  "Creates aesthetic principle."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Michael Pollan - The Author",
+                                                "theory":  "Definition: \u0027Eat food. Not too much. Mostly plants.\u0027 Procedural Link: The action is to compress a complex ethical system into a haiku-like instruction.",
+                                                "specific_deliverable":  "A Living Maxim.",
+                                                "rubric":  "Compresses ethics into maxim."
                                             }
                                         ]
                      }

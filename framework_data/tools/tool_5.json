@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -830,6 +830,10 @@
 
                                                                                    }
                                                      }
+                    },
+                    {
+                        "title":  "Concept Cloud",
+                        "content":  "Argument Map, Balance, Blueprint, Codification, Design System, End-to-End Tracer, Flowchart, Harmony, Heuristics, Logic, Oral Tradition, Order, Outline, Pattern Language, Protocol, RACI Matrix, Scaffolding, Specification, Storyboard, Structure, Structuring, System, Technical Specification, User Story Map, Narrative Arc, Dependency Mapping, Modularity"
                     }
                 ],
     "cynefinAnalysis":  {

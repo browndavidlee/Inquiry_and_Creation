@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -1193,6 +1193,138 @@
                                                 "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to frame the inquiry around the tension between conflicting core values.",
                                                 "specific_deliverable":  "A Value Trade-off Statement explicitly acknowledging the tragic choice between \u0027Absolute Privacy\u0027 and \u0027Public Safety.\u0027",
                                                 "rubric":  "Frames inquiry around tension between conflicting core values."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.28",
+                         "name":  "Prediction Error",
+                         "integrated_deliverable":  "A Surprise Log.",
+                         "scenario":  "An experiment yields the opposite of the expected result.",
+                         "theory_application":  "Identify the specific moment where reality violated your mental model, treating this surprise not as a failure but as the primary signal for inquiry.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Friston - The Neuroscientist",
+                                                "theory":  "Definition: The brain minimizes free energy by reducing prediction error. Procedural Link: The action is to isolate the specific data point that violated the hypothesis and treat it as the highest-value signal.",
+                                                "specific_deliverable":  "A Deviation Report.",
+                                                "rubric":  "Isolates the specific violation of expectation."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Entrepreneur",
+                                                "theory":  "Definition: A pivot is grounded in a failed prediction. Procedural Link: The action is to identify the customer behavior that contradicted the business model canvas assumptions.",
+                                                "specific_deliverable":  "A Failed Test Memo.",
+                                                "rubric":  "Identifies the customer behavior that contradicted the model."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Thomas Kuhn - The Historian",
+                                                "theory":  "Definition: Anomalies trigger paradigm shifts. Procedural Link: The action is to identify the historical event or text that cannot be explained by the current dominant theory.",
+                                                "specific_deliverable":  "An Anomaly Note.",
+                                                "rubric":  "Identifies the event that breaks the current theory."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Francis Bacon - The Painter",
+                                                "theory":  "Definition: The \u0027accident\u0027 disrupts the cliché. Procedural Link: The action is to preserve the accidental mark or glitch that disrupts the intended image, using it as the new focal point.",
+                                                "specific_deliverable":  "A Glitch Study.",
+                                                "rubric":  "Preserves the accidental mark as a focal point."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Systems Thinker",
+                                                "theory":  "Definition: Systems reveal themselves when they fail. Procedural Link: The action is to analyze the specific moment a social system failed to predict a crisis.",
+                                                "specific_deliverable":  "A System Shock Analysis.",
+                                                "rubric":  "Analyzes the system\u0027s failure to predict."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.29",
+                         "name":  "Positionality",
+                         "integrated_deliverable":  "A Researcher Bias Statement.",
+                         "scenario":  "A wealthy researcher studying poverty.",
+                         "theory_application":  "Explicitly map the identity, power, and context of the inquirer to understand how their specific vantage point shapes what they can and cannot see.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Donna Haraway - The Theorist",
+                                                "theory":  "Definition: Situated Knowledge opposes the \u0027God Trick\u0027 of objectivity. Procedural Link: The action is to explicitly state the technological and funding context that constrains the observer.",
+                                                "specific_deliverable":  "A Funding \u0026 Instrument Disclosure.",
+                                                "rubric":  "States technological/funding constraints."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Clayton Christensen - The Analyst",
+                                                "theory":  "Definition: The Innovator\u0027s Dilemma is caused by the firm\u0027s position in the value network. Procedural Link: The action is to map how the company\u0027s current profit model blinds it to emerging low-end threats.",
+                                                "specific_deliverable":  "A Value Network Map.",
+                                                "rubric":  "Maps how profit model creates blind spots."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Edward Said - The Critic",
+                                                "theory":  "Definition: Orientalism reveals how the scholar constructs the subject. Procedural Link: The action is to analyze how the scholar\u0027s cultural background pre-defines the object of study.",
+                                                "specific_deliverable":  "A Reflexivity Statement.",
+                                                "rubric":  "Analyzes cultural background\u0027s impact."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "John Berger - The Critic",
+                                                "theory":  "Definition: Ways of Seeing are determined by social standing. Procedural Link: The action is to acknowledge the artist\u0027s gaze and who it empowers or objectifies.",
+                                                "specific_deliverable":  "A Gaze Analysis.",
+                                                "rubric":  "Acknowledges the artist\u0027s gaze."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Linda Tuhiwai Smith - The Methodologist",
+                                                "theory":  "Definition: Decolonizing methodologies require locating oneself. Procedural Link: The action is to introduce oneself by lineage and land before speaking on community issues.",
+                                                "specific_deliverable":  "A Land \u0026 Lineage Acknowledgment.",
+                                                "rubric":  "Introduces self via lineage/land."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.30",
+                         "name":  "Interoception",
+                         "integrated_deliverable":  "A Somatic Marker Log.",
+                         "scenario":  "Feeling uneasy about a decision that looks good on paper.",
+                         "theory_application":  "Tune into internal bodily signals (heart rate, tension, \u0027gut feel\u0027) as a valid stream of data regarding the environment or problem.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Antonio Damasio - The Neuroscientist",
+                                                "theory":  "Definition: Somatic Markers guide decision-making under uncertainty. Procedural Link: The action is to record the physical sensation associated with a data anomaly before cognitive processing.",
+                                                "specific_deliverable":  "A Physiological Response Log.",
+                                                "rubric":  "Records physical sensation before logic."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "George Soros - The Investor",
+                                                "theory":  "Definition: Soros relied on back pain to signal market corrections. Procedural Link: The action is to treat physical discomfort as a leading indicator of hidden risk in a deal.",
+                                                "specific_deliverable":  "A Risk Intuition Note.",
+                                                "rubric":  "Treats discomfort as risk signal."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Audre Lorde - The Poet",
+                                                "theory":  "Definition: The Erotic as power is a deep, internal knowledge. Procedural Link: The action is to trust the internal sense of \u0027rightness\u0027 or \u0027wrongness\u0027 when analyzing a text or social situation.",
+                                                "specific_deliverable":  "A Felt Sense Journal.",
+                                                "rubric":  "Trusts internal sense of rightness."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Konstantin Stanislavski - The Director",
+                                                "theory":  "Definition: Emotional Memory requires physical recall. Procedural Link: The action is to use physical sensation to access the emotional truth of a character or scene.",
+                                                "specific_deliverable":  "A Sense Memory Exercise.",
+                                                "rubric":  "Uses sensation to access emotion."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Resmaa Menakem - The Healer",
+                                                "theory":  "Definition: Somatic Abolitionism locates trauma in the body. Procedural Link: The action is to notice the body\u0027s constriction or expansion in the presence of different bodies or ideas.",
+                                                "specific_deliverable":  "A Body Scan Record.",
+                                                "rubric":  "Notices constriction/expansion."
                                             }
                                         ]
                      }

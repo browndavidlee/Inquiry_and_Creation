@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -1105,6 +1105,138 @@
                                                 "theory":  "Definition: Virtue is the conscious cultivation of moral character. Procedural Link: The action is to focus on the conscious cultivation of moral character (e.g., patience, courage, generosity) through daily action.",
                                                 "specific_deliverable":  "A Self-Assessment.",
                                                 "rubric":  "Focus on moral character."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.26",
+                         "name":  "Friction",
+                         "integrated_deliverable":  "A Blocker Log.",
+                         "scenario":  "A team slowing down mid-project.",
+                         "theory_application":  "Treat the feeling of difficulty or resistance not as a personal failure, but as a signal that the tool, process, or plan is misaligned with the reality of the work.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Fluid Dynamics - The Physicist",
+                                                "theory":  "Definition: Friction is the resistance to motion. Procedural Link: The action is to measure the energy loss in the system and identify the specific point of contact causing the heat.",
+                                                "specific_deliverable":  "An Energy Loss Audit.",
+                                                "rubric":  "Identifies point of energy loss."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "User Experience - The Designer",
+                                                "theory":  "Definition: Friction is anything that prevents a user from achieving their goal. Procedural Link: The action is to identify the specific UI step where users drop off.",
+                                                "specific_deliverable":  "A Drop-off Analysis.",
+                                                "rubric":  "Identifies UI drop-off point."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Writer\u0027s Block - The Author",
+                                                "theory":  "Definition: Resistance is a sign of a structural problem. Procedural Link: The action is to stop writing and check the outline; the friction usually means the argument is flawed.",
+                                                "specific_deliverable":  "A Structural Health Check.",
+                                                "rubric":  "Checks outline when stuck."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "The Medium - The Sculptor",
+                                                "theory":  "Definition: Truth to Materials. Procedural Link: The action is to notice where the material resists the tool. Stop forcing it and change the angle of approach.",
+                                                "specific_deliverable":  "A Material Response Log.",
+                                                "rubric":  "Changes approach based on resistance."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Conflict Transformation - The Mediator",
+                                                "theory":  "Definition: Friction is information about unmet needs. Procedural Link: The action is to treat interpersonal conflict as a signal that a boundary has been crossed.",
+                                                "specific_deliverable":  "A Needs Assessment.",
+                                                "rubric":  "Treats conflict as signal."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.27",
+                         "name":  "Velocity",
+                         "integrated_deliverable":  "A Progress Chart.",
+                         "scenario":  "Tracking a sprint.",
+                         "theory_application":  "Measure the rate of progress to predict completion and adjust scope, focusing on the direction of movement as much as the speed.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Rate of Reaction - The Chemist",
+                                                "theory":  "Definition: Kinetics measures how fast a reaction proceeds. Procedural Link: The action is to monitor the rate of data collection to ensure statistical significance is reached before funding runs out.",
+                                                "specific_deliverable":  "A Data Acquisition Rate Graph.",
+                                                "rubric":  "Monitors rate vs. deadline."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Scrum - The Master",
+                                                "theory":  "Definition: Velocity is the amount of work completed in a sprint. Procedural Link: The action is to calculate the average points completed to forecast future delivery dates.",
+                                                "specific_deliverable":  "A Burndown Chart.",
+                                                "rubric":  "Calculates average points."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Word Count - The Novelist",
+                                                "theory":  "Definition: Daily output tracks momentum. Procedural Link: The action is to track daily word count to maintain the habit of production, regardless of quality.",
+                                                "specific_deliverable":  "A Daily Word Log.",
+                                                "rubric":  "Tracks daily output."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Tempo - The Musician",
+                                                "theory":  "Definition: Tempo controls the energy of the performance. Procedural Link: The action is to regulate the speed of execution to ensure precision and expression.",
+                                                "specific_deliverable":  "A Metronome Setting.",
+                                                "rubric":  "Regulates speed for precision."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Social Movements - The Organizer",
+                                                "theory":  "Definition: Momentum is the visible energy of the movement. Procedural Link: The action is to track the rate of new sign-ups or donations to gauge the health of the campaign.",
+                                                "specific_deliverable":  "A Growth Rate Tracker.",
+                                                "rubric":  "Tracks participation rate."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.28",
+                         "name":  "Cognitive Load",
+                         "integrated_deliverable":  "A Complexity Audit.",
+                         "scenario":  "Designing a dashboard.",
+                         "theory_application":  "Manage the amount of working memory resources used, ensuring that the task difficulty does not exceed the practitioner\u0027s or user\u0027s capacity.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "John Sweller - The Psychologist",
+                                                "theory":  "Definition: Cognitive Load Theory (Intrinsic, Extraneous, Germane). Procedural Link: The action is to remove extraneous load (bad UI) to free up capacity for germane load (learning).",
+                                                "specific_deliverable":  "An Interface Simplification Plan.",
+                                                "rubric":  "Removes extraneous load."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Productivity - The Manager",
+                                                "theory":  "Definition: Context switching destroys productivity. Procedural Link: The action is to batch similar tasks to reduce the \u0027switching cost\u0027 on the brain.",
+                                                "specific_deliverable":  "A Time-Blocking Schedule.",
+                                                "rubric":  "Batches similar tasks."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Reading Science - The Editor",
+                                                "theory":  "Definition: Readability scores estimate processing effort. Procedural Link: The action is to simplify sentence structure to ensure the reader has the energy to process the complex argument.",
+                                                "specific_deliverable":  "A Readability Score Report.",
+                                                "rubric":  "Simplifies structure for clarity."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Gestalt - The Designer",
+                                                "theory":  "Definition: The brain seeks simple patterns. Procedural Link: The action is to group visual elements to reduce the number of individual units the eye must process.",
+                                                "specific_deliverable":  "A Grouping Strategy.",
+                                                "rubric":  "Groups elements to reduce load."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Accessibility - The Advocate",
+                                                "theory":  "Definition: Spoon Theory. Procedural Link: The action is to design the process so that people with limited energy (chronic illness, stress) can still participate.",
+                                                "specific_deliverable":  "An Accessibility Audit.",
+                                                "rubric":  "Designs for limited energy."
                                             }
                                         ]
                      }

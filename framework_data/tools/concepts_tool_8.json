@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -973,6 +973,138 @@
                                                 "theory":  "Definition: Witnessing is the sacred act of observation. Procedural Link: The action is to ensure the sacred act of observation and presence by the community to honor the work and the principles it embodies.",
                                                 "specific_deliverable":  "A Commemorative Plaque.",
                                                 "rubric":  "Ensure sacred act."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.23",
+                         "name":  "Audience",
+                         "integrated_deliverable":  "A Persona Profile.",
+                         "scenario":  "Preparing a pitch for a conservative board.",
+                         "theory_application":  "Analyze the specific needs, values, language, and biases of the people who will judge the work to tailor the presentation for maximum impact.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Science Communication - The Journalist",
+                                                "theory":  "Definition: The Deficit Model vs. Engagement. Procedural Link: The action is to assess the audience\u0027s prior knowledge and tailor the complexity of the explanation accordingly.",
+                                                "specific_deliverable":  "A Knowledge Gap Assessment.",
+                                                "rubric":  "Tailors complexity to prior knowledge."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Geoffrey Moore - The Marketer",
+                                                "theory":  "Definition: Crossing the Chasm. Procedural Link: The action is to identify if the audience are \u0027Early Adopters\u0027 (want novelty) or \u0027Pragmatists\u0027 (want safety) and adjust the pitch.",
+                                                "specific_deliverable":  "An Adoption Curve Map.",
+                                                "rubric":  "Adjusts pitch for adopter type."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Aristotle - The Rhetorician",
+                                                "theory":  "Definition: Pathos (Emotion), Logos (Logic), Ethos (Credibility). Procedural Link: The action is to analyze which mode of persuasion will most move this specific audience.",
+                                                "specific_deliverable":  "A Rhetorical Strategy.",
+                                                "rubric":  "Selects effective rhetorical mode."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "The Curator - The Gallerist",
+                                                "theory":  "Definition: The Viewer\u0027s Journey. Procedural Link: The action is to design the exhibition layout based on how the audience moves through physical space.",
+                                                "specific_deliverable":  "A Floor Plan.",
+                                                "rubric":  "Designs for physical movement."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Community Organizing - The Leader",
+                                                "theory":  "Definition: Meeting people where they are. Procedural Link: The action is to use the specific dialect and cultural metaphors of the community to build trust.",
+                                                "specific_deliverable":  "A Cultural Translation Guide.",
+                                                "rubric":  "Uses community dialect/metaphors."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.24",
+                         "name":  "Legitimacy",
+                         "integrated_deliverable":  "A Trust Signal.",
+                         "scenario":  "A new NGO trying to operate in a skeptical community.",
+                         "theory_application":  "Establish the right to speak or act by demonstrating alignment with the values, laws, or norms of the validating community.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Institutional Review Board - The Gatekeeper",
+                                                "theory":  "Definition: Ethical Clearance. Procedural Link: The action is to display the IRB approval stamp to prove the work meets ethical standards.",
+                                                "specific_deliverable":  "An Approval Stamp.",
+                                                "rubric":  "Displays formal ethical approval."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Branding - The Strategist",
+                                                "theory":  "Definition: Social Proof. Procedural Link: The action is to display logos of known partners or customer testimonials to borrow their legitimacy.",
+                                                "specific_deliverable":  "A \u0027Trusted By\u0027 Slide.",
+                                                "rubric":  "Uses social proof."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Pierre Bourdieu - The Sociologist",
+                                                "theory":  "Definition: Cultural Capital. Procedural Link: The action is to cite canonical texts to demonstrate membership in the scholarly field.",
+                                                "specific_deliverable":  "A Literature Review.",
+                                                "rubric":  "Cites canonical texts."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "The Canon - The Historian",
+                                                "theory":  "Definition: Provenance. Procedural Link: The action is to document the history of the work and its relationship to established movements.",
+                                                "specific_deliverable":  "A Provenance Record.",
+                                                "rubric":  "Documents relationship to history."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Max Weber - The Sociologist",
+                                                "theory":  "Definition: Traditional Authority. Procedural Link: The action is to have an Elder or respected leader introduce the speaker, transferring their authority.",
+                                                "specific_deliverable":  "An Introduction Script.",
+                                                "rubric":  "Uses traditional authority transfer."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.25",
+                         "name":  "Translation",
+                         "integrated_deliverable":  "A Plain Language Summary.",
+                         "scenario":  "Explaining climate data to a town council.",
+                         "theory_application":  "Convert specialized, expert knowledge into accessible language and concepts for a non-expert audience without losing accuracy.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Carl Sagan - The Communicator",
+                                                "theory":  "Definition: The Cosmic Perspective. Procedural Link: The action is to use a relatable metaphor (e.g., \u0027Starstuff\u0027) to explain a complex physical process.",
+                                                "specific_deliverable":  "A Metaphor.",
+                                                "rubric":  "Uses relatable metaphor for complexity."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "The Pitch - The Founder",
+                                                "theory":  "Definition: The Elevator Pitch. Procedural Link: The action is to condense the entire business plan into a 30-second hook that anyone can understand.",
+                                                "specific_deliverable":  "A One-Liner.",
+                                                "rubric":  "Condenses plan to 30 seconds."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Public Intellectual - The Writer",
+                                                "theory":  "Definition: The Op-Ed. Procedural Link: The action is to strip away academic jargon and focus on the single, urgent public implication of the research.",
+                                                "specific_deliverable":  "An Op-Ed Draft.",
+                                                "rubric":  "Removes jargon/focuses on urgency."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Ekphrasis - The Poet",
+                                                "theory":  "Definition: Verbal description of visual art. Procedural Link: The action is to write a wall text that gives the viewer a verbal entry point into the abstract visual experience.",
+                                                "specific_deliverable":  "A Wall Label.",
+                                                "rubric":  "Provides verbal entry to visual."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Code Switching - The Linguist",
+                                                "theory":  "Definition: Shifting linguistic codes. Procedural Link: The action is to consciously switch from professional dialect to community dialect to build connection.",
+                                                "specific_deliverable":  "A Bilingual Handout.",
+                                                "rubric":  "Switches dialect to build connection."
                                             }
                                         ]
                      }

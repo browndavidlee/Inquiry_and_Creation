@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -836,6 +836,10 @@
 
                                                                                    }
                                                      }
+                    },
+                    {
+                        "title":  "Concept Cloud",
+                        "content":  "Alignment, Assent, Choice, Commitment, Convergence, Cost-Benefit Analysis, Decision, Focus, Go/No-Go Decision, Pledge, Prioritization, Resolve, RICE Scoring, Scope Reduction, Trade-off, Volition, Consent, Reversibility, Opportunity Cost"
                     }
                 ],
     "cynefinAnalysis":  {

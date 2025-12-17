@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -709,6 +709,138 @@
                                                 "theory":  "Definition: The \u0027somatic marker\u0027 is the body\u0027s emotional signal guiding decision-making. Procedural Link: The action is to ensure the final commitment must be a value-based choice where the emotional signal of ethical rightness aligns with the logical analysis.",
                                                 "specific_deliverable":  "An Ethical Alignment Check confirming values.",
                                                 "rubric":  "Ensures commitment is value-based."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.17",
+                         "name":  "Consent",
+                         "integrated_deliverable":  "A Decision Record.",
+                         "scenario":  "A team stuck in endless debate trying to agree.",
+                         "theory_application":  "Shift the decision rule from \u0027Consensus\u0027 (everyone agrees) to \u0027Consent\u0027 (no one has a critical objection), enabling faster action while protecting against harm.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Peer Review - The Editor",
+                                                "theory":  "Definition: Scientific consensus is the absence of falsification. Procedural Link: The action is to proceed if there is no fatal flaw in the methodology, even if the reviewers disagree with the interpretation.",
+                                                "specific_deliverable":  "A No-Fatal-Flaw Check.",
+                                                "rubric":  "Proceeds if no fatal flaw exists."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Sociocracy - The Facilitator",
+                                                "theory":  "Definition: Good enough for now, safe enough to try. Procedural Link: The action is to ask \u0027Do you have a paramount objection that this decision will cause harm?\u0027 instead of \u0027Do you agree?\u0027",
+                                                "specific_deliverable":  "An Objection Log.",
+                                                "rubric":  "Asks for objections, not agreement."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Theorist",
+                                                "theory":  "Definition: Discourse Ethics requires the absence of coercion. Procedural Link: The action is to ensure that silence implies consent only if the environment is free from structural coercion.",
+                                                "specific_deliverable":  "A Coercion Audit.",
+                                                "rubric":  "Ensures silence is not coercion."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Ensemble Practice - The Director",
+                                                "theory":  "Definition: The show must go on. Procedural Link: The action is to commit to a creative choice not because it is perfect, but because it allows the rehearsal to continue.",
+                                                "specific_deliverable":  "A Rehearsal Commitment.",
+                                                "rubric":  "Commits to allow continuation."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Quaker Process - The Clerk",
+                                                "theory":  "Definition: Sense of the Meeting. Procedural Link: The action is to listen for the \u0027unity\u0027 underneath the words, distinguishing between a personal preference and a spiritual objection.",
+                                                "specific_deliverable":  "A Minute of Unity.",
+                                                "rubric":  "Distinguishes preference from objection."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.18",
+                         "name":  "Reversibility",
+                         "integrated_deliverable":  "A Risk Classification.",
+                         "scenario":  "Deciding whether to migrate to a new server architecture.",
+                         "theory_application":  "Classify the decision based on the cost of reversing it. If low cost, decide quickly. If high cost, deliberate slowly.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Safety Engineering - The Officer",
+                                                "theory":  "Definition: Fail-safe vs. Fail-deadly. Procedural Link: The action is to determine if the experiment can be aborted safely once started.",
+                                                "specific_deliverable":  "A Kill Switch Protocol.",
+                                                "rubric":  "Determines abort capability."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Bezos - The CEO",
+                                                "theory":  "Definition: Type 1 (One-way door) vs. Type 2 (Two-way door) decisions. Procedural Link: The action is to identify if this is a Two-way door. If so, delegate it or decide immediately.",
+                                                "specific_deliverable":  "A Door Type Tag.",
+                                                "rubric":  "Identifies One-way vs Two-way door."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Hannah Arendt - The Philosopher",
+                                                "theory":  "Definition: Action is irreversible; forgiveness is the remedy. Procedural Link: The action is to assess the moral irreversibility of the act. Can the harm be undone?",
+                                                "specific_deliverable":  "A Moral Irreversibility Check.",
+                                                "rubric":  "Assesses if harm can be undone."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Oil vs. Watercolor - The Painter",
+                                                "theory":  "Definition: Medium dictates reversibility. Procedural Link: The action is to choose the medium based on the desired risk profile (Oil is reversible; Watercolor is not).",
+                                                "specific_deliverable":  "A Medium Selection Rationale.",
+                                                "rubric":  "Selects medium based on risk."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Precautionary Principle - The Steward",
+                                                "theory":  "Definition: If an action has a suspected risk of causing harm to the public or environment, the burden of proof falls on those taking the action. Procedural Link: The action is to prohibit the decision if the environmental consequences are potentially irreversible.",
+                                                "specific_deliverable":  "A Non-Regression Clause.",
+                                                "rubric":  "Prohibits irreversible environmental harm."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.19",
+                         "name":  "Opportunity Cost",
+                         "integrated_deliverable":  "A Trade-off Memo.",
+                         "scenario":  "Choosing between two exciting projects with limited staff.",
+                         "theory_application":  "Evaluate the decision not by what is gained, but by the value of the best alternative that must be sacrificed.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Resource Allocation - The Grant Manager",
+                                                "theory":  "Definition: Funding is zero-sum. Procedural Link: The action is to calculate the \u0027scientific yield\u0027 of the rejected experiment.",
+                                                "specific_deliverable":  "A Lost Science Report.",
+                                                "rubric":  "Calculates yield of rejected option."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Michael Porter - The Strategist",
+                                                "theory":  "Definition: Strategy is choosing what not to do. Procedural Link: The action is to explicitly list the revenue or growth that will be lost by choosing the current path.",
+                                                "specific_deliverable":  "A Foregone Revenue Estimate.",
+                                                "rubric":  "Lists foregone revenue/growth."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Isaiah Berlin - The Historian",
+                                                "theory":  "Definition: Value Pluralism implies tragic choice. Procedural Link: The action is to mourn the loss of the value that was not chosen (e.g., Liberty vs. Equality).",
+                                                "specific_deliverable":  "A Value Sacrifice Statement.",
+                                                "rubric":  "Mourns the unchosen value."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Minimalism - The Sculptor",
+                                                "theory":  "Definition: Less is more. Procedural Link: The action is to remove the element that is good but distracts from the great.",
+                                                "specific_deliverable":  "A Kill List.",
+                                                "rubric":  "Removes distracting \u0027good\u0027 elements."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Time Banking - The Organizer",
+                                                "theory":  "Definition: Time is the currency of community. Procedural Link: The action is to assess the cost of the meeting in terms of volunteer hours that could have been spent on direct service.",
+                                                "specific_deliverable":  "A Volunteer Hour Audit.",
+                                                "rubric":  "Assesses cost in volunteer hours."
                                             }
                                         ]
                      }

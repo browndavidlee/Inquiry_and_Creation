@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -1193,6 +1193,138 @@
                                                 "theory":  "Definition: Restorative Justice focuses on repairing harm by addressing the needs of the victim. Procedural Link: The action is to frame a social issue in terms of the lived experience and needs of a community member.",
                                                 "specific_deliverable":  "A Community Needs Story for the app.",
                                                 "rubric":  "Frame social issue as lived experience."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.28",
+                         "name":  "Psychological Safety",
+                         "integrated_deliverable":  "A Safe Space Agreement.",
+                         "scenario":  "Brainstorming with a hierarchical team.",
+                         "theory_application":  "Create a condition where team members feel safe to take interpersonal risks, such as sharing half-baked ideas or admitting ignorance.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Amy Edmondson - The Researcher",
+                                                "theory":  "Definition: Psychological Safety is the belief that the team is safe for risk-taking. Procedural Link: The action is to explicitly frame the work as a learning problem, not an execution problem, to lower the cost of error.",
+                                                "specific_deliverable":  "A Learning Frame Statement.",
+                                                "rubric":  "Frames work as learning problem."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Google (Project Aristotle) - The Analyst",
+                                                "theory":  "Definition: Safety is the #1 predictor of team performance. Procedural Link: The action is to institute \u0027conversational turn-taking\u0027 rules to ensure no single voice dominates.",
+                                                "specific_deliverable":  "A Turn-Taking Protocol.",
+                                                "rubric":  "Institutes turn-taking rules."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Parker Palmer - The Educator",
+                                                "theory":  "Definition: The Circle of Trust protects the soul. Procedural Link: The action is to enforce the rule of \u0027no fixing, no saving, no advising\u0027 during the generative phase.",
+                                                "specific_deliverable":  "A Circle of Trust Covenant.",
+                                                "rubric":  "Enforces \u0027no fixing\u0027 rule."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Keith Johnstone - The Improviser",
+                                                "theory":  "Definition: Status transactions block creativity. Procedural Link: The action is to play status-lowering games to flatten the hierarchy before ideation.",
+                                                "specific_deliverable":  "A Status-Drop Warmup.",
+                                                "rubric":  "Uses games to flatten hierarchy."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "bell hooks - The Teacher",
+                                                "theory":  "Definition: The classroom must be a place of liberation. Procedural Link: The action is to validate the subjective experience of every participant as authoritative data.",
+                                                "specific_deliverable":  "A Validation Ritual.",
+                                                "rubric":  "Validates subjective experience."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.29",
+                         "name":  "Combinatorial Play",
+                         "integrated_deliverable":  "A Concept Mashup.",
+                         "scenario":  "Stuck in a creative rut.",
+                         "theory_application":  "Generate novelty not by invention, but by the systematic combination of existing, unrelated concepts.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Arthur Koestler - The Theorist",
+                                                "theory":  "Definition: Bisociation is the connection of two previously unrelated matrices of thought. Procedural Link: The action is to force a connection between the current problem and a random biological system.",
+                                                "specific_deliverable":  "A Biomimicry Map.",
+                                                "rubric":  "Connects problem to biological system."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Steve Jobs - The Innovator",
+                                                "theory":  "Definition: Creativity is just connecting things. Procedural Link: The action is to combine a business model from one industry with a technology from another (e.g., \u0027Tinder for Dogs\u0027).",
+                                                "specific_deliverable":  "A Business Model Mashup.",
+                                                "rubric":  "Combines model and tech from different fields."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Walter Benjamin - The Flaneur",
+                                                "theory":  "Definition: The Montage constructs meaning from fragments. Procedural Link: The action is to place two unrelated historical texts side-by-side and read the space between them.",
+                                                "specific_deliverable":  "A Textual Montage.",
+                                                "rubric":  "Reads the space between unrelated texts."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Brian Eno - The Producer",
+                                                "theory":  "Definition: Scenius is collective genius. Procedural Link: The action is to sample and remix an existing work, altering its context to create new meaning.",
+                                                "specific_deliverable":  "A Remix Track.",
+                                                "rubric":  "Alters context of existing work."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Homi Bhabha - The Theorist",
+                                                "theory":  "Definition: Hybridity is the emergence of new cultural forms at the border. Procedural Link: The action is to identify the \u0027Third Space\u0027 created by the collision of two cultural practices.",
+                                                "specific_deliverable":  "A Hybrid Ritual.",
+                                                "rubric":  "Identifies the \u0027Third Space\u0027."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.30",
+                         "name":  "Enabling Constraints",
+                         "integrated_deliverable":  "A Constraint Card.",
+                         "scenario":  "A team paralyzed by infinite possibilities.",
+                         "theory_application":  "Introduce artificial boundaries that limit the solution space, forcing creativity and preventing paralysis.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Complexity Theory - The Modeler",
+                                                "theory":  "Definition: Enabling constraints govern the system without micromanaging it. Procedural Link: The action is to define the \u0027boundary conditions\u0027 (e.g., temperature range) but leave the interaction rules open.",
+                                                "specific_deliverable":  "A Boundary Condition Spec.",
+                                                "rubric":  "Defines boundaries, leaves interaction open."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Marissa Mayer - The Executive",
+                                                "theory":  "Definition: Creativity loves constraints. Procedural Link: The action is to artificially limit the resources (e.g., \u0027build this for $100\u0027) to force a non-linear solution.",
+                                                "specific_deliverable":  "A Resource Cap.",
+                                                "rubric":  "Limits resources to force innovation."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Oulipo - The Writers",
+                                                "theory":  "Definition: Potential Literature is created through formal constraints. Procedural Link: The action is to apply a formal rule (e.g., \u0027write without the letter E\u0027) to force the brain out of habitual language patterns.",
+                                                "specific_deliverable":  "A Lipogrammatic Draft.",
+                                                "rubric":  "Applies formal rule to break habit."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Lars von Trier - The Director",
+                                                "theory":  "Definition: The Dogme 95 manifesto imposes a \u0027Vow of Chastity\u0027. Procedural Link: The action is to strip away all technical crutches (lighting, filters) to force focus on the core story.",
+                                                "specific_deliverable":  "A Minimalist Production Plan.",
+                                                "rubric":  "Strips technical crutches."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Elinor Ostrom - The Economist",
+                                                "theory":  "Definition: Rules of the Commons. Procedural Link: The action is to define the \u0027access rules\u0027 that constrain individual greed to enable collective flourishing.",
+                                                "specific_deliverable":  "A Commons Access Rule.",
+                                                "rubric":  "Constrains greed for collective good."
                                             }
                                         ]
                      }

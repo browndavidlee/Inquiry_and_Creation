@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -929,6 +929,138 @@
                                                 "theory":  "Definition: Revision is the adjustment of a policy. Procedural Link: The action is to engage in the adjustment of a policy or social contract based on an ethical audit.",
                                                 "specific_deliverable":  "A Live Deployment.",
                                                 "rubric":  "Engage in adjustment of policy."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T7.22",
+                         "name":  "Metacognition",
+                         "integrated_deliverable":  "A Reflection Journal.",
+                         "scenario":  "A student realizing they studied the wrong way.",
+                         "theory_application":  "Engage in \u0027thinking about thinking\u0027—monitoring and regulating your own cognitive processes to improve learning and performance.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Flavell - The Psychologist",
+                                                "theory":  "Definition: Metacognition consists of knowledge and regulation. Procedural Link: The action is to pause and ask: \u0027Do I actually understand this, or am I just recognizing the terms?\u0027",
+                                                "specific_deliverable":  "A Comprehension Check.",
+                                                "rubric":  "Distinguishes recognition from understanding."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Ray Dalio - The Investor",
+                                                "theory":  "Definition: Look down on your machine. Procedural Link: The action is to step out of the execution role and evaluate the design of the team/process itself.",
+                                                "specific_deliverable":  "A Process Diagnosis.",
+                                                "rubric":  "Evaluates the machine, not the output."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Critical Theory - The Scholar",
+                                                "theory":  "Definition: Reflexivity. Procedural Link: The action is to analyze how your own background and biases are shaping your interpretation of the text.",
+                                                "specific_deliverable":  "A Bias Disclosure.",
+                                                "rubric":  "Analyzes own bias."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "The Inner Critic - The Artist",
+                                                "theory":  "Definition: Separating generation from evaluation. Procedural Link: The action is to notice the voice of the critic and consciously choose whether to listen to it or dismiss it.",
+                                                "specific_deliverable":  "A Critic Dialogue Log.",
+                                                "rubric":  "Consciously manages the critic."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Mindfulness - The Practitioner",
+                                                "theory":  "Definition: The Witness Consciousness. Procedural Link: The action is to observe one\u0027s own emotional reaction to a trigger without acting on it.",
+                                                "specific_deliverable":  "A Reaction Log.",
+                                                "rubric":  "Observes reaction without acting."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T7.23",
+                         "name":  "Cognitive Distortion",
+                         "integrated_deliverable":  "A Thought Record.",
+                         "scenario":  "Receiving critical feedback and feeling like a failure.",
+                         "theory_application":  "Identify irrational or exaggerated thought patterns (e.g., catastrophizing, all-or-nothing thinking) that skew the interpretation of feedback.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Aaron Beck - The Psychiatrist",
+                                                "theory":  "Definition: CBT identifies automatic negative thoughts. Procedural Link: The action is to identify \u0027All-or-Nothing\u0027 thinking (\u0027This data point is an outlier, so the whole experiment is ruined\u0027).",
+                                                "specific_deliverable":  "A Distortion Label.",
+                                                "rubric":  "Identifies specific distortion type."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Behavioral Econ - The Analyst",
+                                                "theory":  "Definition: Loss Aversion. Procedural Link: The action is to identify where the fear of losing a feature is irrationally outweighing the gain of a new direction.",
+                                                "specific_deliverable":  "A Bias Check.",
+                                                "rubric":  "Identifies loss aversion."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Logic - The Rhetorician",
+                                                "theory":  "Definition: Fallacies. Procedural Link: The action is to identify \u0027Ad Hominem\u0027 or \u0027Straw Man\u0027 distortions in one\u0027s own reaction to a critique.",
+                                                "specific_deliverable":  "A Fallacy Audit.",
+                                                "rubric":  "Identifies logical fallacy in reaction."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Imposter Syndrome - The Creator",
+                                                "theory":  "Definition: Discounting the Positive. Procedural Link: The action is to notice the tendency to ignore praise and fixate on the one negative comment.",
+                                                "specific_deliverable":  "A Praise Log.",
+                                                "rubric":  "Documents ignored positive feedback."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Stereotype Threat - The Sociologist",
+                                                "theory":  "Definition: Internalized oppression. Procedural Link: The action is to identify where societal narratives are distorting the self-assessment of capability.",
+                                                "specific_deliverable":  "A Narrative Reframing.",
+                                                "rubric":  "Identifies internalized narrative."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T7.24",
+                         "name":  "Root Cause",
+                         "integrated_deliverable":  "A 5-Whys Diagram.",
+                         "scenario":  "A recurring server crash.",
+                         "theory_application":  "Trace a symptom back to its fundamental origin to prevent recurrence, rather than just treating the surface issue.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Epidemiology - The Tracker",
+                                                "theory":  "Definition: Patient Zero. Procedural Link: The action is to trace the chain of transmission back to the single source of the outbreak.",
+                                                "specific_deliverable":  "A Transmission Map.",
+                                                "rubric":  "Traces back to source."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Sakichi Toyoda - The Industrialist",
+                                                "theory":  "Definition: 5 Whys. Procedural Link: The action is to ask \u0027Why?\u0027 five times until the answer is a process failure, not a human error.",
+                                                "specific_deliverable":  "A Process Failure Report.",
+                                                "rubric":  "Identifies process failure, not human error."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Marx - The Materialist",
+                                                "theory":  "Definition: Base and Superstructure. Procedural Link: The action is to trace a cultural symptom (superstructure) back to its economic root (base).",
+                                                "specific_deliverable":  "A Materialist Analysis.",
+                                                "rubric":  "Traces symptom to economic base."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Technique - The Teacher",
+                                                "theory":  "Definition: Fundamental Flaw. Procedural Link: The action is to trace a messy drawing back to a poor initial gesture or posture.",
+                                                "specific_deliverable":  "A Posture Correction.",
+                                                "rubric":  "Traces flaw to physical gesture."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Systems Thinking - The Activist",
+                                                "theory":  "Definition: Structural Violence. Procedural Link: The action is to trace an individual tragedy back to a policy decision.",
+                                                "specific_deliverable":  "A Policy Causality Map.",
+                                                "rubric":  "Traces tragedy to policy."
                                             }
                                         ]
                      }

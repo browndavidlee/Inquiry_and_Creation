@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -1237,6 +1237,138 @@
                                                 "theory":  "Definition: Strategic Alignment is the principle of effortless action in harmony with the natural flow. Procedural Link: The process successfully engages in the adaptive journey guided by core principles, sensing the flow and momentum of the system.",
                                                 "specific_deliverable":  "An Adaptive Governance Log for the team.",
                                                 "rubric":  "Adaptive journey guided by principles."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.29",
+                         "name":  "Pre-Mortem",
+                         "integrated_deliverable":  "A Failure Scenario Report.",
+                         "scenario":  "Planning a high-stakes product launch.",
+                         "theory_application":  "Perform a mental simulation where the project has already failed, then work backward to determine the specific causes, shifting from optimism to realism.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Gary Klein - The Psychologist",
+                                                "theory":  "Definition: Prospective Hindsight increases the ability to identify reasons for future outcomes by 30%. Procedural Link: The action is to assume the experiment generated a false positive and list the confounds that caused it.",
+                                                "specific_deliverable":  "A Confound Analysis.",
+                                                "rubric":  "Assumes false positive/lists confounds."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Charlie Munger - The Investor",
+                                                "theory":  "Definition: Inversion (\u0027Invert, always invert\u0027). Procedural Link: The action is to write the \u0027Post-Mortem\u0027 for the bankrupt company today, before spending any money.",
+                                                "specific_deliverable":  "A Bankruptcy Narrative.",
+                                                "rubric":  "Writes the failure story today."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Nassim Taleb - The Risk Analyst",
+                                                "theory":  "Definition: The Black Swan requires robustness to negative events. Procedural Link: The action is to imagine the historical argument has been disproven by a new archive and identify that archive.",
+                                                "specific_deliverable":  "A Counter-Evidence Prediction.",
+                                                "rubric":  "Identifies the disproving archive."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Pixar - The Story Trust",
+                                                "theory":  "Definition: \u0027Notes Day\u0027 invites critique to prevent failure. Procedural Link: The action is to imagine the audience is bored and identify the specific scene where they checked out.",
+                                                "specific_deliverable":  "A Boredom Map.",
+                                                "rubric":  "Identifies the scene causing disengagement."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Iroquois Confederacy - The Council",
+                                                "theory":  "Definition: Seventh Generation principle requires anticipating long-term harm. Procedural Link: The action is to imagine the ecosystem is destroyed in 100 years and trace the cause back to this decision.",
+                                                "specific_deliverable":  "A Future Harm Assessment.",
+                                                "rubric":  "Traces future harm to current decision."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.30",
+                         "name":  "Unknowns Matrix",
+                         "integrated_deliverable":  "A Risk Taxonomy.",
+                         "scenario":  "Entering a new market with new technology.",
+                         "theory_application":  "Categorize knowledge into Known Knowns, Known Unknowns, and Unknown Unknowns to select the appropriate management strategy.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Donald Rumsfeld - The Strategist",
+                                                "theory":  "Definition: The Rumsfeld Matrix categorizes risk. Procedural Link: The action is to list the \u0027Known Unknowns\u0027 (variables to measure) and design probes for \u0027Unknown Unknowns\u0027 (surprises).",
+                                                "specific_deliverable":  "A Variable Classification Sheet.",
+                                                "rubric":  "Lists Known Unknowns/Probes."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Dave Snowden - The Sensemaker",
+                                                "theory":  "Definition: Cynefin distinguishes between Complicated (Known Unknowns) and Complex (Unknown Unknowns). Procedural Link: The action is to separate the plan into \u0027Tasks\u0027 (Complicated) and \u0027Experiments\u0027 (Complex).",
+                                                "specific_deliverable":  "A Cynefin Sorting Board.",
+                                                "rubric":  "Separates Tasks from Experiments."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Socrates - The Philosopher",
+                                                "theory":  "Definition: Socratic Wisdom is knowing what you do not know. Procedural Link: The action is to explicitly list the limits of the archive and the silence in the historical record.",
+                                                "specific_deliverable":  "A Limitations Statement.",
+                                                "rubric":  "Lists limits/silences in record."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "John Keats - The Poet",
+                                                "theory":  "Definition: Negative Capability is the capacity to be in uncertainties. Procedural Link: The action is to mark the areas of the canvas that must remain undefined to allow for emergence.",
+                                                "specific_deliverable":  "A Negative Space Map.",
+                                                "rubric":  "Marks areas for emergence."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Nassim Taleb - The Skeptic",
+                                                "theory":  "Definition: The Precautionary Principle applies when unknowns have ruinous potential. Procedural Link: The action is to identify the \u0027Ruin\u0027 scenarios (Unknown Unknowns) that require total avoidance.",
+                                                "specific_deliverable":  "A Ruin Avoidance Protocol.",
+                                                "rubric":  "Identifies ruin scenarios."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.31",
+                         "name":  "Capacity",
+                         "integrated_deliverable":  "A Resource Load Chart.",
+                         "scenario":  "Planning a sprint with a reduced team.",
+                         "theory_application":  "Assess the finite limits of time, energy, and resources available to ensure the plan is realistic and sustainable.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Eliyahu Goldratt - The Physicist",
+                                                "theory":  "Definition: Theory of Constraints identifies the bottleneck. Procedural Link: The action is to identify the scarcest resource (e.g., centrifuge time) and subordinate the entire plan to that constraint.",
+                                                "specific_deliverable":  "A Bottleneck Schedule.",
+                                                "rubric":  "Subordinates plan to bottleneck."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Scrum Master",
+                                                "theory":  "Definition: Velocity is the empirical measure of capacity. Procedural Link: The action is to use yesterday\u0027s weather (historical velocity) to cap the scope of the next cycle.",
+                                                "specific_deliverable":  "A Velocity Forecast.",
+                                                "rubric":  "Uses historical velocity to cap scope."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Cal Newport - The Professor",
+                                                "theory":  "Definition: Deep Work is a finite cognitive resource. Procedural Link: The action is to budget the project in terms of \u0027Deep Work Hours\u0027 rather than calendar days.",
+                                                "specific_deliverable":  "A Deep Work Budget.",
+                                                "rubric":  "Budgets in Deep Work Hours."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Twyla Tharp - The Choreographer",
+                                                "theory":  "Definition: Creative stamina is a physical resource. Procedural Link: The action is to plan the work intensity to match the physical and emotional stamina of the performers.",
+                                                "specific_deliverable":  "A Rehearsal Intensity Graph.",
+                                                "rubric":  "Matches intensity to stamina."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Regenerative Design - The Ecologist",
+                                                "theory":  "Definition: Carrying Capacity is the maximum population an environment can sustain. Procedural Link: The action is to assess the \u0027social carrying capacity\u0027 of the community to absorb change.",
+                                                "specific_deliverable":  "A Community Bandwidth Assessment.",
+                                                "rubric":  "Assesses capacity to absorb change."
                                             }
                                         ]
                      }

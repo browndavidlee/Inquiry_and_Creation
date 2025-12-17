@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -76,7 +76,7 @@
                     },
                     {
                         "title":  "Concept Cloud",
-                        "content":  "5 Whys, Anomaly, Attunement, Autoethnography, Close Reading, Connect, Context, diagnosing, Framing, Inception, Inquiry, Invitational Design, Jobs-to-be-Done (JTBD), Listening, Moodboard, Observation, Phenomenon, Problem Statement, Provocation, Recognition, Responsibility, Salience, Sensing, Signal, Sociological Imagination, Stakeholder Needs, Tension"
+                        "content":  "5 Whys, Anomaly, Attunement, Autoethnography, Close Reading, Connect, Context, Diagnosing, Framing, Inception, Inquiry, Invitational Design, Jobs-to-be-Done, Listening, Moodboard, Observation, Phenomenon, Problem Statement, Provocation, Recognition, Responsibility, Salience, Sensing, Signal, Sociological Imagination, Stakeholder Needs, Tension, Prediction Error, Positionality, Interoception"
                     },
                     {
                         "title":  "Core Modalities",

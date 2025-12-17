@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -1061,6 +1061,138 @@
                                                 "theory":  "Definition: The User Story Map is a map of the sequence of community interactions. Procedural Link: The action is to create a map of the sequence of community interactions required to achieve a shared goal.",
                                                 "specific_deliverable":  "A Service Ecosystem Map.",
                                                 "rubric":  "Create map of interactions."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T5.25",
+                         "name":  "Narrative Arc",
+                         "integrated_deliverable":  "A Story Spine.",
+                         "scenario":  "Structuring a pitch deck or a user journey.",
+                         "theory_application":  "Organize the components of the plan into a dramatic sequence (Beginning, Middle, End) to maximize engagement and coherence.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Randy Olson - The Scientist-Filmmaker",
+                                                "theory":  "Definition: ABT (And, But, Therefore) is the DNA of story. Procedural Link: The action is to structure the abstract as: Context (And), Problem (But), Solution (Therefore).",
+                                                "specific_deliverable":  "An ABT Abstract.",
+                                                "rubric":  "Uses And/But/Therefore structure."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Nancy Duarte - The Communicator",
+                                                "theory":  "Definition: The Sparkline moves between \u0027What is\u0027 and \u0027What could be\u0027. Procedural Link: The action is to structure the presentation to oscillate between the status quo and the vision.",
+                                                "specific_deliverable":  "A Sparkline Diagram.",
+                                                "rubric":  "Oscillates between status quo and vision."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Hayden White - The Historiographer",
+                                                "theory":  "Definition: Metahistory analyzes the plot structure of historical accounts. Procedural Link: The action is to consciously choose the plot mode (e.g., Tragedy, Comedy) that best fits the argument.",
+                                                "specific_deliverable":  "A Plot Mode Selection.",
+                                                "rubric":  "Chooses explicit plot mode."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Aristotle - The Poetician",
+                                                "theory":  "Definition: Poetics defines the arc of reversal and recognition. Procedural Link: The action is to structure the experience to lead to a moment of catharsis.",
+                                                "specific_deliverable":  "A Catharsis Map.",
+                                                "rubric":  "Structures for catharsis."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Marshall Ganz - The Organizer",
+                                                "theory":  "Definition: Public Narrative (Story of Self, Us, Now). Procedural Link: The action is to structure the campaign to link personal motivation to collective identity and urgent action.",
+                                                "specific_deliverable":  "A Public Narrative Script.",
+                                                "rubric":  "Links Self, Us, and Now."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T5.26",
+                         "name":  "Dependency Mapping",
+                         "integrated_deliverable":  "A Critical Path Diagram.",
+                         "scenario":  "Planning a complex software release.",
+                         "theory_application":  "Identify the logical relationships between tasks to determine the sequence in which they must be performed.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "PERT Chart - The Project Manager",
+                                                "theory":  "Definition: Program Evaluation and Review Technique. Procedural Link: The action is to identify the sequence of chemical reactions where step B cannot start until step A yields a specific purity.",
+                                                "specific_deliverable":  "A Reaction Sequence Chart.",
+                                                "rubric":  "Identifies sequential prerequisites."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eliyahu Goldratt - The Consultant",
+                                                "theory":  "Definition: Critical Chain Project Management. Procedural Link: The action is to identify the chain of tasks that determines the project\u0027s duration and protect it with buffers.",
+                                                "specific_deliverable":  "A Critical Chain Buffer.",
+                                                "rubric":  "Protects the critical chain."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Logic - The Philosopher",
+                                                "theory":  "Definition: Premise dependency. Procedural Link: The action is to map which claims must be proven true before the subsequent claims can be accepted.",
+                                                "specific_deliverable":  "A Premise Dependency Tree.",
+                                                "rubric":  "Maps prerequisite claims."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Construction - The Architect",
+                                                "theory":  "Definition: Load-bearing logic. Procedural Link: The action is to determine which structural elements must be in place to support the aesthetic skin.",
+                                                "specific_deliverable":  "A Load-Bearing Diagram.",
+                                                "rubric":  "Identifies structural supports."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Social Change - The Activist",
+                                                "theory":  "Definition: Theory of Change. Procedural Link: The action is to map the preconditions (e.g., trust) that must exist before a specific intervention (e.g., voting) can succeed.",
+                                                "specific_deliverable":  "A Precondition Map.",
+                                                "rubric":  "Maps social preconditions."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T5.27",
+                         "name":  "Modularity",
+                         "integrated_deliverable":  "A Component Architecture.",
+                         "scenario":  "Designing a scalable system.",
+                         "theory_application":  "Decompose a system into distinct, independent parts that can be created, tested, and replaced individually.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Herbert Simon - The Systems Theorist",
+                                                "theory":  "Definition: Near-decomposability allows complex systems to evolve. Procedural Link: The action is to isolate variables so that a change in one sub-system does not crash the whole experiment.",
+                                                "specific_deliverable":  "A Variable Isolation Plan.",
+                                                "rubric":  "Isolates variables."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Microservices - The Architect",
+                                                "theory":  "Definition: Loose coupling, high cohesion. Procedural Link: The action is to define clear API boundaries between teams so they can deploy independently.",
+                                                "specific_deliverable":  "An API Contract.",
+                                                "rubric":  "Defines clear boundaries."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "The Encyclopedia - The Editor",
+                                                "theory":  "Definition: Knowledge can be chunked into discrete articles. Procedural Link: The action is to structure the work as a collection of independent essays that can be read in any order.",
+                                                "specific_deliverable":  "An Anthology Structure.",
+                                                "rubric":  "Structures as independent chunks."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Brad Frost - The Web Designer",
+                                                "theory":  "Definition: Atomic Design (Atoms, Molecules, Organisms). Procedural Link: The action is to design the smallest visual elements first (buttons) and combine them into complex structures (pages).",
+                                                "specific_deliverable":  "An Atomic Component Library.",
+                                                "rubric":  "Builds from atoms to organisms."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Holacracy - The Organizer",
+                                                "theory":  "Definition: Autonomous Circles. Procedural Link: The action is to define semi-autonomous working groups with clear domains of authority.",
+                                                "specific_deliverable":  "A Circle Constitution.",
+                                                "rubric":  "Defines autonomous domains."
                                             }
                                         ]
                      }
