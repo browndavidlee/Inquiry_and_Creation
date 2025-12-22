@@ -701,6 +701,38 @@
                       "home_domain":  "Business \u0026 Agile",
                       "parent_tool":  "tool7",
                       "general_principle":  "A structured course correction designed to test a new fundamental hypothesis about the product, strategy, and engine of growth."
+                  },
+                  {
+                      "translations":  [
+                                           {
+                                               "expression":  "Transaction Cost",
+                                               "domain":  "Economics"
+                                           },
+                                           {
+                                               "expression":  "Cognitive Load",
+                                               "domain":  "Psychology"
+                                           }
+                                       ],
+                      "term":  "Friction",
+                      "home_domain":  "Physics/Business",
+                      "parent_tool":  "tool10",
+                      "general_principle":  "The resistance that one surface or object encounters when moving over another. In knowledge work, it is the cognitive load, bureaucracy, or emotional resistance that slows down value creation."
+                  },
+                  {
+                      "translations":  [
+                                           {
+                                               "expression":  "Force Multiplier",
+                                               "domain":  "Military/Strategy"
+                                           },
+                                           {
+                                               "expression":  "Keystone",
+                                               "domain":  "Architecture"
+                                           }
+                                       ],
+                      "term":  "Leverage Point",
+                      "home_domain":  "Systems Thinking",
+                      "parent_tool":  "tool10",
+                      "general_principle":  "A place in a complex system where a small shift in one thing can produce big changes in everything."
                   }
               ],
     "_metadata":  {

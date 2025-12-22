@@ -634,6 +634,29 @@
                                         ],
                          "scenario":  "Optimizing delivery routes.",
                          "theory_application":  "Use advanced analytical methods to help make better decisions."
+                     },
+                     {
+                         "id":  "T10.VC.1",
+                         "name":  "Value Chain Analysis",
+                         "integrated_deliverable":  "A Process Optimization Report.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Michael Porter",
+                                                "domain":  "Business",
+                                                "theory":  "Value Chain. Link: Map Primary vs. Support activities to find margin.",
+                                                "specific_deliverable":  "Efficiency Audit",
+                                                "rubric":  "Identifies friction points."
+                                            },
+                                            {
+                                                "expert":  "Donella Meadows",
+                                                "domain":  "Systems Thinking",
+                                                "theory":  "Flow Analysis. Link: Identify where the \u0027stock\u0027 of knowledge gets stuck in the \u0027pipes\u0027 of process.",
+                                                "specific_deliverable":  "Flow Map",
+                                                "rubric":  "Identifies bottlenecks."
+                                            }
+                                        ],
+                         "scenario":  "A team feeling busy but producing little value.",
+                         "theory_application":  "Analyze the workflow to identify where value is created and where it is lost (friction), then optimize the chain."
                      }
                  ]
 }

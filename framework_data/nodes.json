@@ -11303,6 +11303,81 @@
                                                           "domainAgnosticDescription":  "Shortens the delay in the Build-Measure-Learn reinforcing loop."
                                                       }
                                                   ]
+                  },
+                  {
+                      "parentTool":  "tool2",
+                      "id":  "rapid-assumption-mapping",
+                      "tags":  [
+                                   "planning",
+                                   "agile",
+                                   "risk-management"
+                               ],
+                      "inputs":  [
+                                     "A list of beliefs about the project"
+                                 ],
+                      "description":  "A high-speed planning technique to plot assumptions on a 2x2 matrix (Important vs. Unknown) to instantly identify the \u0027Riskiest Assumption\u0027 without writing a full plan.",
+                      "outputs":  [
+                                      "A prioritized testing backlog"
+                                  ],
+                      "name":  "Rapid Assumption Mapping",
+                      "theme":  "workshop",
+                      "uid":  "N-VC-1",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Filter",
+                                                          "domainAgnosticDescription":  "Filters infinite noise into finite signals."
+                                                      }
+                                                  ]
+                  },
+                  {
+                      "parentTool":  "tool5",
+                      "id":  "create-one-page-spec",
+                      "tags":  [
+                                   "structuring",
+                                   "communication",
+                                   "efficiency"
+                               ],
+                      "inputs":  [
+                                     "A selected concept"
+                                 ],
+                      "description":  "Bridge the \u0027Valley of Death\u0027 between idea and execution by forcing the entire structural plan onto a single page. This reduces cognitive load and prevents over-specification.",
+                      "outputs":  [
+                                      "A single-page architectural guide"
+                                  ],
+                      "name":  "Create a One-Page Spec",
+                      "theme":  "blueprint",
+                      "uid":  "N-VC-2",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Constraint",
+                                                          "domainAgnosticDescription":  "Forces clarity through artificial scarcity of space."
+                                                      }
+                                                  ]
+                  },
+                  {
+                      "parentTool":  "tool9",
+                      "id":  "conduct-flash-retro",
+                      "tags":  [
+                                   "synthesis",
+                                   "learning",
+                                   "speed"
+                               ],
+                      "inputs":  [
+                                     "A just-completed task"
+                                 ],
+                      "description":  "A 5-minute, low-friction synthesis ritual performed immediately after a work session to capture \u0027hot\u0027 learnings before they are lost to amnesia.",
+                      "outputs":  [
+                                      "One actionable improvement"
+                                  ],
+                      "name":  "Conduct a Flash Retrospective",
+                      "theme":  "council",
+                      "uid":  "N-VC-3",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Feedback Loop",
+                                                          "domainAgnosticDescription":  "Tightens the learning loop to near-real-time."
+                                                      }
+                                                  ]
                   }
               ],
     "pathways":  {
