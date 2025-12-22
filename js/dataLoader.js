@@ -110,6 +110,7 @@
                 frameworkNodes: dataMap['nodes.json'],
                 ...dataMap['reference.json'],
                 ...dataMap['system.json'],
+                'matrix_clusters.json': dataMap['matrix_clusters.json'],
                 tools: toolsArray, 
                 toolConcepts: toolConceptsMap 
             }

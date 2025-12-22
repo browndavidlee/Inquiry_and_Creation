@@ -43,62 +43,520 @@
                                     }
                      },
     "perspectives":  {
-                         "CultureTraditionsAndEthics":  {
-                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
-                                                            "simpleTitle":  "Ethical Viewpoints",
-                                                            "content":  "This perspective reframes \u0027doing\u0027 as a relational act of performance or service, where the quality and intent of the action are as important as the outcome.",
-                                                            "dynamic_playbook":  {
-                                                                                     "practitioner":  [
-                                                                                                          "**Practice \u0027Right Action\u0027:** Focus on the quality of the work in the present moment, not the future reward (Karma Yoga). Detach from the outcome to improve the craft.",
-                                                                                                          "**Honor the Material:** Treat the resources you use (data, wood, people\u0027s stories) with reverence. Do not extract; collaborate with the medium.",
-                                                                                                          "**Embody the Values:** If your plan claims \u0027equity,\u0027 your execution must embody it. How you build determines what you build."
-                                                                                                      ],
-                                                                                     "facilitator":  [
-                                                                                                         "**Protect the Makers:** In many traditions, the act of creation is sacred. Create a \u0027temenos\u0027 (protected space) around the team where the rules of the outside world are suspended.",
-                                                                                                         "**Ritualize the Start:** Use a simple opening ritual (lighting a candle, a specific song, a stand-up) to mark the threshold between \u0027planning\u0027 and \u0027doing.\u0027",
-                                                                                                         "**Witness the Effort:** Acknowledge the labor, not just the result. \u0027I see the care you are putting into this.\u0027 This builds a culture of craftsmanship."
-                                                                                                     ]
-                                                                                 }
-                                                        },
-                         "cynefinAnalysis":  {
-                                                 "title":  "🧭 Navigational Context",
-                                                 "simpleTitle":  "Complexity Check",
-                                                 "content":  "If the plan is perfect, execution is Clear. More often, reality provides unexpected feedback, making execution a Complex process of action and response.",
-                                                 "dynamic_playbook":  {
-                                                                          "practitioner":  [
-                                                                                               "**Sense While Acting:** Execution is not blind obedience. It is a stream of data. If the material resists the plan, you are in **Complexity**. Stop forcing; start listening.",
-                                                                                               "**Adapt the Tactic:** In Complexity, the goal remains fixed, but the path changes. Be willing to abandon the \u0027Complicated\u0027 blueprint if the \u0027Complex\u0027 reality contradicts it.",
-                                                                                               "**Capture Emergence:** The \u0027bug\u0027 might be a feature. The \u0027mistake\u0027 might be a discovery. Document these anomalies; they are the seeds of the next innovation."
-                                                                                           ],
-                                                                          "facilitator":  [
-                                                                                              "**Monitor for Drift:** Watch for the team drifting into **Chaos** (panic, random action). If this happens, intervene immediately to re-establish constraints.",
-                                                                                              "**Distinguish Error from Emergence:** Is the deviation a mistake (Complicated failure) or a new pattern (Complex discovery)? Help the team diagnose the difference.",
-                                                                                              "**Encourage \u0027Tinkering\u0027:** In Complexity, we learn by doing. Encourage small, rapid adjustments rather than stopping to re-plan everything."
-                                                                                          ]
-                                                                      }
-                                             },
+                         "psychologicalDynamics":  {
+                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "simpleTitle":  "Emotional Hurdles",
+                                                       "content":  "Execution is a state of \u0027enaction,\u0027 where the plan meets reality. The core friction is \u0027The Gap\u0027—the disappointment when the tangible work doesn\u0027t match the perfect vision, activating the brain\u0027s error-detection circuits (ACC).",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
+                                                                                                     "**Monitor Cognitive Load:** Recognize the signs of ECN depletion (irritability, tunnel vision). If the team is fried, the only valid intervention is Rest.",
+                                                                                                     "**Switch Networks:** Consciously toggle the team\u0027s state. If they are stuck in analysis (ECN), force a move to play (DMN)."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Regulate Group Arousal:** Act as the \u0027external amygdala regulator.\u0027 If the room is hot (conflict), lower the temperature. If cold (boredom), raise it.",
+                                                                                                    "**Spot \u0027Attentional Blink\u0027:** When the team is hyper-focused on a detail, interrupt to force a \u0027global\u0027 attention check.",
+                                                                                                    "**Promote \u0027Agency\u0027:** Giving the team control over their process releases Dopamine. Ask: \u0027How do *you* want to solve this?\u0027"
+                                                                                                ]
+                                                                            }
+                                                   },
                          "integrativeStrategies":  {
                                                        "title":  "🧩 Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
-                                                                                                     "**Embodied Cognition:** \u0027Think with your hands.\u0027 If stuck, stop thinking and start moving/making. Physical action stimulates cognitive problem-solving (Sensorimotor-ECN loop).",
-                                                                                                     "**Process Journaling:** Combine the \u0027Artist\u0027s\u0027 focus on feeling with the \u0027Scientist\u0027s\u0027 focus on data. Record how you *felt* while the experiment ran.",
-                                                                                                     "**The \u0027Coaching Loop\u0027:** Adopt a dual stance: The \u0027Doer\u0027 (executing) and the \u0027Watcher\u0027 (observing the self). This metacognitive split accelerates skill acquisition."
+                                                                                                     "**Force Bisociation:** Deliberately collide two unrelated frames (e.g., \u0027Treat this software bug as a biological virus\u0027). Novelty lives at the intersection.",
+                                                                                                     "**Bridge the Qualitative/Quantitative:** If you have data, find the story. If you have a story, find the data. The inquiry lies in the gap between them.",
+                                                                                                     "**Map the System:** Don\u0027t just define the node (the problem); define the edges (the relationships). How does this problem sustain the larger system?"
                                                                                                  ],
                                                                                 "facilitator":  [
-                                                                                                    "**Silent Witnessing:** Sometimes the best facilitation is presence without words. Sit with the team as they work. Your attention anchors their focus.",
-                                                                                                    "**Cross-Pollinate Skills:** Have the writer pair with the designer. The friction between their modes of execution will generate novel solutions.",
-                                                                                                    "**Rhythmic Pacing:** Use a timer (Pomodoro) to synchronize the team\u0027s energy. Collective starts and stops create a shared rhythm of exertion and recovery."
+                                                                                                    "**Translate Vocabularies:** Actively translate jargon. \u0027When the engineer says \u0027latency,\u0027 the anthropologist hears \u0027friction.\u0027 How are these the same?\u0027",
+                                                                                                    "**Use Metaphorical Mapping:** Introduce a root metaphor (e.g., \u0027Ecosystem,\u0027 \u0027Machine,\u0027 \u0027Journey\u0027) to give the diverse group a shared cognitive handle.",
+                                                                                                    "**Synthesize in Real-Time:** Listen for the \u0027third way.\u0027 When the group is stuck in a binary (A vs B), identify the higher-order synthesis (C) that resolves it."
                                                                                                 ]
                                                                             }
                                                    },
+                         "CultureTraditionsAndEthics":  {
+                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "simpleTitle":  "Ethical Viewpoints",
+                                                            "content":  "This perspective reframes \u0027doing\u0027 as a relational act of performance or service, where the quality and intent of the action are as important as the outcome.",
+                                                            "dynamic_playbook":  {
+                                                                                     "practitioner":  [
+                                                                                                          "**Audit Positionality:** Explicitly map your own power relative to the subject. Ask: \u0027Does my identity obscure the true nature of this problem?\u0027",
+                                                                                                          "**Identify the Silenced:** Conduct a \u0027Negative Space Analysis.\u0027 Who is *not* in the room? Whose data is missing? Frame the inquiry to center these voices.",
+                                                                                                          "**Shift to Relationality:** Reframe the \u0027problem\u0027 as a \u0027broken relationship.\u0027 Instead of \u0027fixing X,\u0027 ask \u0027how do we restore right relationship with X?\u0027"
+                                                                                                      ],
+                                                                                     "facilitator":  [
+                                                                                                         "**Disrupt Hierarchy:** Enforce a \u0027Circle Process\u0027 or \u0027Talking Piece\u0027 protocol. Ensure the most junior or marginalized voices speak before the leaders to prevent anchoring.",
+                                                                                                         "**Interrogate the Mandate:** Ask the group: \u0027Is this inquiry serving the community, or merely extracting value from it?\u0027 (Reciprocity Check).",
+                                                                                                         "**Expand the \u0027We\u0027:** When the group says \u0027We need to...\u0027, ask \u0027Who is We?\u0027 Force a precise definition of the collective subject and its boundaries."
+                                                                                                     ]
+                                                                                 }
+                                                        },
+                         "strategicStreams":  {
+                                                  "dynamic_playbook":  {
+                                                                           "practitioner":  [
+                                                                                                "**Diagnose Your State:** Identify which of the core streams (e.g., Somatic, Diagnostic, Relational) feels blocked or weak right now.",
+                                                                                                "**Select a Stream:** Choose one of the streams listed in the \u0027Strategic Streams\u0027 perspective.",
+                                                                                                "**Apply the Prompt:** Ask yourself the \u0027Application Prompt\u0027 associated with that stream to generate a new insight or action.",
+                                                                                                "**Cross-Pollinate:** Apply a stream from a different tool to your current problem (e.g., Apply Tool 3\u0027s \u0027Divergent\u0027 stream to Tool 7\u0027s \u0027Analysis\u0027 to find more bugs)."
+                                                                                            ],
+                                                                           "facilitator":  [
+                                                                                               "**Diagnose the Group State:** Observe the team\u0027s behavior. Which stream is the group neglecting?",
+                                                                                               "**Introduce a Stream as an Intervention:** Use the \u0027Application Prompt\u0027 as a public question to shift the team\u0027s focus.",
+                                                                                               "**Facilitate Cross-Pollination:** Explicitly ask the group, \u0027How would we apply the \u0027Subtractive\u0027 stream from Tool 4 to our current task in Tool 6?\u0027"
+                                                                                           ]
+                                                                       }
+                                              },
+                         "cognitiveModel":  {
+                                                "stage_id":  "tool6",
+                                                "stage_name":  "Execution \u0026 Embodiment",
+                                                "pathways":  [
+                                                                 {
+                                                                     "pathway_name":  "🧠  Cognitive States of Execution (Cynefin-Informed)",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Clear: Best Practice",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Basal Ganglia",
+                                                                                                                                                 "Cerebellum",
+                                                                                                                                                 "Sensorimotor Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                                       "processing_style":  "Habitual / Automated Response"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Executing a well-known best practice is a highly learned, automated skill that relies on the brain\u0027s habit-formation circuits (Basal Ganglia), requiring minimal conscious executive control.",
+                                                                                                                             "supporting_evidence":  "The neuroscience of habit formation and procedural memory.",
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Complicated: Expert Execution",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Dorsal Attention Network (DAN)"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Plan-Guided, Analytical Action"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Expert execution of a complex but known plan is the canonical function of the ECN, involving sustained attention (DAN), working memory, and logical, rule-based problem-solving.",
+                                                                                                                             "supporting_evidence":  "Models of cognitive control and expert performance.",
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Complex: Probing \u0026 Experimenting",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "DMN",
+                                                                                                                                                 "SN",
+                                                                                                                                                 "ECN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Iterative Probing \u0026 Sensing"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Navigating complexity requires a dynamic interplay between generating creative experiments (DMN), executing them (ECN), and detecting salient feedback (SN) to guide the next action.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "beaty-2016"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T4",
+                                                                                          "pfic_word":  "Chaotic: Rapid Response",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Limbic System",
+                                                                                                                                                 "ECN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 1 (initially)",
+                                                                                                                                                       "processing_style":  "Threat-Driven, Decisive Action"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "In a crisis, the brain\u0027s threat-detection system (Limbic System) can directly influence the executive system to take immediate, decisive action, prioritizing speed over accuracy.",
+                                                                                                                             "supporting_evidence":  "The neuroscience of fear, stress, and decision-making under pressure.",
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ]
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Warm-up\u0027 Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Sense Incompetence",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ACC",
+                                                                                                                                                 "Sensorimotor Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Conflict"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ACC detects a high error signal between the intended action (from ECN) and the actual motor output (from SMN).",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Perform Drills",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Sensorimotor Network",
+                                                                                                                                                 "Basal Ganglia",
+                                                                                                                                                 "Cerebellum"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                                       "processing_style":  "Habit Activation"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Executing the simpler drills reactivates the well-learned procedural memories stored in the Basal Ganglia and Cerebellum.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "kandel-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Re-engage Task",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Sensorimotor Network",
+                                                                                                                                                 "Basal Ganglia",
+                                                                                                                                                 "Cerebellum"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Skilled Performance"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN re-engages the complex task, but now the subcortical motor circuits are primed and accessible, leading to fluid execution.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "kandel-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway primes the motor cortex and basal ganglia with simple, familiar drills, lowering the activation energy required to engage in a complex, high-stakes task."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Deliberate Practice\u0027 Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Sense Decay",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ACC",
+                                                                                                                                                 "ECN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Error Detection"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ACC signals persistent, high error rates during a task, indicating a fundamental skill deficit.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Practice Component",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "DAN",
+                                                                                                                                                 "Sensorimotor Network",
+                                                                                                                                                 "ECN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Focused Practice"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The DAN and ECN direct intense, focused attention onto the execution of a single, isolated component of the skill, forcing conscious, deliberate processing.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "corbetta-2002"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Re-integrate Skill",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Sensorimotor Network",
+                                                                                                                                                 "Basal Ganglia",
+                                                                                                                                                 "Cerebellum"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Re-automation"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN sequences the now-relearned components, gradually re-automating the complete skill.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "diamond-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway breaks a complex skill into isolated components, allowing the ECN to exert high-focus control on a single variable to correct persistent errors."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Mindfulness Trigger\u0027 Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Sense Reversion",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ACC",
+                                                                                                                                                 "Insula"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Conflict"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ACC detects the error of the bad habit, while the Insula provides the interoceptive \u0027uh-oh\u0027 feeling of making a familiar mistake.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "craig-2009"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Set Trigger",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Hippocampus"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Prospective Memory"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN and Hippocampus work together to set a \u0027prospective memory\u0027—an intention to perform an action (the check) in the future when a specific cue appears.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "squire-2009"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Interrupt \u0026 Correct",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Basal Ganglia"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Inhibitory Control"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The SN\u0027s signal allows the ECN to exert top-down inhibitory control, actively suppressing the habitual response from the Basal Ganglia and allowing for a deliberate, correct action.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "diamond-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway installs a \u0027cognitive tripwire\u0027 (prospective memory) that interrupts a habitual behavior (like distraction) and redirects attention back to the goal."
+                                                                 }
+                                                             ],
+                                                "dynamic_playbook":  {
+                                                                         "practitioner":  [
+                                                                                              "**Identify Your Pathway:** Review the pathways. Which one best matches the work you are trying to do right now?",
+                                                                                              "**Diagnose Friction:** If you feel stuck, check the \u0027Neurocognitive State\u0027 of your current step. Are you trying to do analytical work in a generative state?",
+                                                                                              "**Optimize the Sequence:** Follow the pathway\u0027s sequence. Don\u0027t skip the \u0027priming\u0027 or \u0027transition\u0027 steps."
+                                                                                          ],
+                                                                         "facilitator":  [
+                                                                                             "**Diagnose the Group Brain:** Look at the group\u0027s behavior. Which pathway are they attempting? Where are they getting stuck?",
+                                                                                             "**Facilitate Network Switching:** Use the \u0027Transition\u0027 steps in the pathways to help the group shift modes.",
+                                                                                             "**Reduce Cognitive Load:** Use the model to identify high-load steps. Provide scaffolding (templates, visuals) during these steps."
+                                                                                         ]
+                                                                     }
+                                            },
+                         "dynamic_playbook":  {
+                                                  "practitioner":  [
+                                                                       "**Engage the DAN:** Activate the Dorsal Attention Network by focusing on a single, goal-directed stimulus.",
+                                                                       "**Leverage Procedural Memory:** \u0027Drill\u0027 repetitive tasks until they become automatic (Basal Ganglia), freeing up the PFC for monitoring.",
+                                                                       "**Manage the \u0027Pain of Starting\u0027:** The Insula registers effort as pain. Use a \u0027Mindfulness Trigger\u0027 to overcome the urge to quit."
+                                                                   ],
+                                                  "facilitator":  [
+                                                                      "**Protect Working Memory:** Do not interrupt a practitioner in flow. It takes ~23 minutes to reload context into the ECN.",
+                                                                      "**Externalize Progress:** Use visible checklists. Seeing progress releases Dopamine, which fuels persistence.",
+                                                                      "**Regulate Arousal:** If the team is panicked, use co-regulation (calm voice) to bring their PFCs back online."
+                                                                  ]
+                                              },
+                         "simpleTitle":  {
+                                             "Length":  17
+                                         },
+                         "title":  {
+                                       "Length":  25
+                                   },
+                         "cognitiveNeuroscience":  {
+                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "simpleTitle":  "The Brain at Work",
+                                                       "content":  "Execution is the neural process of executing a plan, guided by real-time sensory feedback and refined by subcortical loops for automation and error correction.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Identify the Cognitive State:** Read the description. What is the primary mental work required for this tool?",
+                                                                                                     "**Anticipate Friction:** Based on the neuroscience, what part of this tool will be the most mentally taxing?",
+                                                                                                     "**Self-Regulate:** Use the insights to manage your own energy (e.g., \u0027This is an ECN-heavy tool, so I need to eliminate distractions\u0027)."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Diagnose the Group Brain:** Observe the team. Are they in the right cognitive state for this tool?",
+                                                                                                    "**Design for the Brain:** Structure the activity to support the required cognitive function (e.g., provide quiet time for DMN-heavy tasks).",
+                                                                                                    "**Explain the \u0027Why\u0027:** Use the neuroscience to explain why a specific process rule is important (e.g., \u0027We defer judgment to let our DMN associate freely\u0027)."
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "comparativeAnalysis":  {
+                                                     "summary":  "How \u0027Execute\u0027 differs from \u0027Just Do It\u0027.",
+                                                     "title":  "Comparative Analysis",
+                                                     "selection_logic":  "Use this tool for complex execution. Use \u0027Just Do It\u0027 for simple, habitual tasks.",
+                                                     "simpleTitle":  "Vs. Other Models",
+                                                     "models":  [
+                                                                    {
+                                                                        "value_add":  "Tool 6 integrates thinking and doing (\u0027Reflective Practice\u0027), allowing the executor to adapt the plan in real-time based on feedback.",
+                                                                        "derivation":  "Taylorism",
+                                                                        "model":  "Command \u0026 Control",
+                                                                        "comparison":  "Command \u0026 Control separates thinking (managers) from doing (workers).",
+                                                                        "vector":  "Management"
+                                                                    },
+                                                                    {
+                                                                        "value_add":  "Tool 6 operationalizes Flow through \u0027Environment Design\u0027 and \u0027Micro-Steps\u0027, making high-performance states repeatable.",
+                                                                        "derivation":  "Positive Psychology",
+                                                                        "model":  "Flow State",
+                                                                        "comparison":  "Flow is often seen as accidental.",
+                                                                        "vector":  "Psychology"
+                                                                    }
+                                                                ],
+                                                     "dynamic_playbook":  {
+                                                                              "practitioner":  [
+                                                                                                   "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                                   "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                                   "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead."
+                                                                                               ],
+                                                                              "facilitator":  [
+                                                                                                  "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                                  "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                                  "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails."
+                                                                                              ]
+                                                                          }
+                                                 },
+                         "frameworkImplications":  {
+                                                       "title":  "Strategic Role",
+                                                       "icon":  "fas fa-chess-board",
+                                                       "summary":  "This is where the plan meets the friction of reality, transforming an abstract design into a tangible artifact and generating essential data for learning.",
+                                                       "points":  [
+                                                                      "**Generates Ground Truth:** The \u0027emergent feedback\u0027 from the material or process itself is the raw data that fuels the learning engine of Tool 7.",
+                                                                      "**Reveals the Loop:** This stage proves the framework is not linear but a cycle. The experience of \u0027doing\u0027 directly informs the next iteration of the plan.",
+                                                                      "**Creates an Object-for-Learning:** The JTBD frames the output not as a final product, but as a \u0027tangible first iteration\u0027 designed for testing and refinement, which lowers the stakes and encourages a process-attentive mindset."
+                                                                  ],
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Draft the \u0027North Star\u0027:** Write a single sentence that defines the ultimate, long-term impact of this inquiry.",
+                                                                                                     "**Audit for Alignment:** Explicitly check this inquiry against the organization\u0027s high-level OKRs or mission statement.",
+                                                                                                     "**Define \u0027Anti-Goals\u0027:** Strategically define what this project is *not* about."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Facilitate the \u0027Why Now?\u0027 Discussion:** Ask the team: \u0027Why is this the most important thing to do *right now*?\u0027",
+                                                                                                    "**Check Executive Sponsorship:** Ensure there is a clear owner who has the authority to act on the findings.",
+                                                                                                    "**Calibrate Ambition:** Help the team size the strategic bet. Is this a \u0027moonshot\u0027 or an \u0027optimization\u0027?"
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "content":  {
+                                         "Length":  227
+                                     },
+                         "cynefinAnalysis":  {
+                                                 "title":  "🧭 Navigational Context",
+                                                 "simpleTitle":  "Complexity Check",
+                                                 "content":  "If the plan is perfect, execution is Clear. More often, reality provides unexpected feedback, making execution a Complex process of action and response.",
+                                                 "dynamic_playbook":  {
+                                                                          "practitioner":  [
+                                                                                               "**Diagnose the Domain:** If the problem has no right answer, you are in **Complexity**. Stop planning; start probing. Shift from \u0027Analyst\u0027 to \u0027Naturalist.\u0027",
+                                                                                               "**Resist Premature Convergence:** If you can already visualize the solution, you are likely solving the wrong (Complicated) problem. Force yourself to widen the aperture.",
+                                                                                               "**Hunt for Patterns:** Do not look for a single root cause (linear). Look for recurring clusters of behavior or \u0027attractors\u0027 that suggest an underlying dynamic."
+                                                                                           ],
+                                                                          "facilitator":  [
+                                                                                              "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
+                                                                                              "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                          ]
+                                                                      }
+                                             },
                          "disciplinaryapplication":  {
-                                                         "title":  "📚 Disciplinary Application",
-                                                         "simpleTitle":  "Field-Specific Methods",
                                                          "summary":  "How different fields apply the principle of transforming a plan into embodied knowledge through action.",
+                                                         "dynamic_playbook":  {
+                                                                                  "practitioner":  [
+                                                                                                       "**Science \u0026 Engineering:** Follow **The Experimental Path**: Execute the protocol precisely while monitoring for anomalies. Output: Raw Data (N26).",
+                                                                                                       "**Business \u0026 Agile:** Follow **The Build Path**: Construct a tangible, testable version of the product. Output: A Working Prototype (N28).",
+                                                                                                       "**Humanities \u0026 Social Sciences:** Follow **The Drafting Path**: Write quickly to capture ideas, separating generation from editing. Output: A First Draft (N27).",
+                                                                                                       "**Arts \u0026 Design:** Follow **The Fabrication Path**: Engage in a dialogue with the material, allowing for \u0027happy accidents.\u0027 Output: A Rehearsal/Study (N30).",
+                                                                                                       "**Culture \u0026 Ethics:** Follow **The Material Dialogue Path**: Perform the action with full presence and ethical intent. Output: Focused Action (N164)."
+                                                                                                   ],
+                                                                                  "facilitator":  [
+                                                                                                      "**Science \u0026 Engineering:** Enforce **Fidelity**. Ask: \u0027Are we deviating from the protocol? If so, are we documenting why?\u0027",
+                                                                                                      "**Business \u0026 Agile:** Enforce **Flow**. Protect the team from distractions to allow for deep work.",
+                                                                                                      "**Humanities \u0026 Social Sciences:** Enforce **Momentum**. Ask: \u0027Are you stopping to edit? Don\u0027t. Just get it down.\u0027",
+                                                                                                      "**Arts \u0026 Design:** Enforce **Embodiment**. Ask: \u0027What is the material telling you that the plan didn\u0027t predict?\u0027",
+                                                                                                      "**Culture \u0026 Ethics:** Enforce **Presence**. Ask: \u0027Are we executing this transactionally, or with the intended spirit?\u0027"
+                                                                                                  ]
+                                                                              },
                                                          "content":  "Execution is where the map meets the territory. Science executes experiments; Arts executes fabrication; Humanities executes drafting. The framework reframes execution as a learning process, where the material \u0027talks back.\u0027",
+                                                         "simpleTitle":  "Field-Specific Methods",
+                                                         "title":  "📚 Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -140,83 +598,8 @@
                                                                                   "practitioner_method":  "Follow **The Material Dialogue Path**: Perform the action with full presence and ethical intent.",
                                                                                   "facilitator_method":  "Enforce **Presence**. Ask: \u0027Are we executing this transactionally, or with the intended spirit?\u0027"
                                                                               }
-                                                                          ],
-                                                         "dynamic_playbook":  {
-                                                                                  "practitioner":  [
-                                                                                                       "**Science \u0026 Engineering:** Follow **The Experimental Path**: Execute the protocol precisely while monitoring for anomalies. Output: Raw Data (N26).",
-                                                                                                       "**Business \u0026 Agile:** Follow **The Build Path**: Construct a tangible, testable version of the product. Output: A Working Prototype (N28).",
-                                                                                                       "**Humanities \u0026 Social Sciences:** Follow **The Drafting Path**: Write quickly to capture ideas, separating generation from editing. Output: A First Draft (N27).",
-                                                                                                       "**Arts \u0026 Design:** Follow **The Fabrication Path**: Engage in a dialogue with the material, allowing for \u0027happy accidents.\u0027 Output: A Rehearsal/Study (N30).",
-                                                                                                       "**Culture \u0026 Ethics:** Follow **The Material Dialogue Path**: Perform the action with full presence and ethical intent. Output: Focused Action (N164)."
-                                                                                                   ],
-                                                                                  "facilitator":  [
-                                                                                                      "**Science \u0026 Engineering:** Enforce **Fidelity**. Ask: \u0027Are we deviating from the protocol? If so, are we documenting why?\u0027",
-                                                                                                      "**Business \u0026 Agile:** Enforce **Flow**. Protect the team from distractions to allow for deep work.",
-                                                                                                      "**Humanities \u0026 Social Sciences:** Enforce **Momentum**. Ask: \u0027Are you stopping to edit? Don\u0027t. Just get it down.\u0027",
-                                                                                                      "**Arts \u0026 Design:** Enforce **Embodiment**. Ask: \u0027What is the material telling you that the plan didn\u0027t predict?\u0027",
-                                                                                                      "**Culture \u0026 Ethics:** Enforce **Presence**. Ask: \u0027Are we executing this transactionally, or with the intended spirit?\u0027"
-                                                                                                  ]
-                                                                              }
+                                                                          ]
                                                      },
-                         "comparativeAnalysis":  {
-                                                     "summary":  "How \u0027Execute\u0027 differs from \u0027Just Do It\u0027.",
-                                                     "title":  "Comparative Analysis",
-                                                     "selection_logic":  "Use this tool for complex execution. Use \u0027Just Do It\u0027 for simple, habitual tasks.",
-                                                     "simpleTitle":  "Vs. Other Models",
-                                                     "models":  [
-                                                                    {
-                                                                        "value_add":  "Tool 6 integrates thinking and doing (\u0027Reflective Practice\u0027), allowing the executor to adapt the plan in real-time based on feedback.",
-                                                                        "derivation":  "Taylorism",
-                                                                        "model":  "Command \u0026 Control",
-                                                                        "comparison":  "Command \u0026 Control separates thinking (managers) from doing (workers).",
-                                                                        "vector":  "Management"
-                                                                    },
-                                                                    {
-                                                                        "value_add":  "Tool 6 operationalizes Flow through \u0027Environment Design\u0027 and \u0027Micro-Steps\u0027, making high-performance states repeatable.",
-                                                                        "derivation":  "Positive Psychology",
-                                                                        "model":  "Flow State",
-                                                                        "comparison":  "Flow is often seen as accidental.",
-                                                                        "vector":  "Psychology"
-                                                                    }
-                                                                ]
-                                                 },
-                         "cognitiveNeuroscience":  {
-                                                       "title":  "🧠 Cognitive Neuroscience",
-                                                       "simpleTitle":  "The Brain at Work",
-                                                       "content":  "Execution is the neural process of executing a plan, guided by real-time sensory feedback and refined by subcortical loops for automation and error correction."
-                                                   },
-                         "psychologicalDynamics":  {
-                                                       "title":  "🧠 Psychological Dynamics",
-                                                       "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "Execution is a state of \u0027enaction,\u0027 where the plan meets reality. The core friction is \u0027The Gap\u0027—the disappointment when the tangible work doesn\u0027t match the perfect vision, activating the brain\u0027s error-detection circuits (ACC).",
-                                                       "dynamic_playbook":  {
-                                                                                "practitioner":  [
-                                                                                                     "**Engage the DAN:** Activate the Dorsal Attention Network by focusing on a single, goal-directed stimulus.",
-                                                                                                     "**Leverage Procedural Memory:** \u0027Drill\u0027 repetitive tasks until they become automatic (Basal Ganglia), freeing up the PFC for monitoring.",
-                                                                                                     "**Manage the \u0027Pain of Starting\u0027:** The Insula registers effort as pain. Use a \u0027Mindfulness Trigger\u0027 to overcome the urge to quit."
-                                                                                                 ],
-                                                                                "facilitator":  [
-                                                                                                    "**Protect Working Memory:** Do not interrupt a practitioner in flow. It takes ~23 minutes to reload context into the ECN.",
-                                                                                                    "**Externalize Progress:** Use visible checklists. Seeing progress releases Dopamine, which fuels persistence.",
-                                                                                                    "**Regulate Arousal:** If the team is panicked, use co-regulation (calm voice) to bring their PFCs back online."
-                                                                                                ]
-                                                                            }
-                                                   },
-                         "title":  "🧠 Psychological Dynamics",
-                         "simpleTitle":  "Emotional Hurdles",
-                         "content":  "Execution is a state of \u0027enaction,\u0027 where the plan meets reality. The core friction is \u0027The Gap\u0027—the disappointment when the tangible work doesn\u0027t match the perfect vision, activating the brain\u0027s error-detection circuits (ACC).",
-                         "dynamic_playbook":  {
-                                                  "practitioner":  [
-                                                                       "**Engage the DAN:** Activate the Dorsal Attention Network by focusing on a single, goal-directed stimulus.",
-                                                                       "**Leverage Procedural Memory:** \u0027Drill\u0027 repetitive tasks until they become automatic (Basal Ganglia), freeing up the PFC for monitoring.",
-                                                                       "**Manage the \u0027Pain of Starting\u0027:** The Insula registers effort as pain. Use a \u0027Mindfulness Trigger\u0027 to overcome the urge to quit."
-                                                                   ],
-                                                  "facilitator":  [
-                                                                      "**Protect Working Memory:** Do not interrupt a practitioner in flow. It takes ~23 minutes to reload context into the ECN.",
-                                                                      "**Externalize Progress:** Use visible checklists. Seeing progress releases Dopamine, which fuels persistence.",
-                                                                      "**Regulate Arousal:** If the team is panicked, use co-regulation (calm voice) to bring their PFCs back online."
-                                                                  ]
-                                              },
                          "domainConcepts":  {
                                                 "title":  "Domain Concepts",
                                                 "simpleTitle":  "Key Terms",
@@ -355,320 +738,6 @@
                                                     "Document not just the output of your work, but also the key learnings and insights that emerged from the process of doing it."
                                                 ]
                        },
-    "neurocognitiveModel":  {
-                                "stage_id":  "tool6",
-                                "stage_name":  "Execution \u0026 Embodiment",
-                                "pathways":  [
-                                                 {
-                                                     "pathway_name":  "🧠  Cognitive States of Execution (Cynefin-Informed)",
-                                                     "sequence":  [
-                                                                      {
-                                                                          "step":  "T1",
-                                                                          "pfic_word":  "Clear: Best Practice",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "Basal Ganglia",
-                                                                                                                                 "Cerebellum",
-                                                                                                                                 "Sensorimotor Network"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
-                                                                                                                                       "processing_style":  "Habitual / Automated Response"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "Executing a well-known best practice is a highly learned, automated skill that relies on the brain\u0027s habit-formation circuits (Basal Ganglia), requiring minimal conscious executive control.",
-                                                                                                             "supporting_evidence":  "The neuroscience of habit formation and procedural memory.",
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T2",
-                                                                          "pfic_word":  "Complicated: Expert Execution",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ECN",
-                                                                                                                                 "Dorsal Attention Network (DAN)"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
-                                                                                                                                       "processing_style":  "Plan-Guided, Analytical Action"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "Expert execution of a complex but known plan is the canonical function of the ECN, involving sustained attention (DAN), working memory, and logical, rule-based problem-solving.",
-                                                                                                             "supporting_evidence":  "Models of cognitive control and expert performance.",
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T3",
-                                                                          "pfic_word":  "Complex: Probing \u0026 Experimenting",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "DMN",
-                                                                                                                                 "SN",
-                                                                                                                                 "ECN"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Balanced",
-                                                                                                                                       "processing_style":  "Iterative Probing \u0026 Sensing"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "Navigating complexity requires a dynamic interplay between generating creative experiments (DMN), executing them (ECN), and detecting salient feedback (SN) to guide the next action.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "beaty-2016"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 2"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T4",
-                                                                          "pfic_word":  "Chaotic: Rapid Response",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "Limbic System",
-                                                                                                                                 "ECN"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 1 (initially)",
-                                                                                                                                       "processing_style":  "Threat-Driven, Decisive Action"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "In a crisis, the brain\u0027s threat-detection system (Limbic System) can directly influence the executive system to take immediate, decisive action, prioritizing speed over accuracy.",
-                                                                                                             "supporting_evidence":  "The neuroscience of fear, stress, and decision-making under pressure.",
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      }
-                                                                  ]
-                                                 },
-                                                 {
-                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Warm-up\u0027 Path",
-                                                     "sequence":  [
-                                                                      {
-                                                                          "step":  "T1",
-                                                                          "pfic_word":  "Sense Incompetence",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ACC",
-                                                                                                                                 "Sensorimotor Network"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
-                                                                                                                                       "processing_style":  "Conflict"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ACC detects a high error signal between the intended action (from ECN) and the actual motor output (from SMN).",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "botvinick-2001"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T2",
-                                                                          "pfic_word":  "Perform Drills",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "Sensorimotor Network",
-                                                                                                                                 "Basal Ganglia",
-                                                                                                                                 "Cerebellum"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
-                                                                                                                                       "processing_style":  "Habit Activation"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "Executing the simpler drills reactivates the well-learned procedural memories stored in the Basal Ganglia and Cerebellum.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "kandel-2013"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T3",
-                                                                          "pfic_word":  "Re-engage Task",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ECN",
-                                                                                                                                 "Sensorimotor Network",
-                                                                                                                                 "Basal Ganglia",
-                                                                                                                                 "Cerebellum"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Balanced",
-                                                                                                                                       "processing_style":  "Skilled Performance"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ECN re-engages the complex task, but now the subcortical motor circuits are primed and accessible, leading to fluid execution.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "kandel-2013"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      }
-                                                                  ],
-                                                     "rationale":  "This pathway primes the motor cortex and basal ganglia with simple, familiar drills, lowering the activation energy required to engage in a complex, high-stakes task."
-                                                 },
-                                                 {
-                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Deliberate Practice\u0027 Path",
-                                                     "sequence":  [
-                                                                      {
-                                                                          "step":  "T1",
-                                                                          "pfic_word":  "Sense Decay",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ACC",
-                                                                                                                                 "ECN"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
-                                                                                                                                       "processing_style":  "Error Detection"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ACC signals persistent, high error rates during a task, indicating a fundamental skill deficit.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "botvinick-2001"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T2",
-                                                                          "pfic_word":  "Practice Component",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "DAN",
-                                                                                                                                 "Sensorimotor Network",
-                                                                                                                                 "ECN"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
-                                                                                                                                       "processing_style":  "Focused Practice"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The DAN and ECN direct intense, focused attention onto the execution of a single, isolated component of the skill, forcing conscious, deliberate processing.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "corbetta-2002"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T3",
-                                                                          "pfic_word":  "Re-integrate Skill",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ECN",
-                                                                                                                                 "Sensorimotor Network",
-                                                                                                                                 "Basal Ganglia",
-                                                                                                                                 "Cerebellum"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Balanced",
-                                                                                                                                       "processing_style":  "Re-automation"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ECN sequences the now-relearned components, gradually re-automating the complete skill.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "diamond-2013"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      }
-                                                                  ],
-                                                     "rationale":  "This pathway breaks a complex skill into isolated components, allowing the ECN to exert high-focus control on a single variable to correct persistent errors."
-                                                 },
-                                                 {
-                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Mindfulness Trigger\u0027 Path",
-                                                     "sequence":  [
-                                                                      {
-                                                                          "step":  "T1",
-                                                                          "pfic_word":  "Sense Reversion",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ACC",
-                                                                                                                                 "Insula"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Balanced",
-                                                                                                                                       "processing_style":  "Conflict"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ACC detects the error of the bad habit, while the Insula provides the interoceptive \u0027uh-oh\u0027 feeling of making a familiar mistake.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "craig-2009"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 2"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T2",
-                                                                          "pfic_word":  "Set Trigger",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ECN",
-                                                                                                                                 "Hippocampus"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
-                                                                                                                                       "processing_style":  "Prospective Memory"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ECN and Hippocampus work together to set a \u0027prospective memory\u0027—an intention to perform an action (the check) in the future when a specific cue appears.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "squire-2009"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 2"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T3",
-                                                                          "pfic_word":  "Interrupt \u0026 Correct",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ECN",
-                                                                                                                                 "Basal Ganglia"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
-                                                                                                                                       "processing_style":  "Inhibitory Control"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The SN\u0027s signal allows the ECN to exert top-down inhibitory control, actively suppressing the habitual response from the Basal Ganglia and allowing for a deliberate, correct action.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "diamond-2013"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      }
-                                                                  ],
-                                                     "rationale":  "This pathway installs a \u0027cognitive tripwire\u0027 (prospective memory) that interrupts a habitual behavior (like distraction) and redirects attention back to the goal."
-                                                 }
-                                             ]
-                            },
-    "frameworkImplications":  {
-                                  "title":  "Strategic Role",
-                                  "icon":  "fas fa-chess-board",
-                                  "summary":  "This is where the plan meets the friction of reality, transforming an abstract design into a tangible artifact and generating essential data for learning.",
-                                  "points":  [
-                                                 "**Generates Ground Truth:** The \u0027emergent feedback\u0027 from the material or process itself is the raw data that fuels the learning engine of Tool 7.",
-                                                 "**Reveals the Loop:** This stage proves the framework is not linear but a cycle. The experience of \u0027doing\u0027 directly informs the next iteration of the plan.",
-                                                 "**Creates an Object-for-Learning:** The JTBD frames the output not as a final product, but as a \u0027tangible first iteration\u0027 designed for testing and refinement, which lowers the stakes and encourages a process-attentive mindset."
-                                             ]
-                              },
     "summary":  [
                     {
                         "content":  "To transform a plan into **embodied reality** through focused action, generating a tangible first iteration.\n\n##### Practitioner Actions\n\n**Execute:** Perform the tasks defined in the plan.\n**Monitor:** Pay attention to the feedback from the material or environment.\n**Adapt:** Make micro-adjustments as reality resists the plan.",

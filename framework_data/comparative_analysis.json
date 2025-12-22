@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -33,7 +33,21 @@
                                                                  "derivation":  "System Boundary Expansion: Design Thinking centers the User (Brown, 2009); Tool 1 centers the Ecosystem (Meadows, 2008).",
                                                                  "real_world_example":  "TOMS Shoes: The \u0027Buy One, Give One\u0027 model was a triumph of User Empathy (donors felt good, recipients got shoes). However, it failed Systemic Mapping. The influx of free shoes devastated local cobblers and shoe markets in receiving communities, creating long-term economic harm."
                                                              }
-                                                         ]
+                                                         ],
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                            "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                            "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead.",
+                                                                                            "**Cite the Derivation:** If challenged, use the \u0027Derivation\u0027 field to show that this approach is grounded in established theory."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                           "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                           "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails.",
+                                                                                           "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn\u0027t fit."
+                                                                                       ]
+                                                                   }
                                           }
               },
     "tool2":  {
@@ -64,7 +78,21 @@
                                                                  "derivation":  "Metric Optimization: Agile often tracks Velocity; Tool 2 tracks Integrity via the Definition of Done (Beck et al., 2001).",
                                                                  "real_world_example":  "Healthcare.gov Launch (2013): The project had high velocity (thousands of lines of code written) but lacked a unified \u0027Definition of Done\u0027 regarding integration. The front-end worked, but the back-end failed immediately upon launch because \u0027Done\u0027 meant \u0027coded,\u0027 not \u0027integrated and tested.\u0027"
                                                              }
-                                                         ]
+                                                         ],
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                            "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                            "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead.",
+                                                                                            "**Cite the Derivation:** If challenged, use the \u0027Derivation\u0027 field to show that this approach is grounded in established theory."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                           "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                           "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails.",
+                                                                                           "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn\u0027t fit."
+                                                                                       ]
+                                                                   }
                                           }
               },
     "tool3":  {
@@ -95,7 +123,21 @@
                                                                  "derivation":  "Sequence Analysis: Lean emphasizes the \u0027Measure/Learn\u0027 loop; Tool 3 emphasizes the \u0027Build\u0027 (Ideation) phase to ensure high-quality inputs (Ries, 2011).",
                                                                  "real_world_example":  "Toyota\u0027s Set-Based Design: Instead of picking one design and iterating (Point-Based), Toyota engineers develop multiple options in parallel (Set-Based). They only eliminate options as data proves them unfeasible, ensuring the final choice is the global optimum, not just a local one."
                                                              }
-                                                         ]
+                                                         ],
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                            "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                            "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead.",
+                                                                                            "**Cite the Derivation:** If challenged, use the \u0027Derivation\u0027 field to show that this approach is grounded in established theory."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                           "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                           "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails.",
+                                                                                           "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn\u0027t fit."
+                                                                                       ]
+                                                                   }
                                           }
               },
     "tool4":  {
@@ -126,7 +168,21 @@
                                                                  "derivation":  "Functional Contrast: Prioritization is Ordering; Scope Reduction is Cutting (Porter, 1996).",
                                                                  "real_world_example":  "Steve Jobs\u0027 Return to Apple (1997): He didn\u0027t prioritize the 350 products Apple was making. He cut 340 of them to focus on just 10. This radical scope reduction saved the company."
                                                              }
-                                                         ]
+                                                         ],
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                            "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                            "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead.",
+                                                                                            "**Cite the Derivation:** If challenged, use the \u0027Derivation\u0027 field to show that this approach is grounded in established theory."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                           "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                           "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails.",
+                                                                                           "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn\u0027t fit."
+                                                                                       ]
+                                                                   }
                                           }
               },
     "tool5":  {
@@ -157,7 +213,21 @@
                                                                  "derivation":  "Modality Integration: Engineering specs are Logical/Spatial; Narrative is Temporal/Emotional (Bruner, 1991).",
                                                                  "real_world_example":  "Airbnb\u0027s \u0027Snow White\u0027 Storyboards: When Airbnb was struggling, they hired a Pixar animator to storyboard the entire user journey (The \u0027Snow White\u0027 project). This narrative structure revealed gaps in the service that technical specs had missed."
                                                              }
-                                                         ]
+                                                         ],
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                            "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                            "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead.",
+                                                                                            "**Cite the Derivation:** If challenged, use the \u0027Derivation\u0027 field to show that this approach is grounded in established theory."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                           "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                           "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails.",
+                                                                                           "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn\u0027t fit."
+                                                                                       ]
+                                                                   }
                                           }
               },
     "tool6":  {
@@ -188,7 +258,21 @@
                                                                  "derivation":  "Material Engagement Theory: Thinking through things (Ingold, 2013).",
                                                                  "real_world_example":  "Apollo 13 CO2 Filter: The engineers on the ground had to build a square peg for a round hole using only the materials available on the ship. They couldn\u0027t \u0027plan\u0027 it; they had to \u0027tinker\u0027 with the physical reality of duct tape and socks to find a solution."
                                                              }
-                                                         ]
+                                                         ],
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                            "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                            "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead.",
+                                                                                            "**Cite the Derivation:** If challenged, use the \u0027Derivation\u0027 field to show that this approach is grounded in established theory."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                           "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                           "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails.",
+                                                                                           "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn\u0027t fit."
+                                                                                       ]
+                                                                   }
                                           }
               },
     "tool7":  {
@@ -219,7 +303,21 @@
                                                                  "derivation":  "Skill Identification: Feedback Delivery (Teacher) vs. Feedback Receipt (Learner) (Stone \u0026 Heen, 2014).",
                                                                  "real_world_example":  "Khan Academy: The platform provides instant, non-judgmental feedback (red/green lights) during practice. This is Formative Assessment. It allows students to fail safely and learn, distinct from the Summative Assessment of a final exam."
                                                              }
-                                                         ]
+                                                         ],
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                            "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                            "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead.",
+                                                                                            "**Cite the Derivation:** If challenged, use the \u0027Derivation\u0027 field to show that this approach is grounded in established theory."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                           "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                           "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails.",
+                                                                                           "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn\u0027t fit."
+                                                                                       ]
+                                                                   }
                                           }
               },
     "tool8":  {
@@ -250,7 +348,21 @@
                                                                  "derivation":  "Reception Theory: The reader completes the text (Dewey, 1934).",
                                                                  "real_world_example":  "Marina Abramović\u0027s \u0027The Artist is Present\u0027: The artwork was not the artist sitting in a chair; it was the interaction between the artist and the witness. The audience\u0027s presence validated and completed the work."
                                                              }
-                                                         ]
+                                                         ],
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                            "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                            "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead.",
+                                                                                            "**Cite the Derivation:** If challenged, use the \u0027Derivation\u0027 field to show that this approach is grounded in established theory."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                           "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                           "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails.",
+                                                                                           "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn\u0027t fit."
+                                                                                       ]
+                                                                   }
                                           }
               },
     "tool9":  {
@@ -281,7 +393,21 @@
                                                                  "derivation":  "Narrative Cognition: Story as a cognitive tool (Bruner, 1991).",
                                                                  "real_world_example":  "The Three Little Pigs: A structural engineering lesson (\u0027build with bricks\u0027) encoded in a story that has survived for generations. A technical manual on bricklaying would have been forgotten; the story persists."
                                                              }
-                                                         ]
+                                                         ],
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                            "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                            "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead.",
+                                                                                            "**Cite the Derivation:** If challenged, use the \u0027Derivation\u0027 field to show that this approach is grounded in established theory."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                           "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                           "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails.",
+                                                                                           "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn\u0027t fit."
+                                                                                       ]
+                                                                   }
                                           }
               },
     "tool10":  {
@@ -312,7 +438,21 @@
                                                                   "derivation":  "Object of Analysis Shift: World (Systems Thinking) vs. Process (Tool 10) (Senge, 1990).",
                                                                   "real_world_example":  "Toyota\u0027s Andon Cord: Any worker can stop the entire production line if they detect a problem. This treats process friction as a signal worth stopping the system for, empowering every individual to be a system optimizer."
                                                               }
-                                                          ]
+                                                          ],
+                                               "dynamic_playbook":  {
+                                                                        "practitioner":  [
+                                                                                             "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                             "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                             "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead.",
+                                                                                             "**Cite the Derivation:** If challenged, use the \u0027Derivation\u0027 field to show that this approach is grounded in established theory."
+                                                                                         ],
+                                                                        "facilitator":  [
+                                                                                            "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                            "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                            "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails.",
+                                                                                            "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn\u0027t fit."
+                                                                                        ]
+                                                                    }
                                            }
                }
 }

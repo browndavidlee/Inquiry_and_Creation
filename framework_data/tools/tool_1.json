@@ -126,45 +126,23 @@
                     }
                 ],
     "perspectives":  {
-                         "cognitiveNeuroscience":  {
-                                                       "title":  "🧠 Cognitive Neuroscience",
-                                                       "simpleTitle":  "The Brain at Work",
-                                                       "content":  "Attunement is the neural process of shifting attention, involving a dynamic interplay between networks for detecting salient, bottom-up stimuli (VAN) and directing top-down, goal-oriented focus (DAN)."
+                         "psychologicalDynamics":  {
+                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "simpleTitle":  "Emotional Hurdles",
+                                                       "content":  "This stage is about managing the anxiety of the unknown. The core friction is \u0027Initiation Anxiety\u0027—the fear of the blank page or the overwhelming scale of the problem, which can lead to procrastination.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
+                                                                                                     "**Monitor Cognitive Load:** Recognize the signs of ECN depletion (irritability, tunnel vision). If the team is fried, the only valid intervention is Rest.",
+                                                                                                     "**Switch Networks:** Consciously toggle the team\u0027s state. If they are stuck in analysis (ECN), force a move to play (DMN)."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Regulate Group Arousal:** Act as the \u0027external amygdala regulator.\u0027 If the room is hot (conflict), lower the temperature. If cold (boredom), raise it.",
+                                                                                                    "**Spot \u0027Attentional Blink\u0027:** When the team is hyper-focused on a detail, interrupt to force a \u0027global\u0027 attention check.",
+                                                                                                    "**Promote \u0027Agency\u0027:** Giving the team control over their process releases Dopamine. Ask: \u0027How do *you* want to solve this?\u0027"
+                                                                                                ]
+                                                                            }
                                                    },
-                         "CultureTraditionsAndEthics":  {
-                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
-                                                            "simpleTitle":  "Ethical Viewpoints",
-                                                            "content":  "This perspective enriches inquiry by focusing on relational purpose, encouraging understanding of our responsibilities to the context, not just identifying an isolated \u0027problem\u0027.",
-                                                            "dynamic_playbook":  {
-                                                                                     "practitioner":  [
-                                                                                                          "**Audit Positionality:** Explicitly map your own power relative to the subject (N50). Ask: \u0027Does my identity obscure the true nature of this problem?\u0027",
-                                                                                                          "**Identify the Silenced:** Conduct a \u0027Negative Space Analysis.\u0027 Who is *not* in the room? Whose data is missing? Frame the inquiry to center these voices.",
-                                                                                                          "**Shift to Relationality:** Reframe the \u0027problem\u0027 as a \u0027broken relationship.\u0027 Instead of \u0027fixing X,\u0027 ask \u0027how do we restore right relationship with X?\u0027"
-                                                                                                      ],
-                                                                                     "facilitator":  [
-                                                                                                         "**Disrupt Hierarchy:** Enforce a \u0027Circle Process\u0027 or \u0027Talking Piece\u0027 protocol. Ensure the most junior or marginalized voices speak before the leaders to prevent anchoring.",
-                                                                                                         "**Interrogate the Mandate:** Ask the group: \u0027Is this inquiry serving the community, or merely extracting value from it?\u0027 (Reciprocity Check).",
-                                                                                                         "**Expand the \u0027We\u0027:** When the group says \u0027We need to...\u0027, ask \u0027Who is We?\u0027 Force a precise definition of the collective subject and its boundaries."
-                                                                                                     ]
-                                                                                 }
-                                                        },
-                         "cynefinAnalysis":  {
-                                                 "title":  "🧭 Navigational Context",
-                                                 "simpleTitle":  "Complexity Check",
-                                                 "content":  "The inquiry begins with unknown unknowns. The relationship between cause and effect is unclear and can only be understood in retrospect. The process requires probing the environment to allow patterns to emerge.",
-                                                 "dynamic_playbook":  {
-                                                                          "practitioner":  [
-                                                                                               "**Diagnose the Domain:** If the problem has no right answer, you are in **Complexity**. Stop planning; start probing. Shift from \u0027Analyst\u0027 to \u0027Naturalist.\u0027",
-                                                                                               "**Resist Premature Convergence:** If you can already visualize the solution, you are likely solving the wrong (Complicated) problem. Force yourself to widen the aperture.",
-                                                                                               "**Hunt for Patterns:** Do not look for a single root cause (linear). Look for recurring clusters of behavior or \u0027attractors\u0027 that suggest an underlying dynamic."
-                                                                                           ],
-                                                                          "facilitator":  [
-                                                                                              "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
-                                                                                              "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
-                                                                                          ]
-                                                                      }
-                                             },
                          "integrativeStrategies":  {
                                                        "title":  "🧩 Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
@@ -182,11 +160,573 @@
                                                                                                 ]
                                                                             }
                                                    },
+                         "CultureTraditionsAndEthics":  {
+                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "simpleTitle":  "Ethical Viewpoints",
+                                                            "content":  "This perspective enriches inquiry by focusing on relational purpose, encouraging understanding of our responsibilities to the context, not just identifying an isolated \u0027problem\u0027.",
+                                                            "dynamic_playbook":  {
+                                                                                     "practitioner":  [
+                                                                                                          "**Audit Positionality:** Explicitly map your own power relative to the subject. Ask: \u0027Does my identity obscure the true nature of this problem?\u0027",
+                                                                                                          "**Identify the Silenced:** Conduct a \u0027Negative Space Analysis.\u0027 Who is *not* in the room? Whose data is missing? Frame the inquiry to center these voices.",
+                                                                                                          "**Shift to Relationality:** Reframe the \u0027problem\u0027 as a \u0027broken relationship.\u0027 Instead of \u0027fixing X,\u0027 ask \u0027how do we restore right relationship with X?\u0027"
+                                                                                                      ],
+                                                                                     "facilitator":  [
+                                                                                                         "**Disrupt Hierarchy:** Enforce a \u0027Circle Process\u0027 or \u0027Talking Piece\u0027 protocol. Ensure the most junior or marginalized voices speak before the leaders to prevent anchoring.",
+                                                                                                         "**Interrogate the Mandate:** Ask the group: \u0027Is this inquiry serving the community, or merely extracting value from it?\u0027 (Reciprocity Check).",
+                                                                                                         "**Expand the \u0027We\u0027:** When the group says \u0027We need to...\u0027, ask \u0027Who is We?\u0027 Force a precise definition of the collective subject and its boundaries."
+                                                                                                     ]
+                                                                                 }
+                                                        },
+                         "strategicStreams":  {
+                                                  "dynamic_playbook":  {
+                                                                           "practitioner":  [
+                                                                                                "**Diagnose Your State:** Identify which of the core streams (e.g., Somatic, Diagnostic, Relational) feels blocked or weak right now.",
+                                                                                                "**Select a Stream:** Choose one of the streams listed in the \u0027Strategic Streams\u0027 perspective.",
+                                                                                                "**Apply the Prompt:** Ask yourself the \u0027Application Prompt\u0027 associated with that stream to generate a new insight or action.",
+                                                                                                "**Cross-Pollinate:** Apply a stream from a different tool to your current problem (e.g., Apply Tool 3\u0027s \u0027Divergent\u0027 stream to Tool 7\u0027s \u0027Analysis\u0027 to find more bugs)."
+                                                                                            ],
+                                                                           "facilitator":  [
+                                                                                               "**Diagnose the Group State:** Observe the team\u0027s behavior. Which stream is the group neglecting?",
+                                                                                               "**Introduce a Stream as an Intervention:** Use the \u0027Application Prompt\u0027 as a public question to shift the team\u0027s focus.",
+                                                                                               "**Facilitate Cross-Pollination:** Explicitly ask the group, \u0027How would we apply the \u0027Subtractive\u0027 stream from Tool 4 to our current task in Tool 6?\u0027"
+                                                                                           ]
+                                                                       }
+                                              },
+                         "cognitiveModel":  {
+                                                "stage_id":  "tool1",
+                                                "stage_name":  "Define the Inquiry",
+                                                "pathways":  [
+                                                                 {
+                                                                     "pathway_name":  "📚 HP1: The Empirical Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Receive raw data (complementary)",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  "Visual Cortex",
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 1",
+                                                                                                                                                       "processing_style":  "Sensory Intake"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Initial sensory processing in primary cortical areas.",
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Focus attention",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  "DAN",
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Top-Down Control"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The Dorsal Attention Network is engaged for goal-directed focus.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "corbetta-2002"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Detect conflict with model (complementary)",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  "ACC",
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Conflict Monitoring"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The Anterior Cingulate Cortex detects discrepancies between expectation and reality.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T4",
+                                                                                          "pfic_word":  "Flag anomaly",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  "SN",
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 1",
+                                                                                                                                                       "processing_style":  "Salience Detection"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The Salience Network flags the anomaly as a behaviorally relevant event requiring a shift in attention.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "seeley-2007"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T5",
+                                                                                          "pfic_word":  "Formulate question to resolve conflict",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  "ECN",
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Problem Formulation"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The Executive Control Network is engaged to formulate a new goal: to understand and resolve the detected anomaly.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "diamond-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ]
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "🧠‘â€ ðŸ « HP-NEW-1: The \u0027Analogy\u0027 Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Sense Framing Block",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "ACC"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Conflict"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN\u0027s goal to define a problem is met with high conflict from the ACC, indicating a failure to retrieve a suitable schema.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Retrieve Past Project",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Hippocampus"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Memory Search"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN initiates a deliberate, top-down memory search for a past, successful project.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "squire-2009"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Use as Analogy",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "DMN",
+                                                                                                                                                 "Hippocampus",
+                                                                                                                                                 "Parietal Lobe"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Analogical Mapping"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The DMN and Parietal Lobe work together to map the structure of the old project onto the new problem, creating a new frame.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "hofstadter-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway leverages the brain\u0027s capacity for analogical reasoning (Parietal Lobe) to bypass a creative block by mapping the structure of a known success onto a new, ambiguous problem."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "ðŸ§‘â€ ðŸ « HP-NEW-2: The \u0027Retrospective First\u0027 Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Sense Recurring Error",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ACC",
+                                                                                                                                                 "Insula"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                                       "processing_style":  "Intuition"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ACC and Insula generate an intuitive feeling of unease, signaling a familiar but undesirable pattern.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "craig-2009"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Conduct Retrospective on Past Failure",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "DMN",
+                                                                                                                                                 "Hippocampus",
+                                                                                                                                                 "SCN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Causal Analysis"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The team collectively replays the memory of a past failure (DMN/Hippo) to analyze its root causes (ECN/SCN).",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "andrews-hanna-2014"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Apply Learnings to New Frame",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  "ECN",
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Constrained Planning"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN holds the \u0027avoidance rule\u0027 from the retrospective as an active constraint while framing the new inquiry.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "diamond-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway uses the memory of a past failure (Hippocampus) as a negative constraint, forcing the Executive Control Network to inhibit known bad paths and search for novel solutions."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "🌍  HP7: The Causal Layered Analysis (CLA) Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "pfic_word":  "Identify Litany",
+                                                                                          "step":  "T1",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "SN",
+                                                                                                                                                 "Limbic System"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 1",
+                                                                                                                                                       "processing_style":  "Affective Intake"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The Salience Network detects the problem\u0027s surface-level, emotionally charged \u0027headline,\u0027 which is processed by the Limbic system."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Analyze Causes",
+                                                                                          "step":  "T2",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Hippocampus"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Causal Analysis"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN engages in analytical reasoning, retrieving historical and systemic data from memory (Hippocampus) to map cause-and-effect relationships."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Deconstruct Worldview",
+                                                                                          "step":  "T3",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "SCN",
+                                                                                                                                                 "DMN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Paradigm Deconstruction"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "This requires high-level perspective-taking (SCN) and self-reflection (DMN) to identify and question the unstated assumptions and belief systems that legitimize the social causes."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Uncover Myth",
+                                                                                          "step":  "T4",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "DMN",
+                                                                                                                                                 "Language Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Narrative Synthesis"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The DMN engages in deep, associative thought to find the core metaphor or story, which is then articulated by the Language Network."
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway engages the Salience Network to detect high-leverage nodes within a complex system, directing executive attention to where a small intervention can produce a non-linear result."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "ðŸŒ  HP8: The Actor-Network Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "pfic_word":  "Identify Actors",
+                                                                                          "step":  "T1",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "DAN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Conceptual Expansion"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN must actively inhibit the default assumption that only humans have agency, a demanding act of cognitive flexibility, while the DAN scans the environment for all relevant entities."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Trace Network",
+                                                                                          "step":  "T2",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "DMN",
+                                                                                                                                                 "Parietal Lobe"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Relational Mapping"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN directs the mapping process, using spatial reasoning (Parietal Lobe) and memory retrieval (DMN/Hippo) to trace the complex web of interactions and \u0027translations\u0027 between actors."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Find Leverage",
+                                                                                          "step":  "T3",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "SN",
+                                                                                                                                                 "ECN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Salience Detection"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The Salience Network flags the critical nodes (\u0027obligatory passage points\u0027) in the network map as high-leverage points, directing the ECN to focus its problem-framing efforts there."
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway forces a cognitive shift from an anthropocentric view to a relational one, using the ECN to map the agency of non-human actors (technology, nature) in the system."
+                                                                 }
+                                                             ],
+                                                "dynamic_playbook":  {
+                                                                         "practitioner":  [
+                                                                                              "**Identify Your Pathway:** Review the pathways. Which one best matches the work you are trying to do right now?",
+                                                                                              "**Diagnose Friction:** If you feel stuck, check the \u0027Neurocognitive State\u0027 of your current step. Are you trying to do analytical work in a generative state?",
+                                                                                              "**Optimize the Sequence:** Follow the pathway\u0027s sequence. Don\u0027t skip the \u0027priming\u0027 or \u0027transition\u0027 steps."
+                                                                                          ],
+                                                                         "facilitator":  [
+                                                                                             "**Diagnose the Group Brain:** Look at the group\u0027s behavior. Which pathway are they attempting? Where are they getting stuck?",
+                                                                                             "**Facilitate Network Switching:** Use the \u0027Transition\u0027 steps in the pathways to help the group shift modes.",
+                                                                                             "**Reduce Cognitive Load:** Use the model to identify high-load steps. Provide scaffolding (templates, visuals) during these steps."
+                                                                                         ]
+                                                                     }
+                                            },
+                         "embodiedDynamics":  {
+                                                  "title":  "🤸 Embodied Dynamics",
+                                                  "simpleTitle":  "The Body\u0027s Role",
+                                                  "content":  "Inquiry begins with a somatic signal. This is the \u0027gut feeling\u0027 (interoception) or sensory \u0027jolt\u0027 (exteroception) that tells the brain something is salient. The body is the first instrument of sensing.",
+                                                  "dynamic_playbook":  {
+                                                                           "practitioner":  [
+                                                                                                "Pay attention to physical sensations of curiosity or unease.",
+                                                                                                "Walk through the physical space of the problem to gather embodied data."
+                                                                                            ],
+                                                                           "facilitator":  [
+                                                                                               "Use physical artifacts as provocations.",
+                                                                                               "Notice the group\u0027s collective body language—are they leaning in or pulling back?"
+                                                                                           ]
+                                                                       }
+                                              },
+                         "cognitiveNeuroscience":  {
+                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "simpleTitle":  "The Brain at Work",
+                                                       "content":  "Attunement is the neural process of shifting attention, involving a dynamic interplay between networks for detecting salient, bottom-up stimuli (VAN) and directing top-down, goal-oriented focus (DAN).",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Identify the Cognitive State:** Read the description. What is the primary mental work required for this tool?",
+                                                                                                     "**Anticipate Friction:** Based on the neuroscience, what part of this tool will be the most mentally taxing?",
+                                                                                                     "**Self-Regulate:** Use the insights to manage your own energy (e.g., \u0027This is an ECN-heavy tool, so I need to eliminate distractions\u0027)."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Diagnose the Group Brain:** Observe the team. Are they in the right cognitive state for this tool?",
+                                                                                                    "**Design for the Brain:** Structure the activity to support the required cognitive function (e.g., provide quiet time for DMN-heavy tasks).",
+                                                                                                    "**Explain the \u0027Why\u0027:** Use the neuroscience to explain why a specific process rule is important (e.g., \u0027We defer judgment to let our DMN associate freely\u0027)."
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "comparativeAnalysis":  {
+                                                     "summary":  "How \u0027Defining the Inquiry\u0027 differs from standard problem-solving.",
+                                                     "title":  "Comparative Analysis",
+                                                     "selection_logic":  "Use this tool when the problem is ambiguous or relational. Use standard methods when the problem is purely technical.",
+                                                     "simpleTitle":  "Vs. Other Models",
+                                                     "models":  [
+                                                                    {
+                                                                        "value_add":  "Tool 1 focuses on *defining* the problem, preventing the error of solving the wrong thing efficiently.",
+                                                                        "derivation":  "Systems Engineering",
+                                                                        "model":  "Standard Engineering",
+                                                                        "comparison":  "Engineering assumes the problem is defined and focuses on the solution.",
+                                                                        "vector":  "Problem Solving"
+                                                                    },
+                                                                    {
+                                                                        "value_add":  "Tool 1 expands \u0027Empathy\u0027 to \u0027Attunement\u0027 with the entire system (environment, history, ethics), not just the user.",
+                                                                        "derivation":  "Human-Centered Design",
+                                                                        "model":  "Design Thinking",
+                                                                        "comparison":  "Design Thinking starts with Empathy for the user.",
+                                                                        "vector":  "Empathy"
+                                                                    }
+                                                                ],
+                                                     "dynamic_playbook":  {
+                                                                              "practitioner":  [
+                                                                                                   "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                                   "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                                   "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead."
+                                                                                               ],
+                                                                              "facilitator":  [
+                                                                                                  "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                                  "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                                  "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails."
+                                                                                              ]
+                                                                          }
+                                                 },
+                         "teamDynamics":  {
+                                              "title":  "🤝 Team Dynamics",
+                                              "simpleTitle":  "How We Work Together",
+                                              "content":  "This stage is about \u0027Forming\u0027 and \u0027Storming.\u0027 The team is defining its purpose and often experiences conflict as different mental models of the problem collide. The goal is to achieve alignment on the \u0027why\u0027.",
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "Listen to understand, not to win the argument.",
+                                                                                            "Advocate for your perspective, but be willing to change your mind."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "Create a \u0027Circle of Trust\u0027 where all voices are heard.",
+                                                                                           "Synthesize conflicting views into a shared \u0027Guiding Question\u0027."
+                                                                                       ]
+                                                                   }
+                                          },
+                         "frameworkImplications":  {
+                                                       "title":  "Strategic Role",
+                                                       "icon":  "fas fa-chess-board",
+                                                       "summary":  "This tool establishes the core objective for the entire project, transforming ambiguity into a motivating purpose.",
+                                                       "points":  [
+                                                                      "**Defines the \u0027Why\u0027:** The purpose and guiding question defined here become the ultimate rubric against which all future decisions (especially in Tool 4 and Tool 8) are measured.",
+                                                                      "**Supports Motivation:** It solves the core emotional problem of ambiguity, providing the intrinsic motivation needed to sustain effort through the framework\u0027s more challenging stages.",
+                                                                      "**Establishes the Social Contract:** By identifying stakeholders, it frames the project as a relational act, setting the foundation for community accountability in Tool 8."
+                                                                  ],
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Draft the \u0027North Star\u0027:** Write a single sentence that defines the ultimate, long-term impact of this inquiry.",
+                                                                                                     "**Audit for Alignment:** Explicitly check this inquiry against the organization\u0027s high-level OKRs or mission statement.",
+                                                                                                     "**Define \u0027Anti-Goals\u0027:** Strategically define what this project is *not* about."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Facilitate the \u0027Why Now?\u0027 Discussion:** Ask the team: \u0027Why is this the most important thing to do *right now*?\u0027",
+                                                                                                    "**Check Executive Sponsorship:** Ensure there is a clear owner who has the authority to act on the findings.",
+                                                                                                    "**Calibrate Ambition:** Help the team size the strategic bet. Is this a \u0027moonshot\u0027 or an \u0027optimization\u0027?"
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "cynefinAnalysis":  {
+                                                 "title":  "🧭 Navigational Context",
+                                                 "simpleTitle":  "Complexity Check",
+                                                 "content":  "The inquiry begins with unknown unknowns. The relationship between cause and effect is unclear and can only be understood in retrospect. The process requires probing the environment to allow patterns to emerge.",
+                                                 "dynamic_playbook":  {
+                                                                          "practitioner":  [
+                                                                                               "**Diagnose the Domain:** If the problem has no right answer, you are in **Complexity**. Stop planning; start probing. Shift from \u0027Analyst\u0027 to \u0027Naturalist.\u0027",
+                                                                                               "**Resist Premature Convergence:** If you can already visualize the solution, you are likely solving the wrong (Complicated) problem. Force yourself to widen the aperture.",
+                                                                                               "**Hunt for Patterns:** Do not look for a single root cause (linear). Look for recurring clusters of behavior or \u0027attractors\u0027 that suggest an underlying dynamic."
+                                                                                           ],
+                                                                          "facilitator":  [
+                                                                                              "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
+                                                                                              "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                          ]
+                                                                      }
+                                             },
+                         "pedagogicalDynamics":  {
+                                                     "title":  "🧑‍🏫 Pedagogical Dynamics",
+                                                     "simpleTitle":  "How We Learn Here",
+                                                     "content":  "The dynamic is **Catalysis**. The facilitator acts as a catalyst, using a planned provocation to trigger the learner\u0027s internal state of curiosity. The goal is to spark intrinsic motivation, not to provide answers.",
+                                                     "dynamic_playbook":  {
+                                                                              "practitioner":  [
+                                                                                                   "Trust your curiosity. Follow the \u0027heat\u0027 of what interests you.",
+                                                                                                   "Articulate your initial confusion; it\u0027s the starting point for learning."
+                                                                                               ],
+                                                                              "facilitator":  [
+                                                                                                  "Design a \u0027discrepant event\u0027 that challenges assumptions.",
+                                                                                                  "Ask \u0027What do you notice?\u0027 and \u0027What do you wonder?\u0027 instead of explaining."
+                                                                                              ]
+                                                                          }
+                                                 },
                          "disciplinaryapplication":  {
-                                                         "title":  "📚 Disciplinary Application",
-                                                         "simpleTitle":  "Field-Specific Methods",
                                                          "summary":  "How different fields apply the principle of transforming a prediction error into a focused question.",
+                                                         "dynamic_playbook":  {
+                                                                                  "practitioner":  [
+                                                                                                       "**Science \u0026 Engineering:** Follow **The Empirical Path**: Isolate the specific Anomaly that violates the current theory or model. Output: A Strategic Pivot Proposal (N02).",
+                                                                                                       "**Business \u0026 Agile:** Follow **The Market-Pull Path**: Use \u00275 Whys\u0027 to trace a symptom back to a systemic root cause. Output: A Stakeholder Map (N03).",
+                                                                                                       "**Humanities \u0026 Social Sciences:** Follow **The Text-Driven Path**: Identify a specific tension or contradiction within a primary source. Output: An Annotated Text (N04).",
+                                                                                                       "**Arts \u0026 Design:** Follow **The Affect-Driven Path**: Translate a vague internal \u0027felt sense\u0027 into a concrete visual collection. Output: A Moodboard (N05).",
+                                                                                                       "**Culture \u0026 Ethics:** Follow **The Relational Path**: Map the project\u0027s responsibilities to history, community, and place. Output: A Relational Context Map (N06)."
+                                                                                                   ],
+                                                                                  "facilitator":  [
+                                                                                                      "**Science \u0026 Engineering:** Enforce **Positionality**. Ask: \u0027How might your own perspective or instrument bias be shaping what you observe?\u0027 (Derived from Haraway).",
+                                                                                                      "**Business \u0026 Agile:** Enforce **Systemic Scope**. Ask: \u0027Are we solving for the user, or just for our own metrics?\u0027 (Derived from Systems Thinking).",
+                                                                                                      "**Humanities \u0026 Social Sciences:** Enforce **Subjectivity as Data**. Ask: \u0027What is your emotional reaction to this text, and what does that tell you about its power?\u0027",
+                                                                                                      "**Arts \u0026 Design:** Enforce **Somatic Awareness**. Ask: \u0027Where do you feel this idea in your body? Use that sensation to guide your selection.\u0027",
+                                                                                                      "**Culture \u0026 Ethics:** Enforce **Reciprocity**. Ask: \u0027Does this inquiry extract value from the community, or contribute to it?\u0027"
+                                                                                                  ]
+                                                                              },
                                                          "content":  "Each domain senses the environment differently. Science looks for anomalies in data; Art looks for internal somatic tension; Business looks for gaps in the market. The framework formalizes these distinct sensing mechanisms into actionable starting points.",
+                                                         "simpleTitle":  "Field-Specific Methods",
+                                                         "title":  "📚 Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -228,93 +768,8 @@
                                                                                   "practitioner_method":  "Follow **The Relational Path**: Map the project\u0027s responsibilities to history, community, and place.",
                                                                                   "facilitator_method":  "Enforce **Reciprocity**. Ask: \u0027Does this inquiry extract value from the community, or contribute to it?\u0027"
                                                                               }
-                                                                          ],
-                                                         "dynamic_playbook":  {
-                                                                                  "practitioner":  [
-                                                                                                       "**Science \u0026 Engineering:** Follow **The Empirical Path**: Isolate the specific Anomaly that violates the current theory or model. Output: A Strategic Pivot Proposal (N02).",
-                                                                                                       "**Business \u0026 Agile:** Follow **The Market-Pull Path**: Use \u00275 Whys\u0027 to trace a symptom back to a systemic root cause. Output: A Stakeholder Map (N03).",
-                                                                                                       "**Humanities \u0026 Social Sciences:** Follow **The Text-Driven Path**: Identify a specific tension or contradiction within a primary source. Output: An Annotated Text (N04).",
-                                                                                                       "**Arts \u0026 Design:** Follow **The Affect-Driven Path**: Translate a vague internal \u0027felt sense\u0027 into a concrete visual collection. Output: A Moodboard (N05).",
-                                                                                                       "**Culture \u0026 Ethics:** Follow **The Relational Path**: Map the project\u0027s responsibilities to history, community, and place. Output: A Relational Context Map (N06)."
-                                                                                                   ],
-                                                                                  "facilitator":  [
-                                                                                                      "**Science \u0026 Engineering:** Enforce **Positionality**. Ask: \u0027How might your own perspective or instrument bias be shaping what you observe?\u0027 (Derived from Haraway).",
-                                                                                                      "**Business \u0026 Agile:** Enforce **Systemic Scope**. Ask: \u0027Are we solving for the user, or just for our own metrics?\u0027 (Derived from Systems Thinking).",
-                                                                                                      "**Humanities \u0026 Social Sciences:** Enforce **Subjectivity as Data**. Ask: \u0027What is your emotional reaction to this text, and what does that tell you about its power?\u0027",
-                                                                                                      "**Arts \u0026 Design:** Enforce **Somatic Awareness**. Ask: \u0027Where do you feel this idea in your body? Use that sensation to guide your selection.\u0027",
-                                                                                                      "**Culture \u0026 Ethics:** Enforce **Reciprocity**. Ask: \u0027Does this inquiry extract value from the community, or contribute to it?\u0027"
-                                                                                                  ]
-                                                                              }
+                                                                          ]
                                                      },
-                         "comparativeAnalysis":  {
-                                                     "summary":  "How \u0027Defining the Inquiry\u0027 differs from standard problem-solving.",
-                                                     "title":  "Comparative Analysis",
-                                                     "selection_logic":  "Use this tool when the problem is ambiguous or relational. Use standard methods when the problem is purely technical.",
-                                                     "simpleTitle":  "Vs. Other Models",
-                                                     "models":  [
-                                                                    {
-                                                                        "value_add":  "Tool 1 focuses on *defining* the problem, preventing the error of solving the wrong thing efficiently.",
-                                                                        "derivation":  "Systems Engineering",
-                                                                        "model":  "Standard Engineering",
-                                                                        "comparison":  "Engineering assumes the problem is defined and focuses on the solution.",
-                                                                        "vector":  "Problem Solving"
-                                                                    },
-                                                                    {
-                                                                        "value_add":  "Tool 1 expands \u0027Empathy\u0027 to \u0027Attunement\u0027 with the entire system (environment, history, ethics), not just the user.",
-                                                                        "derivation":  "Human-Centered Design",
-                                                                        "model":  "Design Thinking",
-                                                                        "comparison":  "Design Thinking starts with Empathy for the user.",
-                                                                        "vector":  "Empathy"
-                                                                    }
-                                                                ]
-                                                 },
-                         "psychologicalDynamics":  {
-                                                       "title":  "🧠 Psychological Dynamics",
-                                                       "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "This stage is about managing the anxiety of the unknown. The core friction is \u0027Initiation Anxiety\u0027—the fear of the blank page or the overwhelming scale of the problem, which can lead to procrastination.",
-                                                       "dynamic_playbook":  {
-                                                                                "practitioner":  [
-                                                                                                     "Use an \u0027Initial Thought Record\u0027 to externalize and reframe anxieties.",
-                                                                                                     "Commit to a \u0027Micro-Step\u0027—just the first 5 minutes—to overcome the pain of starting.",
-                                                                                                     "Reframe the inquiry as a \u0027curiosity project\u0027 to lower the stakes from \u0027performance\u0027 to \u0027learning\u0027."
-                                                                                                 ],
-                                                                                "facilitator":  [
-                                                                                                    "Declare \u0027Amnesty\u0027 on perfection. Frame the session as generating raw material, not finding the answer.",
-                                                                                                    "Provide a \u0027Provocation\u0027 to bypass apathy and trigger the brain\u0027s natural curiosity.",
-                                                                                                    "Externalize thinking immediately onto a whiteboard to reduce cognitive load and make the problem feel manageable."
-                                                                                                ]
-                                                                            }
-                                                   },
-                         "embodiedDynamics":  {
-                                                  "title":  "🤸 Embodied Dynamics",
-                                                  "simpleTitle":  "The Body\u0027s Role",
-                                                  "content":  "Inquiry begins with a somatic signal. This is the \u0027gut feeling\u0027 (interoception) or sensory \u0027jolt\u0027 (exteroception) that tells the brain something is salient. The body is the first instrument of sensing.",
-                                                  "dynamic_playbook":  {
-                                                                           "practitioner":  [
-                                                                                                "Pay attention to physical sensations of curiosity or unease.",
-                                                                                                "Walk through the physical space of the problem to gather embodied data."
-                                                                                            ],
-                                                                           "facilitator":  [
-                                                                                               "Use physical artifacts as provocations.",
-                                                                                               "Notice the group\u0027s collective body language—are they leaning in or pulling back?"
-                                                                                           ]
-                                                                       }
-                                              },
-                         "teamDynamics":  {
-                                              "title":  "🤝 Team Dynamics",
-                                              "simpleTitle":  "How We Work Together",
-                                              "content":  "This stage is about \u0027Forming\u0027 and \u0027Storming.\u0027 The team is defining its purpose and often experiences conflict as different mental models of the problem collide. The goal is to achieve alignment on the \u0027why\u0027.",
-                                              "dynamic_playbook":  {
-                                                                       "practitioner":  [
-                                                                                            "Listen to understand, not to win the argument.",
-                                                                                            "Advocate for your perspective, but be willing to change your mind."
-                                                                                        ],
-                                                                       "facilitator":  [
-                                                                                           "Create a \u0027Circle of Trust\u0027 where all voices are heard.",
-                                                                                           "Synthesize conflicting views into a shared \u0027Guiding Question\u0027."
-                                                                                       ]
-                                                                   }
-                                          },
                          "technologicalMediation":  {
                                                         "title":  "💻 Technological Mediation",
                                                         "simpleTitle":  "The Tools We Use",
@@ -330,21 +785,22 @@
                                                                                                  ]
                                                                              }
                                                     },
-                         "pedagogicalDynamics":  {
-                                                     "title":  "🧑‍🏫 Pedagogical Dynamics",
-                                                     "simpleTitle":  "How We Learn Here",
-                                                     "content":  "The dynamic is **Catalysis**. The facilitator acts as a catalyst, using a planned provocation to trigger the learner\u0027s internal state of curiosity. The goal is to spark intrinsic motivation, not to provide answers.",
-                                                     "dynamic_playbook":  {
-                                                                              "practitioner":  [
-                                                                                                   "Trust your curiosity. Follow the \u0027heat\u0027 of what interests you.",
-                                                                                                   "Articulate your initial confusion; it\u0027s the starting point for learning."
-                                                                                               ],
-                                                                              "facilitator":  [
-                                                                                                  "Design a \u0027discrepant event\u0027 that challenges assumptions.",
-                                                                                                  "Ask \u0027What do you notice?\u0027 and \u0027What do you wonder?\u0027 instead of explaining."
-                                                                                              ]
-                                                                          }
-                                                 }
+                         "domainConcepts":  {
+                                                "dynamic_playbook":  {
+                                                                         "practitioner":  [
+                                                                                              "**Scan the Cloud:** Review the Concept Cloud to identify the core principles relevant to your current challenge.",
+                                                                                              "**Translate the Term:** Click on a concept to see how it is expressed in your specific domain versus others.",
+                                                                                              "**Apply the Rubric:** Look at the \u0027Objective Measurement\u0027 field for your domain. Use this specific metric to evaluate your work.",
+                                                                                              "**Bridge the Gap:** If you are stuck, look at how a different domain solves the same problem."
+                                                                                          ],
+                                                                         "facilitator":  [
+                                                                                             "**Normalize Vocabulary:** Use the Concept Cloud to bridge communication gaps between team members from different disciplines.",
+                                                                                             "**Define Shared Terms:** Before starting work, have the team agree on the specific definition of key terms.",
+                                                                                             "**Use the Rubrics:** When giving feedback, refer to the \u0027Objective Measurement\u0027 field to ensure critiques are based on agreed-upon standards.",
+                                                                                             "**Facilitate Translation:** If an engineer and a designer are arguing, use the domain variations to show them they are often talking about the same underlying principle."
+                                                                                         ]
+                                                                     }
+                                            }
                      },
     "pedagogicalPlaybook":  [
                                 {
@@ -477,395 +933,6 @@
                                                     "Synthesize this understanding into a single, compelling, guiding question or problem statement."
                                                 ]
                        },
-    "neurocognitiveModel":  {
-                                "stage_id":  "tool1",
-                                "stage_name":  "Define the Inquiry",
-                                "pathways":  [
-                                                 {
-                                                     "pathway_name":  "📚 HP1: The Empirical Path",
-                                                     "sequence":  [
-                                                                      {
-                                                                          "step":  "T1",
-                                                                          "pfic_word":  "Receive raw data (complementary)",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  "Visual Cortex",
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "System 1",
-                                                                                                                                       "processing_style":  "Sensory Intake"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "Initial sensory processing in primary cortical areas.",
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T2",
-                                                                          "pfic_word":  "Focus attention",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  "DAN",
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "System 2",
-                                                                                                                                       "processing_style":  "Top-Down Control"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The Dorsal Attention Network is engaged for goal-directed focus.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "corbetta-2002"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T3",
-                                                                          "pfic_word":  "Detect conflict with model (complementary)",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  "ACC",
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Balanced",
-                                                                                                                                       "processing_style":  "Conflict Monitoring"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The Anterior Cingulate Cortex detects discrepancies between expectation and reality.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "botvinick-2001"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T4",
-                                                                          "pfic_word":  "Flag anomaly",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  "SN",
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "System 1",
-                                                                                                                                       "processing_style":  "Salience Detection"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The Salience Network flags the anomaly as a behaviorally relevant event requiring a shift in attention.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "seeley-2007"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T5",
-                                                                          "pfic_word":  "Formulate question to resolve conflict",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  "ECN",
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "System 2",
-                                                                                                                                       "processing_style":  "Problem Formulation"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The Executive Control Network is engaged to formulate a new goal: to understand and resolve the detected anomaly.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "diamond-2013"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      }
-                                                                  ]
-                                                 },
-                                                 {
-                                                     "pathway_name":  "🧠‘â€ ðŸ « HP-NEW-1: The \u0027Analogy\u0027 Path",
-                                                     "sequence":  [
-                                                                      {
-                                                                          "step":  "T1",
-                                                                          "pfic_word":  "Sense Framing Block",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ECN",
-                                                                                                                                 "ACC"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
-                                                                                                                                       "processing_style":  "Conflict"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ECN\u0027s goal to define a problem is met with high conflict from the ACC, indicating a failure to retrieve a suitable schema.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "botvinick-2001"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T2",
-                                                                          "pfic_word":  "Retrieve Past Project",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ECN",
-                                                                                                                                 "Hippocampus"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
-                                                                                                                                       "processing_style":  "Memory Search"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ECN initiates a deliberate, top-down memory search for a past, successful project.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "squire-2009"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T3",
-                                                                          "pfic_word":  "Use as Analogy",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "DMN",
-                                                                                                                                 "Hippocampus",
-                                                                                                                                 "Parietal Lobe"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Balanced",
-                                                                                                                                       "processing_style":  "Analogical Mapping"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The DMN and Parietal Lobe work together to map the structure of the old project onto the new problem, creating a new frame.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "hofstadter-2013"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 2"
-                                                                                                         }
-                                                                      }
-                                                                  ],
-                                                     "rationale":  "This pathway leverages the brain\u0027s capacity for analogical reasoning (Parietal Lobe) to bypass a creative block by mapping the structure of a known success onto a new, ambiguous problem."
-                                                 },
-                                                 {
-                                                     "pathway_name":  "ðŸ§‘â€ ðŸ « HP-NEW-2: The \u0027Retrospective First\u0027 Path",
-                                                     "sequence":  [
-                                                                      {
-                                                                          "step":  "T1",
-                                                                          "pfic_word":  "Sense Recurring Error",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ACC",
-                                                                                                                                 "Insula"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
-                                                                                                                                       "processing_style":  "Intuition"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ACC and Insula generate an intuitive feeling of unease, signaling a familiar but undesirable pattern.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "craig-2009"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 2"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T2",
-                                                                          "pfic_word":  "Conduct Retrospective on Past Failure",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "DMN",
-                                                                                                                                 "Hippocampus",
-                                                                                                                                 "SCN"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
-                                                                                                                                       "processing_style":  "Causal Analysis"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The team collectively replays the memory of a past failure (DMN/Hippo) to analyze its root causes (ECN/SCN).",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "andrews-hanna-2014"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 2"
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "step":  "T3",
-                                                                          "pfic_word":  "Apply Learnings to New Frame",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  "ECN",
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
-                                                                                                                                       "processing_style":  "Constrained Planning"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ECN holds the \u0027avoidance rule\u0027 from the retrospective as an active constraint while framing the new inquiry.",
-                                                                                                             "supporting_evidence":  {
-                                                                                                                                         "citation_id":  "diamond-2013"
-                                                                                                                                     },
-                                                                                                             "confidence_score":  "Tier 1"
-                                                                                                         }
-                                                                      }
-                                                                  ],
-                                                     "rationale":  "This pathway uses the memory of a past failure (Hippocampus) as a negative constraint, forcing the Executive Control Network to inhibit known bad paths and search for novel solutions."
-                                                 },
-                                                 {
-                                                     "pathway_name":  "🌍  HP7: The Causal Layered Analysis (CLA) Path",
-                                                     "sequence":  [
-                                                                      {
-                                                                          "pfic_word":  "Identify Litany",
-                                                                          "step":  "T1",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "SN",
-                                                                                                                                 "Limbic System"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "System 1",
-                                                                                                                                       "processing_style":  "Affective Intake"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The Salience Network detects the problem\u0027s surface-level, emotionally charged \u0027headline,\u0027 which is processed by the Limbic system."
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "pfic_word":  "Analyze Causes",
-                                                                          "step":  "T2",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ECN",
-                                                                                                                                 "Hippocampus"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "System 2",
-                                                                                                                                       "processing_style":  "Causal Analysis"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ECN engages in analytical reasoning, retrieving historical and systemic data from memory (Hippocampus) to map cause-and-effect relationships."
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "pfic_word":  "Deconstruct Worldview",
-                                                                          "step":  "T3",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "SCN",
-                                                                                                                                 "DMN"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "System 2",
-                                                                                                                                       "processing_style":  "Paradigm Deconstruction"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "This requires high-level perspective-taking (SCN) and self-reflection (DMN) to identify and question the unstated assumptions and belief systems that legitimize the social causes."
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "pfic_word":  "Uncover Myth",
-                                                                          "step":  "T4",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "DMN",
-                                                                                                                                 "Language Network"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Balanced",
-                                                                                                                                       "processing_style":  "Narrative Synthesis"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The DMN engages in deep, associative thought to find the core metaphor or story, which is then articulated by the Language Network."
-                                                                                                         }
-                                                                      }
-                                                                  ],
-                                                     "rationale":  "This pathway engages the Salience Network to detect high-leverage nodes within a complex system, directing executive attention to where a small intervention can produce a non-linear result."
-                                                 },
-                                                 {
-                                                     "pathway_name":  "ðŸŒ  HP8: The Actor-Network Path",
-                                                     "sequence":  [
-                                                                      {
-                                                                          "pfic_word":  "Identify Actors",
-                                                                          "step":  "T1",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ECN",
-                                                                                                                                 "DAN"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "System 2",
-                                                                                                                                       "processing_style":  "Conceptual Expansion"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ECN must actively inhibit the default assumption that only humans have agency, a demanding act of cognitive flexibility, while the DAN scans the environment for all relevant entities."
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "pfic_word":  "Trace Network",
-                                                                          "step":  "T2",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "ECN",
-                                                                                                                                 "DMN",
-                                                                                                                                 "Parietal Lobe"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "System 2",
-                                                                                                                                       "processing_style":  "Relational Mapping"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The ECN directs the mapping process, using spatial reasoning (Parietal Lobe) and memory retrieval (DMN/Hippo) to trace the complex web of interactions and \u0027translations\u0027 between actors."
-                                                                                                         }
-                                                                      },
-                                                                      {
-                                                                          "pfic_word":  "Find Leverage",
-                                                                          "step":  "T3",
-                                                                          "neurocognitive_state":  {
-                                                                                                       "dominant_networks":  [
-                                                                                                                                 "SN",
-                                                                                                                                 "ECN"
-                                                                                                                             ],
-                                                                                                       "cognitive_mode_analysis":  {
-                                                                                                                                       "s1_s2_balance":  "Balanced",
-                                                                                                                                       "processing_style":  "Salience Detection"
-                                                                                                                                   }
-                                                                                                   },
-                                                                          "validation_and_credibility":  {
-                                                                                                             "key_neuroscientific_principle":  "The Salience Network flags the critical nodes (\u0027obligatory passage points\u0027) in the network map as high-leverage points, directing the ECN to focus its problem-framing efforts there."
-                                                                                                         }
-                                                                      }
-                                                                  ],
-                                                     "rationale":  "This pathway forces a cognitive shift from an anthropocentric view to a relational one, using the ECN to map the agency of non-human actors (technology, nature) in the system."
-                                                 }
-                                             ]
-                            },
-    "frameworkImplications":  {
-                                  "title":  "Strategic Role",
-                                  "icon":  "fas fa-chess-board",
-                                  "summary":  "This tool establishes the core objective for the entire project, transforming ambiguity into a motivating purpose.",
-                                  "points":  [
-                                                 "**Defines the \u0027Why\u0027:** The purpose and guiding question defined here become the ultimate rubric against which all future decisions (especially in Tool 4 and Tool 8) are measured.",
-                                                 "**Supports Motivation:** It solves the core emotional problem of ambiguity, providing the intrinsic motivation needed to sustain effort through the framework\u0027s more challenging stages.",
-                                                 "**Establishes the Social Contract:** By identifying stakeholders, it frames the project as a relational act, setting the foundation for community accountability in Tool 8."
-                                             ],
-                                  "dynamic_playbook":  {
-                                                           "practitioner":  [
-                                                                                "**Draft the \u0027North Star\u0027:** Write a single sentence that defines the ultimate, long-term impact of this inquiry. This serves as the strategic anchor for all subsequent decisions.",
-                                                                                "**Audit for Alignment:** Explicitly check this inquiry against the organization\u0027s high-level OKRs or mission statement. Does it fit? If not, pause.",
-                                                                                "**Define \u0027Anti-Goals\u0027:** Strategically define what this project is *not* about. Defining the negative space is often more important for strategy than defining the positive space."
-                                                                            ],
-                                                           "facilitator":  [
-                                                                               "**Facilitate the \u0027Why Now?\u0027 Discussion:** Ask the team: \u0027Why is this the most important thing to do *right now*?\u0027 This forces strategic prioritization.",
-                                                                               "**Check Executive Sponsorship:** Ensure there is a clear owner who has the authority to act on the findings of this inquiry.",
-                                                                               "**Calibrate Ambition:** Help the team size the strategic bet. Is this a \u0027moonshot\u0027 (high risk/reward) or a \u0027optimization\u0027 (low risk/reward)? Ensure the resources match the ambition."
-                                                                           ]
-                                                       }
-                              },
     "cynefinAnalysis":  {
                             "genotype":  {
                                              "implications":  "Do not plan; probe. Focus on defining the right question, not the answer.",

@@ -75,10 +75,8 @@ window.updateEqualizer = function(toolId, domain) {
     if (stage.dataset.modalityJson) {
         try {
             const allData = JSON.parse(stage.dataset.modalityJson);
-            // Fallback to General if specific domain is missing
             const domainScores = allData[domain] || allData['General / Pluralist'] || [];
             
-            // Reset all bars first
             const allBars = stage.querySelectorAll('.bar');
             allBars.forEach(bar => bar.style.height = '0%');
 
@@ -87,7 +85,6 @@ window.updateEqualizer = function(toolId, domain) {
                     const bar = document.getElementById(`bar-${toolId}-${index}`);
                     const tooltip = document.getElementById(`tooltip-${toolId}-${index}`);
                     if (bar) {
-                        // Animate height change
                         requestAnimationFrame(() => {
                             bar.style.height = `${(score / 5) * 100}%`;
                         });
@@ -102,11 +99,7 @@ window.updateEqualizer = function(toolId, domain) {
 
     const pills = document.querySelectorAll(`#domain-pills-${toolId} .domain-pill`);
     pills.forEach(p => {
-        if (p.dataset.domain === domain) {
-            p.classList.add('active');
-        } else {
-            p.classList.remove('active');
-        }
+        p.classList.toggle('active', p.dataset.domain === domain);
     });
 
     const insightContainer = document.getElementById(`insight-content-${toolId}`);
@@ -117,7 +110,6 @@ window.updateEqualizer = function(toolId, domain) {
 
             let primaryKey = domainKeyMap[domain];
             let secondaryKey = fallbackKeys[primaryKey];
-
             let rawText = insights[primaryKey] || insights[secondaryKey] || generalAnalysis;
             
             if (!rawText) rawText = "Insight not available for this domain.";
@@ -143,7 +135,6 @@ function parseModalityTable(markdownString) {
             generalAnalysis = "#### " + parts[1] + parts[2]; 
         }
 
-        // Robust line splitting to handle different OS line endings
         const lines = tablePart.split(/\r?\n/);
         
         lines.forEach(line => {
@@ -415,7 +406,6 @@ export const UI = {
             b.title !== "Core Modalities"
         );
 
-        // Robust finding of the profile block
         const profileBlock = summary.find(b => b.title && b.title.includes("Modality Profile"));
         
         let modalityData = {};
@@ -439,7 +429,6 @@ export const UI = {
         }
 
         const domains = Object.keys(modalityData);
-        // Default to "General / Pluralist" if available, otherwise first domain
         const initialDomain = domains.includes("General / Pluralist") ? "General / Pluralist" : (domains.length > 0 ? domains[0] : null);
         const initialScores = initialDomain ? modalityData[initialDomain] : [];
         
@@ -501,7 +490,6 @@ export const UI = {
         const groups = { "Sensory": [], "Embodied": [], "Symbolic": [], "Cognitive": [], "Meta": [] };
         modalityConfig.forEach((m, i) => groups[m.group].push({ ...m, index: i }));
 
-        // Only render equalizer if we have data
         const equalizerHTML = domains.length > 0 ? html`
             <div class="equalizer-wrapper">
                 <div class="equalizer-header">
@@ -580,7 +568,11 @@ export const UI = {
         if (!concepts || concepts.length === 0) return html`<p>No concepts available.</p>`;
 
         const domains = new Set();
-        concepts.forEach(c => c.variations.forEach(v => domains.add(v.domain)));
+        concepts.forEach(c => {
+            if (Array.isArray(c.variations)) {
+                c.variations.forEach(v => domains.add(v.domain));
+            }
+        });
         const uniqueDomains = Array.from(domains).sort();
 
         const domainIcons = {
@@ -608,7 +600,7 @@ export const UI = {
 
                 <div class="concept-bubbles-container" id="concept-bubbles-container">
                     ${concepts.map(concept => {
-                        const conceptDomains = concept.variations.map(v => v.domain).join(',');
+                        const conceptDomains = Array.isArray(concept.variations) ? concept.variations.map(v => v.domain).join(',') : '';
                         return html`
                             <button class="concept-bubble" 
                                     data-concept-id="${concept.id}" 
@@ -651,10 +643,8 @@ export const UI = {
             </div>
         `;
     },
-
 renderToolFocus: function(tool, currentStance, currentPersona, frameworkData, onboardingData, viewId, activePerspective, conceptCloudFilterDomain, currentDomain) {
         const currentToolConcepts = frameworkData.framework_data.toolConcepts[tool.id] || [];
-        // 1. GET THE GLOBAL SCAFFOLD DATA
         const scaffoldData = frameworkData.scaffold_model_data.content || [];
         
         const relatedPathways = scaffoldData.filter(p => 
@@ -685,31 +675,16 @@ renderToolFocus: function(tool, currentStance, currentPersona, frameworkData, on
 
                             if (displayTitle === "Practitioner View" || displayTitle === "Facilitator View") {
                                 if (p.domain) {
-                                    const shortDomain = p.domain
-                                        .replace("Science & Engineering", "Science")
-                                        .replace("Humanities & Social Sciences", "Humanities")
-                                        .replace("Arts & Design", "Arts")
-                                        .replace("Business & Agile", "Business")
-                                        .replace("Pedagogy & Facilitation", "Pedagogy")
-                                        .replace("Culture & Ethics", "Culture");
-                                    
+                                    const shortDomain = p.domain.replace(/ & .*/, '');
                                     displayTitle = `${shortDomain}: ${displayTitle.replace(' View', '')}`;
-                                    
                                     if (domainMap[p.domain]) {
-                                        iconClass = domainMap[p.domain].icon.replace('fa-', 'fa-');
+                                        iconClass = domainMap[p.domain].icon;
                                     }
                                 } else if (p.pathway_name) {
                                      displayTitle = `${p.pathway_name} (${displayTitle.replace(' View', '')})`;
                                 }
                             }
                             
-                            if (displayTitle.includes(":")) {
-                                const parts = displayTitle.split(":");
-                                if (parts[0].includes("HP")) {
-                                     displayTitle = parts[1].trim();
-                                }
-                            }
-
                             displayTitle = displayTitle.replace(/^[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]\s*/u, '').trim();
 
                             return html`
@@ -726,6 +701,7 @@ renderToolFocus: function(tool, currentStance, currentPersona, frameworkData, on
         const dynamicKeys = tool.perspectives ? Object.keys(tool.perspectives) : [];
         const availablePerspectives = [
             'jobToBeDone',
+            'strategicStreams',
             tool.frameworkImplications ? 'frameworkImplications' : null,
             'cognitiveModel',
             'cynefinAnalysis',
@@ -770,8 +746,7 @@ renderToolFocus: function(tool, currentStance, currentPersona, frameworkData, on
                     ${UI.createPerspectiveTabs(tool, validActivePerspective, currentToolConcepts.length > 0)}
                 </div>
                 <div class="perspectives-content" id="tool-perspectives-content">
-                    ${UI.createPerspectiveContents(tool, validActivePerspective, currentPersona, currentToolConcepts, frameworkData.framework_data.frameworkNodes.themes, scaffoldData, currentDomain)} 
-                    <!-- NOTE: scaffoldData passed here if needed, but mainly used in renderCognitiveModel call below -->
+                    ${UI.createPerspectiveContents(tool, validActivePerspective, currentPersona, currentToolConcepts, frameworkData.framework_data.frameworkNodes.themes, scaffoldData, currentDomain, frameworkData)}
                 </div>
             </div>
             <div class="card full-width">
@@ -788,6 +763,7 @@ renderToolFocus: function(tool, currentStance, currentPersona, frameworkData, on
     createPerspectiveTabs: function(tool, activePerspective, hasDomainConcepts) {
         let allPerspectiveKeys = [
             'jobToBeDone',
+            'strategicStreams',
             'frameworkImplications',
             'disciplinaryapplication',
             'domainConcepts',
@@ -801,7 +777,7 @@ renderToolFocus: function(tool, currentStance, currentPersona, frameworkData, on
         ];
         
         allPerspectiveKeys = allPerspectiveKeys.filter(key => 
-            key === 'jobToBeDone' ||
+            key === 'jobToBeDone' || key === 'strategicStreams' ||
             (key === 'frameworkImplications' && tool.frameworkImplications) ||
             key === 'cognitiveModel' || 
             key === 'cynefinAnalysis' ||
@@ -815,12 +791,14 @@ renderToolFocus: function(tool, currentStance, currentPersona, frameworkData, on
             
             if (key === 'jobToBeDone') {
                 title = 'Job to be Done';
+            } else if (key === 'strategicStreams') {
+                title = 'Strategic Streams';
             } else if (key === 'frameworkImplications' && tool.frameworkImplications) {
                 title = tool.frameworkImplications.title;
             } else if (key === 'cognitiveModel') {
                 title = 'Neurocognitive Model';
             } else if (key === 'cynefinAnalysis') {
-                title = 'Navigational Context ';
+                title = 'Navigational Context';
             } else if (key === 'domainConcepts') { 
                 title = 'Domain Concepts';
             } else if (tool.perspectives && tool.perspectives[key]) {
@@ -831,21 +809,21 @@ renderToolFocus: function(tool, currentStance, currentPersona, frameworkData, on
             const cleanTitle = title.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F700}-\u{1F77F}\u{1F780}-\u{1F7FF}\u{1F800}-\u{1F8FF}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA6F}\u{1FA70}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{2300}-\u{23FF}]/gu, '').trim();
 
             return html`<button class="perspective-tab ${isActive ? 'active' : ''}" data-perspective="${key}">
-                <span data-jargon="${cleanTitle}" data-simple="${tool.perspectives && tool.perspectives[key] && tool.perspectives[key].simpleTitle || cleanTitle}">${cleanTitle}</span>
+                <span data-jargon="${cleanTitle}" data-simple="${(tool.perspectives && tool.perspectives[key] && tool.perspectives[key].simpleTitle) || cleanTitle}">${cleanTitle}</span>
             </button>`;
         });
     },
 
-createPerspectiveContents: function(tool, activePerspective, currentPersona, currentToolConcepts, themes, scaffoldData, currentDomain) {
+    createPerspectiveContents: function(tool, activePerspective, currentPersona, currentToolConcepts, themes, scaffoldData, currentDomain, frameworkData) {
         const localParseMarkdownInline = (text) => (window.marked ? window.marked.parseInline(text || '') : text);
         
         const orderedKeys = [
             'jobToBeDone',
+            'strategicStreams',
             'frameworkImplications',
             'disciplinaryapplication',
             'domainConcepts',
             'integrativeStrategies',
-            'navigationalContext', // Mapped from cynefinAnalysis usually, but keeping consistent
             'cynefinAnalysis',
             'cognitiveNeuroscience',
             'cognitiveModel',
@@ -855,9 +833,9 @@ createPerspectiveContents: function(tool, activePerspective, currentPersona, cur
         ];
 
         const allPerspectiveKeys = orderedKeys.filter(key => 
-            key === 'jobToBeDone' ||
+            key === 'jobToBeDone' || key === 'strategicStreams' ||
             (key === 'frameworkImplications' && tool.frameworkImplications) ||
-            (key === 'cognitiveModel') || // Always allow, renderCognitiveModel handles empty states
+            (key === 'cognitiveModel') || 
             (key === 'cynefinAnalysis') ||
             (key === 'domainConcepts' && currentToolConcepts.length > 0) ||
             (tool.perspectives && tool.perspectives[key])
@@ -870,12 +848,14 @@ createPerspectiveContents: function(tool, activePerspective, currentPersona, cur
             if (key === 'jobToBeDone') {
                 contentHTML = UI.renderJtbdPerspective(tool.jtbdAnalysis, currentPersona);
             } 
+            else if (key === 'strategicStreams') {
+                contentHTML = UI.renderStrategicStreams(tool.id, frameworkData);
+            }
             else if (key === 'frameworkImplications' && tool.frameworkImplications) {
                 const { summary, points } = tool.frameworkImplications;
                 contentHTML = html`<p><em>${summary}</em></p><ul>${points.map(p => html`<li>${unsafeHTML(localParseMarkdownInline(p))}</li>`)}</ul>`;
             } 
             else if (key === 'cognitiveModel') {
-                // CRITICAL FIX: Pass scaffoldData to the renderer
                 contentHTML = UI.renderCognitiveModel(tool, scaffoldData);
             } 
             else if (key === 'cynefinAnalysis') {
@@ -928,14 +908,11 @@ createPerspectiveContents: function(tool, activePerspective, currentPersona, cur
                         </div>
                     </div>
                 `;
-
             } 
             else if (key === 'disciplinaryapplication') {
                 const da = tool.perspectives?.disciplinaryapplication;
-                const apps = da?.applications || []; // Safety check: use empty list if missing
+                const apps = da?.applications || []; 
                 
-                // Filter apps based on current domain if needed, or show all
-                // For now, let's show all in a grid or list
                 const appsHTML = apps.map(app => html`
                     <div class="application-card">
                         <div class="app-header">
@@ -962,11 +939,9 @@ createPerspectiveContents: function(tool, activePerspective, currentPersona, cur
                 `;
             }
             else if (tool.perspectives && tool.perspectives[key]) {
-                // Generic handler for other perspectives (Neuroscience, Ethics, etc.)
                 const p = tool.perspectives[key];
                 let integrativeStrategiesHTML = '';
                 
-                // Handle integrative strategies array if present
                 if (p.integrativeStrategies) {
                     const strategies = Array.isArray(p.integrativeStrategies) ? p.integrativeStrategies : [p.integrativeStrategies];
                     integrativeStrategiesHTML = html`<div class="accordion-group">${strategies.map(item => html`
@@ -983,6 +958,56 @@ createPerspectiveContents: function(tool, activePerspective, currentPersona, cur
         });
     },
     
+    renderStrategicStreams: function(toolId, frameworkData) {
+        const matrixFile = frameworkData.framework_data['matrix_clusters.json'];
+        if (!matrixFile || !matrixFile.tools) return html`<div class='empty-state'>No stream data found.</div>`;
+        
+        const toolData = matrixFile.tools.find(t => t.toolId === toolId);
+        if (!toolData || !toolData.streams) return html`<div class='empty-state'>No streams defined.</div>`;
+
+        const getIcon = (id) => {
+            if (id.includes('S1')) return 'fa-child';
+            if (id.includes('S2')) return 'fa-microscope';
+            if (id.includes('S3')) return 'fa-project-diagram';
+            if (id.includes('S4')) return 'fa-users';
+            if (id.includes('S5')) return 'fa-bolt';
+            return 'fa-stream';
+        };
+
+        const streamsHTML = toolData.streams.map(stream => html`
+            <div class='stream-card'>
+                <div class='stream-header'>
+                    <i class='fas ${getIcon(stream.id)} stream-icon'></i>
+                    <h4>${stream.name}</h4>
+                </div>
+                <div class='stream-body'>
+                    <p class='stream-principle'><strong>Principle:</strong> ${stream.principle}</p>
+                    <div class='stream-prompt'>
+                        <i class='fas fa-comment-dots'></i>
+                        <em>${stream.application_prompt}</em>
+                    </div>
+                </div>
+            </div>
+        `);
+
+        return html`
+            <style>
+                .streams-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+                .stream-card { background: var(--color-card); border: 1px solid var(--color-border); border-radius: 8px; padding: 1.5rem; box-shadow: var(--shadow-sm); transition: transform 0.2s; }
+                .stream-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+                .stream-header { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; border-bottom: 2px solid var(--color-highlight); padding-bottom: 0.5rem; }
+                .stream-icon { font-size: 1.2em; color: var(--color-highlight); }
+                .stream-header h4 { margin: 0; color: var(--color-text-primary); }
+                .stream-principle { color: var(--color-text-secondary); margin-bottom: 1rem; font-size: 0.95em; }
+                .stream-prompt { background: var(--color-background); padding: 10px; border-radius: 6px; font-style: italic; color: var(--color-text-primary); border-left: 3px solid var(--color-accent); }
+            </style>
+            <div class='streams-container'>
+                <p>These are the active cognitive channels for this tool. Use these prompts to unblock your thinking.</p>
+                <div class='streams-grid'>${streamsHTML}</div>
+            </div>
+        `;
+    },
+
     renderDomainConcepts: function(concepts, themes) {
         if (!concepts || concepts.length === 0) {
             return html`<p>No specific domain concepts defined for this tool yet.</p>`;
@@ -1005,7 +1030,9 @@ createPerspectiveContents: function(tool, activePerspective, currentPersona, cur
 
         const allDomains = new Set();
         concepts.forEach(concept => {
-            concept.variations.forEach(v => allDomains.add(v.domain));
+            if (Array.isArray(concept.variations)) {
+                concept.variations.forEach(v => allDomains.add(v.domain));
+            }
         });
         const uniqueDomains = Array.from(allDomains).sort();
 
@@ -1026,7 +1053,7 @@ createPerspectiveContents: function(tool, activePerspective, currentPersona, cur
 
                 <div class="concept-cloud-items-wrapper" id="concept-cloud-accordion-group">
                     ${concepts.map(concept => html`
-                        <div class="accordion-item concept-cloud-item" data-concept-id="${concept.id}" data-domains="${concept.variations.map(v => v.domain).join(',')}" tabindex="0">
+                        <div class="accordion-item concept-cloud-item" data-concept-id="${concept.id}" data-domains="${Array.isArray(concept.variations) ? concept.variations.map(v => v.domain).join(',') : ''}" tabindex="0">
                             <button class="accordion-header">
                                 <span class="accordion-title-group">
                                     <code class="uid-tag">${concept.id}</code> <strong>${concept.name}</strong>
@@ -1041,7 +1068,7 @@ createPerspectiveContents: function(tool, activePerspective, currentPersona, cur
                                     
                                     <h4>Domain Variations:</h4>
                                     <div class="variations-grid">
-                                        ${concept.variations.map(variation => html`
+                                        ${(concept.variations || []).map(variation => html`
                                             <div class="variation-card" data-domain="${variation.domain}" style="border-left: 3px solid ${domainColors[variation.domain] || '#ccc'};">
                                                 <h5 style="color: ${domainColors[variation.domain] || '#ccc'};">
                                                     <i class="fas ${domainIcons[variation.domain] || 'fa-question-circle'}"></i> 
@@ -1063,15 +1090,13 @@ createPerspectiveContents: function(tool, activePerspective, currentPersona, cur
         `;
     },
 
-renderCognitiveModel: function(tool, globalPathways = []) {
-        // 1. Single Source of Truth: Always use the global pathway list for consistency.
+    renderCognitiveModel: function(tool, globalPathways = []) {
         const toolIdNum = parseInt(tool.uid.replace('T', ''));
         const pathwaysData = globalPathways.filter(p => 
             p.tool_id === toolIdNum && 
             (p.type === 'pathway' || p.category === 'Core Tool Definitions')
         );
         
-        // 2. Handle Empty State
         if (!pathwaysData || pathwaysData.length === 0) {
              return html`
                 <div class="empty-state-container" style="text-align: center; padding: 40px; color: var(--color-text-secondary);">
@@ -1080,9 +1105,7 @@ renderCognitiveModel: function(tool, globalPathways = []) {
                 </div>`;
         }
 
-        // 3. Render Pathways
         const pathwaysHTML = pathwaysData.map(pathway => {
-            // Gracefully handle different keys for the sequence array
             const sequence = pathway.neurocognitive_sequence || pathway.sequence || 
                            (pathway.facilitator_model && pathway.facilitator_model.sequence) || 
                            (pathway.learner_model && pathway.learner_model.sequence) || 
@@ -1091,26 +1114,22 @@ renderCognitiveModel: function(tool, globalPathways = []) {
             if (!sequence || sequence.length === 0) return html``;
 
             const stepsHTML = sequence.map(step => {
-                // Defensive coding: Ensure objects exist before accessing properties
                 const state = step.neurocognitive_state || {};
                 const analysis = state.cognitive_mode_analysis || {};
                 const validation = step.validation_and_credibility || {};
                 
-                // --- CRITICAL FIX: Handle multiple possible data structures ---
                 const stepTitle = step.pfic_word || step.step || 'Unnamed Step';
                 const stepDescription = validation.key_neuroscientific_principle || '';
-                const networks = step.networks || state.dominant_networks; // Check both locations
+                const networks = step.networks || state.dominant_networks; 
 
                 let networksHTML;
                 if (Array.isArray(networks)) {
-                    // Correctly map the array to individual code tags
                     networksHTML = networks.map(n => html`<code>${n}</code>`);
                 } else if (typeof networks === 'string') {
                     networksHTML = html`<code>${networks}</code>`;
                 } else {
                     networksHTML = html`<span style="color: var(--color-text-secondary); font-style: italic;">Not specified</span>`;
                 }
-                // ---------------------------------------------------------
 
                 return html`
                     <div class="neuro-step-card">
@@ -1171,7 +1190,6 @@ renderCognitiveModel: function(tool, globalPathways = []) {
         
         const { genotype, phenotypes } = tool.cynefinAnalysis;
         
-        // Safety check for genotype
         if (!genotype) {
              return html`<p>Genotype data missing.</p>`;
         }
@@ -1200,122 +1218,21 @@ renderCognitiveModel: function(tool, globalPathways = []) {
             </div>`;
     },
 
-createPlaybook: function(tool, currentPersona, currentStance, activePerspective = 'jobToBeDone') {
+    createPlaybook: function(tool, currentPersona, currentStance, activePerspective = 'jobToBeDone') {
         let planData = [];
         let source = "Job to be Done (Default)";
 
-        // 1. SPECIAL CASE: Strategic Role (frameworkImplications)
-        if (activePerspective === 'frameworkImplications') {
-            source = tool.frameworkImplications ? tool.frameworkImplications.title : "Strategic Role";
-            
-            // Priority 1: Check JSON data
-            if (tool.frameworkImplications && 
-                tool.frameworkImplications.dynamic_playbook && 
-                tool.frameworkImplications.dynamic_playbook[currentPersona]) {
-                planData = tool.frameworkImplications.dynamic_playbook[currentPersona];
-            } 
-            // Priority 2: Hardcoded Fallback (Guarantees data renders)
-            else {
-                if (currentPersona === 'practitioner') {
-                    planData = [
-                        "**Draft the 'North Star':** Write a single sentence that defines the ultimate, long-term impact of this inquiry.",
-                        "**Audit for Alignment:** Explicitly check this inquiry against the organization's high-level OKRs or mission statement.",
-                        "**Define 'Anti-Goals':** Strategically define what this project is *not* about."
-                    ];
-                } else {
-                    planData = [
-                        "**Facilitate the 'Why Now?' Discussion:** Ask the team: 'Why is this the most important thing to do *right now*?'",
-                        "**Check Executive Sponsorship:** Ensure there is a clear owner who has the authority to act on the findings.",
-                        "**Calibrate Ambition:** Help the team size the strategic bet. Is this a 'moonshot' or an 'optimization'?"
-                    ];
-                }
+        if (activePerspective === 'jobToBeDone') {
+            if (tool.jtbdAnalysis && tool.jtbdAnalysis[currentPersona] && tool.jtbdAnalysis[currentPersona].plan) {
+                planData = tool.jtbdAnalysis[currentPersona].plan;
+                source = 'Job to be Done';
             }
-        }
-        // 2. SPECIAL CASE: Domain Concepts (Meta-Playbook)
-        else if (activePerspective === 'domainConcepts') {
-            source = "Domain Concepts Guide";
-            if (currentPersona === 'practitioner') {
-                planData = [
-                    "**Scan the Cloud:** Review the Concept Cloud above to identify the core principles relevant to your current challenge.",
-                    "**Translate the Term:** Click on a concept to see how it is expressed in your specific domain versus others.",
-                    "**Apply the Rubric:** Look at the 'Objective Measurement' field for your domain. Use this specific metric to evaluate your work.",
-                    "**Bridge the Gap:** If you are stuck, look at how a different domain solves the same problem."
-                ];
-            } else {
-                planData = [
-                    "**Normalize Vocabulary:** Use the Concept Cloud to bridge communication gaps between team members from different disciplines.",
-                    "**Define Shared Terms:** Before starting work, have the team agree on the specific definition of key terms.",
-                    "**Use the Rubrics:** When giving feedback, refer to the 'Objective Measurement' field to ensure critiques are based on agreed-upon standards.",
-                    "**Facilitate Translation:** If an engineer and a designer are arguing, use the domain variations to show them they are often talking about the same underlying principle."
-                ];
-            }
-        }
-        // 3. SPECIAL CASE: Neurocognitive Model (Meta-Playbook)
-        else if (activePerspective === 'cognitiveModel') {
-            source = "Neurocognitive Model Guide";
-            if (currentPersona === 'practitioner') {
-                planData = [
-                    "**Identify Your Pathway:** Review the pathways above. Which one best matches the work you are trying to do right now?",
-                    "**Diagnose Friction:** If you feel stuck, check the 'Neurocognitive State' of your current step.",
-                    "**Optimize the Sequence:** Follow the pathway's sequence. Don't skip the 'priming' or 'transition' steps.",
-                    "**Validate with Evidence:** Use the 'Validation & Credibility' section to ensure your approach is grounded in how the brain actually learns."
-                ];
-            } else {
-                planData = [
-                    "**Diagnose the Group Brain:** Look at the group's behavior. Which pathway are they attempting? Where are they getting stuck?",
-                    "**Facilitate Network Switching:** Use the 'Transition' steps in the pathways to help the group shift modes.",
-                    "**Reduce Cognitive Load:** Use the model to identify high-load steps. Provide scaffolding (templates, visuals) during these steps.",
-                    "**Explain the 'Why':** Use the scientific evidence provided in the cards to explain *why* you are asking the group to do a specific activity."
-                ];
-            }
-        }
-        // 4. SPECIAL CASE: Comparative Analysis (Meta-Playbook)
-        else if (activePerspective === 'comparativeAnalysis') {
-            source = "Comparative Analysis Guide";
-            if (currentPersona === 'practitioner') {
-                planData = [
-                    "**Identify the Status Quo:** Which of the 'Standard Models' listed above is your team currently using?",
-                    "**Pinpoint the Gap:** Read the 'Comparison' field. What specific nuance is the standard model missing?",
-                    "**Articulate the Value Add:** Use the 'Value Add' text to justify why you are using this Framework tool instead.",
-                    "**Cite the Derivation:** If challenged, use the 'Derivation' field to show that this approach is grounded in established theory."
-                ];
-            } else {
-                planData = [
-                    "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
-                    "**Bridge the Mental Model:** Use the 'Comparison' text to translate the Framework's concepts into their language.",
-                    "**Highlight the Risk:** Use the 'Real World Example' to tell a story about what happens when the standard model fails.",
-                    "**Diagnose Misalignment:** Check if they are unconsciously trying to apply a standard model to a domain where it doesn't fit."
-                ];
-            }
-        }
-        // 5. SPECIAL CASE: Navigational Context (Cynefin)
-        else if (activePerspective === 'cynefinAnalysis') {
-            source = "Navigational Context";
-            // Check if the data exists on the root tool object (where it lives in tool_10.json)
-            if (tool.cynefinAnalysis && tool.cynefinAnalysis.dynamic_playbook && tool.cynefinAnalysis.dynamic_playbook[currentPersona]) {
-                planData = tool.cynefinAnalysis.dynamic_playbook[currentPersona];
-            }
-            // Fallback to perspectives object if not found on root
-            else if (tool.perspectives && tool.perspectives.cynefinAnalysis && tool.perspectives.cynefinAnalysis.dynamic_playbook && tool.perspectives.cynefinAnalysis.dynamic_playbook[currentPersona]) {
-                planData = tool.perspectives.cynefinAnalysis.dynamic_playbook[currentPersona];
-            }
-        }
-        // 6. STANDARD CASE: Dynamic Perspectives (JSON Data)
-        else if (activePerspective !== 'jobToBeDone' && 
-            tool.perspectives && 
-            tool.perspectives[activePerspective] && 
-            tool.perspectives[activePerspective].dynamic_playbook &&
-            tool.perspectives[activePerspective].dynamic_playbook[currentPersona]) {
-            
+        } 
+        else if (tool.perspectives && tool.perspectives[activePerspective] && tool.perspectives[activePerspective].dynamic_playbook && tool.perspectives[activePerspective].dynamic_playbook[currentPersona]) {
             planData = tool.perspectives[activePerspective].dynamic_playbook[currentPersona];
             source = tool.perspectives[activePerspective].title || activePerspective;
-        } 
-        // 7. DEFAULT CASE: Job to be Done
-        else if (activePerspective === 'jobToBeDone' && tool.jtbdAnalysis && tool.jtbdAnalysis[currentPersona] && tool.jtbdAnalysis[currentPersona].plan) {
-            planData = tool.jtbdAnalysis[currentPersona].plan;
         }
 
-        // 8. Handle Empty State
         if (!planData || planData.length === 0) {
             return html`
                 <div class="empty-state-container" style="text-align: center; padding: 40px; color: var(--color-text-secondary);">
@@ -1747,7 +1664,6 @@ createPlaybook: function(tool, currentPersona, currentStance, activePerspective 
             <div class="network-horizon-container" id="network-grid">
                 <svg id="connection-svg"></svg>
                 
-                <!-- TOP LAYER: PROCESS PATTERNS (10 ITEMS, WRAPPED INTO 2 ROWS OF 5) -->
                 <div class="method-row-container" id="row-top">
                     ${methodRow1HTML}
                 </div>
@@ -1755,12 +1671,10 @@ createPlaybook: function(tool, currentPersona, currentStance, activePerspective 
                     ${methodRow2HTML}
                 </div>
 
-                <!-- MIDDLE LAYER: TOOLS T1-T5 -->
                 <div class="tool-row" id="row-middle">
                     ${toolRow1HTML}
                 </div>
                 
-                <!-- BOTTOM LAYER: TOOLS T6-T10 -->
                 <div class="tool-row" id="row-bottom">
                     ${toolRow2HTML}
                 </div>
@@ -1816,7 +1730,7 @@ createPlaybook: function(tool, currentPersona, currentStance, activePerspective 
         </div>`;
     },
 
-renderModalityExplorer: function(data, onboardingData, viewId) {
+    renderModalityExplorer: function(data, onboardingData, viewId) {
         if (!data) return html`<h1>Error: Modality data is missing.</h1>`;
         const { title, introduction, modalities } = data;
 
@@ -1861,13 +1775,13 @@ renderModalityExplorer: function(data, onboardingData, viewId) {
             <style>
                 .modality-explorer-container {
                     display: grid;
-                    grid-template-columns: 2fr 1fr; /* Map takes more space */
+                    grid-template-columns: 2fr 1fr;
                     gap: 2rem;
                     align-items: start;
                 }
                 .modality-map-area {
                     display: grid;
-                    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid for groups */
+                    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
                     gap: 1.5rem;
                 }
                 .modality-grid {
@@ -1876,7 +1790,6 @@ renderModalityExplorer: function(data, onboardingData, viewId) {
                     gap: 10px;
                 }
                 .modality-card {
-                    /* Ensure buttons have a base background that works in both modes */
                     background-color: var(--color-card); 
                     color: var(--color-text-primary);
                 }
@@ -1918,7 +1831,7 @@ renderModalityExplorer: function(data, onboardingData, viewId) {
         `;
     },
 
-renderGrandSynthesisTable: function(tableData, onboardingData, viewId) {
+    renderGrandSynthesisTable: function(tableData, onboardingData, viewId) {
         if (!tableData) return html`<h1>Error: Synthesis Table data is missing.</h1>`;
         const { title, subtitle, headers, rows } = tableData;
 
@@ -2073,7 +1986,7 @@ renderGrandSynthesisTable: function(tableData, onboardingData, viewId) {
             </div>
         `;
     },
-renderPathwayExplorer: function(allPathways, tools, bibliography, onboardingData, viewId) {
+    renderPathwayExplorer: function(allPathways, tools, bibliography, onboardingData, viewId) {
         if (!allPathways || !Array.isArray(allPathways)) {
             return html`<h1>Error: Pathway data is missing or malformed.</h1>`;
         }

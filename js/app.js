@@ -637,26 +637,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 targetView.classList.add('active-view');
             }
             
-            if (view === 'tool') {
-                const tool = cognitiveToolkitData.framework_data.tools.find(t => t.id === id);
-                if (tool) {
-                    const hasPerspective = (
-                        currentToolState.activePerspective === 'jobToBeDone' ||
-                        (currentToolState.activePerspective === 'frameworkImplications' && tool.frameworkImplications) ||
-                        (currentToolState.activePerspective === 'cognitiveModel') || 
-                        (currentToolState.activePerspective === 'cynefinAnalysis') ||
-                        (currentToolState.activePerspective === 'domainConcepts' && cognitiveToolkitData.framework_data.toolConcepts[tool.id]?.length > 0) ||
-                        (tool.perspectives && tool.perspectives[currentToolState.activePerspective])
-                    );
-
-                    if (!hasPerspective || id !== previousToolId) {
-                        currentToolState.activePerspective = 'jobToBeDone';
-                    }
-                }
-            } else {
-                currentToolState.activePerspective = 'jobToBeDone';
-            }
-            previousToolId = (view === 'tool') ? id : null; 
+                        previousToolId = (view === 'tool') ? id : null; 
             
             updateActiveSidebarLink(view, id);
             updateMiniMap(view, id);

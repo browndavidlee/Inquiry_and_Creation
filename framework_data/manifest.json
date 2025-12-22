@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -40,6 +40,7 @@
                   "systems_analysis_data.json",
                   "onboarding_content.json",
                   "scaffold-model.json",
-                  "comparative_analysis.json"
+                  "comparative_analysis.json",
+                  "matrix_clusters.json"
               ]
 }
