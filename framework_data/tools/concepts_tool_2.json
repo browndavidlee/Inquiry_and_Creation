@@ -929,6 +929,13 @@
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The roadmap successfully creates a multi-generational plan for social or environmental stewardship.",
                                                 "specific_deliverable":  "A Transition Pathway for community adoption.",
                                                 "rubric":  "Creates multi-generational plan."
+                                            },
+                                            {
+                                                "domain":  "Agile",
+                                                "rubric":  "Details near term, outlines long term.",
+                                                "specific_deliverable":  "A Rolling Wave Plan.",
+                                                "expert":  "PMI-ACP",
+                                                "theory":  "Progressive Elaboration. Procedural Link: Plan in waves; detail the near term, leave the long term high-level."
                                             }
                                         ]
                      },
@@ -1371,6 +1378,70 @@
                                                 "rubric":  "Assesses capacity to absorb change."
                                             }
                                         ]
+                     },
+                     {
+                         "id":  "T2.32",
+                         "name":  "Force Field Analysis",
+                         "integrated_deliverable":  "A Change Management Diagram.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Kurt Lewin",
+                                                "domain":  "Change Management",
+                                                "theory":  "Behavior is a dynamic balance of forces. Procedural Link: Identify forces for and against change, then plan to weaken the restraining forces.",
+                                                "specific_deliverable":  "A Force Field Diagram.",
+                                                "rubric":  "Identifies driving vs restraining forces."
+                                            }
+                                        ],
+                         "scenario":  "Implementing a controversial new policy.",
+                         "theory_application":  "Map the driving forces pushing for change against the restraining forces blocking it to assess feasibility."
+                     },
+                     {
+                         "id":  "T2.33",
+                         "name":  "Critical Path Method (CPM)",
+                         "integrated_deliverable":  "Project Network Diagram",
+                         "variations":  [
+                                            {
+                                                "expert":  "PMP",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Critical Path. Link: Sequence tasks to find the bottleneck path.",
+                                                "specific_deliverable":  "Network Diagram with Float",
+                                                "rubric":  "Critical path identified"
+                                            }
+                                        ],
+                         "scenario":  "Calculating the absolute minimum time required to complete a complex build.",
+                         "theory_application":  "Identify the longest sequence of dependent tasks to determine project duration and \u0027float\u0027 (buffer) time."
+                     },
+                     {
+                         "id":  "T2.34",
+                         "name":  "Concept Checking Questions (CCQs)",
+                         "integrated_deliverable":  "Comprehension Verification Script",
+                         "variations":  [
+                                            {
+                                                "expert":  "CELTA",
+                                                "domain":  "Pedagogy",
+                                                "theory":  "Definition: CCQs. Link: Break instructions into checkable logic points.",
+                                                "specific_deliverable":  "CCQ Script",
+                                                "rubric":  "No yes/no questions used"
+                                            }
+                                        ],
+                         "scenario":  "Ensuring a team understands a complex instruction without asking \u0027Do you understand?\u0027",
+                         "theory_application":  "Use targeted, binary or simple-choice questions to verify that the mental model of the instruction is accurate."
+                     },
+                     {
+                         "id":  "T2.DT.1",
+                         "name":  "Alertness",
+                         "integrated_deliverable":  "An Opportunity Log.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Kirzner/Shane",
+                                                "domain":  "Entrepreneurship",
+                                                "theory":  "Entrepreneurial alertness is the engine of discovery.",
+                                                "specific_deliverable":  "Insight Note",
+                                                "rubric":  "Identifies accidental discovery."
+                                            }
+                                        ],
+                         "scenario":  "Noticing a market gap during casual conversation.",
+                         "theory_application":  "Cultivate a cognitive state of readiness to notice information without searching for it."
                      }
                  ]
 }

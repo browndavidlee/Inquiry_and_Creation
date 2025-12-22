@@ -843,6 +843,102 @@
                                                 "rubric":  "Assesses cost in volunteer hours."
                                             }
                                         ]
+                     },
+                     {
+                         "id":  "T4.20",
+                         "name":  "Pareto Analysis",
+                         "integrated_deliverable":  "An 80/20 Prioritization List.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Vilfredo Pareto",
+                                                "domain":  "Decision Making",
+                                                "theory":  "The Vital Few vs The Trivial Many. Procedural Link: Rank options by impact and select the top 20% that deliver the most value.",
+                                                "specific_deliverable":  "A Pareto Chart.",
+                                                "rubric":  "Selects vital few."
+                                            }
+                                        ],
+                         "scenario":  "Deciding which bugs to fix first.",
+                         "theory_application":  "Identify the 20% of causes that produce 80% of the effects to prioritize action."
+                     },
+                     {
+                         "id":  "T4.21",
+                         "name":  "MoSCoW Prioritization",
+                         "integrated_deliverable":  "A Scoped Requirements List.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Dai Clegg",
+                                                "domain":  "Agile",
+                                                "theory":  "Scope is the primary variable. Procedural Link: Classify every backlog item to protect the \u0027Must Haves\u0027 from scope creep.",
+                                                "specific_deliverable":  "A MoSCoW Matrix.",
+                                                "rubric":  "Categorizes into M/S/C/W."
+                                            }
+                                        ],
+                         "scenario":  "Negotiating scope for a tight deadline.",
+                         "theory_application":  "Categorize requirements to manage scope: Must have, Should have, Could have, Won\u0027t have."
+                     },
+                     {
+                         "id":  "T4.22",
+                         "name":  "Kano Model",
+                         "integrated_deliverable":  "A Feature Satisfaction Graph.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Noriaki Kano",
+                                                "domain":  "Product Management",
+                                                "theory":  "Not all features create value equally. Procedural Link: Plot features against satisfaction vs. implementation investment.",
+                                                "specific_deliverable":  "A Kano Analysis.",
+                                                "rubric":  "Distinguishes Basic vs Excitement features."
+                                            }
+                                        ],
+                         "scenario":  "Choosing features for a product update.",
+                         "theory_application":  "Classify features by customer satisfaction: Basic, Performance, and Excitement."
+                     },
+                     {
+                         "id":  "T4.23",
+                         "name":  "Decision Trees",
+                         "integrated_deliverable":  "A Probability Tree Diagram.",
+                         "variations":  [
+                                            {
+                                                "expert":  "John von Neumann",
+                                                "domain":  "Decision Science",
+                                                "theory":  "Expected Value. Procedural Link: Calculate the weighted average value of each branch to select the optimal path.",
+                                                "specific_deliverable":  "A Decision Tree Calculation.",
+                                                "rubric":  "Calculates expected value."
+                                            }
+                                        ],
+                         "scenario":  "Deciding whether to sue or settle.",
+                         "theory_application":  "Map out possible consequences, probabilities, and payoffs for each option mathematically."
+                     },
+                     {
+                         "id":  "T4.24",
+                         "name":  "NPV / IRR Analysis",
+                         "integrated_deliverable":  "Financial Viability Report",
+                         "variations":  [
+                                            {
+                                                "expert":  "PMP",
+                                                "domain":  "Business",
+                                                "theory":  "Definition: Discounted Cash Flow. Link: Compare present value of future returns against hurdle rates.",
+                                                "specific_deliverable":  "NPV Spreadsheet",
+                                                "rubric":  "NPV \u003e 0"
+                                            }
+                                        ],
+                         "scenario":  "Selecting between two high-cost technology investments.",
+                         "theory_application":  "Calculate Net Present Value and Internal Rate of Return to determine the long-term profitability and time-value of money."
+                     },
+                     {
+                         "id":  "T4.DT.1",
+                         "name":  "Assumption Testing",
+                         "integrated_deliverable":  "A Risk Prioritization Map.",
+                         "variations":  [
+                                            {
+                                                "expert":  "The Field Book - The Guide",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Learning Launch. Procedural Link: Isolate the single variable that, if false, kills the project. Test that first.",
+                                                "specific_deliverable":  "A Critical Assumption Test.",
+                                                "rubric":  "Tests the highest risk variable."
+                                            }
+                                        ],
+                         "scenario":  "Choosing which feature to build next.",
+                         "theory_application":  "Do not select the \u0027best idea\u0027. Select the \u0027riskiest assumption\u0027 inherent in the best idea to test first."
                      }
                  ]
 }

@@ -137,6 +137,13 @@
                                                 "theory":  "Definition: Dadirri is an Aboriginal concept of inner, deep listening and quiet, still awareness. Procedural Link: The action is to achieve attunement through \u0027inner deep listening\u0027—a quiet, receptive awareness that allows the truth of the moment and the context to sink in.",
                                                 "specific_deliverable":  "A Non-defensive listening Transcript recording the pauses, sighs, and tone of the community meeting, noting what was *not* said.",
                                                 "rubric":  "Confirms the researcher spoke last and focused solely on receiving input."
+                                            },
+                                            {
+                                                "domain":  "Social Science",
+                                                "rubric":  "Demonstrates immersive observation.",
+                                                "specific_deliverable":  "An Ethnographic Field Note.",
+                                                "expert":  "Clifford Geertz",
+                                                "theory":  "Ethnography requires \u0027Deep Hanging Out\u0027. Procedural Link: Immerse in the environment to understand the cultural context from the inside."
                                             }
                                         ]
                      },
@@ -1327,6 +1334,141 @@
                                                 "rubric":  "Notices constriction/expansion."
                                             }
                                         ]
+                     },
+                     {
+                         "id":  "T1.31",
+                         "name":  "The Iceberg Model",
+                         "integrated_deliverable":  "A Systems Depth Chart.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Donella Meadows",
+                                                "domain":  "Systems Thinking",
+                                                "theory":  "Events are just the tip of the iceberg. Procedural Link: Trace the \u0027Event\u0027 down to the \u0027Mental Model\u0027 that sustains it.",
+                                                "specific_deliverable":  "A Depth Analysis Diagram.",
+                                                "rubric":  "Identifies layers: Event, Pattern, Structure, Mental Model."
+                                            }
+                                        ],
+                         "scenario":  "Diagnosing a recurring systemic failure.",
+                         "theory_application":  "Diagnose a problem by looking below surface events to find patterns, structures, and mental models."
+                     },
+                     {
+                         "id":  "T1.32",
+                         "name":  "SWOT / PESTEL Analysis",
+                         "integrated_deliverable":  "A Strategic Environment Scan.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Albert Humphrey",
+                                                "domain":  "Business Strategy",
+                                                "theory":  "Strategic planning requires matching internal capability with external environment. Procedural Link: Map internal factors (SWOT) against external macro-forces (PESTEL).",
+                                                "specific_deliverable":  "A Strategic Matrix.",
+                                                "rubric":  "Maps internal capabilities to external forces."
+                                            }
+                                        ],
+                         "scenario":  "Launching a product in a new country.",
+                         "theory_application":  "Systematically assess internal Strengths/Weaknesses and external Political, Economic, Social, and Tech factors."
+                     },
+                     {
+                         "id":  "T1.33",
+                         "name":  "Value Chain Analysis",
+                         "integrated_deliverable":  "A Value Flow Map.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Michael Porter",
+                                                "domain":  "Design Thinking",
+                                                "theory":  "Competitive advantage stems from discrete activities. Procedural Link: Dissect the organization into primary and support activities to find differentiation points.",
+                                                "specific_deliverable":  "A Value Chain Diagram.",
+                                                "rubric":  "Identifies specific activity adding margin."
+                                            }
+                                        ],
+                         "scenario":  "Finding inefficiencies in a manufacturing process.",
+                         "theory_application":  "Map the full lifecycle of value creation to identify where value is added and where it is lost."
+                     },
+                     {
+                         "id":  "T1.34",
+                         "name":  "Andragogy",
+                         "integrated_deliverable":  "Adult Learner Profile",
+                         "variations":  [
+                                            {
+                                                "expert":  "Malcolm Knowles",
+                                                "domain":  "Pedagogy",
+                                                "theory":  "Definition: Adult Learning. Link: Focus on immediate relevance and internal motivation.",
+                                                "specific_deliverable":  "Autonomy Map",
+                                                "rubric":  "Learner-led goals present"
+                                            }
+                                        ],
+                         "scenario":  "Designing professional development for experienced staff.",
+                         "theory_application":  "Apply Knowles\u0027 theory of adult learning to ensure the inquiry is self-directed and leverages existing experience."
+                     },
+                     {
+                         "id":  "T1.DT.1",
+                         "name":  "Wicked Problem",
+                         "integrated_deliverable":  "A Problem Framing Statement.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Nigel Cross - The Theorist",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Wicked problems are ill-defined and unique. Procedural Link: Designers solve these by imposing a temporary \u0027frame\u0027 to make the problem actionable.",
+                                                "specific_deliverable":  "A Problem Frame Visual.",
+                                                "rubric":  "Acknowledges ambiguity/lack of single solution."
+                                            },
+                                            {
+                                                "expert":  "Rittel \u0026 Webber - The Planners",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Solutions to wicked problems are not true-or-false, but good-or-bad. Procedural Link: Shift focus from \u0027optimizing\u0027 to \u0027satisficing\u0027 stakeholders.",
+                                                "specific_deliverable":  "A Stakeholder Alignment Map.",
+                                                "rubric":  "Focuses on \u0027good enough\u0027 consensus."
+                                            }
+                                        ],
+                         "scenario":  "Addressing a systemic issue like food insecurity.",
+                         "theory_application":  "Recognize that some problems have no \u0027stopping rule\u0027 and no single solution, requiring a reframing from \u0027solving\u0027 to \u0027improving\u0027."
+                     },
+                     {
+                         "id":  "T1.DT.2",
+                         "name":  "Ethnographic Research",
+                         "integrated_deliverable":  "A User Insight Report.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Jeanne Liedtka - The Researcher",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: The \u0027What Is?\u0027 phase requires \u0027deep hanging out\u0027. Procedural Link: Observe behavior in context (Gemba) rather than asking people what they want.",
+                                                "specific_deliverable":  "A Journey Map based on observation.",
+                                                "rubric":  "Based on observation, not survey data."
+                                            }
+                                        ],
+                         "scenario":  "Redesigning a hospital waiting room.",
+                         "theory_application":  "Move beyond surveys to immersive observation to understand the \u0027unarticulated needs\u0027 of the user."
+                     },
+                     {
+                         "id":  "T1.DT.3",
+                         "name":  "Latent Needs",
+                         "integrated_deliverable":  "A Latent Need Statement.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Tim Brown",
+                                                "domain":  "Business",
+                                                "theory":  "Designers look for what people do, not what they say.",
+                                                "specific_deliverable":  "Observation Log",
+                                                "rubric":  "Identifies unstated need."
+                                            }
+                                        ],
+                         "scenario":  "Users struggling with a product but not complaining.",
+                         "theory_application":  "Identify needs that users feel but cannot articulate."
+                     },
+                     {
+                         "id":  "T1.DT.4",
+                         "name":  "Co-evolution",
+                         "integrated_deliverable":  "A Problem-Solution Evolution Map.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Nigel Cross",
+                                                "domain":  "Design Theory",
+                                                "theory":  "Design is a dialectic between problem and solution.",
+                                                "specific_deliverable":  "Evolution Log",
+                                                "rubric":  "Tracks how solution changed problem def."
+                                            }
+                                        ],
+                         "scenario":  "Iterating on a prototype changes the project goal.",
+                         "theory_application":  "Recognize that the problem and solution evolve together; defining one helps define the other."
                      }
                  ]
 }

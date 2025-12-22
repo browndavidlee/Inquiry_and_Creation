@@ -401,6 +401,13 @@
                                                 "theory":  "Definition: Knowledge transfer is the successful transmission of a teaching story. Procedural Link: The action is to ensure the successful transmission of a Teaching Story (N91) to a new generation, enabling them to apply the integrated knowledge.",
                                                 "specific_deliverable":  "A Certificate.",
                                                 "rubric":  "Ensure transmission."
+                                            },
+                                            {
+                                                "domain":  "Project Management",
+                                                "rubric":  "Ensures operational readiness.",
+                                                "specific_deliverable":  "A Handover Protocol.",
+                                                "expert":  "PMP",
+                                                "theory":  "Knowledge Transfer. Procedural Link: Formal mechanisms (handover docs, training) to transfer project assets to operations."
                                             }
                                         ]
                      },
@@ -1019,6 +1026,38 @@
                                                 "rubric":  "Compresses ethics into maxim."
                                             }
                                         ]
+                     },
+                     {
+                         "id":  "T9.24",
+                         "name":  "Liminality",
+                         "integrated_deliverable":  "A Transition Ritual.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Cynefin",
+                                                "domain":  "Complexity Science",
+                                                "theory":  "Liminal Cynefin. Procedural Link: Hold the system in a state of suspended constraints to allow new patterns to emerge.",
+                                                "specific_deliverable":  "A Transition State Map.",
+                                                "rubric":  "Manages the threshold state."
+                                            }
+                                        ],
+                         "scenario":  "Navigating a merger between companies.",
+                         "theory_application":  "Manage the \u0027threshold\u0027 state between the old way and the new way, where ambiguity is high but innovation is possible."
+                     },
+                     {
+                         "id":  "T9.DT.1",
+                         "name":  "Experiential Cycle",
+                         "integrated_deliverable":  "A Kolb Cycle Diagram.",
+                         "variations":  [
+                                            {
+                                                "expert":  "David Kolb",
+                                                "domain":  "Pedagogy",
+                                                "theory":  "Learning requires the transformation of experience.",
+                                                "specific_deliverable":  "Reflection Paper",
+                                                "rubric":  "Completes all 4 stages."
+                                            }
+                                        ],
+                         "scenario":  "Debriefing a team project.",
+                         "theory_application":  "Move from Concrete Experience to Active Experimentation."
                      }
                  ]
 }

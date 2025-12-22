@@ -665,6 +665,13 @@
                                                 "theory":  "Definition: Freire advocates for \u0027problem-posing\u0027 education. Procedural Link: The action is to guide a novice through a difficult social action by modeling humility and asking questions that build their critical awareness.",
                                                 "specific_deliverable":  "A Growth Goal Sheet.",
                                                 "rubric":  "Guide via humility/questions."
+                                            },
+                                            {
+                                                "domain":  "Pedagogy",
+                                                "rubric":  "Minimizes teacher talk.",
+                                                "specific_deliverable":  "A TTT Audit.",
+                                                "expert":  "CELTA",
+                                                "theory":  "Teacher Talking Time (TTT). Procedural Link: Measure and minimize TTT to maximize Student Talking Time (STT)."
                                             }
                                         ]
                      },
@@ -797,6 +804,13 @@
                                                 "theory":  "Definition: Mindful action is performing a task with full, focused attention. Procedural Link: The action is to perform an action with full presence and ethical intent (Karma Yoga). (N164)",
                                                 "specific_deliverable":  "A Post-Op Debrief.",
                                                 "rubric":  "Perform with presence/intent."
+                                            },
+                                            {
+                                                "domain":  "Software Engineering",
+                                                "rubric":  "Demonstrates paired execution.",
+                                                "specific_deliverable":  "A Pairing Session Log.",
+                                                "expert":  "XP (Extreme Programming)",
+                                                "theory":  "Pair Programming. Procedural Link: Two people work on one workstation to improve quality and focus."
                                             }
                                         ]
                      },
@@ -1193,6 +1207,13 @@
                                                 "theory":  "Definition: Momentum is the visible energy of the movement. Procedural Link: The action is to track the rate of new sign-ups or donations to gauge the health of the campaign.",
                                                 "specific_deliverable":  "A Growth Rate Tracker.",
                                                 "rubric":  "Tracks participation rate."
+                                            },
+                                            {
+                                                "domain":  "Project Management",
+                                                "rubric":  "Calculates CPI/SPI.",
+                                                "specific_deliverable":  "An EVM Forecast.",
+                                                "expert":  "PMP",
+                                                "theory":  "Earned Value Management (EVM). Procedural Link: Use CPI and SPI indices to mathematically forecast project completion."
                                             }
                                         ]
                      },
@@ -1239,6 +1260,38 @@
                                                 "rubric":  "Designs for limited energy."
                                             }
                                         ]
+                     },
+                     {
+                         "id":  "T6.29",
+                         "name":  "Little\u0027s Law",
+                         "integrated_deliverable":  "A Flow Efficiency Analysis.",
+                         "variations":  [
+                                            {
+                                                "expert":  "John Little",
+                                                "domain":  "Lean/Kanban",
+                                                "theory":  "WIP = Throughput * Cycle Time. Procedural Link: Reduce Work In Progress (WIP) to decrease Cycle Time.",
+                                                "specific_deliverable":  "A Flow Optimization Plan.",
+                                                "rubric":  "Calculates WIP/Cycle Time relationship."
+                                            }
+                                        ],
+                         "scenario":  "Debugging a slow support queue.",
+                         "theory_application":  "Use the mathematical relationship between WIP, Throughput, and Cycle Time to optimize flow."
+                     },
+                     {
+                         "id":  "T6.DT.1",
+                         "name":  "Minimum Viable Product (MVP)",
+                         "integrated_deliverable":  "A Validated Learning Artifact.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Steve Blank - The Founder",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: MVP is for learning, not scaling. Procedural Link: Build a \u0027Concierge\u0027 or \u0027Wizard of Oz\u0027 prototype to test value before building technology.",
+                                                "specific_deliverable":  "A Concierge Prototype.",
+                                                "rubric":  "Optimized for learning, not scale."
+                                            }
+                                        ],
+                         "scenario":  "Testing a new food delivery service.",
+                         "theory_application":  "Build the smallest version of the product that allows you to complete the \u0027Build-Measure-Learn\u0027 loop with minimum effort."
                      }
                  ]
 }

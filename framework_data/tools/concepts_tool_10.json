@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -357,6 +357,13 @@
                                                 "theory":  "Definition: Oversight is ultimate leadership responsibility. Procedural Link: The action is to fulfill the ultimate leadership responsibility for the health and sustainability of the community.",
                                                 "specific_deliverable":  "An Annual Review.",
                                                 "rubric":  "Ultimate leadership responsibility."
+                                            },
+                                            {
+                                                "domain":  "Complexity Science",
+                                                "rubric":  "Manages boundaries/interactions.",
+                                                "specific_deliverable":  "A CAS Intervention Plan.",
+                                                "expert":  "DASSM",
+                                                "theory":  "Complex Adaptive Systems (CAS). Procedural Link: Treat the team as a semi-autonomous system; manage boundaries, not individuals."
                                             }
                                         ]
                      },
@@ -579,6 +586,54 @@
                                                 "rubric":  "Aims to govern themselves via values."
                                             }
                                         ]
+                     },
+                     {
+                         "id":  "T10.14",
+                         "name":  "Tuckman\u0027s Stages",
+                         "integrated_deliverable":  "A Team Maturity Assessment.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Bruce Tuckman",
+                                                "domain":  "Project Management",
+                                                "theory":  "Teams must go through conflict (Storming) to reach performance. Procedural Link: Diagnose the current stage and apply \u0027Directive\u0027 or \u0027Supportive\u0027 leadership accordingly.",
+                                                "specific_deliverable":  "A Leadership Adjustment Plan.",
+                                                "rubric":  "Diagnoses stage/adjusts style."
+                                            }
+                                        ],
+                         "scenario":  "A new team is fighting constantly.",
+                         "theory_application":  "Diagnose team maturity (Forming, Storming, Norming, Performing) to select the right leadership style."
+                     },
+                     {
+                         "id":  "T10.15",
+                         "name":  "Kotter / ADKAR",
+                         "integrated_deliverable":  "A Change Management Plan.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Prosci / Kotter",
+                                                "domain":  "Change Management",
+                                                "theory":  "Change happens at the individual level (Awareness, Desire, Knowledge, Ability, Reinforcement). Procedural Link: Assess the team\u0027s ADKAR status and intervene where they are stuck.",
+                                                "specific_deliverable":  "An ADKAR Assessment.",
+                                                "rubric":  "Addresses human side of change."
+                                            }
+                                        ],
+                         "scenario":  "Implementing a new software system.",
+                         "theory_application":  "Manage the human side of organizational change using a structured model."
+                     },
+                     {
+                         "id":  "T10.16",
+                         "name":  "Operations Research",
+                         "integrated_deliverable":  "An Optimization Model.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Linear Programming",
+                                                "domain":  "Industrial Engineering",
+                                                "theory":  "Optimization. Procedural Link: Use mathematical modeling to maximize efficiency under constraints.",
+                                                "specific_deliverable":  "A Linear Optimization Model.",
+                                                "rubric":  "Uses math to optimize."
+                                            }
+                                        ],
+                         "scenario":  "Optimizing delivery routes.",
+                         "theory_application":  "Use advanced analytical methods to help make better decisions."
                      }
                  ]
 }

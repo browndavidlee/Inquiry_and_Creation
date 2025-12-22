@@ -11075,6 +11075,234 @@
                       "name":  "Public Discourse",
                       "theme":  "council",
                       "uid":  "N244"
+                  },
+                  {
+                      "parentTool":  "tool3",
+                      "id":  "practice-integrative-thinking",
+                      "tags":  [
+                                   "design-thinking",
+                                   "synthesis",
+                                   "cognition"
+                               ],
+                      "inputs":  [
+                                     "Two conflicting options (A vs B)"
+                                 ],
+                      "description":  "The ability to hold two opposing ideas in tension at the same time and, without panicking or simply settling for one, create a synthesis that contains the superior aspects of both (Based on Tim Brown/Roger Martin).",
+                      "outputs":  [
+                                      "A new model (C) that resolves the tension"
+                                  ],
+                      "name":  "Practice Integrative Thinking",
+                      "theme":  "council",
+                      "uid":  "N-DT-3",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Feedback Loop",
+                                                          "domainAgnosticDescription":  "Resolves the \u0027Trade-off\u0027 loop by creating a new system boundary."
+                                                      }
+                                                  ]
+                  },
+                  {
+                      "parentTool":  "tool1",
+                      "id":  "frame-wicked-problem",
+                      "tags":  [
+                                   "complexity",
+                                   "design-theory",
+                                   "framing"
+                               ],
+                      "inputs":  [
+                                     "A messy, systemic issue"
+                                 ],
+                      "description":  "Identify a problem as \u0027Wicked\u0027 (ill-defined, unique, no stopping rule) and apply a provisional frame to make it actionable, acknowledging that the solution will generate new problems (Based on Nigel Cross/Rittel \u0026 Webber).",
+                      "outputs":  [
+                                      "A provisional problem frame"
+                                  ],
+                      "name":  "Frame a Wicked Problem",
+                      "theme":  "blueprint",
+                      "uid":  "N-DT-4",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "System Boundary",
+                                                          "domainAgnosticDescription":  "Artificially closes an open system to allow for action."
+                                                      }
+                                                  ]
+                  },
+                  {
+                      "parentTool":  "tool1",
+                      "id":  "opportunity-recognition",
+                      "tags":  [
+                                   "entrepreneurship",
+                                   "mindset",
+                                   "perception"
+                               ],
+                      "inputs":  [
+                                     "Market signals"
+                                 ],
+                      "description":  "A cognitive practice of \u0027alertness\u0027 to distinguish between opportunities that are \u0027discovered\u0027 (existing gaps) and those that must be \u0027created\u0027 (new markets) (Based on Shane \u0026 Venkataraman).",
+                      "outputs":  [
+                                      "Identified opportunity vector"
+                                  ],
+                      "name":  "Practice Opportunity Recognition",
+                      "theme":  "workshop",
+                      "uid":  "N-DT-5",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Inflow",
+                                                          "domainAgnosticDescription":  "Increases the inflow of potential value into the system."
+                                                      }
+                                                  ]
+                  },
+                  {
+                      "parentTool":  "tool5",
+                      "id":  "narrative-neural-coupling",
+                      "tags":  [
+                                   "neuroscience",
+                                   "storytelling",
+                                   "communication"
+                               ],
+                      "inputs":  [
+                                     "Core message"
+                                 ],
+                      "description":  "Structure communication to synchronize the listener\u0027s brain activity with the speaker\u0027s by engaging sensory and motor cortices, not just language centers (Based on Gallo).",
+                      "outputs":  [
+                                      "Sensory-rich narrative"
+                                  ],
+                      "name":  "Design for Neural Coupling",
+                      "theme":  "blueprint",
+                      "uid":  "N-DT-6",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Information Connector",
+                                                          "domainAgnosticDescription":  "Maximizes the fidelity of information transfer between agents."
+                                                      }
+                                                  ]
+                  },
+                  {
+                      "parentTool":  "tool10",
+                      "id":  "map-innovator-journey",
+                      "tags":  [
+                                   "metacognition",
+                                   "growth-mindset",
+                                   "reflection"
+                               ],
+                      "inputs":  [
+                                     "Current emotional state"
+                                 ],
+                      "description":  "A metacognitive tool to locate oneself on the emotional arc of innovation, identifying current perspective shifts required to move from \u0027manager\u0027 to \u0027creator\u0027 (Based on Liedtka).",
+                      "outputs":  [
+                                      "Self-regulation strategy"
+                                  ],
+                      "name":  "Map the Innovator\u0027s Journey",
+                      "theme":  "council",
+                      "uid":  "N-DT-7",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Stock",
+                                                          "domainAgnosticDescription":  "Monitors the stock of creative resilience."
+                                                      }
+                                                  ]
+                  },
+                  {
+                      "parentTool":  "tool9",
+                      "id":  "reflection-on-action",
+                      "tags":  [
+                                   "pedagogy",
+                                   "learning",
+                                   "professional-practice"
+                               ],
+                      "inputs":  [
+                                     "Completed project"
+                                 ],
+                      "description":  "A formal retrospective practice distinct from \u0027Reflection-in-Action\u0027. It involves looking back on a completed event to analyze the knowledge used and outcomes generated (Based on Donald Schön).",
+                      "outputs":  [
+                                      "Codified lessons"
+                                  ],
+                      "name":  "Engage Reflection-on-Action",
+                      "theme":  "critique",
+                      "uid":  "N-DT-8",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Feedback Loop",
+                                                          "domainAgnosticDescription":  "Closes the Double-Loop Learning cycle."
+                                                      }
+                                                  ]
+                  },
+                  {
+                      "parentTool":  "tool7",
+                      "id":  "learning-by-reviewing",
+                      "tags":  [
+                                   "pedagogy",
+                                   "peer-review",
+                                   "evaluation"
+                               ],
+                      "inputs":  [
+                                     "Peer work",
+                                     "Rubric"
+                                 ],
+                      "description":  "Build higher-order thinking skills by critiquing the work of peers against a rubric, forcing the internalization of quality standards (Based on Cho \u0026 MacArthur).",
+                      "outputs":  [
+                                      "Critique",
+                                      "Internalized standard"
+                                  ],
+                      "name":  "Learning by Reviewing",
+                      "theme":  "council",
+                      "uid":  "N-DT-9",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Parameter",
+                                                          "domainAgnosticDescription":  "Refines the internal parameters for quality judgment."
+                                                      }
+                                                  ]
+                  },
+                  {
+                      "parentTool":  "tool2",
+                      "id":  "map-riskiest-assumptions",
+                      "tags":  [
+                                   "business",
+                                   "risk-management",
+                                   "design-thinking"
+                               ],
+                      "inputs":  [
+                                     "A project concept or business model"
+                                 ],
+                      "description":  "Identify and prioritize the underlying beliefs that must be true for your idea to work, separating \u0027Leap of Faith\u0027 assumptions from known facts (Derived from Lean Startup).",
+                      "outputs":  [
+                                      "A prioritized list of assumptions to test"
+                                  ],
+                      "name":  "Map Riskiest Assumptions",
+                      "theme":  "blueprint",
+                      "uid":  "N-DT-1",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Auxiliary Variable",
+                                                          "domainAgnosticDescription":  "Calculates the volatility of the project plan based on the ratio of Facts to Guesses."
+                                                      }
+                                                  ]
+                  },
+                  {
+                      "parentTool":  "tool6",
+                      "id":  "create-mvp",
+                      "tags":  [
+                                   "business",
+                                   "engineering",
+                                   "prototyping"
+                               ],
+                      "inputs":  [
+                                     "A prioritized risky assumption"
+                                 ],
+                      "description":  "Build the smallest possible artifact required to start the learning loop, prioritizing learning over performance or polish (Derived from Steve Blank).",
+                      "outputs":  [
+                                      "A testable artifact",
+                                      "Validated learning"
+                                  ],
+                      "name":  "Create Minimum Viable Product",
+                      "theme":  "workshop",
+                      "uid":  "N-DT-2",
+                      "systemsThinkingAnalysis":  [
+                                                      {
+                                                          "componentName":  "Feedback Loop",
+                                                          "domainAgnosticDescription":  "Shortens the delay in the Build-Measure-Learn reinforcing loop."
+                                                      }
+                                                  ]
                   }
               ],
     "pathways":  {

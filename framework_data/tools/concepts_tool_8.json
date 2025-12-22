@@ -93,6 +93,13 @@
                                                 "theory":  "Definition: Assessment is the evaluation of benefit and alignment. Procedural Link: The action is to engage in the council’s formal evaluation of the project’s benefit and alignment with communal values.",
                                                 "specific_deliverable":  "A Final Grade.",
                                                 "rubric":  "Engage in evaluation of benefit."
+                                            },
+                                            {
+                                                "domain":  "Linguistics",
+                                                "rubric":  "Assesses pragmatic/sociolinguistic skill.",
+                                                "specific_deliverable":  "A CEFR Assessment Grid.",
+                                                "expert":  "CEFR",
+                                                "theory":  "Communicative Competence. Procedural Link: Assess Sociolinguistic (appropriateness) and Pragmatic (functional) competence."
                                             }
                                         ]
                      },
@@ -1107,6 +1114,38 @@
                                                 "rubric":  "Switches dialect to build connection."
                                             }
                                         ]
+                     },
+                     {
+                         "id":  "T8.26",
+                         "name":  "Information Radiators",
+                         "integrated_deliverable":  "A Big Visible Chart.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Alistair Cockburn",
+                                                "domain":  "Agile",
+                                                "theory":  "Osmotic Communication. Procedural Link: Create a physical or digital dashboard that broadcasts status instantly.",
+                                                "specific_deliverable":  "A Team Dashboard.",
+                                                "rubric":  "Creates passive status display."
+                                            }
+                                        ],
+                         "scenario":  "Keeping stakeholders informed without meetings.",
+                         "theory_application":  "Use large graphical displays located in high-traffic areas to passively communicate project status."
+                     },
+                     {
+                         "id":  "T8.27",
+                         "name":  "Stakeholder Matrix",
+                         "integrated_deliverable":  "A Stakeholder Engagement Plan.",
+                         "variations":  [
+                                            {
+                                                "expert":  "PMP",
+                                                "domain":  "Project Management",
+                                                "theory":  "Power/Interest Grid. Procedural Link: Classify stakeholders (Manage Closely, Keep Informed, etc.) and tailor communication.",
+                                                "specific_deliverable":  "A Power/Interest Grid.",
+                                                "rubric":  "Maps stakeholders by power/interest."
+                                            }
+                                        ],
+                         "scenario":  "Managing a complex political environment.",
+                         "theory_application":  "Map stakeholders by Power vs. Interest to determine the appropriate engagement strategy."
                      }
                  ]
 }

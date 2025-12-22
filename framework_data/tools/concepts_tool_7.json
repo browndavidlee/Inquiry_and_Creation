@@ -753,6 +753,13 @@
                                                 "theory":  "Definition: Purging is the deliberate removal of bureaucracy. Procedural Link: The action is to engage in the deliberate removal of an unnecessary rule or bureaucracy that impedes ethical action.",
                                                 "specific_deliverable":  "A New Naming Convention.",
                                                 "rubric":  "Engage in removal."
+                                            },
+                                            {
+                                                "domain":  "Disciplined Agile",
+                                                "rubric":  "Follows data-driven improvement loop.",
+                                                "specific_deliverable":  "A GCI Experiment Log.",
+                                                "expert":  "DASSM",
+                                                "theory":  "Guided Continuous Improvement (GCI). Procedural Link: Use data to identify the problem, select a solution, and verify the result in a loop."
                                             }
                                         ]
                      },
@@ -1063,6 +1070,70 @@
                                                 "rubric":  "Traces tragedy to policy."
                                             }
                                         ]
+                     },
+                     {
+                         "id":  "T7.25",
+                         "name":  "The 7 Wastes (Muda)",
+                         "integrated_deliverable":  "A Waste Audit.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Taiichi Ohno",
+                                                "domain":  "Lean",
+                                                "theory":  "Muda (Waste) hides in processes. Procedural Link: Walk the process and tag instances of the 7 wastes.",
+                                                "specific_deliverable":  "A Waste Identification Map.",
+                                                "rubric":  "Identifies specific Muda types."
+                                            }
+                                        ],
+                         "scenario":  "Optimizing a factory floor.",
+                         "theory_application":  "Identify and eliminate the 7 specific types of waste: Transport, Inventory, Motion, Waiting, Overproduction, Overprocessing, Defects."
+                     },
+                     {
+                         "id":  "T7.26",
+                         "name":  "Sensitivity Analysis",
+                         "integrated_deliverable":  "A Risk Impact Chart.",
+                         "variations":  [
+                                            {
+                                                "expert":  "PMP",
+                                                "domain":  "Risk Management",
+                                                "theory":  "Tornado Diagram. Procedural Link: Vary inputs to see which risk has the highest potential impact on the outcome.",
+                                                "specific_deliverable":  "A Tornado Diagram.",
+                                                "rubric":  "Identifies most sensitive variables."
+                                            }
+                                        ],
+                         "scenario":  "Testing a financial model\u0027s robustness.",
+                         "theory_application":  "Determine how different values of an independent variable affect a particular dependent variable under a given set of assumptions."
+                     },
+                     {
+                         "id":  "T7.27",
+                         "name":  "Correction Techniques",
+                         "integrated_deliverable":  "Feedback Optimization Plan",
+                         "variations":  [
+                                            {
+                                                "expert":  "CELTA",
+                                                "domain":  "Pedagogy",
+                                                "theory":  "Definition: Error Correction. Link: Match correction timing to the goal (Fluency vs Accuracy).",
+                                                "specific_deliverable":  "Correction Protocol",
+                                                "rubric":  "Timing of feedback justified"
+                                            }
+                                        ],
+                         "scenario":  "Deciding when and how to correct errors during a live performance or pilot.",
+                         "theory_application":  "Select between \u0027Immediate\u0027, \u0027Delayed\u0027, or \u0027Peer\u0027 correction to maintain flow while ensuring accuracy."
+                     },
+                     {
+                         "id":  "T7.DT.1",
+                         "name":  "Validated Learning",
+                         "integrated_deliverable":  "A Learning Report.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Eric Ries",
+                                                "domain":  "Lean Startup",
+                                                "theory":  "The unit of progress is learning.",
+                                                "specific_deliverable":  "Validation Board",
+                                                "rubric":  "Measures truth, not output."
+                                            }
+                                        ],
+                         "scenario":  "A feature is finished but nobody clicks it.",
+                         "theory_application":  "Demonstrate progress not by code written, but by truth uncovered."
                      }
                  ]
 }

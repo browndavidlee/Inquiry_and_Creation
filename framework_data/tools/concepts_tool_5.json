@@ -1195,6 +1195,54 @@
                                                 "rubric":  "Defines autonomous domains."
                                             }
                                         ]
+                     },
+                     {
+                         "id":  "T5.28",
+                         "name":  "Lesson Frameworks",
+                         "integrated_deliverable":  "A Lesson Plan Structure.",
+                         "variations":  [
+                                            {
+                                                "expert":  "CELTA",
+                                                "domain":  "Pedagogy",
+                                                "theory":  "PPP (Presentation, Practice, Production). Procedural Link: Structure the lesson to move from teacher input to student output.",
+                                                "specific_deliverable":  "A Staged Lesson Plan.",
+                                                "rubric":  "Follows PPP/TTT structure."
+                                            }
+                                        ],
+                         "scenario":  "Planning a 1-hour workshop.",
+                         "theory_application":  "Use a proven structural template to organize the flow of learning."
+                     },
+                     {
+                         "id":  "T5.29",
+                         "name":  "Process Blades",
+                         "integrated_deliverable":  "A Governance Model.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Scott Ambler",
+                                                "domain":  "Disciplined Agile",
+                                                "theory":  "Enterprise agility requires modular governance. Procedural Link: Define the specific \u0027blade\u0027 (e.g., Finance, IT) and its interface with the agile teams.",
+                                                "specific_deliverable":  "A Process Blade Diagram.",
+                                                "rubric":  "Defines modular governance."
+                                            }
+                                        ],
+                         "scenario":  "Scaling agile across a corporation.",
+                         "theory_application":  "Define modular governance structures for different organizational capabilities."
+                     },
+                     {
+                         "id":  "T5.30",
+                         "name":  "WBS Dictionary",
+                         "integrated_deliverable":  "Detailed Scope Definition",
+                         "variations":  [
+                                            {
+                                                "expert":  "PMP",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Scope Baseline. Link: Detail the boundaries of every task.",
+                                                "specific_deliverable":  "WBS Dictionary Entry",
+                                                "rubric":  "Exclusions explicitly listed"
+                                            }
+                                        ],
+                         "scenario":  "Providing absolute clarity on what is (and isn\u0027t) included in a specific work package.",
+                         "theory_application":  "Create a formal document describing every component in the Work Breakdown Structure to prevent scope creep."
                      }
                  ]
 }

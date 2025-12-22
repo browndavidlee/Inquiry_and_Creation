@@ -445,6 +445,13 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solution successfully applies an ancient cultural practice (e.g., a sustainable harvesting method) to solve a modern environmental problem.",
                                                 "specific_deliverable":  "A Commons Management Plan for the space.",
                                                 "rubric":  "Apply ancient practice."
+                                            },
+                                            {
+                                                "domain":  "Complexity Science",
+                                                "rubric":  "Applies tool to unrelated function.",
+                                                "specific_deliverable":  "A Repurposing Proposal.",
+                                                "expert":  "Dave Snowden",
+                                                "theory":  "Exaptation (Cynefin). Procedural Link: Radically repurpose a tool or trait for a function it wasn\u0027t evolved for."
                                             }
                                         ]
                      },
@@ -1281,6 +1288,13 @@
                                                 "theory":  "Definition: Hybridity is the emergence of new cultural forms at the border. Procedural Link: The action is to identify the \u0027Third Space\u0027 created by the collision of two cultural practices.",
                                                 "specific_deliverable":  "A Hybrid Ritual.",
                                                 "rubric":  "Identifies the \u0027Third Space\u0027."
+                                            },
+                                            {
+                                                "domain":  "Creativity",
+                                                "rubric":  "Connects unrelated frames.",
+                                                "specific_deliverable":  "A Bisociation Matrix.",
+                                                "expert":  "Arthur Koestler",
+                                                "theory":  "Bisociation. Procedural Link: Force the intersection of two unrelated matrices of thought to generate novelty."
                                             }
                                         ]
                      },
@@ -1327,6 +1341,86 @@
                                                 "rubric":  "Constrains greed for collective good."
                                             }
                                         ]
+                     },
+                     {
+                         "id":  "T3.31",
+                         "name":  "Napkin Pitch",
+                         "integrated_deliverable":  "A Low-Fidelity Concept Card.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Dan Roam",
+                                                "domain":  "Design Thinking",
+                                                "theory":  "Visual thinking clarifies complexity. Procedural Link: Draw the \u0027Big Picture\u0027 of the solution using simple shapes and arrows.",
+                                                "specific_deliverable":  "A Visual Concept Sketch.",
+                                                "rubric":  "Explains core value visually."
+                                            }
+                                        ],
+                         "scenario":  "Explaining a startup idea in a bar.",
+                         "theory_application":  "Distill a complex concept into a simple visual and verbal explanation that fits on a napkin."
+                     },
+                     {
+                         "id":  "T3.DT.1",
+                         "name":  "Radiant Thinking",
+                         "integrated_deliverable":  "A Mind Map.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Tony Buzan - The Inventor",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: The brain works associatively, not linearly. Procedural Link: Use images and colors in a radial structure to trigger \u0027whole brain\u0027 thinking.",
+                                                "specific_deliverable":  "A Visual Mind Map.",
+                                                "rubric":  "Uses radial structure/images."
+                                            }
+                                        ],
+                         "scenario":  "Brainstorming uses for a new technology.",
+                         "theory_application":  "Mimic the brain\u0027s associative structure by generating ideas radially from a central node, rather than in linear lists."
+                     },
+                     {
+                         "id":  "T3.DT.2",
+                         "name":  "Integrative Thinking",
+                         "integrated_deliverable":  "A Hybrid Concept.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Tim Brown - The CEO",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Design thinking is the ability to exploit opposing ideas. Procedural Link: Identify the core tension and design a solution that resolves it (AND, not OR).",
+                                                "specific_deliverable":  "A Solution Matrix.",
+                                                "rubric":  "Resolves a binary tension."
+                                            }
+                                        ],
+                         "scenario":  "Resolving the tension between luxury and affordability.",
+                         "theory_application":  "Hold two opposing ideas in tension to create a new model that contains the superior aspects of both, rather than compromising."
+                     },
+                     {
+                         "id":  "T3.DT.3",
+                         "name":  "Associative Thinking",
+                         "integrated_deliverable":  "An Association Matrix.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Tony Buzan",
+                                                "domain":  "Neuroscience",
+                                                "theory":  "The brain works radially, not linearly.",
+                                                "specific_deliverable":  "Mind Map",
+                                                "rubric":  "Links unrelated concepts."
+                                            }
+                                        ],
+                         "scenario":  "Using a random word to solve a logistics problem.",
+                         "theory_application":  "Connect unconnected ideas using non-linear logic."
+                     },
+                     {
+                         "id":  "T3.DT.4",
+                         "name":  "Emotional Drivers",
+                         "integrated_deliverable":  "An Emotional Motivator Map.",
+                         "variations":  [
+                                            {
+                                                "expert":  "MeYouHealth Case",
+                                                "domain":  "Business",
+                                                "theory":  "Social connection drives health behavior.",
+                                                "specific_deliverable":  "Driver Analysis",
+                                                "rubric":  "Identifies emotion over function."
+                                            }
+                                        ],
+                         "scenario":  "Why do people actually buy health apps?",
+                         "theory_application":  "Identify the core feeling that motivates behavior."
                      }
                  ]
 }

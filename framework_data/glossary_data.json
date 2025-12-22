@@ -1,4 +1,4 @@
-{
+﻿{
     "terms":  [
                   {
                       "translations":  [
@@ -605,6 +605,102 @@
                       "home_domain":  "Humanities \u0026 Social Sciences",
                       "parent_tool":  "tool10",
                       "general_principle":  "A concept from sociology of science describing an artifact (like a map, a prototype, or this framework) that is robust enough to maintain a common identity across different communities of practice, yet plastic enough to be adapted to the specific needs of each."
+                  },
+                  {
+                      "translations":  [
+                                           {
+                                               "expression":  "Fieldwork",
+                                               "domain":  "Science \u0026 Engineering"
+                                           },
+                                           {
+                                               "expression":  "Site Specificity",
+                                               "domain":  "Arts \u0026 Design"
+                                           }
+                                       ],
+                      "term":  "Gemba",
+                      "home_domain":  "Business \u0026 Agile",
+                      "parent_tool":  "tool1",
+                      "general_principle":  "The \u0027real place\u0027 where the work happens. A principle of going to the source to observe reality directly rather than relying on reports."
+                  },
+                  {
+                      "translations":  [
+                                           {
+                                               "expression":  "Paradigm Shift",
+                                               "domain":  "Science \u0026 Engineering"
+                                           },
+                                           {
+                                               "expression":  "Pivot",
+                                               "domain":  "Business \u0026 Agile"
+                                           }
+                                       ],
+                      "term":  "Reframing",
+                      "home_domain":  "Arts \u0026 Design",
+                      "parent_tool":  "tool1",
+                      "general_principle":  "The ability to look at a situation or problem from a new context or perspective, often changing its meaning and opening up new solution spaces."
+                  },
+                  {
+                      "translations":  [
+                                           {
+                                               "expression":  "Execution",
+                                               "domain":  "Business \u0026 Agile"
+                                           },
+                                           {
+                                               "expression":  "Experimentation",
+                                               "domain":  "Science \u0026 Engineering"
+                                           }
+                                       ],
+                      "term":  "Concrete Experience",
+                      "home_domain":  "Pedagogy",
+                      "parent_tool":  "tool6",
+                      "general_principle":  "The first stage of Kolb\u0027s learning cycle; the immediate, tangible engagement with a task or situation, serving as the basis for observation and reflection."
+                  },
+                  {
+                      "translations":  [
+                                           {
+                                               "expression":  "Complex Adaptive System",
+                                               "domain":  "Science \u0026 Engineering"
+                                           },
+                                           {
+                                               "expression":  "Mess",
+                                               "domain":  "Business \u0026 Agile"
+                                           }
+                                       ],
+                      "term":  "Wicked Problem",
+                      "home_domain":  "Arts \u0026 Design",
+                      "parent_tool":  "tool1",
+                      "general_principle":  "A problem that is difficult or impossible to solve because of incomplete, contradictory, and changing requirements that are often difficult to recognize. Examples include poverty or climate change."
+                  },
+                  {
+                      "translations":  [
+                                           {
+                                               "expression":  "Narrative Transportation",
+                                               "domain":  "Humanities"
+                                           },
+                                           {
+                                               "expression":  "Resonance",
+                                               "domain":  "Arts \u0026 Design"
+                                           }
+                                       ],
+                      "term":  "Neural Coupling",
+                      "home_domain":  "Neuroscience",
+                      "parent_tool":  "tool5",
+                      "general_principle":  "The synchronization of brain activity between a speaker (storyteller) and listener, facilitating deep understanding and empathy."
+                  },
+                  {
+                      "translations":  [
+                                           {
+                                               "expression":  "Paradigm Shift",
+                                               "domain":  "Science \u0026 Engineering"
+                                           },
+                                           {
+                                               "expression":  "Revision",
+                                               "domain":  "Humanities"
+                                           }
+                                       ],
+                      "term":  "Pivot",
+                      "home_domain":  "Business \u0026 Agile",
+                      "parent_tool":  "tool7",
+                      "general_principle":  "A structured course correction designed to test a new fundamental hypothesis about the product, strategy, and engine of growth."
                   }
               ],
     "_metadata":  {
