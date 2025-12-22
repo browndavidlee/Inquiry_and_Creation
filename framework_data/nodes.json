@@ -11614,6 +11614,22 @@
                                                                 "conduct-retrospective",
                                                                 "make-investment-decision"
                                                             ]
-                                              }
+                                              },
+                     "expressPathway":  {
+                                            "color":  "#1abc9c",
+                                            "name":  "Express Pathway",
+                                            "nodes":  [
+                                                          "define-problem-statement",
+                                                          "rapid-assumption-mapping",
+                                                          "run-silent-brainstorming",
+                                                          "scope-reduction-council",
+                                                          "create-one-page-spec",
+                                                          "build-prototype",
+                                                          "run-peer-critique-workshop",
+                                                          "run-stakeholder-sprint-review",
+                                                          "conduct-flash-retro",
+                                                          "conduct-retrospective"
+                                                      ]
+                                        }
                  }
 }

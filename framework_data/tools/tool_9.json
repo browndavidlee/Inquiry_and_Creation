@@ -11,7 +11,7 @@
     "simpleName":  "Synthesize",
     "keyQuestion":  "What principles carry forward? What are our ongoing responsibilities?",
     "color":  "var(--color-tool-9)",
-    "keyDeliverables":  "A documented retrospective, a playbook of generalizable learnings, and a long-term stewardship plan.",
+    "keyDeliverables":  "A playbook of generalizable learnings, a long-term stewardship plan, AND the Guiding Question for the next cycle of inquiry.",
     "principle":  "To update the high-level generative model by abstracting the learnings from a specific prediction error (a project) into a more generalizable and precise model (a Principle) for future prediction.",
     "keyMediatingArtifact":  "Generalizable Principles",
     "jtbdAnalysis":  {
