@@ -1,0 +1,1063 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "toolId":  "tool9",
+    "toolName":  "Synthesize Learnings",
+    "concepts":  [
+                     {
+                         "id":  "T9.1",
+                         "name":  "Archiving",
+                         "integrated_deliverable":  "An Archive Manifest.",
+                         "scenario":  "Closing a research lab.",
+                         "theory_application":  "Preserve records, data, and artifacts for future reference and use.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Open Science Principles - The Archivist",
+                                                "theory":  "Definition: Open Science advocates for transparency and reproducibility. Procedural Link: The action is to publish all raw data, code, and detailed methodological protocols for public reuse.",
+                                                "specific_deliverable":  "A Data Repository.",
+                                                "rubric":  "Publish raw data/code."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Archiving is storing documentation. Procedural Link: The action is to store all project documentation, decision logs, and sunsetting obsolete code in a dedicated repository.",
+                                                "specific_deliverable":  "A Box Inventory.",
+                                                "rubric":  "Store documentation."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "The Belmont Report - The Librarian",
+                                                "theory":  "Definition: Archiving is formally depositing research materials. Procedural Link: The action is to formally deposit all raw research materials (e.g., transcripts, field notes) and metadata in a public or institutional archive for future scholars.",
+                                                "specific_deliverable":  "A Catalog Record.",
+                                                "rubric":  "Deposit research materials."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Scientist",
+                                                "theory":  "Definition: Archiving is documenting the process. Procedural Link: The action is to document the process, materials used, and artistic intent for future conservators and curators.",
+                                                "specific_deliverable":  "A Disposal Log.",
+                                                "rubric":  "Document process."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Institution",
+                                                "theory":  "Definition: Archiving is preserving traditional knowledge. Procedural Link: The action is to preserve traditional knowledge, stories, and historical records for future generations.",
+                                                "specific_deliverable":  "A Final Report.",
+                                                "rubric":  "Preserve knowledge."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.2",
+                         "name":  "Consolidation Period",
+                         "integrated_deliverable":  "A Sabbatical / Refactoring Plan.",
+                         "scenario":  "Taking a break after a sprint.",
+                         "theory_application":  "Take a break from active work to allow for rest, reflection, and integration of learning.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "McClelland et al. - The Manager",
+                                                "theory":  "Definition: Consolidation occurs during rest (offline learning). Procedural Link: The action is to schedule a deliberate period of rest after intense research to allow memory consolidation of complex new information (offline learning). (N97)",
+                                                "specific_deliverable":  "A Vacation Schedule.",
+                                                "rubric":  "Schedule rest."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Team",
+                                                "theory":  "Definition: The Consolidation Cycle is a designated time for refactoring and paying down tech debt. Procedural Link: The action is to designate a time when all new feature development is halted, and the team focuses on refactoring, paying down tech debt, and systemic improvement. (N97)",
+                                                "specific_deliverable":  "A Tech Debt Backlog.",
+                                                "rubric":  "Designate time."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Graham Wallas - The Developer",
+                                                "theory":  "Definition: Incubation is a stage of creativity. Procedural Link: The action is to schedule a pause after intensive drafting or archival research to allow ideas to incubate subconsciously.",
+                                                "specific_deliverable":  "A Refactoring Plan.",
+                                                "rubric":  "Schedule pause."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Mihaly Csikszentmihalyi - The PO",
+                                                "theory":  "Definition: The Consolidation Period is a studio reset. Procedural Link: The action is to engage in the traditional \u0027studio reset\u0027 or creative sabbatical following the completion of a major piece.",
+                                                "specific_deliverable":  "A Team Outing.",
+                                                "rubric":  "Engage in reset."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Company",
+                                                "theory":  "Definition: The Consolidation Period is a time for communal reflection. Procedural Link: The action is to schedule a formal time for rest and communal reflection to allow difficult lessons to be processed and integrated by the whole system.",
+                                                "specific_deliverable":  "A Return to Work Plan.",
+                                                "rubric":  "Schedule reflection."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.3",
+                         "name":  "Contribution",
+                         "integrated_deliverable":  "A Contribution Statement.",
+                         "scenario":  "Writing a donor impact report.",
+                         "theory_application":  "Articulate the specific value or benefit provided by the work.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Director",
+                                                "theory":  "Definition: Contribution is the measurable advancement of knowledge. Procedural Link: The action is to ensure the measurable advancement of scientific knowledge through a new, validated finding or model.",
+                                                "specific_deliverable":  "A Success Story.",
+                                                "rubric":  "Ensure advancement."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Manager",
+                                                "theory":  "Definition: Contribution is the ultimate value delivered. Procedural Link: The action is to ensure the ultimate value delivered to the organization and the customer that moves the strategic needle.",
+                                                "specific_deliverable":  "A Metric Dashboard.",
+                                                "rubric":  "Ensure value."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Beneficiary",
+                                                "theory":  "Definition: Contribution is the original scholarly insight. Procedural Link: The action is to ensure the new theoretical insight, methodology, or original interpretation that advances the scholarly discourse. (N90)",
+                                                "specific_deliverable":  "A Testimonial.",
+                                                "rubric":  "Ensure insight."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Donor",
+                                                "theory":  "Definition: Contribution is the work\u0027s value to the cultural conversation. Procedural Link: The action is to ensure the work\u0027s value to the cultural conversation, its aesthetic impact, and its influence on other artists.",
+                                                "specific_deliverable":  "A Financial Summary.",
+                                                "rubric":  "Ensure value."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The Public",
+                                                "theory":  "Definition: Contribution is the positive, measurable impact. Procedural Link: The action is to ensure the positive, measurable impact on communal well-being and the strengthening of social systems.",
+                                                "specific_deliverable":  "A Thank You Letter.",
+                                                "rubric":  "Ensure impact."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.4",
+                         "name":  "Decommissioning",
+                         "integrated_deliverable":  "A Sunset Plan.",
+                         "scenario":  "Shutting down a legacy server.",
+                         "theory_application":  "Safely and responsibly retire a system, product, or process at the end of its life.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "The Belmont Report - The Admin",
+                                                "theory":  "Definition: Decommissioning is the planned, responsible retirement of apparatus. Procedural Link: The action is to plan the responsible retirement of an experimental apparatus or a large, complex data set that is no longer needed.",
+                                                "specific_deliverable":  "A Migration Plan.",
+                                                "rubric":  "Plan retirement."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Decommissioning is the responsible sunsetting of a feature. Procedural Link: The action is to plan the final, responsible sunsetting of an obsolete feature or technical service, ensuring a graceful transition for users.",
+                                                "specific_deliverable":  "A Communication Plan.",
+                                                "rubric":  "Plan sunsetting."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "The Belmont Report - The User",
+                                                "theory":  "Definition: Decommissioning is the archival and data-disposal process. Procedural Link: The action is to plan the archival and data-disposal process at the end of the research project, often governed by ethical review boards.",
+                                                "specific_deliverable":  "A Data Backup.",
+                                                "rubric":  "Plan disposal."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Tech",
+                                                "theory":  "Definition: Decommissioning is the planned disposal or transformation. Procedural Link: The action is to plan the planned disposal or transformation of a temporary installation or decaying material.",
+                                                "specific_deliverable":  "A Shutdown Checklist.",
+                                                "rubric":  "Plan disposal."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Company",
+                                                "theory":  "Definition: Decommissioning is the planned phasing out of a process. Procedural Link: The action is to plan the planned phasing out of a social process or resource no longer serving the community.",
+                                                "specific_deliverable":  "A Final Status Report.",
+                                                "rubric":  "Plan phasing out."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.5",
+                         "name":  "Exemplification",
+                         "integrated_deliverable":  "A Case Study Model.",
+                         "scenario":  "Writing a textbook chapter.",
+                         "theory_application":  "Use a specific example to illustrate a general principle or concept.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Author",
+                                                "theory":  "Definition: Exemplification is selecting the most effective protocol. Procedural Link: The action is to select and document the most effective protocol or dataset from the project to serve as a high-quality model for future research.",
+                                                "specific_deliverable":  "A Concept Explanation.",
+                                                "rubric":  "Select protocol."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Editor",
+                                                "theory":  "Definition: Exemplification is documenting the process into a playbook. Procedural Link: The action is to document the process of a successful project into a Playbook (N45) that can be easily replicated by other teams.",
+                                                "specific_deliverable":  "A Real-World Example.",
+                                                "rubric":  "Document process."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Student",
+                                                "theory":  "Definition: Exemplification is choosing a single case study. Procedural Link: The action is to choose a single case study or text from the research to serve as a clear, instructional example of the new theoretical framework.",
+                                                "specific_deliverable":  "A Practice Problem.",
+                                                "rubric":  "Choose case study."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Teacher",
+                                                "theory":  "Definition: Exemplification is selecting the signature piece. Procedural Link: The action is to select the most successful artwork from a series to serve as the signature piece or style model for future work.",
+                                                "specific_deliverable":  "A Diagram.",
+                                                "rubric":  "Select signature piece."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Publisher",
+                                                "theory":  "Definition: Exemplification is crafting a teaching story. Procedural Link: The action is to engage in Crafting a Teaching Story (N91) that uses a specific project to demonstrate a universal principle of integrated knowledge or conduct.",
+                                                "specific_deliverable":  "A Chapter Summary.",
+                                                "rubric":  "Engage in crafting story."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.6",
+                         "name":  "Generalization",
+                         "integrated_deliverable":  "A Theory / Law.",
+                         "scenario":  "Formulating a new scientific law.",
+                         "theory_application":  "Derive a general principle or rule from specific observations or instances.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Scientist",
+                                                "theory":  "Definition: Generalization is abstracting a specific finding into a universal model. Procedural Link: The action is to abstract a specific empirical finding into a broader, universal theoretical model or law (N43).",
+                                                "specific_deliverable":  "A Mathematical Formula.",
+                                                "rubric":  "Abstract finding."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Peer",
+                                                "theory":  "Definition: Generalization is abstracting success into a repeatable playbook. Procedural Link: The action is to abstract the steps of a specific project success into a repeatable, domain-agnostic playbook (N45).",
+                                                "specific_deliverable":  "A Proof.",
+                                                "rubric":  "Abstract steps."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Editor",
+                                                "theory":  "Definition: Generalization is abstracting a specific reading into a reusable lens. Procedural Link: The action is to abstract a specific reading of a text into a broad, reusable theoretical lens.",
+                                                "specific_deliverable":  "A Publication Draft.",
+                                                "rubric":  "Abstract reading."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Community",
+                                                "theory":  "Definition: Generalization is abstracting formal elements into a principle. Procedural Link: The action is to abstract the formal elements of a single artwork into a new, defining aesthetic principle for a series.",
+                                                "specific_deliverable":  "A Conference Presentation.",
+                                                "rubric":  "Abstract elements."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The History",
+                                                "theory":  "Definition: Generalization is abstracting a lesson into a universal principle. Procedural Link: The action is to abstract the specific lesson of a communal event into a universal principle of conduct or integrated knowledge.",
+                                                "specific_deliverable":  "A Textbook Entry.",
+                                                "rubric":  "Abstract lesson."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.7",
+                         "name":  "Generosity",
+                         "integrated_deliverable":  "An Open Source Release.",
+                         "scenario":  "Releasing code to GitHub.",
+                         "theory_application":  "Freely share knowledge, resources, or time with others without expectation of direct return.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Developer",
+                                                "theory":  "Definition: Generosity is the ethical commitment to open science. Procedural Link: The action is to fulfill the ethical commitment to open science: freely sharing methods, data, and conclusions with the broader scientific community.",
+                                                "specific_deliverable":  "A Code Repository.",
+                                                "rubric":  "Fulfill commitment."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Generosity is contributing knowledge back to the community. Procedural Link: The action is to fulfill the commitment to sharing successful strategies (playbooks) and contributing knowledge back to the professional community.",
+                                                "specific_deliverable":  "A License File.",
+                                                "rubric":  "Fulfill commitment."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The User",
+                                                "theory":  "Definition: Generosity is making research accessible. Procedural Link: The action is to fulfill the commitment to mentoring younger scholars and making research accessible to the public.",
+                                                "specific_deliverable":  "A Readme File.",
+                                                "rubric":  "Fulfill commitment."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Community",
+                                                "theory":  "Definition: Generosity is sharing artistic influence. Procedural Link: The action is to fulfill the commitment to sharing techniques, resources, and artistic influence with the creative community.",
+                                                "specific_deliverable":  "A Contribution Guide.",
+                                                "rubric":  "Fulfill commitment."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Public",
+                                                "theory":  "Definition: Generosity is the pro-social value of giving back. Procedural Link: The action is to fulfill the pro-social value of giving back resources and knowledge to the community.",
+                                                "specific_deliverable":  "A Release Announcement.",
+                                                "rubric":  "Fulfill value."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.8",
+                         "name":  "Integration",
+                         "integrated_deliverable":  "A Synthesis Paper.",
+                         "scenario":  "Merging two departments.",
+                         "theory_application":  "Combine separate elements into a unified whole.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Manager",
+                                                "theory":  "Definition: Integration is updating one\u0027s general worldview. Procedural Link: The action is to update one\u0027s general scientific worldview to account for the new findings, refining the entire conceptual schema.",
+                                                "specific_deliverable":  "An Org Chart.",
+                                                "rubric":  "Update worldview."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Employee",
+                                                "theory":  "Definition: Integration is the absorption of project learnings. Procedural Link: The action is to ensure the absorption of project learnings into the organizational memory, leading to updated processes and strategic goals.",
+                                                "specific_deliverable":  "A Process Manual.",
+                                                "rubric":  "Ensure absorption."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The HR",
+                                                "theory":  "Definition: Integration is weaving the new contribution into the debate. Procedural Link: The action is to ensure the weaving of the new theoretical contribution into the fabric of the existing scholarly debate.",
+                                                "specific_deliverable":  "A Culture Guide.",
+                                                "rubric":  "Ensure weaving."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Executive",
+                                                "theory":  "Definition: Integration is the absorption of a new principle into practice. Procedural Link: The action is to ensure the successful absorption of a new technique or aesthetic principle into the artist\u0027s existing body of practice.",
+                                                "specific_deliverable":  "A Transition Plan.",
+                                                "rubric":  "Ensure absorption."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Company",
+                                                "theory":  "Definition: Integration is the harmonious synthesis of experience. Procedural Link: The action is to ensure the harmonious synthesis of new experience into the continuous stream of communal integrated knowledge and tradition.",
+                                                "specific_deliverable":  "A Town Hall Meeting.",
+                                                "rubric":  "Ensure synthesis."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.9",
+                         "name":  "Knowledge Transfer",
+                         "integrated_deliverable":  "A Training Program.",
+                         "scenario":  "Teaching a new skill.",
+                         "theory_application":  "Pass knowledge or skills from one person or group to another.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Lev Vygotsky - The Trainer",
+                                                "theory":  "Definition: Knowledge transfer is re-application to a novel problem. Procedural Link: The action is to ensure the successful re-application of the knowledge gained from this project to solve a novel, structurally similar problem.",
+                                                "specific_deliverable":  "A Lesson Plan.",
+                                                "rubric":  "Ensure re-application."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Student",
+                                                "theory":  "Definition: Knowledge transfer is the ability of new teams to use playbooks. Procedural Link: The action is to ensure the ability of new teams to use the documented playbooks (N45) to successfully execute similar projects.",
+                                                "specific_deliverable":  "A Practice Test.",
+                                                "rubric":  "Ensure ability."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Manager",
+                                                "theory":  "Definition: Knowledge transfer is the effective use of new theory. Procedural Link: The action is to ensure the effective use of the new theory by other scholars to generate fresh insights in their own research.",
+                                                "specific_deliverable":  "A Skill Assessment.",
+                                                "rubric":  "Ensure effective use."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Mentor",
+                                                "theory":  "Definition: Knowledge transfer is applying lessons across mediums. Procedural Link: The action is to ensure the artist\u0027s ability to apply the lessons of one medium to a problem in another (cross-pollination).",
+                                                "specific_deliverable":  "A Feedback Session.",
+                                                "rubric":  "Ensure ability."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The Organization",
+                                                "theory":  "Definition: Knowledge transfer is the successful transmission of a teaching story. Procedural Link: The action is to ensure the successful transmission of a Teaching Story (N91) to a new generation, enabling them to apply the integrated knowledge.",
+                                                "specific_deliverable":  "A Certificate.",
+                                                "rubric":  "Ensure transmission."
+                                            },
+                                            {
+                                                "domain":  "Project Management",
+                                                "rubric":  "Ensures operational readiness.",
+                                                "specific_deliverable":  "A Handover Protocol.",
+                                                "expert":  "PMP",
+                                                "theory":  "Knowledge Transfer. Procedural Link: Formal mechanisms (handover docs, training) to transfer project assets to operations."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.10",
+                         "name":  "Learning",
+                         "integrated_deliverable":  "A Lessons Learned Report.",
+                         "scenario":  "Analyzing a failed project.",
+                         "theory_application":  "Acquire new knowledge or skills through experience, study, or being taught.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Manager",
+                                                "theory":  "Definition: Learning is updating mental models. Procedural Link: The action is to engage in the biological and cognitive process of updating one’s mental models (schemas) based on new evidence and experience.",
+                                                "specific_deliverable":  "A Post-Mortem.",
+                                                "rubric":  "Engage in updating."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Team",
+                                                "theory":  "Definition: Learning is the systematic update of process. Procedural Link: The action is to engage in the systematic update of organizational process and collective skill based on documented successes and failures.",
+                                                "specific_deliverable":  "A Root Cause Analysis.",
+                                                "rubric":  "Engage in update."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Stakeholder",
+                                                "theory":  "Definition: Learning is the refinement of the theoretical framework. Procedural Link: The action is to engage in the refinement of the scholar\u0027s theoretical framework and methodology.",
+                                                "specific_deliverable":  "A Recommendation List.",
+                                                "rubric":  "Engage in refinement."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Executive",
+                                                "theory":  "Definition: Learning is the acquisition of new skill. Procedural Link: The action is to engage in the acquisition of new technical skill or artistic insight through practice and creation.",
+                                                "specific_deliverable":  "A Process Change.",
+                                                "rubric":  "Engage in acquisition."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Company",
+                                                "theory":  "Definition: Learning is the metacognitive process of turning experience into integrated knowledge. Procedural Link: The action is to engage in the metacognitive process of turning experience into durable integrated knowledge and self-awareness.",
+                                                "specific_deliverable":  "A Final Report.",
+                                                "rubric":  "Engage in process."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.11",
+                         "name":  "Maturation",
+                         "integrated_deliverable":  "A Project Closure Report.",
+                         "scenario":  "Retiring a product.",
+                         "theory_application":  "Reach a state of full development or completion.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Manager",
+                                                "theory":  "Definition: Maturation is the final conclusion. Procedural Link: The action is to recognize the maturation as the project has concluded, all data is collected and analyzed, and the scientific conclusion is finalized.",
+                                                "specific_deliverable":  "A Sunset Plan.",
+                                                "rubric":  "Recognize conclusion."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Team",
+                                                "theory":  "Definition: Maturation is the formal closure of the project. Procedural Link: The action is to recognize the maturation as the product has either been successfully scaled (performance) or retired (learning), and the project is formally closed.",
+                                                "specific_deliverable":  "A Customer Notice.",
+                                                "rubric":  "Recognize closure."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The User",
+                                                "theory":  "Definition: Maturation is the thesis being ready for publication. Procedural Link: The action is to recognize the maturation as the thesis or book is finished, successfully defended, and ready for publication or archival.",
+                                                "specific_deliverable":  "A Data Migration.",
+                                                "rubric":  "Recognize readiness."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Support",
+                                                "theory":  "Definition: Maturation is the artwork being finished. Procedural Link: The action is to recognize the maturation as the artwork is declared \u0027finished\u0027 by the artist and is ready for exhibition or sale.",
+                                                "specific_deliverable":  "A Final Backup.",
+                                                "rubric":  "Recognize finish."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Jürgen Habermas - The Company",
+                                                "theory":  "Definition: Maturation is the communal process reaching closure. Procedural Link: The action is to recognize the maturation as the communal process has reached a point of closure, and the primary objective is met.",
+                                                "specific_deliverable":  "A Celebration.",
+                                                "rubric":  "Recognize closure."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.12",
+                         "name":  "New Questions",
+                         "integrated_deliverable":  "A Future Research Agenda.",
+                         "scenario":  "Planning the next phase.",
+                         "theory_application":  "Identify new lines of inquiry or problems to solve based on the results of previous work.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Planner",
+                                                "theory":  "Definition: New questions are the highest-impact research questions. Procedural Link: The action is to formulate the most compelling and highest-impact research questions that the completed project now makes possible.",
+                                                "specific_deliverable":  "A Roadmap.",
+                                                "rubric":  "Formulate questions."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Manager",
+                                                "theory":  "Definition: New questions are strategic product questions. Procedural Link: The action is to formulate the strategic product questions that the validated learning enables the business to ask next.",
+                                                "specific_deliverable":  "A Budget Request.",
+                                                "rubric":  "Formulate questions."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Team",
+                                                "theory":  "Definition: New questions are scholarly questions that extend the contribution. Procedural Link: The action is to formulate the scholarly questions that extend the new theoretical contribution or challenge its limitations.",
+                                                "specific_deliverable":  "A Resource Plan.",
+                                                "rubric":  "Formulate questions."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Executive",
+                                                "theory":  "Definition: New questions are core aesthetic questions. Procedural Link: The action is to formulate the core aesthetic questions that the next series of work (N46) will explore.",
+                                                "specific_deliverable":  "A Kickoff Meeting.",
+                                                "rubric":  "Formulate questions."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The Company",
+                                                "theory":  "Definition: New questions are critical questions about justice. Procedural Link: The action is to formulate the critical questions about justice and sustainability that the community must address next.",
+                                                "specific_deliverable":  "A Vision Statement.",
+                                                "rubric":  "Formulate questions."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.13",
+                         "name":  "Playbook",
+                         "integrated_deliverable":  "A Best Practices Guide.",
+                         "scenario":  "Scaling a process.",
+                         "theory_application":  "Create a guide or manual that documents best practices and procedures for a specific activity.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Author",
+                                                "theory":  "Definition: The playbook is a detailed guide on methodology. Procedural Link: The action is to create a detailed, step-by-step guide on the methodology, tools, and processes used to execute the project successfully. (N45)",
+                                                "specific_deliverable":  "A Handbook.",
+                                                "rubric":  "Create guide."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Editor",
+                                                "theory":  "Definition: The playbook is the repository of best-practice processes. Procedural Link: The action is to create the key repository of codified, best-practice processes and strategies for future project execution. (N45)",
+                                                "specific_deliverable":  "A Wiki.",
+                                                "rubric":  "Create repository."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The User",
+                                                "theory":  "Definition: The playbook is a guide detailing a new theoretical lens. Procedural Link: The action is to create a guide or methodology primer detailing the use of a new theoretical lens or research method.",
+                                                "specific_deliverable":  "A Template.",
+                                                "rubric":  "Create guide."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Manager",
+                                                "theory":  "Definition: The playbook is a documented set of design principles. Procedural Link: The action is to create a documented set of design principles and technical specifications for a new design system or aesthetic style.",
+                                                "specific_deliverable":  "A Checklist.",
+                                                "rubric":  "Create set."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Team",
+                                                "theory":  "Definition: The playbook is the codified rules of engagement. Procedural Link: The action is to create the codified rules and rituals of engagement for a specific social process.",
+                                                "specific_deliverable":  "A Training.",
+                                                "rubric":  "Create rules."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.14",
+                         "name":  "Sharing",
+                         "integrated_deliverable":  "A Dissemination Strategy.",
+                         "scenario":  "Presenting at a conference.",
+                         "theory_application":  "Distribute information, resources, or knowledge to others.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Speaker",
+                                                "theory":  "Definition: Sharing is disseminating findings. Procedural Link: The action is to engage in disseminating the final findings through publication, public talks, and open data archives.",
+                                                "specific_deliverable":  "A Slide Deck.",
+                                                "rubric":  "Engage in disseminating."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Organizer",
+                                                "theory":  "Definition: Sharing is presenting outcomes to the organization. Procedural Link: The action is to engage in presenting the final outcomes and lessons learned to the entire organization (e.g., all-hands meeting).",
+                                                "specific_deliverable":  "A Speech.",
+                                                "rubric":  "Engage in presenting."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Audience",
+                                                "theory":  "Definition: Sharing is communicating the contribution. Procedural Link: The action is to engage in publishing the work and sharing the methodology with other scholars.",
+                                                "specific_deliverable":  "A Paper.",
+                                                "rubric":  "Engage in publishing."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Lawrence Lessig - The Media",
+                                                "theory":  "Definition: Sharing is exhibiting the work. Procedural Link: The action is to engage in exhibiting the work and sharing the creative process with the audience or community.",
+                                                "specific_deliverable":  "A Video.",
+                                                "rubric":  "Engage in exhibiting."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The Public",
+                                                "theory":  "Definition: Sharing is passing down integrated knowledge. Procedural Link: The action is to engage in the act of passing down cultural integrated knowledge and principles to the next generation.",
+                                                "specific_deliverable":  "A Blog Post.",
+                                                "rubric":  "Engage in passing down."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.15",
+                         "name":  "Stewardship",
+                         "integrated_deliverable":  "A Long-Term Care Mandate.",
+                         "scenario":  "Managing a national park.",
+                         "theory_application":  "Take responsibility for the long-term care and preservation of a resource or system.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "The Belmont Report - The Ranger",
+                                                "theory":  "Definition: Stewardship is the long-term commitment to maintenance. Procedural Link: The action is to commit to the long-term maintenance, and future accessibility of research data and technical infrastructure. (N47)",
+                                                "specific_deliverable":  "A Maintenance Schedule.",
+                                                "rubric":  "Commit to long-term maintenance."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Stewardship is managing technical debt. Procedural Link: The action is to commit to maintaining the product, mitigating its unintended social impact, and responsibly managing technical debt.",
+                                                "specific_deliverable":  "A Budget Plan.",
+                                                "rubric":  "Manage technical debt."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Linda Tuhiwai Smith - The Historian",
+                                                "theory":  "Definition: Stewardship is preserving archival sources. Procedural Link: The action is to commit to preserving archival sources and ensuring the ethical handling of all research materials.",
+                                                "specific_deliverable":  "A Conservation Plan.",
+                                                "rubric":  "Preserve archival sources."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Curator",
+                                                "theory":  "Definition: Stewardship is the long-term commitment to conservation. Procedural Link: The action is to commit to the conservation and cultural care of the artwork.",
+                                                "specific_deliverable":  "A Restoration Log.",
+                                                "rubric":  "Commit to conservation."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Steward",
+                                                "theory":  "Definition: Stewardship is the fundamental commitment to long-term care. Procedural Link: The action is to commit to the fundamental commitment to long-term care of the community and the environment for future generations (Kaitiakitanga, N47).",
+                                                "specific_deliverable":  "A 7th Generation Plan.",
+                                                "rubric":  "Commit to long-term care."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.16",
+                         "name":  "Sustainability",
+                         "integrated_deliverable":  "A Resilience Plan.",
+                         "scenario":  "Designing a zero-waste factory.",
+                         "theory_application":  "Ensure that a system or process can be maintained over the long term without depleting resources or causing harm.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Engineer",
+                                                "theory":  "Definition: Sustainability is ensuring practices are viable. Procedural Link: The action is to ensure the research practices are ethically and financially sustainable and the long-term data is usable.",
+                                                "specific_deliverable":  "An Energy Audit.",
+                                                "rubric":  "Ensure practices are viable."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Manager",
+                                                "theory":  "Definition: Sustainability is ensuring the business model is viable. Procedural Link: The action is to ensure the business model, product design, and team capacity are viable over the long term.",
+                                                "specific_deliverable":  "A Cost Analysis.",
+                                                "rubric":  "Ensure business model viability."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Planner",
+                                                "theory":  "Definition: Sustainability is ensuring research can endure. Procedural Link: The action is to ensure the research can endure and continue to contribute to the scholarly conversation over decades.",
+                                                "specific_deliverable":  "A Long-Term Study.",
+                                                "rubric":  "Ensure research endures."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Designer",
+                                                "theory":  "Definition: Sustainability is ensuring the materials support longevity. Procedural Link: The action is to ensure the materials and conservation plan support the longevity of the artwork.",
+                                                "specific_deliverable":  "A Material Spec.",
+                                                "rubric":  "Ensure material longevity."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Executive",
+                                                "theory":  "Definition: Sustainability is maximizing ecological and social resilience. Procedural Link: The action is to ensure the core aim of the project: maximizing ecological and social resilience over the long term.",
+                                                "specific_deliverable":  "A Resilience Strategy.",
+                                                "rubric":  "Maximize resilience."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.17",
+                         "name":  "Synthesis",
+                         "integrated_deliverable":  "A Comprehensive Synthesis Report.",
+                         "scenario":  "Writing a final project report.",
+                         "theory_application":  "Combine separate elements or ideas into a coherent whole.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Author",
+                                                "theory":  "Definition: Synthesis is abstracting a general law. Procedural Link: The action is to engage in the cognitive process of abstracting a general law or principle from a collection of specific empirical facts.",
+                                                "specific_deliverable":  "A Conclusion Chapter.",
+                                                "rubric":  "Abstract general law."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Editor",
+                                                "theory":  "Definition: Synthesis is integrating data into strategy. Procedural Link: The action is to engage in the activity of integrating multiple data points (successes, failures, metrics) into a coherent business strategy.",
+                                                "specific_deliverable":  "An Executive Summary.",
+                                                "rubric":  "Integrate data into strategy."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Reviewer",
+                                                "theory":  "Definition: Synthesis is integrating evidence into a contribution. Procedural Link: The action is to engage in the integration of multiple lines of evidence and theoretical ideas into an original scholarly contribution.",
+                                                "specific_deliverable":  "A Discussion Section.",
+                                                "rubric":  "Integrate evidence into contribution."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Designer",
+                                                "theory":  "Definition: Synthesis is intellectual and aesthetic fusion. Procedural Link: The action is to engage in the intellectual and aesthetic fusion of disparate ideas into a coherent concept or style.",
+                                                "specific_deliverable":  "A Final Presentation.",
+                                                "rubric":  "Fuse ideas."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Audience",
+                                                "theory":  "Definition: Synthesis is holistic integration. Procedural Link: The action is to engage in the holistic integration of experience, integrated knowledge, and ethical principles into a single, cohesive worldview.",
+                                                "specific_deliverable":  "A Reflection Paper.",
+                                                "rubric":  "Holistic integration."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.18",
+                         "name":  "Teaching Story",
+                         "integrated_deliverable":  "A Narrative Artifact.",
+                         "scenario":  "Creating a training video.",
+                         "theory_application":  "Use a story to convey a lesson, principle, or value.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Teacher",
+                                                "theory":  "Definition: Teaching story illustrates a principle. Procedural Link: The action is to create a narrative that illustrates a key scientific or methodological principle through the story of the project\u0027s success or failure.",
+                                                "specific_deliverable":  "A Script.",
+                                                "rubric":  "Illustrate principle via story."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Producer",
+                                                "theory":  "Definition: Teaching story transmits a lesson. Procedural Link: The action is to create a concise, memorable narrative used to transmit a complex process or strategic lesson to new teams.",
+                                                "specific_deliverable":  "A Storyboard.",
+                                                "rubric":  "Transmit lesson via story."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Narrator",
+                                                "theory":  "Definition: Teaching story conveys insight. Procedural Link: The action is to create a narrative created to convey the core argument or historical insight in an accessible, engaging form.",
+                                                "specific_deliverable":  "A Case Study.",
+                                                "rubric":  "Convey insight via narrative."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Director",
+                                                "theory":  "Definition: Teaching story communicates the challenge. Procedural Link: The action is to create a narrative used to communicate the creative challenge and the moment of breakthrough insight.",
+                                                "specific_deliverable":  "A Video.",
+                                                "rubric":  "Communicate challenge via story."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Audience",
+                                                "theory":  "Definition: Teaching story transmits integrated knowledge. Procedural Link: The action is to create a traditional narrative used to transmit ethical integrated knowledge and cultural values across generations (N91).",
+                                                "specific_deliverable":  "A Discussion Guide.",
+                                                "rubric":  "Transmit integrated knowledge via story."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.19",
+                         "name":  "Transmission",
+                         "integrated_deliverable":  "A Knowledge Dissemination Plan.",
+                         "scenario":  "Publishing a research paper.",
+                         "theory_application":  "Pass knowledge or information from one person or group to another.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Author",
+                                                "theory":  "Definition: Transmission is communicating models. Procedural Link: The action is to engage in the process of successfully communicating the generalizable models (N43) to the rest of the scientific community.",
+                                                "specific_deliverable":  "A Journal Article.",
+                                                "rubric":  "Communicate models."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Editor",
+                                                "theory":  "Definition: Transmission is transferring codified knowledge. Procedural Link: The action is to engage in the process of effectively transferring codified knowledge (playbooks, N45) to new members or other teams within the organization.",
+                                                "specific_deliverable":  "A White Paper.",
+                                                "rubric":  "Transfer codified knowledge."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Publisher",
+                                                "theory":  "Definition: Transmission is communicating contribution. Procedural Link: The action is to engage in the process of communicating the theoretical contribution to other scholars and making it legible to the public.",
+                                                "specific_deliverable":  "A Press Release.",
+                                                "rubric":  "Communicate contribution."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Lawrence Lessig - The Publicist",
+                                                "theory":  "Definition: Transmission is sharing artistic influence. Procedural Link: The action is to engage in the act of sharing artistic influence through teaching, mentorship, or the publication of an open pattern.",
+                                                "specific_deliverable":  "A Blog Post.",
+                                                "rubric":  "Share artistic influence."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The Reader",
+                                                "theory":  "Definition: Transmission is passing down integrated knowledge. Procedural Link: The action is to engage in the act of passing down cultural integrated knowledge and principles to the next generation.",
+                                                "specific_deliverable":  "A Lesson Plan.",
+                                                "rubric":  "Pass down integrated knowledge."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.20",
+                         "name":  "Integrated Knowledge",
+                         "integrated_deliverable":  "A Leadership Doctrine.",
+                         "scenario":  "Mentoring a successor.",
+                         "theory_application":  "Apply knowledge and experience to make sound judgments and decisions.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Mentor",
+                                                "theory":  "Definition: Integrated Knowledge is the ability to use complex principles for judgment. Procedural Link: The action is to aim for the ability to use complex principles to make sound ethical and strategic judgments in new, uncertain contexts.",
+                                                "specific_deliverable":  "A Mentorship Plan.",
+                                                "rubric":  "Use principles for judgment."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Coach",
+                                                "theory":  "Definition: Integrated Knowledge is the strategic capability to avoid mistakes. Procedural Link: The action is to aim for the strategic capability of the organization to avoid repeating past mistakes and to adapt effectively to market changes.",
+                                                "specific_deliverable":  "A Succession Plan.",
+                                                "rubric":  "Avoid mistakes strategically."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Leader",
+                                                "theory":  "Definition: Integrated Knowledge is the advanced capability to generate insights. Procedural Link: The action is to aim for the advanced capability to generate novel, nuanced interpretations and ethical insights about the human condition.",
+                                                "specific_deliverable":  "A Leadership Philosophy.",
+                                                "rubric":  "Generate insights."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Guide",
+                                                "theory":  "Definition: Integrated Knowledge is the deep, intuitive understanding of the creative process. Procedural Link: The action is to aim for the deep, intuitive understanding of the creative process and the mastery to wield artistic power responsibly.",
+                                                "specific_deliverable":  "A Personal Manifesto.",
+                                                "rubric":  "Understand creative process."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Elder",
+                                                "theory":  "Definition: Integrated Knowledge is the integrated knowledge of what actions lead to flourishing. Procedural Link: The action is to aim for the integrated knowledge of what actions lead to collective flourishing and long-term resilience.",
+                                                "specific_deliverable":  "A Legacy Statement.",
+                                                "rubric":  "Integrated knowledge."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.21",
+                         "name":  "Schema",
+                         "integrated_deliverable":  "A Mental Model Diagram.",
+                         "scenario":  "Realizing that \u0027more features\u0027 does not equal \u0027more value\u0027.",
+                         "theory_application":  "Update the fundamental mental structure or framework used to interpret the world based on the new evidence from the project.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Jean Piaget - The Psychologist",
+                                                "theory":  "Definition: Accommodation is altering existing schemas to fit new information. Procedural Link: The action is to redraw the model of the atom (or system) to account for the new data.",
+                                                "specific_deliverable":  "A Revised Model.",
+                                                "rubric":  "Alters model to fit new data."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Peter Senge - The Systems Thinker",
+                                                "theory":  "Definition: Mental Models determine how we act. Procedural Link: The action is to explicitly state the old belief (\u0027Customers want cheap\u0027) and the new belief (\u0027Customers want fast\u0027).",
+                                                "specific_deliverable":  "A Belief Shift Table.",
+                                                "rubric":  "States old vs. new belief."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Archaeologist",
+                                                "theory":  "Definition: Episteme is the unconscious structure of knowledge. Procedural Link: The action is to identify the underlying assumption that made the previous error possible.",
+                                                "specific_deliverable":  "An Epistemic Audit.",
+                                                "rubric":  "Identifies underlying assumption."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Style - The Historian",
+                                                "theory":  "Definition: Style is a coherent system of forms. Procedural Link: The action is to define the new set of rules (e.g., \u0027No straight lines\u0027) that will govern the next body of work.",
+                                                "specific_deliverable":  "A Style Manifesto.",
+                                                "rubric":  "Defines new formal rules."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paradigm Shift - The Activist",
+                                                "theory":  "Definition: Shifting the window of discourse. Procedural Link: The action is to articulate the new social norm that the project has established.",
+                                                "specific_deliverable":  "A New Norm Statement.",
+                                                "rubric":  "Articulates new social norm."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.22",
+                         "name":  "Unlearning",
+                         "integrated_deliverable":  "A Deprecation Notice.",
+                         "scenario":  "A team realizing their \u0027Agile\u0027 process has become bureaucratic.",
+                         "theory_application":  "Consciously discard obsolete knowledge, habits, or processes that are no longer effective, creating space for new learning.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Thomas Kuhn - The Revolutionary",
+                                                "theory":  "Definition: Paradigm shifts require the destruction of the old model. Procedural Link: The action is to explicitly list the theories or methods that are now considered \u0027disproven\u0027 and must be abandoned.",
+                                                "specific_deliverable":  "A Disproven Theory List.",
+                                                "rubric":  "Lists theories to abandon."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Barry O\u0027Reilly - The Consultant",
+                                                "theory":  "Definition: Unlearning is the process of letting go of past success formulas. Procedural Link: The action is to stop doing a report or meeting that used to add value but is now waste.",
+                                                "specific_deliverable":  "A \u0027Stop Doing\u0027 List.",
+                                                "rubric":  "Identifies successful habits to stop."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Gayatri Spivak - The Theorist",
+                                                "theory":  "Definition: Unlearning privilege. Procedural Link: The action is to critically examine and discard the colonial or patriarchal assumptions that shaped the initial inquiry.",
+                                                "specific_deliverable":  "A Bias Renunciation.",
+                                                "rubric":  "Discards specific biased assumptions."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Picasso - The Modernist",
+                                                "theory":  "Definition: \u0027It took me a lifetime to paint like a child.\u0027 Procedural Link: The action is to consciously break a technical habit (e.g., perfect perspective) to regain expressiveness.",
+                                                "specific_deliverable":  "A Habit Breaker Exercise.",
+                                                "rubric":  "Breaks a technical habit."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Zen - The Master",
+                                                "theory":  "Definition: Shoshin (Beginner\u0027s Mind). Procedural Link: The action is to empty the cup—to let go of the status of \u0027expert\u0027 to approach the next problem with humility.",
+                                                "specific_deliverable":  "A Beginner\u0027s Mind Ritual.",
+                                                "rubric":  "Relinquishes expert status."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.23",
+                         "name":  "Heuristic",
+                         "integrated_deliverable":  "A Rule of Thumb Card.",
+                         "scenario":  "Onboarding a new employee to the company culture.",
+                         "theory_application":  "Distill complex wisdom into a simple, memorable rule of thumb that guides decision-making in uncertain situations.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Occam\u0027s Razor - The Logician",
+                                                "theory":  "Definition: The simplest explanation is usually the best. Procedural Link: The action is to create a simple rule for selecting hypotheses (e.g., \u0027If the data is messy, check the sensor first\u0027).",
+                                                "specific_deliverable":  "A Troubleshooting Rule.",
+                                                "rubric":  "Creates simple selection rule."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Bezos - The CEO",
+                                                "theory":  "Definition: The Pizza Rule (teams shouldn\u0027t be larger than two pizzas can feed). Procedural Link: The action is to create a memorable slogan that encodes a complex management philosophy.",
+                                                "specific_deliverable":  "A Management Slogan.",
+                                                "rubric":  "Encodes philosophy in slogan."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "George Orwell - The Writer",
+                                                "theory":  "Definition: \u0027Never use a long word where a short one will do.\u0027 Procedural Link: The action is to create a simple editing rule to improve clarity.",
+                                                "specific_deliverable":  "A Writing Commandment.",
+                                                "rubric":  "Creates simple editing rule."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Dieter Rams - The Designer",
+                                                "theory":  "Definition: \u0027Good design is as little design as possible.\u0027 Procedural Link: The action is to create a guiding principle for aesthetic decisions.",
+                                                "specific_deliverable":  "A Design Principle.",
+                                                "rubric":  "Creates aesthetic principle."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Michael Pollan - The Author",
+                                                "theory":  "Definition: \u0027Eat food. Not too much. Mostly plants.\u0027 Procedural Link: The action is to compress a complex ethical system into a haiku-like instruction.",
+                                                "specific_deliverable":  "A Living Maxim.",
+                                                "rubric":  "Compresses ethics into maxim."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T9.24",
+                         "name":  "Liminality",
+                         "integrated_deliverable":  "A Transition Ritual.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Cynefin",
+                                                "domain":  "Complexity Science",
+                                                "theory":  "Liminal Cynefin. Procedural Link: Hold the system in a state of suspended constraints to allow new patterns to emerge.",
+                                                "specific_deliverable":  "A Transition State Map.",
+                                                "rubric":  "Manages the threshold state."
+                                            }
+                                        ],
+                         "scenario":  "Navigating a merger between companies.",
+                         "theory_application":  "Manage the \u0027threshold\u0027 state between the old way and the new way, where ambiguity is high but innovation is possible."
+                     },
+                     {
+                         "id":  "T9.DT.1",
+                         "name":  "Experiential Cycle",
+                         "integrated_deliverable":  "A Kolb Cycle Diagram.",
+                         "variations":  [
+                                            {
+                                                "expert":  "David Kolb",
+                                                "domain":  "Pedagogy",
+                                                "theory":  "Learning requires the transformation of experience.",
+                                                "specific_deliverable":  "Reflection Paper",
+                                                "rubric":  "Completes all 4 stages."
+                                            }
+                                        ],
+                         "scenario":  "Debriefing a team project.",
+                         "theory_application":  "Move from Concrete Experience to Active Experimentation."
+                     }
+                 ]
+}

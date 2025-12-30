@@ -1,0 +1,1474 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "toolId":  "tool1",
+    "toolName":  "Define the Inquiry",
+    "concepts":  [
+                     {
+                         "id":  "T1.1",
+                         "name":  "5 Whys",
+                         "integrated_deliverable":  "A Root Cause Analysis Report for a Systemic Failure.",
+                         "scenario":  "A catastrophic failure of a municipal bridge during rush hour.",
+                         "theory_application":  "Apply the iterative interrogative technique of asking \u0027Why?\u0027 five times to move past the immediate mechanical symptoms of the bridge collapse and uncover the latent systemic, procedural, or cultural failures that allowed the defect to go unnoticed.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Taiichi Ohno - The Lean Engineer",
+                                                "theory":  "Definition: The TPS is a socio-technical system focused on eliminating waste (Muda) and achieving continuous improvement (Kaizen). Procedural Link: The core principle is \u0027Go See\u0027 (Gemba). To trace the causal chain, you must physically go to the site of the problem to observe the process firsthand, ensuring the root cause is based on reality, not assumption.",
+                                                "specific_deliverable":  "A Forensic Site Log documenting the 5 sequential physical causes of the bolt failure, supported by photos from the manufacturing floor.",
+                                                "rubric":  "Identifies a single, non-technical systemic factor (e.g., \u0027lack of calibration training\u0027) as the root cause."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Clayton Christensen - The Product Strategist",
+                                                "theory":  "Definition: JTBD is a theory that customers \u0027hire\u0027 products to perform specific functional, social, and emotional jobs. Procedural Link: The methodology requires asking \u0027Why did you hire that product?\u0027 to uncover the emotional and social context of the purchase, which is the true root cause.",
+                                                "specific_deliverable":  "A Procurement Decision Map tracing the decision to buy cheap bolts back to the emotional need for \u0027political quick wins\u0027 under budget pressure.",
+                                                "rubric":  "Identifies the emotional/social context of the purchase decision, not just the functional failure."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Futures Thinker - The Causal Analyst",
+                                                "theory":  "Definition: CLA is a method for deconstructing a problem into four layers: Litany (surface data), System (social causes), Worldview (beliefs), and Myth (deep narrative). Procedural Link: The 5 Whys process is used to move from the surface \u0027Litany\u0027 (the symptom) down to the \u0027Worldview\u0027 (the underlying belief system) that sustains the problem.",
+                                                "specific_deliverable":  "A Four-Layer Analysis Chart mapping the crash from the surface event down to the societal \u0027Worldview\u0027 that devalues maintenance.",
+                                                "rubric":  "Successfully traces the problem from Litany to Worldview/Myth."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Robert Fritz - The Creative Director",
+                                                "theory":  "Definition: Fritz\u0027s theory states that creative tension exists between the Current Reality and the Vision. Creative blocks arise from structural conflict (e.g., wanting success but fearing visibility). Procedural Link: The 5 Whys process is used to identify the underlying structural conflict (e.g., \u0027I want to create but I fear judgment\u0027) that is blocking the creative flow.",
+                                                "specific_deliverable":  "A Structural Conflict Diagram visualizing the opposing forces in the design phase (Aesthetic Ambition vs. Structural Safety) that led to the compromise.",
+                                                "rubric":  "Identifies the structural conflict blocking the creative/engineering flow."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Systems Thinker",
+                                                "theory":  "Definition: Systems thinking focuses on identifying leverage points—places in the system where a small shift can produce large changes. Procedural Link: The 5 Whys process is used to trace the harm back to a flawed policy or belief system (a high-leverage point), rather than focusing on low-leverage symptoms.",
+                                                "specific_deliverable":  "A Policy Leverage Memo identifying the specific \u0027information delay\u0027 in the inspection reporting system as the high-leverage root cause.",
+                                                "rubric":  "Traces harm back to a flawed policy or belief system (high-leverage point)."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.2",
+                         "name":  "Anomaly",
+                         "integrated_deliverable":  "A Strategic Pivot Proposal.",
+                         "scenario":  "A sudden, unexplained 40% drop in user engagement for a popular fitness app.",
+                         "theory_application":  "Identify the specific deviation from expected performance (the anomaly) and utilize it not as a failure, but as a critical signal to re-evaluate the core hypothesis and direction of the project.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Falsificationist",
+                                                "theory":  "Definition: Popper\u0027s philosophy holds that a theory is scientific only if it is falsifiable. Procedural Link: The anomaly is the falsifying instance; the action is to treat it as a definitive proof that the current theory is wrong, forcing the creation of a new hypothesis.",
+                                                "specific_deliverable":  "A Falsification Report presenting data that definitively disproves the hypothesis that \u0027users want more badges,\u0027 forcing a new theory.",
+                                                "rubric":  "Frames the anomaly as a definitive proof that the current theory is wrong."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Lean Entrepreneur",
+                                                "theory":  "Definition: The Lean Startup is built on the \u0027Build-Measure-Learn\u0027 loop, where the goal is to achieve validated learning. Procedural Link: The anomaly is a \u0027prediction error\u0027 in the market; the action is to immediately pivot or re-frame the problem based on this new, validated learning signal.",
+                                                "specific_deliverable":  "A Pivot Deck quantifying the churn and proposing a shift from \u0027Gamification\u0027 to \u0027Community Coaching\u0027 based on the signal.",
+                                                "rubric":  "Links the anomaly to a specific \u0027riskiest assumption\u0027 that must be tested."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Thomas Kuhn - The Historian of Science",
+                                                "theory":  "Definition: Kuhn describes \u0027normal science\u0027 as puzzle-solving within a paradigm. Anomalies trigger \u0027scientific revolutions.\u0027 Procedural Link: The action is to focus scholarly effort on the anomaly to test the limits of the existing consensus theory, aiming for a paradigm shift.",
+                                                "specific_deliverable":  "A Paradigm Shift Essay arguing that the drop represents a cultural rupture in how users view personal data and health (Quantified Self vs. Holistic Wellness).",
+                                                "rubric":  "Frames the anomaly as a rupture in the current consensus theory."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Jun\u0027ichirō Tanizaki - The Aesthete",
+                                                "theory":  "Definition: Tanizaki\u0027s aesthetic values the subtle, the imperfect, and the unresolved tension found in shadows and patina. Procedural Link: The action is to focus on the element that is most out of place or contradictory (the anomaly) because it holds the greatest aesthetic tension and power.",
+                                                "specific_deliverable":  "A Visual Audit highlighting the \u0027glare\u0027 of the current interface and proposing a \u0027Dark Mode\u0027 aesthetic that values rest and subtlety.",
+                                                "rubric":  "Identifies the anomaly as the element holding the greatest aesthetic tension."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Indigenous Elder - The Governance Steward",
+                                                "theory":  "Definition: Many Indigenous systems view the environment as a complex, dynamic system that provides feedback on human actions. Procedural Link: The action is to treat a systemic failure as a feedback signal from the environment that the current governance model is out of alignment with core values.",
+                                                "specific_deliverable":  "A Values Alignment Assessment interpreting the user exodus as a rejection of extractive surveillance capitalism.",
+                                                "rubric":  "Links the anomaly to a violation of a core communal value."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.3",
+                         "name":  "Attunement",
+                         "integrated_deliverable":  "An Immersive Ethnographic Field Study.",
+                         "scenario":  "Designing a new public library for a diverse, low-income neighborhood.",
+                         "theory_application":  "Enter the environment with a heightened state of receptivity, suspending top-down judgments to perceive the subtle, unspoken, and sensory realities of the community context.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Corbetta \u0026 Shulman - The Neuroscientist",
+                                                "theory":  "Definition: Attention is divided into DAN (top-down, goal-directed) and VAN (bottom-up, stimulus-driven). Procedural Link: The action is to balance top-down expectation (DAN) with bottom-up sensory intake (VAN) to notice what is truly surprising, not just what is expected.",
+                                                "specific_deliverable":  "A Sensory Heatmap documenting raw noise levels and traffic flow, highlighting unexpected quiet zones (VAN signals) that contradict the initial plan.",
+                                                "rubric":  "Records unexpected data (VAN) that contradicts the initial hypothesis (DAN)."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "David Kelley - The Design Thinker",
+                                                "theory":  "Definition: The first phase of Design Thinking is Empathy, requiring the designer to set aside their own assumptions. Procedural Link: The action is to achieve attunement by suspending judgment and observing users in their natural environment to perceive their unspoken needs.",
+                                                "specific_deliverable":  "A User Behavior Log capturing 20 instances of \u0027workarounds\u0027 (e.g., patrons sitting on floors near outlets) that reveal unmet needs.",
+                                                "rubric":  "Records unspoken user behaviors that contradict stated opinions."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Edward Said - The Post-Colonial Critic",
+                                                "theory":  "Definition: Orientalism is the Western discourse that constructs the \u0027Other.\u0027 Procedural Link: The action is to achieve attunement by first mapping your own positionality and biases to ensure your receptive state is not imposing a colonial framework onto the subject.",
+                                                "specific_deliverable":  "A Positionality Statement explicitly listing the researcher\u0027s biases and how they might distort the interpretation of \u0027quiet\u0027 vs. \u0027loud\u0027 in this community.",
+                                                "rubric":  "Explicitly addresses potential biases (e.g., Orientalism) in the observer."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Julia Cameron - The Artist",
+                                                "theory":  "Definition: Cameron advocates for rituals like \u0027Morning Pages\u0027 to access the \u0027Creative Child\u0027—the source of spontaneous, intuitive creativity. Procedural Link: The action is to achieve attunement by engaging in \u0027Morning Pages\u0027 or a similar ritual to clear the mind\u0027s clutter and access the deeper, intuitive creative impulse.",
+                                                "specific_deliverable":  "A Stream-of-Consciousness Journal capturing the \u0027mood\u0027 and \u0027texture\u0027 of the space, identifying a feeling of \u0027anxious waiting.\u0027",
+                                                "rubric":  "Records a clear emotional shift or intuitive insight achieved during the ritual."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Miriam-Rose Ungunmerr-Baumann - The Deep Listener",
+                                                "theory":  "Definition: Dadirri is an Aboriginal concept of inner, deep listening and quiet, still awareness. Procedural Link: The action is to achieve attunement through \u0027inner deep listening\u0027—a quiet, receptive awareness that allows the truth of the moment and the context to sink in.",
+                                                "specific_deliverable":  "A Non-defensive listening Transcript recording the pauses, sighs, and tone of the community meeting, noting what was *not* said.",
+                                                "rubric":  "Confirms the researcher spoke last and focused solely on receiving input."
+                                            },
+                                            {
+                                                "domain":  "Social Science",
+                                                "rubric":  "Demonstrates immersive observation.",
+                                                "specific_deliverable":  "An Ethnographic Field Note.",
+                                                "expert":  "Clifford Geertz",
+                                                "theory":  "Ethnography requires \u0027Deep Hanging Out\u0027. Procedural Link: Immerse in the environment to understand the cultural context from the inside."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.4",
+                         "name":  "Autoethnography",
+                         "integrated_deliverable":  "A Reflective Leadership Journal.",
+                         "scenario":  "A CEO navigating a company through a massive ethical scandal.",
+                         "theory_application":  "Utilize the leader\u0027s own subjective experience, internal conflicts, and personal history as a primary data source to understand and articulate the broader systemic and ethical dimensions of the crisis.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Donna Haraway - The Situated Scientist",
+                                                "theory":  "Definition: Haraway argues that all knowledge is \u0027situated\u0027 and partial, not objective. Procedural Link: The action is to use self-reflection to explicitly document the social and political context of your research funding and lab culture, acknowledging how it shapes your \u0027objective\u0027 findings.",
+                                                "specific_deliverable":  "A Contextual Bias Audit listing the specific investors and board members whose pressure is shaping the CEO\u0027s \u0027objective\u0027 view.",
+                                                "rubric":  "Identifies a bias in the methodology/context that compromises objectivity."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Steve Blank - The Customer Developer",
+                                                "theory":  "Definition: Customer Development is the process of testing assumptions with customers. Procedural Link: The action is to rigorously document your own internal struggles and confusion when using your product as a proxy for the user experience, finding flaws that metrics miss.",
+                                                "specific_deliverable":  "A User Experience Diary documenting the CEO\u0027s personal failure to navigate their own help desk, exposing the flaw.",
+                                                "rubric":  "Identifies a usability flaw missed by metrics through personal struggle."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "bell hooks - The Critical Pedagogue",
+                                                "theory":  "Definition: hooks advocates for education as the \u0027practice of freedom,\u0027 where personal experience is central to critical analysis. Procedural Link: The action is to use personal experience as the primary data point to launch an inquiry, connecting the individual\u0027s trouble to a large-scale social structure.",
+                                                "specific_deliverable":  "A Critical Reflection Essay linking the CEO\u0027s personal anxiety to the structural \u0027dominator culture\u0027 of the industry.",
+                                                "rubric":  "Links personal experience to a large-scale social structure."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Marina Abramović - The Performance Artist",
+                                                "theory":  "Definition: Abramović\u0027s work often uses the artist\u0027s body as the medium and site of the performance, documenting the physical and emotional process. Procedural Link: The action is to use the body and personal history as the medium of the work, documenting the physical and emotional process as the core of the artistic statement.",
+                                                "specific_deliverable":  "A Somatic Log tracking the CEO\u0027s physical symptoms (e.g., heart rate, fatigue) as a measure of the organization\u0027s health.",
+                                                "rubric":  "Links personal history/body to the core emotional content."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The Liberator",
+                                                "theory":  "Definition: Freire\u0027s method requires the educator to be a \u0027co-learner\u0027 with the oppressed, starting from their reality. Procedural Link: The action is to use self-reflection to identify and challenge your own unconscious biases and privileges before engaging in any project aimed at social change.",
+                                                "specific_deliverable":  "A Privilege Inventory identifying the specific blind spots the CEO held due to their rank and class.",
+                                                "rubric":  "Identifies personal privilege/bias to be mitigated."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.5",
+                         "name":  "Close Reading",
+                         "integrated_deliverable":  "A Critical Deconstruction of Policy.",
+                         "scenario":  "Analyzing the Terms of Service (ToS) for a new AI Data Platform.",
+                         "theory_application":  "Subject the text of the Terms of Service to a rigorous, microscopic analysis to uncover the hidden assumptions, power dynamics, and structural implications that are not immediately visible on the surface.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The First Principles Thinker",
+                                                "theory":  "Definition: The Feynman Technique requires explaining a concept simply to test understanding. Procedural Link: The action is to read a seminal paper and attempt to re-derive the core equation or experimental logic from first principles; if you cannot, the paper is flawed or you do not understand it.",
+                                                "specific_deliverable":  "A Logic Derivation Sheet attempting to map the flow of user data based *only* on the text, highlighting logical breaks.",
+                                                "rubric":  "Re-derives the core logic/assumptions from the text."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Tony Ulwick - The ODI Analyst",
+                                                "theory":  "Definition: ODI focuses on identifying \u0027desired outcomes\u0027 that are measurable. Procedural Link: The action is to read user interview transcripts and highlight every verb that describes a desired outcome, ignoring all suggested solutions to find the true need.",
+                                                "specific_deliverable":  "A Verb Frequency Analysis showing the ratio of \u0027restrict/limit\u0027 verbs (company protection) to \u0027enable/empower\u0027 verbs (user value).",
+                                                "rubric":  "Identifies 5+ desired outcomes (verbs) not explicitly stated."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Erich Auerbach - The Philologist",
+                                                "theory":  "Definition: Auerbach\u0027s method involves sustained, critical interpretation of a brief passage to reveal the whole. Procedural Link: The action is to focus on a single, dense passage of text and analyze every word, image, and structural tension to reveal the author\u0027s entire worldview.",
+                                                "specific_deliverable":  "A Micro-Textual Analysis of the \u0027Indemnification Clause,\u0027 revealing the implicit assumption that users are liabilities, not partners.",
+                                                "rubric":  "Reveals a structural tension/contradiction in the text."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Pattern Architect",
+                                                "theory":  "Definition: Alexander\u0027s patterns describe solutions to recurring design problems. Procedural Link: The action is to analyze a successful design by deconstructing it into its component patterns and rules, abstracting the underlying logic that makes it work.",
+                                                "specific_deliverable":  "A Pattern Language Map identifying the specific \u0027Dark Patterns\u0027 used in the document layout to discourage reading.",
+                                                "rubric":  "Deconstructs the design into component patterns/rules."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Legal Scholar - The Textual Analyst",
+                                                "theory":  "Definition: Legal analysis requires interpreting texts (laws, treaties) based on their explicit language and historical context. Procedural Link: The action is to read a community agreement or historical treaty with the intent to identify all unstated assumptions and and potential conflicts between principles.",
+                                                "specific_deliverable":  "A Gap Analysis Report listing the 3 specific rights (e.g., right to delete) that are conspicuously absent from the text.",
+                                                "rubric":  "Identifies 3+ unstated assumptions or conflicts."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.6",
+                         "name":  "Connect",
+                         "integrated_deliverable":  "A Cross-Disciplinary Grant Proposal.",
+                         "scenario":  "Proposing a new \u0027Smart City\u0027 sensor network to reduce traffic.",
+                         "theory_application":  "Link the specific technical innovation of the sensor network to broader social, historical, or mythic narratives to demonstrate its relevance and necessity beyond mere utility.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Thomas Kuhn - The Paradigm Shifter",
+                                                "theory":  "Definition: Kuhn describes scientific progress as the shift from one paradigm to the next. Procedural Link: The action is to link the observed anomaly to the existing paradigm to understand precisely where the current theory breaks down, defining the scope of the revolution.",
+                                                "specific_deliverable":  "A Paradigm Failure Memo linking the traffic data to the specific failure of the current traffic engineering model.",
+                                                "rubric":  "Links the anomaly to the specific point of failure in the paradigm."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "John Doerr - The OKR Master",
+                                                "theory":  "Definition: OKRs (Objectives and Key Results) link tactical work to strategic goals. Procedural Link: The action is to link the proposed problem directly to a Key Result (KR) from the organizational OKRs, ensuring the work is strategically valuable.",
+                                                "specific_deliverable":  "An OKR Alignment Chart mapping the sensor deployment directly to the City\u0027s Q4 Strategic Key Results.",
+                                                "rubric":  "Links the problem to a measurable Key Result (KR)."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "C. Wright Mills - The Sociologist",
+                                                "theory":  "Definition: The sociological imagination links \u0027personal troubles\u0027 to \u0027public issues.\u0027 Procedural Link: The action is to link the individual\u0027s \u0027personal trouble\u0027 (e.g., debt) to the \u0027public issue\u0027 (e.g., economic policy) to frame the inquiry systemically.",
+                                                "specific_deliverable":  "A Public Issue Brief connecting individual commute times to broader issues of economic segregation and zoning policy.",
+                                                "rubric":  "Links \u0027personal trouble\u0027 to \u0027public issue\u0027."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Joseph Campbell - The Mythologist",
+                                                "theory":  "Definition: Campbell\u0027s monomyth describes the universal archetypal structure of narrative. Procedural Link: The action is to link the personal inspiration to a universal archetype or mythic structure to ensure the work resonates with a broad audience.",
+                                                "specific_deliverable":  "A Narrative Arc Outline framing the city\u0027s transformation as a \u0027Hero\u0027s Journey\u0027 from congestion (chaos) to flow (order).",
+                                                "rubric":  "Links the concept to a universal archetype/myth."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. K. Gandhi - The Swarajist",
+                                                "theory":  "Definition: Swaraj means \u0027self-rule\u0027 or autonomy, the ultimate goal of ethical action. Procedural Link: The action is to link the project\u0027s goal to the principle of self-rule (Swaraj), ensuring the action increases the community\u0027s autonomy and capacity.",
+                                                "specific_deliverable":  "A Data Sovereignty Clause ensuring the sensor network increases community autonomy (Swaraj) over their own data.",
+                                                "rubric":  "Links the goal to the principle of Swaraj (self-rule)."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.7",
+                         "name":  "Context",
+                         "integrated_deliverable":  "A System Map of Market Ecosystem.",
+                         "scenario":  "Launching a Sustainable Coffee Brand in a saturated market.",
+                         "theory_application":  "Map the complex web of relationships, forces, histories, and constraints that surround the coffee brand to identify the specific niche or leverage point for entry.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Donella Meadows - The Systems Modeler",
+                                                "theory":  "Definition: Systems thinking requires mapping feedback loops and stocks/flows to understand dynamic behavior. Procedural Link: The action is to map the feedback loops and stocks/flows of the system under study to understand the environment\u0027s dynamic behavior.",
+                                                "specific_deliverable":  "A Stock-and-Flow Diagram visualizing the reinforcing feedback loop between climate change and coffee prices.",
+                                                "rubric":  "Includes at least one feedback loop affecting the phenomenon."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Michael Porter - The Strategist",
+                                                "theory":  "Definition: Porter\u0027s Five Forces analyzes the competitive structure of an industry. Procedural Link: The action is to use Porter\u0027s Five Forces to map the competitive landscape, identifying the power dynamics that constrain the market opportunity.",
+                                                "specific_deliverable":  "A Five Forces Matrix identifying \u0027Supplier Power\u0027 as the critical constraint due to coffee rust disease.",
+                                                "rubric":  "Includes all Five Forces and identifies the primary constraint."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Genealogist",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action is to map the historical and power dynamics that created the current discourse, ensuring the inquiry is not naive about its own origins.",
+                                                "specific_deliverable":  "A Historical Power Map tracing the colonial origins of the coffee trade to current supply chain inequities.",
+                                                "rubric":  "Traces genealogical history and power dynamics."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Vitruvius - The Architect",
+                                                "theory":  "Definition: Vitruvius defined the principles of architecture: firmitas (durability), utilitas (utility), and venustas (beauty). Procedural Link: The action is to map the functional and environmental constraints (e.g., climate, material availability) that must inform the design solution.",
+                                                "specific_deliverable":  "A Material Constraint Board listing the environmental limits (humidity, heat) that the packaging design must withstand.",
+                                                "rubric":  "Lists material and environmental constraints."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Dialogist",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through the interaction of multiple, competing voices. Procedural Link: The action is to map the multiple, competing voices and perspectives within the community to ensure the inquiry addresses the full complexity of the social context.",
+                                                "specific_deliverable":  "A Stakeholder Voice Map identifying the conflicting narratives of the Farmer, the Roaster, and the Consumer.",
+                                                "rubric":  "Identifies 3+ competing voices/perspectives."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.8",
+                         "name":  "Diagnosing",
+                         "integrated_deliverable":  "A Holistic Organizational Audit.",
+                         "scenario":  "A toxic work culture in a high-growth startup.",
+                         "theory_application":  "Move beyond the symptoms of the toxic culture (e.g., high turnover) to identify the root structural, psychological, or systemic causes that are generating the dysfunction.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Taiichi Ohno - The Lean Manager",
+                                                "theory":  "Definition: The core principle of Lean is \u0027Go See\u0027 (Gemba)—going to the source of the problem. Procedural Link: The action is to diagnose the problem by physically going to the site of the anomaly to observe the process firsthand before attempting to diagnose the cause remotely.",
+                                                "specific_deliverable":  "A Gemba Observation Log documenting 50 interruptions per hour, diagnosing the \u0027open office\u0027 layout as the systemic cause of burnout.",
+                                                "rubric":  "Diagnosis based on direct observation (Gemba), not symptoms."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Startup Founder",
+                                                "theory":  "Definition: The goal of the \u0027Measure\u0027 phase is to identify the \u0027riskiest assumption\u0027 that, if false, kills the business model. Procedural Link: The action is to diagnose the problem by identifying the \u0027riskiest assumption\u0027 that, if proven false, would invalidate the entire business model.",
+                                                "specific_deliverable":  "A Growth Assumption Audit identifying \u0027Headcount = Growth\u0027 as the risky assumption invalidating the culture model.",
+                                                "rubric":  "Identifies the single riskiest assumption."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Sigmund Freud - The Psychoanalyst",
+                                                "theory":  "Definition: Psychoanalysis diagnoses problems by identifying unconscious conflicts that manifest as conscious symptoms. Procedural Link: The action is to diagnose the problem by identifying the unconscious or repressed elements in the text or social structure that are causing the visible conflict.",
+                                                "specific_deliverable":  "A Cultural Shadow Report identifying the founder\u0027s repressed fear of failure as the unconscious driver of the toxic micromanagement.",
+                                                "rubric":  "Identifies an unconscious conflict causing the symptom."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Donella Meadows - The Systems Analyst",
+                                                "theory":  "Definition: Meadows identifies \u0027leverage points\u0027 in systems. Procedural Link: The action is to diagnose the creative block by identifying the structural flaw in the artist\u0027s process or the system of constraints they have imposed on themselves.",
+                                                "specific_deliverable":  "A System Goal Misalignment Chart showing how the \u0027IPO Goal\u0027 structurally conflicts with the stated \u0027Wellness Value.\u0027",
+                                                "rubric":  "Identifies the structural flaw in the process/constraints."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Howard Zehr - The Restorative Justice Practitioner",
+                                                "theory":  "Definition: Restorative Justice focuses on repairing harm by addressing the needs of the victim. Procedural Link: The action is to diagnose the harm by focusing on who was harmed and what their needs are, rather than focusing on the rule that was broken.",
+                                                "specific_deliverable":  "A Harm Inventory listing the specific relational damages (trust, safety) and the needs required to repair them.",
+                                                "rubric":  "Identifies relational breakdown and needs for repair."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.9",
+                         "name":  "Framing",
+                         "integrated_deliverable":  "A Project Charter.",
+                         "scenario":  "Developing a new educational curriculum for remote learning.",
+                         "theory_application":  "Define the boundaries, hypothesis, and core question of the curriculum project to ensure it is rigorous, actionable, and ethically sound.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Logician",
+                                                "theory":  "Definition: Popper\u0027s philosophy requires a theory to be falsifiable. Procedural Link: The action is to frame the problem as a falsifiable hypothesis that can be proven wrong, ensuring the inquiry is rigorous and testable.",
+                                                "specific_deliverable":  "A Falsifiable Pedagogical Hypothesis stating \u0027If video length \u003e 5 mins, retention drops by 50%,\u0027 setting up a clear test.",
+                                                "rubric":  "Problem Statement is a falsifiable hypothesis."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Design Thinking - The Innovator",
+                                                "theory":  "Definition: Design Thinking uses the \u0027How Might We...\u0027 prompt to frame problems as opportunities. Procedural Link: The action is to frame the problem using the \u0027How Might We...\u0027 prompt to shift the team\u0027s mindset from problem-solving to creative possibility.",
+                                                "specific_deliverable":  "A HMW Opportunity Deck listing 5 \u0027How Might We\u0027 questions that reframe the engagement problem as a design opportunity.",
+                                                "rubric":  "Uses \u0027How Might We...\u0027 to translate problem to opportunity."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Rhetorician",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to frame the inquiry as a Claim that is both specific enough to be defensible and significant enough to matter to the field.",
+                                                "specific_deliverable":  "A Core Argument Claim stating that \u0027Social presence is the primary driver of learning,\u0027 defining the project\u0027s intellectual stance.",
+                                                "rubric":  "Frames inquiry as a specific, defensible Claim."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "David Kelley - The Empath",
+                                                "theory":  "Definition: Design Thinking emphasizes emotional goals. Procedural Link: The action is to frame the creative challenge by defining the emotional state the final work must evoke in the audience.",
+                                                "specific_deliverable":  "An Emotional Experience Goal stating the platform must evoke a sense of \u0027belonging\u0027 to counteract isolation.",
+                                                "rubric":  "Defines the core emotional state the work must evoke."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Ethicist",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to frame the inquiry by defining the \u0027red lines\u0027—the specific, non-negotiable ethical boundaries the project will not cross.",
+                                                "specific_deliverable":  "A Non-Negotiable Constraints List (Red Lines) explicitly banning invasive surveillance tools in the new curriculum.",
+                                                "rubric":  "Explicitly lists 3+ ethical \u0027red lines\u0027."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.10",
+                         "name":  "Inception",
+                         "integrated_deliverable":  "A Project Kickoff Deck.",
+                         "scenario":  "Starting a project to clean up ocean plastic.",
+                         "theory_application":  "Mark the formal beginning of the project by identifying the triggering event, validating the core assumption, and establishing the relational terms of the work.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Thomas Kuhn - The Scientist",
+                                                "theory":  "Definition: Kuhn describes \u0027normal science\u0027 as puzzle-solving within a paradigm. Anomalies trigger \u0027scientific revolutions.\u0027 Procedural Link: The action is to recognize inception as the moment the anomaly is recognized as a challenge to the paradigm, initiating a new line of inquiry.",
+                                                "specific_deliverable":  "A Paradigm Challenge Statement declaring that \u0027surface skimming\u0027 is insufficient, initiating a shift to \u0027deep water filtration.\u0027",
+                                                "rubric":  "Identifies the anomaly as a challenge to the paradigm."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Steve Blank - The Entrepreneur",
+                                                "theory":  "Definition: Customer Development is the process of testing assumptions with customers. Procedural Link: The action is to recognize inception as the moment the team leaves the building to test their riskiest assumption with real customers.",
+                                                "specific_deliverable":  "A Customer Discovery Plan scheduling visits to 10 recycling plants to validate the \u0027market demand\u0027 assumption.",
+                                                "rubric":  "Validates the plan to \u0027leave the building\u0027 and test assumptions."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Historian",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action is to recognize inception as the moment the scholar begins to trace the history of the concept to understand its power.",
+                                                "specific_deliverable":  "A Historical Context Brief tracing the rise of single-use plastics to specific corporate lobbying efforts in the 1970s.",
+                                                "rubric":  "Traces the genealogical history of the concept."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Joseph Campbell - The Storyteller",
+                                                "theory":  "Definition: Campbell\u0027s monomyth describes the universal archetypal structure of narrative. Procedural Link: The action is to recognize inception as the \u0027Call to Adventure\u0027—the moment the artist commits to the journey and crosses the threshold.",
+                                                "specific_deliverable":  "A Project Manifesto framing the cleanup as a \u0027Hero\u0027s Journey\u0027 to restore the ocean\u0027s health, inspiring team commitment.",
+                                                "rubric":  "Issues the \u0027Call to Adventure\u0027 committing to the journey."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Researcher",
+                                                "theory":  "Definition: Wilson advocates for research as a relational act. Procedural Link: The action is to recognize inception as the moment the researcher enters into a formal, relational agreement with the community.",
+                                                "specific_deliverable":  "A Community Partnership Agreement signed by local coastal leaders, establishing shared governance of the cleanup.",
+                                                "rubric":  "Includes a formal, signed relational agreement."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.11",
+                         "name":  "Inquiry",
+                         "integrated_deliverable":  "A Discovery Phase Research Report.",
+                         "scenario":  "Investigating the decline of local journalism.",
+                         "theory_application":  "Conduct a deep, multi-faceted investigation into the problem, moving from surface symptoms to underlying causes, structures, and emotional realities.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Explainer",
+                                                "theory":  "Definition: The Feynman Technique requires explaining a concept simply to test understanding. Procedural Link: The action is to recognize inquiry as complete when you can explain the concept simply enough that a novice can understand it.",
+                                                "specific_deliverable":  "A Plain English Guide to programmatic advertising, explaining exactly how ad revenue bypasses local publishers.",
+                                                "rubric":  "Contains a simplified explanation a novice can understand."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Validator",
+                                                "theory":  "Definition: The goal of the \u0027Measure\u0027 phase is to achieve validated learning. Procedural Link: The action is to recognize inquiry as complete when the team has achieved \u0027validated learning\u0027—a demonstrated truth about the market.",
+                                                "specific_deliverable":  "A Subscription Test Report showing that 5% of readers converted to paid subscribers, validating the business model.",
+                                                "rubric":  "Confirms validated learning about user behavior."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jacques Derrida - The Deconstructor",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The action is to recognize inquiry as complete when the scholar has revealed the unstated binary oppositions at the heart of the text.",
+                                                "specific_deliverable":  "A Binary Deconstruction Paper analyzing how the \u0027Objectivity\u0027 standard historically excluded minority perspectives in local news.",
+                                                "rubric":  "Reveals unstated binary oppositions in the text/system."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Expressionist",
+                                                "theory":  "Definition: Graham\u0027s work sought to find the physical expression for the inner emotional landscape. Procedural Link: The action is to recognize inquiry as complete when the artist has found the physical expression for the inner emotional landscape.",
+                                                "specific_deliverable":  "An Emotional Impact Map visualizing the feelings of isolation and distrust that emerge in \u0027news deserts.\u0027",
+                                                "rubric":  "Documents the physical/emotional expression of the landscape."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The Educator",
+                                                "theory":  "Definition: Freire\u0027s method requires the educator to be a \u0027co-learner\u0027 with the oppressed, starting from their reality. Procedural Link: The action is to recognize inquiry as complete when the process has led to \u0027conscientization\u0027—critical awareness of social reality.",
+                                                "specific_deliverable":  "A Community Awareness Report documenting the shift from passive consumption to active demand for information rights.",
+                                                "rubric":  "Confirms process led to \u0027conscientization\u0027 (critical awareness)."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.12",
+                         "name":  "Invitational Design",
+                         "integrated_deliverable":  "A Facilitator’s Guide for a Stakeholder Workshop.",
+                         "scenario":  "A town hall meeting about a controversial new highway.",
+                         "theory_application":  "Design the engagement process to lower defenses, encourage participation, and create a safe space for difficult conversations.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Gagné - The Instructor",
+                                                "theory":  "Definition: Gagné\u0027s Nine Events of Instruction begin with \u0027Gaining Attention.\u0027 Procedural Link: The action is to design the provocation to \u0027Gain Attention\u0027 by creating a surprising event that forces the learner to confront a gap.",
+                                                "specific_deliverable":  "A Traffic Simulation Demo that counter-intuitively shows traffic worsening with more lanes, creating a \u0027knowledge gap.\u0027",
+                                                "rubric":  "Designs a provocation that \u0027Gains Attention\u0027 via surprise."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "IDEO - The Facilitator",
+                                                "theory":  "Definition: Design Thinking uses playful, low-stakes activities to encourage participation. Procedural Link: The action is to design the initial workshop to be playful and low-stakes to encourage participation and reduce fear of judgment.",
+                                                "specific_deliverable":  "A LEGO City Activity Guide instructing participants to build their ideal neighborhood, fostering low-stakes collaboration.",
+                                                "rubric":  "Designs a playful, low-stakes activity to reduce fear."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Parker J. Palmer - The Teacher",
+                                                "theory":  "Definition: Palmer advocates for creating a \u0027circle of trust\u0027 in the classroom. Procedural Link: The action is to design the learning space to be a \u0027circle of trust\u0027 where vulnerability is safe.",
+                                                "specific_deliverable":  "A Safe Space Protocol listing ground rules (e.g., \u0027No fixing, no saving\u0027) to protect vulnerable sharing.",
+                                                "rubric":  "Designs a \u0027circle of trust\u0027 protocol."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Brian Eno - The Strategist",
+                                                "theory":  "Definition: Eno\u0027s cards introduce random constraints to force creative breakthroughs. Procedural Link: The action is to design the creative prompt to be cryptic or paradoxical to force the artist out of habitual thinking.",
+                                                "specific_deliverable":  "A Paradoxical Prompt Card asking \u0027How can the highway connect rather than divide?\u0027 to force novel thinking.",
+                                                "rubric":  "Designs a cryptic/paradoxical prompt to force solutions."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Circle Way - The Keeper",
+                                                "theory":  "Definition: The Circle Way uses a \u0027talking piece\u0027 to ensure equitable participation. Procedural Link: The action is to establish a \u0027talking piece\u0027 protocol to ensure equitable participation and deep listening.",
+                                                "specific_deliverable":  "A Talking Piece Script explaining the ritual use of the microphone to ensure equitable participation.",
+                                                "rubric":  "Establishes a \u0027talking piece\u0027 protocol for equity."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.13",
+                         "name":  "Jobs-to-be-Done",
+                         "integrated_deliverable":  "A Comprehensive User Persona Profile.",
+                         "scenario":  "Designing a new project management tool for remote teams.",
+                         "theory_application":  "Define the user\u0027s needs not in terms of demographics or features, but in terms of the functional, emotional, and social progress they are trying to make.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Clayton Christensen - The Innovator",
+                                                "theory":  "Definition: JTBD is a theory that customers \u0027hire\u0027 products to perform specific functional, social, and emotional jobs. Procedural Link: The action is to ask: \u0027What job is the scientist hiring this tool to do that their current tool does poorly?\u0027",
+                                                "specific_deliverable":  "A Job Card defining the core job as \u0027Alleviate anxiety about progress without pestering the team.\u0027",
+                                                "rubric":  "Defines the job the user is hiring the tool to do."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Tony Ulwick - The Analyst",
+                                                "theory":  "Definition: ODI focuses on identifying \u0027desired outcomes\u0027 that are measurable. Procedural Link: The action is to define the job in terms of the desired outcome (e.g., \u0027minimize time\u0027), not the solution.",
+                                                "specific_deliverable":  "A Desired Outcome List containing 10 measurable outcomes (e.g., \u0027Minimize time to status update\u0027) prioritized by value.",
+                                                "rubric":  "Defines the job in terms of measurable desired outcomes."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Analyst",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action is to analyze what job a social institution is hired to do by the state vs. the job it actually performs.",
+                                                "specific_deliverable":  "A Power Dynamic Analysis revealing how the \u0027Activity Log\u0027 feature functions as a tool of surveillance and discipline.",
+                                                "rubric":  "Analyzes the job the institution performs (power/discipline)."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Donald Norman - The Designer",
+                                                "theory":  "Definition: Norman focuses on affordances and user understanding. Procedural Link: The action is to define the job of the art piece in terms of its affordances—what the design allows the user to do.",
+                                                "specific_deliverable":  "An Affordance Specification detailing how the UI must afford \u0027instant status recognition\u0027 through color coding.",
+                                                "rubric":  "Defines the job in terms of affordances."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Elinor Ostrom - The Governor",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The action is to define the job of the governance structure in terms of managing shared resources and resolving conflicts.",
+                                                "specific_deliverable":  "A Resource Governance Rule defining how the tool will limit notifications to prevent the \u0027tragedy of the attention commons.\u0027",
+                                                "rubric":  "Defines the job as managing shared resources/conflict."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.14",
+                         "name":  "Listening",
+                         "integrated_deliverable":  "A Voice of the Customer (VoC) Report.",
+                         "scenario":  "Feedback analysis for a failed educational app.",
+                         "theory_application":  "Actively receive and process information from the environment, users, or data without imposing preconceived notions or defenses.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Empiricist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to listen to the data without expectation; if the data contradicts your hypothesis, the data is right.",
+                                                "specific_deliverable":  "A Data Truth Memo stating \u0027The data contradicts our hypothesis of fun; engagement drops at the gamification layer.\u0027",
+                                                "rubric":  "Listens to data without expectation; accepts contradiction."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Tony Ulwick - The Analyst",
+                                                "theory":  "Definition: ODI focuses on identifying \u0027desired outcomes\u0027 that are measurable. Procedural Link: The action is to listen for emotional language in user interviews (\u0027frustrating\u0027) as the clearest signal of unmet needs.",
+                                                "specific_deliverable":  "A Keyword Frequency Report highlighting \u0027Frustrated\u0027 and \u0027Lost\u0027 as the dominant emotional signals in user feedback.",
+                                                "rubric":  "Highlights emotional language as signal of unmet need."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "bell hooks - The Critic",
+                                                "theory":  "Definition: hooks advocates for education as the \u0027practice of freedom.\u0027 Procedural Link: The action is to listen to the voices of the marginalized as the most reliable source of truth about systemic flaws.",
+                                                "specific_deliverable":  "A Marginalized User Transcript compiling feedback from dyslexic students, revealing the app\u0027s text-heavy failure.",
+                                                "rubric":  "Listens to marginalized voices as the source of truth."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "R. Murray Schafer - The Soundscaper",
+                                                "theory":  "Definition: Schafer founded the field of acoustic ecology. Procedural Link: The action is to listen to the soundscape of the environment where the work will be placed to ensure harmony.",
+                                                "specific_deliverable":  "An Audio Audit criticizing the repetitive \u0027ding\u0027 sound as a source of cognitive fatigue for users.",
+                                                "rubric":  "Listens to the soundscape/environment."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Miriam-Rose Ungunmerr-Baumann - The Elder",
+                                                "theory":  "Definition: Dadirri is an Aboriginal concept of inner, deep listening and quiet, still awareness. Procedural Link: The action is to practice Non-defensive listening—a quiet, inner stillness that allows the truth of the other to be received.",
+                                                "specific_deliverable":  "A Silence Analysis interpreting the lack of feedback from drop-outs as a sign of total disconnection and irrelevance.",
+                                                "rubric":  "Practices Non-defensive listening (Dadirri) without judgment."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.15",
+                         "name":  "Moodboard",
+                         "integrated_deliverable":  "A Brand Identity System.",
+                         "scenario":  "Rebranding a heritage museum for Gen Z.",
+                         "theory_application":  "Visually consolidate complex ideas, data, or emotions into a coherent aesthetic system that guides future creation.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Edward Tufte - The Visualizer",
+                                                "theory":  "Definition: Tufte emphasizes maximizing the data-ink ratio and visual clarity. Procedural Link: The action is to use the moodboard to visually consolidate complex data patterns, ensuring the representation is clear and honest.",
+                                                "specific_deliverable":  "A Data Viz Style Guide defining a minimalist aesthetic for timelines and infographics to ensure clarity.",
+                                                "rubric":  "Consolidates complex data patterns clearly and honestly."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "David Kelley - The Designer",
+                                                "theory":  "Definition: The first phase of Design Thinking is Empathy, requiring the designer to set aside their own assumptions. Procedural Link: The action is to use the moodboard to define the emotional tone of the desired user experience before designing features.",
+                                                "specific_deliverable":  "An Emotional Tone Board featuring bright colors and interactive textures to define the desired \u0027Playful Discovery\u0027 vibe.",
+                                                "rubric":  "Defines the emotional tone of the user experience."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Aby Warburg - The Curator",
+                                                "theory":  "Definition: Warburg\u0027s Mnemosyne Atlas mapped the migration of symbols across cultures. Procedural Link: The action is to use the moodboard to visually map historical and cultural memory by juxtaposing images to reveal connections.",
+                                                "specific_deliverable":  "A Cultural Memory Atlas juxtaposing historical photographs of the neighborhood with contemporary images to reveal the persistence of certain cultural forms.",
+                                                "rubric":  "Maps historical/cultural memory via image juxtaposition."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Architect",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to use the moodboard to define the aesthetic constraints and material palette for coherence.",
+                                                "specific_deliverable":  "A Material Palette Board collecting samples of wood, stone, and fabric to define the tactile and visual constraints for the interior design project.",
+                                                "rubric":  "Defines aesthetic constraints and material palette."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Joseph Campbell - The Mythologist",
+                                                "theory":  "Definition: Campbell\u0027s monomyth describes the universal archetypal structure of narrative. Procedural Link: The action is to use the moodboard to visually represent the core myth or archetype the community embodies.",
+                                                "specific_deliverable":  "An Archetype Visualizer using imagery of portals and gateways to brand the museum as a threshold to other worlds.",
+                                                "rubric":  "Visually represents the core myth or archetype."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.16",
+                         "name":  "Observation",
+                         "integrated_deliverable":  "A Field Study Video Reel.",
+                         "scenario":  "Improving safety in a busy warehouse.",
+                         "theory_application":  "Watch the phenomenon directly and systematically, looking for what is actually happening rather than what is supposed to happen.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Observer",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to observe the phenomenon focusing on what is *not* happening (the null result) to avoid confirmation bias.",
+                                                "specific_deliverable":  "A Null Event Log noting that \u0027zero accidents occurred in Zone B,\u0027 challenging the assumption that clutter causes falls.",
+                                                "rubric":  "Observes what is *not* happening (null result) to avoid bias."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Steve Blank - The Developer",
+                                                "theory":  "Definition: Customer Development is the process of testing assumptions with customers. Procedural Link: The action is to \u0027Get Out of the Building\u0027 and observe users in their natural habitat, focusing on workarounds.",
+                                                "specific_deliverable":  "A Workaround Video Clip showing workers bypassing the safety guard, proving the current design is unusable.",
+                                                "rubric":  "Observes workarounds in natural habitat."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Clifford Geertz - The Ethnographer",
+                                                "theory":  "Definition: Geertz defined \u0027thick description\u0027 as the interpretation of cultural meaning. Procedural Link: The action is to engage in \u0027deep hanging out\u0027—immersive, long-term presence to sense subtle cultural norms.",
+                                                "specific_deliverable":  "A Thick Description Note detailing the non-verbal communication rituals workers use to coordinate heavy lifts.",
+                                                "rubric":  "Engages in \u0027deep hanging out\u0027 to sense cultural norms."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Leonardo da Vinci - The Draftsman",
+                                                "theory":  "Definition: Da Vinci\u0027s notebooks integrated art and science through observation. Procedural Link: The action is to observe with a multi-modal focus, sketching the visual form while documenting underlying principles.",
+                                                "specific_deliverable":  "A Mechanic-Anatomic Sketch illustrating the forklift\u0027s blind spot relative to the driver\u0027s seated position.",
+                                                "rubric":  "Observes with multi-modal focus (visual + principle)."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Taiichi Ohno - The Manager",
+                                                "theory":  "Definition: The core principle of Lean is \u0027Go See\u0027 (Gemba)—going to the source of the problem. Procedural Link: The action is to practice \u0027Go See\u0027 (Gemba): go to the actual place where the problem is occurring.",
+                                                "specific_deliverable":  "A Gemba Walk Report documenting the actual flow of traffic, identifying the intersection where collisions are imminent.",
+                                                "rubric":  "Practices \u0027Go See\u0027 (Gemba) at the source."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.17",
+                         "name":  "Phenomenon",
+                         "integrated_deliverable":  "A Market Opportunity Analysis.",
+                         "scenario":  "The rise of \u0027Digital Nomads\u0027 post-pandemic.",
+                         "theory_application":  "Define the observable event or trend in precise terms to frame it as a subject for inquiry.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Scientist",
+                                                "theory":  "Definition: Popper requires a theory to be falsifiable. Procedural Link: The action is to define the phenomenon as a \u0027puzzle\u0027 that challenges the existing scientific theory.",
+                                                "specific_deliverable":  "A Behavioral Puzzle Statement framing the nomad trend as a contradiction to standard economic utility theory.",
+                                                "rubric":  "Defines phenomenon as a \u0027puzzle\u0027 challenging theory."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Tony Ulwick - The Strategist",
+                                                "theory":  "Definition: ODI focuses on identifying \u0027desired outcomes\u0027 that are measurable. Procedural Link: The action is to define the phenomenon as a \u0027desired outcome\u0027 that is currently underserved.",
+                                                "specific_deliverable":  "An Underserved Outcome Definition identifying \u0027guaranteed 100mbps in rural areas\u0027 as the primary unmet need.",
+                                                "rubric":  "Defines phenomenon as a \u0027desired outcome\u0027 that is underserved."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Philosopher",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action is to define the phenomenon as a \u0027discursive event\u0027—a moment where language and power intersect.",
+                                                "specific_deliverable":  "A Discourse Analysis Brief analyzing how the term \u0027Nomad\u0027 romanticizes precarious labor conditions.",
+                                                "rubric":  "Defines phenomenon as a \u0027discursive event\u0027."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Visualist",
+                                                "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to define the phenomenon as a \u0027visual problem\u0027—a tension in form demanding resolution.",
+                                                "specific_deliverable":  "A Visual Tension Study exploring the aesthetic contrast between high-tech gear and natural environments.",
+                                                "rubric":  "Defines phenomenon as a \u0027visual problem\u0027."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Thinker",
+                                                "theory":  "Definition: Systems thinking focuses on identifying leverage points—places in the system where a small shift can produce large changes. Procedural Link: The action is to define the phenomenon as a \u0027systemic pattern\u0027 that is causing chronic instability.",
+                                                "specific_deliverable":  "A Gentrification Loop Map identifying the systemic pattern of local displacement caused by global wage earners.",
+                                                "rubric":  "Defines phenomenon as a \u0027systemic pattern\u0027 of instability."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.18",
+                         "name":  "Problem Statement",
+                         "integrated_deliverable":  "A Request for Proposal (RFP).",
+                         "scenario":  "Addressing the lack of affordable housing in a major city.",
+                         "theory_application":  "Articulate the core issue in a way that invites specific types of solutions while defining the boundaries of the inquiry.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Logician",
+                                                "theory":  "Definition: Popper requires a theory to be falsifiable. Procedural Link: The action is to frame the problem statement as a falsifiable hypothesis that can be proven wrong.",
+                                                "specific_deliverable":  "A Falsifiable Policy Hypothesis stating \u0027Upzoning will reduce rents by 10% in 2 years,\u0027 setting a clear metric for failure.",
+                                                "rubric":  "Problem Statement is a falsifiable hypothesis."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Design Thinking - The Innovator",
+                                                "theory":  "Definition: Design Thinking uses the \u0027How Might We...\u0027 prompt to frame problems as opportunities. Procedural Link: The action is to frame the problem using the \u0027How Might We...\u0027 prompt to shift to creative possibility.",
+                                                "specific_deliverable":  "A HMW Opportunity Statement asking \u0027How might we incentivize developers to build for community, not just density?\u0027",
+                                                "rubric":  "Uses \u0027How Might We...\u0027 to translate problem to opportunity."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Rhetorician",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to frame the inquiry as a Claim that is specific, defensible, and significant.",
+                                                "specific_deliverable":  "A Core Argument Claim asserting that \u0027Speculation, not scarcity, is the primary driver of homelessness.\u0027",
+                                                "rubric":  "Frames inquiry as a specific, defensible Claim."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "David Kelley - The Empath",
+                                                "theory":  "Definition: The first phase of Design Thinking is Empathy, requiring the designer to set aside their own assumptions. Procedural Link: The action is to frame the problem by defining the emotional state the final work must evoke.",
+                                                "specific_deliverable":  "An Emotional Design Goal stating the architecture must convey \u0027stability and pride\u0027 to counteract the stigma of social housing.",
+                                                "rubric":  "Defines the emotional state the work must evoke."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Ethicist",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to frame the problem by defining the \u0027red lines\u0027—non-negotiable ethical boundaries.",
+                                                "specific_deliverable":  "A Non-Displacement Mandate (Red Line) explicitly forbidding any development that requires evicting current residents.",
+                                                "rubric":  "Explicitly lists 3+ ethical \u0027red lines\u0027 that constrain the project."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.19",
+                         "name":  "Provocation",
+                         "integrated_deliverable":  "A Design Sprint Prompt.",
+                         "scenario":  "Reinventing the grocery shopping experience.",
+                         "theory_application":  "Introduce a disruptive element—a surprise, a constraint, or a paradox—to force the system out of its habitual patterns and spark new thinking.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Gagné - The Teacher",
+                                                "theory":  "Definition: Gagné\u0027s Nine Events of Instruction begin with \u0027Gaining Attention.\u0027 Procedural Link: The action is to design the provocation to \u0027Gain Attention\u0027 by creating a surprising event.",
+                                                "specific_deliverable":  "A Data Shock Slide showing a mountain of wasted food equal to the store\u0027s sales, provoking immediate attention.",
+                                                "rubric":  "\u0027Gains Attention\u0027 by creating a knowledge gap/surprise."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Brian Eno - The Strategist",
+                                                "theory":  "Definition: Eno\u0027s cards introduce random constraints to force creative breakthroughs. Procedural Link: The action is to introduce a random, unrelated constraint to force the team out of habitual thinking.",
+                                                "specific_deliverable":  "A Constraint Card reading \u0027No Shelves Allowed,\u0027 forcing the team to invent new display methods.",
+                                                "rubric":  "Introduces a random constraint to force novel thinking."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Paulo Freire - The Radical",
+                                                "theory":  "Definition: Freire\u0027s method requires the educator to be a \u0027co-learner\u0027 with the oppressed, starting from their reality. Procedural Link: The action is to use a paradoxical text to challenge the student\u0027s worldview and spark inquiry.",
+                                                "specific_deliverable":  "A Contradictory Reading juxtaposing record crop yields with local hunger statistics to spark critical inquiry.",
+                                                "rubric":  "Uses a paradoxical text to challenge worldviews."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "John Cage - The Experimentalist",
+                                                "theory":  "Definition: Cage introduced chance operations to composition. Procedural Link: The action is to introduce an element of chance to force the artist to relinquish control.",
+                                                "specific_deliverable":  "A Randomized Floor Plan generated by dice rolls, forcing the architect to find logic in chaos.",
+                                                "rubric":  "Introduces chance to force relinquishing control."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Circle Way - The Facilitator",
+                                                "theory":  "Definition: The Circle Way uses a \u0027talking piece\u0027 to ensure equitable participation. Procedural Link: The action is to establish a \u0027talking piece\u0027 protocol to force deep listening.",
+                                                "specific_deliverable":  "A Talking Piece Protocol ensuring that the \u0027consumer\u0027 (holding the fruit) is heard over the \u0027expert.\u0027",
+                                                "rubric":  "Establishes a \u0027talking piece\u0027 protocol for equity."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.20",
+                         "name":  "Recognition",
+                         "integrated_deliverable":  "A Trend Analysis Report.",
+                         "scenario":  "Identifying the shift towards \u0027Slow Travel\u0027.",
+                         "theory_application":  "Validate the initial intuitive signal of a pattern by subjecting it to rigorous analysis, ensuring it is a true trend and not just noise.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Daniel Kahneman - The Psychologist",
+                                                "theory":  "Definition: Kahneman defines System 2 analysis (slow, deliberate). Procedural Link: The action is to use System 2 thinking to verify the initial System 1 recognition of an anomaly.",
+                                                "specific_deliverable":  "A Statistical Verification Report confirming that average trip duration has increased by 30%, validating the intuition.",
+                                                "rubric":  "Uses System 2 to verify System 1 recognition."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Tony Ulwick - The Strategist",
+                                                "theory":  "Definition: ODI focuses on identifying \u0027desired outcomes\u0027 that are measurable. Procedural Link: The action is to recognize the moment when the team realizes the unmet need is universal.",
+                                                "specific_deliverable":  "A Universal Need Statement identifying \u0027disconnection from technology\u0027 as the core driver, not destination.",
+                                                "rubric":  "Recognizes the unmet need is universal."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Roland Barthes - The Semiologist",
+                                                "theory":  "Definition: Barthes analyzed how cultural artifacts function as \u0027myths\u0027 (ideological narratives). Procedural Link: The action is to recognize the moment when the scholar sees the hidden ideological function of a cultural artifact.",
+                                                "specific_deliverable":  "A Myth Analysis decoding the shift in travel imagery from \u0027posed selfies\u0027 to \u0027unfiltered landscapes.\u0027",
+                                                "rubric":  "Recognizes the hidden ideological function (myth)."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Mihaly Csikszentmihalyi - The Researcher",
+                                                "theory":  "Definition: Flow is the optimal state where challenge matches skill, leading to deep immersion. Procedural Link: The action is to recognize the \u0027felt sense\u0027 that the emerging idea perfectly balances challenge and skill.",
+                                                "specific_deliverable":  "A Flow Potential Assessment linking longer stays to the psychological conditions required for flow state.",
+                                                "rubric":  "Recognizes the \u0027felt sense\u0027 of flow potential."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Howard Zehr - The Healer",
+                                                "theory":  "Definition: Restorative Justice focuses on repairing harm by addressing the needs of the victim. Procedural Link: The action is to recognize the moment when the community realizes the harm is systemic, not just individual.",
+                                                "specific_deliverable":  "A Systemic Harm Recognition identifying mass tourism as a violation of local dignity, requiring a restorative approach.",
+                                                "rubric":  "Recognizes the harm is systemic, not individual."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.21",
+                         "name":  "Responsibility",
+                         "integrated_deliverable":  "An Ethical Impact Statement.",
+                         "scenario":  "Deploying facial recognition technology in schools.",
+                         "theory_application":  "Explicitly document the ethical obligations, potential harms, and long-term consequences of the project before action is taken.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "The Belmont Report - The Ethicist",
+                                                "theory":  "Definition: The Belmont Report defines ethical principles for human subjects research, including Beneficence (maximizing benefit). Procedural Link: The action is to document the plan for \u0027Beneficence\u0027 (maximizing benefit) and \u0027Justice\u0027 (fairness).",
+                                                "specific_deliverable":  "A Risk/Benefit Analysis concluding that the psychological harm to students outweighs the marginal security gain.",
+                                                "rubric":  "Documents plan for Beneficence and Justice."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "RRI Framework - The Innovator",
+                                                "theory":  "Definition: RRI requires anticipating and mitigating unintended consequences. Procedural Link: The action is to document unintended negative consequences (e.g., addiction) and plan for mitigation.",
+                                                "specific_deliverable":  "A Mitigation Strategy for the \u0027function creep\u0027 of the technology, preventing it from being used for discipline.",
+                                                "rubric":  "Documents/mitigates unintended negative consequences."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Linda Tuhiwai Smith - The Decolonizer",
+                                                "theory":  "Definition: Smith advocates for decolonizing methodologies that center Indigenous concerns. Procedural Link: The action is to document the plan for \u0027Reciprocity\u0027—benefit and control for the community.",
+                                                "specific_deliverable":  "A Data Ownership Protocol ensuring students retain full legal ownership of their biometric templates.",
+                                                "rubric":  "Documents plan for Reciprocity/Control."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "William Morris - The Craftsman",
+                                                "theory":  "Definition: Morris emphasized the integrity of the material and the honesty of the craft process. Procedural Link: The action is to define responsibility to the material and the craft (honesty, durability).",
+                                                "specific_deliverable":  "A Transparency Design Spec requiring all sensors to be visibly marked and indicate when active.",
+                                                "rubric":  "Defines responsibility to material/craft honesty."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Steward",
+                                                "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The action is to ask: \u0027What impact will this action have on the seventh generation from now?\u0027",
+                                                "specific_deliverable":  "A Long-Term Impact Statement rejecting the technology because it conditions future generations to accept surveillance.",
+                                                "rubric":  "Considers impact on the seventh generation."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.22",
+                         "name":  "Salience",
+                         "integrated_deliverable":  "A Priority Matrix.",
+                         "scenario":  "Triaging bugs in a critical software release.",
+                         "theory_application":  "Identify the most critical signal amidst the noise by focusing on what stands out as a deviation, a pain point, or a vital sign.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Seeley et al. - The Neuroscientist",
+                                                "theory":  "Definition: The Salience Network detects behaviorally relevant stimuli. Procedural Link: The action is to treat the anomaly as a \u0027prediction error\u0027—a signal that the current model is wrong.",
+                                                "specific_deliverable":  "A Prediction Error Log flagging the \u0027Data Loss\u0027 bug as the highest magnitude error requiring immediate attention.",
+                                                "rubric":  "Treats anomaly as a \u0027prediction error\u0027 (wrong model)."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Daniel Kahneman - The Psychologist",
+                                                "theory":  "Definition: Kahneman defines System 2 analysis (slow, deliberate). Procedural Link: The action is to identify the \u0027pain point\u0027 that is so acute the customer cannot ignore it.",
+                                                "specific_deliverable":  "A User Pain Index ranking the \u0027Login Failure\u0027 as the most acute pain point preventing value capture.",
+                                                "rubric":  "Identifies the \u0027pain point\u0027 acute enough to demand solution."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Roland Barthes - The Critic",
+                                                "theory":  "Definition: Barthes analyzed how cultural artifacts function as \u0027myths\u0027 (ideological narratives). Procedural Link: The action is to identify the \u0027punctum\u0027—the detail that unexpectedly pierces the viewer.",
+                                                "specific_deliverable":  "A Semiotic Salience Report identifying the \u0027Typo in Header\u0027 as a punctum that destroys brand credibility.",
+                                                "rubric":  "Identifies the \u0027punctum\u0027 (piercing detail)."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Designer",
+                                                "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to identify the \u0027visual tension\u0027—the element most out of balance.",
+                                                "specific_deliverable":  "A Visual Tension Map highlighting the misaligned \u0027Submit\u0027 button as the primary compositional error.",
+                                                "rubric":  "Identifies \u0027visual tension\u0027 demanding resolution."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Antonio Damasio - The Ethicist",
+                                                "theory":  "Definition: Damasio\u0027s theory defines the \u0027somatic marker\u0027 (the body\u0027s emotional signal) guiding decision-making. Procedural Link: The action is to treat the \u0027gut feeling\u0027 as a signal flagging an ethical situation as urgent.",
+                                                "specific_deliverable":  "An Ethical Urgency Flag marking the \u0027Privacy Leak\u0027 as critical based on the team\u0027s somatic alarm response.",
+                                                "rubric":  "Treats \u0027gut feeling\u0027 as signal of ethical urgency."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.23",
+                         "name":  "Sensing",
+                         "integrated_deliverable":  "A User Journey Map.",
+                         "scenario":  "Mapping the patient experience in an Emergency Room.",
+                         "theory_application":  "Engage the senses and attention systems to gather raw, unfiltered data about the environment and the user experience.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Corbetta \u0026 Shulman - The Observer",
+                                                "theory":  "Definition: Attention is divided into DAN (top-down, goal-directed) and VAN (bottom-up, stimulus-driven). Procedural Link: The action is to engage the Dorsal Attention Network (DAN) for sustained, goal-directed observation.",
+                                                "specific_deliverable":  "A Process Flow Log documenting the exact time-on-task for 50 triage interactions (sustained focus).",
+                                                "rubric":  "Engages Dorsal Attention Network (DAN) for sustained observation."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Steve Blank - The Developer",
+                                                "theory":  "Definition: Customer Development is the process of testing assumptions with customers. Procedural Link: The action is to engage in \u0027fly on the wall\u0027 observation, passively watching user behavior.",
+                                                "specific_deliverable":  "A Passive Observation Report noting that 80% of patients pace due to lack of status updates (unmet need).",
+                                                "rubric":  "Engages in \u0027fly on the wall\u0027 observation."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Clifford Geertz - The Ethnographer",
+                                                "theory":  "Definition: Geertz defined \u0027thick description\u0027 as the interpretation of cultural meaning. Procedural Link: The action is to engage in \u0027deep hanging out\u0027—immersive, long-term presence to sense subtle cultural norms.",
+                                                "specific_deliverable":  "A Cultural Norms Brief describing the unspoken rule that \u0027quiet patients wait longer,\u0027 revealing a systemic bias.",
+                                                "rubric":  "Engages in \u0027deep hanging out\u0027 to sense cultural norms."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Varela et al. - The Phenomenologist",
+                                                "theory":  "Definition: Enaction theory states that cognition arises from the interaction between an organism and its environment. Procedural Link: The action is to engage in \u0027enactive sensing\u0027—learning through the body\u0027s interaction with the world.",
+                                                "specific_deliverable":  "An Embodied Experience Log documenting the physical pain and cold experienced during the 4-hour wait.",
+                                                "rubric":  "Engages in \u0027enactive sensing\u0027 (body-world interaction)."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Dialogist",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to engage in \u0027dialogic sensing\u0027—listening for multiple, competing voices.",
+                                                "specific_deliverable":  "A Multi-Voice Narrative Map contrasting the Doctor\u0027s narrative of \u0027efficiency\u0027 with the Patient\u0027s narrative of \u0027neglect.\u0027",
+                                                "rubric":  "Engages in \u0027dialogic sensing\u0027 (competing voices)."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.24",
+                         "name":  "Signal",
+                         "integrated_deliverable":  "A Dashboard of Key Indicators.",
+                         "scenario":  "Monitoring the health of a coral reef ecosystem.",
+                         "theory_application":  "Distinguish the meaningful information (signal) from the background randomness (noise) to identify the true state of the system.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Claude Shannon - The Theorist",
+                                                "theory":  "Definition: Information Theory defines information as the resolution of uncertainty. Procedural Link: The action is to define the signal as the information that reduces uncertainty about the phenomenon.",
+                                                "specific_deliverable":  "A Signal-to-Noise Filter isolating the 0.5C temperature rise trend from the daily tidal variance.",
+                                                "rubric":  "Defines signal as information reducing uncertainty."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Analyst",
+                                                "theory":  "Definition: The Lean Startup is built on the \u0027Build-Measure-Learn\u0027 loop, where the goal is to achieve validated learning. Procedural Link: The action is to define the signal as \u0027validated learning\u0027—a demonstrated truth about the market.",
+                                                "specific_deliverable":  "A Leading Indicator Report identifying \u0027bleaching events\u0027 as the validated metric for ecosystem collapse.",
+                                                "rubric":  "Defines signal as \u0027validated learning\u0027."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Ferdinand de Saussure - The Semiologist",
+                                                "theory":  "Definition: Saussure defined the sign as composed of the signifier (form) and signified (concept). Procedural Link: The action is to define the signal as the \u0027signifier\u0027—the word or image pointing to meaning.",
+                                                "specific_deliverable":  "A Semiotic Index interpreting \u0027bleaching\u0027 not just as biology, but as a cultural signifier of climate crisis.",
+                                                "rubric":  "Defines signal as the \u0027signifier\u0027 pointing to meaning."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Wassily Kandinsky - The Artist",
+                                                "theory":  "Definition: Kandinsky analyzed the point as the fundamental element of painting. Procedural Link: The action is to define the signal as the \u0027point\u0027—the minimal visual element with max expression.",
+                                                "specific_deliverable":  "A Minimalist Visual Study focusing on a single bleached coral branch to express the totality of the loss.",
+                                                "rubric":  "Defines signal as the \u0027point\u0027 (minimal element)."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Thinker",
+                                                "theory":  "Definition: Systems thinking focuses on identifying leverage points—places in the system where a small shift can produce large changes. Procedural Link: The action is to define the signal as a \u0027feedback loop\u0027 indicating system stability.",
+                                                "specific_deliverable":  "A Feedback Loop Diagram mapping the reinforcing cycle of \u0027algae growth -\u003e coral death\u0027 as the critical signal.",
+                                                "rubric":  "Defines signal as a \u0027feedback loop\u0027."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.25",
+                         "name":  "Sociological Imagination",
+                         "integrated_deliverable":  "A Case Study.",
+                         "scenario":  "Analyzing the student debt crisis.",
+                         "theory_application":  "Connect the individual experience of a problem to the broader historical, systemic, and structural forces that created it.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "C. Wright Mills - The Sociologist (Tech)",
+                                                "theory":  "Definition: The sociological imagination connects personal troubles to public issues. Procedural Link: The action is to connect a technical failure to the systemic political and economic forces.",
+                                                "specific_deliverable":  "A System Failure Analysis linking the \u0027glitchy website\u0027 directly to the policy goal of minimizing loan forgiveness.",
+                                                "rubric":  "Connects technical failure to systemic forces."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "C. Wright Mills - The Sociologist (Econ)",
+                                                "theory":  "Definition: The sociological imagination connects personal troubles to public issues. Procedural Link: The action is to connect a single user\u0027s \u0027personal trouble\u0027 to the \u0027public issue\u0027 (market failure).",
+                                                "specific_deliverable":  "A Public Issue Report reframing \u0027default rates\u0027 as a symptom of the \u0027wage stagnation\u0027 public issue.",
+                                                "rubric":  "Connects \u0027personal trouble\u0027 to \u0027public issue\u0027."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "C. Wright Mills - The Sociologist (Hist)",
+                                                "theory":  "Definition: The sociological imagination connects personal troubles to public issues. Procedural Link: The action is to link \u0027biography and history\u0027 to understand the intersection of life and structure.",
+                                                "specific_deliverable":  "A Biographical Timeline overlaying a student\u0027s life events with the history of tuition deregulation.",
+                                                "rubric":  "Links biography and history."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Walter Benjamin - The Critic",
+                                                "theory":  "Definition: Benjamin analyzed the loss of \u0027aura\u0027 in the age of mechanical reproduction. Procedural Link: The action is to connect the individual artwork to the system of mass production.",
+                                                "specific_deliverable":  "A Commodity Analysis framing the diploma as a mass-produced object that has lost its \u0027aura\u0027 and value.",
+                                                "rubric":  "Connects individual object to mass production system."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The Educator",
+                                                "theory":  "Definition: Freire\u0027s method requires the educator to be a \u0027co-learner\u0027 with the oppressed, starting from their reality. Procedural Link: The action is to connect the individual\u0027s lack of power to the systemic structures of oppression.",
+                                                "specific_deliverable":  "A Power Structure Map showing how debt functions as a tool to enforce conformity and silence dissent.",
+                                                "rubric":  "Connects individual lack of power to systemic oppression."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.26",
+                         "name":  "Stakeholder Needs",
+                         "integrated_deliverable":  "A Requirements Specification Document.",
+                         "scenario":  "Building a community solar grid.",
+                         "theory_application":  "Define the specific requirements and desires of all parties involved, ensuring that the solution addresses the full range of human and systemic needs.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "The Belmont Report - The Ethicist",
+                                                "theory":  "Definition: The Belmont Report defines ethical principles for human subjects research, including Beneficence (maximizing benefit). Procedural Link: The action is to define needs of human subjects in terms of \u0027Respect for Persons\u0027 and \u0027Beneficence\u0027.",
+                                                "specific_deliverable":  "A Consent Protocol ensuring residents have full autonomy (Respect for Persons) over their participation.",
+                                                "rubric":  "Defines needs as \u0027Respect for Persons\u0027 and \u0027Beneficence\u0027."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Tony Ulwick - The Strategist",
+                                                "theory":  "Definition: ODI focuses on identifying \u0027desired outcomes\u0027 that are measurable. Procedural Link: The action is to define needs as \u0027desired outcomes\u0027 that are measurable and controllable.",
+                                                "specific_deliverable":  "An Outcome Requirements List specifying \u0027reduce monthly cost by 20%\u0027 as a mandatory measurable outcome.",
+                                                "rubric":  "Defines needs as measurable \u0027desired outcomes\u0027."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Linda Tuhiwai Smith - The Researcher",
+                                                "theory":  "Definition: Smith advocates for decolonizing methodologies that center Indigenous concerns. Procedural Link: The action is to define needs in terms of \u0027Reciprocity\u0027 and \u0027Control\u0027 of the research.",
+                                                "specific_deliverable":  "A Community Ownership Clause mandating that the grid hardware and data belong to the neighborhood trust.",
+                                                "rubric":  "Defines needs as \u0027Reciprocity\u0027 and \u0027Control\u0027."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Donald Norman - The Designer",
+                                                "theory":  "Definition: Norman focuses on affordances and user understanding. Procedural Link: The action is to define needs in terms of \u0027discoverability\u0027 and \u0027feedback\u0027 (affordances).",
+                                                "specific_deliverable":  "A UI Affordance Spec requiring the meter to glow green when generating, providing immediate feedback.",
+                                                "rubric":  "Defines needs as \u0027discoverability\u0027 and \u0027feedback\u0027."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Steward",
+                                                "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The action is to define needs to include the long-term needs of the environment and future generations.",
+                                                "specific_deliverable":  "A Lifecycle Requirement mandating that all panels must be 100% recyclable to protect future generations.",
+                                                "rubric":  "Defines needs to include environment/future generations."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.27",
+                         "name":  "Tension",
+                         "integrated_deliverable":  "A Conflict Resolution Framework.",
+                         "scenario":  "Resolving conflict between privacy and security in an app.",
+                         "theory_application":  "Identify the opposing forces or values at the heart of the problem and use that conflict as the engine for generating a solution.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Scientist",
+                                                "theory":  "Definition: Popper requires a theory to be falsifiable. Procedural Link: The action is to frame the inquiry around the tension between the hypothesis and the falsifying data.",
+                                                "specific_deliverable":  "A Falsification Matrix pitting the \u0027Safety Hypothesis\u0027 against the \u0027Criminal Usage Data\u0027 to refine the encryption model.",
+                                                "rubric":  "Frames inquiry around tension between hypothesis and data."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Clayton Christensen - The Innovator",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The action is to frame the inquiry around the tension between sustaining and disruptive technologies.",
+                                                "specific_deliverable":  "An Innovation Dilemma Map showing the conflict between the \u0027Sustaining Ad Model\u0027 and the \u0027Disruptive Privacy Model.\u0027",
+                                                "rubric":  "Frames inquiry around tension between sustaining vs. disruptive."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jacques Derrida - The Philosopher",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The action is to frame the inquiry around the tension between the binary oppositions in the text.",
+                                                "specific_deliverable":  "A Binary Deconstruction revealing how the app\u0027s code relies on an unstable \u0027Public/Private\u0027 distinction.",
+                                                "rubric":  "Frames inquiry around tension between binary oppositions."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Designer",
+                                                "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to frame the inquiry around the tension between opposing forces (e.g., light/dark).",
+                                                "specific_deliverable":  "A Visual Force Diagram balancing the \u0027closed\u0027 iconography of security with the \u0027open\u0027 iconography of communication.",
+                                                "rubric":  "Frames inquiry around tension between opposing visual forces."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Isaiah Berlin - The Ethicist",
+                                                "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to frame the inquiry around the tension between conflicting core values.",
+                                                "specific_deliverable":  "A Value Trade-off Statement explicitly acknowledging the tragic choice between \u0027Absolute Privacy\u0027 and \u0027Public Safety.\u0027",
+                                                "rubric":  "Frames inquiry around tension between conflicting core values."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.28",
+                         "name":  "Prediction Error",
+                         "integrated_deliverable":  "A Surprise Log.",
+                         "scenario":  "An experiment yields the opposite of the expected result.",
+                         "theory_application":  "Identify the specific moment where reality violated your mental model, treating this surprise not as a failure but as the primary signal for inquiry.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Friston - The Neuroscientist",
+                                                "theory":  "Definition: The brain minimizes free energy by reducing prediction error. Procedural Link: The action is to isolate the specific data point that violated the hypothesis and treat it as the highest-value signal.",
+                                                "specific_deliverable":  "A Deviation Report.",
+                                                "rubric":  "Isolates the specific violation of expectation."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Entrepreneur",
+                                                "theory":  "Definition: A pivot is grounded in a failed prediction. Procedural Link: The action is to identify the customer behavior that contradicted the business model canvas assumptions.",
+                                                "specific_deliverable":  "A Failed Test Memo.",
+                                                "rubric":  "Identifies the customer behavior that contradicted the model."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Thomas Kuhn - The Historian",
+                                                "theory":  "Definition: Anomalies trigger paradigm shifts. Procedural Link: The action is to identify the historical event or text that cannot be explained by the current dominant theory.",
+                                                "specific_deliverable":  "An Anomaly Note.",
+                                                "rubric":  "Identifies the event that breaks the current theory."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Francis Bacon - The Painter",
+                                                "theory":  "Definition: The \u0027accident\u0027 disrupts the cliché. Procedural Link: The action is to preserve the accidental mark or glitch that disrupts the intended image, using it as the new focal point.",
+                                                "specific_deliverable":  "A Glitch Study.",
+                                                "rubric":  "Preserves the accidental mark as a focal point."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Systems Thinker",
+                                                "theory":  "Definition: Systems reveal themselves when they fail. Procedural Link: The action is to analyze the specific moment a social system failed to predict a crisis.",
+                                                "specific_deliverable":  "A System Shock Analysis.",
+                                                "rubric":  "Analyzes the system\u0027s failure to predict."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.29",
+                         "name":  "Positionality",
+                         "integrated_deliverable":  "A Researcher Bias Statement.",
+                         "scenario":  "A wealthy researcher studying poverty.",
+                         "theory_application":  "Explicitly map the identity, power, and context of the inquirer to understand how their specific vantage point shapes what they can and cannot see.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Donna Haraway - The Theorist",
+                                                "theory":  "Definition: Situated Knowledge opposes the \u0027God Trick\u0027 of objectivity. Procedural Link: The action is to explicitly state the technological and funding context that constrains the observer.",
+                                                "specific_deliverable":  "A Funding \u0026 Instrument Disclosure.",
+                                                "rubric":  "States technological/funding constraints."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Clayton Christensen - The Analyst",
+                                                "theory":  "Definition: The Innovator\u0027s Dilemma is caused by the firm\u0027s position in the value network. Procedural Link: The action is to map how the company\u0027s current profit model blinds it to emerging low-end threats.",
+                                                "specific_deliverable":  "A Value Network Map.",
+                                                "rubric":  "Maps how profit model creates blind spots."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Edward Said - The Critic",
+                                                "theory":  "Definition: Orientalism reveals how the scholar constructs the subject. Procedural Link: The action is to analyze how the scholar\u0027s cultural background pre-defines the object of study.",
+                                                "specific_deliverable":  "A Reflexivity Statement.",
+                                                "rubric":  "Analyzes cultural background\u0027s impact."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "John Berger - The Critic",
+                                                "theory":  "Definition: Ways of Seeing are determined by social standing. Procedural Link: The action is to acknowledge the artist\u0027s gaze and who it empowers or objectifies.",
+                                                "specific_deliverable":  "A Gaze Analysis.",
+                                                "rubric":  "Acknowledges the artist\u0027s gaze."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Linda Tuhiwai Smith - The Methodologist",
+                                                "theory":  "Definition: Decolonizing methodologies require locating oneself. Procedural Link: The action is to introduce oneself by lineage and land before speaking on community issues.",
+                                                "specific_deliverable":  "A Land \u0026 Lineage Acknowledgment.",
+                                                "rubric":  "Introduces self via lineage/land."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.30",
+                         "name":  "Interoception",
+                         "integrated_deliverable":  "A Somatic Marker Log.",
+                         "scenario":  "Feeling uneasy about a decision that looks good on paper.",
+                         "theory_application":  "Tune into internal bodily signals (heart rate, tension, \u0027gut feel\u0027) as a valid stream of data regarding the environment or problem.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Antonio Damasio - The Neuroscientist",
+                                                "theory":  "Definition: Somatic Markers guide decision-making under uncertainty. Procedural Link: The action is to record the physical sensation associated with a data anomaly before cognitive processing.",
+                                                "specific_deliverable":  "A Physiological Response Log.",
+                                                "rubric":  "Records physical sensation before logic."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "George Soros - The Investor",
+                                                "theory":  "Definition: Soros relied on back pain to signal market corrections. Procedural Link: The action is to treat physical discomfort as a leading indicator of hidden risk in a deal.",
+                                                "specific_deliverable":  "A Risk Intuition Note.",
+                                                "rubric":  "Treats discomfort as risk signal."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Audre Lorde - The Poet",
+                                                "theory":  "Definition: The Erotic as power is a deep, internal knowledge. Procedural Link: The action is to trust the internal sense of \u0027rightness\u0027 or \u0027wrongness\u0027 when analyzing a text or social situation.",
+                                                "specific_deliverable":  "A Felt Sense Journal.",
+                                                "rubric":  "Trusts internal sense of rightness."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Konstantin Stanislavski - The Director",
+                                                "theory":  "Definition: Emotional Memory requires physical recall. Procedural Link: The action is to use physical sensation to access the emotional truth of a character or scene.",
+                                                "specific_deliverable":  "A Sense Memory Exercise.",
+                                                "rubric":  "Uses sensation to access emotion."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Resmaa Menakem - The Healer",
+                                                "theory":  "Definition: Somatic Abolitionism locates trauma in the body. Procedural Link: The action is to notice the body\u0027s constriction or expansion in the presence of different bodies or ideas.",
+                                                "specific_deliverable":  "A Body Scan Record.",
+                                                "rubric":  "Notices constriction/expansion."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T1.31",
+                         "name":  "The Iceberg Model",
+                         "integrated_deliverable":  "A Systems Depth Chart.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Donella Meadows",
+                                                "domain":  "Systems Thinking",
+                                                "theory":  "Events are just the tip of the iceberg. Procedural Link: Trace the \u0027Event\u0027 down to the \u0027Mental Model\u0027 that sustains it.",
+                                                "specific_deliverable":  "A Depth Analysis Diagram.",
+                                                "rubric":  "Identifies layers: Event, Pattern, Structure, Mental Model."
+                                            }
+                                        ],
+                         "scenario":  "Diagnosing a recurring systemic failure.",
+                         "theory_application":  "Diagnose a problem by looking below surface events to find patterns, structures, and mental models."
+                     },
+                     {
+                         "id":  "T1.32",
+                         "name":  "SWOT / PESTEL Analysis",
+                         "integrated_deliverable":  "A Strategic Environment Scan.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Albert Humphrey",
+                                                "domain":  "Business Strategy",
+                                                "theory":  "Strategic planning requires matching internal capability with external environment. Procedural Link: Map internal factors (SWOT) against external macro-forces (PESTEL).",
+                                                "specific_deliverable":  "A Strategic Matrix.",
+                                                "rubric":  "Maps internal capabilities to external forces."
+                                            }
+                                        ],
+                         "scenario":  "Launching a product in a new country.",
+                         "theory_application":  "Systematically assess internal Strengths/Weaknesses and external Political, Economic, Social, and Tech factors."
+                     },
+                     {
+                         "id":  "T1.33",
+                         "name":  "Value Chain Analysis",
+                         "integrated_deliverable":  "A Value Flow Map.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Michael Porter",
+                                                "domain":  "Design Thinking",
+                                                "theory":  "Competitive advantage stems from discrete activities. Procedural Link: Dissect the organization into primary and support activities to find differentiation points.",
+                                                "specific_deliverable":  "A Value Chain Diagram.",
+                                                "rubric":  "Identifies specific activity adding margin."
+                                            }
+                                        ],
+                         "scenario":  "Finding inefficiencies in a manufacturing process.",
+                         "theory_application":  "Map the full lifecycle of value creation to identify where value is added and where it is lost."
+                     },
+                     {
+                         "id":  "T1.34",
+                         "name":  "Andragogy",
+                         "integrated_deliverable":  "Adult Learner Profile",
+                         "variations":  [
+                                            {
+                                                "expert":  "Malcolm Knowles",
+                                                "domain":  "Pedagogy",
+                                                "theory":  "Definition: Adult Learning. Link: Focus on immediate relevance and internal motivation.",
+                                                "specific_deliverable":  "Autonomy Map",
+                                                "rubric":  "Learner-led goals present"
+                                            }
+                                        ],
+                         "scenario":  "Designing professional development for experienced staff.",
+                         "theory_application":  "Apply Knowles\u0027 theory of adult learning to ensure the inquiry is self-directed and leverages existing experience."
+                     },
+                     {
+                         "id":  "T1.DT.1",
+                         "name":  "Wicked Problem",
+                         "integrated_deliverable":  "A Problem Framing Statement.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Nigel Cross - The Theorist",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Wicked problems are ill-defined and unique. Procedural Link: Designers solve these by imposing a temporary \u0027frame\u0027 to make the problem actionable.",
+                                                "specific_deliverable":  "A Problem Frame Visual.",
+                                                "rubric":  "Acknowledges ambiguity/lack of single solution."
+                                            },
+                                            {
+                                                "expert":  "Rittel \u0026 Webber - The Planners",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Solutions to wicked problems are not true-or-false, but good-or-bad. Procedural Link: Shift focus from \u0027optimizing\u0027 to \u0027satisficing\u0027 stakeholders.",
+                                                "specific_deliverable":  "A Stakeholder Alignment Map.",
+                                                "rubric":  "Focuses on \u0027good enough\u0027 consensus."
+                                            }
+                                        ],
+                         "scenario":  "Addressing a systemic issue like food insecurity.",
+                         "theory_application":  "Recognize that some problems have no \u0027stopping rule\u0027 and no single solution, requiring a reframing from \u0027solving\u0027 to \u0027improving\u0027."
+                     },
+                     {
+                         "id":  "T1.DT.2",
+                         "name":  "Ethnographic Research",
+                         "integrated_deliverable":  "A User Insight Report.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Jeanne Liedtka - The Researcher",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: The \u0027What Is?\u0027 phase requires \u0027deep hanging out\u0027. Procedural Link: Observe behavior in context (Gemba) rather than asking people what they want.",
+                                                "specific_deliverable":  "A Journey Map based on observation.",
+                                                "rubric":  "Based on observation, not survey data."
+                                            }
+                                        ],
+                         "scenario":  "Redesigning a hospital waiting room.",
+                         "theory_application":  "Move beyond surveys to immersive observation to understand the \u0027unarticulated needs\u0027 of the user."
+                     },
+                     {
+                         "id":  "T1.DT.3",
+                         "name":  "Latent Needs",
+                         "integrated_deliverable":  "A Latent Need Statement.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Tim Brown",
+                                                "domain":  "Business",
+                                                "theory":  "Designers look for what people do, not what they say.",
+                                                "specific_deliverable":  "Observation Log",
+                                                "rubric":  "Identifies unstated need."
+                                            }
+                                        ],
+                         "scenario":  "Users struggling with a product but not complaining.",
+                         "theory_application":  "Identify needs that users feel but cannot articulate."
+                     },
+                     {
+                         "id":  "T1.DT.4",
+                         "name":  "Co-evolution",
+                         "integrated_deliverable":  "A Problem-Solution Evolution Map.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Nigel Cross",
+                                                "domain":  "Design Theory",
+                                                "theory":  "Design is a dialectic between problem and solution.",
+                                                "specific_deliverable":  "Evolution Log",
+                                                "rubric":  "Tracks how solution changed problem def."
+                                            }
+                                        ],
+                         "scenario":  "Iterating on a prototype changes the project goal.",
+                         "theory_application":  "Recognize that the problem and solution evolve together; defining one helps define the other."
+                     }
+                 ]
+}

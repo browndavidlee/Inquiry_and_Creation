@@ -1,0 +1,43 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "title":  "Project Genesis: The Scaffold Self-Build",
+    "guidingQuestion":  "How can we create a comprehensive, self-referential case study by applying all 240+ nodes to the framework\u0027s own construction, thereby validating its universality and providing a master-level exemplar that is simultaneously accessible to novices and rigorous for experts, ultimately demonstrates its procedural completeness and serves as a detailed example for users?",
+    "phases":  [
+                   {
+                       "phaseTitle":  "Phase 1: Tool 1 - Define the Inquiry",
+                       "phaseGoal":  "To frame \u0027Project Genesis\u0027 with maximum clarity, purpose, and ethical consideration.",
+                       "nodes":  [
+                                     {
+                                         "uid":  "N07",
+                                         "name":  "Run a \u0027See-Think-Wonder\u0027 Routine",
+                                         "action":  "We initiated the project by applying the \u0027See-Think-Wonder\u0027 routine to the framework application itself, moving from a vague goal to a concrete line of questioning.",
+                                         "deliverable":  "A set of documented \u0027Wonder\u0027 questions that served as the project\u0027s initial spark.",
+                                         "reasoning":  "This was the first step in operationalizing our Guiding Question. These \u0027wonderings\u0027 provided the direct input for our next action: conducting a Root Cause Analysis."
+                                     },
+                                     {
+                                         "uid":  "N87",
+                                         "name":  "Conduct Root Cause Analysis",
+                                         "action":  "We applied the \u00275 Whys\u0027 technique to our central \u0027wondering\u0027 to diagnose the core problem this project needed to solve.",
+                                         "deliverable":  "A documented Root Cause Analysis, concluding that the framework\u0027s core value (its process) was too abstract and needed to be made tangible.",
+                                         "reasoning":  "This analysis, prompted by the initial \u0027wonderings\u0027 from N07, was critical for shifting our project\u0027s goal from simply \u0027making an example\u0027 to the deeper challenge of \u0027making the implicit process explicit.\u0027"
+                                     },
+                                     {
+                                         "uid":  "N111",
+                                         "name":  "Create a Rich Picture",
+                                         "action":  "We created a visual map of the \u0027messy situation,\u0027 illustrating the tension between the framework\u0027s complexity and the user\u0027s need for a clear path.",
+                                         "deliverable":  "A Rich Picture diagram identifying the key actors (New User, Expert User) and the central conflict to be resolved.",
+                                         "reasoning":  "This visual map, which translated the verbal problem from N87 into a systemic view, provided the direct input for identifying the key stakeholders in the next node."
+                                     }
+                                 ],
+                       "_tag_phaseTitle":  "JSON@project_genesis_content.json::genesis.phase[0].title",
+                       "_tag_phaseGoal":  "JSON@project_genesis_content.json::genesis.phase[0].goal"
+                   }
+               ],
+    "_tag_title":  "JSON@project_genesis_content.json::genesis.header.title",
+    "_tag_guidingQuestion":  "JSON@project_genesis_content.json::genesis.header.guidingQuestion"
+}

@@ -1,0 +1,988 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "id":  "tool4",
+    "uid":  "T4",
+    "name":  "Select a Course of Action",
+    "simpleName":  "Decide",
+    "keyQuestion":  "Based on our criteria, which option warrants our commitment?",
+    "color":  "var(--color-tool-4)",
+    "keyDeliverables":  "A documented decision, a list of prioritized options, and a clear statement of the trade-offs made.",
+    "principle":  "To make a committed decision by consciously integrating objective data, systemic strategy, shared values, and expert intuition into a single, chosen path.",
+    "keyMediatingArtifact":  "Prioritized Plan",
+    "jtbdAnalysis":  {
+                         "coreJobStory":  "When my team is overwhelmed by too many good options, help us make a clear, confident, and defensible decision, so we can stop deliberating and start moving forward with unified focus.",
+                         "hiringCircumstance":  "The team is stuck in \u0027analysis paralysis.\u0027 The \u0027Push\u0027 is the pain of circular arguments and lack of progress. The \u0027Habit\u0027 is to avoid the decision or let the most senior person dictate. The \u0027Anxiety\u0027 is about choosing the wrong path and the social fallout of rejecting ideas.",
+                         "practitioner":  {
+                                              "job":  "Evaluate the portfolio of options against established criteria to make a clear, defensible decision that aligns the team and enables focused execution.",
+                                              "plan":  [
+                                                           "**Re-anchor in Criteria:** Before debating options, revisit the Success Criteria (`N09`) from Tool 2. Use these as the objective rubric to filter the subjective noise.",
+                                                           "**Externalize the Decision:** Use a prioritization matrix (e.g., Impact vs. Effort, RICE). Moving the debate from verbal argument to visual scoring reduces social friction.",
+                                                           "**Name the Sacrifice:** Explicitly state what you are choosing *not* to do. Strategy is sacrifice. Acknowledge the value of the rejected options to validate their proponents.",
+                                                           "**Finalize with Will:** Decision-making is an act of volition, not just calculation. Make the call, document it, and communicate it clearly to end the deliberation phase."
+                                                       ]
+                                          },
+                         "facilitator":  {
+                                             "job":  "Facilitate a structured decision-making process that clarifies trade-offs, ensures all options are evaluated against consistent criteria, and results in a clear, well-reasoned commitment.",
+                                             "plan":  [
+                                                          "**Enforce the Protocol:** Introduce a specific decision tool (e.g., Dot Voting, Decision Matrix). Your job is to ensure the process is followed rigorously to prevent HiPPO (Highest Paid Person\u0027s Opinion) bias.",
+                                                          "**Facilitate the Trade-off:** Guide the team to face the \u0027Tragic Choice.\u0027 Ask: \u0027If we choose A, we lose B. Are we willing to pay that price?\u0027 Make the implicit cost explicit.",
+                                                          "**Clarify Decision Rights:** Before starting, define how the decision is made. Is it Consensus, Consent, or Leader Decides? Ambiguity here breeds resentment.",
+                                                          "**Ritualize the Commitment:** Once decided, create a moment of closure. Have the team verbally commit to the path (\u0027Disagree and Commit\u0027) to prevent re-litigation."
+                                                      ]
+                                         },
+                         "forces":  {
+                                        "push":  "We\u0027re going in circles. We can\u0027t do everything, we have to choose.",
+                                        "pull":  "This tool promises a rational, transparent process for making a tough call.",
+                                        "habit":  "Let the most senior person decide. Let\u0027s just do a little bit of everything.",
+                                        "anxiety":  "What if we choose the wrong path? What if the people whose ideas aren\u0027t chosen get upset?"
+                                    }
+                     },
+    "perspectives":  {
+                         "psychologicalDynamics":  {
+                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "simpleTitle":  "Emotional Hurdles",
+                                                       "content":  "Decision-making is a battle between the logical ECN and the emotional Valuation Network (vmPFC). The core friction is \u0027Loss Aversion\u0027—the brain\u0027s tendency to feel the pain of losing options more strongly than the pleasure of choosing one.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
+                                                                                                     "**Monitor Cognitive Load:** Recognize the signs of ECN depletion (irritability, tunnel vision). If the team is fried, the only valid intervention is Rest.",
+                                                                                                     "**Switch Networks:** Consciously toggle the team\u0027s state. If they are stuck in analysis (ECN), force a move to play (DMN)."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Regulate Group Arousal:** Act as the \u0027external amygdala regulator.\u0027 If the room is hot (conflict), lower the temperature. If cold (boredom), raise it.",
+                                                                                                    "**Spot \u0027Attentional Blink\u0027:** When the team is hyper-focused on a detail, interrupt to force a \u0027global\u0027 attention check.",
+                                                                                                    "**Promote \u0027Agency\u0027:** Giving the team control over their process releases Dopamine. Ask: \u0027How do *you* want to solve this?\u0027"
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "integrativeStrategies":  {
+                                                       "title":  "🧠© Integrative Strategies",
+                                                       "simpleTitle":  "Ways to Connect Ideas",
+                                                       "content":  "This tool integrates analytical rigor with ethical and emotional intelligence to make wiser choices.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Force Bisociation:** Deliberately collide two unrelated frames (e.g., \u0027Treat this software bug as a biological virus\u0027). Novelty lives at the intersection.",
+                                                                                                     "**Bridge the Qualitative/Quantitative:** If you have data, find the story. If you have a story, find the data. The inquiry lies in the gap between them.",
+                                                                                                     "**Map the System:** Don\u0027t just define the node (the problem); define the edges (the relationships). How does this problem sustain the larger system?"
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Translate Vocabularies:** Actively translate jargon. \u0027When the engineer says \u0027latency,\u0027 the anthropologist hears \u0027friction.\u0027 How are these the same?\u0027",
+                                                                                                    "**Use Metaphorical Mapping:** Introduce a root metaphor (e.g., \u0027Ecosystem,\u0027 \u0027Machine,\u0027 \u0027Journey\u0027) to give the diverse group a shared cognitive handle.",
+                                                                                                    "**Synthesize in Real-Time:** Listen for the \u0027third way.\u0027 When the group is stuck in a binary (A vs B), identify the higher-order synthesis (C) that resolves it."
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "CultureTraditionsAndEthics":  {
+                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "simpleTitle":  "Ethical Viewpoints",
+                                                            "content":  "This perspective frames decision-making not as a calculation, but as an act of discernment and ethical commitment.",
+                                                            "dynamic_playbook":  {
+                                                                                     "practitioner":  [
+                                                                                                          "**Audit Positionality:** Explicitly map your own power relative to the subject. Ask: \u0027Does my identity obscure the true nature of this problem?\u0027",
+                                                                                                          "**Identify the Silenced:** Conduct a \u0027Negative Space Analysis.\u0027 Who is *not* in the room? Whose data is missing? Frame the inquiry to center these voices.",
+                                                                                                          "**Shift to Relationality:** Reframe the \u0027problem\u0027 as a \u0027broken relationship.\u0027 Instead of \u0027fixing X,\u0027 ask \u0027how do we restore right relationship with X?\u0027"
+                                                                                                      ],
+                                                                                     "facilitator":  [
+                                                                                                         "**Disrupt Hierarchy:** Enforce a \u0027Circle Process\u0027 or \u0027Talking Piece\u0027 protocol. Ensure the most junior or marginalized voices speak before the leaders to prevent anchoring.",
+                                                                                                         "**Interrogate the Mandate:** Ask the group: \u0027Is this inquiry serving the community, or merely extracting value from it?\u0027 (Reciprocity Check).",
+                                                                                                         "**Expand the \u0027We\u0027:** When the group says \u0027We need to...\u0027, ask \u0027Who is We?\u0027 Force a precise definition of the collective subject and its boundaries."
+                                                                                                     ]
+                                                                                 }
+                                                        },
+                         "strategicStreams":  {
+                                                  "dynamic_playbook":  {
+                                                                           "practitioner":  [
+                                                                                                "**Diagnose Your State:** Identify which of the core streams (e.g., Somatic, Diagnostic, Relational) feels blocked or weak right now.",
+                                                                                                "**Select a Stream:** Choose one of the streams listed in the \u0027Strategic Streams\u0027 perspective.",
+                                                                                                "**Apply the Prompt:** Ask yourself the \u0027Application Prompt\u0027 associated with that stream to generate a new insight or action.",
+                                                                                                "**Cross-Pollinate:** Apply a stream from a different tool to your current problem (e.g., Apply Tool 3\u0027s \u0027Divergent\u0027 stream to Tool 7\u0027s \u0027Analysis\u0027 to find more bugs)."
+                                                                                            ],
+                                                                           "facilitator":  [
+                                                                                               "**Diagnose the Group State:** Observe the team\u0027s behavior. Which stream is the group neglecting?",
+                                                                                               "**Introduce a Stream as an Intervention:** Use the \u0027Application Prompt\u0027 as a public question to shift the team\u0027s focus.",
+                                                                                               "**Facilitate Cross-Pollination:** Explicitly ask the group, \u0027How would we apply the \u0027Subtractive\u0027 stream from Tool 4 to our current task in Tool 6?\u0027"
+                                                                                           ]
+                                                                       }
+                                              },
+                         "cognitiveModel":  {
+                                                "stage_id":  "tool4",
+                                                "stage_name":  "Decision \u0026 Commitment",
+                                                "pathways":  [
+                                                                 {
+                                                                     "pathway_name":  "ðŸš€ HP0: The Diagnostic Path (Cynefin-Informed)",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Analyze Context",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Parietal Lobe"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Causal Analysis"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Analyzing a problem\u0027s causal structure is a high-level executive function, engaging the ECN for goal-directed analysis and the parietal lobe for processing abstract relationships.",
+                                                                                                                             "supporting_evidence":  "Neuroimaging studies of logical reasoning and problem-solving.",
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Categorize Domain",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Anterior Cingulate Cortex (ACC)",
+                                                                                                                                                 "Salience Network (SN)"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Categorical Judgment"
+                                                                                                                                                   },
+                                                                                                                       "network_dynamics":  {
+                                                                                                                                                "state_transition_edge":  "A rapid judgment to classify the situation."
+                                                                                                                                            }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Categorizing a situation involves comparing its features against known schemas, with the ACC flagging conflict and the SN signaling the \u0027best fit\u0027 category.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Select Pathway",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Hippocampus"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Rule-Based Retrieval \u0026 Selection"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Selecting the appropriate pathway is a rule-based decision, where the ECN retrieves the correct procedure from memory (via the Hippocampus) based on the diagnosed category.",
+                                                                                                                             "supporting_evidence":  "Models of goal-directed behavior and procedural memory.",
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway uses the Cynefin framework as a metacognitive scaffold, helping the ECN categorize the problem domain before selecting a strategy, preventing the error of applying a simple tool to a complex problem."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "🧠  Cognitive States of the Cynefin Domains",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Clear: Best Practice",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Basal Ganglia",
+                                                                                                                                                 "Cerebellum"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 1",
+                                                                                                                                                       "processing_style":  "Habitual / Automated Response"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Applying a best practice is a highly learned, automated skill that relies on the brain\u0027s habit-formation circuits (Basal Ganglia), requiring minimal executive control.",
+                                                                                                                             "supporting_evidence":  "The neuroscience of habit formation and procedural memory.",
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Complicated: Expert Analysis",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Dorsal Attention Network (DAN)"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Analytical, Goal-Directed Reasoning"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Expert analysis is the canonical function of the ECN, involving sustained attention (DAN), working memory, and logical, rule-based problem-solving.",
+                                                                                                                             "supporting_evidence":  "Models of cognitive control and expert decision-making.",
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Complex: Emergent Practice",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "DMN",
+                                                                                                                                                 "SN",
+                                                                                                                                                 "ECN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Iterative Probing \u0026 Sensing"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Navigating complexity requires a dynamic interplay between generating creative experiments (DMN), executing them (ECN), and detecting salient feedback (SN) to guide the next action.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "beaty-2016"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T4",
+                                                                                          "pfic_word":  "Chaotic: Rapid Response",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Limbic System",
+                                                                                                                                                 "ECN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 1 (initially)",
+                                                                                                                                                       "processing_style":  "Threat-Driven, Decisive Action"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "In a crisis, the brain\u0027s threat-detection system (Limbic System) can directly influence the executive system to take immediate, decisive action, prioritizing speed over accuracy.",
+                                                                                                                             "supporting_evidence":  "The neuroscience of fear, stress, and decision-making under pressure.",
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This model maps the four Cynefin domains to distinct neurocognitive states, helping the practitioner recognize which brain networks must be online to navigate the current context effectively."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Principles\u0027 Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Sense Indecision",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ACC",
+                                                                                                                                                 "ECN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Conflict"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ACC signals high conflict as the ECN is unable to resolve competition between multiple, equally valued options.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "(Transition)",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Hippocampus"
+                                                                                                                                             ],
+                                                                                                                       "network_dynamics":  {
+                                                                                                                                                "state_transition_edge":  "Sharp Edge (memory retrieval)."
+                                                                                                                                            }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN initiates a deliberate memory search for the project\u0027s foundational principles.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "squire-2009"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Retrieve Principles",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "DMN",
+                                                                                                                                                 "Hippocampus",
+                                                                                                                                                 "Language Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Retrieval"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The DMN/Hippo retrieves the memory of the principles, which are articulated by the Language Network.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "raichle-2015"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T4",
+                                                                                          "pfic_word":  "(Transition)",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Valuation Network (VNM)"
+                                                                                                                                             ],
+                                                                                                                       "network_dynamics":  {
+                                                                                                                                                "state_transition_edge":  "Soft Edge (re-evaluation)."
+                                                                                                                                            }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN holds the retrieved principles in working memory as the new, primary criteria for the Valuation Network.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "diamond-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T5",
+                                                                                          "pfic_word":  "Re-evaluate \u0026 Decide",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Valuation Network (VNM)",
+                                                                                                                                                 "ECN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Value-Based Choice"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The VNM re-evaluates the options against the now-salient core principles, producing a clearer value signal that allows the ECN to make a decisive choice.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "rangel-2008"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway resolves decision paralysis by shifting from a bottom-up comparison of features to a top-down application of core values (vmPFC), simplifying the choice architecture."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Decision Log\u0027 Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Sense Amnesia",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "ACC"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Conflict"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN\u0027s attempt to justify a decision is met with an ACC signal indicating a gap in the logical chain (missing rationale).",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "(Transition)",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Hippocampus"
+                                                                                                                                             ],
+                                                                                                                       "network_dynamics":  {
+                                                                                                                                                "state_transition_edge":  "Sharp Edge (memory retrieval)."
+                                                                                                                                            }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN initiates a targeted search of episodic memory for a similar past decision event.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "squire-2009"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Review Log",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "DMN",
+                                                                                                                                                 "Hippocampus",
+                                                                                                                                                 "Language Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Replay \u0026 Analysis"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The DMN/Hippo replays the memory of the past decision process, and the Language Network decodes the documented rationale.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "raichle-2015"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T4",
+                                                                                          "pfic_word":  "(Transition)",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  "ECN",
+                                                                                                                       "network_dynamics":  {
+                                                                                                                                                "state_transition_edge":  "Soft Edge (schema loading)."
+                                                                                                                                            }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN holds the retrieved logical pattern in working memory.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "diamond-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T5",
+                                                                                          "pfic_word":  "Apply Logic",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Language Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Analogical Reasoning"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN applies the recalled reasoning pattern to the current decision, using the Language Network to articulate the now-remembered justification.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "hofstadter-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway combats \u0027decision amnesia\u0027 by retrieving the documented rationale for past choices, allowing the team to learn from the delta between expected and actual outcomes."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "🌍  HP7: The Precedent Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "pfic_word":  "Recognize Pattern",
+                                                                                          "step":  "T1",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ACC",
+                                                                                                                                                 "SN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 1",
+                                                                                                                                                       "processing_style":  "Pattern Matching"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ACC and Salience Network detect a similarity between the current decision and past experiences, flagging it as a recognizable pattern."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Retrieve Precedent",
+                                                                                          "step":  "T2",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Hippocampus"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Episodic Memory Search"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN initiates a deliberate search of episodic memory (via the Hippocampus) for the specific past decision and its documented rationale."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Apply or Differentiate",
+                                                                                          "step":  "T3",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Parietal Lobe"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Analogical Reasoning"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN holds both the past and present contexts in working memory, while the Parietal Lobe performs the analogical reasoning required to determine if the past logic applies or if the current context is significantly different."
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway engages the Salience Network to detect high-leverage nodes within a complex system, directing executive attention to where a small intervention can produce a non-linear result."
+                                                                 }
+                                                             ],
+                                                "dynamic_playbook":  {
+                                                                         "practitioner":  [
+                                                                                              "**Identify Your Pathway:** Review the pathways. Which one best matches the work you are trying to do right now?",
+                                                                                              "**Diagnose Friction:** If you feel stuck, check the \u0027Neurocognitive State\u0027 of your current step. Are you trying to do analytical work in a generative state?",
+                                                                                              "**Optimize the Sequence:** Follow the pathway\u0027s sequence. Don\u0027t skip the \u0027priming\u0027 or \u0027transition\u0027 steps."
+                                                                                          ],
+                                                                         "facilitator":  [
+                                                                                             "**Diagnose the Group Brain:** Look at the group\u0027s behavior. Which pathway are they attempting? Where are they getting stuck?",
+                                                                                             "**Facilitate Network Switching:** Use the \u0027Transition\u0027 steps in the pathways to help the group shift modes.",
+                                                                                             "**Reduce Cognitive Load:** Use the model to identify high-load steps. Provide scaffolding (templates, visuals) during these steps."
+                                                                                         ]
+                                                                     }
+                                            },
+                         "embodiedDynamics":  {
+                                                  "title":  "🤸 Embodied Dynamics",
+                                                  "simpleTitle":  "The Body\u0027s Role",
+                                                  "content":  "Decision-making has a strong somatic component. A \u0027gut feeling\u0027 is a real signal from the Insula and vmPFC processing complex data non-consciously. A decision that feels wrong in the body, even if logically sound, often has hidden risks.",
+                                                  "dynamic_playbook":  {
+                                                                           "practitioner":  [
+                                                                                                "After the logical analysis, pause and do a \u0027gut check.\u0027 How does this decision feel?",
+                                                                                                "Use physical voting (like standing by a choice) to make commitment tangible."
+                                                                                            ],
+                                                                           "facilitator":  [
+                                                                                               "Use somatic polling (\u0027Fist to Five\u0027) to gauge not just agreement, but the level of energy and commitment.",
+                                                                                               "Watch for misalignments between verbal \u0027yes\u0027 and tense body language."
+                                                                                           ]
+                                                                       }
+                                              },
+                         "cognitiveNeuroscience":  {
+                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "simpleTitle":  "The Brain at Work",
+                                                       "content":  "Decision-making involves the Valuation Network (vmPFC) assigning subjective value to options, and the Executive Control Network (ECN) selecting an option based on goals.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Identify the Cognitive State:** Read the description. What is the primary mental work required for this tool?",
+                                                                                                     "**Anticipate Friction:** Based on the neuroscience, what part of this tool will be the most mentally taxing?",
+                                                                                                     "**Self-Regulate:** Use the insights to manage your own energy (e.g., \u0027This is an ECN-heavy tool, so I need to eliminate distractions\u0027)."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Diagnose the Group Brain:** Observe the team. Are they in the right cognitive state for this tool?",
+                                                                                                    "**Design for the Brain:** Structure the activity to support the required cognitive function (e.g., provide quiet time for DMN-heavy tasks).",
+                                                                                                    "**Explain the \u0027Why\u0027:** Use the neuroscience to explain why a specific process rule is important (e.g., \u0027We defer judgment to let our DMN associate freely\u0027)."
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "comparativeAnalysis":  {
+                                                     "summary":  "How \u0027Select\u0027 differs from voting or executive fiat.",
+                                                     "title":  "Comparative Analysis",
+                                                     "selection_logic":  "Use this tool when the choice is high-stakes. Use voting for low-stakes preferences.",
+                                                     "simpleTitle":  "Vs. Other Models",
+                                                     "models":  [
+                                                                    {
+                                                                        "value_add":  "Tool 4 uses \u0027RICE Scoring\u0027 and \u0027Values Alignment\u0027 to weight options against strategic goals, not just immediate benefits.",
+                                                                        "derivation":  "Decision Theory",
+                                                                        "model":  "Pros/Cons List",
+                                                                        "comparison":  "Pros/Cons lists lack weighting and strategic alignment.",
+                                                                        "vector":  "Evaluation"
+                                                                    },
+                                                                    {
+                                                                        "value_add":  "Tool 4 democratizes the decision using data and transparent criteria, reducing bias and increasing team buy-in.",
+                                                                        "derivation":  "Corporate Governance",
+                                                                        "model":  "HiPPO",
+                                                                        "comparison":  "HiPPO (Highest Paid Person\u0027s Opinion) relies on authority.",
+                                                                        "vector":  "Authority"
+                                                                    }
+                                                                ],
+                                                     "dynamic_playbook":  {
+                                                                              "practitioner":  [
+                                                                                                   "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                                   "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                                   "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead."
+                                                                                               ],
+                                                                              "facilitator":  [
+                                                                                                  "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                                  "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                                  "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails."
+                                                                                              ]
+                                                                          }
+                                                 },
+                         "teamDynamics":  {
+                                              "title":  "🤝 Team Dynamics",
+                                              "simpleTitle":  "How We Work Together",
+                                              "content":  "This stage is a high-risk moment for team cohesion. The rejection of ideas can feel personal. The key dynamic is moving from advocacy to inquiry, and finally to a shared commitment, even if individuals disagree.",
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "Advocate for your choice, but be prepared to \u0027disagree and commit\u0027.",
+                                                                                            "Acknowledge the value in the ideas that were not chosen."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "Clarify the decision rule *before* the debate (e.g., consensus, consent, leader decides).",
+                                                                                           "Ritualize the commitment to prevent re-litigation of the decision later."
+                                                                                       ]
+                                                                   }
+                                          },
+                         "frameworkImplications":  {
+                                                       "title":  "Strategic Role",
+                                                       "icon":  "fas fa-chess-board",
+                                                       "summary":  "This tool is the convergent peak and the highest-leverage pivot point, transforming the friction of deliberation into the focus of commitment.",
+                                                       "points":  [
+                                                                      "**Constrains the Future:** The decision made here gives the project a singular vector, constraining all subsequent tools and focusing all team energy.",
+                                                                      "**Tests Alignment:** A good decision is not just about picking the \u0027best\u0027 idea, but about picking the one that best serves the core purpose established in Tool 1.",
+                                                                      "**Manages Social Cost:** The facilitator\u0027s job of clarifying trade-offs is critical for building team cohesion and ensuring unified action in Tool 6."
+                                                                  ],
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Draft the \u0027North Star\u0027:** Write a single sentence that defines the ultimate, long-term impact of this inquiry.",
+                                                                                                     "**Audit for Alignment:** Explicitly check this inquiry against the organization\u0027s high-level OKRs or mission statement.",
+                                                                                                     "**Define \u0027Anti-Goals\u0027:** Strategically define what this project is *not* about."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Facilitate the \u0027Why Now?\u0027 Discussion:** Ask the team: \u0027Why is this the most important thing to do *right now*?\u0027",
+                                                                                                    "**Check Executive Sponsorship:** Ensure there is a clear owner who has the authority to act on the findings.",
+                                                                                                    "**Calibrate Ambition:** Help the team size the strategic bet. Is this a \u0027moonshot\u0027 or an \u0027optimization\u0027?"
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "cynefinAnalysis":  {
+                                                 "title":  "🧭 Navigational Context",
+                                                 "simpleTitle":  "Complexity Check",
+                                                 "content":  "The decision model must match the domain. Complicated problems need analysis; Complex problems need probes.",
+                                                 "dynamic_playbook":  {
+                                                                          "practitioner":  [
+                                                                                               "**Diagnose the Domain:** If the problem has no right answer, you are in **Complexity**. Stop planning; start probing. Shift from \u0027Analyst\u0027 to \u0027Naturalist.\u0027",
+                                                                                               "**Resist Premature Convergence:** If you can already visualize the solution, you are likely solving the wrong (Complicated) problem. Force yourself to widen the aperture.",
+                                                                                               "**Hunt for Patterns:** Do not look for a single root cause (linear). Look for recurring clusters of behavior or \u0027attractors\u0027 that suggest an underlying dynamic."
+                                                                                           ],
+                                                                          "facilitator":  [
+                                                                                              "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
+                                                                                              "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                          ]
+                                                                      }
+                                             },
+                         "pedagogicalDynamics":  {
+                                                     "title":  "🧑‍🏫 Pedagogical Dynamics",
+                                                     "simpleTitle":  "How We Learn Here",
+                                                     "content":  "The dynamic is **Clarifying Trade-offs**. The facilitator\u0027s role is not to make the decision, but to make the consequences and sacrifices of each choice explicit. The goal is to empower the learner to make a conscious, well-informed choice.",
+                                                     "dynamic_playbook":  {
+                                                                              "practitioner":  [
+                                                                                                   "Articulate the trade-offs of your preferred option.",
+                                                                                                   "Be honest about the potential downsides of your choice."
+                                                                                               ],
+                                                                              "facilitator":  [
+                                                                                                  "Ask: \u0027If we choose A, what do we give up?\u0027",
+                                                                                                  "Frame the decision as a \u0027tragic choice\u0027 between two goods, not a choice between right and wrong."
+                                                                                              ]
+                                                                          }
+                                                 },
+                         "disciplinaryapplication":  {
+                                                         "summary":  "How different fields apply the principle of integrating data, values, and strategy to make a committed decision.",
+                                                         "dynamic_playbook":  {
+                                                                                  "practitioner":  [
+                                                                                                       "**Science \u0026 Engineering:** Follow **The Risk Mitigation Path**: Select the hypothesis that is most falsifiable and design a \u0027spike\u0027 to test it. Output: A Technical Spike Plan (N96).",
+                                                                                                       "**Business \u0026 Agile:** Follow **The Resource Allocation Path**: Use a \u0027Feature Cut\u0027 to align scope with fixed resources. Output: A Prioritized Backlog (N63).",
+                                                                                                       "**Humanities \u0026 Social Sciences:** Follow **The Thesis Commitment Path**: Commit to a single interpretive stance after weighing rival readings. Output: A Thesis Statement (N55).",
+                                                                                                       "**Arts \u0026 Design:** Follow **The Aesthetic Judgment Path**: Trust the \u0027felt sense\u0027 of resonance to select the strongest concept. Output: A Selected Direction (N58).",
+                                                                                                       "**Culture \u0026 Ethics:** Follow **The Tragic Choice Path**: Resolve the dilemma by prioritizing one core value while acknowledging the cost to others. Output: A Justified Ethical Choice (N56)."
+                                                                                                   ],
+                                                                                  "facilitator":  [
+                                                                                                      "**Science \u0026 Engineering:** Enforce **Falsifiability**. Ask: \u0027Is there a clear outcome that would prove this choice wrong?\u0027",
+                                                                                                      "**Business \u0026 Agile:** Enforce **Strategy as Sacrifice**. Ask: \u0027What are we explicitly choosing *not* to do?\u0027",
+                                                                                                      "**Humanities \u0026 Social Sciences:** Enforce **Significance**. Ask: \u0027Does this choice allow for the most robust and meaningful argument?\u0027",
+                                                                                                      "**Arts \u0026 Design:** Enforce **Intuitive Validity**. Ask: \u0027Does this choice feel alive? Does it have energy?\u0027",
+                                                                                                      "**Culture \u0026 Ethics:** Enforce **Transparency**. Ask: \u0027Who bears the risk of this decision, and have they consented?\u0027"
+                                                                                                  ]
+                                                                              },
+                                                         "content":  "Decision-making is the pivot from thinking to doing. Science selects based on falsifiability; Business on ROI; Arts on aesthetic resonance. The framework ensures these decisions are explicit, defensible, and aligned with the original inquiry.",
+                                                         "simpleTitle":  "Field-Specific Methods",
+                                                         "title":  "📚 Disciplinary Application",
+                                                         "applications":  [
+                                                                              {
+                                                                                  "domainName":  "Science \u0026 Engineering",
+                                                                                  "phenotypeName":  "Hypothesis Selection",
+                                                                                  "icon":  "fa-filter",
+                                                                                  "practitioner_output":  "A Technical Spike Plan (N96).",
+                                                                                  "practitioner_method":  "Follow **The Risk Mitigation Path**: Select the hypothesis that is most falsifiable and design a \u0027spike\u0027 to test it.",
+                                                                                  "facilitator_method":  "Enforce **Falsifiability**. Ask: \u0027Is there a clear outcome that would prove this choice wrong?\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Business \u0026 Agile",
+                                                                                  "phenotypeName":  "Go/No-Go",
+                                                                                  "icon":  "fa-traffic-light",
+                                                                                  "practitioner_output":  "A Prioritized Backlog (N63).",
+                                                                                  "practitioner_method":  "Follow **The Resource Allocation Path**: Use a \u0027Feature Cut\u0027 to align scope with fixed resources.",
+                                                                                  "facilitator_method":  "Enforce **Strategy as Sacrifice**. Ask: \u0027What are we explicitly choosing *not* to do?\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Humanities \u0026 Social Sciences",
+                                                                                  "phenotypeName":  "Thesis Commitment",
+                                                                                  "icon":  "fa-gavel",
+                                                                                  "practitioner_output":  "A Thesis Statement (N55).",
+                                                                                  "practitioner_method":  "Follow **The Thesis Commitment Path**: Commit to a single interpretive stance after weighing rival readings.",
+                                                                                  "facilitator_method":  "Enforce **Significance**. Ask: \u0027Does this choice allow for the most robust and meaningful argument?\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Arts \u0026 Design",
+                                                                                  "phenotypeName":  "Concept Selection",
+                                                                                  "icon":  "fa-check-circle",
+                                                                                  "practitioner_output":  "A Selected Direction (N58).",
+                                                                                  "practitioner_method":  "Follow **The Aesthetic Judgment Path**: Trust the \u0027felt sense\u0027 of resonance to select the strongest concept.",
+                                                                                  "facilitator_method":  "Enforce **Intuitive Validity**. Ask: \u0027Does this choice feel alive? Does it have energy?\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Culture \u0026 Ethics",
+                                                                                  "phenotypeName":  "Value-Based Judgment",
+                                                                                  "icon":  "fa-balance-scale",
+                                                                                  "practitioner_output":  "A Justified Ethical Choice (N56).",
+                                                                                  "practitioner_method":  "Follow **The Tragic Choice Path**: Resolve the dilemma by prioritizing one core value while acknowledging the cost to others.",
+                                                                                  "facilitator_method":  "Enforce **Transparency**. Ask: \u0027Who bears the risk of this decision, and have they consented?\u0027"
+                                                                              }
+                                                                          ]
+                                                     },
+                         "technologicalMediation":  {
+                                                        "title":  "💻 Technological Mediation",
+                                                        "simpleTitle":  "The Tools We Use",
+                                                        "content":  "Using a digital prioritization matrix or a shared spreadsheet makes the decision criteria explicit and the scoring transparent. It moves the debate from a verbal power struggle to a shared analytical process.",
+                                                        "dynamic_playbook":  {
+                                                                                 "practitioner":  [
+                                                                                                      "Insist on using a shared, visible tool to evaluate options.",
+                                                                                                      "Use the tool to document the rationale for the final choice."
+                                                                                                  ],
+                                                                                 "facilitator":  [
+                                                                                                     "Introduce a decision matrix to structure the conversation.",
+                                                                                                     "Ensure all participants have equal access to edit and contribute to the tool."
+                                                                                                 ]
+                                                                             }
+                                                    },
+                         "domainConcepts":  {
+                                                "dynamic_playbook":  {
+                                                                         "practitioner":  [
+                                                                                              "**Scan the Cloud:** Review the Concept Cloud to identify the core principles relevant to your current challenge.",
+                                                                                              "**Translate the Term:** Click on a concept to see how it is expressed in your specific domain versus others.",
+                                                                                              "**Apply the Rubric:** Look at the \u0027Objective Measurement\u0027 field for your domain. Use this specific metric to evaluate your work.",
+                                                                                              "**Bridge the Gap:** If you are stuck, look at how a different domain solves the same problem."
+                                                                                          ],
+                                                                         "facilitator":  [
+                                                                                             "**Normalize Vocabulary:** Use the Concept Cloud to bridge communication gaps between team members from different disciplines.",
+                                                                                             "**Define Shared Terms:** Before starting work, have the team agree on the specific definition of key terms.",
+                                                                                             "**Use the Rubrics:** When giving feedback, refer to the \u0027Objective Measurement\u0027 field to ensure critiques are based on agreed-upon standards.",
+                                                                                             "**Facilitate Translation:** If an engineer and a designer are arguing, use the domain variations to show them they are often talking about the same underlying principle."
+                                                                                         ]
+                                                                     }
+                                            }
+                     },
+    "pedagogicalPlaybook":  [
+                                {
+                                    "uid":  "T4-PP1",
+                                    "title":  "Learning Objectives (SWBAT)",
+                                    "stanceTitle":  {
+                                                        "learning":  "Learning Objectives (SWBAT)",
+                                                        "performance":  "Core Competencies"
+                                                    },
+                                    "icon":  "fa-bullseye",
+                                    "content":  "* Apply a structured method to evaluate and prioritize a portfolio of options.\n* Articulate a clear rationale for their final decision, including the trade-offs made.\n* Formally commit resources (time, attention) to the chosen path.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T4-PP2",
+                                    "title":  "Facilitator Actions \u0026 Teacher Moves",
+                                    "stanceTitle":  {
+                                                        "learning":  "Facilitator Actions \u0026 Teacher Moves",
+                                                        "performance":  "Key Activities"
+                                                    },
+                                    "icon":  "fa-hands-helping",
+                                    "content":  "* **Pedagogical Dynamic: Clarifying Trade-offs.** Your primary role is to make the consequences and sacrifices of each choice explicit, ensuring the final decision is made with full awareness.\n* Introduce and model decision-making frameworks (e.g., prioritization matrix, cost-benefit analysis).\n* Facilitate a discussion that makes the trade-offs of each option explicit.\n* Create a \u0027moment of commitment,\u0027 a simple ritual to mark the transition from deliberation to action.\n* **Trauma-Informed Consideration:** Making choices can be anxiety-provoking. Lower the stakes by framing the decision as a \u0027reversible experiment\u0027 where possible. Ensure the process is transparent and perceived as fair.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T4-PP3",
+                                    "title":  "Common Failure Modes \u0026 Recovery Loops",
+                                    "stanceTitle":  {
+                                                        "learning":  "Common Failure Modes \u0026 Recovery Loops",
+                                                        "performance":  "Risk Mitigation"
+                                                    },
+                                    "icon":  "fa-exclamation-triangle",
+                                    "content":  "* **Failure Mode:** \u0027Analysis Paralysis\u0027 - the team is unable to make a decision due to fear of being wrong.\n* **Recovery Loop:** Introduce a time constraint. Use a \u0027Pre-Mortem\u0027 exercise (Node N11) to make the risks feel manageable. Reframe the decision as a time-boxed experiment.\n* **Failure Mode:** The decision is made by the loudest voice, not the best argument.\n* **Recovery Loop:** Switch to a structured, non-verbal decision protocol like dot-voting or a written prioritization matrix to ensure all voices are weighted equally.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "collapsed"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T4-PP4",
+                                    "title":  "Tool-Gate Checklist",
+                                    "stanceTitle":  {
+                                                        "learning":  "Tool-Gate Checklist",
+                                                        "performance":  "Definition of Done"
+                                                    },
+                                    "icon":  "fa-tasks",
+                                    "content":  "* [ ] A single path forward has been chosen from the portfolio of options.\n* [ ] The rationale for the decision has been documented.\n* [ ] The trade-offs and the things the team is choosing *not* to do have been explicitly stated.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "collapsed"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "expanded"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T4-PP5",
+                                    "title":  "Team Reflection Prompt",
+                                    "stanceTitle":  {
+                                                        "learning":  "Team Reflection Prompt",
+                                                        "performance":  "Decision Integrity Check"
+                                                    },
+                                    "icon":  "fa-users-cog",
+                                    "content":  "Who has the power to make this decision, and is that power being exercised responsibly? Does our decision-making process align with our stated values?",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                }
+                            ],
+    "tableData":  {
+                      "pedagogy":  "**Gagné:** (Implicit) \n**5E:** (Implicit) \n**DLS:** (Implicit)",
+                      "science":  "Hypothesis Selection",
+                      "agile":  "Prioritization / Commitment",
+                      "humanities":  "Thesis Commitment",
+                      "creative":  "Concept Selection"
+                  },
+    "averagePathway":  {
+                           "title":  "The Average Pathway: Evaluate → Prioritize → Commit",
+                           "rationale":  "This is the core sequence of rational decision-making. It involves systematically evaluating a set of options against pre-defined criteria, ranking them in order of value, and formally committing to the highest-ranked option.",
+                           "cognitiveSequence":  [
+                                                     "Evaluate options by engaging the Valuation Network (vmPFC) to assign subjective value to each choice, while the ECN holds the evaluation criteria in working memory.",
+                                                     "Prioritize the options by comparing their assigned values, a process that involves the Parietal Lobe for magnitude comparison and the ECN for sequencing.",
+                                                     "Commit to a single option. This involves the ECN selecting the highest-value option and actively inhibiting the competing, lower-value options to enable focused action."
+                                                 ],
+                           "activitySequence":  [
+                                                    "Use a structured tool like a prioritization matrix to evaluate all options from Tool 3 against the success criteria from Tool 2.",
+                                                    "Create a rank-ordered list of the options.",
+                                                    "Formally declare the team\u0027s commitment to the top-ranked option and document the decision."
+                                                ]
+                       },
+    "summary":  [
+                    {
+                        "content":  "To make a **committed decision** by evaluating options against criteria and accepting the necessary trade-offs.\n\n##### Practitioner Actions\n\n**Evaluate:** Score options against the success criteria defined in Tool 2.\n**Prioritize:** Rank options based on value and feasibility.\n**Commit:** Formally select a path and explicitly reject others (sacrifice).",
+                        "title":  "Objective \u0026 Actions"
+                    },
+                    {
+                        "content":  "**Valuation:** The brain assigns subjective value (vmPFC) to options based on predicted outcomes.\n**Inhibition:** Choosing one path requires the active inhibition of all other possibilities.\n**Conflict Resolution:** Moving from ambiguity to certainty reduces cognitive load but increases responsibility.",
+                        "title":  "Core Dynamics \u0026 Interactions"
+                    },
+                    {
+                        "human_display_content":  "##### Methodology Note\n\nThe following profile represents the cognitive state of *convergence* and decision-making.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.5 | 1.0 | 0.5 | 0.5 | 1.0 | 0.5 | 2.5 | 4.5 | 2.5 | 5.0 | 1.5 | 1.0 | 1.5 | 1.5 | 3.5 |\n| **Humanities \u0026 SS.** | 1.5 | 1.5 | 0.2 | 0.2 | 2.0 | 0.2 | 4.5 | 1.0 | 1.5 | 4.8 | 2.0 | 2.5 | 2.0 | 1.5 | 4.0 |\n| **Arts \u0026 Design** | 4.0 | 1.5 | 2.0 | 1.5 | 4.5 | 1.5 | 2.0 | 0.5 | 3.5 | 3.0 | 2.5 | 4.5 | 1.5 | 3.0 | 3.5 |\n| **Business \u0026 Agile** | 2.5 | 2.0 | 0.5 | 0.5 | 2.5 | 0.5 | 3.0 | 4.0 | 2.0 | 4.5 | 2.0 | 2.5 | 3.5 | 2.0 | 3.5 |\n| **Integrated Knowledge \u0026 Ethics** | 1.0 | 1.5 | 0.5 | 0.5 | 4.5 | 0.5 | 3.5 | 1.0 | 1.5 | 4.0 | 2.5 | 4.0 | 3.5 | 2.0 | 4.5 |\n| **Pedagogy \u0026 Facil.** | 2.0 | 2.5 | 0.5 | 0.5 | 3.0 | 0.5 | 3.5 | 2.0 | 2.0 | 4.0 | 2.0 | 3.0 | 4.0 | 2.5 | 4.0 |\n\n#### Insight\n\n**Logical** scores peak as options are weighed, but **Interoceptive** and **Emotional** scores also rise significantly compared to Tool 2. This reflects the neuroscience of decision-making: logic provides the options, but *value* (an emotional/somatic signal) drives the actual selection.",
+                        "title":  "Data-Driven Modality Profile",
+                        "ai_instructional_context":  {
+                                                         "key_domain_variations":  {
+
+                                                                                   }
+                                                     }
+                    },
+                    {
+                        "title":  "Concept Cloud",
+                        "content":  "Alignment, Assent, Choice, Commitment, Convergence, Cost-Benefit Analysis, Decision, Focus, Go/No-Go Decision, Pledge, Prioritization, Resolve, RICE Scoring, Scope Reduction, Trade-off, Volition, Consent, Reversibility, Opportunity Cost"
+                    }
+                ],
+    "cynefinAnalysis":  {
+                            "genotype":  {
+                                             "implications":  "Use analytical tools (matrices, scoring). Make the trade-offs explicit.",
+                                             "reasoning":  "Selecting an option requires analyzing trade-offs against known criteria. It is an expert decision.",
+                                             "primaryDomain":  "Complicated"
+                                         },
+                            "dynamic_playbook":  {
+                                                     "practitioner":  [
+                                                                          "Match Strategy to Domain: Use Trade Studies for Complicated decisions.",
+                                                                          "Avoid Analysis Paralysis: Decide to act, not to know.",
+                                                                          "Define Safe-to-Fail: Limit the blast radius."
+                                                                      ],
+                                                     "facilitator":  [
+                                                                         "Diagnose Context: Is there a right answer?",
+                                                                         "Watch for Premature Convergence: Push for the learning option.",
+                                                                         "Manage Disorder: Agree on *how* to decide first."
+                                                                     ]
+                                                 },
+                            "phenotypes":  [
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Selecting the easiest hypothesis to test, not the most important.",
+                                                   "phenotypeName":  "Hypothesis Selection",
+                                                   "classificationAndReasoning":  "Complicated: Weighing falsifiability vs. impact is an expert judgment.",
+                                                   "domainName":  "Science \u0026 Engineering"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Relying on \u0027gut feel\u0027 (Complex) when data is available.",
+                                                   "phenotypeName":  "Prioritization",
+                                                   "classificationAndReasoning":  "Complicated: Using frameworks like RICE to score options against criteria.",
+                                                   "domainName":  "Business \u0026 Agile"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Committing to a thesis that cannot be supported.",
+                                                   "phenotypeName":  "Thesis Commitment",
+                                                   "classificationAndReasoning":  "Complicated: Choosing the most defensible argument based on evidence.",
+                                                   "domainName":  "Humanities \u0026 SS"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Choosing the \u0027safe\u0027 option over the resonant one.",
+                                                   "phenotypeName":  "Concept Selection",
+                                                   "classificationAndReasoning":  "Complex: Aesthetic judgment relies on a \u0027felt sense\u0027 of resonance, not just rules.",
+                                                   "domainName":  "Arts \u0026 Design"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Ignoring the \u0027ethical remainder\u0027 (the cost of the choice).",
+                                                   "phenotypeName":  "Tragic Choice",
+                                                   "classificationAndReasoning":  "Complicated: Weighing conflicting values requires rigorous ethical reasoning.",
+                                                   "domainName":  "Culture \u0026 Ethics"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Choosing a task that is too easy or too hard.",
+                                                   "phenotypeName":  "Curricular Choice",
+                                                   "classificationAndReasoning":  "Complicated: Selecting the right task for the Zone of Proximal Development.",
+                                                   "domainName":  "Pedagogy \u0026 Facilitation"
+                                               }
+                                           ]
+                        },
+    "nasa_registry":  {
+                          "requirement":  "The system shall baseline the Technology Development Plan (TDP) for Phase B transition.",
+                          "kdp_gate":  "KDP B",
+                          "readiness_target":  "TRL 4: Component validation in lab.",
+                          "pbs_id":  "1.3.2",
+                          "verification_artifact":  "KDP B Decision Logic Report"
+                      }
+}

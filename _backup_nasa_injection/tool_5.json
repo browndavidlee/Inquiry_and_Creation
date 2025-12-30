@@ -1,0 +1,968 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "id":  "tool5",
+    "uid":  "T5",
+    "name":  "Structure the Solution",
+    "simpleName":  "Structure",
+    "keyQuestion":  "What form does this take? How can it be shared and understood?",
+    "color":  "var(--color-tool-5)",
+    "keyDeliverables":  "A communicable plan (e.g., Storyboard, Spec) that has been reviewed and understood by the execution team.",
+    "principle":  "To increase the precision of a predictive model by translating it into a linear, communicable sequence of lower-level predictions (an Actionable Plan).",
+    "keyMediatingArtifact":  "Actionable Plan",
+    "jtbdAnalysis":  {
+                         "coreJobStory":  "When my idea is clear in my head but messy to explain, help me translate it into a simple, shareable plan, so my team can build it correctly and I can feel confident my vision will be realized.",
+                         "hiringCircumstance":  "The practitioner has a chosen direction but struggles to communicate it. The \u0027Push\u0027 is the frustration of being misunderstood or seeing their intent is not clearly communicated. The \u0027Habit\u0027 is to just explain it verbally. The \u0027Anxiety\u0027 is that they can\u0027t explain it clearly or that creating a plan is bureaucratic.",
+                         "practitioner":  {
+                                              "job":  "Translate the chosen concept from a non-linear mental model into a clear, structured, and communicable artifact (e.g., a protocol, storyboard, or specification) that can guide collective action.",
+                                              "plan":  [
+                                                           "**Select the Artifact:** Choose the specific container for your plan (e.g., Storyboard, Spec, Outline). The format dictates the logic.",
+                                                           "**Decompose the Whole:** Use a \u0027Work Breakdown Structure\u0027 (`N24`) to shatter the big idea into atomic, manageable tasks. If a task takes \u003e1 day, break it down further.",
+                                                           "**Sequence the Flow:** Arrange the atoms into a logical linear sequence. Identify dependencies: \u0027What must happen *before* X can happen?\u0027",
+                                                           "**Stress-Test the Logic:** Walk through the plan mentally (simulation). Look for gaps, logical leaps, or missing resources before handing it off."
+                                                       ]
+                                          },
+                         "facilitator":  {
+                                             "job":  "Assist the practitioner in translating their vision into a coherent structure by providing appropriate templates, asking clarifying questions, and ensuring the final plan is unambiguous for the execution team.",
+                                             "plan":  [
+                                                          "**Provide the Heuristic:** Don\u0027t ask \u0027What\u0027s the plan?\u0027 Provide a specific template (e.g., \u0027User Story Map,\u0027 \u0027Argument Outline\u0027). This acts as an external Executive Control Network.",
+                                                          "**Force Linearity:** The practitioner\u0027s mind is a web; the plan must be a line. Ask: \u0027What is step 1? What is step 2?\u0027 Force them to commit to a sequence.",
+                                                          "**Check for Ambiguity:** Play the role of the naive builder. Point to a step and ask, \u0027If I did exactly this, would I get the result you want?\u0027",
+                                                          "**Facilitate the Handoff (`N98`):** Ensure the plan is not just written but *received*. Host a ritual where the builder explains the plan back to the planner to verify transfer."
+                                                      ]
+                                         },
+                         "forces":  {
+                                        "push":  "My team keeps asking me the same questions. The last thing we built was not what I had in mind.",
+                                        "pull":  "This tool promises a blueprint that will align everyone and ensure quality.",
+                                        "habit":  "Just explain it verbally in a meeting and hope they get it.",
+                                        "anxiety":  "What if I can\u0027t explain it clearly? This feels like boring, bureaucratic work."
+                                    }
+                     },
+    "perspectives":  {
+                         "psychologicalDynamics":  {
+                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "simpleTitle":  "Emotional Hurdles",
+                                                       "content":  "This stage involves a high cognitive load, translating a non-linear mental model (a web of ideas) into a linear sequence. The core friction is the \u0027Curse of Knowledge,\u0027 where the brain\u0027s \u0027chunked\u0027 expertise makes it difficult to explain the steps to a novice.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
+                                                                                                     "**Monitor Cognitive Load:** Recognize the signs of ECN depletion (irritability, tunnel vision). If the team is fried, the only valid intervention is Rest.",
+                                                                                                     "**Switch Networks:** Consciously toggle the team\u0027s state. If they are stuck in analysis (ECN), force a move to play (DMN)."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Regulate Group Arousal:** Act as the \u0027external amygdala regulator.\u0027 If the room is hot (conflict), lower the temperature. If cold (boredom), raise it.",
+                                                                                                    "**Spot \u0027Attentional Blink\u0027:** When the team is hyper-focused on a detail, interrupt to force a \u0027global\u0027 attention check.",
+                                                                                                    "**Promote \u0027Agency\u0027:** Giving the team control over their process releases Dopamine. Ask: \u0027How do *you* want to solve this?\u0027"
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "integrativeStrategies":  {
+                                                       "integrativeStrategies":  [
+                                                                                     {
+                                                                                         "content":  "The integration here is to use **Visual Thinking** to bridge the gap between the **Logical** plan (ECN) and the **Spatial** reality (Parietal Lobe). By externalizing the structure, you reduce cognitive load.",
+                                                                                         "title":  "Integrative Strategies: From Abstract to Concrete"
+                                                                                     },
+                                                                                     {
+                                                                                         "content":  "The facilitator provides the **Template** (Scaffold) which acts as an external executive function for the learner, allowing them to perform a structuring task they could not do alone.",
+                                                                                         "title":  "Pedagogical Synthesis: The Scaffold"
+                                                                                     }
+                                                                                 ],
+                                                       "title":  "🧩 Integrative Strategies",
+                                                       "simpleTitle":  "Ways to Connect Ideas",
+                                                       "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Force Bisociation:** Deliberately collide two unrelated frames (e.g., \u0027Treat this software bug as a biological virus\u0027). Novelty lives at the intersection.",
+                                                                                                     "**Bridge the Qualitative/Quantitative:** If you have data, find the story. If you have a story, find the data. The inquiry lies in the gap between them.",
+                                                                                                     "**Map the System:** Don\u0027t just define the node (the problem); define the edges (the relationships). How does this problem sustain the larger system?"
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Translate Vocabularies:** Actively translate jargon. \u0027When the engineer says \u0027latency,\u0027 the anthropologist hears \u0027friction.\u0027 How are these the same?\u0027",
+                                                                                                    "**Use Metaphorical Mapping:** Introduce a root metaphor (e.g., \u0027Ecosystem,\u0027 \u0027Machine,\u0027 \u0027Journey\u0027) to give the diverse group a shared cognitive handle.",
+                                                                                                    "**Synthesize in Real-Time:** Listen for the \u0027third way.\u0027 When the group is stuck in a binary (A vs B), identify the higher-order synthesis (C) that resolves it."
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "CultureTraditionsAndEthics":  {
+                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "simpleTitle":  "Ethical Viewpoints",
+                                                            "content":  "This perspective values diverse forms of communication beyond formal written documents, such as storytelling and performance.",
+                                                            "dynamic_playbook":  {
+                                                                                     "practitioner":  [
+                                                                                                          "**Audit Positionality:** Explicitly map your own power relative to the subject. Ask: \u0027Does my identity obscure the true nature of this problem?\u0027",
+                                                                                                          "**Identify the Silenced:** Conduct a \u0027Negative Space Analysis.\u0027 Who is *not* in the room? Whose data is missing? Frame the inquiry to center these voices.",
+                                                                                                          "**Shift to Relationality:** Reframe the \u0027problem\u0027 as a \u0027broken relationship.\u0027 Instead of \u0027fixing X,\u0027 ask \u0027how do we restore right relationship with X?\u0027"
+                                                                                                      ],
+                                                                                     "facilitator":  [
+                                                                                                         "**Disrupt Hierarchy:** Enforce a \u0027Circle Process\u0027 or \u0027Talking Piece\u0027 protocol. Ensure the most junior or marginalized voices speak before the leaders to prevent anchoring.",
+                                                                                                         "**Interrogate the Mandate:** Ask the group: \u0027Is this inquiry serving the community, or merely extracting value from it?\u0027 (Reciprocity Check).",
+                                                                                                         "**Expand the \u0027We\u0027:** When the group says \u0027We need to...\u0027, ask \u0027Who is We?\u0027 Force a precise definition of the collective subject and its boundaries."
+                                                                                                     ]
+                                                                                 }
+                                                        },
+                         "strategicStreams":  {
+                                                  "dynamic_playbook":  {
+                                                                           "practitioner":  [
+                                                                                                "**Diagnose Your State:** Identify which of the core streams (e.g., Somatic, Diagnostic, Relational) feels blocked or weak right now.",
+                                                                                                "**Select a Stream:** Choose one of the streams listed in the \u0027Strategic Streams\u0027 perspective.",
+                                                                                                "**Apply the Prompt:** Ask yourself the \u0027Application Prompt\u0027 associated with that stream to generate a new insight or action.",
+                                                                                                "**Cross-Pollinate:** Apply a stream from a different tool to your current problem (e.g., Apply Tool 3\u0027s \u0027Divergent\u0027 stream to Tool 7\u0027s \u0027Analysis\u0027 to find more bugs)."
+                                                                                            ],
+                                                                           "facilitator":  [
+                                                                                               "**Diagnose the Group State:** Observe the team\u0027s behavior. Which stream is the group neglecting?",
+                                                                                               "**Introduce a Stream as an Intervention:** Use the \u0027Application Prompt\u0027 as a public question to shift the team\u0027s focus.",
+                                                                                               "**Facilitate Cross-Pollination:** Explicitly ask the group, \u0027How would we apply the \u0027Subtractive\u0027 stream from Tool 4 to our current task in Tool 6?\u0027"
+                                                                                           ]
+                                                                       }
+                                              },
+                         "cognitiveModel":  {
+                                                "stage_id":  "tool5",
+                                                "stage_name":  "Structuring \u0026 Articulation",
+                                                "pathways":  [
+                                                                 {
+                                                                     "pathway_name":  "📚 Science \u0026 Engineering - The Protocol Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Structure",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  "ECN",
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Hierarchical Planning"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN is responsible for hierarchical cognitive control, breaking down a high-level goal (the hypothesis) into a structured sequence of sub-goals (the experimental steps).",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "koechlin-summerfield-2007"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Specify",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Language Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Operationalization"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN works with the Language Network to translate abstract concepts into precise, operational definitions, a process requiring high cognitive control and semantic precision.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "hagoort-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Write",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Language Network",
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Sensorimotor Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Formal Articulation"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "Writing is a complex, goal-directed motor act that translates the ECN\u0027s plan into a symbolic, external artifact via the Language and Sensorimotor networks.",
+                                                                                                                             "supporting_evidence":  "Neuroimaging studies of writing and language production.",
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ]
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Teaching\u0027 Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Sense Block",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "ACC"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Conflict"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN\u0027s goal to structure the idea is met with high conflict from the ACC, indicating a failure to linearize the mental model.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Simulate Novice",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "SCN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Perspective-Taking"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN directs the SCN to adopt the perspective of a novice, a demanding act of \u0027Theory of Mind\u0027 that forces a simplification of the mental model.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "saxe-2003"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Structure for Novice",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Language Network",
+                                                                                                                                                 "SCN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Audience-Aware Structuring"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN and Language Network work to create a simplified structure, constantly checking it against the SCN\u0027s model of the novice\u0027s understanding.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "new-hasson-2012"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 2"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway forces the expert to simplify their mental model by simulating the perspective of a novice (Theory of Mind), revealing hidden complexities and gaps in the plan."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Reverse Outline\u0027 Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "step":  "T1",
+                                                                                          "pfic_word":  "Extract Points",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "DAN",
+                                                                                                                                                 "Language Network",
+                                                                                                                                                 "ECN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Deconstruction"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The DAN directs attention to the text, while the Language Network and ECN work to extract the main point of each paragraph.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "corbetta-2002"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T2",
+                                                                                          "pfic_word":  "Test Narrative",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Language Network",
+                                                                                                                                                 "ACC",
+                                                                                                                                                 "DMN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Coherence Check"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The Language Network processes the sequence of points as a narrative, with the ACC flagging any logical or emotional breaks in the flow.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "botvinick-2001"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "step":  "T3",
+                                                                                          "pfic_word":  "Reorganize",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Parietal Lobe"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Strongly System 2",
+                                                                                                                                                       "processing_style":  "Re-sequencing"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN and Parietal Lobe work together to re-sequence the points into a more logical and coherent order.",
+                                                                                                                             "supporting_evidence":  {
+                                                                                                                                                         "citation_id":  "diamond-2013"
+                                                                                                                                                     },
+                                                                                                                             "confidence_score":  "Tier 1"
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway uses deconstruction to verify coherence. By extracting the core point of each section, the writer can see the logical flow (or lack thereof) without getting lost in the prose."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "🧠‘â€ ðŸ « HP2: The Universal Design for Learning (UDL) Path",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "pfic_word":  "Plan for Engagement",
+                                                                                          "step":  "T1",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Limbic System",
+                                                                                                                                                 "vmPFC",
+                                                                                                                                                 "SCN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Motivational Design"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "This step involves designing for the \u0027Why\u0027 of learning by planning for choice, relevance, and collaboration, which engages the brain\u0027s valuation (vmPFC), emotional (Limbic), and social (SCN) systems."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Plan for Representation",
+                                                                                          "step":  "T2",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "Visual Cortex",
+                                                                                                                                                 "Auditory Cortex",
+                                                                                                                                                 "Language Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Multi-modal Structuring"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "This step focuses on the \u0027What\u0027 of learning by structuring information in multiple formats, proactively engaging different sensory and processing networks to ensure accessibility."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Plan for Expression",
+                                                                                          "step":  "T3",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Sensorimotor Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Action-Oriented Design"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "This step addresses the \u0027How\u0027 of learning by planning for multiple ways learners can demonstrate knowledge, providing options that leverage different executive (ECN) and motor (Sensorimotor) skills."
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway activates the \u0027Universal Design\u0027 mindset, using the SCN to simulate the needs of diverse learners and the ECN to structure content that is accessible to all."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "ðŸš€ HP6: The Socio-Technical Path (Conway\u0027s Law)",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "pfic_word":  "Design System",
+                                                                                          "step":  "T1",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Parietal Lobe"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Architectural Design"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN and Parietal Lobe are engaged in abstract, spatial, and logical reasoning to design the ideal technical architecture."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Design Team",
+                                                                                          "step":  "T2",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "SCN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Organizational Design"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN holds the technical architecture as a constraint while the SCN models the social dynamics and communication pathways of the proposed team structure."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Align Interfaces",
+                                                                                          "step":  "T3",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "ACC"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Conflict Resolution"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN holds both the technical and social models in working memory, while the ACC flags any mismatches (\u0027conflicts\u0027) between the technical interfaces and the social communication protocols, which must then be resolved."
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway aligns the technical architecture with the social architecture (Conway\u0027s Law), using the ACC to detect and resolve conflicts between the code structure and the team structure."
+                                                                 },
+                                                                 {
+                                                                     "pathway_name":  "📚 HP7: The Agent-Based Modeling (ABM) / Simulation Path (Advanced)",
+                                                                     "sequence":  [
+                                                                                      {
+                                                                                          "pfic_word":  "Define Rules (Tool 5)",
+                                                                                          "step":  "T1",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "Language Network"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Algorithmic Structuring"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN and Language Network are used to translate observations about a system into a set of simple, formal, logical rules that will govern agent behavior."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Run \u0026 Observe (Tool 6)",
+                                                                                          "step":  "T2",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "DAN",
+                                                                                                                                                 "SN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "Balanced",
+                                                                                                                                                       "processing_style":  "Emergence Detection"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The DAN maintains focus on the simulation output, while the SN is primed to detect unexpected, emergent macro-level patterns that are not explicitly coded in the agent rules."
+                                                                                                                         }
+                                                                                      },
+                                                                                      {
+                                                                                          "pfic_word":  "Analyze Emergence (Tool 7)",
+                                                                                          "step":  "T3",
+                                                                                          "neurocognitive_state":  {
+                                                                                                                       "dominant_networks":  [
+                                                                                                                                                 "ECN",
+                                                                                                                                                 "DMN"
+                                                                                                                                             ],
+                                                                                                                       "cognitive_mode_analysis":  {
+                                                                                                                                                       "s1_s2_balance":  "System 2",
+                                                                                                                                                       "processing_style":  "Pattern Analysis"
+                                                                                                                                                   }
+                                                                                                                   },
+                                                                                          "validation_and_credibility":  {
+                                                                                                                             "key_neuroscientific_principle":  "The ECN directs an analysis of the emergent patterns, using the DMN to generate hypotheses about the underlying dynamics that caused them to appear."
+                                                                                                                         }
+                                                                                      }
+                                                                                  ],
+                                                                     "rationale":  "This pathway engages the Salience Network to detect high-leverage nodes within a complex system, directing executive attention to where a small intervention can produce a non-linear result."
+                                                                 }
+                                                             ],
+                                                "dynamic_playbook":  {
+                                                                         "practitioner":  [
+                                                                                              "**Identify Your Pathway:** Review the pathways. Which one best matches the work you are trying to do right now?",
+                                                                                              "**Diagnose Friction:** If you feel stuck, check the \u0027Neurocognitive State\u0027 of your current step. Are you trying to do analytical work in a generative state?",
+                                                                                              "**Optimize the Sequence:** Follow the pathway\u0027s sequence. Don\u0027t skip the \u0027priming\u0027 or \u0027transition\u0027 steps."
+                                                                                          ],
+                                                                         "facilitator":  [
+                                                                                             "**Diagnose the Group Brain:** Look at the group\u0027s behavior. Which pathway are they attempting? Where are they getting stuck?",
+                                                                                             "**Facilitate Network Switching:** Use the \u0027Transition\u0027 steps in the pathways to help the group shift modes.",
+                                                                                             "**Reduce Cognitive Load:** Use the model to identify high-load steps. Provide scaffolding (templates, visuals) during these steps."
+                                                                                         ]
+                                                                     }
+                                            },
+                         "embodiedDynamics":  {
+                                                  "title":  "🤸 Embodied Dynamics",
+                                                  "simpleTitle":  "The Body\u0027s Role",
+                                                  "content":  "Structuring is an act of \u0027cognitive offloading\u0027 onto a physical or spatial medium. The act of drawing a diagram or arranging post-it notes uses the body\u0027s spatial intelligence to solve problems that are too complex for verbal-only processing.",
+                                                  "dynamic_playbook":  {
+                                                                           "practitioner":  [
+                                                                                                "Don\u0027t just think, draw. Use a whiteboard to map the structure.",
+                                                                                                "Physically walk through the steps of your plan to feel its flow."
+                                                                                            ],
+                                                                           "facilitator":  [
+                                                                                               "Provide large physical spaces for mapping.",
+                                                                                               "Encourage the team to stand up and interact with the plan as a physical artifact."
+                                                                                           ]
+                                                                       }
+                                              },
+                         "cognitiveNeuroscience":  {
+                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "simpleTitle":  "The Brain at Work",
+                                                       "content":  "Articulation is a whole-brain process of translating internal concepts into external, structured communication, reliant on language networks and executive functions.",
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Identify the Cognitive State:** Read the description. What is the primary mental work required for this tool?",
+                                                                                                     "**Anticipate Friction:** Based on the neuroscience, what part of this tool will be the most mentally taxing?",
+                                                                                                     "**Self-Regulate:** Use the insights to manage your own energy (e.g., \u0027This is an ECN-heavy tool, so I need to eliminate distractions\u0027)."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Diagnose the Group Brain:** Observe the team. Are they in the right cognitive state for this tool?",
+                                                                                                    "**Design for the Brain:** Structure the activity to support the required cognitive function (e.g., provide quiet time for DMN-heavy tasks).",
+                                                                                                    "**Explain the \u0027Why\u0027:** Use the neuroscience to explain why a specific process rule is important (e.g., \u0027We defer judgment to let our DMN associate freely\u0027)."
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "comparativeAnalysis":  {
+                                                     "summary":  "How \u0027Structure\u0027 differs from simple outlining.",
+                                                     "title":  "Comparative Analysis",
+                                                     "selection_logic":  "Use this tool when the idea must be communicated to others. Use outlining for personal organization.",
+                                                     "simpleTitle":  "Vs. Other Models",
+                                                     "models":  [
+                                                                    {
+                                                                        "value_add":  "Tool 5 creates a \u0027Blueprint\u0027 or \u0027Architecture\u0027 that shows the *relationships* and *dependencies* between tasks, not just the tasks themselves.",
+                                                                        "derivation":  "Systems Architecture",
+                                                                        "model":  "To-Do List",
+                                                                        "comparison":  "A list is a flat collection of tasks.",
+                                                                        "vector":  "Task Management"
+                                                                    },
+                                                                    {
+                                                                        "value_add":  "Tool 5 integrates \u0027User Story Mapping\u0027 to ensure the technical spec remains connected to the narrative of user value.",
+                                                                        "derivation":  "Technical Writing",
+                                                                        "model":  "Spec Writing",
+                                                                        "comparison":  "Specs are often dry and disconnected from user value.",
+                                                                        "vector":  "Documentation"
+                                                                    }
+                                                                ],
+                                                     "dynamic_playbook":  {
+                                                                              "practitioner":  [
+                                                                                                   "**Identify the Status Quo:** Which of the \u0027Standard Models\u0027 listed is your team currently using by default?",
+                                                                                                   "**Pinpoint the Gap:** Read the \u0027Comparison\u0027 field. What specific nuance is the standard model missing?",
+                                                                                                   "**Articulate the Value Add:** Use the \u0027Value Add\u0027 text to justify why you are using this Framework tool instead."
+                                                                                               ],
+                                                                              "facilitator":  [
+                                                                                                  "**Validate the Resistance:** If a team member clings to an old model, use these comparisons to validate them first.",
+                                                                                                  "**Bridge the Mental Model:** Use the \u0027Comparison\u0027 text to translate the Framework\u0027s concepts into their language.",
+                                                                                                  "**Highlight the Risk:** Use the \u0027Real World Example\u0027 to tell a story about what happens when the standard model fails."
+                                                                                              ]
+                                                                          }
+                                                 },
+                         "teamDynamics":  {
+                                              "title":  "🤝 Team Dynamics",
+                                              "simpleTitle":  "How We Work Together",
+                                              "content":  "This stage requires a clear handoff between roles (e.g., from strategist to designer, or designer to engineer). The core dynamic is \u0027knowledge transfer.\u0027 A failure here leads to execution errors and blame later.",
+                                              "dynamic_playbook":  {
+                                                                       "practitioner":  [
+                                                                                            "Ask clarifying questions until you are 100% certain you understand the plan.",
+                                                                                            "Explain the plan back to its creator to confirm understanding."
+                                                                                        ],
+                                                                       "facilitator":  [
+                                                                                           "Host a formal \u0027Handoff Ritual\u0027 where the plan is presented and questioned.",
+                                                                                           "Ensure the \u0027builder\u0027 formally accepts the plan before work begins."
+                                                                                       ]
+                                                                   }
+                                          },
+                         "frameworkImplications":  {
+                                                       "title":  "Strategic Role",
+                                                       "icon":  "fas fa-chess-board",
+                                                       "summary":  "This tool translates a chosen course of action into a clear, communicable blueprint, enabling coordinated action and preserving the original intent.",
+                                                       "points":  [
+                                                                      "**The Bridge to Action:** This tool is the critical bridge between an abstract decision (Tool 4) and concrete execution (Tool 6). A failure here results in a well-chosen idea being poorly implemented.",
+                                                                      "**Creates a Social Contract:** The \u0027blueprint\u0027 artifact becomes the shared source of truth for the team, reducing ambiguity and aligning the execution team on a common goal.",
+                                                                      "**Forces Clarity:** The JTBD highlights the core job of translating a non-linear mental model into a linear artifact. This act of translation forces the practitioner to clarify their own thinking."
+                                                                  ],
+                                                       "dynamic_playbook":  {
+                                                                                "practitioner":  [
+                                                                                                     "**Draft the \u0027North Star\u0027:** Write a single sentence that defines the ultimate, long-term impact of this inquiry.",
+                                                                                                     "**Audit for Alignment:** Explicitly check this inquiry against the organization\u0027s high-level OKRs or mission statement.",
+                                                                                                     "**Define \u0027Anti-Goals\u0027:** Strategically define what this project is *not* about."
+                                                                                                 ],
+                                                                                "facilitator":  [
+                                                                                                    "**Facilitate the \u0027Why Now?\u0027 Discussion:** Ask the team: \u0027Why is this the most important thing to do *right now*?\u0027",
+                                                                                                    "**Check Executive Sponsorship:** Ensure there is a clear owner who has the authority to act on the findings.",
+                                                                                                    "**Calibrate Ambition:** Help the team size the strategic bet. Is this a \u0027moonshot\u0027 or an \u0027optimization\u0027?"
+                                                                                                ]
+                                                                            }
+                                                   },
+                         "cynefinAnalysis":  {
+                                                 "title":  "🧭 Navigational Context",
+                                                 "simpleTitle":  "Complexity Check",
+                                                 "content":  "This tool translates the chosen concept into a detailed, shareable plan. This is the domain of experts—engineers, architects, writers—who have the \u0027known knowns\u0027 of their craft.",
+                                                 "dynamic_playbook":  {
+                                                                          "practitioner":  [
+                                                                                               "**Diagnose the Domain:** If the problem has no right answer, you are in **Complexity**. Stop planning; start probing. Shift from \u0027Analyst\u0027 to \u0027Naturalist.\u0027",
+                                                                                               "**Resist Premature Convergence:** If you can already visualize the solution, you are likely solving the wrong (Complicated) problem. Force yourself to widen the aperture.",
+                                                                                               "**Hunt for Patterns:** Do not look for a single root cause (linear). Look for recurring clusters of behavior or \u0027attractors\u0027 that suggest an underlying dynamic."
+                                                                                           ],
+                                                                          "facilitator":  [
+                                                                                              "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
+                                                                                              "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                          ]
+                                                                      }
+                                             },
+                         "pedagogicalDynamics":  {
+                                                     "title":  "🧑‍🏫 Pedagogical Dynamics",
+                                                     "simpleTitle":  "How We Learn Here",
+                                                     "content":  "The dynamic is **Cognitive Offloading**. The facilitator provides an external heuristic (a template or framework) that acts as an \u0027external ECN\u0027 for the learner, reducing the cognitive load of structuring their thoughts from scratch.",
+                                                     "dynamic_playbook":  {
+                                                                              "practitioner":  [
+                                                                                                   "Use the provided template as a starting point, not a prison.",
+                                                                                                   "Ask for the \u0027why\u0027 behind the template\u0027s structure."
+                                                                                               ],
+                                                                              "facilitator":  [
+                                                                                                  "Provide a well-designed template (e.g., a Business Model Canvas).",
+                                                                                                  "Explain the logic of the template to make the tacit knowledge explicit."
+                                                                                              ]
+                                                                          }
+                                                 },
+                         "disciplinaryapplication":  {
+                                                         "summary":  "How different fields apply the principle of translating a non-linear concept into a linear, actionable plan.",
+                                                         "dynamic_playbook":  {
+                                                                                  "practitioner":  [
+                                                                                                       "**Science \u0026 Engineering:** Follow **The Protocol Path**: Write a step-by-step guide that ensures reproducibility and minimizes ambiguity. Output: A Technical Specification (N25).",
+                                                                                                       "**Business \u0026 Agile:** Follow **The Sprint Planning Path**: Decompose the goal into atomic, estimable tasks. Output: A Work Breakdown Structure (N24).",
+                                                                                                       "**Humanities \u0026 Social Sciences:** Follow **The Argument Map Path**: Visually map the logical flow of claims, evidence, and warrants. Output: An Argument Map (N22).",
+                                                                                                       "**Arts \u0026 Design:** Follow **The Storyboard Path**: Sequence the visual or temporal beats of the experience. Output: A Visual Storyboard (N23).",
+                                                                                                       "**Culture \u0026 Ethics:** Follow **The Narrative Path**: Structure the process as a story or ritual to engage participants. Output: A Ritual Sequence (N88)."
+                                                                                                   ],
+                                                                                  "facilitator":  [
+                                                                                                      "**Science \u0026 Engineering:** Enforce **Unambiguity**. Ask: \u0027Could a stranger execute this plan exactly as you intend without asking you a question?\u0027",
+                                                                                                      "**Business \u0026 Agile:** Enforce **Granularity**. Ask: \u0027Is this task small enough to be finished in a single day?\u0027",
+                                                                                                      "**Humanities \u0026 Social Sciences:** Enforce **Logical Flow**. Ask: \u0027Does the evidence directly support the claim, or is there a missing warrant?\u0027",
+                                                                                                      "**Arts \u0026 Design:** Enforce **Narrative Arc**. Ask: \u0027Does this sequence create the intended emotional journey?\u0027",
+                                                                                                      "**Culture \u0026 Ethics:** Enforce **Meaning**. Ask: \u0027Does this structure honor the values and history of the community?\u0027"
+                                                                                                  ]
+                                                                              },
+                                                         "content":  "Structure is the bridge between idea and reality. Science uses protocols; Engineering uses specs; Humanities uses outlines. The framework emphasizes that the structure must be designed for the *audience* who will execute it.",
+                                                         "simpleTitle":  "Field-Specific Methods",
+                                                         "title":  "📚 Disciplinary Application",
+                                                         "applications":  [
+                                                                              {
+                                                                                  "domainName":  "Science \u0026 Engineering",
+                                                                                  "phenotypeName":  "Experimental Protocol",
+                                                                                  "icon":  "fa-clipboard-list",
+                                                                                  "practitioner_output":  "A Technical Specification (N25).",
+                                                                                  "practitioner_method":  "Follow **The Protocol Path**: Write a step-by-step guide that ensures reproducibility and minimizes ambiguity.",
+                                                                                  "facilitator_method":  "Enforce **Unambiguity**. Ask: \u0027Could a stranger execute this plan exactly as you intend without asking you a question?\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Business \u0026 Agile",
+                                                                                  "phenotypeName":  "Sprint Backlog",
+                                                                                  "icon":  "fa-list-ol",
+                                                                                  "practitioner_output":  "A Work Breakdown Structure (N24).",
+                                                                                  "practitioner_method":  "Follow **The Sprint Planning Path**: Decompose the goal into atomic, estimable tasks.",
+                                                                                  "facilitator_method":  "Enforce **Granularity**. Ask: \u0027Is this task small enough to be finished in a single day?\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Humanities \u0026 Social Sciences",
+                                                                                  "phenotypeName":  "Argument Outline",
+                                                                                  "icon":  "fa-sitemap",
+                                                                                  "practitioner_output":  "An Argument Map (N22).",
+                                                                                  "practitioner_method":  "Follow **The Argument Map Path**: Visually map the logical flow of claims, evidence, and warrants.",
+                                                                                  "facilitator_method":  "Enforce **Logical Flow**. Ask: \u0027Does the evidence directly support the claim, or is there a missing warrant?\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Arts \u0026 Design",
+                                                                                  "phenotypeName":  "Storyboard",
+                                                                                  "icon":  "fa-film",
+                                                                                  "practitioner_output":  "A Visual Storyboard (N23).",
+                                                                                  "practitioner_method":  "Follow **The Storyboard Path**: Sequence the visual or temporal beats of the experience.",
+                                                                                  "facilitator_method":  "Enforce **Narrative Arc**. Ask: \u0027Does this sequence create the intended emotional journey?\u0027"
+                                                                              },
+                                                                              {
+                                                                                  "domainName":  "Culture \u0026 Ethics",
+                                                                                  "phenotypeName":  "Narrative Structuring",
+                                                                                  "icon":  "fa-book-open",
+                                                                                  "practitioner_output":  "A Ritual Sequence (N88).",
+                                                                                  "practitioner_method":  "Follow **The Narrative Path**: Structure the process as a story or ritual to engage participants.",
+                                                                                  "facilitator_method":  "Enforce **Meaning**. Ask: \u0027Does this structure honor the values and history of the community?\u0027"
+                                                                              }
+                                                                          ]
+                                                     },
+                         "technologicalMediation":  {
+                                                        "title":  "💻 Technological Mediation",
+                                                        "simpleTitle":  "The Tools We Use",
+                                                        "content":  "The choice of structuring tool (e.g., a linear document vs. a mind map vs. a UML diagram) dictates the logic of the final plan. Each tool has a built-in bias; choosing the right tool is a critical strategic decision.",
+                                                        "dynamic_playbook":  {
+                                                                                 "practitioner":  [
+                                                                                                      "Select the tool that best represents the structure of your idea (e.g., a timeline for a sequence, a map for a system).",
+                                                                                                      "If the tool is fighting you, your structure might be wrong."
+                                                                                                  ],
+                                                                                 "facilitator":  [
+                                                                                                     "Offer a \u0027gallery\u0027 of different structuring tools.",
+                                                                                                     "Ask: \u0027What is the best way to *visualize* this plan for the person who has to build it?\u0027"
+                                                                                                 ]
+                                                                             }
+                                                    },
+                         "domainConcepts":  {
+                                                "dynamic_playbook":  {
+                                                                         "practitioner":  [
+                                                                                              "**Scan the Cloud:** Review the Concept Cloud to identify the core principles relevant to your current challenge.",
+                                                                                              "**Translate the Term:** Click on a concept to see how it is expressed in your specific domain versus others.",
+                                                                                              "**Apply the Rubric:** Look at the \u0027Objective Measurement\u0027 field for your domain. Use this specific metric to evaluate your work.",
+                                                                                              "**Bridge the Gap:** If you are stuck, look at how a different domain solves the same problem."
+                                                                                          ],
+                                                                         "facilitator":  [
+                                                                                             "**Normalize Vocabulary:** Use the Concept Cloud to bridge communication gaps between team members from different disciplines.",
+                                                                                             "**Define Shared Terms:** Before starting work, have the team agree on the specific definition of key terms.",
+                                                                                             "**Use the Rubrics:** When giving feedback, refer to the \u0027Objective Measurement\u0027 field to ensure critiques are based on agreed-upon standards.",
+                                                                                             "**Facilitate Translation:** If an engineer and a designer are arguing, use the domain variations to show them they are often talking about the same underlying principle."
+                                                                                         ]
+                                                                     }
+                                            }
+                     },
+    "pedagogicalPlaybook":  [
+                                {
+                                    "uid":  "T5-PP1",
+                                    "title":  "Learning Objectives (SWBAT)",
+                                    "stanceTitle":  {
+                                                        "learning":  "Learning Objectives (SWBAT)",
+                                                        "performance":  "Core Competencies"
+                                                    },
+                                    "icon":  "fa-bullseye",
+                                    "content":  "* Translate a core idea into a communicable structure (e.g., an experimental protocol, an argument map, a storyboard, a technical specification).\n* Decompose a complex goal into a logical sequence of manageable components.\n* Communicate their structured approach clearly to an intended audience.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T5-PP2",
+                                    "title":  "Facilitator Actions \u0026 Teacher Moves",
+                                    "stanceTitle":  {
+                                                        "learning":  "Facilitator Actions \u0026 Teacher Moves",
+                                                        "performance":  "Key Activities"
+                                                    },
+                                    "icon":  "fa-hands-helping",
+                                    "content":  "* **Pedagogical Dynamic: Cognitive Offloading.** Your primary role is to provide an external heuristic (e.g., a template or framework) that acts as an \u0027external ECN\u0027 for the learner, reducing the cognitive load of structuring their thoughts.\n* Introduce domain-appropriate structures (e.g., CEW for arguments, experimental protocols, design systems, storyboards).\n* Provide models and exemplars of well-articulated plans and structures.\n* Facilitate peer-review sessions focused on the clarity, coherence, and feasibility of the articulated approach.\n* **Trauma-Informed Consideration:** The blank page can be intimidating. Provide multiple, flexible templates and sentence starters. Emphasize that the first version is a low-stakes draft, not a final product.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T5-PP3",
+                                    "title":  "Common Failure Modes \u0026 Recovery Loops",
+                                    "stanceTitle":  {
+                                                        "learning":  "Common Failure Modes \u0026 Recovery Loops",
+                                                        "performance":  "Risk Mitigation"
+                                                    },
+                                    "icon":  "fa-exclamation-triangle",
+                                    "content":  "* **Failure Mode:** The structure is logical but overly rigid, killing the creative energy of the idea.\n* **Recovery Loop:** Re-engage with Tool 3. Use a generative prompt to create alternative variations of one part of the structure, then re-integrate the most promising one.\n* **Failure Mode:** The learner struggles to translate their non-linear ideas into a linear outline.\n* **Recovery Loop:** Use a physical or digital concept map first. Have the learner organize their ideas spatially before attempting to linearize them.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "collapsed"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T5-PP4",
+                                    "title":  "Tool-Gate Checklist",
+                                    "stanceTitle":  {
+                                                        "learning":  "Tool-Gate Checklist",
+                                                        "performance":  "Definition of Done"
+                                                    },
+                                    "icon":  "fa-tasks",
+                                    "content":  "* [ ] A structured plan, storyboard, or formal argument has been drafted.\n* [ ] The plan has been reviewed by a peer for clarity and feasibility.\n* [ ] All necessary components for the next tool (Application) are in place.",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "collapsed"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "expanded"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T5-PP5",
+                                    "title":  "Continuous Sensing Prompt",
+                                    "stanceTitle":  {
+                                                        "learning":  "Continuous Sensing Prompt",
+                                                        "performance":  "Feasibility Check"
+                                                    },
+                                    "icon":  "fa-broadcast-tower",
+                                    "content":  "Does our articulated plan align with our defined constraints? Do we need to adjust the plan based on new information from the environment?",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "collapsed"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                },
+                                {
+                                    "uid":  "T5-PP6",
+                                    "title":  "Team Reflection Prompt",
+                                    "stanceTitle":  {
+                                                        "learning":  "Team Reflection Prompt",
+                                                        "performance":  "Bias Check-in"
+                                                    },
+                                    "icon":  "fa-users-cog",
+                                    "content":  "Does our chosen structure favor certain communication styles? Does the structure itself introduce new biases or risks?",
+                                    "stance":  {
+                                                   "learning":  {
+                                                                    "defaultState":  "expanded"
+                                                                },
+                                                   "performance":  {
+                                                                       "defaultState":  "collapsed"
+                                                                   }
+                                               }
+                                }
+                            ],
+    "tableData":  {
+                      "pedagogy":  "**Gagné:** Present Content\n**5E:** Explain\n**DLS:** Communicating\n**// NEW //**\n**Articulation Bridge Path:** Heuristic, Feedback, Synthesis",
+                      "science":  "Design Experiment / Operational Definitions",
+                      "agile":  "Sprint Planning / Work Breakdown Structure",
+                      "humanities":  "Argument Structure (CEW) / Outline",
+                      "creative":  "Score / Design System / Storyboard"
+                  },
+    "averagePathway":  {
+                           "title":  "The Average Pathway: Deconstruct → Sequence for an Audience → Formalize",
+                           "rationale":  "This sequence translates a complex idea into a communicable format, improved by explicitly considering the audience. It breaks the idea into parts, arranges them in a logical and persuasive order for a specific reader, and codifies that order into a shared blueprint.",
+                           "cognitiveSequence":  [
+                                                     "Deconstruct the core idea into its component parts. This is a primary ECN function, involving hierarchical cognitive control to break a high-level goal into a structured set of manageable sub-goals.",
+                                                     "Engage in \u0027social prospection\u0027 by simulating the audience\u0027s mental journey. This leverages the DMN\u0027s capacity for self-projection, guided by the SCN to model the specific perspective, beliefs, and likely reactions of the intended audience.",
+                                                     "Arrange the components into a coherent sequence. Guided by the social simulation, the ECN directs the \u0027Unification\u0027 process in the Language Network to structure the components logically and persuasively for the intended audience.",
+                                                     "Formalize the plan into a shareable artifact. This is a goal-directed ECN task, which directs the Language and Motor networks to translate the final internal sequence into a persistent, external, and symbolic format (the \u0027blueprint\u0027)."
+                                                 ],
+                           "activitySequence":  [
+                                                    "Decompose the selected concept into its smallest manageable parts (e.g., tasks, argument points, story beats).",
+                                                    "Arrange these parts into a logical and coherent sequence, explicitly considering the journey you are creating for your intended audience. The goal is not just logical correctness, but persuasive clarity.",
+                                                    "Formalize this audience-centered sequence into a shareable document."
+                                                ]
+                       },
+    "summary":  [
+                    {
+                        "content":  "To translate a non-linear concept into a **linear, communicable structure** (plan, spec, or story) for execution.\n\n##### Practitioner Actions\n\n**Decompose:** Break the concept down into atomic parts.\n**Sequence:** Arrange the parts into a logical, linear flow.\n**Formalize:** Encode the sequence into a shared artifact (e.g., document, diagram).",
+                        "title":  "Objective \u0026 Actions"
+                    },
+                    {
+                        "content":  "**Hierarchical Control:** The ECN organizes sub-goals into a nested structure.\n**Translation:** Converting holistic mental models (Spatial/Visual) into linear formats (Verbal/Logical).\n**Theory of Mind:** Structuring requires simulating the perspective of the person who will receive the plan.",
+                        "title":  "Core Dynamics \u0026 Interactions"
+                    },
+                    {
+                        "human_display_content":  "##### Methodology Note\n\nThe following profile represents the cognitive state of *architecting* and sequencing.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 3.0 | 0.5 | 0.5 | 0.5 | 0.2 | 0.5 | 3.5 | 3.0 | 4.0 | 5.0 | 1.0 | 0.2 | 1.0 | 1.5 | 3.0 |\n| **Humanities \u0026 SS.** | 2.0 | 1.0 | 0.2 | 0.2 | 0.5 | 0.2 | 5.0 | 1.0 | 3.0 | 4.5 | 2.0 | 0.5 | 1.5 | 2.0 | 3.0 |\n| **Arts \u0026 Design** | 4.5 | 1.0 | 2.0 | 1.5 | 1.5 | 2.0 | 2.0 | 1.5 | 5.0 | 3.5 | 2.5 | 2.0 | 1.5 | 3.5 | 2.5 |\n| **Business \u0026 Agile** | 3.5 | 1.5 | 0.5 | 0.5 | 0.5 | 0.5 | 3.5 | 2.5 | 4.0 | 4.5 | 1.5 | 1.0 | 2.5 | 2.0 | 3.0 |\n| **Integrated Knowledge \u0026 Ethics** | 1.5 | 1.5 | 0.5 | 0.5 | 2.0 | 0.5 | 4.0 | 1.0 | 2.5 | 4.0 | 2.0 | 2.5 | 3.0 | 2.0 | 3.5 |\n| **Pedagogy \u0026 Facil.** | 2.5 | 2.0 | 0.5 | 0.5 | 1.0 | 1.0 | 4.0 | 1.5 | 3.5 | 4.5 | 2.0 | 1.5 | 3.0 | 2.5 | 3.5 |\n\n#### Insight\n\n**Spatial** and **Logical** modalities dominate this tool. Even in text-heavy domains like Humanities, the act of outlining is cognitively spatial (arranging arguments in a hierarchy). This confirms that structuring is an act of *mapping*.",
+                        "title":  "Data-Driven Modality Profile",
+                        "ai_instructional_context":  {
+                                                         "key_domain_variations":  {
+
+                                                                                   }
+                                                     }
+                    },
+                    {
+                        "title":  "Concept Cloud",
+                        "content":  "Argument Map, Balance, Blueprint, Codification, Design System, End-to-End Tracer, Flowchart, Harmony, Heuristics, Logic, Oral Tradition, Order, Outline, Pattern Language, Protocol, RACI Matrix, Scaffolding, Specification, Storyboard, Structure, Structuring, System, Technical Specification, User Story Map, Narrative Arc, Dependency Mapping, Modularity"
+                    }
+                ],
+    "cynefinAnalysis":  {
+                            "genotype":  {
+                                             "implications":  "Focus on clarity and logic. Ensure the structure is robust.",
+                                             "reasoning":  "Structuring is architectural. It involves arranging known components into a logical order.",
+                                             "primaryDomain":  "Complicated"
+                                         },
+                            "dynamic_playbook":  {
+                                                     "practitioner":  [
+                                                                          "Enter Complicated Domain: Use \u0027Good Practice\u0027 templates.",
+                                                                          "Define Boundaries: Mark what is Known vs. Unknown.",
+                                                                          "Create Enabling Constraints: Define goals, leave method open."
+                                                                      ],
+                                                     "facilitator":  [
+                                                                         "Prevent Over-Structuring: Watch for bureaucracy.",
+                                                                         "Distinguish Protocols: Is this a Recipe or a Guideline?",
+                                                                         "Focus on Interfaces: How do components interact?"
+                                                                     ]
+                                                 },
+                            "phenotypes":  [
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Over-specifying (bureaucracy) or under-specifying (ambiguity).",
+                                                   "phenotypeName":  "Protocol Design",
+                                                   "classificationAndReasoning":  "Complicated: Defining precise steps and tolerances is an engineering task.",
+                                                   "domainName":  "Science \u0026 Engineering"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Creating dependencies that block flow.",
+                                                   "phenotypeName":  "Backlog Refinement",
+                                                   "classificationAndReasoning":  "Complicated: Breaking down features into atomic user stories.",
+                                                   "domainName":  "Business \u0026 Agile"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Forcing a non-linear idea into a linear structure too early.",
+                                                   "phenotypeName":  "Outlining",
+                                                   "classificationAndReasoning":  "Complicated: Structuring a logical argument requires hierarchical organization.",
+                                                   "domainName":  "Humanities \u0026 SS"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Losing the emotional arc in the technical details.",
+                                                   "phenotypeName":  "Storyboard",
+                                                   "classificationAndReasoning":  "Complicated: Sequencing the beats of a narrative or experience.",
+                                                   "domainName":  "Arts \u0026 Design"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Creating a hollow ritual that lacks meaning.",
+                                                   "phenotypeName":  "Ritual Design",
+                                                   "classificationAndReasoning":  "Complicated: Designing a social ritual requires understanding symbols and sequence.",
+                                                   "domainName":  "Culture \u0026 Ethics"
+                                               },
+                                               {
+                                                   "implicationsAndRisk":  "Risk: Sticking to the plan when the students are lost.",
+                                                   "phenotypeName":  "Lesson Planning",
+                                                   "classificationAndReasoning":  "Complicated: Sequencing activities to manage cognitive load.",
+                                                   "domainName":  "Pedagogy \u0026 Facilitation"
+                                               }
+                                           ]
+                        },
+    "nasa_registry":  {
+                          "requirement":  "Every planned component shall map to a hierarchical PBS code (Fig G.1-1).",
+                          "kdp_gate":  "Phase B/C Interface",
+                          "readiness_target":  "TRL 5: Validation in relevant environment.",
+                          "pbs_id":  "1.3.3",
+                          "verification_artifact":  "Product Breakdown Map (Hierarchical)"
+                      }
+}

@@ -1,0 +1,339 @@
+{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "methodologies":  [
+                          {
+                              "id":  "agile-sprint",
+                              "name":  "An Agile Sprint",
+                              "description":  "A short, time-boxed cycle focused on delivering a valuable increment of work.",
+                              "color":  "#E74C3C",
+                              "path":  [
+                                           {
+                                               "from":  "tool2",
+                                               "to":  "tool5",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "Sprint Planning leads directly to structuring the work in the backlog."
+                                           },
+                                           {
+                                               "from":  "tool5",
+                                               "to":  "tool6",
+                                               "type":  "iterative",
+                                               "weight":  "primary",
+                                               "rationale":  "The team builds and tests in a tight, repetitive daily cycle."
+                                           },
+                                           {
+                                               "from":  "tool6",
+                                               "to":  "tool7",
+                                               "type":  "linear",
+                                               "weight":  "secondary",
+                                               "rationale":  "The completed increment is formally analyzed against the Definition of Done."
+                                           },
+                                           {
+                                               "from":  "tool7",
+                                               "to":  "tool8",
+                                               "type":  "linear",
+                                               "weight":  "secondary",
+                                               "rationale":  "The validated work is presented to stakeholders for feedback."
+                                           },
+                                           {
+                                               "from":  "tool8",
+                                               "to":  "tool2",
+                                               "type":  "feedback_loop",
+                                               "weight":  "primary",
+                                               "rationale":  "Stakeholder feedback directly informs the plan for the next sprint cycle."
+                                           }
+                                       ]
+                          },
+                          {
+                              "id":  "scientific-method",
+                              "name":  "The Scientific Method",
+                              "description":  "A rigorous process for empirical inquiry, moving from observation to conclusion.",
+                              "color":  "#3498DB",
+                              "path":  [
+                                           {
+                                               "from":  "tool1",
+                                               "to":  "tool3",
+                                               "type":  "linear",
+                                               "weight":  "secondary",
+                                               "rationale":  "An observation leads to the generation of a testable hypothesis."
+                                           },
+                                           {
+                                               "from":  "tool3",
+                                               "to":  "tool2",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The hypothesis is used to plan a rigorous experimental design."
+                                           },
+                                           {
+                                               "from":  "tool2",
+                                               "to":  "tool5",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The design is structured into a formal, reproducible protocol."
+                                           },
+                                           {
+                                               "from":  "tool5",
+                                               "to":  "tool6",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The experiment is executed precisely according to the protocol."
+                                           },
+                                           {
+                                               "from":  "tool6",
+                                               "to":  "tool7",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The raw data is analyzed to find the signal."
+                                           },
+                                           {
+                                               "from":  "tool7",
+                                               "to":  "tool8",
+                                               "type":  "linear",
+                                               "weight":  "secondary",
+                                               "rationale":  "The conclusion is submitted for peer review and validation."
+                                           },
+                                           {
+                                               "from":  "tool8",
+                                               "to":  "tool9",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The validated finding is synthesized into a generalizable model."
+                                           }
+                                       ]
+                          },
+                          {
+                              "id":  "design-thinking",
+                              "name":  "A Design Thinking Process",
+                              "description":  "A human-centered approach to innovation integrating user needs and prototyping.",
+                              "color":  "#9B59B6",
+                              "path":  [
+                                           {
+                                               "from":  "tool1",
+                                               "to":  "tool3",
+                                               "type":  "exploratory",
+                                               "weight":  "primary",
+                                               "rationale":  "Empathy and user insights lead to a broad, divergent brainstorm."
+                                           },
+                                           {
+                                               "from":  "tool3",
+                                               "to":  "tool4",
+                                               "type":  "iterative",
+                                               "weight":  "secondary",
+                                               "rationale":  "Ideas are clustered and refined to select a promising concept."
+                                           },
+                                           {
+                                               "from":  "tool4",
+                                               "to":  "tool6",
+                                               "type":  "exploratory",
+                                               "weight":  "primary",
+                                               "rationale":  "The concept is immediately built as a low-fidelity prototype to test assumptions."
+                                           },
+                                           {
+                                               "from":  "tool6",
+                                               "to":  "tool7",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The prototype is tested with users to gather feedback."
+                                           },
+                                           {
+                                               "from":  "tool7",
+                                               "to":  "tool3",
+                                               "type":  "feedback_loop",
+                                               "weight":  "primary",
+                                               "rationale":  "User feedback inspires a new round of ideation, creating the core iterative loop."
+                                           }
+                                       ]
+                          },
+                          {
+                              "id":  "crisp-dm-datascience",
+                              "name":  "A CRISP-DM Data Science Project",
+                              "description":  "A classic, rigorous process for data mining and machine learning projects.",
+                              "color":  "#16A085",
+                              "path":  [
+                                           {
+                                               "from":  "tool1",
+                                               "to":  "tool2",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "Business Understanding (T1) directly informs Data Understanding (T2)."
+                                           },
+                                           {
+                                               "from":  "tool2",
+                                               "to":  "tool5",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "Data Understanding (T2) is structured into a formal Data Preparation plan (T5)."
+                                           },
+                                           {
+                                               "from":  "tool5",
+                                               "to":  "tool3",
+                                               "type":  "exploratory",
+                                               "weight":  "secondary",
+                                               "rationale":  "Prepared data enables the generation of multiple potential models (T3)."
+                                           },
+                                           {
+                                               "from":  "tool3",
+                                               "to":  "tool4",
+                                               "type":  "linear",
+                                               "weight":  "secondary",
+                                               "rationale":  "The portfolio of models is evaluated to select the best one (T4)."
+                                           },
+                                           {
+                                               "from":  "tool4",
+                                               "to":  "tool6",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The selected model is executed and evaluated against test data (T6)."
+                                           },
+                                           {
+                                               "from":  "tool6",
+                                               "to":  "tool7",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The model\u0027s performance is analyzed to determine its validity (T7)."
+                                           },
+                                           {
+                                               "from":  "tool7",
+                                               "to":  "tool8",
+                                               "type":  "linear",
+                                               "weight":  "secondary",
+                                               "rationale":  "The validated model is presented for deployment (T8)."
+                                           },
+                                           {
+                                               "from":  "tool8",
+                                               "to":  "tool9",
+                                               "type":  "linear",
+                                               "weight":  "secondary",
+                                               "rationale":  "The project is synthesized into a final report and deployment plan (T9)."
+                                           }
+                                       ]
+                          },
+                          {
+                              "id":  "six-sigma-dmaic",
+                              "name":  "A Six Sigma DMAIC Project",
+                              "description":  "A highly structured, data-driven cycle for process improvement.",
+                              "color":  "#2C3E50",
+                              "path":  [
+                                           {
+                                               "from":  "tool1",
+                                               "to":  "tool7",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The \u0027Define\u0027 phase (T1) leads directly into the \u0027Measure\u0027 and \u0027Analyze\u0027 phases, which are about data analysis and root cause identification (T7)."
+                                           },
+                                           {
+                                               "from":  "tool7",
+                                               "to":  "tool9",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The analysis of the problem (T7) is used to synthesize a potential improvement or solution (T9)."
+                                           },
+                                           {
+                                               "from":  "tool9",
+                                               "to":  "tool10",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The synthesized improvement (T9) is implemented and sustained through new process controls (T10)."
+                                           }
+                                       ]
+                          },
+                          {
+                              "id":  "gagne-instruction",
+                              "name":  "Gagne\u0027s Events of Instruction",
+                              "description":  "A systematic model for designing effective instruction.",
+                              "color":  "#F39C12",
+                              "path":  [
+                                           {
+                                               "from":  "tool1",
+                                               "to":  "tool2",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "Gaining Attention (T1) is a prerequisite for Informing Objectives (T2)."
+                                           },
+                                           {
+                                               "from":  "tool2",
+                                               "to":  "tool3",
+                                               "type":  "linear",
+                                               "weight":  "secondary",
+                                               "rationale":  "Clear objectives (T2) allow for Stimulating Recall of prior knowledge relevant to the new topic (T3)."
+                                           },
+                                           {
+                                               "from":  "tool3",
+                                               "to":  "tool5",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "With prior knowledge activated (T3), the new content can be Presented in a structured way (T5)."
+                                           },
+                                           {
+                                               "from":  "tool5",
+                                               "to":  "tool6",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "After content is structured (T5), the facilitator Provides Guidance during learner application (T6)."
+                                           },
+                                           {
+                                               "from":  "tool6",
+                                               "to":  "tool7",
+                                               "type":  "linear",
+                                               "weight":  "secondary",
+                                               "rationale":  "Learner application (T6) allows for Eliciting Performance and Providing Feedback (T7)."
+                                           },
+                                           {
+                                               "from":  "tool7",
+                                               "to":  "tool8",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "Formative feedback (T7) prepares the learner for the final Summative Assessment (T8)."
+                                           },
+                                           {
+                                               "from":  "tool8",
+                                               "to":  "tool9",
+                                               "type":  "linear",
+                                               "weight":  "secondary",
+                                               "rationale":  "Successful assessment (T8) is followed by activities to Enhance Retention and Transfer (T9)."
+                                           }
+                                       ]
+                          },
+                          {
+                              "id":  "5e-constructivist",
+                              "name":  "The 5E Constructivist Model",
+                              "description":  "A student-centered, inquiry-based instructional model.",
+                              "color":  "#D35400",
+                              "path":  [
+                                           {
+                                               "from":  "tool1",
+                                               "to":  "tool3",
+                                               "type":  "exploratory",
+                                               "weight":  "primary",
+                                               "rationale":  "The \u0027Engage\u0027 phase (T1) sparks curiosity, leading directly to hands-on \u0027Exploration\u0027 (T3)."
+                                           },
+                                           {
+                                               "from":  "tool3",
+                                               "to":  "tool5",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "After exploration (T3), learners are ready for the \u0027Explain\u0027 phase, where concepts are formally structured (T5)."
+                                           },
+                                           {
+                                               "from":  "tool5",
+                                               "to":  "tool6",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "The formal explanation (T5) provides the foundation for learners to \u0027Elaborate\u0027 by applying the concept in a new context (T6)."
+                                           },
+                                           {
+                                               "from":  "tool6",
+                                               "to":  "tool8",
+                                               "type":  "linear",
+                                               "weight":  "primary",
+                                               "rationale":  "Elaboration (T6) provides the performance that can be formally \u0027Evaluated\u0027 (T8)."
+                                           }
+                                       ]
+                          }
+                      ]
+}

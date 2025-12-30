@@ -1,0 +1,944 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "toolId":  "tool4",
+    "toolName":  "Select a Course of Action",
+    "concepts":  [
+                     {
+                         "id":  "T4.1",
+                         "name":  "Alignment",
+                         "integrated_deliverable":  "A Strategic Alignment Check.",
+                         "scenario":  "Approving a new marketing budget.",
+                         "theory_application":  "Verify that a proposed action or decision is consistent with the established goals, values, evidence, and constraints of the project.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Scientist",
+                                                "theory":  "Definition: Popper requires a theory to be falsifiable. Procedural Link: The action is to ensure the final choice must align with the principle of falsifiability; if the hypothesis is not testable, the plan is invalid.",
+                                                "specific_deliverable":  "A Testability Review of the marketing claims.",
+                                                "rubric":  "Ensure choice aligns with falsifiability."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "John Doerr - The Manager",
+                                                "theory":  "Definition: OKRs link tactical work to strategic goals. Procedural Link: The action is to ensure the final choice must align with the Key Results (KRs) defined in Tool 2; if it doesn\u0027t move the needle on a KR, it is the wrong choice.",
+                                                "specific_deliverable":  "An OKR Alignment Matrix for the budget.",
+                                                "rubric":  "Ensure choice aligns with Key Results."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Analyst",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to ensure the final thesis must align with the available evidence; if the evidence contradicts the claim, the claim must be revised.",
+                                                "specific_deliverable":  "An Evidence Check for the campaign message.",
+                                                "rubric":  "Ensure thesis aligns with evidence."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to ensure the final design must align with the aesthetic principles and constraints defined in the Creative Brief.",
+                                                "specific_deliverable":  "A Brand Consistency Audit of the visuals.",
+                                                "rubric":  "Ensure design aligns with principles."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Ethicist",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to ensure the final action must align with the \u0027red lines\u0027—the specific, non-negotiable ethical boundaries the project will not cross.",
+                                                "specific_deliverable":  "An Ethical Compliance Check for the ads.",
+                                                "rubric":  "Ensure action aligns with \u0027red lines\u0027."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.2",
+                         "name":  "Assent",
+                         "integrated_deliverable":  "A Sign-Off Document.",
+                         "scenario":  "Finalizing a partnership agreement.",
+                         "theory_application":  "Secure the formal agreement, commitment, or consent of all necessary parties to proceed with a decision or action.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Reviewer",
+                                                "theory":  "Definition: Merton defined \u0027Organized Skepticism\u0027 as a core norm. Procedural Link: The action is to ensure the final decision must achieve \u0027Organized Skepticism\u0027—formal agreement among peers that the plan is rigorous and defensible.",
+                                                "specific_deliverable":  "A Peer Review Sign-off.",
+                                                "rubric":  "Achieve \u0027Organized Skepticism\u0027."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Scrum Master",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to ensure the final decision must achieve \u0027commitment\u0027 from the entire development team to the sprint goal and scope.",
+                                                "specific_deliverable":  "A Team Commitment Vote.",
+                                                "rubric":  "Achieve \u0027commitment\u0027 from team."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Mediator",
+                                                "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to ensure the final decision must achieve \u0027communicative rationality\u0027—agreement reached through reasoned, open dialogue free of coercion.",
+                                                "specific_deliverable":  "A Consensus Statement.",
+                                                "rubric":  "Achieve \u0027communicative rationality\u0027."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Artist",
+                                                "theory":  "Definition: The CRP gives the artist agency over the critique process. Procedural Link: The action is to ensure the final decision must achieve \u0027consent\u0027 from the artist and client that the chosen path is the most authentic expression of the intent.",
+                                                "specific_deliverable":  "A Creative Approval Form.",
+                                                "rubric":  "Achieve \u0027consent\u0027 from artist."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Circle Way - The Council",
+                                                "theory":  "Definition: The Circle Way uses \u0027consent\u0027—no critical objection—for decision-making. Procedural Link: The action is to ensure the final decision must achieve \u0027consent\u0027—no member of the council has a critical objection that would harm the community.",
+                                                "specific_deliverable":  "A Council Resolution.",
+                                                "rubric":  "Achieve \u0027consent\u0027 (no objection)."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.3",
+                         "name":  "Choice",
+                         "integrated_deliverable":  "A Decision Memorandum.",
+                         "scenario":  "Selecting a new office location.",
+                         "theory_application":  "Make a definitive selection from a set of alternatives based on specific criteria, logic, and values.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Scientist",
+                                                "theory":  "Definition: Popper requires a theory to be falsifiable. Procedural Link: The action is to choose the hypothesis that is the most falsifiable and has the highest potential impact on the field.",
+                                                "specific_deliverable":  "A Site Selection Matrix based on data.",
+                                                "rubric":  "Choose most falsifiable/impactful."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Daniel Kahneman - The Analyst",
+                                                "theory":  "Definition: Kahneman defines System 2 analysis (slow, deliberate). Procedural Link: The action is to use System 2 analysis (slow, deliberate) to override the System 1 bias (fast, intuitive) that favors the easiest or most familiar option.",
+                                                "specific_deliverable":  "A Cost-Benefit Analysis.",
+                                                "rubric":  "Use System 2 analysis."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Strategist",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to choose the thesis that is the most significant and has the highest potential to advance the scholarly discourse.",
+                                                "specific_deliverable":  "A Strategic Rationale.",
+                                                "rubric":  "Choose most significant thesis."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Designer",
+                                                "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to choose the design that resolves the aesthetic tension in the most elegant and powerful way.",
+                                                "specific_deliverable":  "A Design Selection.",
+                                                "rubric":  "Choose design resolving tension."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Isaiah Berlin - The Ethicist",
+                                                "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to choose the action that honors the highest-ranked value in the hierarchy, acknowledging the sacrifice of the lower-ranked value.",
+                                                "specific_deliverable":  "A Value-Based Decision.",
+                                                "rubric":  "Choose action honoring value."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.4",
+                         "name":  "Commitment",
+                         "integrated_deliverable":  "A Pledge of Action.",
+                         "scenario":  "Launching a sustainability initiative.",
+                         "theory_application":  "Formally dedicate resources, reputation, and effort to a chosen course of action, accepting the risks and responsibilities involved.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Scientist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to commit to the hypothesis with full intellectual honesty, prepared to abandon it immediately if the data proves it wrong.",
+                                                "specific_deliverable":  "A Research Commitment.",
+                                                "rubric":  "Commit with intellectual honesty."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to commit to the sprint goal with full team dedication, protecting the scope from external interference.",
+                                                "specific_deliverable":  "A Resource Allocation.",
+                                                "rubric":  "Commit to sprint goal."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Leader",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action is to commit to the chosen theoretical lens with rigor, using it consistently to analyze the subject.",
+                                                "specific_deliverable":  "A Public Pledge.",
+                                                "rubric":  "Commit to theoretical lens."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Craftsman",
+                                                "theory":  "Definition: Sennett emphasizes the mastery of the material. Procedural Link: The action is to commit to the mastery of the material, dedicating the necessary time and effort to realize the concept with full fidelity.",
+                                                "specific_deliverable":  "A Production Schedule.",
+                                                "rubric":  "Commit to mastery."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Community",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to commit to the dialogic process, ensuring all voices are heard and the final decision is collectively owned.",
+                                                "specific_deliverable":  "A Community Compact.",
+                                                "rubric":  "Commit to dialogic process."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.5",
+                         "name":  "Convergence",
+                         "integrated_deliverable":  "A Synthesis Report.",
+                         "scenario":  "Merging three product ideas into one.",
+                         "theory_application":  "Move from a state of broad possibilities to a single, focused solution by eliminating weaker options and synthesizing the strengths of the remaining ones.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "T. C. Chamberlin - The Scientist",
+                                                "theory":  "Definition: Chamberlin advocated for pursuing multiple hypotheses simultaneously. Procedural Link: The action is to achieve convergence when the evidence eliminates all but one of the competing hypotheses.",
+                                                "specific_deliverable":  "A Hypothesis Elimination Report.",
+                                                "rubric":  "Evidence eliminates hypotheses."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Design Thinking - The Innovator",
+                                                "theory":  "Definition: Design Thinking uses divergence to maximize options. Procedural Link: The action is to achieve convergence when the team synthesizes the best elements of the divergent ideas into a single, cohesive solution.",
+                                                "specific_deliverable":  "A Concept Synthesis.",
+                                                "rubric":  "Synthesize best elements."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Analyst",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to achieve convergence when the evidence and warrants logically support the single, final claim.",
+                                                "specific_deliverable":  "A Unified Argument.",
+                                                "rubric":  "Evidence supports final claim."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Designer",
+                                                "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to achieve convergence when the formal elements of the composition resolve the initial aesthetic tension into harmony.",
+                                                "specific_deliverable":  "A Final Design Concept.",
+                                                "rubric":  "Resolve tension into harmony."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Circle Way - The Facilitator",
+                                                "theory":  "Definition: The Circle Way uses consent—no critical objection—for decision-making. Procedural Link: The action is to achieve convergence when the collective integrated knowledge of the council points toward a single, emergent path forward.",
+                                                "specific_deliverable":  "A Group Consensus.",
+                                                "rubric":  "Collective integrated knowledge points path."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.6",
+                         "name":  "Cost-Benefit Analysis",
+                         "integrated_deliverable":  "An ROI Report.",
+                         "scenario":  "Deciding whether to upgrade IT infrastructure.",
+                         "theory_application":  "Systematically compare the expected costs (financial, time, effort) against the expected benefits (value, impact, learning) to determine the viability of an action.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Hazelrigg - The Engineer",
+                                                "theory":  "Definition: Multi-criteria decision analysis is used to select optimal designs. Procedural Link: The action is to evaluate the projected cost and time of the experiment against the predicted value of the scientific insight (e.g., impact factor of publication).",
+                                                "specific_deliverable":  "A Value of Information Analysis.",
+                                                "rubric":  "Evaluate cost vs scientific value."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Michael Porter - The Strategist",
+                                                "theory":  "Definition: Porter\u0027s work focuses on competitive advantage. Procedural Link: The action is to calculate the Return on Investment (ROI) for a project to justify its funding against competing alternatives.",
+                                                "specific_deliverable":  "An ROI Calculation.",
+                                                "rubric":  "Calculate ROI."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Amartya Sen - The Economist",
+                                                "theory":  "Definition: Sen focuses on expanding human freedom and capability. Procedural Link: The action is to assess the intellectual cost against the potential to expand human freedom and capability through the research.",
+                                                "specific_deliverable":  "A Capability Impact Assessment.",
+                                                "rubric":  "Assess cost vs human freedom."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "William Morris - The Craftsman",
+                                                "theory":  "Definition: Morris emphasized the integrity of the material and the honesty of the craft process. Procedural Link: The action is to balance the cost of materials and fabrication against the projected aesthetic impact and durability of the final piece.",
+                                                "specific_deliverable":  "A Material Cost Estimate.",
+                                                "rubric":  "Balance cost vs aesthetic impact."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Steward",
+                                                "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The action is to weigh the short-term cost against the long-term benefit to the seventh generation.",
+                                                "specific_deliverable":  "A 7th Generation Impact Report.",
+                                                "rubric":  "Weigh short-term vs long-term."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.7",
+                         "name":  "Decision",
+                         "integrated_deliverable":  "A Formal Decision Record.",
+                         "scenario":  "Selecting a location for a new wind farm.",
+                         "theory_application":  "Execute the final act of selection, transforming deliberation into a binding commitment to a specific course of action.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Scientist",
+                                                "theory":  "Definition: Popper requires a theory to be falsifiable. Procedural Link: The action is to recognize the decision as the formal commitment to the hypothesis that is the most falsifiable and has the highest potential impact.",
+                                                "specific_deliverable":  "A Hypothesis Commitment Log selecting Site A for testing.",
+                                                "rubric":  "Formal commitment to falsifiable hypothesis."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to recognize the decision as the formal commitment to the sprint goal and the planned scope.",
+                                                "specific_deliverable":  "A Sprint Goal Commitment locking in the scope.",
+                                                "rubric":  "Formal commitment to sprint goal/scope."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Analyst",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to recognize the decision as the formal commitment to the thesis that is the most significant and defensible.",
+                                                "specific_deliverable":  "A Thesis Statement defending the site selection.",
+                                                "rubric":  "Formal commitment to significant thesis."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Designer",
+                                                "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to recognize the decision as the formal commitment to the design that resolves the aesthetic tension in the most elegant way.",
+                                                "specific_deliverable":  "A Design Freeze Document locking the visual layout.",
+                                                "rubric":  "Formal commitment to design resolving tension."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Isaiah Berlin - The Ethicist",
+                                                "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to recognize the decision as the formal commitment to the action that honors the highest-ranked value.",
+                                                "specific_deliverable":  "A Value Choice Memo honoring the highest-ranked value.",
+                                                "rubric":  "Formal commitment to action honoring value."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.8",
+                         "name":  "Focus",
+                         "integrated_deliverable":  "A Resource Allocation Plan.",
+                         "scenario":  "Allocating budget for a Mars mission.",
+                         "theory_application":  "Concentrate limited attention, resources, and energy onto the single most critical objective, deliberately ignoring distractions.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Director",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to direct all available resources and scientific attention toward the investigation of the chosen hypothesis.",
+                                                "specific_deliverable":  "A Budget Allocation Sheet funding the propulsion team.",
+                                                "rubric":  "Directs resources to chosen hypothesis."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The PO",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to concentrate the team\u0027s capacity on the highest-value work to maximize efficiency (often through scope reduction).",
+                                                "specific_deliverable":  "A Capacity Plan focusing engineers on life support.",
+                                                "rubric":  "Concentrates capacity on highest-value work."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Historian",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action is to direct the entire research effort to the defense and elaboration of the single chosen thesis statement.",
+                                                "specific_deliverable":  "A Research Focus Plan on colonial narratives.",
+                                                "rubric":  "Directs effort to defense of thesis."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Craftsman",
+                                                "theory":  "Definition: Sennett emphasizes the mastery of the material. Procedural Link: The action is to direct the artistic energy toward the realization of the single chosen concept, eliminating all competing directions.",
+                                                "specific_deliverable":  "A Studio Schedule dedicating time to fabrication.",
+                                                "rubric":  "Directs energy to realization of concept."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Strategist",
+                                                "theory":  "Definition: Meadows focuses on identifying leverage points. Procedural Link: The action is to concentrate the collective effort on the highest-leverage, most responsible course of action.",
+                                                "specific_deliverable":  "A Leverage Point Strategy focusing on fuel efficiency.",
+                                                "rubric":  "Concentrates effort on highest-leverage course."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.9",
+                         "name":  "Go/No-Go Decision",
+                         "integrated_deliverable":  "A Gate Review Deck.",
+                         "scenario":  "Launching a new pharmaceutical drug.",
+                         "theory_application":  "Conduct a formal review point where the project is evaluated against critical success criteria to determine if it should proceed, pause, or stop.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Gary Klein - The Safety Officer",
+                                                "theory":  "Definition: The Pre-Mortem is a technique where the team assumes the project has failed and works backward to list the causes. Procedural Link: The action is to run a Pre-Mortem (N11) to rigorously challenge the plan by assuming failure has already occurred, forcing the team to confront hidden risks before committing resources.",
+                                                "specific_deliverable":  "A Pre-Mortem Report listing potential side effects.",
+                                                "rubric":  "Decision preceded by Pre-Mortem."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Executive",
+                                                "theory":  "Definition: The Lean Startup is built on the \u0027Build-Measure-Learn\u0027 loop, where the goal is to achieve validated learning. Procedural Link: The action is to base the Go/No-Go decision on validated learning (data from the market), not on internal opinion or sunk cost fallacy.",
+                                                "specific_deliverable":  "A Launch Decision Memo citing trial data.",
+                                                "rubric":  "Decision based on validated learning."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "The Belmont Report - The Ethicist",
+                                                "theory":  "Definition: The Belmont Report defines ethical principles for human subjects research, including Beneficence (maximizing benefit). Procedural Link: The action is to ensure the Go/No-Go decision passes the \u0027Beneficence\u0027 test: the potential benefits must outweigh the risks to the human subjects.",
+                                                "specific_deliverable":  "An Ethics Review Board Approval document.",
+                                                "rubric":  "Decision passes \u0027Beneficence\u0027 test."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Maker",
+                                                "theory":  "Definition: Sennett emphasizes the mastery of the material and technical feasibility. Procedural Link: The action is to base the Go/No-Go decision on the feasibility of the material; if the material cannot support the concept, the concept must be abandoned.",
+                                                "specific_deliverable":  "A Production Readiness Review of the formula.",
+                                                "rubric":  "Decision based on material feasibility."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Auditor",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to ensure the Go/No-Go decision must be based on the \u0027red lines\u0027; if the project violates a core ethical boundary, the answer is No-Go.",
+                                                "specific_deliverable":  "A Compliance Checklist verifying safety standards.",
+                                                "rubric":  "Decision based on \u0027red lines\u0027."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.10",
+                         "name":  "Pledge",
+                         "integrated_deliverable":  "A Team Manifesto.",
+                         "scenario":  "Starting a non-profit for ocean cleanup.",
+                         "theory_application":  "Make a solemn, shared promise to uphold specific values, standards, or goals, binding the group together in a common purpose.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Scientist",
+                                                "theory":  "Definition: Merton defined \u0027Organized Skepticism\u0027 as a core norm of science. Procedural Link: The action is to make the pledge a commitment to the \u0027Organized Skepticism\u0027 norm: a promise to subject the work to rigorous, critical scrutiny.",
+                                                "specific_deliverable":  "A Scientific Integrity Pledge to publish negative results.",
+                                                "rubric":  "Commitment to \u0027Organized Skepticism\u0027."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Founder",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team to the sprint goal. Procedural Link: The action is to make the pledge a verbal commitment from the entire team to the sprint goal, ensuring collective accountability.",
+                                                "specific_deliverable":  "A Team Charter committing to transparency.",
+                                                "rubric":  "Verbal commitment to sprint goal."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Communicator",
+                                                "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to make the pledge a commitment to \u0027communicative rationality\u0027—to resolve conflicts through reasoned dialogue, not coercion.",
+                                                "specific_deliverable":  "A Dialogue Agreement for conflict resolution.",
+                                                "rubric":  "Commitment to \u0027communicative rationality\u0027."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Artist",
+                                                "theory":  "Definition: Graham\u0027s work sought to find the physical expression for the inner emotional landscape. Procedural Link: The action is to make the pledge a commitment to the physical and emotional integrity of the performance, dedicating the body to the work.",
+                                                "specific_deliverable":  "An Artistic Vow to honor the ocean\u0027s beauty.",
+                                                "rubric":  "Commitment to physical/emotional integrity."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Steward",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to make the pledge a commitment to \u0027answerability\u0027—a promise to remain in dialogue with the community and be accountable for the work\u0027s impact.",
+                                                "specific_deliverable":  "A Stewardship Oath to the coastal residents.",
+                                                "rubric":  "Commitment to \u0027answerability\u0027."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.11",
+                         "name":  "Prioritization",
+                         "integrated_deliverable":  "A Backlog Ranking.",
+                         "scenario":  "Developing features for a disaster relief app.",
+                         "theory_application":  "Rank competing options based on a defined set of criteria (value, effort, risk) to determine the order of execution.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "T. C. Chamberlin - The Scientist",
+                                                "theory":  "Definition: Chamberlin advocated for pursuing multiple hypotheses simultaneously. Procedural Link: The action is to prioritize the hypothesis that is the most falsifiable and has the highest potential impact on the field.",
+                                                "specific_deliverable":  "A Hypothesis Ranking prioritizing \u0027offline mode.\u0027",
+                                                "rubric":  "Prioritizes most falsifiable hypothesis."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Intercom - The PM",
+                                                "theory":  "Definition: RICE is a framework for prioritizing based on Reach, Impact, Confidence, and Effort. Procedural Link: The action is to use the RICE framework (Reach, Impact, Confidence, Effort) to objectively rank features in the product backlog.",
+                                                "specific_deliverable":  "A RICE Score Sheet ranking \u0027GPS tracking\u0027 highest.",
+                                                "rubric":  "Uses RICE framework."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Amartya Sen - The Economist",
+                                                "theory":  "Definition: Sen focuses on expanding human freedom and capability. Procedural Link: The action is to prioritize research topics based on scholarly Reach (interdisciplinary relevance) and Impact (potential to expand human freedom).",
+                                                "specific_deliverable":  "A Capability Impact Assessment for vulnerable groups.",
+                                                "rubric":  "Prioritizes based on Reach/Impact."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to prioritize the design that resolves the aesthetic tension in the most elegant and powerful way.",
+                                                "specific_deliverable":  "A Design Priority List focusing on clarity.",
+                                                "rubric":  "Prioritizes design resolving tension."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Isaiah Berlin - The Ethicist",
+                                                "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to prioritize the action that honors the highest-ranked value in the hierarchy, acknowledging the sacrifice of the lower-ranked value.",
+                                                "specific_deliverable":  "A Value Hierarchy placing \u0027safety\u0027 above \u0027speed.\u0027",
+                                                "rubric":  "Prioritizes action honoring value."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.12",
+                         "name":  "Resolve",
+                         "integrated_deliverable":  "A Completion Statement.",
+                         "scenario":  "Finalizing a peace treaty.",
+                         "theory_application":  "Bring a process of deliberation or conflict to a definitive end by making a final determination and committing to the outcome.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Analyst",
+                                                "theory":  "Definition: Popper requires a theory to be falsifiable. Procedural Link: The action is to recognize the resolution as the formal commitment to the hypothesis that is the most falsifiable and has the highest potential impact.",
+                                                "specific_deliverable":  "A Verification Statement of the ceasefire terms.",
+                                                "rubric":  "Formal commitment to hypothesis."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Negotiator",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to recognize the resolution as the formal commitment to the sprint goal and the planned scope.",
+                                                "specific_deliverable":  "A Signed Agreement on the implementation timeline.",
+                                                "rubric":  "Formal commitment to sprint goal."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Diplomat",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to recognize the resolution as the formal commitment to the thesis that is the most significant and defensible.",
+                                                "specific_deliverable":  "A Joint Declaration of shared principles.",
+                                                "rubric":  "Formal commitment to thesis."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Symbolist",
+                                                "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to recognize the resolution as the formal commitment to the design that resolves the aesthetic tension in the most elegant way.",
+                                                "specific_deliverable":  "A Symbolic Gesture Plan (e.g., handshake).",
+                                                "rubric":  "Formal commitment to design."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Isaiah Berlin - The Peacemaker",
+                                                "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to recognize the resolution as the formal commitment to the action that honors the highest-ranked value.",
+                                                "specific_deliverable":  "A Reconciliation Pledge to honor the treaty.",
+                                                "rubric":  "Formal commitment to action."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.13",
+                         "name":  "RICE Scoring",
+                         "integrated_deliverable":  "A Prioritization Spreadsheet.",
+                         "scenario":  "Prioritizing features for a new e-commerce site.",
+                         "theory_application":  "Use a quantitative framework (Reach, Impact, Confidence, Effort) to objectively score and rank competing options.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Hazelrigg - The Engineer",
+                                                "theory":  "Definition: Multi-criteria decision analysis is used to select optimal designs. Procedural Link: The action is to adapt RICE to score hypotheses: Reach (scope of impact), Impact (value of finding), Confidence (feasibility), Effort (cost of experiment).",
+                                                "specific_deliverable":  "A Hypothesis Scorecard ranking \u0027One-Click Buy.\u0027",
+                                                "rubric":  "Adapts RICE to score hypotheses."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Intercom - The PM",
+                                                "theory":  "Definition: RICE is a framework for prioritizing based on Reach, Impact, Confidence, and Effort. Procedural Link: The action is to use the RICE framework to objectively rank features in the product backlog.",
+                                                "specific_deliverable":  "A Feature Backlog sorted by RICE score.",
+                                                "rubric":  "Uses RICE to rank backlog."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Amartya Sen - The Economist",
+                                                "theory":  "Definition: Sen focuses on expanding human freedom and capability. Procedural Link: The action is to use RICE to prioritize research topics based on scholarly Reach (interdisciplinary relevance) and Impact (potential to expand human freedom).",
+                                                "specific_deliverable":  "A Research Priority Matrix for user accessibility.",
+                                                "rubric":  "Uses RICE to prioritize topics."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to use RICE to evaluate design concepts based on audience Reach and Impact on the viewer, balancing aesthetic value with feasibility.",
+                                                "specific_deliverable":  "A Design Concept Score for the homepage layout.",
+                                                "rubric":  "Uses RICE to evaluate designs."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Steward",
+                                                "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The action is to use RICE to score interventions based on Reach (number of people affected) and ethical Impact on the seventh generation.",
+                                                "specific_deliverable":  "An Impact Scorecard for sustainable packaging.",
+                                                "rubric":  "Uses RICE to score interventions."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.14",
+                         "name":  "Scope Reduction",
+                         "integrated_deliverable":  "A MVP Specification.",
+                         "scenario":  "Launching a satellite on a tight deadline.",
+                         "theory_application":  "Deliberately remove features, tasks, or variables to ensure the core objective can be achieved within the constraints of time and resources.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Engineer",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to reduce the scope to the \u0027minimal experiment\u0027 that can test the core hypothesis, eliminating all non-essential variables.",
+                                                "specific_deliverable":  "A Payload Reduction Plan removing non-essential sensors.",
+                                                "rubric":  "Reduces to \u0027minimal experiment\u0027."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to cut the lowest-priority features to ensure the core sprint goal is delivered on time.",
+                                                "specific_deliverable":  "A Feature Cut List removing the secondary camera.",
+                                                "rubric":  "Cuts lowest-priority features."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Analyst",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to limit the number of primary sources or the historical period addressed to ensure a manageable and defensible research project.",
+                                                "specific_deliverable":  "A Data Scope Statement limiting analysis to LEO.",
+                                                "rubric":  "Limits sources/period."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Craftsman",
+                                                "theory":  "Definition: Sennett emphasizes the mastery of the material. Procedural Link: The action is to cut non-essential design features or material complexities to focus effort on the core aesthetic concept.",
+                                                "specific_deliverable":  "A Design Simplification Plan for the antenna.",
+                                                "rubric":  "Cuts non-essentials."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Strategist",
+                                                "theory":  "Definition: Meadows focuses on identifying leverage points. Procedural Link: The action is to limit the intervention to a manageable, contained area to mitigate systemic risk and ensure a measurable outcome.",
+                                                "specific_deliverable":  "A Mission Scope Document focusing on one orbit.",
+                                                "rubric":  "Limits intervention to manageable area."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.15",
+                         "name":  "Trade-off",
+                         "integrated_deliverable":  "A Compromise Agreement.",
+                         "scenario":  "Designing a secure voting system.",
+                         "theory_application":  "Explicitly acknowledge and accept the loss of one value or benefit in exchange for gaining another, ensuring the decision is conscious and and transparent.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Scientist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to explicitly state the compromise: \u0027We are sacrificing sample size for speed to get a quick signal.\u0027",
+                                                "specific_deliverable":  "A Security vs Speed Memo accepting slower processing.",
+                                                "rubric":  "Explicitly states compromise."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Bezos - The Executive",
+                                                "theory":  "Definition: Bezos advocates for \u0027disagree and commit.\u0027 Procedural Link: The action is to explicitly state the trade-off: \u0027We are choosing speed over perfection (technical debt) to deliver value now.\u0027",
+                                                "specific_deliverable":  "A Trade-off Matrix prioritizing accuracy over UX.",
+                                                "rubric":  "Explicitly states trade-off."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Isaiah Berlin - The Philosopher",
+                                                "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to explicitly state the value being sacrificed (e.g., choosing a structural reading means sacrificing a purely psychological one).",
+                                                "specific_deliverable":  "A Value Sacrifice Statement acknowledging convenience loss.",
+                                                "rubric":  "Explicitly states value sacrificed."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to acknowledge the trade-off: accepting a minor aesthetic flaw to achieve a significant gain in technical feasibility.",
+                                                "specific_deliverable":  "A Design Compromise Log accepting a simpler UI.",
+                                                "rubric":  "Acknowledges trade-off."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Isaiah Berlin - The Ethicist",
+                                                "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to formally state the value that is being sacrificed when resolving a tragic choice (e.g., sacrificing convenience for security).",
+                                                "specific_deliverable":  "A Tragic Choice Document prioritizing integrity.",
+                                                "rubric":  "Formally states value sacrificed."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.16",
+                         "name":  "Volition",
+                         "integrated_deliverable":  "A Commitment Ceremony.",
+                         "scenario":  "Launching a risky social enterprise.",
+                         "theory_application":  "Exercise the will to make a conscious, deliberate choice and stand by it, moving from deliberation to action.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Daniel Kahneman - The Psychologist",
+                                                "theory":  "Definition: Kahneman defines System 2 analysis (slow, deliberate). Procedural Link: The action is to use System 2 thinking to make a conscious, willed choice, overriding the System 1 bias that favors the easiest option.",
+                                                "specific_deliverable":  "A Decision Rationale Document outlining the logic.",
+                                                "rubric":  "Uses System 2 to make choice."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Founder",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to recognize the final decision as an act of will; once made, the team must \u0027disagree and commit\u0027 to unified action.",
+                                                "specific_deliverable":  "A Founder\u0027s Pledge to see the mission through.",
+                                                "rubric":  "Recognizes decision as act of will."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Communicator",
+                                                "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to ensure the final commitment must be a rational choice reached through reasoned dialogue, not coercion.",
+                                                "specific_deliverable":  "A Consensus Statement from the board.",
+                                                "rubric":  "Ensures commitment is rational."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Artist",
+                                                "theory":  "Definition: Graham\u0027s work sought to find the physical expression for the inner emotional landscape. Procedural Link: The action is to recognize the final commitment as a physical and emotional pledge to realize the concept with full dedication.",
+                                                "specific_deliverable":  "A Personal Vow to the creative vision.",
+                                                "rubric":  "Recognizes commitment as pledge."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Antonio Damasio - The Ethicist",
+                                                "theory":  "Definition: The \u0027somatic marker\u0027 is the body\u0027s emotional signal guiding decision-making. Procedural Link: The action is to ensure the final commitment must be a value-based choice where the emotional signal of ethical rightness aligns with the logical analysis.",
+                                                "specific_deliverable":  "An Ethical Alignment Check confirming values.",
+                                                "rubric":  "Ensures commitment is value-based."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.17",
+                         "name":  "Consent",
+                         "integrated_deliverable":  "A Decision Record.",
+                         "scenario":  "A team stuck in endless debate trying to agree.",
+                         "theory_application":  "Shift the decision rule from \u0027Consensus\u0027 (everyone agrees) to \u0027Consent\u0027 (no one has a critical objection), enabling faster action while protecting against harm.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Peer Review - The Editor",
+                                                "theory":  "Definition: Scientific consensus is the absence of falsification. Procedural Link: The action is to proceed if there is no fatal flaw in the methodology, even if the reviewers disagree with the interpretation.",
+                                                "specific_deliverable":  "A No-Fatal-Flaw Check.",
+                                                "rubric":  "Proceeds if no fatal flaw exists."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Sociocracy - The Facilitator",
+                                                "theory":  "Definition: Good enough for now, safe enough to try. Procedural Link: The action is to ask \u0027Do you have a paramount objection that this decision will cause harm?\u0027 instead of \u0027Do you agree?\u0027",
+                                                "specific_deliverable":  "An Objection Log.",
+                                                "rubric":  "Asks for objections, not agreement."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Theorist",
+                                                "theory":  "Definition: Discourse Ethics requires the absence of coercion. Procedural Link: The action is to ensure that silence implies consent only if the environment is free from structural coercion.",
+                                                "specific_deliverable":  "A Coercion Audit.",
+                                                "rubric":  "Ensures silence is not coercion."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Ensemble Practice - The Director",
+                                                "theory":  "Definition: The show must go on. Procedural Link: The action is to commit to a creative choice not because it is perfect, but because it allows the rehearsal to continue.",
+                                                "specific_deliverable":  "A Rehearsal Commitment.",
+                                                "rubric":  "Commits to allow continuation."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Quaker Process - The Clerk",
+                                                "theory":  "Definition: Sense of the Meeting. Procedural Link: The action is to listen for the \u0027unity\u0027 underneath the words, distinguishing between a personal preference and a spiritual objection.",
+                                                "specific_deliverable":  "A Minute of Unity.",
+                                                "rubric":  "Distinguishes preference from objection."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.18",
+                         "name":  "Reversibility",
+                         "integrated_deliverable":  "A Risk Classification.",
+                         "scenario":  "Deciding whether to migrate to a new server architecture.",
+                         "theory_application":  "Classify the decision based on the cost of reversing it. If low cost, decide quickly. If high cost, deliberate slowly.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Safety Engineering - The Officer",
+                                                "theory":  "Definition: Fail-safe vs. Fail-deadly. Procedural Link: The action is to determine if the experiment can be aborted safely once started.",
+                                                "specific_deliverable":  "A Kill Switch Protocol.",
+                                                "rubric":  "Determines abort capability."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Bezos - The CEO",
+                                                "theory":  "Definition: Type 1 (One-way door) vs. Type 2 (Two-way door) decisions. Procedural Link: The action is to identify if this is a Two-way door. If so, delegate it or decide immediately.",
+                                                "specific_deliverable":  "A Door Type Tag.",
+                                                "rubric":  "Identifies One-way vs Two-way door."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Hannah Arendt - The Philosopher",
+                                                "theory":  "Definition: Action is irreversible; forgiveness is the remedy. Procedural Link: The action is to assess the moral irreversibility of the act. Can the harm be undone?",
+                                                "specific_deliverable":  "A Moral Irreversibility Check.",
+                                                "rubric":  "Assesses if harm can be undone."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Oil vs. Watercolor - The Painter",
+                                                "theory":  "Definition: Medium dictates reversibility. Procedural Link: The action is to choose the medium based on the desired risk profile (Oil is reversible; Watercolor is not).",
+                                                "specific_deliverable":  "A Medium Selection Rationale.",
+                                                "rubric":  "Selects medium based on risk."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Precautionary Principle - The Steward",
+                                                "theory":  "Definition: If an action has a suspected risk of causing harm to the public or environment, the burden of proof falls on those taking the action. Procedural Link: The action is to prohibit the decision if the environmental consequences are potentially irreversible.",
+                                                "specific_deliverable":  "A Non-Regression Clause.",
+                                                "rubric":  "Prohibits irreversible environmental harm."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.19",
+                         "name":  "Opportunity Cost",
+                         "integrated_deliverable":  "A Trade-off Memo.",
+                         "scenario":  "Choosing between two exciting projects with limited staff.",
+                         "theory_application":  "Evaluate the decision not by what is gained, but by the value of the best alternative that must be sacrificed.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Resource Allocation - The Grant Manager",
+                                                "theory":  "Definition: Funding is zero-sum. Procedural Link: The action is to calculate the \u0027scientific yield\u0027 of the rejected experiment.",
+                                                "specific_deliverable":  "A Lost Science Report.",
+                                                "rubric":  "Calculates yield of rejected option."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Michael Porter - The Strategist",
+                                                "theory":  "Definition: Strategy is choosing what not to do. Procedural Link: The action is to explicitly list the revenue or growth that will be lost by choosing the current path.",
+                                                "specific_deliverable":  "A Foregone Revenue Estimate.",
+                                                "rubric":  "Lists foregone revenue/growth."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Isaiah Berlin - The Historian",
+                                                "theory":  "Definition: Value Pluralism implies tragic choice. Procedural Link: The action is to mourn the loss of the value that was not chosen (e.g., Liberty vs. Equality).",
+                                                "specific_deliverable":  "A Value Sacrifice Statement.",
+                                                "rubric":  "Mourns the unchosen value."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Minimalism - The Sculptor",
+                                                "theory":  "Definition: Less is more. Procedural Link: The action is to remove the element that is good but distracts from the great.",
+                                                "specific_deliverable":  "A Kill List.",
+                                                "rubric":  "Removes distracting \u0027good\u0027 elements."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Time Banking - The Organizer",
+                                                "theory":  "Definition: Time is the currency of community. Procedural Link: The action is to assess the cost of the meeting in terms of volunteer hours that could have been spent on direct service.",
+                                                "specific_deliverable":  "A Volunteer Hour Audit.",
+                                                "rubric":  "Assesses cost in volunteer hours."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T4.20",
+                         "name":  "Pareto Analysis",
+                         "integrated_deliverable":  "An 80/20 Prioritization List.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Vilfredo Pareto",
+                                                "domain":  "Decision Making",
+                                                "theory":  "The Vital Few vs The Trivial Many. Procedural Link: Rank options by impact and select the top 20% that deliver the most value.",
+                                                "specific_deliverable":  "A Pareto Chart.",
+                                                "rubric":  "Selects vital few."
+                                            }
+                                        ],
+                         "scenario":  "Deciding which bugs to fix first.",
+                         "theory_application":  "Identify the 20% of causes that produce 80% of the effects to prioritize action."
+                     },
+                     {
+                         "id":  "T4.21",
+                         "name":  "MoSCoW Prioritization",
+                         "integrated_deliverable":  "A Scoped Requirements List.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Dai Clegg",
+                                                "domain":  "Agile",
+                                                "theory":  "Scope is the primary variable. Procedural Link: Classify every backlog item to protect the \u0027Must Haves\u0027 from scope creep.",
+                                                "specific_deliverable":  "A MoSCoW Matrix.",
+                                                "rubric":  "Categorizes into M/S/C/W."
+                                            }
+                                        ],
+                         "scenario":  "Negotiating scope for a tight deadline.",
+                         "theory_application":  "Categorize requirements to manage scope: Must have, Should have, Could have, Won\u0027t have."
+                     },
+                     {
+                         "id":  "T4.22",
+                         "name":  "Kano Model",
+                         "integrated_deliverable":  "A Feature Satisfaction Graph.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Noriaki Kano",
+                                                "domain":  "Product Management",
+                                                "theory":  "Not all features create value equally. Procedural Link: Plot features against satisfaction vs. implementation investment.",
+                                                "specific_deliverable":  "A Kano Analysis.",
+                                                "rubric":  "Distinguishes Basic vs Excitement features."
+                                            }
+                                        ],
+                         "scenario":  "Choosing features for a product update.",
+                         "theory_application":  "Classify features by customer satisfaction: Basic, Performance, and Excitement."
+                     },
+                     {
+                         "id":  "T4.23",
+                         "name":  "Decision Trees",
+                         "integrated_deliverable":  "A Probability Tree Diagram.",
+                         "variations":  [
+                                            {
+                                                "expert":  "John von Neumann",
+                                                "domain":  "Decision Science",
+                                                "theory":  "Expected Value. Procedural Link: Calculate the weighted average value of each branch to select the optimal path.",
+                                                "specific_deliverable":  "A Decision Tree Calculation.",
+                                                "rubric":  "Calculates expected value."
+                                            }
+                                        ],
+                         "scenario":  "Deciding whether to sue or settle.",
+                         "theory_application":  "Map out possible consequences, probabilities, and payoffs for each option mathematically."
+                     },
+                     {
+                         "id":  "T4.24",
+                         "name":  "NPV / IRR Analysis",
+                         "integrated_deliverable":  "Financial Viability Report",
+                         "variations":  [
+                                            {
+                                                "expert":  "PMP",
+                                                "domain":  "Business",
+                                                "theory":  "Definition: Discounted Cash Flow. Link: Compare present value of future returns against hurdle rates.",
+                                                "specific_deliverable":  "NPV Spreadsheet",
+                                                "rubric":  "NPV \u003e 0"
+                                            }
+                                        ],
+                         "scenario":  "Selecting between two high-cost technology investments.",
+                         "theory_application":  "Calculate Net Present Value and Internal Rate of Return to determine the long-term profitability and time-value of money."
+                     },
+                     {
+                         "id":  "T4.DT.1",
+                         "name":  "Assumption Testing",
+                         "integrated_deliverable":  "A Risk Prioritization Map.",
+                         "variations":  [
+                                            {
+                                                "expert":  "The Field Book - The Guide",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Learning Launch. Procedural Link: Isolate the single variable that, if false, kills the project. Test that first.",
+                                                "specific_deliverable":  "A Critical Assumption Test.",
+                                                "rubric":  "Tests the highest risk variable."
+                                            }
+                                        ],
+                         "scenario":  "Choosing which feature to build next.",
+                         "theory_application":  "Do not select the \u0027best idea\u0027. Select the \u0027riskiest assumption\u0027 inherent in the best idea to test first."
+                     }
+                 ]
+}

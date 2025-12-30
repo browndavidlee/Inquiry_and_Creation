@@ -1,0 +1,214 @@
+﻿PROJECT STRUCTURE EXPORT
+Generated: 12/08/2025 17:35:16
+Root: C:\Users\Brown\Desktop\Lenovo Desktop\FrameworkApp
+Ignored Folders: .git, .vs, .vscode, node_modules, dist, build, coverage, bin, obj
+---------------------------------------------------
+├── 📁 _planning_docs
+├── 15Employees.md
+├── ProcessHypothesis_Consolidation_Cycle.md
+├── ProcessHypothesis_Domain_Parity_Learnings.md
+├── ProcessHypothesis_Planner_Integration_Learnings.md
+└── Strategic_Roadmap_v22.0_Consolidation_Cycle.md
+├── 📁 assets
+└── 📁 img
+├── 📁 BACKUP_20251109-045035
+├── 📁 assets
+└── 📁 img
+├── 📁 BACKUP_20251109-045035
+├── 📁 assets
+└── 📁 img
+├── 📁 BACKUP_20251109-045035
+├── 📁 assets
+└── 📁 img
+├── 📁 BACKUP_20251109-045035
+├── 📁 assets
+└── 📁 img
+├── 📁 BACKUP_20251109-045035
+├── 📁 assets
+└── 📁 img
+├── 📁 BACKUP_20251109-045035
+├── 📁 assets
+└── 📁 img
+├── 📁 BACKUP_20251109-045035
+├── 📁 assets
+└── 📁 img
+├── 📁 BACKUP_20251109-045035
+├── 📁 assets
+└── 📁 img
+├── Conway's Law Applied.html
+├── DOC_UPDATE_LOG.txt
+├── FrameworkApp.code-workspace
+├── index.html
+├── index.html.bak-authorship-fix-20251109-041816
+├── index.html.bak-automated-fix-20251109-041220
+├── playbooks_and_reports.json
+└── semantic_index.json
+├── Conway's Law Applied.html
+├── DOC_UPDATE_LOG.txt
+├── FrameworkApp.code-workspace
+├── index.html
+├── index.html.bak-authorship-fix-20251109-041816
+├── index.html.bak-automated-fix-20251109-041220
+├── playbooks_and_reports.json
+└── semantic_index.json
+├── Conway's Law Applied.html
+├── DOC_UPDATE_LOG.txt
+├── FrameworkApp.code-workspace
+├── index.html
+├── index.html.bak-authorship-fix-20251109-041816
+├── index.html.bak-automated-fix-20251109-041220
+├── playbooks_and_reports.json
+└── semantic_index.json
+├── Conway's Law Applied.html
+├── DOC_UPDATE_LOG.txt
+├── FrameworkApp.code-workspace
+├── index.html
+├── index.html.bak-authorship-fix-20251109-041816
+├── index.html.bak-automated-fix-20251109-041220
+├── playbooks_and_reports.json
+└── semantic_index.json
+├── Conway's Law Applied.html
+├── DOC_UPDATE_LOG.txt
+├── FrameworkApp.code-workspace
+├── index.html
+├── index.html.bak-authorship-fix-20251109-041816
+├── index.html.bak-automated-fix-20251109-041220
+├── playbooks_and_reports.json
+└── semantic_index.json
+├── Conway's Law Applied.html
+├── DOC_UPDATE_LOG.txt
+├── FrameworkApp.code-workspace
+├── index.html
+├── index.html.bak-authorship-fix-20251109-041816
+├── index.html.bak-automated-fix-20251109-041220
+├── playbooks_and_reports.json
+└── semantic_index.json
+├── Conway's Law Applied.html
+├── DOC_UPDATE_LOG.txt
+├── FrameworkApp.code-workspace
+├── index.html
+├── index.html.bak-authorship-fix-20251109-041816
+├── index.html.bak-automated-fix-20251109-041220
+├── playbooks_and_reports.json
+└── semantic_index.json
+├── Conway's Law Applied.html
+├── DOC_UPDATE_LOG.txt
+├── FrameworkApp.code-workspace
+├── index.html
+├── index.html.bak-authorship-fix-20251109-041816
+├── index.html.bak-automated-fix-20251109-041220
+├── playbooks_and_reports.json
+└── semantic_index.json
+├── 📁 backup_framework_20251207_201837
+├── 📁 tools
+├── tool_1.json
+├── tool_10.json
+├── tool_2.json
+├── tool_3.json
+├── tool_4.json
+├── tool_5.json
+├── tool_6.json
+├── tool_7.json
+├── tool_8.json
+└── tool_9.json
+├── config.json
+├── glossary_data.json
+├── manifest.json
+├── methodologies.json
+├── modalities.json
+├── nodes.json
+├── onboarding_content.json
+├── planner_content.json
+├── playbooks_and_reports.json
+├── project_genesis_content.json
+├── reference.json
+├── scaffold-model.json
+├── system.json
+├── systems_analysis_data.json
+└── views.json
+├── 📁 backup_framework_20251207_202039
+├── 📁 tools
+├── tool_1.json
+├── tool_10.json
+├── tool_2.json
+├── tool_3.json
+├── tool_4.json
+├── tool_5.json
+├── tool_6.json
+├── tool_7.json
+├── tool_8.json
+└── tool_9.json
+├── config.json
+├── glossary_data.json
+├── manifest.json
+├── methodologies.json
+├── modalities.json
+├── nodes.json
+├── onboarding_content.json
+├── planner_content.json
+├── playbooks_and_reports.json
+├── project_genesis_content.json
+├── reference.json
+├── scaffold-model.json
+├── system.json
+├── systems_analysis_data.json
+└── views.json
+├── 📁 css
+├── onboarding.css
+└── style.css
+├── 📁 framework_data
+├── 📁 tools
+├── concepts_tool_1.json
+├── concepts_tool_10.json
+├── concepts_tool_2.json
+├── concepts_tool_3.json
+├── concepts_tool_4.json
+├── concepts_tool_5.json
+├── concepts_tool_6.json
+├── concepts_tool_7.json
+├── concepts_tool_8.json
+├── concepts_tool_9.json
+├── tool_1.json
+├── tool_10.json
+├── tool_2.json
+├── tool_3.json
+├── tool_4.json
+├── tool_5.json
+├── tool_6.json
+├── tool_7.json
+├── tool_8.json
+└── tool_9.json
+├── config.json
+├── glossary_data.json
+├── manifest.json
+├── methodologies.json
+├── modalities.json
+├── nodes.json
+├── onboarding_content.json
+├── planner_content.json
+├── playbooks_and_reports.json
+├── project_genesis_content.json
+├── reference.json
+├── scaffold-model.json
+├── system.json
+├── systems_analysis_data.json
+└── views.json
+├── 📁 js
+├── 📁 uiComponents.js.bak
+├── 📁 utils
+└── linkParser.js
+├── app.js
+├── dataLoader.js
+├── onboarding.js
+├── uiComponents.js
+└── visuals.js
+├── ai_studio_code(18).html
+├── chatgptimp.html
+├── claudeimp.html
+├── Conway's Law Applied.html
+├── DOC_UPDATE_LOG.txt
+├── FrameworkApp.code-workspace
+├── index.html
+├── playbooks_and_reports.json
+├── semantic_index.json
+└── unnamed.json

@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Integrated Scaffold</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/onboarding.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<button id="exit-reader-mode-btn">Exit Reader Mode</button>
+
+<div class="dashboard-container">
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false"><i class="fas fa-bars" aria-hidden="true"></i></button>
+    <aside class="sidebar" id="sidebar">
+        <div>
+
+            <div class="sidebar-header">
+                <!-- New Icon (Hidden by default, shown when collapsed) -->
+                <i class="fas fa-compass sidebar-logo-icon" title="Inquiry & Creation"></i>
+                <div class="sidebar-header-text"> <!-- Wrap existing text to hide when collapsed -->
+                    <h2 id="framework-title-sidebar">Inquiry & Creation</h2>
+                    <p id="framework-subtitle-sidebar">A Structured Guide</p>
+                </div>
+            </div>
+            <!-- Sidebar Collapse Button -->
+            <button id="sidebar-collapse-btn" class="sidebar-collapse-btn" aria-label="Toggle Sidebar">
+                <i class="fas fa-chevron-left"></i>
+            </button>            
+            <div class="stance-switch">
+                <button data-stance="learning" class="active" title="Focus on process, understanding, and capability growth.">
+                    <i class="fas fa-graduation-cap stance-icon"></i> <!-- Icon for collapsed state -->
+                    <span class="stance-text">Learning Stance</span> <!-- Text to hide -->
+                </button>
+                <button data-stance="performance" title="Focus on outcomes, efficiency, and delivery.">
+                    <i class="fas fa-chart-line stance-icon"></i> <!-- Icon for collapsed state -->
+                    <span class="stance-text">Performance Stance</span> <!-- Text to hide -->
+                </button>
+            </div>
+            <nav id="sidebar-nav">
+                <!-- Tools Section Header -->
+                <div class="nav-section">
+                    <h3 class="nav-section-title">
+                        <i class="fas fa-toolbox section-icon"></i>
+                        <span class="section-text">Inquiry & Creation Tools</span>
+                    </h3>
+                    <ul id="tool-nav"></ul>
+                </div>
+                
+                <!-- Resource Library Header -->
+                <div class="nav-section">
+                    <h3 class="nav-section-title">
+                        <i class="fas fa-book section-icon"></i>
+                        <span class="section-text">Resource Library</span>
+                    </h3>
+                    <div id="resource-nav"></div>
+                </div>
+            </nav>
+        </div>
+        <div class="sidebar-footer">
+    <div class="author-info">
+        <h4>About the Author</h4>
+        <p>Created by David Lee Brown</p>
+        <div class="author-links">
+            <a href="https://github.com/browndavidlee" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+            <a href="https://www.linkedin.com/in/davidleebrown/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+    </div>            
+            <div class="sidebar-toggle-group">
+                <div class="sidebar-toggle">
+                    <label for="simple-mode-checkbox">Simple Mode</label>
+                    <label class="switch"><input type="checkbox" id="simple-mode-checkbox"><span class="slider"></span></label>
+                </div>
+                <div class="sidebar-toggle">
+                    <label for="dark-mode-checkbox">Dark Mode</label>
+                    <label class="switch"><input type="checkbox" id="dark-mode-checkbox"><span class="slider"></span></label>
+                </div>
+                <div class="sidebar-toggle">
+                    <label for="high-contrast-checkbox">High Contrast</label>
+                    <label class="switch"><input type="checkbox" id="high-contrast-checkbox"><span class="slider"></span></label>
+                </div>
+                <div class="sidebar-toggle">
+                    <label for="reader-mode-checkbox">Reader Mode</label>
+                    <label class="switch"><input type="checkbox" id="reader-mode-checkbox"><span class="slider"></span></label>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main-content" id="main-content" role="main" aria-live="polite" aria-atomic="false">
+        <nav class="breadcrumb-nav" id="breadcrumb-nav" aria-label="Breadcrumb">
+            <ol class="breadcrumb-list" id="breadcrumb-list"></ol>
+        </nav>
+        <div id="mini-map-container"></div>
+        
+        <!-- All Views Will Be Rendered Here -->
+        <div id="welcome-view" class="view-container"><div id="onboarding-container"></div></div>
+        <div id="tool-focus-view" class="view-container"></div>
+        <div id="overview-view" class="view-container"></div>
+        <div id="diagnostic-view" class="view-container"></div>
+        <div id="nodes-view" class="view-container"><div id="onboarding-container"></div></div>
+        <div id="rubrics-view" class="view-container card full-width"></div>
+        <div id="glossary-view" class="view-container card full-width"></div>
+        <div id="glossary-tool-view" class="view-container card full-width"></div>
+        <div id="bibliography-view" class="view-container card full-width"></div>
+        <div id="strategy-view" class="view-container card full-width"></div>
+        <div id="protocol-view" class="view-container card full-width"></div>
+        <div id="about-view" class="view-container card full-width"></div>
+        <!-- NOTE: All other view containers should be added here -->
+        <div id="modalities-view" class="view-container"><div id="onboarding-container"></div></div>
+        <div id="planner-view" class="view-container"><div id="onboarding-container"></div></div>
+        <div id="synthesis-table-view" class="view-container"><div id="onboarding-container"></div></div>
+        <div id="map-view" class="view-container"><div id="onboarding-container"></div></div>
+        <div id="network-view" class="view-container"><div id="onboarding-container"></div></div>
+        <div id="hub-view" class="view-container"></div>
+        <div id="log-view" class="view-container"></div>
+        <div id="advanced-toolkits-view" class="view-container"></div>
+        <div id="pathways-view" class="view-container"><div id="onboarding-container"></div></div>
+        <div id="playbooks-reports-view" class="view-container"></div>
+        <div id="genesis-project-view" class="view-container"><div id="onboarding-container"></div></div>
+        <div id="community-view" class="view-container"></div>
+
+    </main> <!-- CORRECTLY CLOSED MAIN -->
+</div> <!-- CORRECTLY CLOSED DASHBOARD-CONTAINER -->
+
+<!-- Back to Top Button -->
+<button id="back-to-top-btn" class="back-to-top" aria-label="Back to top" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Keyboard Shortcuts Modal -->
+<dialog id="keyboard-shortcuts-modal" class="shortcuts-modal">
+    <div class="shortcuts-content">
+        <h2>Keyboard Shortcuts</h2>
+        <button class="close-modal" aria-label="Close">&times;</button>
+        <section>
+            <h3>Navigation</h3>
+            <div class="shortcut-list">
+                <div class="shortcut-item"><kbd>1</kbd> - <kbd>9</kbd>, <kbd>0</kbd><span>Jump to Tool 1-10</span></div>
+                <div class="shortcut-item"><kbd>?</kbd><span>Open this help menu</span></div>
+            </div>
+        </section>
+        <section>
+            <h3>Accessibility</h3>
+            <div class="shortcut-list">
+                <div class="shortcut-item"><kbd>Tab</kbd><span>Navigate interactive elements</span></div>
+                <div class="shortcut-item"><kbd>Enter</kbd><span>Activate button or link</span></div>
+            </div>
+        </section>
+    </div>
+</dialog>
+
+<!-- Skeleton Screen Template -->
+<template id="skeleton-card-template">
+    <div class="card full-width" aria-busy="true" aria-label="Loading content">
+        <div class="skeleton-card">
+            <div class="skeleton skeleton-title"></div>
+            <div class="skeleton skeleton-text"></div>
+            <div class="skeleton skeleton-text" style="width: 80%;"></div>
+        </div>
+        <div class="skeleton-card">
+            <div class="skeleton skeleton-text"></div>
+            <div class="skeleton skeleton-text"></div>
+        </div>
+    </div>
+</template>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script type="module">
+    import {html, render} from 'https://cdn.jsdelivr.net/npm/lit-html@3.1.2/lit-html.js';
+    import {unsafeHTML} from 'https://cdn.jsdelivr.net/npm/lit-html@3.1.2/directives/unsafe-html.js';
+    window.litHtml = { html, render, unsafeHTML };
+</script>
+<script type="module" src="js/app.js"></script>
+
+<dialog id="node-details-modal" class="node-modal">
+    <div class="node-modal-content">
+        <div class="node-modal-header">
+            <h3 id="modal-node-header">
+                <i id="modal-node-icon" class="fas"></i>
+                <span id="modal-node-name"></span>
+                <code id="modal-node-uid" class="uid-tag"></code>
+            </h3>
+            <button class="close-modal" aria-label="Close">&times;</button>
+        </div>
+        <div class="node-modal-body">
+            <p id="modal-node-description"></p>
+            <h4>Details</h4>
+            <div class="modal-details-grid">
+                <div><strong>Parent Tool:</strong> <span id="modal-node-parent-tool"></span></div>
+                <div><strong>Theme:</strong> <span id="modal-node-theme"></span></div>
+            </div>
+            <h4>Tags</h4>
+            <div id="modal-node-tags" class="tags-list"></div>
+            <h4>Inputs</h4>
+            <ul id="modal-node-inputs"></ul>
+            <h4>Outputs</h4>
+            <ul id="modal-node-outputs"></ul>
+            <div id="modal-systems-lens-container"></div>
+        </div>
+    </div>
+</dialog>
+
+<script>
+    function setViewportHeight() {
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    }
+    window.addEventListener('resize', setViewportHeight);
+    setViewportHeight();
+</script>
+
+<script type="module" src="js/onboarding.js"></script>
+
+</body>
+</html>

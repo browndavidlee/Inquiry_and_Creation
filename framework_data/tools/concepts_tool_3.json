@@ -1,0 +1,1426 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "toolId":  "tool3",
+    "toolName":  "Generate Options",
+    "concepts":  [
+                     {
+                         "id":  "T3.1",
+                         "name":  "Abduction",
+                         "integrated_deliverable":  "A Hypothesis Generation Report.",
+                         "scenario":  "Diagnosing a rare disease.",
+                         "theory_application":  "Use abductive reasoning to infer the most plausible explanation for a surprising set of observations, prioritizing explanatory power and simplicity.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "C. S. Peirce - The Logician",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The generated hypothesis is the simplest and most likely explanation that would explain the facts, prioritizing explanatory elegance.",
+                                                "specific_deliverable":  "A Diagnostic Hypothesis based on symptoms.",
+                                                "rubric":  "Generate simplest/likely hypothesis."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Tony Ulwick - The Analyst",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The generated hypothesis successfully infers the hidden, non-obvious \u0027Job-to-be-Done\u0027 that the current product is failing to satisfy.",
+                                                "specific_deliverable":  "A Hidden Need Hypothesis for the patient.",
+                                                "rubric":  "Infer hidden JTBD."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Umberto Eco - The Detective",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The generated hypothesis is the single interpretation that explains the most textual evidence (treating the text as a crime scene).",
+                                                "specific_deliverable":  "A Textual Inference from medical history.",
+                                                "rubric":  "Infer intent/truth explaining evidence."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Brian Eno - The Artist",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The generated idea successfully infers the underlying aesthetic rule that must have been broken to create the successful deviation (\u0027happy accident\u0027).",
+                                                "specific_deliverable":  "A Creative Accident Log of symptoms.",
+                                                "rubric":  "Infer aesthetic rule broken."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Howard Zehr - The Healer",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solution addresses the relational breakdown that must have occurred to cause the conflict, prioritizing relational causes over individual blame.",
+                                                "specific_deliverable":  "A Relational Inference of stress factors.",
+                                                "rubric":  "Infer relational breakdown."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.2",
+                         "name":  "Analogy",
+                         "integrated_deliverable":  "A Comparative Design Study.",
+                         "scenario":  "Designing a more efficient wind turbine.",
+                         "theory_application":  "Identify a structural similarity between the current problem and a solved problem in a different domain, transferring the solution\u0027s core principle.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Douglas Hofstadter - The Scientist",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The generated solution successfully abstracts the problem to its deepest structural level and finds a comparable solution in an unrelated scientific or engineering field.",
+                                                "specific_deliverable":  "A Biomimetic Design based on whale fins.",
+                                                "rubric":  "Abstract problem to structure."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Clayton Christensen - The Innovator",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The generated idea applies a successful business model pattern (e.g., \u0027razor and blades\u0027) from one industry to a completely different market.",
+                                                "specific_deliverable":  "A Business Model Analogy (\u0027Uber for Wind\u0027).",
+                                                "rubric":  "Apply successful business model pattern."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Historian",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The generated analogy (e.g., the panopticon) successfully illuminates the power dynamics of a contemporary social system.",
+                                                "specific_deliverable":  "A Historical Parallel to the steam engine.",
+                                                "rubric":  "Use historical analogy."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Designer",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The generated idea successfully uses a principle from one medium (e.g., musical counterpoint) to organize the elements of another (e.g., visual composition).",
+                                                "specific_deliverable":  "A Visual Metaphor of a spinning flower.",
+                                                "rubric":  "Use principle from one medium."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Joseph Campbell - The Mythologist",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solution successfully uses a mythic analogy to frame a current social challenge, finding solutions in established integrated knowledge traditions.",
+                                                "specific_deliverable":  "A Mythic Analogy to the wind god.",
+                                                "rubric":  "Use mythic analogy."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.3",
+                         "name":  "Bodystorming",
+                         "integrated_deliverable":  "A Physical Enactment Log.",
+                         "scenario":  "Designing a cockpit for a new plane.",
+                         "theory_application":  "Physically enact the user experience or system behavior using the body and props to discover constraints and opportunities that are invisible in abstract thought.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Varela et al. - The Scientist",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The physical enactment successfully anticipates physical constraints and ergonomic issues in the lab setup.",
+                                                "specific_deliverable":  "An Ergonomic Test Log of reach distances.",
+                                                "rubric":  "Act out experiment to anticipate constraints."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Oulasvirta et al. - The Designer",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The role-play generates embodied empathy and reveals a flaw in the user journey that was not visible in the wireframe.",
+                                                "specific_deliverable":  "A Service Roleplay Video of the pilot.",
+                                                "rubric":  "Role-play user journey."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Augusto Boal - The Actor",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The enactment successfully generates and tests multiple solutions to a social problem in real-time.",
+                                                "specific_deliverable":  "A Forum Theatre Script for crew communication.",
+                                                "rubric":  "Use \u0027Forum Theatre\u0027 to enact."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Dancer",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The improvisational movement successfully discovers a novel aesthetic gesture or movement pattern.",
+                                                "specific_deliverable":  "A Choreographic Sketch of control movements.",
+                                                "rubric":  "Use movement to discover gesture."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Circle Way - The Facilitator",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The ceremonial movement successfully explores relational dynamics and achieves a state of collective harmony.",
+                                                "specific_deliverable":  "A Physical Arrangement Map of the cockpit.",
+                                                "rubric":  "Use physical arrangement to explore."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.4",
+                         "name":  "Brainstorming",
+                         "integrated_deliverable":  "An Idea Generation Report.",
+                         "scenario":  "Naming a new product.",
+                         "theory_application":  "Generate a large quantity of ideas by suspending judgment and building on others\u0027 contributions, prioritizing volume over quality in the initial phase.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Alex Osborn - The Facilitator",
+                                                "theory":  "Definition: Osborn defined the rule of \u0027defer judgment\u0027. Procedural Link: The action is to prioritize the quantity of ideas generated over the initial quality to maximize the chance of a breakthrough.",
+                                                "specific_deliverable":  "A 100-Idea List of potential names.",
+                                                "rubric":  "Enforce \u0027defer judgment\u0027."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Design Thinking - The Innovator",
+                                                "theory":  "Definition: Design Thinking uses time-boxing to force divergence. Procedural Link: The action is to use time-boxing and a high quota (e.g., 50 ideas in 15 minutes) to force the team into a divergent, System 1 mindset.",
+                                                "specific_deliverable":  "A Post-it Wall Capture of team ideas.",
+                                                "rubric":  "Use \u0027Silent Brainwriting\u0027."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Logician",
+                                                "theory":  "Definition: PAR requires the research question to emerge from the community. Procedural Link: The action is to generate ideas through collective dialogue with the community, ensuring the solutions are grounded in lived experience.",
+                                                "specific_deliverable":  "An Alternative Warrants List for the brand.",
+                                                "rubric":  "Generate competing \u0027warrants\u0027."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Bob Eberle - The Creator",
+                                                "theory":  "Definition: SCAMPER is a checklist for systematic variation. Procedural Link: The action is to use structured constraints (SCAMPER) to systematically generate variations on an existing concept.",
+                                                "specific_deliverable":  "A Variation Matrix of name concepts.",
+                                                "rubric":  "Use SCAMPER checklist."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Systems Thinker",
+                                                "theory":  "Definition: The Circle Way uses a \u0027go-round\u0027 protocol to ensure equitable participation. Procedural Link: The action is to generate ideas through a \u0027go-round\u0027 protocol, ensuring every voice contributes an idea before any discussion or critique begins.",
+                                                "specific_deliverable":  "An Intervention List for brand impact.",
+                                                "rubric":  "Brainstorm solutions targeting leverage."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.5",
+                         "name":  "Co-Creation",
+                         "integrated_deliverable":  "A Collaborative Design Plan.",
+                         "scenario":  "Designing a community park.",
+                         "theory_application":  "Involve the end-users or stakeholders directly in the design process, sharing power and decision-making to ensure the outcome is relevant and owned by the community.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Open Science - The Scientist",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The final experimental design includes non-scientists (e.g., policy makers, community members) in the design process.",
+                                                "specific_deliverable":  "A Citizen Science Protocol for biodiversity.",
+                                                "rubric":  "Involve non-scientists in design."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The PO",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The final user stories and acceptance criteria are collaboratively generated by the Product Owner and the Development Team.",
+                                                "specific_deliverable":  "A Joint Backlog of park features.",
+                                                "rubric":  "Involve PO/Team in generating stories."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Orlando Fals Borda - The Researcher",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The research questions and methodology are co-designed with the community being studied, ensuring they have control over the process.",
+                                                "specific_deliverable":  "A Co-Design Workshop Report with residents.",
+                                                "rubric":  "Co-design research with community."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Artist",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The final work incorporates feedback from the audience or community in the final stages of creation.",
+                                                "specific_deliverable":  "A Community Mural Plan painted by locals.",
+                                                "rubric":  "Involve audience in creation."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Elder",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The final decision includes future generations (through simulation or proxy) in the decision-making process.",
+                                                "specific_deliverable":  "An Intergenerational Council Log of wishes.",
+                                                "rubric":  "Involve future generations."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.6",
+                         "name":  "Conception",
+                         "integrated_deliverable":  "A Concept Definition Document.",
+                         "scenario":  "The moment of having a startup idea.",
+                         "theory_application":  "Crystallize the initial, abstract idea into a concrete, communicable form that captures its essential nature and value.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Thinker",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The conception is complete when the hypothesis is simple enough to be explained to a novice, revealing the depth of the underlying idea.",
+                                                "specific_deliverable":  "A Napkin Sketch of the core mechanism.",
+                                                "rubric":  "Complete when hypothesis is simple."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Founder",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The conception is complete when the idea is framed as a \u0027Minimal Viable Product (MVP)\u0027—the smallest thing that can be built to test the riskiest assumption.",
+                                                "specific_deliverable":  "An MVP Concept for the first test.",
+                                                "rubric":  "Complete when idea is framed as MVP."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Writer",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The conception is complete when the scholar has formulated a Claim that is both specific and significant.",
+                                                "specific_deliverable":  "A Draft Claim for the pitch deck.",
+                                                "rubric":  "Complete when scholar formulates Claim."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Artist",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The conception is complete when the artist has found the \u0027visual tension\u0027 that will drive the composition.",
+                                                "specific_deliverable":  "A Concept Art piece showing the tension.",
+                                                "rubric":  "Complete when artist finds tension."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Antonio Damasio - The Feeler",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The conception is complete when the \u0027felt sense\u0027 of ethical rightness aligns with the logical analysis of the dilemma.",
+                                                "specific_deliverable":  "A Gut Check Log confirming alignment.",
+                                                "rubric":  "Complete when \u0027felt sense\u0027 aligns."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.7",
+                         "name":  "Creativity",
+                         "integrated_deliverable":  "A Creative Solution Proposal.",
+                         "scenario":  "Solving a gridlock traffic problem.",
+                         "theory_application":  "Generate a novel and useful solution by combining existing elements in a new way, often by connecting previously unrelated domains.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Arthur Koestler - The Innovator",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The generated solution successfully combines two previously unrelated matrices of thought (e.g., biology and engineering).",
+                                                "specific_deliverable":  "A Hybrid Solution mixing biology and traffic.",
+                                                "rubric":  "Combine unrelated matrices of thought."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Teresa Amabile - The Manager",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The team reports high levels of autonomy and focused time (low distraction) during the ideation phase.",
+                                                "specific_deliverable":  "An Innovation Lab Report from the team.",
+                                                "rubric":  "Maximize by ensuring autonomy."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "bell hooks - The Critic",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The generated interpretation successfully challenges the dominant narrative and generates a new, more just interpretation of history or culture.",
+                                                "specific_deliverable":  "A Radical Proposal for car-free zones.",
+                                                "rubric":  "Challenge dominant narrative."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Mihaly Csikszentmihalyi - The Artist",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The artist reports entering a \u0027Flow State\u0027 where the challenge perfectly matches their skill, leading to effortless innovation.",
+                                                "specific_deliverable":  "A Flow State Output of the new map.",
+                                                "rubric":  "Enter Flow State."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Systems Thinker",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solution successfully changes the rules of the system to generate a more sustainable and equitable outcome.",
+                                                "specific_deliverable":  "A Rule Change Proposal for congestion pricing.",
+                                                "rubric":  "Change system rules."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.8",
+                         "name":  "Divergence",
+                         "integrated_deliverable":  "A Divergent Thinking Log.",
+                         "scenario":  "Exploring future scenarios for AI.",
+                         "theory_application":  "Expand the solution space by generating a wide variety of ideas, options, or interpretations without immediate judgment or selection.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Linus Pauling - The Scientist",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The session prioritizes the quantity of hypotheses generated over the initial quality to maximize the chance of a breakthrough.",
+                                                "specific_deliverable":  "A Hypothesis Portfolio of 50 AI futures.",
+                                                "rubric":  "Prioritize quantity of hypotheses."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Design Thinking - The Facilitator",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The session uses the rule of \u0027Yes, and...\u0027 to build on ideas rather than shutting them down with premature judgment.",
+                                                "specific_deliverable":  "An Idea Tree branching from core concepts.",
+                                                "rubric":  "Enforce \u0027Yes, and...\u0027."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jacques Derrida - The Philosopher",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The generated interpretations successfully reveal the limits of the language and its inherent contradictions.",
+                                                "specific_deliverable":  "An Interpretive Range of AI ethics.",
+                                                "rubric":  "Engage in \u0027free play\u0027."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Bob Eberle - The Creator",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The session generates at least 10 variations on an existing concept using the SCAMPER checklist.",
+                                                "specific_deliverable":  "A Style Variations sheet for AI interfaces.",
+                                                "rubric":  "Use SCAMPER to generate variations."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Circle Way - The Keeper",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solutions target high-leverage points in the system (e.g., changing a rule) rather than low-leverage points (e.g., fixing a symptom).",
+                                                "specific_deliverable":  "A Divergent Voice Log from the council.",
+                                                "rubric":  "Use \u0027go-round\u0027 protocol."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.9",
+                         "name":  "Emergence",
+                         "integrated_deliverable":  "An Emergent Pattern Report.",
+                         "scenario":  "Observing a new social media trend.",
+                         "theory_application":  "Observe and identify complex patterns or behaviors that arise spontaneously from the interaction of simple rules or agents, without central control.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Santa Fe Institute - The Complexity Scientist",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The experiment successfully observes unpredictable macro-level patterns that arise from simple, local rules.",
+                                                "specific_deliverable":  "A Pattern Recognition Log of viral spread.",
+                                                "rubric":  "Observe unpredictable patterns."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Analyst",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The market\u0027s reaction to the MVP is an emergent signal that cannot be predicted, only sensed and responded to.",
+                                                "specific_deliverable":  "A Market Signal Report on user adoption.",
+                                                "rubric":  "Treat market reaction as signal."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Orlando Fals Borda - The Researcher",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The research question successfully emerges from the community dialogue, rather than being imposed by the researcher.",
+                                                "specific_deliverable":  "A Community Question List generated bottom-up.",
+                                                "rubric":  "Allow question to emerge."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Craftsman",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The final form successfully emerges from the artist\u0027s responsive dialogue with the material.",
+                                                "specific_deliverable":  "A Material Dialogue Log of the clay\u0027s response.",
+                                                "rubric":  "Allow form to emerge from dialogue."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Systems Thinker",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The wise solution successfully emerges from the collective intelligence of the system.",
+                                                "specific_deliverable":  "A Collective Integrated Knowledge Summary of the trend.",
+                                                "rubric":  "Trust collective intelligence."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.10",
+                         "name":  "Exaptation",
+                         "integrated_deliverable":  "A Repurposing Proposal.",
+                         "scenario":  "Finding a new use for old mining tunnels.",
+                         "theory_application":  "Take a feature, tool, or resource that evolved for one specific purpose and adapt it to solve a completely different problem in a new context.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Stephen Jay Gould - The Biologist",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The generated idea successfully applies a tool or feature that evolved for one purpose (e.g., a lab sensor) and apply it to a completely new, unrelated scientific problem.",
+                                                "specific_deliverable":  "A Geothermal Energy Plan using the tunnels.",
+                                                "rubric":  "Apply tool to unrelated problem."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Clayton Christensen - The Innovator",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The generated idea applies an underutilized core capability (e.g., a unique data set) to a new market to create a disruptive product.",
+                                                "specific_deliverable":  "A Data Center Proposal for secure storage.",
+                                                "rubric":  "Apply capability to new market."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Historian",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The analysis successfully shows how a social technology (e.g., the census) was exapted by the state for a purpose other than its original intent.",
+                                                "specific_deliverable":  "A Historical Use Analysis of underground spaces.",
+                                                "rubric":  "Analyze exapted social technology."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Marcel Duchamp - The Artist",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The generated idea successfully re-contextualizes an existing object as art, exapting its functional form for aesthetic meaning.",
+                                                "specific_deliverable":  "An Installation Concept turning tunnels to galleries.",
+                                                "rubric":  "Re-contextualize object as art."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Elinor Ostrom - The Governor",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solution successfully applies an ancient cultural practice (e.g., a sustainable harvesting method) to solve a modern environmental problem.",
+                                                "specific_deliverable":  "A Commons Management Plan for the space.",
+                                                "rubric":  "Apply ancient practice."
+                                            },
+                                            {
+                                                "domain":  "Complexity Science",
+                                                "rubric":  "Applies tool to unrelated function.",
+                                                "specific_deliverable":  "A Repurposing Proposal.",
+                                                "expert":  "Dave Snowden",
+                                                "theory":  "Exaptation (Cynefin). Procedural Link: Radically repurpose a tool or trait for a function it wasn\u0027t evolved for."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.11",
+                         "name":  "Expression",
+                         "integrated_deliverable":  "A Communication Artifact.",
+                         "scenario":  "Explaining a complex algorithm to investors.",
+                         "theory_application":  "Translate an internal idea or abstract concept into an external, communicable form (visual, verbal, or physical) that others can understand and engage with.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Teacher",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The hypothesis is expressed in multiple modalities (e.g., equation, diagram, plain language) to ensure clarity and testability.",
+                                                "specific_deliverable":  "A Multi-Modal Diagram of the algorithm.",
+                                                "rubric":  "Express in multiple modalities."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The PO",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The idea is expressed as a User Story (As a [user], I want [feature], so that [value]) to ensure it is user-centric and actionable.",
+                                                "specific_deliverable":  "A User Story Card for the investor deck.",
+                                                "rubric":  "Express as User Story."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Rhetorician",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The interpretive insight is expressed as a Claim that is both specific and significant.",
+                                                "specific_deliverable":  "A Value Proposition Claim for the pitch.",
+                                                "rubric":  "Express as specific Claim."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Visualizer",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The idea is expressed through rapid, low-fidelity sketching to externalize the concept before it is fully formed.",
+                                                "specific_deliverable":  "A Visual Metaphor Sketch of the process.",
+                                                "rubric":  "Express via rapid sketching."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Storyteller",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The idea is expressed through dialogue and storytelling to ensure it is understood and integrated by the community.",
+                                                "specific_deliverable":  "A Narrative Script for the presentation.",
+                                                "rubric":  "Express via dialogue/storytelling."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.12",
+                         "name":  "Generation",
+                         "integrated_deliverable":  "An Idea Log.",
+                         "scenario":  "Creating a marketing campaign.",
+                         "theory_application":  "Produce a high volume of potential ideas or solutions using structured techniques to overcome creative blocks and explore the full solution space.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Linus Pauling - The Scientist",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The session prioritizes the quantity of hypotheses generated over the initial quality to maximize the chance of a breakthrough.",
+                                                "specific_deliverable":  "A Campaign Idea List of 50 concepts.",
+                                                "rubric":  "Prioritize quantity over quality."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Design Thinking - The Facilitator",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The session uses time-boxing and a high quota (e.g., 50 ideas in 15 minutes) to force the team into a divergent, System 1 mindset.",
+                                                "specific_deliverable":  "A Time-Boxed Idea Sheet from the sprint.",
+                                                "rubric":  "Use time-boxing/quota."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Orlando Fals Borda - The Researcher",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The generated ideas are grounded in collective dialogue with the community, ensuring the solutions are grounded in lived experience.",
+                                                "specific_deliverable":  "A Community Input Log for slogans.",
+                                                "rubric":  "Generate via collective dialogue."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Bob Eberle - The Creator",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The session uses structured constraints (SCAMPER) to systematically generate variations on an existing concept.",
+                                                "specific_deliverable":  "A SCAMPER Variation List of the logo.",
+                                                "rubric":  "Use structured constraints."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Circle Way - The Keeper",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solutions target high-leverage points in the system (e.g., changing a rule) rather than low-leverage points (e.g., fixing a symptom).",
+                                                "specific_deliverable":  "A Circle Output Record of themes.",
+                                                "rubric":  "Generate via \u0027go-round\u0027."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.13",
+                         "name":  "Guide: Facilitation",
+                         "integrated_deliverable":  "A Facilitation Plan.",
+                         "scenario":  "Running a conflict resolution workshop.",
+                         "theory_application":  "Guide a group through a structured process of interaction, ensuring equitable participation, managing conflict, and steering the group toward a shared outcome.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Gagné - The Instructor",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The facilitator successfully enforces the rule of \u0027defer judgment\u0027 to protect the generation of bold, non-consensus hypotheses.",
+                                                "specific_deliverable":  "A Rule Enforcement Script for the session.",
+                                                "rubric":  "Enforce \u0027defer judgment\u0027."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Scrum Master",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The facilitator successfully enforces the timebox and ensures the team moves from divergence to convergence efficiently.",
+                                                "specific_deliverable":  "A Workshop Agenda with strict timing.",
+                                                "rubric":  "Enforce timebox."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Parker J. Palmer - The Teacher",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The facilitator successfully \u0027holds the space\u0027 for critical dialogue, protecting students from personal attack when they offer controversial ideas.",
+                                                "specific_deliverable":  "A Trust Agreement for participants.",
+                                                "rubric":  "Create \u0027circle of trust\u0027."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Critic",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The facilitator successfully asks clarifying questions that help the artist articulate the tacit intent behind their work.",
+                                                "specific_deliverable":  "A Question Bank for the facilitator.",
+                                                "rubric":  "Ask clarifying questions."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The Educator",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The facilitator successfully models humility and ensures the dialogue is focused on systemic issues, not individual blame.",
+                                                "specific_deliverable":  "A Facilitator\u0027s Guide on humility.",
+                                                "rubric":  "Model humility/focus on systems."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.14",
+                         "name":  "How Might We",
+                         "integrated_deliverable":  "A Challenge Statement Deck.",
+                         "scenario":  "Reducing plastic waste in a school cafeteria.",
+                         "theory_application":  "Reframe a problem statement into an open-ended question that invites creative solutions, shifting the mindset from \u0027this is impossible\u0027 to \u0027what if\u0027.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Design Thinking - The Engineer",
+                                                "theory":  "Definition: HMW questions translate problems into actionable opportunities. Procedural Link: The action is to frame a technical challenge as an open-ended question (e.g., \u0027HMW build a sensor that is 10x smaller?\u0027) to force creative solutions beyond incremental improvements.",
+                                                "specific_deliverable":  "A Technical HMW Prompt focusing on material properties.",
+                                                "rubric":  "Frames technical challenge as open question."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Stanford d.school - The Innovator",
+                                                "theory":  "Definition: HMW questions are the bridge from the empathy phase to the ideation phase. Procedural Link: The action is to use the HMW format to translate user pain points into actionable opportunities for brainstorming sessions.",
+                                                "specific_deliverable":  "A User-Centric HMW Card focusing on student behavior.",
+                                                "rubric":  "Translates pain points into opportunities."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "bell hooks - The Critic",
+                                                "theory":  "Definition: hooks advocates for education as the \u0027practice of freedom.\u0027 Procedural Link: The action is to frame a social problem as an HMW question (e.g., \u0027HMW challenge the dominant narrative?\u0027) to shift the focus from critique to generative action.",
+                                                "specific_deliverable":  "A Systemic HMW Question challenging the disposal narrative.",
+                                                "rubric":  "Challenges dominant narrative/shifts to action."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Brian Eno - The Artist",
+                                                "theory":  "Definition: Eno\u0027s cards introduce random constraints to force creative breakthroughs. Procedural Link: The action is to frame an aesthetic challenge as an HMW question to push creative boundaries (e.g., \u0027HMW communicate sadness using only primary colors?\u0027).",
+                                                "specific_deliverable":  "An Aesthetic HMW Prompt focusing on visual appeal.",
+                                                "rubric":  "Pushes creative boundaries."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Ethicist",
+                                                "theory":  "Definition: RRI requires anticipating and mitigating unintended consequences. Procedural Link: The action is to frame an ethical dilemma as an HMW question (e.g., \u0027HMW ensure both security and full privacy?\u0027) to generate novel, ethical solutions.",
+                                                "specific_deliverable":  "An Ethical HMW Challenge focusing on equity.",
+                                                "rubric":  "Generates novel, ethical solutions."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.15",
+                         "name":  "Hypothesis",
+                         "integrated_deliverable":  "A Validation Plan.",
+                         "scenario":  "Testing a new drug delivery system.",
+                         "theory_application":  "Formulate a specific, testable prediction about the relationship between variables, ensuring that the statement can be proven false by evidence.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Scientist",
+                                                "theory":  "Definition: Popper requires a theory to be falsifiable. Procedural Link: The action is to formulate the hypothesis to be falsifiable; it must be specific enough that an experiment could prove it wrong.",
+                                                "specific_deliverable":  "A Falsifiable Hypothesis for the clinical trial.",
+                                                "rubric":  "Formulate as falsifiable."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Entrepreneur",
+                                                "theory":  "Definition: The hypothesis is the \u0027leap of faith\u0027 statement that guides the MVP test. Procedural Link: The action is to frame the hypothesis as a \u0027leap of faith\u0027 statement: \u0027We believe that [X feature] will cause [Y outcome] for [Z users].\u0027",
+                                                "specific_deliverable":  "A Leap of Faith Assumption for the market.",
+                                                "rubric":  "Frame as \u0027leap of faith\u0027."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Scholar",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to formulate the hypothesis as a Claim that is both specific and significant, ready to be supported by evidence.",
+                                                "specific_deliverable":  "A Research Claim regarding efficacy.",
+                                                "rubric":  "Formulate as Claim."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Designer",
+                                                "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to formulate the hypothesis as a statement of aesthetic intent (e.g., \u0027The juxtaposition of these colors will evoke a sense of unease\u0027).",
+                                                "specific_deliverable":  "A Design Intent Statement for the packaging.",
+                                                "rubric":  "Formulate as aesthetic intent."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Elder",
+                                                "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The action is to formulate the hypothesis as a prediction of long-term impact (e.g., \u0027This action will benefit the seventh generation\u0027).",
+                                                "specific_deliverable":  "A Long-Term Impact Prediction for the ecosystem.",
+                                                "rubric":  "Formulate as prediction of impact."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.16",
+                         "name":  "Ideation",
+                         "integrated_deliverable":  "A Brainstorming Summary.",
+                         "scenario":  "Creating a marketing campaign.",
+                         "theory_application":  "Engage in a structured process of generating, developing, and communicating new ideas, prioritizing quantity and variety before selection.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Alex Osborn - The Facilitator",
+                                                "theory":  "Definition: Osborn defined the rule of \u0027defer judgment\u0027. Procedural Link: The action is to prioritize the quantity of ideas generated over the initial quality to maximize the chance of a breakthrough.",
+                                                "specific_deliverable":  "A Volume Log of 100 video concepts.",
+                                                "rubric":  "Prioritize quantity over quality."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Design Thinking - The Innovator",
+                                                "theory":  "Definition: Design Thinking uses time-boxing to force divergence. Procedural Link: The action is to use time-boxing and a high quota (e.g., 50 ideas in 15 minutes) to force the team into a divergent, System 1 mindset.",
+                                                "specific_deliverable":  "A Time-Boxed Idea Sheet from the sprint.",
+                                                "rubric":  "Use time-boxing/quota."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Orlando Fals Borda - The Researcher",
+                                                "theory":  "Definition: PAR requires the research question to emerge from the community. Procedural Link: The action is to generate ideas through collective dialogue with the community, ensuring the solutions are grounded in lived experience.",
+                                                "specific_deliverable":  "A Community Idea Board for the campaign.",
+                                                "rubric":  "Generate via collective dialogue."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Bob Eberle - The Creator",
+                                                "theory":  "Definition: SCAMPER is a checklist for systematic variation. Procedural Link: The action is to use structured constraints (SCAMPER) to systematically generate variations on an existing concept.",
+                                                "specific_deliverable":  "A SCAMPER List of video styles.",
+                                                "rubric":  "Use structured constraints."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Circle Way - The Keeper",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solutions target high-leverage points in the system (e.g., changing a rule) rather than low-leverage points (e.g., fixing a symptom).",
+                                                "specific_deliverable":  "A Circle Input Record ensuring equity.",
+                                                "rubric":  "Generate via \u0027go-round\u0027."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.17",
+                         "name":  "Incubation",
+                         "integrated_deliverable":  "A Work-Rest Schedule.",
+                         "scenario":  "Solving a complex math proof.",
+                         "theory_application":  "Deliberately step away from the problem after a period of intense focus, allowing subconscious processes to consolidate information and generate insights.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "McClelland et al. - The Neuroscientist",
+                                                "theory":  "Definition: The theory states that the hippocampus consolidates memories during rest. Procedural Link: The action is to schedule a deliberate period of rest after intense work to allow memory consolidation of complex new information (offline learning). (N97)",
+                                                "specific_deliverable":  "A Rest Schedule for offline learning.",
+                                                "rubric":  "Schedule rest for consolidation."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Daniel Kahneman - The Psychologist",
+                                                "theory":  "Definition: Incubation allows System 1 (intuition) to work on the problem subconsciously. Procedural Link: The action is to schedule a break between the problem definition and the solution generation to allow System 1 (intuition) to work on the problem in the background.",
+                                                "specific_deliverable":  "A Break Protocol for the research team.",
+                                                "rubric":  "Schedule break for System 1."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Graham Wallas - The Theorist",
+                                                "theory":  "Definition: Wallas defined the four stages of creativity: preparation, incubation, illumination, and verification. Procedural Link: The action is to allow a draft or idea to rest for days or weeks before returning to it with a fresh, critical eye.",
+                                                "specific_deliverable":  "A Drafting Pause Plan for the paper.",
+                                                "rubric":  "Allow draft to rest."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Mihaly Csikszentmihalyi - The Artist",
+                                                "theory":  "Definition: Incubation precedes the \u0027illumination\u0027—the sudden, emergent insight. Procedural Link: The action is to intentionally sleep on a problem or engage in a meditative walk to encourage emergent insight.",
+                                                "specific_deliverable":  "A Walk Log capturing insights.",
+                                                "rubric":  "Encourage emergent insight."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Dialogist",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to allow the collective dialogue to rest for a period, trusting that the emergent integrated knowledge will surface when the group reconvenes.",
+                                                "specific_deliverable":  "A Dialogue Pause Agreement for the group.",
+                                                "rubric":  "Allow dialogue to rest."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.18",
+                         "name":  "Intuition",
+                         "integrated_deliverable":  "An Expert Judgment Log.",
+                         "scenario":  "Making a high-stakes investment.",
+                         "theory_application":  "Recognize and record immediate, non-conscious judgments or \u0027gut feelings\u0027 as valid data points that reflect deep pattern recognition, then subject them to verification.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Gary Klein - The Expert",
+                                                "theory":  "Definition: Klein\u0027s theory defines intuition as non-conscious pattern-matching. Procedural Link: The action is to treat the expert\u0027s \u0027gut feeling\u0027 as a valid data point derived from non-conscious pattern-matching, but subject it to rigorous testing.",
+                                                "specific_deliverable":  "A Gut Check Record of the decision.",
+                                                "rubric":  "Treat \u0027gut feeling\u0027 as data."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Daniel Kahneman - The Analyst",
+                                                "theory":  "Definition: Intuition is a System 1 function (fast, intuitive). Procedural Link: The action is to use System 1 intuition to generate the initial idea, but immediately switch to System 2 analysis to verify its feasibility and value.",
+                                                "specific_deliverable":  "A Dual-Process Log of the analysis.",
+                                                "rubric":  "Use System 1/System 2."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Antonio Damasio - The Neuroscientist",
+                                                "theory":  "Definition: Damasio\u0027s theory defines the \u0027somatic marker\u0027 (the body\u0027s emotional signal) guiding decision-making. Procedural Link: The action is to treat the \u0027somatic marker\u0027 (the felt sense of rightness) as a signal of deep, non-conscious pattern recognition that guides the interpretive choice.",
+                                                "specific_deliverable":  "A Somatic Signal Log of physical reactions.",
+                                                "rubric":  "Treat \u0027somatic marker\u0027 as signal."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Artist",
+                                                "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to trust the \u0027felt sense\u0027 of aesthetic rightness, but immediately articulate the underlying principle to transform intuition into a reusable design rule.",
+                                                "specific_deliverable":  "An Intuitive Sketch with notes.",
+                                                "rubric":  "Trust \u0027felt sense\u0027 but articulate."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Antonio Damasio - The Ethicist",
+                                                "theory":  "Definition: Damasio\u0027s theory defines the \u0027somatic marker\u0027 (the body\u0027s emotional signal) guiding decision-making. Procedural Link: The action is to treat the \u0027gut feeling\u0027 of ethical discomfort as a critical signal that demands immediate, slow, and deliberate moral analysis.",
+                                                "specific_deliverable":  "An Ethical Alarm Log of discomfort.",
+                                                "rubric":  "Treat ethical \u0027gut feeling\u0027 as signal."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.19",
+                         "name":  "Invention",
+                         "integrated_deliverable":  "A Patent Filing / Disclosure.",
+                         "scenario":  "Inventing a new water filter.",
+                         "theory_application":  "Create a novel device, method, or process by combining existing elements in a new way or applying a principle from one domain to another.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Arthur Koestler - The Innovator",
+                                                "theory":  "Definition: Koestler defined creativity as \u0027bisociation\u0027—combining two unrelated matrices of thought. Procedural Link: The action is to focus on \u0027bisociation\u0027—the combination of two previously unrelated matrices of thought (e.g., biology and engineering) to generate a novel solution.",
+                                                "specific_deliverable":  "A Bisociation Diagram mixing biology/tech.",
+                                                "rubric":  "Combine unrelated matrices."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Clayton Christensen - The Disruptor",
+                                                "theory":  "Definition: Christensen defines disruptive innovation. Procedural Link: The action is to focus on \u0027disruptive innovation\u0027—creating a solution that is initially inferior but cheaper/simpler, opening up a new market.",
+                                                "specific_deliverable":  "A Disruptive Concept for low-cost markets.",
+                                                "rubric":  "Focus on disruptive innovation."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jacques Derrida - The Philosopher",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The action is to focus on \u0027reconstruction\u0027—creating a new theoretical framework that is not dependent on the flawed binary oppositions of the old system.",
+                                                "specific_deliverable":  "A Reconstructed Framework for water rights.",
+                                                "rubric":  "Focus on reconstruction."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Marcel Duchamp - The Artist",
+                                                "theory":  "Definition: Duchamp re-contextualized ordinary objects as art. Procedural Link: The action is to focus on \u0027re-contextualization\u0027—taking an existing object and re-contextualizing it as art, exapting its functional form for aesthetic meaning.",
+                                                "specific_deliverable":  "A Readymade Prototype using found objects.",
+                                                "rubric":  "Re-contextualize object."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Elinor Ostrom - The Governor",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The action is to focus on \u0027polycentric governance\u0027—inventing a new system of nested, self-governing institutions to manage shared resources.",
+                                                "specific_deliverable":  "A Polycentric Governance Plan for the water.",
+                                                "rubric":  "Focus on polycentric governance."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.20",
+                         "name":  "Play",
+                         "integrated_deliverable":  "A Creative Sandbox Environment.",
+                         "scenario":  "Designing a new toy.",
+                         "theory_application":  "Engage in unstructured, non-goal-oriented activity to lower inhibitions, explore possibilities, and discover unexpected connections.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Experimenter",
+                                                "theory":  "Definition: Feynman advocated for \u0027serious play\u0027 in scientific discovery. Procedural Link: The action is to engage in \u0027serious play\u0027 with the experimental apparatus or data to discover unexpected effects that formal methods might miss.",
+                                                "specific_deliverable":  "A Play Experiment Log of physics toys.",
+                                                "rubric":  "Engage in \u0027serious play\u0027."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Design Thinking - The Facilitator",
+                                                "theory":  "Definition: Design Thinking uses playful, low-stakes activities to encourage participation. Procedural Link: The action is to use playful, non-judgmental ideation techniques to lower inhibitions and foster creativity.",
+                                                "specific_deliverable":  "A Play Workshop Guide for the team.",
+                                                "rubric":  "Use playful techniques."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "bell hooks - The Teacher",
+                                                "theory":  "Definition: hooks advocates for education as the \u0027practice of freedom.\u0027 Procedural Link: The action is to use playful dialogue and humor to challenge rigid intellectual hierarchies and create a safe space for critical thought.",
+                                                "specific_deliverable":  "A Playful Dialogue Script for the classroom.",
+                                                "rubric":  "Use playful dialogue."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "John Cage - The Artist",
+                                                "theory":  "Definition: Cage introduced chance operations to composition. Procedural Link: The action is to engage with materials without a fixed plan, prioritizing enjoyment and discovery over perfection.",
+                                                "specific_deliverable":  "A Material Play Session with clay.",
+                                                "rubric":  "Engage without plan."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Circle Way - The Keeper",
+                                                "theory":  "Definition: The Circle Way uses shared, low-stakes activities to build social capital. Procedural Link: The action is to use shared, low-stakes communal activity to build the social capital necessary for high-stakes dialogue.",
+                                                "specific_deliverable":  "A Community Game Plan for bonding.",
+                                                "rubric":  "Use shared low-stakes activity."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.21",
+                         "name":  "Possibility",
+                         "integrated_deliverable":  "A Futures Scenario Deck.",
+                         "scenario":  "Planning for climate change adaptation.",
+                         "theory_application":  "Generate a range of potential future states or solutions, moving beyond the probable to explore the plausible and the possible.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Scientist",
+                                                "theory":  "Definition: Popper requires a theory to be falsifiable. Procedural Link: The action is to generate a portfolio of falsifiable possibilities—hypotheses that are worthy of being proven wrong.",
+                                                "specific_deliverable":  "A Scenario Portfolio of climate models.",
+                                                "rubric":  "Generate falsifiable possibilities."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Design Thinking - The Innovator",
+                                                "theory":  "Definition: Design Thinking uses divergence to maximize options. Procedural Link: The action is to generate a portfolio of viable solutions that address the user\u0027s needs and the market opportunity.",
+                                                "specific_deliverable":  "A Solution Portfolio for adaptation.",
+                                                "rubric":  "Generate viable solutions."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jacques Derrida - The Philosopher",
+                                                "theory":  "Definition: Deconstruction reveals the limits of the language. Procedural Link: The action is to generate a portfolio of competing interpretations that reveal the full complexity of the text.",
+                                                "specific_deliverable":  "A Narrative Futures Deck of social change.",
+                                                "rubric":  "Generate competing interpretations."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Designer",
+                                                "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to generate a portfolio of aesthetic solutions that explore the full range of formal possibilities.",
+                                                "specific_deliverable":  "A Visual Futures Gallery of landscapes.",
+                                                "rubric":  "Generate aesthetic solutions."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Elder",
+                                                "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The action is to generate a portfolio of sustainable futures that honor the needs of the next seven generations.",
+                                                "specific_deliverable":  "A 7th Generation Plan for resilience.",
+                                                "rubric":  "Generate sustainable futures."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.22",
+                         "name":  "Environment of Open Communication",
+                         "integrated_deliverable":  "A Team Charter.",
+                         "scenario":  "Forming a new high-stakes project team.",
+                         "theory_application":  "Create an environment where team members feel safe to take risks, share ideas, and admit mistakes without fear of negative consequences.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Amy Edmondson - The Leader",
+                                                "theory":  "Definition: Edmondson defines psychological safety as the belief that interpersonal risk-taking is safe. Procedural Link: The action is for the leader to explicitly state that \u0027failure is data\u0027 and that bold, non-consensus hypotheses are encouraged.",
+                                                "specific_deliverable":  "A Safety Charter encouraging risk.",
+                                                "rubric":  "State \u0027failure is data\u0027."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Amy Edmondson - The Manager",
+                                                "theory":  "Definition: Psychological safety is the belief that interpersonal risk-taking is safe. Procedural Link: The action is for the leader to actively intervene to stop blame and frame all errors as systemic learning opportunities.",
+                                                "specific_deliverable":  "A Blame-Free Protocol for post-mortems.",
+                                                "rubric":  "Intervene to stop blame."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Parker J. Palmer - The Teacher",
+                                                "theory":  "Definition: Palmer advocates for creating a \u0027circle of trust\u0027 in the classroom. Procedural Link: The action is for the facilitator to \u0027hold the space\u0027 for critical dialogue, protecting students from personal attack when they offer controversial ideas.",
+                                                "specific_deliverable":  "A Classroom Covenant for safety.",
+                                                "rubric":  "Hold space protecting students."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Facilitator",
+                                                "theory":  "Definition: The CRP gives the artist agency over the critique process. Procedural Link: The action is for the facilitator to enforce a protocol where the artist speaks first and last, giving them agency over the critique process.",
+                                                "specific_deliverable":  "A Critique Protocol for the studio.",
+                                                "rubric":  "Enforce protocol giving agency."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Howard Zehr - The Practitioner",
+                                                "theory":  "Definition: Restorative Justice focuses on repairing harm by addressing the needs of the victim. Procedural Link: The action is for the facilitator to ensure the dialogue is \u0027blameless\u0027 and focused on the harm and needs, not on individual punishment.",
+                                                "specific_deliverable":  "A Restorative Circle Guide for conflict.",
+                                                "rubric":  "Ensure dialogue is blameless."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.23",
+                         "name":  "Rival Readings",
+                         "integrated_deliverable":  "A Comparative Analysis.",
+                         "scenario":  "Interpreting conflicting market data.",
+                         "theory_application":  "Deliberately generate and explore multiple, conflicting interpretations of the same data or text to avoid confirmation bias and uncover deeper truths.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "T. C. Chamberlin - The Scientist",
+                                                "theory":  "Definition: Chamberlin advocated for pursuing multiple hypotheses simultaneously. Procedural Link: The action is to generate multiple, mutually exclusive hypotheses and pursue them all simultaneously to avoid confirmation bias.",
+                                                "specific_deliverable":  "A Multiple Hypothesis Matrix for the data.",
+                                                "rubric":  "Generate mutually exclusive hypotheses."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Entrepreneur",
+                                                "theory":  "Definition: The Lean Startup uses A/B testing to test rival assumptions. Procedural Link: The action is to generate competing MVPs to test rival assumptions about user behavior, letting the market decide the winner.",
+                                                "specific_deliverable":  "A Split-Test Plan for two features.",
+                                                "rubric":  "Generate competing MVPs."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Scholar",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to generate competing interpretations for a single text, ensuring the final thesis is robust against challenge.",
+                                                "specific_deliverable":  "A Rival Interpretation Paper of the text.",
+                                                "rubric":  "Generate competing interpretations."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Critic",
+                                                "theory":  "Definition: The CRP gives the artist agency over the critique process. Procedural Link: The action is to ask the audience to generate multiple, competing interpretations of the work\u0027s meaning before the artist speaks.",
+                                                "specific_deliverable":  "An Audience Feedback Log of meanings.",
+                                                "rubric":  "Ask for multiple interpretations."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Isaiah Berlin - The Ethicist",
+                                                "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to articulate the dilemma by presenting the strongest case for both conflicting values (e.g., security and freedom) before seeking a resolution.",
+                                                "specific_deliverable":  "A Value Conflict Memo outlining the dilemma.",
+                                                "rubric":  "Articulate strongest case."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.24",
+                         "name":  "SCAMPER",
+                         "integrated_deliverable":  "An Innovation Checklist.",
+                         "scenario":  "Updating a legacy product.",
+                         "theory_application":  "Use the SCAMPER checklist (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse) to systematically generate new ideas or variations.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Bob Eberle - The Engineer",
+                                                "theory":  "Definition: SCAMPER is a checklist for systematic variation. Procedural Link: The action is to use the prompts (Substitute, Combine, Adapt, etc.) to systematically generate new experimental designs or technical solutions.",
+                                                "specific_deliverable":  "A Design Variation List for the prototype.",
+                                                "rubric":  "Use prompts to generate designs."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Bob Eberle - The Marketer",
+                                                "theory":  "Definition: SCAMPER is a checklist for systematic variation. Procedural Link: The action is to use the prompts to systematically innovate on an existing product feature or business model.",
+                                                "specific_deliverable":  "A Feature Innovation Deck using SCAMPER.",
+                                                "rubric":  "Use prompts to innovate features."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Bob Eberle - The Writer",
+                                                "theory":  "Definition: SCAMPER is a checklist for systematic variation. Procedural Link: The action is to use the prompts to systematically transform an existing theoretical argument into a new, original hypothesis.",
+                                                "specific_deliverable":  "A Theory Revision Map using prompts.",
+                                                "rubric":  "Use prompts to transform arguments."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Bob Eberle - The Artist",
+                                                "theory":  "Definition: SCAMPER is a checklist for systematic variation. Procedural Link: The action is to use the prompts to systematically vary an aesthetic design concept and force creative breakthroughs.",
+                                                "specific_deliverable":  "A Visual Variation Series of the logo.",
+                                                "rubric":  "Use prompts to vary concepts."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Bob Eberle - The Organizer",
+                                                "theory":  "Definition: SCAMPER is a checklist for systematic variation. Procedural Link: The action is to apply SCAMPER to existing governance protocols or rituals to transform them into more effective forms.",
+                                                "specific_deliverable":  "A Protocol Update Proposal using SCAMPER.",
+                                                "rubric":  "Apply prompts to governance."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.25",
+                         "name":  "Sketching",
+                         "integrated_deliverable":  "A Sketchbook / Wireframe Deck.",
+                         "scenario":  "Visualizing a new app interface.",
+                         "theory_application":  "Use rapid, low-fidelity visual representations to externalize thoughts, explore possibilities, and identify logical or aesthetic flaws before committing to a final design.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Physicist",
+                                                "theory":  "Definition: Sketching is a tool for thinking and externalizing logic. Procedural Link: The action is to sketch the experimental apparatus or the data flow diagram to externalize the problem and find flaws in the logic.",
+                                                "specific_deliverable":  "A Logic Flow Sketch of the algorithm.",
+                                                "rubric":  "Sketch apparatus/data flow."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Design Thinking - The Designer",
+                                                "theory":  "Definition: Design Thinking uses low-fidelity sketching to externalize UI ideas. Procedural Link: The action is to use rapid, low-fidelity sketching (e.g., Crazy Eights) to externalize UI ideas and reduce the fear of failure.",
+                                                "specific_deliverable":  "A Crazy Eights Sheet of UI concepts.",
+                                                "rubric":  "Use rapid low-fidelity sketching."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Writer",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to sketch the Argument Map (N22) to visually structure the claims, evidence, and warrants of the thesis.",
+                                                "specific_deliverable":  "An Argument Map Sketch of the essay.",
+                                                "rubric":  "Sketch Argument Map."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Leonardo da Vinci - The Artist",
+                                                "theory":  "Definition: Da Vinci\u0027s notebooks integrated art and science through observation. Procedural Link: The action is to use sketching as a tool for thinking, capturing the visual form while simultaneously documenting the underlying mechanical or emotional principles.",
+                                                "specific_deliverable":  "A Form Study Sketch of the icon.",
+                                                "rubric":  "Use sketching to think."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Donella Meadows - The Modeler",
+                                                "theory":  "Definition: Meadows focuses on identifying feedback loops. Procedural Link: The action is to sketch the system diagram to visualize the feedback loops and leverage points of the social problem.",
+                                                "specific_deliverable":  "A System Loop Sketch of user interaction.",
+                                                "rubric":  "Sketch system diagram."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.26",
+                         "name":  "Steelmanning",
+                         "integrated_deliverable":  "A Position Paper.",
+                         "scenario":  "Debating a controversial policy change.",
+                         "theory_application":  "Articulate the strongest possible version of the opposing argument or hypothesis to ensure that your own position is robust and not based on attacking a \u0027straw man\u0027.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "T. C. Chamberlin - The Scientist",
+                                                "theory":  "Definition: Chamberlin advocated for pursuing multiple hypotheses simultaneously. Procedural Link: The action is to formulate the strongest possible version of a competing scientific hypothesis before attempting to falsify it.",
+                                                "specific_deliverable":  "A Rival Hypothesis Brief for the debate.",
+                                                "rubric":  "Formulate strongest competing hypothesis."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Charlie Munger - The Investor",
+                                                "theory":  "Definition: Munger advocates for inversion—thinking backward. Procedural Link: The action is to construct the strongest possible case for a competitor’s product or business model to identify real vulnerabilities in our own proposal.",
+                                                "specific_deliverable":  "A Competitor Bull Case memo.",
+                                                "rubric":  "Construct strongest case for competitor."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Daniel Kahneman - The Psychologist",
+                                                "theory":  "Definition: Kahneman defines confirmation bias. Procedural Link: The action is to articulate the most compelling version of an opposing interpretive stance to strengthen one\u0027s own argument and overcome confirmation bias.",
+                                                "specific_deliverable":  "An Opposing Viewpoint Summary.",
+                                                "rubric":  "Articulate compelling opposing stance."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Critic",
+                                                "theory":  "Definition: The CRP gives the artist agency over the critique process. Procedural Link: The action is to articulate the strongest argument in favor of a discarded aesthetic choice to understand its power before rejecting it.",
+                                                "specific_deliverable":  "A Defense of the Rejected concept.",
+                                                "rubric":  "Articulate argument for discarded choice."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Isaiah Berlin - The Ethicist",
+                                                "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to articulate the dilemma by presenting the strongest case for both conflicting values (e.g., security and freedom) before seeking a resolution.",
+                                                "specific_deliverable":  "A Value Conflict Analysis of the policy.",
+                                                "rubric":  "Articulate strongest case for values."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.27",
+                         "name":  "User Story",
+                         "integrated_deliverable":  "A User Story Card.",
+                         "scenario":  "Defining features for a new health app.",
+                         "theory_application":  "Frame a requirement or feature request as a short, simple description from the perspective of the person who desires the new capability, focusing on the value it provides.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Jeff Sutherland - The PO",
+                                                "theory":  "Definition: Scrum uses User Stories as the core unit of work. Procedural Link: The action is to translate a hypothesis into a feature request framed from a user\u0027s perspective (ee.g., \u0027As a scientist, I want a faster plotting tool, so I can analyze my data quickly\u0027).",
+                                                "specific_deliverable":  "A Feature Request Card for data tracking.",
+                                                "rubric":  "Translate hypothesis into feature."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Mike Cohn - The Agile Coach",
+                                                "theory":  "Definition: User Stories are informal explanations of features from the user’s perspective. Procedural Link: The action is to ensure the core unit of work is an informal explanation of a product feature from the end user’s perspective.",
+                                                "specific_deliverable":  "A User Story: \u0027As a patient, I want...\u0027",
+                                                "rubric":  "Ensure core unit is informal explanation."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "bell hooks - The Narrator",
+                                                "theory":  "Definition: hooks advocates for education as the \u0027practice of freedom.\u0027 Procedural Link: The action is to translate a philosophical inquiry into a narrative centered on the lived experience and needs of a specific demographic group.",
+                                                "specific_deliverable":  "A Lived Experience Narrative of illness.",
+                                                "rubric":  "Translate inquiry into narrative."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Donald Norman - The Designer",
+                                                "theory":  "Definition: Norman focuses on affordances and user understanding. Procedural Link: The action is to frame the creative experience in terms of the audience\u0027s emotional journey (e.g., \u0027As a viewer, I want to feel a sense of loss, so I can reflect on my own mortality\u0027).",
+                                                "specific_deliverable":  "An Emotional Journey Map for the user.",
+                                                "rubric":  "Frame experience as emotional journey."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Howard Zehr - The Practitioner",
+                                                "theory":  "Definition: Restorative Justice focuses on repairing harm by addressing the needs of the victim. Procedural Link: The action is to frame a social issue in terms of the lived experience and needs of a community member.",
+                                                "specific_deliverable":  "A Community Needs Story for the app.",
+                                                "rubric":  "Frame social issue as lived experience."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.28",
+                         "name":  "Psychological Safety",
+                         "integrated_deliverable":  "A Safe Space Agreement.",
+                         "scenario":  "Brainstorming with a hierarchical team.",
+                         "theory_application":  "Create a condition where team members feel safe to take interpersonal risks, such as sharing half-baked ideas or admitting ignorance.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Amy Edmondson - The Researcher",
+                                                "theory":  "Definition: Psychological Safety is the belief that the team is safe for risk-taking. Procedural Link: The action is to explicitly frame the work as a learning problem, not an execution problem, to lower the cost of error.",
+                                                "specific_deliverable":  "A Learning Frame Statement.",
+                                                "rubric":  "Frames work as learning problem."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Google (Project Aristotle) - The Analyst",
+                                                "theory":  "Definition: Safety is the #1 predictor of team performance. Procedural Link: The action is to institute \u0027conversational turn-taking\u0027 rules to ensure no single voice dominates.",
+                                                "specific_deliverable":  "A Turn-Taking Protocol.",
+                                                "rubric":  "Institutes turn-taking rules."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Parker Palmer - The Educator",
+                                                "theory":  "Definition: The Circle of Trust protects the soul. Procedural Link: The action is to enforce the rule of \u0027no fixing, no saving, no advising\u0027 during the generative phase.",
+                                                "specific_deliverable":  "A Circle of Trust Covenant.",
+                                                "rubric":  "Enforces \u0027no fixing\u0027 rule."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Keith Johnstone - The Improviser",
+                                                "theory":  "Definition: Status transactions block creativity. Procedural Link: The action is to play status-lowering games to flatten the hierarchy before ideation.",
+                                                "specific_deliverable":  "A Status-Drop Warmup.",
+                                                "rubric":  "Uses games to flatten hierarchy."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "bell hooks - The Teacher",
+                                                "theory":  "Definition: The classroom must be a place of liberation. Procedural Link: The action is to validate the subjective experience of every participant as authoritative data.",
+                                                "specific_deliverable":  "A Validation Ritual.",
+                                                "rubric":  "Validates subjective experience."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.29",
+                         "name":  "Combinatorial Play",
+                         "integrated_deliverable":  "A Concept Mashup.",
+                         "scenario":  "Stuck in a creative rut.",
+                         "theory_application":  "Generate novelty not by invention, but by the systematic combination of existing, unrelated concepts.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Arthur Koestler - The Theorist",
+                                                "theory":  "Definition: Bisociation is the connection of two previously unrelated matrices of thought. Procedural Link: The action is to force a connection between the current problem and a random biological system.",
+                                                "specific_deliverable":  "A Biomimicry Map.",
+                                                "rubric":  "Connects problem to biological system."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Steve Jobs - The Innovator",
+                                                "theory":  "Definition: Creativity is just connecting things. Procedural Link: The action is to combine a business model from one industry with a technology from another (e.g., \u0027Tinder for Dogs\u0027).",
+                                                "specific_deliverable":  "A Business Model Mashup.",
+                                                "rubric":  "Combines model and tech from different fields."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Walter Benjamin - The Flaneur",
+                                                "theory":  "Definition: The Montage constructs meaning from fragments. Procedural Link: The action is to place two unrelated historical texts side-by-side and read the space between them.",
+                                                "specific_deliverable":  "A Textual Montage.",
+                                                "rubric":  "Reads the space between unrelated texts."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Brian Eno - The Producer",
+                                                "theory":  "Definition: Scenius is collective genius. Procedural Link: The action is to sample and remix an existing work, altering its context to create new meaning.",
+                                                "specific_deliverable":  "A Remix Track.",
+                                                "rubric":  "Alters context of existing work."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Homi Bhabha - The Theorist",
+                                                "theory":  "Definition: Hybridity is the emergence of new cultural forms at the border. Procedural Link: The action is to identify the \u0027Third Space\u0027 created by the collision of two cultural practices.",
+                                                "specific_deliverable":  "A Hybrid Ritual.",
+                                                "rubric":  "Identifies the \u0027Third Space\u0027."
+                                            },
+                                            {
+                                                "domain":  "Creativity",
+                                                "rubric":  "Connects unrelated frames.",
+                                                "specific_deliverable":  "A Bisociation Matrix.",
+                                                "expert":  "Arthur Koestler",
+                                                "theory":  "Bisociation. Procedural Link: Force the intersection of two unrelated matrices of thought to generate novelty."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.30",
+                         "name":  "Enabling Constraints",
+                         "integrated_deliverable":  "A Constraint Card.",
+                         "scenario":  "A team paralyzed by infinite possibilities.",
+                         "theory_application":  "Introduce artificial boundaries that limit the solution space, forcing creativity and preventing paralysis.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Complexity Theory - The Modeler",
+                                                "theory":  "Definition: Enabling constraints govern the system without micromanaging it. Procedural Link: The action is to define the \u0027boundary conditions\u0027 (e.g., temperature range) but leave the interaction rules open.",
+                                                "specific_deliverable":  "A Boundary Condition Spec.",
+                                                "rubric":  "Defines boundaries, leaves interaction open."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Marissa Mayer - The Executive",
+                                                "theory":  "Definition: Creativity loves constraints. Procedural Link: The action is to artificially limit the resources (e.g., \u0027build this for $100\u0027) to force a non-linear solution.",
+                                                "specific_deliverable":  "A Resource Cap.",
+                                                "rubric":  "Limits resources to force innovation."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Oulipo - The Writers",
+                                                "theory":  "Definition: Potential Literature is created through formal constraints. Procedural Link: The action is to apply a formal rule (e.g., \u0027write without the letter E\u0027) to force the brain out of habitual language patterns.",
+                                                "specific_deliverable":  "A Lipogrammatic Draft.",
+                                                "rubric":  "Applies formal rule to break habit."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Lars von Trier - The Director",
+                                                "theory":  "Definition: The Dogme 95 manifesto imposes a \u0027Vow of Chastity\u0027. Procedural Link: The action is to strip away all technical crutches (lighting, filters) to force focus on the core story.",
+                                                "specific_deliverable":  "A Minimalist Production Plan.",
+                                                "rubric":  "Strips technical crutches."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Elinor Ostrom - The Economist",
+                                                "theory":  "Definition: Rules of the Commons. Procedural Link: The action is to define the \u0027access rules\u0027 that constrain individual greed to enable collective flourishing.",
+                                                "specific_deliverable":  "A Commons Access Rule.",
+                                                "rubric":  "Constrains greed for collective good."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T3.31",
+                         "name":  "Napkin Pitch",
+                         "integrated_deliverable":  "A Low-Fidelity Concept Card.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Dan Roam",
+                                                "domain":  "Design Thinking",
+                                                "theory":  "Visual thinking clarifies complexity. Procedural Link: Draw the \u0027Big Picture\u0027 of the solution using simple shapes and arrows.",
+                                                "specific_deliverable":  "A Visual Concept Sketch.",
+                                                "rubric":  "Explains core value visually."
+                                            }
+                                        ],
+                         "scenario":  "Explaining a startup idea in a bar.",
+                         "theory_application":  "Distill a complex concept into a simple visual and verbal explanation that fits on a napkin."
+                     },
+                     {
+                         "id":  "T3.DT.1",
+                         "name":  "Radiant Thinking",
+                         "integrated_deliverable":  "A Mind Map.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Tony Buzan - The Inventor",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: The brain works associatively, not linearly. Procedural Link: Use images and colors in a radial structure to trigger \u0027whole brain\u0027 thinking.",
+                                                "specific_deliverable":  "A Visual Mind Map.",
+                                                "rubric":  "Uses radial structure/images."
+                                            }
+                                        ],
+                         "scenario":  "Brainstorming uses for a new technology.",
+                         "theory_application":  "Mimic the brain\u0027s associative structure by generating ideas radially from a central node, rather than in linear lists."
+                     },
+                     {
+                         "id":  "T3.DT.2",
+                         "name":  "Integrative Thinking",
+                         "integrated_deliverable":  "A Hybrid Concept.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Tim Brown - The CEO",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Design thinking is the ability to exploit opposing ideas. Procedural Link: Identify the core tension and design a solution that resolves it (AND, not OR).",
+                                                "specific_deliverable":  "A Solution Matrix.",
+                                                "rubric":  "Resolves a binary tension."
+                                            }
+                                        ],
+                         "scenario":  "Resolving the tension between luxury and affordability.",
+                         "theory_application":  "Hold two opposing ideas in tension to create a new model that contains the superior aspects of both, rather than compromising."
+                     },
+                     {
+                         "id":  "T3.DT.3",
+                         "name":  "Associative Thinking",
+                         "integrated_deliverable":  "An Association Matrix.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Tony Buzan",
+                                                "domain":  "Neuroscience",
+                                                "theory":  "The brain works radially, not linearly.",
+                                                "specific_deliverable":  "Mind Map",
+                                                "rubric":  "Links unrelated concepts."
+                                            }
+                                        ],
+                         "scenario":  "Using a random word to solve a logistics problem.",
+                         "theory_application":  "Connect unconnected ideas using non-linear logic."
+                     },
+                     {
+                         "id":  "T3.DT.4",
+                         "name":  "Emotional Drivers",
+                         "integrated_deliverable":  "An Emotional Motivator Map.",
+                         "variations":  [
+                                            {
+                                                "expert":  "MeYouHealth Case",
+                                                "domain":  "Business",
+                                                "theory":  "Social connection drives health behavior.",
+                                                "specific_deliverable":  "Driver Analysis",
+                                                "rubric":  "Identifies emotion over function."
+                                            }
+                                        ],
+                         "scenario":  "Why do people actually buy health apps?",
+                         "theory_application":  "Identify the core feeling that motivates behavior."
+                     }
+                 ]
+}

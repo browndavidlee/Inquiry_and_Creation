@@ -1,0 +1,1447 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "toolId":  "tool2",
+    "toolName":  "Research and Plan",
+    "concepts":  [
+                     {
+                         "id":  "T2.1",
+                         "name":  "Blueprint",
+                         "integrated_deliverable":  "A Master Plan.",
+                         "scenario":  "Constructing a High-Speed Rail Station.",
+                         "theory_application":  "Create a comprehensive, authoritative document that translates the abstract vision of the rail station into precise, actionable specifications that eliminate ambiguity for all execution teams.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Physicist",
+                                                "theory":  "Definition: The blueprint must be precise, unambiguous, and complete. Procedural Link: The action is to ensure the blueprint is precise, unambiguous, and complete enough that a team of strangers could build the system exactly as intended.",
+                                                "specific_deliverable":  "A Technical Schematic detailing load-bearing tolerances and material stress limits for the platform foundation.",
+                                                "rubric":  "Blueprint is precise, unambiguous, and complete."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Scrum Master",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to ensure the blueprint (Technical Spec - N25) must act as the source of truth for the entire execution team, reducing ambiguity.",
+                                                "specific_deliverable":  "A Product Backlog acting as the single source of truth for the construction phases and deliverables.",
+                                                "rubric":  "Acts as source of truth reducing ambiguity."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Logician",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to ensure the blueprint (Outline) must dictate the linear flow of the written argument, ensuring logical progression.",
+                                                "specific_deliverable":  "A Logical Argument Outline for the funding proposal, ensuring the economic benefits justify the displacement costs.",
+                                                "rubric":  "Dictates linear flow for logical progression."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Architect",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to ensure the blueprint (Storyboard/Maquette) must be the authoritative final specification used to guide the fabrication or construction team.",
+                                                "specific_deliverable":  "A 3D Maquette serving as the visual authority for the station\u0027s aesthetic and spatial flow.",
+                                                "rubric":  "Acts as authoritative final specification."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Governor",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to ensure the blueprint must detail the governance structure and all decision-making flows, ensuring transparency.",
+                                                "specific_deliverable":  "A Governance Flowchart detailing decision rights for community displacement and noise mitigation.",
+                                                "rubric":  "Details governance structure and decision flows."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.2",
+                         "name":  "Constraints",
+                         "integrated_deliverable":  "A Project Boundary Document.",
+                         "scenario":  "Developing a Low-Cost Medical Device for rural areas.",
+                         "theory_application":  "Explicitly define the limitations, boundaries, and non-negotiable restrictions that will shape the development of the medical device to ensure it is viable in the target environment.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Experimenter",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to define non-negotiable limitations on the experiment (e.g., sample size, budget, time, control variables).",
+                                                "specific_deliverable":  "A Control Variable List defining non-negotiable limits on temperature sensitivity and power consumption.",
+                                                "rubric":  "Defines non-negotiable limitations (sample/budget)."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Planner",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to define the fixed resources and schedule (e.g., fixed budget, fixed time) against which the variable scope is planned.",
+                                                "specific_deliverable":  "A Resource Constraint Matrix fixing the budget at $50 per unit against variable feature scope.",
+                                                "rubric":  "Defines fixed resources/schedule vs variable scope."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Researcher",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to define the boundaries of the research (e.g., historical period, specific texts, theoretical lens chosen).",
+                                                "specific_deliverable":  "A Scope of Inquiry Statement limiting the demographic study to three specific rural districts.",
+                                                "rubric":  "Defines boundaries of research (period/texts)."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to define the specific formal limits set by the artist or client (e.g., medium, color palette, dimensions). (N12)",
+                                                "specific_deliverable":  "A Formal Constraint Spec limiting materials to locally sourced, recycled plastic.",
+                                                "rubric":  "Defines formal limits (medium/palette)."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Ethicist",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to define the ethical \u0027red lines\u0027 or core principles that the project must not violate.",
+                                                "specific_deliverable":  "An Ethical Red Line Document forbidding restrictive patents that would block local repair.",
+                                                "rubric":  "Defines ethical \u0027red lines\u0027 not to violate."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.3",
+                         "name":  "Consultation",
+                         "integrated_deliverable":  "An Expert Review Summary.",
+                         "scenario":  "Validating a new vaccine distribution plan.",
+                         "theory_application":  "Engage with domain experts and community leaders to subject the proposed distribution plan to rigorous scrutiny, identifying blind spots and validating assumptions before execution.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Scientist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to seek guidance from senior scientists, ethical review boards (IRB), or technical experts on a proposed plan.",
+                                                "specific_deliverable":  "A Peer Review Log documenting feedback from virologists regarding cold-chain stability.",
+                                                "rubric":  "Seeks guidance from senior experts/IRB."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Administrator",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to seek alignment and sign-off from key business stakeholders and technical leads (e.g., legal, finance).",
+                                                "specific_deliverable":  "A Stakeholder Sign-off Sheet confirming logistics alignment with finance and operations.",
+                                                "rubric":  "Seeks alignment/sign-off from stakeholders."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Scholar",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to engage with other scholars, archival experts, or the leaders of the studied community for guidance.",
+                                                "specific_deliverable":  "A Community Leader Interview regarding historical vaccine hesitancy in the region.",
+                                                "rubric":  "Engages scholars/leaders for guidance."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to seek feedback from a patron, artistic director, or material expert regarding the feasibility of a concept.",
+                                                "specific_deliverable":  "A Feasibility Report from the cold-chain logistics expert on the proposed transport containers.",
+                                                "rubric":  "Seeks feedback on feasibility."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Counselor",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to engage in formal dialogue with community leaders or elders to verify the plan\u0027s appropriateness.",
+                                                "specific_deliverable":  "A Council Dialogue Transcript verifying the cultural appropriateness of the distribution centers.",
+                                                "rubric":  "Engages in formal dialogue with elders."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.4",
+                         "name":  "Contextual Analysis",
+                         "integrated_deliverable":  "A Landscape Assessment.",
+                         "scenario":  "Entering the Electric Vehicle (EV) market.",
+                         "theory_application":  "Map the historical, economic, and cultural terrain of the EV market to understand the forces that will shape the success or failure of the new entry.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Physicist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to review the historical lineage of the research question and defining the current paradigm. (N08)",
+                                                "specific_deliverable":  "A Battery Tech Review analyzing the history of lithium-ion development and current limitations.",
+                                                "rubric":  "Reviews historical lineage/current paradigm."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Strategist",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to conduct market sizing, competitor analysis, and macroeconomic forecasting to situate the project.",
+                                                "specific_deliverable":  "A Market Sizing Report forecasting EV adoption rates based on competitor analysis.",
+                                                "rubric":  "Conducts market sizing/competitor analysis."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Historian",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action is to conduct Historiography or genealogical research to understand the scholarly debate and historical background of the topic.",
+                                                "specific_deliverable":  "A Historiography of Transport analyzing the dominance of car culture and its relation to urban power structures.",
+                                                "rubric":  "Conducts Historiography/genealogical research."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to research aesthetic trends, cultural movements, and technical precedents that inform the design brief.",
+                                                "specific_deliverable":  "A Design Trend Analysis reviewing automotive aesthetics from the 1950s to present.",
+                                                "rubric":  "Researches aesthetic trends/precedents."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Sociologist",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to conduct Relational Mapping (Whakapapa) to understand the project\u0027s historical and communal context.",
+                                                "specific_deliverable":  "A Relational Map of the energy grid, local communities, and environmental needs.",
+                                                "rubric":  "Conducts Relational Mapping (Whakapapa)."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.5",
+                         "name":  "Creative Brief",
+                         "integrated_deliverable":  "A Design Brief.",
+                         "scenario":  "Designing a logo for a mental health non-profit.",
+                         "theory_application":  "Synthesize the strategic goals, audience needs, and aesthetic constraints into a concise document that guides the creative team toward a unified vision.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Analyst",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to create a concise document defining the project\u0027s technical challenge, success metrics, and operational constraints.",
+                                                "specific_deliverable":  "A Technical Constraint Brief defining file formats, scalability requirements, and color reproduction limits.",
+                                                "rubric":  "Defines technical challenge/metrics."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to create a document created by the Product Manager/Client that sets the goals, target audience, and constraints for the design team.",
+                                                "specific_deliverable":  "A Target Audience Profile defining the donor and beneficiary demographics.",
+                                                "rubric":  "Sets goals, audience, and constraints."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Writer",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to create a set of guiding questions and key themes used to define the boundaries for an interpretive essay.",
+                                                "specific_deliverable":  "A Thematic Guide listing key themes (hope, resilience, community) to be visually represented.",
+                                                "rubric":  "Creates guiding questions/themes."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Artist",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to create the foundational document that formally states the creative goals, tone, and audience for the work.",
+                                                "specific_deliverable":  "A Creative Vision Statement defining the tone as \u0027calm strength\u0027 and the visual style as \u0027organic minimalism.\u0027",
+                                                "rubric":  "States creative goals, tone, and audience."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Ethicist",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to create a document stating the project\u0027s ethical principles and relational intent for the community.",
+                                                "specific_deliverable":  "An Ethical Intent Document ensuring non-stigmatizing imagery and inclusive representation.",
+                                                "rubric":  "States ethical principles/relational intent."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.6",
+                         "name":  "Definition of Done",
+                         "integrated_deliverable":  "A Quality Assurance Checklist.",
+                         "scenario":  "Releasing a software update for a pacemaker.",
+                         "theory_application":  "Establish a rigorous, shared checklist of criteria that the product must meet to be considered complete, ensuring safety, functionality, and compliance before release.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Engineer",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to create a checklist of criteria that must be met for the experimental conclusion to be considered scientifically valid (e.g., p-value achieved, confounding variables accounted for). (N09)",
+                                                "specific_deliverable":  "A Validation Checklist confirming 99.999% reliability in simulated stress tests.",
+                                                "rubric":  "Includes criteria for scientific validity."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Scrum Master",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to create a formal, shared checklist of quality criteria that a product increment must meet to be considered releasable (e.g., code reviewed, all tests pass, PO approved). (N09, Ref: Sutherland, 2014)",
+                                                "specific_deliverable":  "A Release Checklist confirming code review, unit tests passed, and regulatory sign-off.",
+                                                "rubric":  "Checklist for releasable increment."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Editor",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to create a clear statement of the required components of a paper (e.g., minimum word count, all sources cited, counterarguments addressed).",
+                                                "specific_deliverable":  "A Documentation Checklist ensuring all known risks are cited and counterarguments addressed in the manual.",
+                                                "rubric":  "Statement of required components."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to create a checklist of final required qualities (e.g., perfect structural balance, specific color palette achieved, technical resolution met).",
+                                                "specific_deliverable":  "A UI Polish Checklist ensuring visual clarity and contrast for senior users.",
+                                                "rubric":  "Checklist of final required qualities."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Auditor",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to create a list of ethical obligations that must be fulfilled before the work is considered complete (e.g., data anonymized, community leaders sign off).",
+                                                "specific_deliverable":  "An Ethical Compliance List confirming patient consent data is anonymized and secure.",
+                                                "rubric":  "List of ethical obligations to fulfill."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.7",
+                         "name":  "Deliberation",
+                         "integrated_deliverable":  "A Decision Matrix.",
+                         "scenario":  "Choosing between two cancer treatment protocols.",
+                         "theory_application":  "Engage in a slow, multi-faceted weighing of evidence, risks, and values to select the optimal course of action among competing alternatives.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Scientist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to engage in the considered argument among experts on the merits and flaws of a proposed experimental plan (e.g., a formal design review).",
+                                                "specific_deliverable":  "A Clinical Efficacy Review weighing the survival rates and side effects of both protocols.",
+                                                "rubric":  "Argues merits/flaws of experimental plan."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Administrator",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to engage in the weighing of risks and benefits of potential investment decisions against financial models and market analysis.",
+                                                "specific_deliverable":  "A Cost-Effectiveness Analysis comparing the financial burden of the two treatments on the hospital.",
+                                                "rubric":  "Weighs risks/benefits against models."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Ethicist",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to engage in the slow, thorough analysis of existing scholarly theories to decide on the single most effective interpretive stance.",
+                                                "specific_deliverable":  "A Quality of Life Assessment comparing patient outcomes beyond mere survival.",
+                                                "rubric":  "Analyzes theories to decide stance."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to engage in the careful consideration of various formal constraints and aesthetic references before committing to a creative direction.",
+                                                "specific_deliverable":  "A Patient Experience Map comparing the emotional journey of the treatment options.",
+                                                "rubric":  "Considers constraints before committing."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Counselor",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to engage in the thoughtful, non-reactive consideration of multiple moral principles before acting.",
+                                                "specific_deliverable":  "A Bioethics Committee Report weighing patient autonomy against beneficence.",
+                                                "rubric":  "Considers multiple moral principles."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.8",
+                         "name":  "Effortless Action",
+                         "integrated_deliverable":  "A Process Optimization Plan.",
+                         "scenario":  "Streamlining a hospital emergency room.",
+                         "theory_application":  "Design the system and workflow to align with natural forces and capacities, allowing complex operations to proceed with minimal friction and resistance (Strategic Alignment).",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Engineer",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to aim for the aspirational state where the methodology is so refined and the understanding so deep that execution appears fluid and natural (Strategic Alignment).",
+                                                "specific_deliverable":  "A Triage Protocol that simplifies decision-making logic to reduce cognitive load on nurses.",
+                                                "rubric":  "Aims for natural/fluid execution."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to design a process flow (Kanban) that aligns with the system\u0027s natural capacity to enable sustained, low-friction effort.",
+                                                "specific_deliverable":  "A Patient Flow Kanban matching intake rates to staff capacity to prevent bottlenecks.",
+                                                "rubric":  "Designs flow aligning with capacity."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Communicator",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to aim for the pursuit of prose or argumentation so clear and natural that the argument flows without distracting the reader.",
+                                                "specific_deliverable":  "A Communication Script for nurses to explain wait times clearly, reducing patient friction.",
+                                                "rubric":  "Aims for flow without distraction."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Architect",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to aim for the mastery of craft so complete that the final creation appears natural and spontaneous.",
+                                                "specific_deliverable":  "A Spatial Layout Plan that guides patient movement intuitively without need for signage.",
+                                                "rubric":  "Aims for spontaneous/natural creation."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "New-Ivanhoe - The Taoist",
+                                                "theory":  "Definition: Strategic Alignment is the principle of effortless action in harmony with the natural flow. Procedural Link: The action is to engage in the strategic alignment of a project with the existing forces and momentum of a system (Strategic Alignment). (Ref: New-Ivanhoe, 2005)",
+                                                "specific_deliverable":  "A Cultural Alignment Strategy working *with* existing staff habits rather than imposing new rules.",
+                                                "rubric":  "Aligns with existing forces (Strategic Alignment)."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.9",
+                         "name":  "Framework",
+                         "integrated_deliverable":  "A Methodology Handbook.",
+                         "scenario":  "Establishing a new research institute.",
+                         "theory_application":  "Establish the foundational structures, theoretical models, and rules of engagement that will govern all subsequent inquiry and action within the project.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Director",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to create a clear methodology, theoretical model, or conceptual structure that guides the gathering and analysis of data.",
+                                                "specific_deliverable":  "A Research Methodology Guide defining the standard experimental designs and statistical models.",
+                                                "rubric":  "Creates methodology guiding analysis."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Ops Lead",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to create the overall organizing structure for the project (e.g., Scrum, Kanban, Waterfall).",
+                                                "specific_deliverable":  "An Agile Operations Manual defining the sprint cycle, roles, and ceremonies.",
+                                                "rubric":  "Creates organizing structure (Scrum)."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Theorist",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action is to create the foundational critical theory (e.g., post-structuralism, post-colonialism) that guides the analysis.",
+                                                "specific_deliverable":  "A Theoretical Framework Doc defining the critical lens (e.g., post-colonialism) for all studies.",
+                                                "rubric":  "Creates foundational critical theory."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to create the set of formal rules or reusable components (Design System) that govern the creation of the work.",
+                                                "specific_deliverable":  "A Design System Guide defining the visual language for all institute publications.",
+                                                "rubric":  "Creates formal rules/components."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Governor",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to create the set of governance rules or core values that constrain decision-making.",
+                                                "specific_deliverable":  "A Code of Ethics constraining research decisions and funding sources.",
+                                                "rubric":  "Creates governance rules/values."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.10",
+                         "name":  "Instruction",
+                         "integrated_deliverable":  "A Standard Operating Procedure (SOP).",
+                         "scenario":  "Training new lab technicians.",
+                         "theory_application":  "Translate complex knowledge into explicit, step-by-step directives that ensure consistency, safety, and quality in execution.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Teacher",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to create the formalized, precise steps of the experimental protocol (N21).",
+                                                "specific_deliverable":  "A Lab Protocol Manual detailing step-by-step procedures for sample handling.",
+                                                "rubric":  "Creates precise steps of protocol."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Trainer",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to create clear, unambiguous user stories and acceptance criteria for the execution team.",
+                                                "specific_deliverable":  "A Task Definition Guide for logging work in the project management system.",
+                                                "rubric":  "Creates unambiguous user stories."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Writer",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to create a detailed outline or argument map that dictates the order and content of each section of the paper.",
+                                                "specific_deliverable":  "A Report Writing Template ensuring logical flow from data to conclusion.",
+                                                "rubric":  "Creates outline dictating order/content."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Craftsman",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to create the score, script, or technical specification that dictates the performance or fabrication steps.",
+                                                "specific_deliverable":  "A Fabrication Spec Sheet for equipment maintenance and calibration.",
+                                                "rubric":  "Creates score/script/spec."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Compliance Officer",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to create a clear statement of the project\u0027s governing ethical principles to guide behavior.",
+                                                "specific_deliverable":  "A Safety \u0026 Ethics Handbook guiding behavior in the lab.",
+                                                "rubric":  "Creates statement of ethical principles."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.11",
+                         "name":  "Leverage Points",
+                         "integrated_deliverable":  "A Strategy Deck.",
+                         "scenario":  "Turning around a failing school district.",
+                         "theory_application":  "Identify the specific nodes within the complex system where a small shift in resources, information, or rules will produce the largest positive transformation.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Analyst",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to identify where the deepest scientific insight or the greatest technological leap can be achieved with minimal experimental effort.",
+                                                "specific_deliverable":  "A Data Insight Report identifying 3rd-grade reading level as the key predictive metric.",
+                                                "rubric":  "Identifies max insight from min effort."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Donella Meadows - The Systems Thinker",
+                                                "theory":  "Definition: Meadows focuses on identifying leverage points—places in the system where a small shift can produce large changes. Procedural Link: The action is to identify areas within a system where a small strategic change can produce a large positive business outcome. (Ref: Meadows, 2008)",
+                                                "specific_deliverable":  "A Leverage Point Map identifying \u0027teacher autonomy\u0027 as the lever for student performance.",
+                                                "rubric":  "Identifies small change/large outcome."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Historian",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action is to identify the most potent point of historical or theoretical contradiction to launch a novel argument.",
+                                                "specific_deliverable":  "A Historical Analysis of funding inequities as the root contradiction.",
+                                                "rubric":  "Identifies historical/theoretical contradiction."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to identify the one aesthetic element (e.g., color, tension, balance) that holds the power to shape the entire composition.",
+                                                "specific_deliverable":  "A School Environment Plan focusing on natural light as the key aesthetic lever.",
+                                                "rubric":  "Identifies aesthetic element holding power."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Community Leader",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to identify the most influential node or flow within a social system to implement a change.",
+                                                "specific_deliverable":  "A Community Node Map identifying key parent leaders to drive the change.",
+                                                "rubric":  "Identifies influential node/flow."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.12",
+                         "name":  "Literature Review",
+                         "integrated_deliverable":  "A State of the Art Review.",
+                         "scenario":  "Researching a new renewable energy source.",
+                         "theory_application":  "Systematically survey and synthesize existing knowledge, precedents, and competitive efforts to identify the specific gap that the new project will fill.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Researcher",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to create a comprehensive synthesis of prior research used to identify the knowledge gap and justify the current inquiry. (N08)",
+                                                "specific_deliverable":  "A Scientific Gap Analysis of current solar efficiency limits.",
+                                                "rubric":  "Synthesizes research to identify gap."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Analyst",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to conduct a competitive market analysis and review of industry best practices.",
+                                                "specific_deliverable":  "A Competitor Landscape Report of energy startups.",
+                                                "rubric":  "Conducts competitive/best practice review."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Historian",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action is to conduct Historiography or a survey of the intellectual conversation that situates the proposed argument.",
+                                                "specific_deliverable":  "A History of Energy Policy review.",
+                                                "rubric":  "Conducts Historiography/situates argument."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to review precedents, historical art movements, and current trends to inform the creative brief.",
+                                                "specific_deliverable":  "A Design Precedent Study of solar architecture.",
+                                                "rubric":  "Reviews precedents/movements/trends."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Anthropologist",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to gather and synthesize traditional knowledge, stories, and community data.",
+                                                "specific_deliverable":  "A Traditional Knowledge Survey of local energy practices.",
+                                                "rubric":  "Gathers traditional knowledge/stories."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.13",
+                         "name":  "Map",
+                         "integrated_deliverable":  "A Visual Representation of the Territory.",
+                         "scenario":  "Mapping a supply chain for a fair-trade chocolate company.",
+                         "theory_application":  "Create a visual representation of the territory—whether physical, conceptual, or relational—to reveal connections, flows, and gaps that are invisible in text.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Cartographer",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to create a diagram or visual representation of the research problem, the experimental setup, or the intellectual territory.",
+                                                "specific_deliverable":  "A Process Flow Diagram of the cocoa fermentation process.",
+                                                "rubric":  "Creates diagram of problem/setup."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Planner",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to create a roadmap of phased project delivery, a business model canvas, or a high-level system diagram.",
+                                                "specific_deliverable":  "A Value Stream Map identifying waste in logistics.",
+                                                "rubric":  "Creates roadmap/business model canvas."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Theorist",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to create a concept map (N10) of scholarly theories or a timeline of historical events.",
+                                                "specific_deliverable":  "A Power/Knowledge Map of the cocoa trade history.",
+                                                "rubric":  "Creates concept map/timeline."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Architect",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to create a moodboard (N05) or a physical maquette that visually guides the creative direction.",
+                                                "specific_deliverable":  "A Site Plan for the new processing facility.",
+                                                "rubric":  "Creates moodboard/maquette."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Geographer",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to create a relational map showing actors, resources, and flows of influence within the community.",
+                                                "specific_deliverable":  "A Community Asset Map of the farming cooperative.",
+                                                "rubric":  "Creates relational map of actors."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.14",
+                         "name":  "Modeling",
+                         "integrated_deliverable":  "A Predictive or Explanatory Model.",
+                         "scenario":  "Predicting the spread of a wildfire near a town.",
+                         "theory_application":  "Construct a simplified abstraction of a complex reality to simulate behavior, predict outcomes, and test scenarios before they happen in the real world.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Physicist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to create a mathematical, computational, or theoretical abstraction of a phenomenon to enable prediction.",
+                                                "specific_deliverable":  "A Mathematical Model of wind and combustion rates.",
+                                                "rubric":  "Creates abstraction enabling prediction."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Analyst",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to create a financial forecast, a user flow simulation, or a system architecture diagram.",
+                                                "specific_deliverable":  "A Monte Carlo Simulation of evacuation times.",
+                                                "rubric":  "Builds forecast/simulation."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Sociologist",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to construct a theoretical framework or narrative model to explain a social phenomenon.",
+                                                "specific_deliverable":  "A Conceptual Framework of community panic response.",
+                                                "rubric":  "Constructs theoretical framework."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Modeler",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to create a physical model (maquette) or a digital wireframe to test a concept at scale.",
+                                                "specific_deliverable":  "A 3D Topography Model showing fire barriers.",
+                                                "rubric":  "Creates physical model/wireframe."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Systems Thinker",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to create a scenario plan to simulate the long-term ethical consequences of an action (N115).",
+                                                "specific_deliverable":  "A Dynamic Systems Model of forest management policies.",
+                                                "rubric":  "Creates scenario plan/simulation."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.15",
+                         "name":  "Orientation",
+                         "integrated_deliverable":  "A Strategic Direction Document.",
+                         "scenario":  "Onboarding a new CEO to a legacy company.",
+                         "theory_application":  "Establish the current position relative to the goal, defining the trajectory and the guiding principles that will steer the journey.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Scientist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to survey the existing knowledge to establish the originality and significance of the new research question.",
+                                                "specific_deliverable":  "A State of Knowledge Brief on the company\u0027s IP.",
+                                                "rubric":  "Surveys knowledge for significance."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Leader",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to define the overall direction and strategic goals for the upcoming project cycle.",
+                                                "specific_deliverable":  "A Strategic Vision Deck outlining the \u0027North Star.\u0027",
+                                                "rubric":  "Defines overall direction/goals."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Rhetorician",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to situate one\u0027s argument within the existing scholarly discourse (e.g., establishing the \u0027They Say\u0027 before offering the \u0027I Say\u0027). (Ref: Graff, 2010)",
+                                                "specific_deliverable":  "A Positionality Statement defining the CEO\u0027s stance.",
+                                                "rubric":  "Situates argument in discourse."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Director",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to define the artistic intent and the specific set of constraints for the coming creation.",
+                                                "specific_deliverable":  "An Artistic Direction Memo for the brand refresh.",
+                                                "rubric":  "Defines artistic intent/constraints."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Guide",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to engage in the act of consciously aligning the project\u0027s purpose with the needs of its larger relational context.",
+                                                "specific_deliverable":  "A Cultural Context Guide for the new leadership.",
+                                                "rubric":  "Aligns purpose with relational context."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.16",
+                         "name":  "Patterning",
+                         "integrated_deliverable":  "A Pattern Recognition Report.",
+                         "scenario":  "Analyzing crime data in a metropolis.",
+                         "theory_application":  "Identify recurring structures, behaviors, or sequences within complex data to predict future occurrences and inform design solutions.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Analyst",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The process successfully identifies regularities in scientific data, social trends, or technological behavior to inform predictive models.",
+                                                "specific_deliverable":  "A Statistical Pattern Report identifying crime hotspots.",
+                                                "rubric":  "Identifies regularities in data."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Optimizer",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The process successfully recognizes repeatable patterns in user behavior, market cycles, or business models.",
+                                                "specific_deliverable":  "A Team Velocity Chart showing seasonal crime trends.",
+                                                "rubric":  "Recognizes repeatable patterns."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Historian",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The process successfully recognizes recurring narrative structures, thematic tensions, or historical cycles across multiple texts or events.",
+                                                "specific_deliverable":  "A Narrative Pattern Analysis of police reports.",
+                                                "rubric":  "Recognizes recurring structures."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Architect",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The process successfully abstracts reusable design principles or patterns from existing artwork or prototypes.",
+                                                "specific_deliverable":  "An Architectural Pattern Catalog of safe street designs.",
+                                                "rubric":  "Abstracts reusable design principles."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Sociologist",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The process successfully identifies recurring cultural patterns, rituals, or governance principles within a tradition.",
+                                                "specific_deliverable":  "A Systems Archetype Map of poverty and crime loops.",
+                                                "rubric":  "Identifies recurring cultural patterns."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.17",
+                         "name":  "Prospective Hindsight",
+                         "integrated_deliverable":  "A Pre-Mortem Analysis.",
+                         "scenario":  "Launching a high-risk rocket.",
+                         "theory_application":  "Mentally project into the future, assume the project has failed, and work backward to identify the specific causes, allowing for proactive mitigation.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Gary Klein - The Safety Officer",
+                                                "theory":  "Definition: The Pre-Mortem is a technique where the team assumes the project has failed and works backward to list the causes. Procedural Link: The action is to run a Pre-Mortem (N11) to rigorously challenge the plan by assuming failure has already occurred, forcing the team to confront hidden risks before committing resources.",
+                                                "specific_deliverable":  "A Failure Mode Analysis listing 3 fatal flaws.",
+                                                "rubric":  "Identifies 3+ causal factors of failure."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Gary Klein - The Risk Manager",
+                                                "theory":  "Definition: The Pre-Mortem is a technique where the team assumes the project has failed and works backward to list the causes. Procedural Link: The action is to diagnose the problem by identifying the \u0027riskiest assumption\u0027 that, if proven false, would invalidate the entire business model.",
+                                                "specific_deliverable":  "A Risk Mitigation Plan for the \u0027O-ring failure\u0027 scenario.",
+                                                "rubric":  "Identifies single riskiest assumption."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Critic",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The Pre-Mortem successfully identifies a hidden bias or flaw in the theoretical lens that would lead to a flawed conclusion.",
+                                                "specific_deliverable":  "A Future History Essay written from the post-disaster view.",
+                                                "rubric":  "Identifies hidden bias/flaw in lens."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Simulator",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The Pre-Mortem successfully simulates the end result of a creative choice to determine if the resulting emotion aligns with the original intent.",
+                                                "specific_deliverable":  "A Design Flaw Projection of the cockpit interface.",
+                                                "rubric":  "Simulates result to check alignment."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Elder",
+                                                "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The Pre-Mortem successfully simulates the long-term impacts of the decision to identify future harms.",
+                                                "specific_deliverable":  "An Intergenerational Impact Assessment of space debris.",
+                                                "rubric":  "Simulates long-term impacts."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.18",
+                         "name":  "Purpose",
+                         "integrated_deliverable":  "A Mission Statement / Charter.",
+                         "scenario":  "Defining the mission of a new NGO.",
+                         "theory_application":  "Define the fundamental reason for the project\u0027s existence, aligning all activities toward a singular, high-level goal or value.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Scientist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The principle successfully defines the fundamental organizing mission of the research (e.g., curing a disease, building a more efficient engine).",
+                                                "specific_deliverable":  "A Research Objective Statement for disease eradication.",
+                                                "rubric":  "Defines fundamental organizing mission."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Founder",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The principle successfully defines the ultimate mission of the business (e.g., market leadership, delivering X value to the customer).",
+                                                "specific_deliverable":  "A Mission Statement defining the value to beneficiaries.",
+                                                "rubric":  "Defines ultimate business mission."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Philosopher",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The principle successfully defines the core interpretive goal of the paper (e.g., to reveal X, to challenge Y).",
+                                                "specific_deliverable":  "A Core Justification for the NGO\u0027s existence.",
+                                                "rubric":  "Defines core interpretive goal."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Visionary",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The principle successfully defines the artist’s core creative vision or emotional goal.",
+                                                "specific_deliverable":  "An Artistic Intent Manifesto for the NGO\u0027s branding.",
+                                                "rubric":  "Defines core creative vision."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Servant",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The principle successfully defines the guiding communal ethos (e.g., service, well-being, trust).",
+                                                "specific_deliverable":  "A Service Charter defining the ethos of \u0027care.\u0027",
+                                                "rubric":  "Defines guiding communal ethos."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.19",
+                         "name":  "Reciprocity",
+                         "integrated_deliverable":  "A Benefit Sharing Agreement.",
+                         "scenario":  "Conducting medical research in an indigenous community.",
+                         "theory_application":  "Establish a mutual exchange of value where the project gives back to the stakeholders or environment in proportion to what it takes.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Ethicist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The principle successfully defines the ethical commitment to share data or provide direct value to human subjects participating in the research.",
+                                                "specific_deliverable":  "A Benefit Sharing Agreement for genetic data.",
+                                                "rubric":  "Defines commitment to share data."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Partner",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The principle successfully defines the commitment to deliver genuine value to customers in exchange for their time, data, or money.",
+                                                "specific_deliverable":  "A Customer Value Proposition for the participants.",
+                                                "rubric":  "Defines commitment to deliver value."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Ally",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The principle successfully defines the commitment to give back knowledge, resources, or empowerment to the communities involved in fieldwork.",
+                                                "specific_deliverable":  "A Data Sovereignty Contract ensuring local ownership.",
+                                                "rubric":  "Defines commitment to give back."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Collaborator",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The principle successfully defines the commitment to acknowledge the debt to one\u0027s sources, collaborators, and cultural lineage.",
+                                                "specific_deliverable":  "A Maker\u0027s Exchange Log documenting skills shared.",
+                                                "rubric":  "Acknowledges debt to sources."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Neighbor",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The principle successfully defines the two-way commitment to give back to the community or environment in return for what the project has taken.",
+                                                "specific_deliverable":  "A Gift Economy Protocol for returning value.",
+                                                "rubric":  "Defines commitment to give back."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.20",
+                         "name":  "Research",
+                         "integrated_deliverable":  "A Data Collection Log.",
+                         "scenario":  "Investigating a historical cold case.",
+                         "theory_application":  "Systematically gather, verify, and organize information from primary and secondary sources to build a foundation of evidence.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Investigator",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action successfully engages in the systematic collection and synthesis of background knowledge. (N08)",
+                                                "specific_deliverable":  "An Empirical Evidence Log of forensic findings.",
+                                                "rubric":  "Engages in systematic collection."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Analyst",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action successfully gathers market, user, and competitive intelligence.",
+                                                "specific_deliverable":  "A Market Intelligence Report on similar cases.",
+                                                "rubric":  "Gathers market/user intelligence."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Archivist",
+                                                "theory":  "Definition: Genealogy traces the history of a concept to reveal its relationship to power and knowledge. Procedural Link: The action successfully conducts literature reviews, archival dives, or fieldwork.",
+                                                "specific_deliverable":  "An Archival Dossier of police records.",
+                                                "rubric":  "Conducts reviews/archival dives."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Curator",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action successfully collects reference images, historical data, and material specifications.",
+                                                "specific_deliverable":  "A Visual Reference Library of the crime scene.",
+                                                "rubric":  "Collects reference images/data."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Interviewer",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action successfully gathers and synthesizes traditional knowledge, stories, and community data.",
+                                                "specific_deliverable":  "An Oral History Archive of witness testimony.",
+                                                "rubric":  "Gathers traditional knowledge/stories."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.21",
+                         "name":  "Roadmap",
+                         "integrated_deliverable":  "A Strategic Timeline.",
+                         "scenario":  "Planning a 5-year city infrastructure upgrade.",
+                         "theory_application":  "Create a chronological plan that sequences milestones, dependencies, and resource allocation to guide the project from inception to completion.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Planner",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The roadmap successfully creates a long-term strategic plan that sequences research milestones and technical development stages.",
+                                                "specific_deliverable":  "An Experimental Timeline for stress testing.",
+                                                "rubric":  "Creates strategic plan sequencing research."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Product Owner",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The roadmap successfully creates a phased plan (Now, Next, Later) that links short-term features to long-term strategic objectives.",
+                                                "specific_deliverable":  "A Product Roadmap for the digital twin rollout.",
+                                                "rubric":  "Creates phased plan linking features."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Strategist",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The roadmap successfully creates a multi-year plan for sequential research phases (e.g., Archival Phase, Drafting Phase, Revision Phase).",
+                                                "specific_deliverable":  "A Research Phase Plan for impact studies.",
+                                                "rubric":  "Creates multi-year plan for phases."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Master Builder",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The roadmap successfully creates a high-level visual plan for an art series or large commission.",
+                                                "specific_deliverable":  "A Phased Construction Plan for the bridge.",
+                                                "rubric":  "Creates high-level visual plan."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Steward",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The roadmap successfully creates a multi-generational plan for social or environmental stewardship.",
+                                                "specific_deliverable":  "A Transition Pathway for community adoption.",
+                                                "rubric":  "Creates multi-generational plan."
+                                            },
+                                            {
+                                                "domain":  "Agile",
+                                                "rubric":  "Details near term, outlines long term.",
+                                                "specific_deliverable":  "A Rolling Wave Plan.",
+                                                "expert":  "PMI-ACP",
+                                                "theory":  "Progressive Elaboration. Procedural Link: Plan in waves; detail the near term, leave the long term high-level."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.22",
+                         "name":  "Scaffolding",
+                         "integrated_deliverable":  "A Learning Support Kit.",
+                         "scenario":  "Teaching quantum physics to high schoolers.",
+                         "theory_application":  "Provide temporary structures, tools, and guidance that allow learners or teams to perform tasks beyond their current capability, gradually removing them as competence grows.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Lev Vygotsky - The Educator",
+                                                "theory":  "Definition: Scaffolding provides supporting structures to reduce cognitive load. Procedural Link: The principle successfully provides supporting structures (e.g., calculation templates) to reduce the cognitive load of a new or complex planning process.",
+                                                "specific_deliverable":  "A Concept Ladder breaking down wave functions.",
+                                                "rubric":  "Provides structures reducing load."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Lev Vygotsky - The Trainer",
+                                                "theory":  "Definition: Scaffolding helps a novice perform a complex task. Procedural Link: The principle successfully provides tools (e.g., Burndown charts, planning poker) that help a team perform complex coordination tasks.",
+                                                "specific_deliverable":  "An Onboarding Checklist for new lab assistants.",
+                                                "rubric":  "Provides tools for coordination."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Lev Vygotsky - The Mentor",
+                                                "theory":  "Definition: Scaffolding aids in organizing complex reasoning. Procedural Link: The principle successfully provides structural aids (Argument Map, Reverse Outline) to help a writer organize a complex line of reasoning.",
+                                                "specific_deliverable":  "A Writing Template for lab reports.",
+                                                "rubric":  "Provides aids organizing reasoning."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Lev Vygotsky - The Coach",
+                                                "theory":  "Definition: Scaffolding builds skill and confidence. Procedural Link: The principle successfully uses simple materials or a highly constrained brief to build the artist\u0027s skills and confidence before engaging in a large project.",
+                                                "specific_deliverable":  "A Skill-Building Exercise for visualization.",
+                                                "rubric":  "Use constraints to build skill."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Lev Vygotsky - The Guide",
+                                                "theory":  "Definition: Scaffolding simplifies complex social decisions. Procedural Link: The principle successfully provides an explicit framework or ritual to simplify a complex ethical decision.",
+                                                "specific_deliverable":  "A Ritual Guide for classroom dialogue.",
+                                                "rubric":  "Provides framework simplifying decisions."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.23",
+                         "name":  "Scope",
+                         "integrated_deliverable":  "A Scope Definition Document.",
+                         "scenario":  "Building a MVP mobile app.",
+                         "theory_application":  "Explicitly define the boundaries of the project, specifying what is included and, crucially, what is excluded to manage resources and expectations.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Experimenter",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The boundary successfully defines the variables, parameters, and experimental space to be included in the research.",
+                                                "specific_deliverable":  "A Variable Control List for the beta test.",
+                                                "rubric":  "Defines variables/parameters included."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Product Owner",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The boundary successfully defines the limits of the features, resources, and time allocated for a project or sprint.",
+                                                "specific_deliverable":  "An In/Out Scope List for the first release.",
+                                                "rubric":  "Defines limits of features/resources."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Researcher",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The boundary successfully defines the intellectual limits of the argument (e.g., \u0027This paper will only address texts produced before 1950\u0027).",
+                                                "specific_deliverable":  "A Delimitation Statement excluding tablet support.",
+                                                "rubric":  "Defines intellectual limits."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Designer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The boundary successfully defines the limits of the project in terms of medium, budget, or conceptual space.",
+                                                "specific_deliverable":  "A Material Limit Spec for the UI assets.",
+                                                "rubric":  "Defines limits of medium/budget."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Governor",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The boundary successfully defines the explicit definition of the stakeholder community and ecosystem to which the project is responsible.",
+                                                "specific_deliverable":  "A Community Boundary Map defining the user base.",
+                                                "rubric":  "Defines stakeholder community."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.24",
+                         "name":  "Sprint Goal",
+                         "integrated_deliverable":  "A Sprint Goal Statement.",
+                         "scenario":  "A 2-week coding sprint.",
+                         "theory_application":  "Define a single, concise, and measurable objective for a short iteration of work that aligns the team and provides a clear definition of success.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Lead",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The goal successfully creates a single, measurable, time-boxed objective for an iterative research cycle (e.g., \u0027Generate 100 new data points on Variable X\u0027).",
+                                                "specific_deliverable":  "An Experiment Goal: \u0027Validate login API.\u0027",
+                                                "rubric":  "Create measurable, time-boxed objective."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Scrum Master",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The goal successfully creates a single, shared, short-term objective that guides the work of a Scrum team for a 2-4 week cycle.",
+                                                "specific_deliverable":  "A Sprint Goal Statement: \u0027User can log in.\u0027",
+                                                "rubric":  "Create shared, short-term objective."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Writer",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The goal successfully creates a time-boxed objective for a specific segment of the research (e.g., \u0027Draft the Introduction and Literature Review by Friday\u0027).",
+                                                "specific_deliverable":  "A Chapter Draft Goal: \u0027Finish Intro.\u0027",
+                                                "rubric":  "Create time-boxed goal for segment."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Artist",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The goal successfully creates a focused, short-term objective for a creative iteration (e.g., \u0027Develop three unique color palettes and select one\u0027).",
+                                                "specific_deliverable":  "A Sketch Completion Goal: \u00273 UI concepts.\u0027",
+                                                "rubric":  "Create focused, short-term objective."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Facilitator",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The goal successfully creates a clear objective for a focused community engagement activity (e.g., \u0027Gain consensus from the council on the core ethical principle for the data\u0027).",
+                                                "specific_deliverable":  "An Engagement Target: \u0027Interview 5 users.\u0027",
+                                                "rubric":  "Create clear objective for engagement."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.25",
+                         "name":  "Strategy",
+                         "integrated_deliverable":  "A Strategic Plan.",
+                         "scenario":  "Winning a chess tournament.",
+                         "theory_application":  "Formulate a high-level plan of action designed to achieve a long-term or overall aim under conditions of uncertainty.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Analyst",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The concept successfully creates the high-level plan for sequencing experiments and deploying resources to solve the overall research problem.",
+                                                "specific_deliverable":  "A Game Theory Model of opponent moves.",
+                                                "rubric":  "Plan sequencing experiments/resources."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Michael Porter - The Strategist",
+                                                "theory":  "Definition: Porter\u0027s Five Forces analyzes the competitive structure of an industry. Procedural Link: The concept successfully creates the coherent set of principles that guides major decisions (e.g., competitive strategy, product strategy).",
+                                                "specific_deliverable":  "A Competitive Advantage Deck analyzing openings.",
+                                                "rubric":  "Define principles guiding decisions."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Tactician",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The concept successfully creates the overall intellectual approach (e.g., interdisciplinary, comparative) used to build the argument.",
+                                                "specific_deliverable":  "An Argumentative Strategy for the match.",
+                                                "rubric":  "Define intellectual approach."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Grandmaster",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The concept successfully creates the artistic vision and overall plan for the series or aesthetic movement.",
+                                                "specific_deliverable":  "An Aesthetic Strategy for board control.",
+                                                "rubric":  "Define artistic vision and plan."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Coach",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The concept successfully creates the plan for maximizing long-term well-being while navigating complex social and environmental forces.",
+                                                "specific_deliverable":  "A System Intervention Strategy for mental stamina.",
+                                                "rubric":  "Plan maximizing well-being."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.26",
+                         "name":  "Study",
+                         "integrated_deliverable":  "A Study Log.",
+                         "scenario":  "Learning a new language.",
+                         "theory_application":  "Engage in the disciplined, systematic acquisition of knowledge through reading, observation, and practice.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Student",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action successfully engages in the intellectual work of analyzing and understanding a subject or discipline.",
+                                                "specific_deliverable":  "An Immersion Log of daily practice.",
+                                                "rubric":  "Analyze and understand subject."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Analyst",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action successfully conducts competitive analysis, user interviews, or market research.",
+                                                "specific_deliverable":  "A Competitor Study of language apps.",
+                                                "rubric":  "Conduct competitive analysis."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Scholar",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action successfully engages in reading, thinking, and critical analysis of primary and secondary sources.",
+                                                "specific_deliverable":  "An Annotated Bibliography of grammar texts.",
+                                                "rubric":  "Read, think, and analyze sources."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Observer",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action successfully engages in the preparatory work of absorbing and analyzing source material and technical manuals.",
+                                                "specific_deliverable":  "A Sketch Study of cultural gestures.",
+                                                "rubric":  "Absorb and analyze source material."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Speaker",
+                                                "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action successfully engages in the disciplined work of self-inquiry or learning traditional knowledge.",
+                                                "specific_deliverable":  "A Language Exchange Log of conversations.",
+                                                "rubric":  "Discipline of self-inquiry."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.27",
+                         "name":  "Thesis Statement",
+                         "integrated_deliverable":  "A Thesis Document.",
+                         "scenario":  "Writing a doctoral dissertation.",
+                         "theory_application":  "Formulate a concise, arguable statement that summarizes the main point or claim of the work, guiding all subsequent research and argumentation.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Scientist",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The artifact successfully creates the formal, testable hypothesis or overarching claim of the research.",
+                                                "specific_deliverable":  "A Core Hypothesis for the research.",
+                                                "rubric":  "Create formal, testable hypothesis."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Entrepreneur",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The artifact successfully creates the core value proposition or strategic belief that the entire project is designed to validate.",
+                                                "specific_deliverable":  "A Unique Value Proposition for the findings.",
+                                                "rubric":  "Create core value proposition."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Author",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The artifact successfully creates the single most important, defensible claim that the entire paper will argue.",
+                                                "specific_deliverable":  "A Central Argument summarizing the book.",
+                                                "rubric":  "Create single most important claim."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Artist",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The artifact successfully creates the artist’s statement: the core concept and its significance.",
+                                                "specific_deliverable":  "An Artist Statement defining the work.",
+                                                "rubric":  "Create artist’s statement."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "RRI Framework - The Ethicist",
+                                                "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The artifact successfully creates the formally articulated core belief or principle that the project is designed to defend or explore.",
+                                                "specific_deliverable":  "An Ethical Mandate for the study.",
+                                                "rubric":  "Create articulated core belief."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.28",
+                         "name":  "Wayfinding",
+                         "integrated_deliverable":  "An Adaptive Plan.",
+                         "scenario":  "Navigating a startup through a recession.",
+                         "theory_application":  "Navigate through uncertainty by continuously sensing the environment, orienting to new information, and adjusting the course while maintaining the ultimate destination.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Navigator",
+                                                "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The process successfully engages in the dynamic act of planning based on real-time sensing of the environment (e.g., adapting a research plan when a key material is unavailable).",
+                                                "specific_deliverable":  "An Adaptive Experiment Plan for new markets.",
+                                                "rubric":  "Adapt planning based on sensing."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Pivot",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The process successfully engages in the continuous practice of navigating the market by reading signals and adjusting the roadmap.",
+                                                "specific_deliverable":  "A Pivot Strategy based on economic data.",
+                                                "rubric":  "Navigate market by reading signals."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Researcher",
+                                                "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The process successfully engages in the act of guiding oneself through a vast, unstructured archive or field of scholarship.",
+                                                "specific_deliverable":  "A Research Pivot Log adjusting the thesis.",
+                                                "rubric":  "Guide self through unstructured archive."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Christopher Alexander - The Creator",
+                                                "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The process successfully engages in the creative journey, where the artist navigates the process of action and response with the work and the material.",
+                                                "specific_deliverable":  "A Responsive Design Log adapting to constraints.",
+                                                "rubric":  "Navigate creative journey."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "New-Ivanhoe - The Leader",
+                                                "theory":  "Definition: Strategic Alignment is the principle of effortless action in harmony with the natural flow. Procedural Link: The process successfully engages in the adaptive journey guided by core principles, sensing the flow and momentum of the system.",
+                                                "specific_deliverable":  "An Adaptive Governance Log for the team.",
+                                                "rubric":  "Adaptive journey guided by principles."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.29",
+                         "name":  "Pre-Mortem",
+                         "integrated_deliverable":  "A Failure Scenario Report.",
+                         "scenario":  "Planning a high-stakes product launch.",
+                         "theory_application":  "Perform a mental simulation where the project has already failed, then work backward to determine the specific causes, shifting from optimism to realism.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Gary Klein - The Psychologist",
+                                                "theory":  "Definition: Prospective Hindsight increases the ability to identify reasons for future outcomes by 30%. Procedural Link: The action is to assume the experiment generated a false positive and list the confounds that caused it.",
+                                                "specific_deliverable":  "A Confound Analysis.",
+                                                "rubric":  "Assumes false positive/lists confounds."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Charlie Munger - The Investor",
+                                                "theory":  "Definition: Inversion (\u0027Invert, always invert\u0027). Procedural Link: The action is to write the \u0027Post-Mortem\u0027 for the bankrupt company today, before spending any money.",
+                                                "specific_deliverable":  "A Bankruptcy Narrative.",
+                                                "rubric":  "Writes the failure story today."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Nassim Taleb - The Risk Analyst",
+                                                "theory":  "Definition: The Black Swan requires robustness to negative events. Procedural Link: The action is to imagine the historical argument has been disproven by a new archive and identify that archive.",
+                                                "specific_deliverable":  "A Counter-Evidence Prediction.",
+                                                "rubric":  "Identifies the disproving archive."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Pixar - The Story Trust",
+                                                "theory":  "Definition: \u0027Notes Day\u0027 invites critique to prevent failure. Procedural Link: The action is to imagine the audience is bored and identify the specific scene where they checked out.",
+                                                "specific_deliverable":  "A Boredom Map.",
+                                                "rubric":  "Identifies the scene causing disengagement."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "The Iroquois Confederacy - The Council",
+                                                "theory":  "Definition: Seventh Generation principle requires anticipating long-term harm. Procedural Link: The action is to imagine the ecosystem is destroyed in 100 years and trace the cause back to this decision.",
+                                                "specific_deliverable":  "A Future Harm Assessment.",
+                                                "rubric":  "Traces future harm to current decision."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.30",
+                         "name":  "Unknowns Matrix",
+                         "integrated_deliverable":  "A Risk Taxonomy.",
+                         "scenario":  "Entering a new market with new technology.",
+                         "theory_application":  "Categorize knowledge into Known Knowns, Known Unknowns, and Unknown Unknowns to select the appropriate management strategy.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Donald Rumsfeld - The Strategist",
+                                                "theory":  "Definition: The Rumsfeld Matrix categorizes risk. Procedural Link: The action is to list the \u0027Known Unknowns\u0027 (variables to measure) and design probes for \u0027Unknown Unknowns\u0027 (surprises).",
+                                                "specific_deliverable":  "A Variable Classification Sheet.",
+                                                "rubric":  "Lists Known Unknowns/Probes."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Dave Snowden - The Sensemaker",
+                                                "theory":  "Definition: Cynefin distinguishes between Complicated (Known Unknowns) and Complex (Unknown Unknowns). Procedural Link: The action is to separate the plan into \u0027Tasks\u0027 (Complicated) and \u0027Experiments\u0027 (Complex).",
+                                                "specific_deliverable":  "A Cynefin Sorting Board.",
+                                                "rubric":  "Separates Tasks from Experiments."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Socrates - The Philosopher",
+                                                "theory":  "Definition: Socratic Wisdom is knowing what you do not know. Procedural Link: The action is to explicitly list the limits of the archive and the silence in the historical record.",
+                                                "specific_deliverable":  "A Limitations Statement.",
+                                                "rubric":  "Lists limits/silences in record."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "John Keats - The Poet",
+                                                "theory":  "Definition: Negative Capability is the capacity to be in uncertainties. Procedural Link: The action is to mark the areas of the canvas that must remain undefined to allow for emergence.",
+                                                "specific_deliverable":  "A Negative Space Map.",
+                                                "rubric":  "Marks areas for emergence."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Nassim Taleb - The Skeptic",
+                                                "theory":  "Definition: The Precautionary Principle applies when unknowns have ruinous potential. Procedural Link: The action is to identify the \u0027Ruin\u0027 scenarios (Unknown Unknowns) that require total avoidance.",
+                                                "specific_deliverable":  "A Ruin Avoidance Protocol.",
+                                                "rubric":  "Identifies ruin scenarios."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.31",
+                         "name":  "Capacity",
+                         "integrated_deliverable":  "A Resource Load Chart.",
+                         "scenario":  "Planning a sprint with a reduced team.",
+                         "theory_application":  "Assess the finite limits of time, energy, and resources available to ensure the plan is realistic and sustainable.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Eliyahu Goldratt - The Physicist",
+                                                "theory":  "Definition: Theory of Constraints identifies the bottleneck. Procedural Link: The action is to identify the scarcest resource (e.g., centrifuge time) and subordinate the entire plan to that constraint.",
+                                                "specific_deliverable":  "A Bottleneck Schedule.",
+                                                "rubric":  "Subordinates plan to bottleneck."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Scrum Master",
+                                                "theory":  "Definition: Velocity is the empirical measure of capacity. Procedural Link: The action is to use yesterday\u0027s weather (historical velocity) to cap the scope of the next cycle.",
+                                                "specific_deliverable":  "A Velocity Forecast.",
+                                                "rubric":  "Uses historical velocity to cap scope."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Cal Newport - The Professor",
+                                                "theory":  "Definition: Deep Work is a finite cognitive resource. Procedural Link: The action is to budget the project in terms of \u0027Deep Work Hours\u0027 rather than calendar days.",
+                                                "specific_deliverable":  "A Deep Work Budget.",
+                                                "rubric":  "Budgets in Deep Work Hours."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Twyla Tharp - The Choreographer",
+                                                "theory":  "Definition: Creative stamina is a physical resource. Procedural Link: The action is to plan the work intensity to match the physical and emotional stamina of the performers.",
+                                                "specific_deliverable":  "A Rehearsal Intensity Graph.",
+                                                "rubric":  "Matches intensity to stamina."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Regenerative Design - The Ecologist",
+                                                "theory":  "Definition: Carrying Capacity is the maximum population an environment can sustain. Procedural Link: The action is to assess the \u0027social carrying capacity\u0027 of the community to absorb change.",
+                                                "specific_deliverable":  "A Community Bandwidth Assessment.",
+                                                "rubric":  "Assesses capacity to absorb change."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T2.32",
+                         "name":  "Force Field Analysis",
+                         "integrated_deliverable":  "A Change Management Diagram.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Kurt Lewin",
+                                                "domain":  "Change Management",
+                                                "theory":  "Behavior is a dynamic balance of forces. Procedural Link: Identify forces for and against change, then plan to weaken the restraining forces.",
+                                                "specific_deliverable":  "A Force Field Diagram.",
+                                                "rubric":  "Identifies driving vs restraining forces."
+                                            }
+                                        ],
+                         "scenario":  "Implementing a controversial new policy.",
+                         "theory_application":  "Map the driving forces pushing for change against the restraining forces blocking it to assess feasibility."
+                     },
+                     {
+                         "id":  "T2.33",
+                         "name":  "Critical Path Method (CPM)",
+                         "integrated_deliverable":  "Project Network Diagram",
+                         "variations":  [
+                                            {
+                                                "expert":  "PMP",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Critical Path. Link: Sequence tasks to find the bottleneck path.",
+                                                "specific_deliverable":  "Network Diagram with Float",
+                                                "rubric":  "Critical path identified"
+                                            }
+                                        ],
+                         "scenario":  "Calculating the absolute minimum time required to complete a complex build.",
+                         "theory_application":  "Identify the longest sequence of dependent tasks to determine project duration and \u0027float\u0027 (buffer) time."
+                     },
+                     {
+                         "id":  "T2.34",
+                         "name":  "Concept Checking Questions (CCQs)",
+                         "integrated_deliverable":  "Comprehension Verification Script",
+                         "variations":  [
+                                            {
+                                                "expert":  "CELTA",
+                                                "domain":  "Pedagogy",
+                                                "theory":  "Definition: CCQs. Link: Break instructions into checkable logic points.",
+                                                "specific_deliverable":  "CCQ Script",
+                                                "rubric":  "No yes/no questions used"
+                                            }
+                                        ],
+                         "scenario":  "Ensuring a team understands a complex instruction without asking \u0027Do you understand?\u0027",
+                         "theory_application":  "Use targeted, binary or simple-choice questions to verify that the mental model of the instruction is accurate."
+                     },
+                     {
+                         "id":  "T2.DT.1",
+                         "name":  "Alertness",
+                         "integrated_deliverable":  "An Opportunity Log.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Kirzner/Shane",
+                                                "domain":  "Entrepreneurship",
+                                                "theory":  "Entrepreneurial alertness is the engine of discovery.",
+                                                "specific_deliverable":  "Insight Note",
+                                                "rubric":  "Identifies accidental discovery."
+                                            }
+                                        ],
+                         "scenario":  "Noticing a market gap during casual conversation.",
+                         "theory_application":  "Cultivate a cognitive state of readiness to notice information without searching for it."
+                     }
+                 ]
+}

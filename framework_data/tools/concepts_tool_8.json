@@ -1,0 +1,1151 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "toolId":  "tool8",
+    "toolName":  "Present for Assessment",
+    "concepts":  [
+                     {
+                         "id":  "T8.1",
+                         "name":  "Accountability",
+                         "integrated_deliverable":  "A Public Report.",
+                         "scenario":  "Publishing annual financial results.",
+                         "theory_application":  "Accept responsibility for actions and decisions, and be willing to explain and justify them to others.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Auditor",
+                                                "theory":  "Definition: Merton defined \u0027Organized Skepticism\u0027 as a core norm of science. Procedural Link: The action is to fulfill the duty to submit empirical results and methodology to the public scrutiny of the peer review system.",
+                                                "specific_deliverable":  "A Financial Statement.",
+                                                "rubric":  "Fulfill duty to submit results."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The CFO",
+                                                "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to fulfill the duty to demonstrate value to stakeholders and deliver the functionality promised in the Sprint Goal.",
+                                                "specific_deliverable":  "An Investor Presentation.",
+                                                "rubric":  "Fulfill duty to demonstrate value."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The CEO",
+                                                "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to fulfill the scholar\u0027s duty to rigorously defend their thesis against intellectual challenge from their committee and field.",
+                                                "specific_deliverable":  "A Press Release.",
+                                                "rubric":  "Fulfill duty to defend thesis."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Shareholder",
+                                                "theory":  "Definition: Sennett emphasizes the mastery of the material. Procedural Link: The action is to fulfill the commitment to realize the creative concept with technical excellence and integrity to the chosen medium.",
+                                                "specific_deliverable":  "A Q\u0026A Session.",
+                                                "rubric":  "Fulfill commitment to realize."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Public",
+                                                "theory":  "Definition: Wilson advocates for research as a relational act. Procedural Link: The action is to fulfill the fundamental commitment to answer to the community, elders, or affected stakeholders for the project\u0027s impact.",
+                                                "specific_deliverable":  "A Regulatory Filing.",
+                                                "rubric":  "Fulfill commitment to answer."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.2",
+                         "name":  "Assessment",
+                         "integrated_deliverable":  "An Evaluation Scorecard.",
+                         "scenario":  "Grading a student project.",
+                         "theory_application":  "Systematically evaluate performance or quality against a set of standards or criteria.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Teacher",
+                                                "theory":  "Definition: Assessment is the formal evaluation of merits. Procedural Link: The action is to engage in the formal, criteria-based evaluation of the scientific or technical merits of the work by an expert panel.",
+                                                "specific_deliverable":  "A Rubric Score.",
+                                                "rubric":  "Engage in formal evaluation."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Student",
+                                                "theory":  "Definition: Assessment is the formal measurement against criteria. Procedural Link: The action is to engage in the formal measurement of the product increment against the Definition of Done and key performance indicators (KPIs).",
+                                                "specific_deliverable":  "A Feedback Form.",
+                                                "rubric":  "Engage in formal measurement."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Parent",
+                                                "theory":  "Definition: Assessment is the evaluation of intellectual rigor. Procedural Link: The action is to engage in the committee\u0027s evaluation of the thesis\u0027s intellectual rigor and contribution to the field.",
+                                                "specific_deliverable":  "A Progress Report.",
+                                                "rubric":  "Engage in evaluation of rigor."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Admin",
+                                                "theory":  "Definition: Assessment is the evaluation of aesthetic value. Procedural Link: The action is to engage in the jury\u0027s evaluation of the work\u0027s aesthetic value, technical skill, and conceptual originality.",
+                                                "specific_deliverable":  "A Portfolio Review.",
+                                                "rubric":  "Engage in evaluation of value."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Jürgen Habermas - The Board",
+                                                "theory":  "Definition: Assessment is the evaluation of benefit and alignment. Procedural Link: The action is to engage in the council’s formal evaluation of the project’s benefit and alignment with communal values.",
+                                                "specific_deliverable":  "A Final Grade.",
+                                                "rubric":  "Engage in evaluation of benefit."
+                                            },
+                                            {
+                                                "domain":  "Linguistics",
+                                                "rubric":  "Assesses pragmatic/sociolinguistic skill.",
+                                                "specific_deliverable":  "A CEFR Assessment Grid.",
+                                                "expert":  "CEFR",
+                                                "theory":  "Communicative Competence. Procedural Link: Assess Sociolinguistic (appropriateness) and Pragmatic (functional) competence."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.3",
+                         "name":  "Attestation",
+                         "integrated_deliverable":  "A Certification Document.",
+                         "scenario":  "Certifying a new building.",
+                         "theory_application":  "Formally certify or confirm that a standard has been met or a truth has been established.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Inspector",
+                                                "theory":  "Definition: Attestation is formal certification. Procedural Link: The action is to achieve the formal certification (e.g., publication in a peer-reviewed journal) that the work is empirically sound and methodologically rigorous.",
+                                                "specific_deliverable":  "An Occupancy Permit.",
+                                                "rubric":  "Achieve formal certification."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Architect",
+                                                "theory":  "Definition: Attestation is formal sign-off. Procedural Link: The action is to achieve the formal sign-off from the Product Owner and key stakeholders that the increment is \u0027Done\u0027 and ready to be released.",
+                                                "specific_deliverable":  "A Safety Inspection Report.",
+                                                "rubric":  "Achieve formal sign-off."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Builder",
+                                                "theory":  "Definition: Attestation is official confirmation of validity. Procedural Link: The action is to achieve the official confirmation (e.g., the passing of the defense, the awarding of the degree) that the scholarly work is complete and valid.",
+                                                "specific_deliverable":  "A Compliance Certificate.",
+                                                "rubric":  "Achieve official confirmation."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Owner",
+                                                "theory":  "Definition: Attestation is formal recognition of value. Procedural Link: The action is to achieve the formal recognition (e.g., a critical review, an award, a sale) that validates the work\u0027s cultural value.",
+                                                "specific_deliverable":  "A Handover Document.",
+                                                "rubric":  "Achieve formal recognition."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The City",
+                                                "theory":  "Definition: Attestation is official blessing. Procedural Link: The action is to achieve the official blessing or approval of the community council (N41) that the project is ethical and beneficial.",
+                                                "specific_deliverable":  "A Ribbon Cutting Plan.",
+                                                "rubric":  "Achieve official blessing."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.4",
+                         "name":  "Coherence",
+                         "integrated_deliverable":  "A Consistency Check.",
+                         "scenario":  "Editing a book anthology.",
+                         "theory_application":  "Ensure that all parts of a system or argument fit together logically and aesthetically to form a unified whole.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Editor",
+                                                "theory":  "Definition: Coherence is logical consistency. Procedural Link: The action is to ensure the logical consistency between the hypothesis, the methods, and the final empirical conclusion.",
+                                                "specific_deliverable":  "A Style Guide Review.",
+                                                "rubric":  "Ensure logical consistency."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Author",
+                                                "theory":  "Definition: Coherence is consistent flow. Procedural Link: The action is to ensure the consistent flow and user experience of the product increment across all features and platforms.",
+                                                "specific_deliverable":  "A Chapter Order List.",
+                                                "rubric":  "Ensure consistent flow."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Publisher",
+                                                "theory":  "Definition: Coherence is internal consistency. Procedural Link: The action is to ensure the internal consistency of the argument, ensuring the claims and evidence align logically.",
+                                                "specific_deliverable":  "A Theme Analysis.",
+                                                "rubric":  "Ensure internal consistency."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Designer",
+                                                "theory":  "Definition: Coherence is structural and conceptual harmony. Procedural Link: The action is to ensure the structural and conceptual harmony of the final work, ensuring all elements support the core aesthetic intent.",
+                                                "specific_deliverable":  "A Cover Design Proof.",
+                                                "rubric":  "Ensure structural harmony."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Jürgen Habermas - The Reader",
+                                                "theory":  "Definition: Coherence is consistency between actions and values. Procedural Link: The action is to ensure the consistency between the project\u0027s actions and its stated core values.",
+                                                "specific_deliverable":  "A Final Proofread.",
+                                                "rubric":  "Ensure consistency."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.5",
+                         "name":  "Consequence",
+                         "integrated_deliverable":  "An Impact Assessment.",
+                         "scenario":  "Evaluating a new law.",
+                         "theory_application":  "Measure and evaluate the effects, outcomes, and implications of an action or decision.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Analyst",
+                                                "theory":  "Definition: Consequence is the change in scientific consensus. Procedural Link: The action is to measure the change in scientific consensus, future research direction, or technology roadmap caused by the validated finding.",
+                                                "specific_deliverable":  "A Statistical Impact Report.",
+                                                "rubric":  "Measure change in consensus."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Legislator",
+                                                "theory":  "Definition: Consequence is the measurable impact on user behavior. Procedural Link: The action is to measure the measurable impact of the new feature on user behavior, market share, or revenue.",
+                                                "specific_deliverable":  "A Public Opinion Poll.",
+                                                "rubric":  "Measure impact on behavior."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Citizen",
+                                                "theory":  "Definition: Consequence is the influence on scholarly discourse. Procedural Link: The action is to measure the influence of the published work on the scholarly discourse (Discourse Uptake - N241) or on social policy.",
+                                                "specific_deliverable":  "A Compliance Audit.",
+                                                "rubric":  "Measure influence on discourse."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Walter Benjamin - The Lobbyist",
+                                                "theory":  "Definition: Consequence is the aesthetic, social, or emotional impact. Procedural Link: The action is to measure the aesthetic, social, or emotional impact of the work on the audience or culture.",
+                                                "specific_deliverable":  "A Media Coverage Summary.",
+                                                "rubric":  "Measure aesthetic impact."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Judge",
+                                                "theory":  "Definition: Consequence is the long-term impact. Procedural Link: The action is to measure the long-term positive or negative impact of the project on the community or environment.",
+                                                "specific_deliverable":  "A Legal Review.",
+                                                "rubric":  "Measure long-term impact."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.6",
+                         "name":  "Defense",
+                         "integrated_deliverable":  "A Defense Presentation.",
+                         "scenario":  "Defending a PhD thesis.",
+                         "theory_application":  "Formally present and justify a work or decision to a critical audience, responding to challenges and questions.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Candidate",
+                                                "theory":  "Definition: Defense is a formalized, high-stakes presentation. Procedural Link: The action is to engage in a formalized, high-stakes presentation of the research methodology and results to a scientific panel.",
+                                                "specific_deliverable":  "A Presentation Deck.",
+                                                "rubric":  "Engage in high-stakes presentation."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Committee",
+                                                "theory":  "Definition: Defense is a formal presentation or pitch. Procedural Link: The action is to engage in a formal presentation or pitch to a funding committee to justify the investment of resources in the next phase.",
+                                                "specific_deliverable":  "A Question List.",
+                                                "rubric":  "Engage in formal presentation."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Advisor",
+                                                "theory":  "Definition: Defense is the formal dissertation defense. Procedural Link: The action is to engage in the formal dissertation or thesis defense (N239) where the candidate defends their research against expert challenge.",
+                                                "specific_deliverable":  "A Defense Transcript.",
+                                                "rubric":  "Engage in formal defense."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Audience",
+                                                "theory":  "Definition: Defense is the artist\u0027s defense of their concept. Procedural Link: The action is to engage in the artist\u0027s defense of their concept and choices during a juried review.",
+                                                "specific_deliverable":  "An Evaluation Form.",
+                                                "rubric":  "Engage in artist\u0027s defense."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Jürgen Habermas - The Dean",
+                                                "theory":  "Definition: Defense is defending the ethical rationale. Procedural Link: The action is to engage in the formal process of presenting the project to a council (N41) and defending its ethical rationale.",
+                                                "specific_deliverable":  "A Final Approval.",
+                                                "rubric":  "Engage in defending rationale."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.7",
+                         "name":  "Exhibition",
+                         "integrated_deliverable":  "A Public Showcase.",
+                         "scenario":  "Hosting an art gallery opening.",
+                         "theory_application":  "Present the work to a public audience in a curated setting to facilitate engagement and appreciation.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Curator",
+                                                "theory":  "Definition: Exhibition is a public presentation. Procedural Link: The action is to engage in a scientific poster session or a public presentation of a physical device or apparatus.",
+                                                "specific_deliverable":  "A Catalog Essay.",
+                                                "rubric":  "Engage in public presentation."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Artist",
+                                                "theory":  "Definition: Exhibition is a stakeholder demo. Procedural Link: The action is to engage in a stakeholder demo or a trade show launch where the product is shown to the market.",
+                                                "specific_deliverable":  "A Press Kit.",
+                                                "rubric":  "Engage in stakeholder demo."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Critic",
+                                                "theory":  "Definition: Exhibition is a public lecture. Procedural Link: The action is to engage in a public lecture or presentation of findings at a major academic conference.",
+                                                "specific_deliverable":  "A Guest List.",
+                                                "rubric":  "Engage in public lecture."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Collector",
+                                                "theory":  "Definition: Exhibition is the public display of a completed work. Procedural Link: The action is to engage in the public display of a completed work in a gallery, museum, or performance venue (N40).",
+                                                "specific_deliverable":  "A Sales Sheet.",
+                                                "rubric":  "Engage in public display."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Public",
+                                                "theory":  "Definition: Exhibition is a public ceremony. Procedural Link: The action is to engage in a public ceremony or gathering where the work is formally presented back to the community (N41).",
+                                                "specific_deliverable":  "A Visitor Book.",
+                                                "rubric":  "Engage in public ceremony."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.8",
+                         "name":  "Integrity",
+                         "integrated_deliverable":  "An Integrity Audit.",
+                         "scenario":  "Investigating academic fraud.",
+                         "theory_application":  "Ensure that the work and the process adhere to moral and professional standards of honesty and quality.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Investigator",
+                                                "theory":  "Definition: Integrity is intellectual and methodological honesty. Procedural Link: The action is to ensure the intellectual and methodological honesty of the research process, including transparency about methods and data.",
+                                                "specific_deliverable":  "A Data Verification Report.",
+                                                "rubric":  "Ensure intellectual honesty."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Accused",
+                                                "theory":  "Definition: Integrity is technical quality and stability. Procedural Link: The action is to ensure the technical quality, security, and stability of the product.",
+                                                "specific_deliverable":  "A Statement of Defense.",
+                                                "rubric":  "Ensure technical quality."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Committee",
+                                                "theory":  "Definition: Integrity is scholarly honesty. Procedural Link: The action is to ensure the scholarly honesty of the interpretation and the fidelity to the primary sources.",
+                                                "specific_deliverable":  "A Witness Interview Log.",
+                                                "rubric":  "Ensure scholarly honesty."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Lawyer",
+                                                "theory":  "Definition: Integrity is technical craftsmanship. Procedural Link: The action is to ensure the technical craftsmanship, durability, and authenticity of expression in the final work.",
+                                                "specific_deliverable":  "A Evidence File.",
+                                                "rubric":  "Ensure technical craftsmanship."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Responsible Research and Innovation (RRI) - The Judge",
+                                                "theory":  "Definition: Integrity is consistency between actions and values. Procedural Link: The action is to ensure the consistency and moral uprightness of the project\u0027s actions relative to its stated values (accountability).",
+                                                "specific_deliverable":  "A Final Ruling.",
+                                                "rubric":  "Ensure consistency."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.9",
+                         "name":  "Judgment",
+                         "integrated_deliverable":  "A Final Verdict.",
+                         "scenario":  "Selecting a vendor for a contract.",
+                         "theory_application":  "Make a final, authoritative decision based on evaluation and criteria.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Buyer",
+                                                "theory":  "Definition: Judgment is the formal decision on validity. Procedural Link: The action is to engage in the committee’s formal decision on whether the evidence supports the claim and meets the discipline’s standard of truth.",
+                                                "specific_deliverable":  "A Proposal Scorecard.",
+                                                "rubric":  "Engage in decision on validity."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Vendor",
+                                                "theory":  "Definition: Judgment is the stakeholder’s decision on value. Procedural Link: The action is to engage in the stakeholder’s decision on whether the product increment meets the Definition of Done and delivers acceptable value.",
+                                                "specific_deliverable":  "A Reference Check.",
+                                                "rubric":  "Engage in decision on value."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Manager",
+                                                "theory":  "Definition: Judgment is the determination of contribution. Procedural Link: The action is to engage in the committee’s final determination of whether the thesis successfully contributes new knowledge.",
+                                                "specific_deliverable":  "A Cost Comparison.",
+                                                "rubric":  "Engage in determination of contribution."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Team",
+                                                "theory":  "Definition: Judgment is the evaluation of aesthetic merit. Procedural Link: The action is to engage in the jury\u0027s or critic\u0027s formal evaluation of the work\u0027s aesthetic and cultural merit.",
+                                                "specific_deliverable":  "A Selection Memo.",
+                                                "rubric":  "Engage in evaluation of merit."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Jürgen Habermas - The Executive",
+                                                "theory":  "Definition: Judgment is the determination of benefit. Procedural Link: The action is to engage in the council’s collective determination of whether the project is beneficial and just.",
+                                                "specific_deliverable":  "A Contract Draft.",
+                                                "rubric":  "Engage in determination of benefit."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.10",
+                         "name":  "Juried Review",
+                         "integrated_deliverable":  "A Panel Report.",
+                         "scenario":  "Judging a film festival.",
+                         "theory_application":  "Submit work to a panel of experts for evaluation against established standards.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Judge",
+                                                "theory":  "Definition: Juried review is expert panel evaluation. Procedural Link: The action is to engage in a formal process where an expert panel evaluates research proposals or grants against predefined criteria.",
+                                                "specific_deliverable":  "A Scoring Sheet.",
+                                                "rubric":  "Engage in expert panel evaluation."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Filmmaker",
+                                                "theory":  "Definition: Juried review is a review for promotion or investment. Procedural Link: The action is to engage in a review where a committee of VPs or senior leaders evaluate a product for promotion or investment.",
+                                                "specific_deliverable":  "A Feedback Note.",
+                                                "rubric":  "Engage in review for promotion."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Audience",
+                                                "theory":  "Definition: Juried review is formal manuscript review. Procedural Link: The action is to engage in the formal review of a manuscript by a scholarly journal\u0027s editorial board and peer experts.",
+                                                "specific_deliverable":  "A Winner Announcement.",
+                                                "rubric":  "Engage in manuscript review."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Critic",
+                                                "theory":  "Definition: Juried review is formal selection for competitions. Procedural Link: The action is to engage in the formal selection process for art competitions, film festivals, or major commissions (N40).",
+                                                "specific_deliverable":  "A Press Release.",
+                                                "rubric":  "Engage in selection."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Sponsor",
+                                                "theory":  "Definition: Juried review is ethical fitness evaluation. Procedural Link: The action is to engage in a formal process where elected or traditional leaders evaluate a proposal\u0027s ethical fitness.",
+                                                "specific_deliverable":  "A Festival Program.",
+                                                "rubric":  "Engage in ethical fitness evaluation."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.11",
+                         "name":  "Launch",
+                         "integrated_deliverable":  "A Release Notes Document.",
+                         "scenario":  "Releasing a new book.",
+                         "theory_application":  "Officially release the work to the public or market, marking the transition from development to operation.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Author",
+                                                "theory":  "Definition: Launch is the official release of findings. Procedural Link: The action is to recognize the launch as the official release of the validated finding (e.g., publication in a high-impact journal).",
+                                                "specific_deliverable":  "A Launch Party Plan.",
+                                                "rubric":  "Recognize official release."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Publisher",
+                                                "theory":  "Definition: Launch is the technical and marketing release. Procedural Link: The action is to recognize the launch as the technical and marketing release of the product or feature to the general user base.",
+                                                "specific_deliverable":  "A Marketing Plan.",
+                                                "rubric":  "Recognize technical release."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Publicist",
+                                                "theory":  "Definition: Launch is the publication of the manuscript. Procedural Link: The action is to recognize the launch as the publication of the scholarly article or book, making the argument public.",
+                                                "specific_deliverable":  "A Review Copy List.",
+                                                "rubric":  "Recognize publication."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Walter Benjamin - The Reader",
+                                                "theory":  "Definition: Launch is the opening night of the exhibition. Procedural Link: The action is to recognize the launch as the opening night of the exhibition or the start of the product\u0027s market availability.",
+                                                "specific_deliverable":  "A Book Signing Schedule.",
+                                                "rubric":  "Recognize opening night."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Bookstore",
+                                                "theory":  "Definition: Launch is the official initiation. Procedural Link: The action is to recognize the launch as the official initiation of the community project or social intervention.",
+                                                "specific_deliverable":  "A Sales Report.",
+                                                "rubric":  "Recognize official initiation."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.12",
+                         "name":  "Outcome",
+                         "integrated_deliverable":  "A Results Dashboard.",
+                         "scenario":  "Measuring the success of a training program.",
+                         "theory_application":  "Measure and evaluate the results of an action or project against the intended goals.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Trainer",
+                                                "theory":  "Definition: The outcome is the verifiable, measurable result. Procedural Link: The action is to measure the verifiable, measurable result of the experiment (e.g., p-value, effect size).",
+                                                "specific_deliverable":  "A Test Score Analysis.",
+                                                "rubric":  "Measure verifiable result."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Manager",
+                                                "theory":  "Definition: The outcome is the measurable change in user behavior. Procedural Link: The action is to measure the measurable impact of the new feature on user behavior, market share, or revenue.",
+                                                "specific_deliverable":  "A Skill Application Survey.",
+                                                "rubric":  "Measure impact on behavior."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The Student",
+                                                "theory":  "Definition: The outcome is the influence on scholarly discourse. Procedural Link: The action is to measure the influence of the published work on the scholarly discourse (Discourse Uptake - N241) or on social policy.",
+                                                "specific_deliverable":  "A Feedback Summary.",
+                                                "rubric":  "Measure influence on discourse."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Walter Benjamin - The HR",
+                                                "theory":  "Definition: The outcome is the aesthetic, social, or emotional impact. Procedural Link: The action is to measure the aesthetic, social, or emotional impact of the work on the audience or culture.",
+                                                "specific_deliverable":  "An ROI Calculation.",
+                                                "rubric":  "Measure aesthetic impact."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Haudenosaunee - The Executive",
+                                                "theory":  "Definition: The outcome is the long-term impact. Procedural Link: The action is to measure the long-term positive or negative impact of the project on the community or environment.",
+                                                "specific_deliverable":  "A Final Report.",
+                                                "rubric":  "Measure long-term impact."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.13",
+                         "name":  "Peer Review",
+                         "integrated_deliverable":  "A Reviewer Response Letter.",
+                         "scenario":  "Submitting a grant application.",
+                         "theory_application":  "Engage in a formal process of review by peers to ensure quality and validity.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Applicant",
+                                                "theory":  "Definition: Merton defined \u0027Organized Skepticism\u0027 as a core norm of science. Procedural Link: The action is to fulfill the duty to submit empirical results and methodology to the public scrutiny of the peer review system.",
+                                                "specific_deliverable":  "A Submission Confirmation.",
+                                                "rubric":  "Fulfill duty to submit."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Reviewer",
+                                                "theory":  "Definition: Peer review is a core practice of cross-functional collaboration. Procedural Link: The action is to engage in the system where developers examine a colleague\u0027s code and technical design before it is merged into the main codebase.",
+                                                "specific_deliverable":  "A Score Sheet.",
+                                                "rubric":  "Engage in cross-functional review."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Panel",
+                                                "theory":  "Definition: Peer review is formal manuscript review. Procedural Link: The action is to engage in the system where scholars submit their manuscripts to journal reviewers for critique of rigor and significance.",
+                                                "specific_deliverable":  "A Feedback Letter.",
+                                                "rubric":  "Engage in submission."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Admin",
+                                                "theory":  "Definition: The CRP is a structured method for giving constructive feedback. Procedural Link: The action is to engage in the formal process where fellow artists or designers evaluate a work against shared standards of craft and concept.",
+                                                "specific_deliverable":  "A Rejection/Acceptance Letter.",
+                                                "rubric":  "Engage in evaluation."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Funder",
+                                                "theory":  "Definition: Wilson advocates for research as a relational act. Procedural Link: The action is to engage in a structured working group where peers examine each other’s ethical dilemmas and decision-making processes.",
+                                                "specific_deliverable":  "A Grant Agreement.",
+                                                "rubric":  "Engage in structured group."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.14",
+                         "name":  "Product-Market Fit",
+                         "integrated_deliverable":  "An Adoption Report.",
+                         "scenario":  "Scaling a SaaS product.",
+                         "theory_application":  "Demonstrate that the product satisfies a strong market demand.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Karl Popper - The Founder",
+                                                "theory":  "Definition: Popper requires a theory to be falsifiable. Procedural Link: The action is to ensure the scientific theory successfully explains and predicts a wide range of phenomena in the world.",
+                                                "specific_deliverable":  "A Growth Chart.",
+                                                "rubric":  "Ensure theory explains/predicts."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Marc Andreessen - The Investor",
+                                                "theory":  "Definition: Product-Market Fit is the degree to which the product satisfies a strong market demand. Procedural Link: The action is to measure the degree to which the product satisfies a strong market demand, evidenced by sustained user retention and organic growth.",
+                                                "specific_deliverable":  "A Retention Analysis.",
+                                                "rubric":  "Measure degree of demand."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Michel Foucault - The User",
+                                                "theory":  "Definition: Foucault analyzes how language and power intersect to create social reality. Procedural Link: The action is to ensure the interpretive theory is broadly adopted by other scholars to analyze a wide range of texts or social issues.",
+                                                "specific_deliverable":  "A Customer Testimonial.",
+                                                "rubric":  "Ensure theory is adopted."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Competitor",
+                                                "theory":  "Definition: Sennett emphasizes the mastery of the material. Procedural Link: The action is to ensure the aesthetic style or concept resonates widely enough to achieve commercial viability or cultural impact.",
+                                                "specific_deliverable":  "A Market Share Report.",
+                                                "rubric":  "Ensure style resonates."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Elinor Ostrom - The Market",
+                                                "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The action is to ensure the social process or tool is organically adopted and sustained by the community without external force.",
+                                                "specific_deliverable":  "A Sales Forecast.",
+                                                "rubric":  "Ensure process is adopted."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.15",
+                         "name":  "Proof",
+                         "integrated_deliverable":  "An Evidence Dossier.",
+                         "scenario":  "Proving a legal case.",
+                         "theory_application":  "Provide sufficient evidence to establish the truth or validity of a claim.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Lawyer",
+                                                "theory":  "Definition: Proof is the presentation of empirical data and logical arguments. Procedural Link: The action is to present empirical data and logical arguments that establish the truth of the hypothesis beyond reasonable doubt.",
+                                                "specific_deliverable":  "A Legal Brief.",
+                                                "rubric":  "Present empirical data."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Judge",
+                                                "theory":  "Definition: Proof is measurable data demonstrating validated learning. Procedural Link: The action is to present measurable data demonstrating that the product or feature has successfully moved the needle on a key metric (ROI).",
+                                                "specific_deliverable":  "An Exhibit List.",
+                                                "rubric":  "Present measurable data."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Jury",
+                                                "theory":  "Definition: Proof is the collected evidence that rigorously supports the central thesis. Procedural Link: The action is to present the collected archival, textual, and ethnographic evidence that rigorously supports the central thesis.",
+                                                "specific_deliverable":  "A Witness Statement.",
+                                                "rubric":  "Present collected evidence."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Defendant",
+                                                "theory":  "Definition: Proof is the demonstration of high technical skill. Procedural Link: The action is to present the demonstration of high technical skill and the successful realization of the artistic concept.",
+                                                "specific_deliverable":  "A Closing Argument.",
+                                                "rubric":  "Present demonstration."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Jürgen Habermas - The Plaintiff",
+                                                "theory":  "Definition: Proof is the presentation of clear data that the project fulfilled its ethical mandate. Procedural Link: The action is to present clear data (quantitative or qualitative) that the project fulfilled its ethical mandate.",
+                                                "specific_deliverable":  "A Verdict.",
+                                                "rubric":  "Present clear data."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.16",
+                         "name":  "Publication",
+                         "integrated_deliverable":  "A Published Artifact.",
+                         "scenario":  "Releasing a white paper.",
+                         "theory_application":  "Make the work available to the public or a specific audience.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Author",
+                                                "theory":  "Definition: Publication is the final act of disseminating validated research findings. Procedural Link: The action is to achieve the final act of disseminating validated research findings to the broader scientific community. (N38)",
+                                                "specific_deliverable":  "A PDF Document.",
+                                                "rubric":  "Achieve final act."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Marketer",
+                                                "theory":  "Definition: Publication is the release of API documentation. Procedural Link: The action is to achieve the release of API documentation or technical standards to the wider engineering community.",
+                                                "specific_deliverable":  "A Landing Page.",
+                                                "rubric":  "Achieve release."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Reader",
+                                                "theory":  "Definition: Publication is the formal release of the final manuscript. Procedural Link: The action is to achieve the formal release of the final, revised manuscript through a scholarly press or journal.",
+                                                "specific_deliverable":  "A Social Media Post.",
+                                                "rubric":  "Achieve formal release."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Lawrence Lessig - The Designer",
+                                                "theory":  "Definition: Publication is the presentation of a pattern language. Procedural Link: The action is to achieve the presentation of a pattern language or open-source design library for others to use (Remix Path).",
+                                                "specific_deliverable":  "A Newsletter Announcement.",
+                                                "rubric":  "Achieve presentation."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Public",
+                                                "theory":  "Definition: Publication is the formal release of traditional knowledge. Procedural Link: The action is to achieve the formal release of traditional knowledge or community findings back to the community and public domain.",
+                                                "specific_deliverable":  "A Download Metric.",
+                                                "rubric":  "Achieve formal release."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.17",
+                         "name":  "Replication",
+                         "integrated_deliverable":  "A Reproducibility Study.",
+                         "scenario":  "Verifying a scientific breakthrough.",
+                         "theory_application":  "Repeat a process or experiment to verify the results and ensure reliability.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Scientist",
+                                                "theory":  "Definition: Replication is the act of an independent lab successfully reproducing results. Procedural Link: The action is to ensure the act of an independent lab successfully reproducing the original experimental results, confirming the finding\u0027s robustness. (N235)",
+                                                "specific_deliverable":  "A Replication Protocol.",
+                                                "rubric":  "Ensure independent reproduction."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Lab",
+                                                "theory":  "Definition: Replication is the product\u0027s stability and consistent performance. Procedural Link: The action is to ensure the product\u0027s stability and consistent performance across diverse geographic regions and technical environments.",
+                                                "specific_deliverable":  "A Data Comparison.",
+                                                "rubric":  "Ensure stability/performance."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Reviewer",
+                                                "theory":  "Definition: Replication is the attempt by other scholars to apply the methodology. Procedural Link: The action is to ensure the attempt by other scholars to apply the research methodology and arrive at similar conclusions.",
+                                                "specific_deliverable":  "A Confirmation Report.",
+                                                "rubric":  "Ensure others apply."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Journal",
+                                                "theory":  "Definition: Replication is the successful reproduction of a work\u0027s effect. Procedural Link: The action is to ensure the successful reproduction of a work\u0027s effect by another artist or performer.",
+                                                "specific_deliverable":  "A Retraction/Validation.",
+                                                "rubric":  "Ensure successful reproduction."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Public",
+                                                "theory":  "Definition: Replication is the successful repetition of a community ritual. Procedural Link: The action is to ensure the successful repetition of a community ritual or process over time by new members.",
+                                                "specific_deliverable":  "A Press Release.",
+                                                "rubric":  "Ensure successful repetition."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.18",
+                         "name":  "Resolution",
+                         "integrated_deliverable":  "A Final Resolution Document.",
+                         "scenario":  "Closing a merger deal.",
+                         "theory_application":  "Bring a process or conflict to a definitive end by making a final determination and committing to the outcome.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Negotiator",
+                                                "theory":  "Definition: Resolution is the final, authoritative conclusion. Procedural Link: The action is to achieve the final, authoritative conclusion reached by the scientific community regarding the validity of the hypothesis.",
+                                                "specific_deliverable":  "A Merger Agreement.",
+                                                "rubric":  "Achieve final conclusion."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The CEO",
+                                                "theory":  "Definition: Resolution is the achievement of the Definition of Done. Procedural Link: The action is to achieve the Definition of Done and the formal sign-off to conclude the work cycle.",
+                                                "specific_deliverable":  "A Closing Checklist.",
+                                                "rubric":  "Achieve Definition of Done."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Stephen Toulmin - The Lawyer",
+                                                "theory":  "Definition: Resolution is the final thesis statement. Procedural Link: The action is to achieve the final thesis statement that successfully resolves the central intellectual contradiction of the paper.",
+                                                "specific_deliverable":  "A Press Announcement.",
+                                                "rubric":  "Achieve final thesis."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Rudolf Arnheim - The Employee",
+                                                "theory":  "Definition: Resolution is the final aesthetic harmony. Procedural Link: The action is to achieve the final aesthetic harmony or expressive force of the completed artwork.",
+                                                "specific_deliverable":  "An Integration Plan.",
+                                                "rubric":  "Achieve aesthetic harmony."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Jürgen Habermas - The Shareholder",
+                                                "theory":  "Definition: Resolution is the successful, peaceful conclusion. Procedural Link: The action is to achieve the successful, peaceful conclusion of a conflict or ethical dilemma.",
+                                                "specific_deliverable":  "A Final Report.",
+                                                "rubric":  "Achieve peaceful conclusion."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.19",
+                         "name":  "Summative Assessment",
+                         "integrated_deliverable":  "A Final Grade / Review.",
+                         "scenario":  "End of year performance review.",
+                         "theory_application":  "Evaluate performance or learning at the end of a period.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Gagné - The Manager",
+                                                "theory":  "Definition: Summative assessment is the final grade. Procedural Link: The action is to deliver the final grade or score assigned to a student\u0027s performance or project at the end of a learning unit.",
+                                                "specific_deliverable":  "A Performance Score.",
+                                                "rubric":  "Deliver final grade."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Employee",
+                                                "theory":  "Definition: Summative assessment is the final product launch review. Procedural Link: The action is to engage in the final product launch review to determine whether the project should be scaled or retired.",
+                                                "specific_deliverable":  "A Self-Assessment.",
+                                                "rubric":  "Engage in launch review."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The HR",
+                                                "theory":  "Definition: Summative assessment is the final oral thesis defense. Procedural Link: The action is to engage in the final oral thesis defense and the granting of the degree.",
+                                                "specific_deliverable":  "A Bonus Calculation.",
+                                                "rubric":  "Engage in defense."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Peer",
+                                                "theory":  "Definition: Summative assessment is the final jury review. Procedural Link: The action is to engage in the final jury review of the student\u0027s portfolio or final project.",
+                                                "specific_deliverable":  "A Development Plan.",
+                                                "rubric":  "Engage in jury review."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Company",
+                                                "theory":  "Definition: Summative assessment is the community\u0027s final evaluation. Procedural Link: The action is to engage in the community\u0027s final evaluation of whether the project delivered the promised value.",
+                                                "specific_deliverable":  "A Promotion Letter.",
+                                                "rubric":  "Engage in evaluation."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.20",
+                         "name":  "User Acceptance Testing",
+                         "integrated_deliverable":  "A UAT Sign-Off.",
+                         "scenario":  "Accepting a new software build.",
+                         "theory_application":  "Verify that a solution works for the user in a real-world environment.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Tester",
+                                                "theory":  "Definition: UAT is an independent lab running the protocol. Procedural Link: The action is to ensure an independent scientific lab runs the protocol to ensure the methodology is reproducible by others.",
+                                                "specific_deliverable":  "A Test Script.",
+                                                "rubric":  "Ensure independent run."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The User",
+                                                "theory":  "Definition: UAT is the final testing phase with actual users. Procedural Link: The action is to engage in the final testing phase where a sample of actual users tests the feature to verify it meets their needs and acceptance criteria.",
+                                                "specific_deliverable":  "A Bug List.",
+                                                "rubric":  "Engage in testing phase."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Orlando Fals Borda - The Developer",
+                                                "theory":  "Definition: UAT is member checking. Procedural Link: The action is to engage in Member checking (N243), where research participants verify the accuracy of the final findings and interpretations.",
+                                                "specific_deliverable":  "A Fix Verification.",
+                                                "rubric":  "Engage in member checking."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Donald Norman - The Manager",
+                                                "theory":  "Definition: UAT is a technical trial of the installation. Procedural Link: The action is to engage in a soft launch or technical trial of the installation to ensure the user interaction is flawless.",
+                                                "specific_deliverable":  "A Sign-off Email.",
+                                                "rubric":  "Engage in soft launch."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Responsible Research and Innovation (RRI) - The Client",
+                                                "theory":  "Definition: UAT is a collaborative process. Procedural Link: The action is to engage in a collaborative process where the target community formally approves the final product\u0027s usability and safety.",
+                                                "specific_deliverable":  "A Deployment Schedule.",
+                                                "rubric":  "Engage in collaborative process."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.21",
+                         "name":  "Validation",
+                         "integrated_deliverable":  "A Validation Certificate.",
+                         "scenario":  "Getting FDA approval.",
+                         "theory_application":  "Confirm that a product, service, or system meets the needs of the customer and other stakeholders.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Robert Merton - The Regulator",
+                                                "theory":  "Definition: Validation is the formal establishment of legitimacy. Procedural Link: The action is to achieve the formal establishment of the work\u0027s legitimacy, accuracy, and value by an external authority.",
+                                                "specific_deliverable":  "A Compliance Audit.",
+                                                "rubric":  "Achieve formal establishment."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Applicant",
+                                                "theory":  "Definition: Validation is technical and market approval. Procedural Link: The action is to achieve the technical and market approval that confirms the product is safe to release and delivers business value.",
+                                                "specific_deliverable":  "A Submission Package.",
+                                                "rubric":  "Achieve approval."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Reviewer",
+                                                "theory":  "Definition: Validation is certification of intellectual rigor. Procedural Link: The action is to achieve the committee\u0027s certification that the thesis is intellectually rigorous and makes an original contribution.",
+                                                "specific_deliverable":  "A Deficiency Letter.",
+                                                "rubric":  "Achieve certification."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Scientist",
+                                                "theory":  "Definition: Validation is critical, social, or market approval. Procedural Link: The action is to achieve the critical, social, or market approval that confers cultural value upon the work.",
+                                                "specific_deliverable":  "A Response to Questions.",
+                                                "rubric":  "Achieve approval."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Public",
+                                                "theory":  "Definition: Validation is communal sanction. Procedural Link: The action is to achieve the communal sanction that verifies the work\u0027s ethical fitness and social benefit.",
+                                                "specific_deliverable":  "An Approval Letter.",
+                                                "rubric":  "Achieve sanction."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.22",
+                         "name":  "Witnessing",
+                         "integrated_deliverable":  "A Witness Statement.",
+                         "scenario":  "Documenting a historic event.",
+                         "theory_application":  "Observe and testify to an event or action, providing validation and accountability.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Observer",
+                                                "theory":  "Definition: Witnessing is the presence of the scientific community. Procedural Link: The action is to ensure the presence of the scientific community to observe a critical, difficult, or groundbreaking experiment.",
+                                                "specific_deliverable":  "A Video Recording.",
+                                                "rubric":  "Ensure presence."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Journalist",
+                                                "theory":  "Definition: Witnessing is the formal presence of key stakeholders. Procedural Link: The action is to ensure the formal presence of key stakeholders at the Sprint Review (N39) to observe and acknowledge the team\u0027s progress.",
+                                                "specific_deliverable":  "A News Article.",
+                                                "rubric":  "Ensure formal presence."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Jürgen Habermas - The Historian",
+                                                "theory":  "Definition: Witnessing is the formal role in listening. Procedural Link: The action is to ensure the committee\u0027s formal role in listening to and acknowledging the candidate\u0027s work and defense.",
+                                                "specific_deliverable":  "An Archive Entry.",
+                                                "rubric":  "Ensure formal role."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Participant",
+                                                "theory":  "Definition: Witnessing is the audience’s role in bearing witness. Procedural Link: The action is to ensure the audience’s role in bearing witness to a performance or the final installation of an artwork.",
+                                                "specific_deliverable":  "A Personal Diary.",
+                                                "rubric":  "Ensure audience role."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Public",
+                                                "theory":  "Definition: Witnessing is the sacred act of observation. Procedural Link: The action is to ensure the sacred act of observation and presence by the community to honor the work and the principles it embodies.",
+                                                "specific_deliverable":  "A Commemorative Plaque.",
+                                                "rubric":  "Ensure sacred act."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.23",
+                         "name":  "Audience",
+                         "integrated_deliverable":  "A Persona Profile.",
+                         "scenario":  "Preparing a pitch for a conservative board.",
+                         "theory_application":  "Analyze the specific needs, values, language, and biases of the people who will judge the work to tailor the presentation for maximum impact.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Science Communication - The Journalist",
+                                                "theory":  "Definition: The Deficit Model vs. Engagement. Procedural Link: The action is to assess the audience\u0027s prior knowledge and tailor the complexity of the explanation accordingly.",
+                                                "specific_deliverable":  "A Knowledge Gap Assessment.",
+                                                "rubric":  "Tailors complexity to prior knowledge."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Geoffrey Moore - The Marketer",
+                                                "theory":  "Definition: Crossing the Chasm. Procedural Link: The action is to identify if the audience are \u0027Early Adopters\u0027 (want novelty) or \u0027Pragmatists\u0027 (want safety) and adjust the pitch.",
+                                                "specific_deliverable":  "An Adoption Curve Map.",
+                                                "rubric":  "Adjusts pitch for adopter type."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Aristotle - The Rhetorician",
+                                                "theory":  "Definition: Pathos (Emotion), Logos (Logic), Ethos (Credibility). Procedural Link: The action is to analyze which mode of persuasion will most move this specific audience.",
+                                                "specific_deliverable":  "A Rhetorical Strategy.",
+                                                "rubric":  "Selects effective rhetorical mode."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "The Curator - The Gallerist",
+                                                "theory":  "Definition: The Viewer\u0027s Journey. Procedural Link: The action is to design the exhibition layout based on how the audience moves through physical space.",
+                                                "specific_deliverable":  "A Floor Plan.",
+                                                "rubric":  "Designs for physical movement."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Community Organizing - The Leader",
+                                                "theory":  "Definition: Meeting people where they are. Procedural Link: The action is to use the specific dialect and cultural metaphors of the community to build trust.",
+                                                "specific_deliverable":  "A Cultural Translation Guide.",
+                                                "rubric":  "Uses community dialect/metaphors."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.24",
+                         "name":  "Legitimacy",
+                         "integrated_deliverable":  "A Trust Signal.",
+                         "scenario":  "A new NGO trying to operate in a skeptical community.",
+                         "theory_application":  "Establish the right to speak or act by demonstrating alignment with the values, laws, or norms of the validating community.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Institutional Review Board - The Gatekeeper",
+                                                "theory":  "Definition: Ethical Clearance. Procedural Link: The action is to display the IRB approval stamp to prove the work meets ethical standards.",
+                                                "specific_deliverable":  "An Approval Stamp.",
+                                                "rubric":  "Displays formal ethical approval."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Branding - The Strategist",
+                                                "theory":  "Definition: Social Proof. Procedural Link: The action is to display logos of known partners or customer testimonials to borrow their legitimacy.",
+                                                "specific_deliverable":  "A \u0027Trusted By\u0027 Slide.",
+                                                "rubric":  "Uses social proof."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Pierre Bourdieu - The Sociologist",
+                                                "theory":  "Definition: Cultural Capital. Procedural Link: The action is to cite canonical texts to demonstrate membership in the scholarly field.",
+                                                "specific_deliverable":  "A Literature Review.",
+                                                "rubric":  "Cites canonical texts."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "The Canon - The Historian",
+                                                "theory":  "Definition: Provenance. Procedural Link: The action is to document the history of the work and its relationship to established movements.",
+                                                "specific_deliverable":  "A Provenance Record.",
+                                                "rubric":  "Documents relationship to history."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Max Weber - The Sociologist",
+                                                "theory":  "Definition: Traditional Authority. Procedural Link: The action is to have an Elder or respected leader introduce the speaker, transferring their authority.",
+                                                "specific_deliverable":  "An Introduction Script.",
+                                                "rubric":  "Uses traditional authority transfer."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.25",
+                         "name":  "Translation",
+                         "integrated_deliverable":  "A Plain Language Summary.",
+                         "scenario":  "Explaining climate data to a town council.",
+                         "theory_application":  "Convert specialized, expert knowledge into accessible language and concepts for a non-expert audience without losing accuracy.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Carl Sagan - The Communicator",
+                                                "theory":  "Definition: The Cosmic Perspective. Procedural Link: The action is to use a relatable metaphor (e.g., \u0027Starstuff\u0027) to explain a complex physical process.",
+                                                "specific_deliverable":  "A Metaphor.",
+                                                "rubric":  "Uses relatable metaphor for complexity."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "The Pitch - The Founder",
+                                                "theory":  "Definition: The Elevator Pitch. Procedural Link: The action is to condense the entire business plan into a 30-second hook that anyone can understand.",
+                                                "specific_deliverable":  "A One-Liner.",
+                                                "rubric":  "Condenses plan to 30 seconds."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Public Intellectual - The Writer",
+                                                "theory":  "Definition: The Op-Ed. Procedural Link: The action is to strip away academic jargon and focus on the single, urgent public implication of the research.",
+                                                "specific_deliverable":  "An Op-Ed Draft.",
+                                                "rubric":  "Removes jargon/focuses on urgency."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Ekphrasis - The Poet",
+                                                "theory":  "Definition: Verbal description of visual art. Procedural Link: The action is to write a wall text that gives the viewer a verbal entry point into the abstract visual experience.",
+                                                "specific_deliverable":  "A Wall Label.",
+                                                "rubric":  "Provides verbal entry to visual."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Code Switching - The Linguist",
+                                                "theory":  "Definition: Shifting linguistic codes. Procedural Link: The action is to consciously switch from professional dialect to community dialect to build connection.",
+                                                "specific_deliverable":  "A Bilingual Handout.",
+                                                "rubric":  "Switches dialect to build connection."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T8.26",
+                         "name":  "Information Radiators",
+                         "integrated_deliverable":  "A Big Visible Chart.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Alistair Cockburn",
+                                                "domain":  "Agile",
+                                                "theory":  "Osmotic Communication. Procedural Link: Create a physical or digital dashboard that broadcasts status instantly.",
+                                                "specific_deliverable":  "A Team Dashboard.",
+                                                "rubric":  "Creates passive status display."
+                                            }
+                                        ],
+                         "scenario":  "Keeping stakeholders informed without meetings.",
+                         "theory_application":  "Use large graphical displays located in high-traffic areas to passively communicate project status."
+                     },
+                     {
+                         "id":  "T8.27",
+                         "name":  "Stakeholder Matrix",
+                         "integrated_deliverable":  "A Stakeholder Engagement Plan.",
+                         "variations":  [
+                                            {
+                                                "expert":  "PMP",
+                                                "domain":  "Project Management",
+                                                "theory":  "Power/Interest Grid. Procedural Link: Classify stakeholders (Manage Closely, Keep Informed, etc.) and tailor communication.",
+                                                "specific_deliverable":  "A Power/Interest Grid.",
+                                                "rubric":  "Maps stakeholders by power/interest."
+                                            }
+                                        ],
+                         "scenario":  "Managing a complex political environment.",
+                         "theory_application":  "Map stakeholders by Power vs. Interest to determine the appropriate engagement strategy."
+                     }
+                 ]
+}

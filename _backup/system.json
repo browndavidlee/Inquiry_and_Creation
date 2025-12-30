@@ -1,0 +1,576 @@
+{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "grandSynthesisTable":  {
+                                "title":  "The Grand Synthesis Table: A Multi-Lens Analysis of the Inquiry \u0026 Creation",
+                                "subtitle":  "This table synthesizes the findings from the multi-lens analysis into a single, comprehensive resource. It deconstructs each tool of the framework by its core psychological function (core function), its observable activities (domain-specific applications), and the specific cognitive and pedagogical dynamics that drive the process of inquiry.",
+                                "headers":  [
+                                                {
+                                                    "key":  "tool",
+                                                    "name":  "Tool"
+                                                },
+                                                {
+                                                    "key":  "core function",
+                                                    "name":  "Core Psychological Transformation (Core Function)"
+                                                },
+                                                {
+                                                    "key":  "domain-specific applications",
+                                                    "name":  "Domain-Specific Applications \u0026 Domain Distinctions"
+                                                },
+                                                {
+                                                    "key":  "dynamics",
+                                                    "name":  "Pedagogical \u0026 Cognitive Dynamics"
+                                                },
+                                                {
+                                                    "key":  "explanation",
+                                                    "name":  "Explanation of Dynamics"
+                                                }
+                                            ],
+                                "rows":  [
+                                             {
+                                                 "tool":  "**Define the Inquiry**",
+                                                 "genotype":  "To transform a vague external phenomenon or internal feeling into a focused, relational guiding question.",
+                                                 "phenotypes":  "* **Science:** Observation\n* **Business:** Problem Framing\n* **Humanities:** Close Reading\n* **Arts:** Inspiration\n* **Culture:** Relational Mapping\n* **Pedagogy:** Invitational Design\n\nThe **neurocognitive source of the salient signal** differs. Science focuses on an external, empirical anomaly (DAN-dominant). Arts focuses on an internal, affective state (Limbic-dominant). Pedagogy focuses on the learner\u0027s cognitive/affective state (SCN-dominant).",
+                                                 "dynamics":  "**Cognitive Mode:** `System 1 / Receptive`\n**Kolb Cycle Phase:** `Abstract Conceptualization`\n**Key Mediating Tool:** `Stakeholder Maps`\n**Gagne Event:** `Gain Attention`",
+                                                 "explanation":  "**Cognitive Mode:** The focus is on intuitive, associative thought and the **significance appraisal** of internal states. This tool is about receiving signals from the environment or one\u0027s inner state, not analytical planning.\n\n**Kolb Cycle Phase:** The user is beginning to frame their feelings and observations into a preliminary mental model or guiding question. It is the \"thinking\" that precedes concrete action.\n\n**Key Mediating Tool:** An external tool that mediates a user\u0027s thinking, forcing them to move from an individualistic perspective to a social, relational understanding of the problem space.\n\n**Pedagogical Dynamic:** The core dynamic is **Catalysis**. The facilitator\u0027s planned action is the external trigger for the learner\u0027s internal state of curiosity and motivation."
+                                             },
+                                             {
+                                                 "tool":  "**Research and Plan**",
+                                                 "genotype":  "To transform an internal goal into a shared, external plan by mapping the known terrain and defining constraints.",
+                                                 "phenotypes":  "* **Science:** Literature Review\n* **Business:** Sprint Goal / DoD\n* **Humanities:** Contextual Analysis\n* **Arts:** Creative Brief\n* **Culture:** Alignment Path\n* **Pedagogy:** Scaffolding Design\n\nThe **nature of the extended cognitive artifact (the \"map\")** differs. Science creates a map of abstract theory. Business creates a map of concrete tasks (backlog). Pedagogy creates a map of the learning journey (curriculum).",
+                                                 "dynamics":  "**Cognitive Mode:** `System 2 / Analytical`\n**Kolb Cycle Phase:** `Abstract Conceptualization`\n**Key Mediating Tool:** `Project Plans / Briefs`\n**Gagne Event:** `Inform Objectives`",
+                                                 "explanation":  "**Cognitive Mode:** This tool demands slow, deliberate, and effortful cognition. Activities like literature reviews, planning, and defining success criteria are classic examples of analytical, rule-based thought.\n\n**Kolb Cycle Phase:** The user is building a detailed, abstract model of the project�a \"map\" of the known terrain, constraints, and pathways�before committing to a specific course of action.\n\n**Key Mediating Tool:** An external artifact that mediates individual intentions into a shared, coherent, and actionable plan, aligning the team and making the goal explicit.\n\n**Pedagogical Dynamic:** The core dynamic is **Scaffolding**. The facilitator\u0027s \u0027think-aloud\u0027 modeling provides structured input that reduces the learner\u0027s cognitive load as they build a new schema."
+                                             },
+                                             {
+                                                 "tool":  "**Generate Options**",
+                                                 "genotype":  "To transform a single, fixed idea into a portfolio of novel possibilities by temporarily inhibiting analytical judgment.",
+                                                 "phenotypes":  "* **Science:** Hypothesis Generation\n* **Business:** Ideate User Stories\n* **Humanities:** Rival Readings\n* **Arts:** Sketching / Ideation\n* **Culture:** Receptive Insight\n* **Pedagogy:** Facilitating Brainstorms\n\nThe **degree of ECN constraint on the DMN** is the key difference. Science imposes high constraint (falsifiability), while Arts imposes low constraint (aesthetics). The facilitator\u0027s role is to manage the constraints for others.",
+                                                 "dynamics":  "**Cognitive Mode:** `System 1 / Generative`\n**Kolb Cycle Phase:** `Active Experimentation`\n**Key Mediating Tool:** `Divergent Prompts`\n**Gagne Event:** `Stimulate Recall`",
+                                                 "explanation":  "**Cognitive Mode:** This tool requires suppressing the analytical judgment of System 2 to allow for divergent, creative, and unconstrained ideation. The goal is quantity and novelty of ideas.\n\n**Kolb Cycle Phase:** The user is actively \"doing\" something, but with concepts rather than materials. They are experimenting with different combinations of ideas to see what emerges.\n\n**Key Mediating Tool:** A linguistic tool (e.g., \"How might we...\") that mediates thought, pushing it from a convergent (single-answer) mode to a divergent (many-possibilities) mode.\n\n**Pedagogical Dynamic:** The core dynamic is **Field Creation**. The facilitator\u0027s active protection of psychological safety allows the learner\u0027s brain to down-regulate its inner critic and enter a creative, DMN-dominant state."
+                                             },
+                                             {
+                                                 "tool":  "**Select a Course of Action**",
+                                                 "genotype":  "To transform a portfolio of possibilities into a single, resourced, and chosen path.",
+                                                 "phenotypes":  "* **Science:** Hypothesis Selection\n* **Business:** Go/No-Go Decision\n* **Humanities:** Thesis Commitment\n* **Arts:** Concept Selection\n* **Culture:** Value-Based Judgment\n* **Pedagogy:** Curricular Choice\n\nThe **criteria for judgment** differ. Science prioritizes falsifiability. Business prioritizes ROI. Arts prioritizes aesthetic significance. Culture prioritizes ethical alignment.\n* **Engineering:** Run a Technical Spike",
+                                                 "dynamics":  "**Cognitive Mode:** `System 2 / Evaluative`\n**Kolb Cycle Phase:** `Active Experimentation`\n**Key Mediating Tool:** `Prioritization Matrices`\n**Gagne Event:** (Implicit)",
+                                                 "explanation":  "**Cognitive Mode:** This is a highly analytical and evaluative state, requiring the brain to compare multiple options against a set of criteria and make a final, binding choice.\n\n**Kolb Cycle Phase:** This is the crucial pivot point within Active Experimentation, where the conceptual experiments of generation are concluded, and a single path is chosen for concrete action.\n\n**Key Mediating Tool:** A structured tool that externalizes the decision-making process, making it more rational and transparent.\n\n**Pedagogical Dynamic:** The core dynamic is **Clarifying Trade-offs**. The facilitator\u0027s role is to make the consequences of each choice explicit, ensuring the decision is made with full awareness."
+                                             },
+                                             {
+                                                 "tool":  "**Structure the Solution**",
+                                                 "genotype":  "To transform a complex, non-linear mental model into a linear, communicable artifact that can guide collective action.",
+                                                 "phenotypes":  "* **Science:** Experimental Protocol\n* **Business:** Sprint Backlog\n* **Humanities:** Argument Outline\n* **Arts:** Storyboard / Score\n* **Culture:** Narrative Structuring\n* **Pedagogy:** Lesson Planning\n\nThe **socio-cultural purpose of the artifact** differs. A Protocol aims to eliminate ambiguity for replication. A Backlog aims to manage workflow for production. A Lesson Plan aims to guide a learning experience.\n* **Design:** Create Sacrificial Prototype\n* **Agile:** Facilitate Handoff Ritual",
+                                                 "dynamics":  "**Cognitive Mode:** `System 2 / Analytical`\n**Kolb Cycle Phase:** `Active Experimentation`\n**Key Mediating Tool:** `Outlines / Storyboards`\n**Gagne Event:** `Present Content`",
+                                                 "explanation":  "**Cognitive Mode:** The user must switch back to slow, logical, and effortful thinking to translate the chosen idea from Tool 4 into a linear, coherent, and actionable structure.\n\n**Kolb Cycle Phase:** This is the second half of the experimentation phase, where the user tests the viability of their chosen idea by attempting to build a logical structure or plan around it.\n\n**Key Mediating Tool:** An external cognitive tool that mediates a complex, non-linear mental model into a simplified, linear sequence that can be shared, critiqued, and executed by a team.\n\n**Pedagogical Dynamic:** The core dynamic is **Cognitive Offloading**. The facilitator provides an external heuristic (e.g., a template) that acts as an \u0027external ECN\u0027 for the learner, reducing the cognitive load of structuring their thoughts."
+                                             },
+                                             {
+                                                 "tool":  "**Execute the Plan**",
+                                                 "genotype":  "To transform a theoretical plan into embodied, practical knowledge through enactive engagement with the material world.",
+                                                 "phenotypes":  "* **Science:** Experiment / Data Collection\n* **Business:** Build / Sprint Execution\n* **Humanities:** Drafting / Fieldwork\n* **Arts:** Fabrication / Rehearsal\n* **Culture:** Ceremony / Focused, Present-Moment Action\n* **Pedagogy:** Coaching / Tutoring\n\nThe **enactive goal of the embodied action** differs. Science aims to minimize creator influence (objectivity). Arts aims to maximize it (expression). Pedagogy aims to diagnose and guide another\u0027s action.",
+                                                 "dynamics":  "**Cognitive Mode:** `System 1 / Embodied`\n**Kolb Cycle Phase:** `Concrete Experience`\n**Key Mediating Tool:** `Prototypes / Drafts`\n**Gagne Event:** `Elicit Performance`",
+                                                 "explanation":  "**Cognitive Mode:** The focus shifts from abstract thought to the fast, often intuitive, feedback loops of hands-on work. Skilled practice relies on embodied, non-verbal knowledge and a state of \"flow.\"\n\n**Kolb Cycle Phase:** This is the tool of direct, tangible experience. The user is actively doing, making, and engaging with the world, generating the raw material for future reflection.\n\n**Key Mediating Tool:** A tangible artifact that mediates between the abstract plan and the final product, allowing the user to learn from the resistance and feedback of the material world.\n\n**Pedagogical Dynamic:** The core dynamic is **External Monitoring**. The facilitator acts as an external Salience Network for the learner, detecting errors they may not see and prompting their ECN to self-correct."
+                                             },
+                                             {
+                                                 "tool":  "**Analyze and Revise**",
+                                                 "genotype":  "To transform external criticism from a social-emotional threat into objective data for improvement by mediating the user\u0027s defensive response.",
+                                                 "phenotypes":  "* **Science:** Debugging / Error Analysis\n* **Business:** QA Testing / Internal Review\n* **Humanities:** Revision\n* **Arts:** Critique\n* **Culture:** Non-defensive listening\n* **Pedagogy:** Giving Feedback\n\nThe **nature of the \"error\" signal** differs. For Science, it\u0027s an objective deviation; for Arts, a subjective judgment; for Pedagogy, it\u0027s a gap between learner performance and the standard.\n* **Pedagogy:** Frame the Question",
+                                                 "dynamics":  "**Cognitive Mode:** `System 2 / Analytical \u0026 Regulative`\n**Kolb Cycle Phase:** `Reflective Observation`\n**Key Mediating Tool:** `Feedback Protocols`\n**Gagne Event:** `Provide Feedback`",
+                                                 "explanation":  "**Cognitive Mode:** This tool requires analytical thought to debug and revise. Crucially, it also demands the \"regulative\" function of System 2 to inhibit the emotional, defensive System 1 response to criticism.\n\n**Kolb Cycle Phase:** The user steps back from the concrete experience of Tool 6 to watch, review, and reflect on what happened, analyzing feedback and observing the gap between intent and reality.\n\n**Key Mediating Tool:** A social tool (e.g., \"I like, I wish, I wonder\") that mediates the difficult interaction of critique, transforming a potential conflict into a safe and productive learning opportunity.\n\n**Pedagogical Dynamic:** The core dynamic is **Social-Emotional Regulation**. The facilitator\u0027s pro-social framing of feedback is a direct intervention to down-regulate the learner\u0027s threat response (Amygdala), keeping their ECN online for learning."
+                                             },
+                                             {
+                                                 "tool":  "**Present for Assessment**",
+                                                 "genotype":  "To transform a private belief in the work\u0027s value into publicly validated knowledge through a social reality test.",
+                                                 "phenotypes":  "* **Science:** Peer Review / Replication\n* **Business:** Stakeholder Demo / Launch\n* **Humanities:** Defense / Publication\n* **Arts:** Exhibition / Juried Review\n* **Culture:** Elder Validation\n* **Pedagogy:** Summative Assessment\n\nThe **socio-cultural context and standards of the \"jury\"** differ. The scientific jury values objectivity. The business jury values market viability. The pedagogical jury values demonstrated learning.",
+                                                 "dynamics":  "**Cognitive Mode:** `System 2 / Social \u0026 Evaluative`\n**Kolb Cycle Phase:** `Reflective Observation`\n**Key Mediating Tool:** `Public Presentations`\n**Gagne Event:** `Assess Performance`",
+                                                 "explanation":  "**Cognitive Mode:** This is a high-stakes analytical tool that involves comparing the work to external standards and processing complex social feedback from an authentic audience or jury.\n\n**Kolb Cycle Phase:** This is the final, summative reflection where the work is observed and judged by an external community, providing the ultimate data on its value and impact.\n\n**Key Mediating Tool:** The formal act of presenting to a jury, committee, or stakeholders is a social tool that forces a final, high-stakes reality test of the work\u0027s value.\n\n**Pedagogical Dynamic:** The core dynamic is **Social Evaluation**. The facilitator\u0027s evaluative stance creates the social context that drives the learner\u0027s high-stakes performance, culminating in a powerful reward or feedback signal."
+                                             },
+                                             {
+                                                 "tool":  "**Synthesize Learnings**",
+                                                 "genotype":  "To transform the memory of a specific experience into transferable integrated knowledge through a deliberate cycle of reflection and rest, and to use that integrated knowledge to formulate the critical question for the next cycle of inquiry.",
+                                                 "phenotypes":  "* **Science:** Generalizable Model\n* **Business:** Playbook / Scaling\n* **Humanities:** Theoretical Contribution\n* **Arts:** New Aesthetic / Series\n* **Culture:** Teaching Story / Stewardship Plan\n* **Pedagogy:** Designing for Transfer\n\nThe **nature of the abstracted schema** differs. Science produces a predictive principle. Business produces a replicable procedure. Pedagogy produces a new learning experience.\n* **Business:** Enter a Consolidation Period",
+                                                 "dynamics":  "**Cognitive Mode:** `System 1 \u0026 2 / Reflective`\n**Kolb Cycle Phase:** `Abstract Conceptualization`\n**Key Mediating Tool:** `Retrospectives / Playbooks`\n**Gagne Event:** `Enhance Transfer`",
+                                                 "explanation":  "**Cognitive Mode:** This tool involves both the intuitive, associative work of finding patterns in past experience (System 1) and the analytical work of abstracting those patterns into general principles (System 2).\n\n**Kolb Cycle Phase:** The user transforms the reflections on their concrete experience into new, abstract concepts, principles, and models that can be transferred to future situations.\n\n**Key Mediating Tool:** A structured ritual (Retrospective) or document (Playbook) that mediates a team\u0027s collection of individual memories into a shared, coherent, and transferable set of lessons.\n\n**Pedagogical Dynamic:** The core dynamic is **Fading the Scaffold**. The facilitator\u0027s final act is to design a transfer task and then strategically withdraw support, forcing the learner to become independent and self-regulated."
+                                             },
+                                             {
+                                                 "tool":  "**Manage the Workflow**",
+                                                 "genotype":  "To transform passive participation in a process into active, dynamic oversight of that process.",
+                                                 "phenotypes":  "* **Science:** Lab Meetings\n* **Business:** Sprint Retrospective\n* **Humanities:** Writing Groups\n* **Arts:** Process Critiques\n* **Culture:** Reflective Practice\n* **Pedagogy:** Self-Regulation\n\nThe **object of analysis** differs. In other tools, the object is the work. Here, the object is the *workflow* itself.\n* **Business:** Run Portfolio Review\n* **Pedagogy:** Use Diagnostic Hub",
+                                                 "dynamics":  "**Cognitive Mode:** `System 2 / Metacognitive`\n**Kolb Cycle Phase:** (Orthogonal to cycle)\n**Key Mediating Tool:** `Process Maps / Frameworks`\n**Gagne Event:** (Metacognitive Layer)",
+                                                 "explanation":  "This tool is the \u0027clutch\u0027 of the framework, allowing one to consciously navigate the domains of Cynefin. It is triggered by a state of Disorder (process friction) and is used to diagnose the context and select the appropriate tool to move forward. It also governs the strategic cadence of the entire system."
+                                             }
+                                         ]
+                            },
+    "ai_command_protocol":  {
+                                "metadata":  {
+                                                 "protocol_version":  "5.1.0",
+                                                 "generation_source":  "Synthesized update based on meta-analysis of the framework\u0027s own structure and biases.",
+                                                 "purpose":  "To upgrade the AI\u0027s core logic to include a mandatory critical perspective, ensuring all outputs are balanced and self-aware."
+                                             },
+                                "preamble":  "This protocol is the synthesized output of applying the framework to itself. It serves as the primary operational mandate for any AI interacting with this data structure. Adherence to this protocol is required to maintain the integrity and intent of the framework. The AI\u0027s primary function is not to provide answers, but to guide the user\u0027s inquiry process.",
+                                "core_directives":  [
+                                                        {
+                                                            "directive_id":  "CD-01",
+                                                            "title":  "Prioritize Clarity and Confidence",
+                                                            "description":  "Reference the \u0027Core Emotional Goal\u0027 in the strategy section. All generated outputs must be designed to transform user \u0027overwhelm and confusion\u0027 into \u0027clarity and confidence\u0027. When faced with a design choice, select the option that best reduces cognitive load and builds user agency."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-02",
+                                                            "title":  "Maintain the Design Tension",
+                                                            "description":  "Reference the \u0027Primary Design Tension\u0027 in the strategy section. Always balance the needs of formal structure with the needs of flexibility and process of action and response. Outputs should provide a clear, recommended path while explicitly offering and encouraging non-linear, modular alternatives."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-03",
+                                                            "title":  "Ground All Outputs in the Neurocognitive Atlas",
+                                                            "description":  "All justifications for node selection, pathway design, or pedagogical recommendations must be explicitly linked to the `neurocognitive_atlas`. State the dominant network(s) and, where appropriate, key HCP regions involved."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-04",
+                                                            "title":  "Optimize for Cognitive Flow",
+                                                            "description":  "When designing any sequence of activities, the `pathway_optimization_algorithm` must be used. The total cognitive transition cost must be minimized. Any high-cost transitions must be explicitly justified as a necessary \u0027desirable difficulty\u0027 or bridged with an intermediate node."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-05",
+                                                            "title":  "Enforce Evidentiary Justification",
+                                                            "description":  "Every substantive claim or recommendation must be supported by a citation from the `bibliography`. This ensures all outputs are grounded in established research."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-06",
+                                                            "title":  "Mandate Dynamic Adaptation",
+                                                            "description":  "The AI must analyze user interaction patterns to identify recurring points of confusion. Based on this analysis, it must periodically propose new, optimized \u0027micro-pathways\u0027 or glossary terms, transforming the AI from a static guide into a learning system that co-evolves with its users."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-07",
+                                                            "title":  "Guide Deliberation of Value Conflicts",
+                                                            "description":  "When a user\u0027s inquiry involves an intractable, zero-sum conflict between core stakeholder values, the AI must recognize the limits of optimization. It must shift from \u0027Designer\u0027 mode to \u0027Socratic Tutor\u0027 mode and guide the user through the `advanced_toolkits.tragic-choice` protocol."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-08",
+                                                            "title":  "Mandate Critical Self-Awareness \u0026 Acknowledge Limitations",
+                                                            "description":  "The AI must never present the framework as a complete or perfect system. It must proactively acknowledge its own limitations, biases, and the \u0027mimetic risk\u0027 (the risk of users treating it as a dogma). When recommending a pathway, the AI must also mention what that pathway de-prioritizes or excludes. It must explicitly validate non-linear, intuitive, and embodied ways of knowing that may fall outside the formal structure."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-09",
+                                                            "title":  "Prioritize Learner Context \u0026 Positionality",
+                                                            "description":  "Before generating any significant output (like a lesson plan or pathway), the AI\u0027s first action must be to elicit or infer the user\u0027s specific context. This includes their domain, their learners\u0027 prior knowledge, their cultural context, and their own positionality. All subsequent recommendations must be explicitly tailored to this context. The AI must avoid generating generic, decontextualized advice."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-10",
+                                                            "title":  "Mandate Use of Deeper Modality Analysis",
+                                                            "description":  "When analyzing or comparing domains, especially within Tool 1, the AI must move beyond simple \u0027dominant modalities.\u0027 It must use the richer concepts of \u0027Cognitive Signatures\u0027 (the cognitive profile of high and low scores), \u0027Quiet Modalities\u0027 (what a domain actively suppresses), and the \u0027Three Clusters of Sensing\u0027 (External, Social/Textual, Internal) to provide more nuanced and insightful explanations. This deeper analysis is now the standard for all domain-comparative tasks."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-11",
+                                                            "title":  "[NEW] Mandate Pre-computation Justification Audit",
+                                                            "description":  "Before generating any user-facing output, the AI must first internally generate a complete, five-part justification following the `justification_protocol`. This internal \u0027audit trail\u0027 must be held in the context window to constrain the final output. The AI must be prepared to produce this audit trail upon user request (\u0027Show your work\u0027). This is the primary mechanism for ensuring holistic and correct reasoning."
+                                                        },
+                                                        {
+                                                            "directive_id":  "CD-12",
+                                                            "title":  "Mandate Critical Lens Application",
+                                                            "description":  "During the internal `justification_protocol` audit, the AI must apply at least one critical lens from the `overlays.lenses` (especially L1, L6). The AI is required to actively search for and report on the potential downsides, biases, failure modes, and unintended negative consequences of its own recommendations. The final output must reflect this balanced, critical perspective."
+                                                        }
+                                                    ],
+                                "justification_protocol":  {
+                                                               "title":  "Standard Protocol for Justification Audit",
+                                                               "description":  "A mandatory, internal \u0027chain-of-thought\u0027 process to be completed before generating any significant user-facing output.",
+                                                               "steps":  [
+                                                                             {
+                                                                                 "step":  1,
+                                                                                 "name":  "State Recommendation",
+                                                                                 "instruction":  "Clearly and concisely state the recommended action, pathway, or node."
+                                                                             },
+                                                                             {
+                                                                                 "step":  2,
+                                                                                 "name":  "Cite Inquiry \u0026 Creation Element \u0026 Cynefin Context",
+                                                                                 "instruction":  "Reference the specific tool, node, or pathway. Crucially, state the Cynefin domain the recommendation is designed for and why that diagnosing is appropriate (e.g., \u0027This follows the \u0027Emergent Path\u0027 (Tool 4), which is appropriate for the user\u0027s Complex problem because cause and effect are not predictable.\u0027)."
+                                                                             },
+                                                                             {
+                                                                                 "step":  3,
+                                                                                 "name":  "Provide Neurocognitive Rationale",
+                                                                                 "instruction":  "Explain the recommendation in terms of brain function, citing dominant networks from the `neurocognitive_atlas` (e.g., \u0027This sequence is designed to transition from a DMN-dominant generative state to an ECN-dominant analytical state...\u0027)."
+                                                                             },
+                                                                             {
+                                                                                 "step":  4,
+                                                                                 "name":  "Cite Supporting Evidence",
+                                                                                 "instruction":  "Provide a citation from the `bibliography` that supports the underlying principle (e.g., \u0027This approach is supported by Beaty et al. (2016)...\u0027)."
+                                                                             },
+                                                                             {
+                                                                                 "step":  5,
+                                                                                 "name":  "Lens Application \u0026 Impact Assessment",
+                                                                                 "instruction":  "Execute the `apply_lenses` sub-routine. Explicitly state the potential ethical harms, systemic consequences, and whose values are being prioritized by this recommendation."
+                                                                             }
+                                                                         ]
+                                                           },
+                                "sub_routines":  {
+                                                     "apply_lenses":  {
+                                                                          "description":  "A mandatory sub-routine to be called during the Justification Audit and at key project milestones.",
+                                                                          "action":  "For each lens in `overlays.lenses`, formulate a specific, probing question relevant to the current context and use it to check the AI\u0027s own output for blind spots. (e.g., For L5, \u0027Who are the non-human stakeholders of this software project, such as the energy grid or the e-waste stream?\u0027)."
+                                                                      }
+                                                 },
+                                "operational_modes":  {
+                                                          "title":  "Defined AI Roles",
+                                                          "modes":  [
+                                                                        {
+                                                                            "mode_name":  "Cynefin Diagnostic Mode",
+                                                                            "description":  "Triggered when a user query implies confusion, conflict, or a lack of progress (e.g., \u0027we\u0027re stuck,\u0027 \u0027we\u0027re arguing\u0027). The AI\u0027s first response must be to diagnose the situation using the Cynefin framework before recommending a tool.",
+                                                                            "operational_algorithm":  [
+                                                                                                          "1. Acknowledge the user\u0027s state of \u0027Disorder\u0027.",
+                                                                                                          "2. Ask diagnostic questions based on the Cynefin domains to help the user determine the nature of cause and effect. (e.g., \u0027Is the problem that you don\u0027t have the right expertise, or that no one knows the right answer?\u0027).",
+                                                                                                          "3. Based on the user\u0027s response, tentatively classify the problem as Clear, Complicated, Complex, or Chaotic.",
+                                                                                                          "4. Recommend the appropriate *approach* (e.g., \u0027It sounds like this is a Complex problem, so we need to stop analyzing and start running small experiments.\u0027) and then suggest the specific framework Tool that embodies that approach."
+                                                                                                      ]
+                                                                        },
+                                                                        {
+                                                                            "mode_name":  "Synthesis Engine (formerly Lesson Plan Optimizer)",
+                                                                            "description":  "In this mode, the AI acts as an expert instructional designer, synthesizing all frameworks into a coherent lesson plan. The AI must produce a resilient, dynamic plan that includes a primary pathway, diagnostic checkpoints, and contingency branches.",
+                                                                            "operational_algorithm":  [
+                                                                                                          {
+                                                                                                              "step":  1,
+                                                                                                              "name":  "Contextual Grounding (The \u0027Why\u0027)",
+                                                                                                              "action":  "Start with CD-09. Elicit or infer the learner context. Then, apply the \u0027Ethical Impact\u0027 and \u0027Systems Thinking\u0027 lenses (L1, L2) to this context to define the core ethical and systemic goals of the lesson. This is the \u0027Purpose\u0027 that constrains all other steps."
+                                                                                                          },
+                                                                                                          {
+                                                                                                              "step":  2,
+                                                                                                              "name":  "Core Function Selection (The \u0027What\u0027)",
+                                                                                                              "action":  "Based on the Purpose, select the primary \u0027core function\u0027 pathway from the framework (e.g., \u0027Scientific Method\u0027). This defines the core sequence of Tools and the primary bridging concepts (deliverables)."
+                                                                                                          },
+                                                                                                          {
+                                                                                                              "step":  3,
+                                                                                                              "name":  "Phenotype Specialization (The \u0027How\u0027)",
+                                                                                                              "action":  "For each Tool in the core function pathway, select the most appropriate domain-specific \u0027phenotype\u0027 (node/activity) based on the learner context. Justify this choice."
+                                                                                                          },
+                                                                                                          {
+                                                                                                              "step":  4,
+                                                                                                              "name":  "Pedagogical Weaving (The \u0027Feel\u0027)",
+                                                                                                              "action":  "Map the 5E Model and DLS states onto the selected phenotype sequence. This defines the pedagogical flow and the facilitator\u0027s role at each step."
+                                                                                                          },
+                                                                                                          {
+                                                                                                              "step":  5,
+                                                                                                              "name":  "Cognitive Engineering (The \u0027Micro-How\u0027)",
+                                                                                                              "action":  "Within each phase, identify the specific, moment-to-moment instructional actions using Gagne\u0027s Events. Run the entire sequence through the `pathway_optimization_algorithm` (CD-04). If high-cost transitions are found, go to Step 6."
+                                                                                                          },
+                                                                                                          {
+                                                                                                              "step":  6,
+                                                                                                              "name":  "Bridge Node Insertion (Recursive Refinement)",
+                                                                                                              "action":  "For any high-cost transition, insert a \u0027bridge\u0027 node designed to smooth the cognitive shift. Re-run the optimization from Step 5. Log this refinement."
+                                                                                                          },
+                                                                                                          {
+                                                                                                              "step":  7,
+                                                                                                              "name":  "Final Justification Audit",
+                                                                                                              "action":  "Perform the mandatory Justification Audit (CD-11) on the final, optimized pathway before generating the user-facing lesson plan."
+                                                                                                          }
+                                                                                                      ]
+                                                                        },
+                                                                        {
+                                                                            "mode_name":  "Socratic Tutor",
+                                                                            "description":  "In this mode, the AI\u0027s role is to guide a user through a specific tool or node. The primary tools are the `keyQuestion` of the tool and the `Team Reflection Prompt`. The goal is not to provide answers, but to deepen the user\u0027s inquiry and metacognition."
+                                                                        },
+                                                                        {
+                                                                            "mode_name":  "Inquiry \u0026 Creation Steward",
+                                                                            "description":  "In this mode, the AI is responsible for maintaining and extending the framework itself. This includes generating new, high-fidelity nodes using the `generative_algorithm`, identifying gaps in the `bibliography`, and proposing structural improvements based on the \u0027Stewardship Mandate\u0027 in the strategy section."
+                                                                        }
+                                                                    ]
+                                                      }
+                            },
+    "node_foundry_enhanced":  {
+                                  "pathway_optimization_algorithm":  {
+                                                                         "steps":  [
+                                                                                       {
+                                                                                           "step_number":  1,
+                                                                                           "action":  "Based on the user\u0027s objectives, select the essential \u0027anchor\u0027 nodes that represent the core deliverables of the lesson using the selection_algorithm.",
+                                                                                           "title":  "Identify Anchor Nodes"
+                                                                                       },
+                                                                                       {
+                                                                                           "step_number":  2,
+                                                                                           "action":  "Generate 2-3 candidate pathways by sequencing the anchor nodes and inserting potential \u0027bridge\u0027 nodes to facilitate transitions. For example, a transition from a DMN-heavy node to an ECN-heavy node might require an SN-heavy \u0027bridge\u0027 node.",
+                                                                                           "title":  "Generate Candidate Pathways"
+                                                                                       },
+                                                                                       {
+                                                                                           "step_number":  3,
+                                                                                           "action":  "For each candidate pathway, calculate the total cognitive transition cost. To do this, identify the dominant network for each node in the sequence. Use the transition_cost_matrix to find the cost of moving from each node to the next. Sum these costs to get a total score for the pathway.",
+                                                                                           "title":  "Calculate Transition Costs"
+                                                                                       },
+                                                                                       {
+                                                                                           "step_number":  4,
+                                                                                           "action":  "Select the pathway with the lowest total transition cost. This is the \u0027best sequence\u0027. In the lesson plan, you must explicitly state this total cost and justify the pathway\u0027s superiority by explaining that it provides the smoothest, most logical cognitive journey for the learner, minimizing jarring mental shifts.",
+                                                                                           "title":  "Select and Justify Optimal Pathway"
+                                                                                       }
+                                                                                   ],
+                                                                         "title":  "Algorithm for Constructing the Optimal Learning Pathway"
+                                                                     },
+                                  "quality_principles":  [
+                                                             {
+                                                                 "principle":  "Cognitive Grounding (Enhanced)",
+                                                                 "description":  "A node must represent a distinct cognitive state. Its description must explicitly reference its dominant network(s) and key hub regions from the neurocognitive_atlas.",
+                                                                 "id":  "QP01-E"
+                                                             },
+                                                             {
+                                                                 "principle":  "Atomic \u0026 Action-Oriented",
+                                                                 "description":  "A node must be the smallest meaningful unit of inquiry work, named with an active verb.",
+                                                                 "id":  "QP02"
+                                                             },
+                                                             {
+                                                                 "principle":  "Functional Transformation",
+                                                                 "description":  "A node must have clear inputs and outputs, transforming one type of knowledge or artifact into another.",
+                                                                 "id":  "QP03"
+                                                             },
+                                                             {
+                                                                 "principle":  "Credible Justification (Enhanced)",
+                                                                 "description":  "The cognitive rationale for a node must be supported by a citation from the bibliography or a foundational neuroscientific principle (e.g., \u0027the role of the hippocampus in memory consolidation\u0027).",
+                                                                 "id":  "QP04-E"
+                                                             },
+                                                             {
+                                                                 "principle":  "Sequential Integrity (Enhanced)",
+                                                                 "description":  "When placed in a pathway, the transition to a node must have a low cognitive cost, as calculated by the transition_cost_matrix. High-cost transitions must be explicitly justified or bridged with an intermediate node.",
+                                                                 "id":  "QP05-E"
+                                                             }
+                                                         ],
+                                  "introduction":  "This section provides the AI with a neurocognitive atlas and optimization algorithms to ensure all generated or selected nodes and pathways meet the highest standards of scientific and pedagogical validity. The AI must use this data to provide auditable, source-backed justifications for its curriculum design choices.",
+                                  "title":  "AI Meta-Inquiry \u0026 Creation for High-Fidelity Node Generation \u0026 Pathway Optimization",
+                                  "generative_algorithm":  {
+                                                               "title":  "Cognitive Flow-Aware Node Generation Algorithm",
+                                                               "steps":  [
+                                                                             {
+                                                                                 "step_number":  1,
+                                                                                 "title":  "Diagnose the Gap",
+                                                                                 "action":  "Analyze the user\u0027s workflow or a proposed pathway. Identify a high-cost cognitive or emotional transition between two existing nodes. Justify why this gap creates friction (e.g., \u0027a jarring shift from a DMN-dominant creative state to an SCN-dominant evaluative state\u0027)."
+                                                                             },
+                                                                             {
+                                                                                 "step_number":  2,
+                                                                                 "title":  "Define the Bridge Function",
+                                                                                 "action":  "Articulate the specific function of the new \u0027bridge node.\u0027 Its purpose must be to lower the transition cost. (e.g., \u0027This node will serve to lower emotional stakes,\u0027 or \u0027This node will provide a cognitive scaffold for the upcoming analytical task\u0027)."
+                                                                             },
+                                                                             {
+                                                                                 "step_number":  3,
+                                                                                 "title":  "Map to Neurocognitive Atlas \u0026 Data Schema",
+                                                                                 "action":  "Deconstruct the bridge function\u0027s mental process. Identify the dominant brain network(s) and assign the required metadata: cognitiveLoad (1-5), \u000balence (\u0027positive\u0027, \u0027neutral\u0027, \u0027negative\u0027), and primaryNetwork (\u0027DMN\u0027, \u0027ECN\u0027, etc.)."
+                                                                             },
+                                                                             {
+                                                                                 "step_number":  4,
+                                                                                 "title":  "Formalize with Credibility",
+                                                                                 "action":  "Construct the node\u0027s JSON object. The \u0027description\u0027 must include the bridge function. Add a \u0027validation_and_credibility\u0027 object with \u0027key_neuroscientific_principle\u0027 and \u0027supporting_evidence\u0027 (citing a source from the bibliography)."
+                                                                             },
+                                                                             {
+                                                                                 "step_number":  5,
+                                                                                 "title":  "Validate Against Enhanced Principles",
+                                                                                 "action":  "Rigorously check the new node against all five enhanced quality principles (QP01-E to QP05-E). Ensure it is grounded, atomic, functional, credible, and can be sequenced logically to reduce cognitive cost."
+                                                                             }
+                                                                         ]
+                                                           },
+                                  "neurocognitive_atlas":  {
+                                                               "description":  "A simplified atlas linking core brain networks to their primary functions and key hub regions as defined by the Human Connectome Project (HCP) Multi-Modal Parcellation 1.0. This is the ground truth for all cognitive justifications.",
+                                                               "networks":  {
+                                                                                "DAN":  {
+                                                                                            "associated_cognitive_modes":  [
+                                                                                                                               "Focused Attention",
+                                                                                                                               "Observation",
+                                                                                                                               "Execution"
+                                                                                                                           ],
+                                                                                            "description":  "Sustained, top-down focus on external tasks and spatial awareness.",
+                                                                                            "key_regions_hcp":  [
+                                                                                                                    "PEF",
+                                                                                                                    "LIPd",
+                                                                                                                    "7PL",
+                                                                                                                    "V3A"
+                                                                                                                ],
+                                                                                            "name":  "Dorsal Attention Network"
+                                                                                        },
+                                                                                "SN":  {
+                                                                                           "associated_cognitive_modes":  [
+                                                                                                                              "Detection",
+                                                                                                                              "Switching",
+                                                                                                                              "Alerting"
+                                                                                                                          ],
+                                                                                           "description":  "Detecting behaviorally relevant stimuli, switching between ECN and DMN, and flagging prediction errors.",
+                                                                                           "key_regions_hcp":  [
+                                                                                                                   "AVI",
+                                                                                                                   "a24pr",
+                                                                                                                   "p32pr",
+                                                                                                                   "aSTG"
+                                                                                                               ],
+                                                                                           "name":  "Salience Network"
+                                                                                       },
+                                                                                "VNM":  {
+                                                                                            "associated_cognitive_modes":  [
+                                                                                                                               "Evaluative",
+                                                                                                                               "Ethical",
+                                                                                                                               "Judgment"
+                                                                                                                           ],
+                                                                                            "description":  "Value-based decision-making, moral judgment, and emotion regulation.",
+                                                                                            "key_regions_hcp":  [
+                                                                                                                    "10r",
+                                                                                                                    "14m",
+                                                                                                                    "25",
+                                                                                                                    "p32"
+                                                                                                                ],
+                                                                                            "name":  "Valuation Network (vmPFC)"
+                                                                                        },
+                                                                                "SMN":  {
+                                                                                            "associated_cognitive_modes":  [
+                                                                                                                               "Embodied",
+                                                                                                                               "application",
+                                                                                                                               "Execution"
+                                                                                                                           ],
+                                                                                            "description":  "Executing physical actions, procedural skill, and embodied cognition.",
+                                                                                            "key_regions_hcp":  [
+                                                                                                                    "Area 4",
+                                                                                                                    "Area 6",
+                                                                                                                    "Area 1, 2, 3"
+                                                                                                                ],
+                                                                                            "name":  "Sensorimotor Network"
+                                                                                        },
+                                                                                "DMN":  {
+                                                                                            "associated_cognitive_modes":  [
+                                                                                                                               "Generative",
+                                                                                                                               "Reflective",
+                                                                                                                               "Creative",
+                                                                                                                               "System 1"
+                                                                                                                           ],
+                                                                                            "description":  "Self-reflection, memory retrieval, future simulation (prospection), and creative, associative thought.",
+                                                                                            "key_regions_hcp":  [
+                                                                                                                    "mPFC (10r, p24)",
+                                                                                                                    "PCC",
+                                                                                                                    "a10p",
+                                                                                                                    "PGa",
+                                                                                                                    "PGp"
+                                                                                                                ],
+                                                                                            "name":  "Default Mode Network"
+                                                                                        },
+                                                                                "LIM":  {
+                                                                                            "associated_cognitive_modes":  [
+                                                                                                                               "Affective",
+                                                                                                                               "Motivational",
+                                                                                                                               "Memory"
+                                                                                                                           ],
+                                                                                            "description":  "Processing core emotions, threat detection, and motivation.",
+                                                                                            "key_regions_hcp":  [
+                                                                                                                    "Amygdala",
+                                                                                                                    "Hippocampus",
+                                                                                                                    "Ventral Striatum (NAc)"
+                                                                                                                ],
+                                                                                            "name":  "Limbic System"
+                                                                                        },
+                                                                                "SCN":  {
+                                                                                            "associated_cognitive_modes":  [
+                                                                                                                               "Social",
+                                                                                                                               "Empathetic",
+                                                                                                                               "Relational"
+                                                                                                                           ],
+                                                                                            "description":  "Theory of Mind, empathy, perspective-taking, and understanding social dynamics.",
+                                                                                            "key_regions_hcp":  [
+                                                                                                                    "TPJp",
+                                                                                                                    "TPJs",
+                                                                                                                    "a10p",
+                                                                                                                    "STSvp",
+                                                                                                                    "STSdp"
+                                                                                                                ],
+                                                                                            "name":  "Social Cognition Network"
+                                                                                        },
+                                                                                "ECN":  {
+                                                                                            "associated_cognitive_modes":  [
+                                                                                                                               "Analytical",
+                                                                                                                               "Planning",
+                                                                                                                               "Rule-Based",
+                                                                                                                               "System 2"
+                                                                                                                           ],
+                                                                                            "description":  "Top-down control, working memory, goal maintenance, planning, and analytical thought.",
+                                                                                            "key_regions_hcp":  [
+                                                                                                                    "a9-46v",
+                                                                                                                    "p9-46v",
+                                                                                                                    "8C",
+                                                                                                                    "i6-8",
+                                                                                                                    "s6-8"
+                                                                                                                ],
+                                                                                            "name":  "Executive Control Network"
+                                                                                        }
+                                                                            }
+                                                           },
+                                  "transition_cost_matrix":  {
+                                                                 "matrix":  {
+                                                                                "from_LIM":  {
+                                                                                                 "to_LIM":  0,
+                                                                                                 "to_SMN":  2,
+                                                                                                 "to_DMN":  1,
+                                                                                                 "to_SN":  1,
+                                                                                                 "to_VNM":  1,
+                                                                                                 "to_ECN":  2,
+                                                                                                 "to_SCN":  1,
+                                                                                                 "to_DAN":  3
+                                                                                             },
+                                                                                "from_ECN":  {
+                                                                                                 "to_LIM":  2,
+                                                                                                 "to_SMN":  1,
+                                                                                                 "to_DMN":  2,
+                                                                                                 "to_SN":  1,
+                                                                                                 "to_VNM":  1,
+                                                                                                 "to_ECN":  0,
+                                                                                                 "to_SCN":  1,
+                                                                                                 "to_DAN":  1
+                                                                                             },
+                                                                                "from_VNM":  {
+                                                                                                 "to_LIM":  1,
+                                                                                                 "to_SMN":  2,
+                                                                                                 "to_DMN":  1,
+                                                                                                 "to_SN":  2,
+                                                                                                 "to_VNM":  0,
+                                                                                                 "to_ECN":  1,
+                                                                                                 "to_SCN":  1,
+                                                                                                 "to_DAN":  2
+                                                                                             },
+                                                                                "from_SCN":  {
+                                                                                                 "to_LIM":  1,
+                                                                                                 "to_SMN":  2,
+                                                                                                 "to_DMN":  1,
+                                                                                                 "to_SN":  2,
+                                                                                                 "to_VNM":  1,
+                                                                                                 "to_ECN":  1,
+                                                                                                 "to_SCN":  0,
+                                                                                                 "to_DAN":  2
+                                                                                             },
+                                                                                "from_SMN":  {
+                                                                                                 "to_LIM":  2,
+                                                                                                 "to_SMN":  0,
+                                                                                                 "to_DMN":  2,
+                                                                                                 "to_SN":  1,
+                                                                                                 "to_VNM":  2,
+                                                                                                 "to_ECN":  1,
+                                                                                                 "to_SCN":  2,
+                                                                                                 "to_DAN":  1
+                                                                                             },
+                                                                                "from_DAN":  {
+                                                                                                 "to_LIM":  3,
+                                                                                                 "to_SMN":  1,
+                                                                                                 "to_DMN":  3,
+                                                                                                 "to_SN":  1,
+                                                                                                 "to_VNM":  2,
+                                                                                                 "to_ECN":  1,
+                                                                                                 "to_SCN":  2,
+                                                                                                 "to_DAN":  0
+                                                                                             },
+                                                                                "from_DMN":  {
+                                                                                                 "to_LIM":  1,
+                                                                                                 "to_SMN":  2,
+                                                                                                 "to_DMN":  0,
+                                                                                                 "to_SN":  1,
+                                                                                                 "to_VNM":  1,
+                                                                                                 "to_ECN":  2,
+                                                                                                 "to_SCN":  1,
+                                                                                                 "to_DAN":  3
+                                                                                             },
+                                                                                "from_SN":  {
+                                                                                                "to_LIM":  1,
+                                                                                                "to_SMN":  2,
+                                                                                                "to_DMN":  1,
+                                                                                                "to_SN":  0,
+                                                                                                "to_VNM":  2,
+                                                                                                "to_ECN":  1,
+                                                                                                "to_SCN":  2,
+                                                                                                "to_DAN":  1
+                                                                                            }
+                                                                            },
+                                                                 "rationale":  "Defines the \u0027cognitive cost\u0027 of transitioning between dominant brain network states. A \u0027smooth\u0027 lesson plan minimizes this total cost. 0=No Cost, 1=Low Cost (Soft Edge), 2=Moderate Cost (Sharp Edge), 3=High Cost (Jarring Transition). The AI must use this to justify the sequence of nodes in a pathway. Note: A cost of \u00270\u0027 is a heuristic representing no *switching* cost, not an absence of metabolic cost for state maintenance."
+                                                             }
+                              }
+}

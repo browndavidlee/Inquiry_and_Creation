@@ -1,0 +1,44 @@
+{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "metadata":  {
+                     "schema_version":  "29.0.0-dynamic-playbooks",
+                     "source_file":  "METHODOLOGY_v2.html",
+                     "conversion_purpose":  "Implemented \u0027Contextual Triangulation\u0027 logic. Refactored all 10 Tools to include high-fidelity, perspective-specific Dynamic Playbooks for both Practitioners and Facilitators.",
+                     "notes":  "This version introduces the \u0027dynamic_playbook\u0027 object within the \u0027perspectives\u0027 array, requiring UI updates in uiComponents.js to render context-aware advice."
+                 },
+    "frameworkTitle":  "The Integrated Scaffold for Inquiry \u0026 Creation",
+    "frameworkSubtitle":  "A Context-Aware Engine for Cross-Functional Teams",
+    "schemaVersion":  "29.0.0",
+    "author":  "David Lee Brown, Founder of the An Integrated Language for Inquiry and Creation Evolving Systems Group",
+    "about":  {
+                  "title":  "Purpose and Perspective",
+                  "content":  "### The Problem: Static Advice in a Dynamic World\nMost frameworks provide a single, static set of instructions: \"Do X, then Y.\" But real-world inquiry is context-dependent. The advice a scientist needs during the \"Planning\" phase is radically different from what an artist needs, even if they are using the same tool. Static frameworks fail because they ignore **Context**, **Discipline**, and **Cognitive State**.\n\n### The Solution: Contextual Triangulation\nVersion 29.0 of this framework transforms it from a static encyclopedia into a **dynamic intelligence engine**. It uses a methodology called **Contextual Triangulation** to generate high-fidelity advice by intersecting three variables:\n\n1.  **The Vector (The Tool):** Where are we in the workflow?\n2.  **The Lens (The Perspective):** What value system are we prioritizing (Neuroscience, Ethics, Complexity)?\n3.  **The Agent (The Persona):** Who is acting (Practitioner vs. Facilitator)?\n\n### Key Insight: Dynamic Playbooks\nEvery tool in this framework now contains a **Dynamic Playbook**. When you change your perspective (e.g., from \"Job to be Done\" to \"Cognitive Neuroscience\"), the actionable advice changes to match that lens. \n\n*   **Neuroscience** focuses on **Energy Regulation** (managing the DMN/ECN switch).\n*   **Culture \u0026 Ethics** focuses on **Power Dynamics** (who is excluded?).\n*   **Cynefin** focuses on **Uncertainty Management** (Probe vs. Analyze).\n\n### Design Principle: High-Density, Low-Volume\nThe advice in this framework is designed to be **high-density**. We have stripped away connective tissue to focus on **causal mechanisms** and **specific interventions**. The goal is not to read a textbook, but to find the specific cognitive or social lever that will unblock the current friction.\n\n### A Living System\nThis framework is not a rigid set of rules. It is a scaffold—a temporary structure designed to support your work until the building stands on its own. Use the tools that serve you; discard the ones that don\u0027t. The ultimate goal is not adherence to the framework, but the quality of the inquiry itself."
+              },
+    "strategy":  {
+                     "title":  "Strategic Blueprint: The Framework as a Living System",
+                     "introduction":  "This document serves as a dynamic model and stewardship guide for the Integrated Framework. Informed by a systems analysis, it defines the framework\u0027s core purpose, its key health metrics, and a strategic roadmap of high-leverage interventions.",
+                     "sections":  [
+                                      {
+                                          "title":  "Core System Goal: Accelerating Knowledge Conversion",
+                                          "content":  "The primary goal of the Integrated Framework system is to **accelerate the efficient and responsible conversion of uncertainty into validated, transferable knowledge.** The system is successful when it helps individuals and teams move from a state of confusion and anxiety (high uncertainty) to a state of clarity, confidence, and shared understanding (validated knowledge) as quickly and ethically as possible."
+                                      },
+                                      {
+                                          "title":  "Key System Stocks (Health Metrics)",
+                                          "content":  "The health of the framework ecosystem is measured by the level of these five critical stocks:\n\n*   **User Clarity \u0026 Confidence:** The primary stock the framework produces. A healthy system reduces user anxiety and increases their sense of agency.\n*   **Validated, Transferable Knowledge:** The ultimate output. This includes playbooks, principles, and integrated knowledge generated in Tool 9.\n*   **Environment of Open Communication:** A foundational stock that enables creative risk-taking (Tool 3) and honest feedback (Tool 7).\n*   **Team Cohesion \u0026 Alignment:** The stock of shared understanding that enables a team to execute complex work.\n*   **Repository of Reusable Knowledge:** The stock of explicit, reusable knowledge that prevents the system from making the same mistakes repeatedly."
+                                      },
+                                      {
+                                          "title":  "Primary Feedback Loops",
+                                          "content":  "The framework is a learning system driven by two primary feedback loops:\n\n1.  **The Core Learning Loop (Balancing):** This is the main project cycle. A **Gap** is identified (Tool 1), a plan to close it is made (T2-T5), an action is taken (T6), and the results are measured (T7-T8). This loop closes the gap between reality and the goal.\n\n2.  **The Process Improvement Loop (Reinforcing):** This is the metacognitive loop driven by Tool 10. By observing and improving the workflow itself, the team makes the Core Learning Loop run faster and more efficiently."
+                                      },
+                                      {
+                                          "title":  "Strategic Interventions (High-Leverage Roadmap)",
+                                          "content":  "Our current strategic priorities are:\n\n*   **Initiative 1: Dynamic Contextualization (Leverage Point: Information Flow).**\n    **Focus:** Implement the \u0027Dynamic Playbook\u0027 architecture (v29.0) to tailor advice to the user\u0027s specific cognitive and disciplinary context.\n    **Rationale:** Generic advice is low-leverage. Context-specific advice reduces cognitive load and increases adoption.\n\n*   **Initiative 2: Strengthen Feedback Loops (Leverage Point: Speed of Feedback).**\n    **Focus:** Enhance Tool 7 (Analyze) and Tool 10 (Orchestrate).\n    **Rationale:** The speed of feedback determines the speed of learning. By making critique safer and diagnostics clearer, we accelerate the entire cycle.\n\n*   **Initiative 3: Expand the Scope (Leverage Point: System Goal).**\n    **Focus:** Enhance Tool 1 (Define) and Tool 9 (Synthesize) to include ethical and long-term stewardship.\n    **Rationale:** We must ensure the framework doesn\u0027t just solve problems efficiently, but solves the *right* problems responsibly."
+                                      }
+                                  ]
+                 }
+}

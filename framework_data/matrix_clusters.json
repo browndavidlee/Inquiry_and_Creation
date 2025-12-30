@@ -1,0 +1,300 @@
+﻿{
+    "tools":  [
+                  {
+                      "toolId":  "tool1",
+                      "streams":  [
+                                      {
+                                          "application_prompt":  "Stop thinking. Where do you feel the tension of this problem in your body?",
+                                          "name":  "Somatic \u0026 Sensory",
+                                          "id":  "T1.S1",
+                                          "principle":  "Use the body as a data instrument."
+                                      },
+                                      {
+                                          "application_prompt":  "What specific expectation was violated to make you notice this?",
+                                          "name":  "Diagnostic \u0026 Analytical",
+                                          "id":  "T1.S2",
+                                          "principle":  "Identify the deviation from the norm."
+                                      },
+                                      {
+                                          "application_prompt":  "If you had to draw a box around this problem, what is inside and what is outside?",
+                                          "name":  "Structural \u0026 Framing",
+                                          "id":  "T1.S3",
+                                          "principle":  "Define the container."
+                                      },
+                                      {
+                                          "application_prompt":  "Who will be most affected by this inquiry, and are they in the room?",
+                                          "name":  "Relational \u0026 Ethical",
+                                          "id":  "T1.S4",
+                                          "principle":  "Map the web of impact."
+                                      },
+                                      {
+                                          "application_prompt":  "What is the \u0027burning platform\u0027 or curiosity that makes waiting impossible?",
+                                          "name":  "Kinetic \u0026 Initiating",
+                                          "id":  "T1.S5",
+                                          "principle":  "Trigger the impulse to act."
+                                      }
+                                  ]
+                  },
+                  {
+                      "toolId":  "tool2",
+                      "streams":  [
+                                      {
+                                          "application_prompt":  "Locate the project. What is the specific gap in the existing landscape (literature, market, history) that this work fills?",
+                                          "name":  "Navigational \u0026 Contextual",
+                                          "id":  "T2.S1",
+                                          "principle":  "Orient within the territory."
+                                      },
+                                      {
+                                          "application_prompt":  "Define the box. What are the non-negotiable constraints (time, budget, physics) that define \u0027Done\u0027?",
+                                          "name":  "Boundary \u0026 Constraint",
+                                          "id":  "T2.S2",
+                                          "principle":  "Define the limits of reality."
+                                      },
+                                      {
+                                          "application_prompt":  "Travel to the future. The project has failed. What specific variable caused the collapse? (Pre-Mortem)",
+                                          "name":  "Simulation \u0026 Risk",
+                                          "id":  "T2.S3",
+                                          "principle":  "Test the future."
+                                      },
+                                      {
+                                          "application_prompt":  "Check the compass. Does this specific plan actually deliver on the core promise defined in Tool 1?",
+                                          "name":  "Foundational \u0026 Strategic",
+                                          "id":  "T2.S4",
+                                          "principle":  "Align with the \u0027Why\u0027."
+                                      }
+                                  ]
+                  },
+                  {
+                      "toolId":  "tool3",
+                      "streams":  [
+                                      {
+                                          "application_prompt":  "Force the volume. Generate 10 \u0027bad\u0027 or \u0027illegal\u0027 ideas in the next 2 minutes. Do not filter.",
+                                          "name":  "Expansive \u0026 Divergent",
+                                          "id":  "T3.S1",
+                                          "principle":  "Maximize volume."
+                                      },
+                                      {
+                                          "application_prompt":  "Force a collision. How would a biologist / musician / chef solve this specific logistics problem?",
+                                          "name":  "Combinatorial \u0026 Associative",
+                                          "id":  "T3.S2",
+                                          "principle":  "Connect unrelated frames."
+                                      },
+                                      {
+                                          "application_prompt":  "Lower the stakes. What is a rule we are currently following that we can explicitly break right now?",
+                                          "name":  "Environmental \u0026 Affective",
+                                          "id":  "T3.S3",
+                                          "principle":  "Create conditions for risk."
+                                      },
+                                      {
+                                          "application_prompt":  "Disengage. Stop trying to solve it. Sit in silence for 5 minutes or take a walk. What comes up unbidden?",
+                                          "name":  "Emergent \u0026 Receptive",
+                                          "id":  "T3.S4",
+                                          "principle":  "Allow the answer to surface."
+                                      }
+                                  ]
+                  },
+                  {
+                      "toolId":  "tool4",
+                      "streams":  [
+                                      {
+                                          "application_prompt":  "Stop debating opinions. If we could only pick one metric (ROI, Reach, Speed) to judge this, what would it be?",
+                                          "name":  "Evaluative \u0026 Metric",
+                                          "id":  "T4.S1",
+                                          "principle":  "Measure against criteria."
+                                      },
+                                      {
+                                          "application_prompt":  "Are we actively choosing this path, or just letting it happen by default? Who is signing their name to this?",
+                                          "name":  "Volitional \u0026 Agentic",
+                                          "id":  "T4.S2",
+                                          "principle":  "Make a conscious commitment."
+                                      },
+                                      {
+                                          "application_prompt":  "Strategy is sacrifice. What is the \u0027good\u0027 idea we must explicitly kill today to let the \u0027great\u0027 idea live?",
+                                          "name":  "Subtractive \u0026 Sacrificial",
+                                          "id":  "T4.S3",
+                                          "principle":  "Create value by removing."
+                                      },
+                                      {
+                                          "application_prompt":  "Does this choice align with who we claim to be? Is this decision reversible if we are wrong?",
+                                          "name":  "Aligned \u0026 Ethical",
+                                          "id":  "T4.S4",
+                                          "principle":  "Check against values."
+                                      }
+                                  ]
+                  },
+                  {
+                      "toolId":  "tool5",
+                      "streams":  [
+                                      {
+                                          "application_prompt":  "Deconstruct the big goal. What are the Parent, Child, and Sibling tasks? Draw the tree.",
+                                          "name":  "Hierarchical \u0026 Logical",
+                                          "id":  "T5.S1",
+                                          "principle":  "Nest the logic."
+                                      },
+                                      {
+                                          "application_prompt":  "If this plan were a movie, what is the opening scene, the climax, and the resolution? Map the timeline.",
+                                          "name":  "Narrative \u0026 Sequential",
+                                          "id":  "T5.S2",
+                                          "principle":  "Order the experience."
+                                      },
+                                      {
+                                          "application_prompt":  "Decouple the parts. How do Component A and Component B talk to each other? Define the \u0027API\u0027 between them.",
+                                          "name":  "Systemic \u0026 Modular",
+                                          "id":  "T5.S3",
+                                          "principle":  "Define the interfaces."
+                                      }
+                                  ]
+                  },
+                  {
+                      "toolId":  "tool6",
+                      "streams":  [
+                                      {
+                                          "application_prompt":  "Check your state. Is the challenge level matching your skill level right now? If not, adjust the constraint.",
+                                          "name":  "Somatic \u0026 Attentional",
+                                          "id":  "T6.S1",
+                                          "principle":  "Manage attention quality."
+                                      },
+                                      {
+                                          "application_prompt":  "Stop simulating. Build a rough physical model or write a messy draft of this idea right now.",
+                                          "name":  "Material \u0026 Enactive",
+                                          "id":  "T6.S2",
+                                          "principle":  "Think with hands."
+                                      },
+                                      {
+                                          "application_prompt":  "Overcome static friction. What is the absolute smallest micro-step we can take in the next 2 minutes?",
+                                          "name":  "Kinetic \u0026 Temporal",
+                                          "id":  "T6.S3",
+                                          "principle":  "Maintain velocity."
+                                      },
+                                      {
+                                          "application_prompt":  "Listen to the friction. What is the material (or the market) telling you right now that the plan didn\u0027t predict?",
+                                          "name":  "Iterative \u0026 Adaptive",
+                                          "id":  "T6.S4",
+                                          "principle":  "Learn while doing."
+                                      }
+                                  ]
+                  },
+                  {
+                      "toolId":  "tool7",
+                      "streams":  [
+                                      {
+                                          "application_prompt":  "Don\u0027t just fix the error. Ask \u0027Why?\u0027 five times to find the systemic flaw that allowed the error to happen.",
+                                          "name":  "Diagnostic \u0026 Causal",
+                                          "id":  "T7.S1",
+                                          "principle":  "Find the root cause."
+                                      },
+                                      {
+                                          "application_prompt":  "Treat the critic as a sensor. Read the feedback again, assuming it is 100% accurate. What do you see now?",
+                                          "name":  "Social \u0026 Receptive",
+                                          "id":  "T7.S2",
+                                          "principle":  "Listen without defense."
+                                      },
+                                      {
+                                          "application_prompt":  "Audit your reaction. Are you rejecting this data because it is wrong, or because it threatens your ego (Cognitive Distortion)?",
+                                          "name":  "Metacognitive \u0026 Internal",
+                                          "id":  "T7.S3",
+                                          "principle":  "Check the lens."
+                                      },
+                                      {
+                                          "application_prompt":  "Look at the split-test or the rubric. How does the actual result compare to the predicted result? Quantify the gap.",
+                                          "name":  "Empirical \u0026 Comparative",
+                                          "id":  "T7.S4",
+                                          "principle":  "Measure against standard."
+                                      }
+                                  ]
+                  },
+                  {
+                      "toolId":  "tool8",
+                      "streams":  [
+                                      {
+                                          "application_prompt":  "Translation check: If you had to explain the value of this to a 5-year-old (or a busy executive), how would you frame it?",
+                                          "name":  "Rhetorical \u0026 Narrative",
+                                          "id":  "T8.S1",
+                                          "principle":  "Shape the argument."
+                                      },
+                                      {
+                                          "application_prompt":  "Power check: Who holds the authority to validate this work, and what specific values or rituals do they respect?",
+                                          "name":  "Political \u0026 Social",
+                                          "id":  "T8.S2",
+                                          "principle":  "Navigate legitimacy."
+                                      },
+                                      {
+                                          "application_prompt":  "Defense check: What is the weakest part of your argument, and what evidence do you have to shore it up?",
+                                          "name":  "Verificational \u0026 Evidentiary",
+                                          "id":  "T8.S3",
+                                          "principle":  "Establish proof."
+                                      },
+                                      {
+                                          "application_prompt":  "Action check: The presentation is over. What is the specific \u0027Ask\u0027 or physical next step you need from the audience?",
+                                          "name":  "Transactional \u0026 Outcome",
+                                          "id":  "T8.S4",
+                                          "principle":  "Close the loop."
+                                      }
+                                  ]
+                  },
+                  {
+                      "toolId":  "tool9",
+                      "streams":  [
+                                      {
+                                          "application_prompt":  "Lift up from the details. This specific thing happened—what is the universal principle or pattern behind it that applies elsewhere?",
+                                          "name":  "Abstractive \u0026 Theoretical",
+                                          "id":  "T9.S1",
+                                          "principle":  "Find the general rule."
+                                      },
+                                      {
+                                          "application_prompt":  "Don\u0027t just share wisdom. Write a checklist, template, or script so someone else could do this task without you.",
+                                          "name":  "Codifying \u0026 Practical",
+                                          "id":  "T9.S2",
+                                          "principle":  "Write the recipe."
+                                      },
+                                      {
+                                          "application_prompt":  "Who owns this now? Define the maintenance plan. How do we store this so it is accessible and useful in 5 years?",
+                                          "name":  "Stewardship \u0026 Temporal",
+                                          "id":  "T9.S3",
+                                          "principle":  "Care for the future."
+                                      },
+                                      {
+                                          "application_prompt":  "What do we need to celebrate, mourn, or let go of so we can enter the next project with a clean slate?",
+                                          "name":  "Closure \u0026 Integrative",
+                                          "id":  "T9.S4",
+                                          "principle":  "Complete the cycle."
+                                      }
+                                  ]
+                  },
+                  {
+                      "toolId":  "tool10",
+                      "streams":  [
+                                      {
+                                          "application_prompt":  "Zoom out. Don\u0027t look at the tasks; look at the energy. Is the team spinning, flowing, or grinding? What Cynefin domain are we actually in?",
+                                          "name":  "Sensing \u0026 Diagnostic",
+                                          "id":  "T10.S1",
+                                          "principle":  "Read the system."
+                                      },
+                                      {
+                                          "application_prompt":  "If the process is broken, don\u0027t just push harder. Change the rule. Do we need to tighten the constraints (convergence) or loosen them (divergence)?",
+                                          "name":  "Regulatory \u0026 Interventionist",
+                                          "id":  "T10.S2",
+                                          "principle":  "Adjust the parameters."
+                                      },
+                                      {
+                                          "application_prompt":  "Check the soil. Is there an unspoken conflict, a lack of safety, or a power dynamic that is blocking the work? Address the human layer first.",
+                                          "name":  "Cultural \u0026 Relational",
+                                          "id":  "T10.S3",
+                                          "principle":  "Tend the relationships."
+                                      },
+                                      {
+                                          "application_prompt":  "North Star check. Look at our current trajectory. If we keep doing exactly what we are doing, will we actually hit the strategic goal?",
+                                          "name":  "Strategic \u0026 Directional",
+                                          "id":  "T10.S4",
+                                          "principle":  "Set the course."
+                                      }
+                                  ]
+                  }
+              ],
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "description":  "Maps the core cognitive streams. Tool 1 (Genesis) has 5 streams; Tool 5 (Structure) has 3 streams; all others have 4 streams.",
+                      "file_type":  "cross_tool_matrix",
+                      "last_updated":  "2025-12-21 20:01:11"
+                  }
+}

@@ -1,0 +1,1297 @@
+﻿{
+    "_metadata":  {
+                      "schema_version":  "2.0",
+                      "file_type":  "framework_data",
+                      "last_updated":  "2025-12-15",
+                      "context":  "Integrated Framework for Inquiry and Creation"
+                  },
+    "toolId":  "tool6",
+    "toolName":  "Execute the Plan",
+    "concepts":  [
+                     {
+                         "id":  "T6.1",
+                         "name":  "Application",
+                         "integrated_deliverable":  "A Field Execution Log.",
+                         "scenario":  "Conducting a field survey.",
+                         "theory_application":  "Put the plan into action, translating abstract protocols into concrete behaviors and recording the results.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Scientist",
+                                                "theory":  "Definition: Application is the empirical act of putting the protocol into practice. Procedural Link: The action is to engage in the empirical act of putting the experimental protocol into practice to gather data.",
+                                                "specific_deliverable":  "A Data Collection Log.",
+                                                "rubric":  "Put protocol into practice."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Application is executing the tasks defined in the sprint backlog. Procedural Link: The action is to execute the tasks defined in the sprint backlog to create a working software increment.",
+                                                "specific_deliverable":  "A Sprint Execution Report.",
+                                                "rubric":  "Execute tasks to create increment."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Researcher",
+                                                "theory":  "Definition: Application is the writing of the first draft or fieldwork. Procedural Link: The action is to engage in the writing of the first draft or the gathering of data during fieldwork.",
+                                                "specific_deliverable":  "A Field Note Journal.",
+                                                "rubric":  "Engage in writing/gathering."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Artist",
+                                                "theory":  "Definition: Application is the physical act of fabrication or rehearsal. Procedural Link: The action is to engage in the physical act of fabricating the artwork or performing the rehearsal.",
+                                                "specific_deliverable":  "A Studio Work Log.",
+                                                "rubric":  "Engage in physical act."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Practitioner",
+                                                "theory":  "Definition: Application is the embodiment of the plan through mindful action. Procedural Link: The action is to embody the plan through mindful, ethical, and purposeful action.",
+                                                "specific_deliverable":  "A Community Engagement Log.",
+                                                "rubric":  "Embody plan through action."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.2",
+                         "name":  "Build",
+                         "integrated_deliverable":  "A Construction Phase Output.",
+                         "scenario":  "Building a prototype car.",
+                         "theory_application":  "Engage in the physical or digital construction of the product, system, or narrative.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Engineer",
+                                                "theory":  "Definition: Build is the construction of a new device or system. Procedural Link: The action is to engage in the construction or assembly of a new device, lab apparatus, or functional system (e.g., a prototype). (N28)",
+                                                "specific_deliverable":  "A Chassis Assembly.",
+                                                "rubric":  "Engage in construction."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Developer",
+                                                "theory":  "Definition: Build is writing, testing, and integrating code. Procedural Link: The action is to write, test, and integrate the code to create the \u0027potentially shippable increment.\u0027",
+                                                "specific_deliverable":  "A Software Build for the ECU.",
+                                                "rubric":  "Write/test/integrate code."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Writer",
+                                                "theory":  "Definition: Build is the non-linear process of constructing a narrative. Procedural Link: The action is to engage in the non-linear process of constructing a narrative or argument in prose.",
+                                                "specific_deliverable":  "A Technical Manual Draft.",
+                                                "rubric":  "Engage in constructing narrative."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Maker",
+                                                "theory":  "Definition: Build is the physical process of construction or rendering. Procedural Link: The action is to engage in the physical process of construction, sculpting, or digital rendering.",
+                                                "specific_deliverable":  "A Clay Model of the body.",
+                                                "rubric":  "Engage in physical process."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Builder",
+                                                "theory":  "Definition: Build is the focused effort of building social trust. Procedural Link: The action is to engage in the focused effort of building social trust or a new community resource.",
+                                                "specific_deliverable":  "A Team Building Report.",
+                                                "rubric":  "Engage in building trust."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.3",
+                         "name":  "Conduct",
+                         "integrated_deliverable":  "An Activity Report.",
+                         "scenario":  "Running a clinical trial.",
+                         "theory_application":  "Perform a specific task or ceremony according to a defined protocol or methodology.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Scientist",
+                                                "theory":  "Definition: Conduct is performing a task according to a formal protocol. Procedural Link: The action is to perform a research task according to a formal, established protocol (e.g., conducting a titration, a survey, or an interview).",
+                                                "specific_deliverable":  "A Trial Execution Log.",
+                                                "rubric":  "Perform task according to protocol."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Coordinator",
+                                                "theory":  "Definition: Conduct is managing coordination and ceremonies. Procedural Link: The action is to manage the day-to-day coordination and ceremonies of the team (e.g., conducting a daily stand-up).",
+                                                "specific_deliverable":  "A Daily Standup Record.",
+                                                "rubric":  "Manage coordination."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Researcher",
+                                                "theory":  "Definition: Conduct is performing fieldwork or archival research. Procedural Link: The action is to perform fieldwork (N29), archival research, or administering qualitative interviews according to a methodology.",
+                                                "specific_deliverable":  "A Patient Interview Log.",
+                                                "rubric":  "Perform fieldwork."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Performer",
+                                                "theory":  "Definition: Conduct is running a rehearsal or technical test. Procedural Link: The action is to engage in running a rehearsal (N30) or a technical performance test.",
+                                                "specific_deliverable":  "A Procedure Rehearsal Video.",
+                                                "rubric":  "Engage in running rehearsal."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Facilitator",
+                                                "theory":  "Definition: Conduct is performing a formal ceremony or ritual. Procedural Link: The action is to perform a formal ceremony or ritual (N88) with precision and integrity.",
+                                                "specific_deliverable":  "A Consent Ceremony Record.",
+                                                "rubric":  "Perform formal ceremony."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.4",
+                         "name":  "Create",
+                         "integrated_deliverable":  "A Beta Release / Draft.",
+                         "scenario":  "Writing a novel.",
+                         "theory_application":  "Bring something new into existence, whether it is data, code, text, art, or social value.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Creator",
+                                                "theory":  "Definition: Create is bringing a new piece of data or knowledge into existence. Procedural Link: The action is to aim for the ultimate goal of the task: bringing a new piece of data, knowledge, device, or artistic form into existence.",
+                                                "specific_deliverable":  "A Research Backgrounder for the setting.",
+                                                "rubric":  "Bring new knowledge into existence."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Producer",
+                                                "theory":  "Definition: Create is delivering a tangible, working increment. Procedural Link: The action is to deliver a tangible, working increment of software or a feature that can be shown to users.",
+                                                "specific_deliverable":  "A Chapter Draft.",
+                                                "rubric":  "Deliver tangible increment."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Writer",
+                                                "theory":  "Definition: Create is producing the first complete draft. Procedural Link: The action is to produce the first complete draft of the argument or theory.",
+                                                "specific_deliverable":  "A First Draft Manuscript.",
+                                                "rubric":  "Produce first complete draft."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Artist",
+                                                "theory":  "Definition: Create is producing the final artwork or prototype. Procedural Link: The action is to produce the final artwork or an early, testable prototype.",
+                                                "specific_deliverable":  "A Character Sketch.",
+                                                "rubric":  "Produce final artwork."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Author",
+                                                "theory":  "Definition: Create is bringing a socially beneficial action into reality. Procedural Link: The action is to bring a socially beneficial action or community resource into reality.",
+                                                "specific_deliverable":  "A Reader Engagement Plan.",
+                                                "rubric":  "Bring action into reality."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.5",
+                         "name":  "Deeds",
+                         "integrated_deliverable":  "An Outcome Verification Report.",
+                         "scenario":  "Implementing a charity program.",
+                         "theory_application":  "Focus on the tangible, verifiable outcomes of action, recognizing the ethical dimension of what is done.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Auditor",
+                                                "theory":  "Definition: Deeds are the ethical dimension of action. Procedural Link: The action is to recognize the ethical dimension of action; the understanding that execution has real-world consequences that must be monitored.",
+                                                "specific_deliverable":  "An Impact Audit.",
+                                                "rubric":  "Recognize ethical dimension."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Deeds are the tangible, verifiable outcomes. Procedural Link: The action is to focus on the tangible, verifiable outcomes of the sprint execution.",
+                                                "specific_deliverable":  "A Deliverables Checklist.",
+                                                "rubric":  "Focus on tangible outcomes."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Evaluator",
+                                                "theory":  "Definition: Deeds are the tangible scholarly output. Procedural Link: The action is to focus on the tangible scholarly output (e.g., the first draft, the completed interview transcripts).",
+                                                "specific_deliverable":  "A Program Report.",
+                                                "rubric":  "Focus on tangible output."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Maker",
+                                                "theory":  "Definition: Deeds are the physical marks left on the medium. Procedural Link: The action is to focus on the physical marks left on the medium by the artist’s process (e.g., brushstrokes, weld marks).",
+                                                "specific_deliverable":  "A Photo Documentation of the event.",
+                                                "rubric":  "Focus on physical marks."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Volunteer",
+                                                "theory":  "Definition: Deeds are the concrete acts of service. Procedural Link: The action is to focus on the concrete acts of service performed for the community.",
+                                                "specific_deliverable":  "A Service Log.",
+                                                "rubric":  "Focus on concrete acts."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.6",
+                         "name":  "Drafting",
+                         "integrated_deliverable":  "A First Draft Document.",
+                         "scenario":  "Writing a technical manual.",
+                         "theory_application":  "Engage in the initial creation of a document, code, or artwork, focusing on getting ideas down rather than perfection.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Writer",
+                                                "theory":  "Definition: Drafting is writing the first report or documentation. Procedural Link: The action is to engage in writing the first report, paper section, or technical documentation based on raw data.",
+                                                "specific_deliverable":  "A Technical Draft.",
+                                                "rubric":  "Engage in writing report."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Editor",
+                                                "theory":  "Definition: Drafting is writing code and documentation. Procedural Link: The action is to engage in the writing of code and associated documentation (e.g., API docs, user help text).",
+                                                "specific_deliverable":  "A Documentation Repo.",
+                                                "rubric":  "Engage in writing code/docs."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Author",
+                                                "theory":  "Definition: Drafting is composing the First Draft. Procedural Link: The action is to engage in the intellectual work of composing the First Draft (N27) of the written argument or theoretical paper.",
+                                                "specific_deliverable":  "A Manuscript Draft.",
+                                                "rubric":  "Engage in composing draft."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Illustrator",
+                                                "theory":  "Definition: Drafting is the initial sketching or rendering. Procedural Link: The action is to engage in the initial, low-fidelity sketching, rendering, or composing of the work\u0027s primary elements.",
+                                                "specific_deliverable":  "A Diagram Sketch.",
+                                                "rubric":  "Engage in initial sketching."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Diarist",
+                                                "theory":  "Definition: Drafting is writing a process journal. Procedural Link: The action is to engage in the writing of a process journal (N31) to capture reflections and tacit knowledge.",
+                                                "specific_deliverable":  "A Process Journal.",
+                                                "rubric":  "Engage in writing journal."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.7",
+                         "name":  "Embodiment",
+                         "integrated_deliverable":  "A Physical Prototype.",
+                         "scenario":  "Testing a new ergonomic chair.",
+                         "theory_application":  "Translate abstract knowledge into physical form or action, engaging the body and senses to deepen understanding.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Tester",
+                                                "theory":  "Definition: Embodiment is translating abstract knowledge into procedural knowledge. Procedural Link: The action is to translate abstract knowledge (the protocol) into procedural knowledge residing in the hands and mind of the experimenter.",
+                                                "specific_deliverable":  "A Usage Test Log.",
+                                                "rubric":  "Translate abstract to procedural."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Developer",
+                                                "theory":  "Definition: Embodiment is technical translation into functional code. Procedural Link: The action is to engage in the technical translation of the spec into functional, running code that is physically deployed on a server.",
+                                                "specific_deliverable":  "A 3D Print Model.",
+                                                "rubric":  "Translate spec to code/object."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Researcher",
+                                                "theory":  "Definition: Embodiment is physical immersion in the field. Procedural Link: The action is to engage in the researcher\u0027s physical immersion in the field (N29) to gain an intuitive, contextual understanding of the subjects.",
+                                                "specific_deliverable":  "A User Trial Video.",
+                                                "rubric":  "Engage in physical immersion."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Craftsman",
+                                                "theory":  "Definition: Embodiment is the physical reality of the work. Procedural Link: The action is to focus on the physical reality of the work, or the performer’s mastery of the technical skill set (muscle memory).",
+                                                "specific_deliverable":  "A Comfort Assessment.",
+                                                "rubric":  "Focus on physical reality."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Practitioner",
+                                                "theory":  "Definition: Embodiment is mindful action. Procedural Link: The action is to focus on the Focused, Present-Moment Action (N164) that is a full expression of an internal value or principle.",
+                                                "specific_deliverable":  "A Design Ethics Review.",
+                                                "rubric":  "Focus on Focused, Present-Moment Action."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.8",
+                         "name":  "Enactment",
+                         "integrated_deliverable":  "A Live Demonstration.",
+                         "scenario":  "Presenting a new play.",
+                         "theory_application":  "Perform or execute a plan in real-time, bringing it to life and testing its viability in the real world.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Observer",
+                                                "theory":  "Definition: Enactment is the performative reality of running the experiment. Procedural Link: The action is to focus on the performative reality of running the experiment or operating the technical system.",
+                                                "specific_deliverable":  "A Tech Rehearsal Log.",
+                                                "rubric":  "Focus on performative reality."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Producer",
+                                                "theory":  "Definition: Enactment is deploying a feature to a staging server. Procedural Link: The action is to focus on the moment a feature is deployed to a staging server for internal testing.",
+                                                "specific_deliverable":  "A Dress Rehearsal.",
+                                                "rubric":  "Focus on deployment."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Critic",
+                                                "theory":  "Definition: Enactment is the act of writing or performing fieldwork. Procedural Link: The action is to focus on the act of writing (N27) or performing fieldwork (N29), bringing the abstract plan to reality.",
+                                                "specific_deliverable":  "A Performance Review.",
+                                                "rubric":  "Focus on act of performance."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Director",
+                                                "theory":  "Definition: Enactment is the live performance or public rehearsal. Procedural Link: The action is to focus on the live performance or public rehearsal of a piece.",
+                                                "specific_deliverable":  "A Live Performance.",
+                                                "rubric":  "Focus on live performance."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Audience",
+                                                "theory":  "Definition: Enactment is performing a relational ritual. Procedural Link: The action is to perform a relational ritual or ceremony in front of the community.",
+                                                "specific_deliverable":  "A Curtain Call.",
+                                                "rubric":  "Perform relational ritual."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.9",
+                         "name":  "Execution",
+                         "integrated_deliverable":  "A Implementation Review.",
+                         "scenario":  "Rolling out a new IT system.",
+                         "theory_application":  "Carry out the planned tasks with discipline, diligence, and attention to detail.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Engineer",
+                                                "theory":  "Definition: Execution is the disciplined and accurate carrying out of the structured plan. Procedural Link: The action is to focus on the disciplined and accurate carrying out of the structured plan from Tool 5.",
+                                                "specific_deliverable":  "A Deployment Log.",
+                                                "rubric":  "Focus on disciplined execution."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Execution is the diligent implementation of tasks. Procedural Link: The action is to focus on the diligent implementation of the prioritized tasks in the sprint backlog.",
+                                                "specific_deliverable":  "A Task Completion Report.",
+                                                "rubric":  "Focus on diligent implementation."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Analyst",
+                                                "theory":  "Definition: Execution is methodical gathering and recording of data. Procedural Link: The action is to focus on the methodical gathering and recording of data according to the research methodology.",
+                                                "specific_deliverable":  "A System Audit.",
+                                                "rubric":  "Focus on methodical gathering."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Technician",
+                                                "theory":  "Definition: Execution is the precise work of the craftsperson. Procedural Link: The action is to focus on the precise work of the craftsperson or the controlled movement of the performer.",
+                                                "specific_deliverable":  "A Configuration Check.",
+                                                "rubric":  "Focus on precise work."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The User",
+                                                "theory":  "Definition: Execution is the conscious performance of ethical duties. Procedural Link: The action is to focus on the conscious performance of ethical duties (Virtue) with full attention.",
+                                                "specific_deliverable":  "A User Acceptance Sign-off.",
+                                                "rubric":  "Focus on conscious performance."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.10",
+                         "name":  "Experiment",
+                         "integrated_deliverable":  "A Test Run Report.",
+                         "scenario":  "Testing a new marketing channel.",
+                         "theory_application":  "Conduct a controlled procedure to generate data, test a hypothesis, or validate an assumption.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Analyst",
+                                                "theory":  "Definition: Experiment is the formalized procedure to generate empirical data. Procedural Link: The action is to engage in the formalized procedure designed to generate empirical data to test a hypothesis (N26).",
+                                                "specific_deliverable":  "A Campaign Data Report.",
+                                                "rubric":  "Engage in procedure to generate data."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Marketer",
+                                                "theory":  "Definition: Experiment is building an MVP to test an assumption. Procedural Link: The action is to engage in building a Minimal Viable Product (MVP) or prototype to test a core user assumption.",
+                                                "specific_deliverable":  "A Pilot Campaign.",
+                                                "rubric":  "Engage in building MVP."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Researcher",
+                                                "theory":  "Definition: Experiment is an exploratory research step. Procedural Link: The action is to engage in an exploratory research step (e.g., conducting pilot interviews) to validate the methodology.",
+                                                "specific_deliverable":  "A Focus Group Report.",
+                                                "rubric":  "Engage in exploratory research."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Creative",
+                                                "theory":  "Definition: Experiment is a controlled study of material properties. Procedural Link: The action is to engage in a controlled study of material properties or a technical rehearsal of a design element.",
+                                                "specific_deliverable":  "A Creative A/B Test.",
+                                                "rubric":  "Engage in controlled study."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Community Manager",
+                                                "theory":  "Definition: Experiment is a small, safe-to-fail intervention. Procedural Link: The action is to engage in a small, safe-to-fail intervention in a community to test a new process.",
+                                                "specific_deliverable":  "A Community Feedback Log.",
+                                                "rubric":  "Engage in safe-to-fail intervention."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.11",
+                         "name":  "Fabrication",
+                         "integrated_deliverable":  "A Manufacturing Log.",
+                         "scenario":  "Producing a limited run of furniture.",
+                         "theory_application":  "Engage in the physical construction or assembly of components to create a finished object or system.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Engineer",
+                                                "theory":  "Definition: Fabrication is manufacturing or constructing physical components. Procedural Link: The action is to engage in the act of manufacturing or constructing the physical components of the solution or the experimental apparatus.",
+                                                "specific_deliverable":  "A Production Schedule.",
+                                                "rubric":  "Engage in manufacturing."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Fabrication is building server infrastructure. Procedural Link: The action is to engage in the building of the physical server infrastructure or the assembly of a hardware product.",
+                                                "specific_deliverable":  "A Supply Chain Log.",
+                                                "rubric":  "Engage in building infrastructure."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Planner",
+                                                "theory":  "Definition: Fabrication is collecting and organizing archival materials. Procedural Link: The action is to engage in the physical process of collecting and organizing archival materials (e.g., scanning, transcribing).",
+                                                "specific_deliverable":  "A Material Inventory.",
+                                                "rubric":  "Collect materials."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Craftsman",
+                                                "theory":  "Definition: Fabrication is making the final work. Procedural Link: The action is to focus on the making of the final work in its physical medium (e.g., welding, carving, casting).",
+                                                "specific_deliverable":  "A Quality Control Log.",
+                                                "rubric":  "Focus on making final work."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Artisan",
+                                                "theory":  "Definition: Fabrication is creating community infrastructure. Procedural Link: The action is to focus on the physical creation of community-based infrastructure (e.g., a shared garden, a public space).",
+                                                "specific_deliverable":  "A Workshop Safety Log.",
+                                                "rubric":  "Focus on creating infrastructure."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.12",
+                         "name":  "Fieldwork",
+                         "integrated_deliverable":  "A Field Note Repository.",
+                         "scenario":  "Studying urban wildlife.",
+                         "theory_application":  "Gather data and observations in a naturalistic setting, outside the controlled environment of the laboratory or office.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Biologist",
+                                                "theory":  "Definition: Fieldwork is gathering data in a naturalistic setting. Procedural Link: The action is to engage in the gathering of data in a naturalistic setting outside the controlled laboratory environment.",
+                                                "specific_deliverable":  "A Species Count Log.",
+                                                "rubric":  "Engage in gathering data."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Steve Blank - The Researcher",
+                                                "theory":  "Definition: Fieldwork is conducting ethnographic research. Procedural Link: The action is to conduct ethnographic research or usability testing of the product in the user\u0027s natural habitat (N29).",
+                                                "specific_deliverable":  "A Habitat Map.",
+                                                "rubric":  "Conduct ethnographic research."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Clifford Geertz - The Ethnographer",
+                                                "theory":  "Definition: Fieldwork is immersion within a community. Procedural Link: The action is to engage in the immersion of the researcher within a community or archival site to gather raw, qualitative data (N29).",
+                                                "specific_deliverable":  "A Behavioral Observation Note.",
+                                                "rubric":  "Engage in immersion."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Photographer",
+                                                "theory":  "Definition: Fieldwork is creating a site-specific installation. Procedural Link: The action is to create a site-specific installation or performance in its final, intended environment.",
+                                                "specific_deliverable":  "A Photo Essay.",
+                                                "rubric":  "Create site-specific installation."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Observer",
+                                                "theory":  "Definition: Fieldwork is on-site observation. Procedural Link: The action is to engage in on-site observation and engagement with the community or ecosystem to gather relational context.",
+                                                "specific_deliverable":  "A Community Interaction Log.",
+                                                "rubric":  "Engage in on-site observation."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.13",
+                         "name":  "Flow State",
+                         "integrated_deliverable":  "A Work Session Protocol.",
+                         "scenario":  "Coding a complex algorithm.",
+                         "theory_application":  "Design the work environment and task structure to facilitate a state of deep immersion, where challenge matches skill.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Mihaly Csikszentmihalyi - The Programmer",
+                                                "theory":  "Definition: Flow is the optimal state where challenge matches skill, leading to deep immersion. Procedural Link: The action is to design the experimental task to have a clear balance of challenge and skill to maximize the researcher\u0027s focused immersion.",
+                                                "specific_deliverable":  "A Coding Sprint Plan.",
+                                                "rubric":  "Design task balancing challenge/skill."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Mihaly Csikszentmihalyi - The Manager",
+                                                "theory":  "Definition: Flow is the optimal state where challenge matches skill. Procedural Link: The action is to eliminate distractions and ensure the task is clearly defined to allow the engineer to enter a state of deep, productive work.",
+                                                "specific_deliverable":  "A Focus Time Policy.",
+                                                "rubric":  "Eliminate distractions."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Mihaly Csikszentmihalyi - The Writer",
+                                                "theory":  "Definition: Flow is the optimal state where challenge matches skill. Procedural Link: The action is to structure the writing session to have immediate feedback (e.g., word count goals) to sustain the writer\u0027s focused immersion.",
+                                                "specific_deliverable":  "A Pomodoro Log.",
+                                                "rubric":  "Structure session with feedback."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Mihaly Csikszentmihalyi - The Artist",
+                                                "theory":  "Definition: Flow is the optimal state where challenge matches skill. Procedural Link: The action is to ensure the artist must set clear, immediate goals for the session to ensure the challenge matches their skill level, enabling flow.",
+                                                "specific_deliverable":  "A Daily Goal Sheet.",
+                                                "rubric":  "Set clear goals."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Mihaly Csikszentmihalyi - The Practitioner",
+                                                "theory":  "Definition: Flow is the optimal state where challenge matches skill. Procedural Link: The action is to design the ethical action to be challenging but achievable, allowing the individual to experience deep, mindful engagement.",
+                                                "specific_deliverable":  "A Mindfulness Log.",
+                                                "rubric":  "Design challenging/achievable action."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.14",
+                         "name":  "Fulfillment",
+                         "integrated_deliverable":  "A Completion Certificate.",
+                         "scenario":  "Completing a certification course.",
+                         "theory_application":  "Recognize and validate the successful completion of a task, project, or obligation.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Student",
+                                                "theory":  "Definition: Fulfillment is the successful completion of the protocol. Procedural Link: The action is to recognize the fulfillment as the successful completion of the experimental protocol or the build objective.",
+                                                "specific_deliverable":  "A Course Completion Record.",
+                                                "rubric":  "Recognize successful completion."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Instructor",
+                                                "theory":  "Definition: Fulfillment is the successful delivery of the sprint backlog. Procedural Link: The action is to recognize the fulfillment as the successful delivery of the agreed-upon tasks in the sprint backlog.",
+                                                "specific_deliverable":  "A Final Grade Report.",
+                                                "rubric":  "Recognize successful delivery."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Evaluator",
+                                                "theory":  "Definition: Fulfillment is the satisfactory completion of the first draft. Procedural Link: The action is to recognize the fulfillment as the satisfactory completion of the first draft or the planned data collection phase.",
+                                                "specific_deliverable":  "A Portfolio Review.",
+                                                "rubric":  "Recognize satisfactory completion."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Mentor",
+                                                "theory":  "Definition: Fulfillment is the successful realization of the final concept. Procedural Link: The action is to recognize the fulfillment as the successful realization of the final concept in its physical form.",
+                                                "specific_deliverable":  "A Skill Assessment.",
+                                                "rubric":  "Recognize successful realization."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Graduate",
+                                                "theory":  "Definition: Fulfillment is the perceived completion of an obligation. Procedural Link: The action is to recognize the fulfillment as the perceived completion of a communal obligation or ethical pledge.",
+                                                "specific_deliverable":  "A Graduation Certificate.",
+                                                "rubric":  "Recognize completion of obligation."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.15",
+                         "name":  "Guide: Coaching",
+                         "integrated_deliverable":  "A Mentorship Log.",
+                         "scenario":  "Mentoring a junior developer.",
+                         "theory_application":  "Support the development of another person through questioning, feedback, and guidance, rather than direct instruction.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Donald Schön - The Mentor",
+                                                "theory":  "Definition: Coaching involves reflection-in-action and minimal intervention. Procedural Link: The action is to guide the junior researcher by asking \u0027What if\u0027 questions that prompt them to reflect on their actions and self-correct.",
+                                                "specific_deliverable":  "A Code Review Comment Log.",
+                                                "rubric":  "Guide via \u0027What if\u0027 questions."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Coach",
+                                                "theory":  "Definition: Coaching involves reflection-in-action and minimal intervention. Procedural Link: The action is to help the team get unstuck by asking probing questions (the Coaching Loop Path) rather than providing the solution.",
+                                                "specific_deliverable":  "A 1:1 Meeting Agenda.",
+                                                "rubric":  "Help via probing questions."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Teacher",
+                                                "theory":  "Definition: Coaching involves reflection-in-action and minimal intervention. Procedural Link: The action is to prompt a writer to articulate their tacit struggle during the drafting process to make the problem explicit and solvable.",
+                                                "specific_deliverable":  "A Learning Plan.",
+                                                "rubric":  "Prompt articulation of struggle."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Liz Lerman - The Critic",
+                                                "theory":  "Definition: The CRP gives the artist agency over the critique process. Procedural Link: The action is to offer minimal, precise feedback to a performer to help them realize their own intention, not the coach\u0027s.",
+                                                "specific_deliverable":  "A Feedback Summary.",
+                                                "rubric":  "Offer minimal, precise feedback."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Paulo Freire - The Guide",
+                                                "theory":  "Definition: Freire advocates for \u0027problem-posing\u0027 education. Procedural Link: The action is to guide a novice through a difficult social action by modeling humility and asking questions that build their critical awareness.",
+                                                "specific_deliverable":  "A Growth Goal Sheet.",
+                                                "rubric":  "Guide via humility/questions."
+                                            },
+                                            {
+                                                "domain":  "Pedagogy",
+                                                "rubric":  "Minimizes teacher talk.",
+                                                "specific_deliverable":  "A TTT Audit.",
+                                                "expert":  "CELTA",
+                                                "theory":  "Teacher Talking Time (TTT). Procedural Link: Measure and minimize TTT to maximize Student Talking Time (STT)."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.16",
+                         "name":  "Implementation",
+                         "integrated_deliverable":  "A Deployment Record.",
+                         "scenario":  "Installing a new HVAC system.",
+                         "theory_application":  "Execute the specific technical tasks required to put a plan into effect.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Engineer",
+                                                "theory":  "Definition: Implementation is the specific technical work of deployment. Procedural Link: The action is to focus on the specific technical work of coding, configuration, and deployment of the planned solution.",
+                                                "specific_deliverable":  "An Installation Log.",
+                                                "rubric":  "Focus on technical work."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Implementation is the technical process of writing and deploying code. Procedural Link: The action is to focus on the technical process of writing and deploying the code that realizes the agreed-upon features.",
+                                                "specific_deliverable":  "A Commissioning Report.",
+                                                "rubric":  "Focus on writing/deploying."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Planner",
+                                                "theory":  "Definition: Implementation is the act of writing the core argument. Procedural Link: The action is to focus on the act of writing the core argument into prose or executing a complex data analysis script.",
+                                                "specific_deliverable":  "A User Manual.",
+                                                "rubric":  "Focus on writing argument."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Technician",
+                                                "theory":  "Definition: Implementation is the detailed work of production. Procedural Link: The action is to focus on the detailed work of production, such as assembling components or performing technical post-production.",
+                                                "specific_deliverable":  "A Quality Check Sheet.",
+                                                "rubric":  "Focus on detailed production."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The User",
+                                                "theory":  "Definition: Implementation is the specific, technical deployment of a safeguard. Procedural Link: The action is to focus on the specific, technical deployment of a social or ethical safeguard (e.g., setting up a secure data system).",
+                                                "specific_deliverable":  "A Safety Compliance Report.",
+                                                "rubric":  "Focus on deployment of safeguard."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.17",
+                         "name":  "Kaizen",
+                         "integrated_deliverable":  "A Continuous Improvement Log.",
+                         "scenario":  "Improving a manufacturing line.",
+                         "theory_application":  "Continuously improve processes through small, incremental changes to reduce waste and increase efficiency.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Taiichi Ohno - The Manager",
+                                                "theory":  "Definition: Kaizen is continuous, incremental improvement. Procedural Link: The action is to implement continuous, incremental improvement to experimental procedures and protocols based on daily observations.",
+                                                "specific_deliverable":  "A Kaizen Event Report.",
+                                                "rubric":  "Implement continuous improvement."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Taiichi Ohno - The Analyst",
+                                                "theory":  "Definition: Kaizen is continuous, incremental improvement. Procedural Link: The action is to focus on the ongoing commitment to optimizing and reducing waste in the entire value stream of the business (Lean).",
+                                                "specific_deliverable":  "A Waste Reduction Log.",
+                                                "rubric":  "Focus on optimizing/reducing waste."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Planner",
+                                                "theory":  "Definition: Kaizen is continuous, incremental improvement. Procedural Link: The action is to focus on the continuous, small-scale refinement of writing style, argument clarity, or research habits.",
+                                                "specific_deliverable":  "A Process Change Request.",
+                                                "rubric":  "Focus on refinement of style."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Craftsman",
+                                                "theory":  "Definition: Kaizen is continuous, incremental improvement. Procedural Link: The action is to focus on the ongoing nurturing and refinement of craft mastery through deliberate practice and focused iteration.",
+                                                "specific_deliverable":  "A Skill Development Plan.",
+                                                "rubric":  "Focus on nurturing mastery."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Taiichi Ohno - The Leader",
+                                                "theory":  "Definition: Kaizen is continuous, incremental improvement. Procedural Link: The action is to focus on the dedication to continuous improvement in social processes and ethical governance.",
+                                                "specific_deliverable":  "A Team Feedback Form.",
+                                                "rubric":  "Focus on improvement in governance."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.18",
+                         "name":  "Focused, Present-Moment Action",
+                         "integrated_deliverable":  "A Focus Log.",
+                         "scenario":  "Performing a delicate surgery.",
+                         "theory_application":  "Perform tasks with full, conscious attention and intention, avoiding distraction and automaticity.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Surgeon",
+                                                "theory":  "Definition: Mindful action is performing a task with full, focused attention. Procedural Link: The action is to perform the experimental protocol with full, focused attention and intention, not mindlessly.",
+                                                "specific_deliverable":  "A Surgical Checklist.",
+                                                "rubric":  "Perform protocol with attention."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Mihaly Csikszentmihalyi - The Nurse",
+                                                "theory":  "Definition: Mindful action is performing a task with full, focused attention. Procedural Link: The action is to code or build with full attention, setting conscious triggers (N-CBT-5) to avoid multitasking or distractions.",
+                                                "specific_deliverable":  "A Procedure Log.",
+                                                "rubric":  "Set conscious triggers."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Observer",
+                                                "theory":  "Definition: Mindful action is performing a task with full, focused attention. Procedural Link: The action is to write or read with full concentration, noting personal emotional and cognitive responses (Process Journal - N31).",
+                                                "specific_deliverable":  "A Patient Vitals Record.",
+                                                "rubric":  "Note personal responses."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Anesthesiologist",
+                                                "theory":  "Definition: Mindful action is performing a task with full, focused attention. Procedural Link: The action is to engage in the creation or performance with present moment awareness. (N164)",
+                                                "specific_deliverable":  "A Monitoring Log.",
+                                                "rubric":  "Engage with present awareness."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Team",
+                                                "theory":  "Definition: Mindful action is performing a task with full, focused attention. Procedural Link: The action is to perform an action with full presence and ethical intent (Karma Yoga). (N164)",
+                                                "specific_deliverable":  "A Post-Op Debrief.",
+                                                "rubric":  "Perform with presence/intent."
+                                            },
+                                            {
+                                                "domain":  "Software Engineering",
+                                                "rubric":  "Demonstrates paired execution.",
+                                                "specific_deliverable":  "A Pairing Session Log.",
+                                                "expert":  "XP (Extreme Programming)",
+                                                "theory":  "Pair Programming. Procedural Link: Two people work on one workstation to improve quality and focus."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.19",
+                         "name":  "Practice",
+                         "integrated_deliverable":  "A Training Schedule.",
+                         "scenario":  "Preparing for a marathon.",
+                         "theory_application":  "Engage in deliberate, repetitive effort to improve skill and performance.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "K. Anders Ericsson - The Athlete",
+                                                "theory":  "Definition: Deliberate Practice is focused effort to refine a technique. Procedural Link: The action is to engage in the iterative, focused effort to refine a technique, experiment, or procedure to the point of mastery.",
+                                                "specific_deliverable":  "A Training Log.",
+                                                "rubric":  "Engage in effort to refine."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Coach",
+                                                "theory":  "Definition: Practice is the regular effort of building and testing code. Procedural Link: The action is to engage in the regular effort of building and testing code, often through deliberate, repetitive training sessions.",
+                                                "specific_deliverable":  "A Performance Chart.",
+                                                "rubric":  "Engage in deliberate training."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Analyst",
+                                                "theory":  "Definition: Practice is the dedicated routine of drafting and editing. Procedural Link: The action is to engage in the dedicated, focused routine of drafting, editing, and fact-checking.",
+                                                "specific_deliverable":  "A Diet Plan.",
+                                                "rubric":  "Engage in routine."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "K. Anders Ericsson - The Runner",
+                                                "theory":  "Definition: Deliberate Practice is focused effort to refine a technique. Procedural Link: The action is to engage in the dedicated repetition of technical skills or performance routines (N30) to achieve mastery (Deliberate Practice - N165).",
+                                                "specific_deliverable":  "A Split Times Record.",
+                                                "rubric":  "Engage in repetition."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Team",
+                                                "theory":  "Definition: Practice is the disciplined engagement in dialogue. Procedural Link: The action is to engage in the disciplined engagement in community dialogue or self-inquiry (N81).",
+                                                "specific_deliverable":  "A Race Strategy.",
+                                                "rubric":  "Engage in disciplined dialogue."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.20",
+                         "name":  "Prototyping",
+                         "integrated_deliverable":  "A Prototype Iteration.",
+                         "scenario":  "Designing a new kitchen gadget.",
+                         "theory_application":  "Create a preliminary model or version of a product to test concepts and gather feedback.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Inventor",
+                                                "theory":  "Definition: Prototyping is building a minimal test of a hypothesis. Procedural Link: The action is to engage in building a minimal, low-fidelity test of an experimental design or technical hypothesis. (N28)",
+                                                "specific_deliverable":  "A Cardboard Mockup.",
+                                                "rubric":  "Engage in building minimal test."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Entrepreneur",
+                                                "theory":  "Definition: Prototyping is building an MVP to test an assumption. Procedural Link: The action is to engage in building a Minimal Viable Product (MVP) or prototype to test a core user assumption.",
+                                                "specific_deliverable":  "A 3D Printed Prototype.",
+                                                "rubric":  "Engage in building MVP."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Researcher",
+                                                "theory":  "Definition: Prototyping is creating a low-fidelity mock-up. Procedural Link: The action is to engage in creating a low-fidelity mock-up of an interactive or media-driven academic work.",
+                                                "specific_deliverable":  "A User Test Script.",
+                                                "rubric":  "Engage in creating mock-up."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Designer",
+                                                "theory":  "Definition: Prototyping is creating a small-scale model. Procedural Link: The action is to engage in creating a small-scale model (maquette) or a rapid, disposable sketch of a final design.",
+                                                "specific_deliverable":  "A Functional Model.",
+                                                "rubric":  "Engage in creating model."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The User",
+                                                "theory":  "Definition: Prototyping is building a small, safe-to-fail model. Procedural Link: The action is to engage in building a small, safe-to-fail model of a new social process.",
+                                                "specific_deliverable":  "A Feedback Form.",
+                                                "rubric":  "Engage in building safe-to-fail model."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.21",
+                         "name":  "Rehearsal",
+                         "integrated_deliverable":  "A Dry Run Video.",
+                         "scenario":  "Preparing for a TED talk.",
+                         "theory_application":  "Practice a performance or procedure in advance to ensure readiness and identify issues.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Speaker",
+                                                "theory":  "Definition: Rehearsal is practicing a complex procedure. Procedural Link: The action is to engage in practicing a complex lab procedure to ensure accuracy and reduce error rates before the final experiment.",
+                                                "specific_deliverable":  "A Practice Recording.",
+                                                "rubric":  "Engage in practicing procedure."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Coach",
+                                                "theory":  "Definition: Rehearsal is a \u0027dry run\u0027 of the demo. Procedural Link: The action is to engage in a \u0027dry run\u0027 of the product demo or pitch to prepare for the Sprint Review.",
+                                                "specific_deliverable":  "A Timing Log.",
+                                                "rubric":  "Engage in \u0027dry run\u0027."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Critic",
+                                                "theory":  "Definition: Rehearsal is practicing the delivery of a defense. Procedural Link: The action is to engage in practicing the delivery of a conference paper or thesis defense in front of peers.",
+                                                "specific_deliverable":  "A Slide Deck Review.",
+                                                "rubric":  "Engage in practicing delivery."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Performer",
+                                                "theory":  "Definition: Rehearsal is the dedicated practice of a performance piece. Procedural Link: The action is to engage in the dedicated, iterative practice of a performance piece to achieve technical accuracy and expressive depth. (N30)",
+                                                "specific_deliverable":  "A Body Language Critique.",
+                                                "rubric":  "Engage in practice of performance."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Audience",
+                                                "theory":  "Definition: Rehearsal is practicing a dialogue protocol. Procedural Link: The action is to engage in practicing a community dialogue protocol or a social intervention in a safe setting.",
+                                                "specific_deliverable":  "A Q\u0026A Prep Sheet.",
+                                                "rubric":  "Engage in practicing protocol."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.22",
+                         "name":  "Service",
+                         "integrated_deliverable":  "An Impact Report.",
+                         "scenario":  "Running a food bank.",
+                         "theory_application":  "Perform actions with the primary intention of benefiting others or a larger cause.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Volunteer",
+                                                "theory":  "Definition: Service is performing the action to serve the greater goal. Procedural Link: The action is to ensure the action is performed to serve the greater scientific goal or the needs of the funding body/public.",
+                                                "specific_deliverable":  "A Distribution Log.",
+                                                "rubric":  "Ensure action serves goal."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Service is performing the work to serve the customer. Procedural Link: The action is to ensure the core belief that the work is performed to serve the customer by solving a real problem.",
+                                                "specific_deliverable":  "A Client Feedback Survey.",
+                                                "rubric":  "Ensure work serves customer."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Planner",
+                                                "theory":  "Definition: Service is scholarly work framed as a public service. Procedural Link: The action is to ensure the scholarly work is framed as a service to public discourse or the communities of study.",
+                                                "specific_deliverable":  "A Community Needs Assessment.",
+                                                "rubric":  "Ensure work serves discourse."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Worker",
+                                                "theory":  "Definition: Service is the art piece created as a service to its mission. Procedural Link: The action is to ensure the art piece is created as a service to its cultural mission or patron\u0027s intent.",
+                                                "specific_deliverable":  "A Volunteer Schedule.",
+                                                "rubric":  "Ensure piece serves mission."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Leader",
+                                                "theory":  "Definition: Service is the core value that all work is performed as an act of service. Procedural Link: The action is to ensure the core value that all work is performed as an act of service to the community and environment.",
+                                                "specific_deliverable":  "An Annual Report.",
+                                                "rubric":  "Ensure work serves community."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.23",
+                         "name":  "Storywork",
+                         "integrated_deliverable":  "A Narrative Update.",
+                         "scenario":  "Pitching a documentary.",
+                         "theory_application":  "Use narrative structures to organize information, communicate meaning, and engage others.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Storyteller",
+                                                "theory":  "Definition: Storywork is framing the process as a narrative. Procedural Link: The action is to frame the process of execution as a linear narrative or a procedural story.",
+                                                "specific_deliverable":  "A Story Arc Outline.",
+                                                "rubric":  "Frame process as narrative."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Producer",
+                                                "theory":  "Definition: Storywork is using narrative in status updates. Procedural Link: The action is to use narrative techniques in stand-ups or status updates to contextualize the work for the team.",
+                                                "specific_deliverable":  "A Pitch Deck.",
+                                                "rubric":  "Use narrative in updates."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Shawn Wilson - The Director",
+                                                "theory":  "Definition: Storywork is enacting knowledge through cultural stories. Procedural Link: The action is to engage in the indigenous practice of enacting knowledge through the telling and embodiment of cultural stories.",
+                                                "specific_deliverable":  "A Character Profile.",
+                                                "rubric":  "Engage in enacting knowledge."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Martha Graham - The Editor",
+                                                "theory":  "Definition: Storywork is the performative act of telling the story. Procedural Link: The action is to engage in the performative act of telling the story of the work\u0027s creation.",
+                                                "specific_deliverable":  "A Trailer Script.",
+                                                "rubric":  "Engage in telling story."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Shawn Wilson - The Subject",
+                                                "theory":  "Definition: Storywork is the ceremonial practice of working with stories. Procedural Link: The action is to engage in the ceremonial practice of working with stories to renew relationships and transmit integrated knowledge.",
+                                                "specific_deliverable":  "A Release Form.",
+                                                "rubric":  "Engage in ceremonial practice."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.24",
+                         "name":  "Tinkering",
+                         "integrated_deliverable":  "An Exploration Journal.",
+                         "scenario":  "Hacking a new gadget.",
+                         "theory_application":  "Engage in unstructured, playful experimentation with materials or systems to discover new possibilities.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Hacker",
+                                                "theory":  "Definition: Tinkering is unstructured, exploratory interaction. Procedural Link: The action is to engage in unstructured, exploratory interaction with materials or tools to discover new effects or solutions not covered by the plan.",
+                                                "specific_deliverable":  "A Teardown Log.",
+                                                "rubric":  "Engage in unstructured interaction."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Eric Ries - The Maker",
+                                                "theory":  "Definition: Tinkering is exploratory coding. Procedural Link: The action is to engage in unstructured, exploratory coding or experimentation with technical solutions outside of the main plan (e.g., a \u0027hackathon\u0027).",
+                                                "specific_deliverable":  "A Breadboard Prototype.",
+                                                "rubric":  "Engage in exploratory coding."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The Researcher",
+                                                "theory":  "Definition: Tinkering is playful, non-goal-oriented engagement. Procedural Link: The action is to engage in playful, non-goal-oriented engagement with sources that may lead to unexpected interpretive breakthroughs.",
+                                                "specific_deliverable":  "A Code Snippet Library.",
+                                                "rubric":  "Engage in playful engagement."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Designer",
+                                                "theory":  "Definition: Tinkering is playful, unstructured creation. Procedural Link: The action is to engage in playful, unstructured creation with materials that is often the source of novel ideas.",
+                                                "specific_deliverable":  "A Feature Wishlist.",
+                                                "rubric":  "Engage in playful creation."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The User",
+                                                "theory":  "Definition: Tinkering is improvisational adaptation. Procedural Link: The action is to engage in improvisational adaptation of a protocol in response to an emergent social reality.",
+                                                "specific_deliverable":  "A Hackathon Report.",
+                                                "rubric":  "Engage in improvisational adaptation."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.25",
+                         "name":  "Virtue",
+                         "integrated_deliverable":  "A Code of Conduct Assessment.",
+                         "scenario":  "Evaluating a team\u0027s performance.",
+                         "theory_application":  "Cultivate and demonstrate moral excellence and character in action.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Richard Feynman - The Leader",
+                                                "theory":  "Definition: Virtue is the consistent practice of professional excellence. Procedural Link: The action is to focus on the consistent practice of professional excellence, diligence, and intellectual honesty in the execution of the protocol.",
+                                                "specific_deliverable":  "A Performance Review.",
+                                                "rubric":  "Focus on professional excellence."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Jeff Sutherland - The Manager",
+                                                "theory":  "Definition: Virtue is the consistent practice of craftsmanship. Procedural Link: The action is to focus on the consistent practice of craftsmanship, quality, and team collaboration during the sprint.",
+                                                "specific_deliverable":  "A Team Values Survey.",
+                                                "rubric":  "Focus on craftsmanship/quality."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Donald Schön - The HR",
+                                                "theory":  "Definition: Virtue is the consistent practice of intellectual humility. Procedural Link: The action is to focus on the consistent practice of intellectual humility and ethical conduct during fieldwork and drafting.",
+                                                "specific_deliverable":  "A Culture Audit.",
+                                                "rubric":  "Focus on intellectual humility."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Richard Sennett - The Mentor",
+                                                "theory":  "Definition: Virtue is the consistent practice of integrity to the material. Procedural Link: The action is to focus on the consistent practice of integrity to the material and commitment to craft mastery.",
+                                                "specific_deliverable":  "A Code of Conduct.",
+                                                "rubric":  "Focus on integrity to material."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "M. M. Bakhtin - The Member",
+                                                "theory":  "Definition: Virtue is the conscious cultivation of moral character. Procedural Link: The action is to focus on the conscious cultivation of moral character (e.g., patience, courage, generosity) through daily action.",
+                                                "specific_deliverable":  "A Self-Assessment.",
+                                                "rubric":  "Focus on moral character."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.26",
+                         "name":  "Friction",
+                         "integrated_deliverable":  "A Blocker Log.",
+                         "scenario":  "A team slowing down mid-project.",
+                         "theory_application":  "Treat the feeling of difficulty or resistance not as a personal failure, but as a signal that the tool, process, or plan is misaligned with the reality of the work.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Fluid Dynamics - The Physicist",
+                                                "theory":  "Definition: Friction is the resistance to motion. Procedural Link: The action is to measure the energy loss in the system and identify the specific point of contact causing the heat.",
+                                                "specific_deliverable":  "An Energy Loss Audit.",
+                                                "rubric":  "Identifies point of energy loss."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "User Experience - The Designer",
+                                                "theory":  "Definition: Friction is anything that prevents a user from achieving their goal. Procedural Link: The action is to identify the specific UI step where users drop off.",
+                                                "specific_deliverable":  "A Drop-off Analysis.",
+                                                "rubric":  "Identifies UI drop-off point."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Writer\u0027s Block - The Author",
+                                                "theory":  "Definition: Resistance is a sign of a structural problem. Procedural Link: The action is to stop writing and check the outline; the friction usually means the argument is flawed.",
+                                                "specific_deliverable":  "A Structural Health Check.",
+                                                "rubric":  "Checks outline when stuck."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "The Medium - The Sculptor",
+                                                "theory":  "Definition: Truth to Materials. Procedural Link: The action is to notice where the material resists the tool. Stop forcing it and change the angle of approach.",
+                                                "specific_deliverable":  "A Material Response Log.",
+                                                "rubric":  "Changes approach based on resistance."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Conflict Transformation - The Mediator",
+                                                "theory":  "Definition: Friction is information about unmet needs. Procedural Link: The action is to treat interpersonal conflict as a signal that a boundary has been crossed.",
+                                                "specific_deliverable":  "A Needs Assessment.",
+                                                "rubric":  "Treats conflict as signal."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.27",
+                         "name":  "Velocity",
+                         "integrated_deliverable":  "A Progress Chart.",
+                         "scenario":  "Tracking a sprint.",
+                         "theory_application":  "Measure the rate of progress to predict completion and adjust scope, focusing on the direction of movement as much as the speed.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "Rate of Reaction - The Chemist",
+                                                "theory":  "Definition: Kinetics measures how fast a reaction proceeds. Procedural Link: The action is to monitor the rate of data collection to ensure statistical significance is reached before funding runs out.",
+                                                "specific_deliverable":  "A Data Acquisition Rate Graph.",
+                                                "rubric":  "Monitors rate vs. deadline."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Scrum - The Master",
+                                                "theory":  "Definition: Velocity is the amount of work completed in a sprint. Procedural Link: The action is to calculate the average points completed to forecast future delivery dates.",
+                                                "specific_deliverable":  "A Burndown Chart.",
+                                                "rubric":  "Calculates average points."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Word Count - The Novelist",
+                                                "theory":  "Definition: Daily output tracks momentum. Procedural Link: The action is to track daily word count to maintain the habit of production, regardless of quality.",
+                                                "specific_deliverable":  "A Daily Word Log.",
+                                                "rubric":  "Tracks daily output."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Tempo - The Musician",
+                                                "theory":  "Definition: Tempo controls the energy of the performance. Procedural Link: The action is to regulate the speed of execution to ensure precision and expression.",
+                                                "specific_deliverable":  "A Metronome Setting.",
+                                                "rubric":  "Regulates speed for precision."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Social Movements - The Organizer",
+                                                "theory":  "Definition: Momentum is the visible energy of the movement. Procedural Link: The action is to track the rate of new sign-ups or donations to gauge the health of the campaign.",
+                                                "specific_deliverable":  "A Growth Rate Tracker.",
+                                                "rubric":  "Tracks participation rate."
+                                            },
+                                            {
+                                                "domain":  "Project Management",
+                                                "rubric":  "Calculates CPI/SPI.",
+                                                "specific_deliverable":  "An EVM Forecast.",
+                                                "expert":  "PMP",
+                                                "theory":  "Earned Value Management (EVM). Procedural Link: Use CPI and SPI indices to mathematically forecast project completion."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.28",
+                         "name":  "Cognitive Load",
+                         "integrated_deliverable":  "A Complexity Audit.",
+                         "scenario":  "Designing a dashboard.",
+                         "theory_application":  "Manage the amount of working memory resources used, ensuring that the task difficulty does not exceed the practitioner\u0027s or user\u0027s capacity.",
+                         "variations":  [
+                                            {
+                                                "domain":  "Science",
+                                                "expert":  "John Sweller - The Psychologist",
+                                                "theory":  "Definition: Cognitive Load Theory (Intrinsic, Extraneous, Germane). Procedural Link: The action is to remove extraneous load (bad UI) to free up capacity for germane load (learning).",
+                                                "specific_deliverable":  "An Interface Simplification Plan.",
+                                                "rubric":  "Removes extraneous load."
+                                            },
+                                            {
+                                                "domain":  "Business",
+                                                "expert":  "Productivity - The Manager",
+                                                "theory":  "Definition: Context switching destroys productivity. Procedural Link: The action is to batch similar tasks to reduce the \u0027switching cost\u0027 on the brain.",
+                                                "specific_deliverable":  "A Time-Blocking Schedule.",
+                                                "rubric":  "Batches similar tasks."
+                                            },
+                                            {
+                                                "domain":  "Humanities",
+                                                "expert":  "Reading Science - The Editor",
+                                                "theory":  "Definition: Readability scores estimate processing effort. Procedural Link: The action is to simplify sentence structure to ensure the reader has the energy to process the complex argument.",
+                                                "specific_deliverable":  "A Readability Score Report.",
+                                                "rubric":  "Simplifies structure for clarity."
+                                            },
+                                            {
+                                                "domain":  "Arts",
+                                                "expert":  "Gestalt - The Designer",
+                                                "theory":  "Definition: The brain seeks simple patterns. Procedural Link: The action is to group visual elements to reduce the number of individual units the eye must process.",
+                                                "specific_deliverable":  "A Grouping Strategy.",
+                                                "rubric":  "Groups elements to reduce load."
+                                            },
+                                            {
+                                                "domain":  "Culture",
+                                                "expert":  "Accessibility - The Advocate",
+                                                "theory":  "Definition: Spoon Theory. Procedural Link: The action is to design the process so that people with limited energy (chronic illness, stress) can still participate.",
+                                                "specific_deliverable":  "An Accessibility Audit.",
+                                                "rubric":  "Designs for limited energy."
+                                            }
+                                        ]
+                     },
+                     {
+                         "id":  "T6.29",
+                         "name":  "Little\u0027s Law",
+                         "integrated_deliverable":  "A Flow Efficiency Analysis.",
+                         "variations":  [
+                                            {
+                                                "expert":  "John Little",
+                                                "domain":  "Lean/Kanban",
+                                                "theory":  "WIP = Throughput * Cycle Time. Procedural Link: Reduce Work In Progress (WIP) to decrease Cycle Time.",
+                                                "specific_deliverable":  "A Flow Optimization Plan.",
+                                                "rubric":  "Calculates WIP/Cycle Time relationship."
+                                            }
+                                        ],
+                         "scenario":  "Debugging a slow support queue.",
+                         "theory_application":  "Use the mathematical relationship between WIP, Throughput, and Cycle Time to optimize flow."
+                     },
+                     {
+                         "id":  "T6.DT.1",
+                         "name":  "Minimum Viable Product (MVP)",
+                         "integrated_deliverable":  "A Validated Learning Artifact.",
+                         "variations":  [
+                                            {
+                                                "expert":  "Steve Blank - The Founder",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: MVP is for learning, not scaling. Procedural Link: Build a \u0027Concierge\u0027 or \u0027Wizard of Oz\u0027 prototype to test value before building technology.",
+                                                "specific_deliverable":  "A Concierge Prototype.",
+                                                "rubric":  "Optimized for learning, not scale."
+                                            }
+                                        ],
+                         "scenario":  "Testing a new food delivery service.",
+                         "theory_application":  "Build the smallest version of the product that allows you to complete the \u0027Build-Measure-Learn\u0027 loop with minimum effort."
+                     }
+                 ]
+}
