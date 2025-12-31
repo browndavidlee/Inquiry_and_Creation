@@ -1,0 +1,869 @@
+﻿{
+  "_metadata": {
+    "schema_version": "4.0",
+    "file_type": "process_models_master",
+    "context": "Integrated Framework for Inquiry and Creation",
+    "purpose": "To provide a multi-modal governance system that allows users to toggle between Universal (Accessible) and Expert (Domain-Specific) protocols.",
+    "modes": ["universal_rigorous", "universal_adaptive", "expert_nasa", "expert_agile"]
+  },
+  "universal_rigorous": [
+    {
+      "id": "ICD-T1-T2",
+      "name": "The Definition Gate",
+      "source_tool": "T1: Define the Inquiry",
+      "target_tool": "T2: Research and Plan",
+      "trigger_event": "Completion of Initial Scoping",
+      "payload_artifact": "Project Definition Statement",
+      "data_schema": {
+        "guiding_question": "String (The core inquiry)",
+        "identified_anomaly": "String (The signal or gap driving the work)",
+        "stakeholder_map": "List<Stakeholder> (Who is affected/involved)",
+        "capability_gap": "String (Current state vs. Desired state)",
+        "success_criteria_draft": "List<Metric> (Initial definition of success)"
+      },
+      "protocol": {
+        "method": "Concept Review Meeting",
+        "gatekeeper": "Program Authority / Lead Inquirer"
+      },
+      "acceptance_criteria": [
+        "Is the Guiding Question specific enough to guide action but open enough to allow discovery?",
+        "Is the need/gap defined by evidence, not just opinion?",
+        "Have all critical stakeholders (human and non-human) been identified?"
+      ],
+      "rejection_policy": "Return to T1 for 'Reframing' if the gap is ill-defined."
+    },
+    {
+      "id": "ICD-T2-T3",
+      "name": "The Constraints Gate",
+      "source_tool": "T2: Research and Plan",
+      "target_tool": "T3: Generate Options",
+      "trigger_event": "Completion of Contextual Analysis",
+      "payload_artifact": "Baseline Development Plan",
+      "data_schema": {
+        "definition_of_done": "List<Criteria> (Binary Success Metrics)",
+        "constraints_matrix": "Object (Time, Budget, Ethics, Physics/Medium)",
+        "knowledge_gap_analysis": "Summary (What is known vs. unknown)",
+        "complexity_assessment": "String (Clear, Complicated, Complex, Chaotic)"
+      },
+      "protocol": {
+        "method": "Requirements Review",
+        "gatekeeper": "Quality Authority / Facilitator"
+      },
+      "acceptance_criteria": [
+        "Are the constraints explicit and non-negotiable?",
+        "Is the Definition of Done binary (Pass/Fail)?",
+        "Does the plan account for the identified level of complexity?"
+      ],
+      "rejection_policy": "Return to T2 if constraints are ambiguous or resources are insufficient."
+    },
+    {
+      "id": "ICD-T3-T4",
+      "name": "The Options Gate",
+      "source_tool": "T3: Generate Options",
+      "target_tool": "T4: Select a Course of Action",
+      "trigger_event": "Completion of Ideation Phase",
+      "payload_artifact": "Options Portfolio",
+      "data_schema": {
+        "alternatives_list": "List<Option> (Minimum 3 distinct approaches)",
+        "decision_tree": "Visual Graph (Branches of possibility)",
+        "risk_profile_per_option": "Object (Pros, Cons, Unknowns)",
+        "safe_to_fail_probes": "List<Experiment> (Low-cost tests)"
+      },
+      "protocol": {
+        "method": "Options Review / Trade Study",
+        "gatekeeper": "Strategic Lead / Analyst"
+      },
+      "acceptance_criteria": [
+        "Are the options truly distinct (structural variety)?",
+        "Do the options address the Gap defined in T1?",
+        "Is the risk profile for each option based on data or logic, not just feeling?"
+      ],
+      "rejection_policy": "Return to T3 if options are variations of a single theme (premature convergence)."
+    },
+    {
+      "id": "ICD-T4-T5",
+      "name": "The Baseline Gate",
+      "source_tool": "T4: Select a Course of Action",
+      "target_tool": "T5: Structure the Solution",
+      "trigger_event": "Key Decision Point (Selection)",
+      "payload_artifact": "Decision Memorandum",
+      "data_schema": {
+        "selected_approach": "String (The chosen path)",
+        "decision_logic": "Text (Rationale for selection)",
+        "rejected_alternatives_log": "List<Option> (With rationale for rejection)",
+        "frozen_requirements": "List<Requirement> (The Scope Baseline)"
+      },
+      "protocol": {
+        "method": "Design Review / Commitment Ritual",
+        "gatekeeper": "Convening Authority / Project Lead"
+      },
+      "acceptance_criteria": [
+        "Is the rationale for rejection of alternatives documented?",
+        "Does the selected path logically meet the Success Criteria?",
+        "Is the team aligned (Disagree and Commit)?"
+      ],
+      "rejection_policy": "Return to T4 if the decision logic is weak or consensus is fake."
+    },
+    {
+      "id": "ICD-T5-T6",
+      "name": "The Blueprint Gate",
+      "source_tool": "T5: Structure the Solution",
+      "target_tool": "T6: Execute the Plan",
+      "trigger_event": "Pre-Execution Review",
+      "payload_artifact": "Execution Specification",
+      "data_schema": {
+        "component_breakdown": "Tree (Hierarchical list of parts/chapters/tasks)",
+        "interface_definitions": "List<Protocol> (How parts connect)",
+        "work_sequence": "List<Task> (Ordered steps)",
+        "acceptance_test_plan": "List<Test> (How to verify T6 output)"
+      },
+      "protocol": {
+        "method": "Handoff Ritual / Pre-Build Briefing",
+        "gatekeeper": "Execution Lead / Builder"
+      },
+      "acceptance_criteria": [
+        "Is the breakdown complete (no orphan components)?",
+        "Are the interfaces/connections unambiguous?",
+        "Can a stranger execute this plan without asking the author questions?"
+      ],
+      "rejection_policy": "Return to T5 if the spec contains ambiguity ('TBD')."
+    },
+    {
+      "id": "ICD-T6-T7",
+      "name": "The Artifact Gate",
+      "source_tool": "T6: Execute the Plan",
+      "target_tool": "T7: Analyze and Revise",
+      "trigger_event": "Completion of Draft / Prototype",
+      "payload_artifact": "As-Built Artifact",
+      "data_schema": {
+        "physical_digital_artifact": "Object (The Work itself)",
+        "deviation_log": "List<Deviation> (Differences between Plan and Reality)",
+        "version_record": "String (Draft # / Version #)",
+        "raw_performance_data": "Dataset (Observations, feedback, metrics)"
+      },
+      "protocol": {
+        "method": "Readiness Review",
+        "gatekeeper": "Quality Authority / Editor / Tester"
+      },
+      "acceptance_criteria": [
+        "Is the artifact stable enough to be reviewed?",
+        "Are all known deviations logged?",
+        "Is the version clearly identified?"
+      ],
+      "rejection_policy": "Return to T6 if the artifact is too unstable/incomplete to generate valid feedback."
+    },
+    {
+      "id": "ICD-T7-T8",
+      "name": "The Validation Gate",
+      "source_tool": "T7: Analyze and Revise",
+      "target_tool": "T8: Present for Assessment",
+      "trigger_event": "Pre-Release / Pre-Submission",
+      "payload_artifact": "Qualification Package",
+      "data_schema": {
+        "verification_matrix": "Table (Requirement vs. Result)",
+        "validation_evidence": "Text/Data (User/Audience needs met)",
+        "risk_log": "List<Risk> (Residual risks and mitigations)",
+        "readiness_assessment": "Report (Pass/Fail summary)"
+      },
+      "protocol": {
+        "method": "Final Review / Go-No-Go Meeting",
+        "gatekeeper": "Quality Authority / Chief Editor / Curator"
+      },
+      "acceptance_criteria": [
+        "Are all critical path requirements verified?",
+        "Are all open risks formally accepted?",
+        "Does the evidence support the claim of readiness?"
+      ],
+      "rejection_policy": "Return to T7 (or T6) if critical verification fails."
+    },
+    {
+      "id": "ICD-T8-T9",
+      "name": "The Outcome Gate",
+      "source_tool": "T8: Present for Assessment",
+      "target_tool": "T9: Synthesize Learnings",
+      "trigger_event": "Project Close / Publication",
+      "payload_artifact": "Validated Outcome Record",
+      "data_schema": {
+        "stakeholder_signoff": "Signature/Approval/Grade",
+        "final_impact_metrics": "List<Metric> (Actual vs. Predicted)",
+        "audience_feedback": "Text (Qualitative response)",
+        "status": "String (Live, Published, Shipped)"
+      },
+      "protocol": {
+        "method": "Post-Project Review",
+        "gatekeeper": "Knowledge Steward"
+      },
+      "acceptance_criteria": [
+        "Was the work formally accepted by the stakeholder/audience?",
+        "Is the impact data accurate and complete?",
+        "Is the project officially closed?"
+      ],
+      "rejection_policy": "Return to T8 if acceptance is conditional or ambiguous."
+    },
+    {
+      "id": "ICD-T9-T10",
+      "name": "The Wisdom Gate",
+      "source_tool": "T9: Synthesize Learnings",
+      "target_tool": "T10: Orchestrate the System",
+      "trigger_event": "Consolidation Cycle",
+      "payload_artifact": "Knowledge Asset",
+      "data_schema": {
+        "generalizable_principles": "List<Rule> (Heuristics for future)",
+        "updated_playbook": "Document (Process improvements)",
+        "lessons_learned_entry": "Record (Root cause of failures)",
+        "stewardship_plan": "Plan (Long-term maintenance)"
+      },
+      "protocol": {
+        "method": "Strategic Portfolio Review",
+        "gatekeeper": "Organizational Leadership / Governance Board"
+      },
+      "acceptance_criteria": [
+        "Are the principles truly generalizable (not just anecdotes)?",
+        "Is the stewardship plan funded/resourced?",
+        "Is the playbook accessible to the organization?"
+      ],
+      "rejection_policy": "Return to T9 if learnings are superficial or not codified."
+    },
+    {
+      "id": "ICD-T10-T1",
+      "name": "The Cycle Gate",
+      "source_tool": "T10: Orchestrate the System",
+      "target_tool": "T1: Define the Inquiry",
+      "trigger_event": "New Cycle Initiation",
+      "payload_artifact": "System Health Diagnosis",
+      "data_schema": {
+        "system_health_metrics": "Dashboard (Velocity, Quality, Morale)",
+        "strategic_alignment_check": "Boolean (Is the portfolio aligned?)",
+        "new_capability_gap": "String (The next problem to solve)",
+        "resource_availability": "Object (Available capacity)"
+      },
+      "protocol": {
+        "method": "Strategic Planning Sync",
+        "gatekeeper": "Program Authority"
+      },
+      "acceptance_criteria": [
+        "Is the system healthy enough to take on new work?",
+        "Does the new gap align with the long-term strategy?",
+        "Are resources actually available?"
+      ],
+      "rejection_policy": "Halt new T1 initiation if System Health is critical (Fix the system first)."
+    }
+  ],
+  "universal_adaptive": [
+    {
+      "contract_id": "AGILE-T1-T2",
+      "name": "The Vision Agreement",
+      "upstream_role": "Vision Holder / Stakeholders",
+      "downstream_role": "The Backlog",
+      "ceremony_trigger": "Inception / Discovery Phase",
+      "living_artifact": "Vision Board / Charter",
+      "information_radiator": {
+        "vision_statement": "The 'Why' (Core Purpose)",
+        "target_audience": "Persona / Community",
+        "critical_needs": "Top 3 problems to solve",
+        "strategic_goal": "OKR / Impact Target"
+      },
+      "definition_of_ready": [
+        "Is the problem validated by research/observation?",
+        "Is the value proposition clear?",
+        "Is the scope bounded (what are we NOT doing)?"
+      ],
+      "impediment_handling": "If Vision is unclear, trigger a 'Spike' (Research Task) to validate the need."
+    },
+    {
+      "contract_id": "AGILE-T2-T3",
+      "name": "The Backlog Refinement",
+      "upstream_role": "Vision Holder",
+      "downstream_role": "The Team",
+      "ceremony_trigger": "Refinement Session",
+      "living_artifact": "Prioritized Backlog",
+      "information_radiator": {
+        "prioritized_list": "Items ranked by value",
+        "effort_estimation": "Rough sizing (Small/Medium/Large)",
+        "acceptance_criteria": "Draft conditions of satisfaction"
+      },
+      "definition_of_ready": [
+        "Are the top items clear and actionable?",
+        "Are dependencies identified?",
+        "Is the 'What' clear, leaving the 'How' to the team?"
+      ],
+      "impediment_handling": "Unclear items remain in the 'Icebox' and are not pulled into active planning."
+    },
+    {
+      "contract_id": "AGILE-T3-T4",
+      "name": "The Cycle Commitment",
+      "upstream_role": "The Team",
+      "downstream_role": "The Cycle Backlog",
+      "ceremony_trigger": "Cycle/Sprint Planning (Selection)",
+      "living_artifact": "Candidate Items",
+      "information_radiator": {
+        "readiness_check": "Is it small enough to finish?",
+        "capacity_check": "Team Velocity vs. Effort"
+      },
+      "definition_of_ready": [
+        "Does the item meet the readiness criteria?",
+        "Does the team understand the Acceptance Criteria?",
+        "Does the team have the skills/tools to execute this now?"
+      ],
+      "impediment_handling": "If an item is too big, split it. If it's too vague, return to Vision Holder."
+    },
+    {
+      "contract_id": "AGILE-T4-T5",
+      "name": "The Task Breakdown",
+      "upstream_role": "The Team",
+      "downstream_role": "The Task Board",
+      "ceremony_trigger": "Cycle/Sprint Planning (Decomposition)",
+      "living_artifact": "Cycle Goal",
+      "information_radiator": {
+        "sub_tasks": "Steps to complete the item",
+        "owner_assignment": "Who is taking lead (optional)",
+        "time_estimates": "Granular check (optional)"
+      },
+      "definition_of_ready": [
+        "Do we have a shared approach?",
+        "Are all sub-tasks identified (drafting, reviewing, polishing)?",
+        "Do we believe the Cycle Goal is achievable?"
+      ],
+      "impediment_handling": "If the plan exceeds capacity, negotiate scope reduction immediately."
+    },
+    {
+      "contract_id": "AGILE-T5-T6",
+      "name": "The Work In Progress (WIP)",
+      "upstream_role": "Contributor",
+      "downstream_role": "In-Progress State",
+      "ceremony_trigger": "Daily Sync / Pulling a Ticket",
+      "living_artifact": "Kanban Board",
+      "information_radiator": {
+        "wip_limits": "Max items allowed in progress",
+        "blocker_tags": "Visual indicators of impediments"
+      },
+      "definition_of_ready": [
+        "Is the previous task done?",
+        "Are we respecting the WIP limit?",
+        "Do I have everything I need to start this specific task?"
+      ],
+      "impediment_handling": "Swarm: If an item is blocked, the team pauses new work to unblock it."
+    },
+    {
+      "contract_id": "AGILE-T6-T7",
+      "name": "The Integration Check",
+      "upstream_role": "Contributor",
+      "downstream_role": "Review State",
+      "ceremony_trigger": "Submission / Draft Complete",
+      "living_artifact": "The Work Product",
+      "information_radiator": {
+        "self_check_results": "Pass/Fail status",
+        "completeness_check": "Are all parts present?",
+        "style_compliance": "Adherence to standards"
+      },
+      "definition_of_ready": [
+        "Is the work complete enough to review?",
+        "Have basic errors been removed?",
+        "Has the work been self-reviewed?"
+      ],
+      "impediment_handling": "Stop the Line: If the work is fundamentally broken, fixing it is the top priority."
+    },
+    {
+      "contract_id": "AGILE-T7-T8",
+      "name": "The Definition of Done (DoD)",
+      "upstream_role": "The Team",
+      "downstream_role": "The Stakeholders",
+      "ceremony_trigger": "Cycle Review (Demo)",
+      "living_artifact": "Shippable Increment",
+      "information_radiator": {
+        "demo_script": "User journey to demonstrate",
+        "known_issues": "Release notes / caveats"
+      },
+      "definition_of_ready": [
+        "Is the item 'Done' according to the DoD? (Reviewed, Polished, Approved)",
+        "Is it ready to be shown/used?",
+        "Does it meet the Acceptance Criteria?"
+      ],
+      "impediment_handling": "If not Done, it is not shown. It returns to the Backlog."
+    },
+    {
+      "contract_id": "AGILE-T8-T9",
+      "name": "The Feedback Loop",
+      "upstream_role": "Stakeholders / Audience",
+      "downstream_role": "Vision Holder",
+      "ceremony_trigger": "Review Q&A",
+      "living_artifact": "Feedback Log",
+      "information_radiator": {
+        "new_ideas": "Requests generated from the demo",
+        "issues_found": "Problems spotted during demo"
+      },
+      "definition_of_ready": [
+        "Is the feedback captured?",
+        "Is the feedback validated against the vision?",
+        "Is it prioritized for the next or future cycles?"
+      ],
+      "impediment_handling": "Feedback is not a mandate. Vision Holder decides if it goes into the backlog."
+    },
+    {
+      "contract_id": "AGILE-T9-T10",
+      "name": "The Kaizen Agreement",
+      "upstream_role": "The Team",
+      "downstream_role": "The Process",
+      "ceremony_trigger": "Retrospective",
+      "living_artifact": "Action Item",
+      "information_radiator": {
+        "retro_board": "Start / Stop / Continue",
+        "health_metric": "Team morale/energy score"
+      },
+      "definition_of_ready": [
+        "Is the improvement specific?",
+        "Is it actionable in the very next cycle?",
+        "Is there an owner assigned?"
+      ],
+      "impediment_handling": "If no improvement is identified, the team is stagnant. Facilitator must provoke."
+    },
+    {
+      "contract_id": "AGILE-T10-T1",
+      "name": "The Capacity Check",
+      "upstream_role": "Facilitator / Scrum Master",
+      "downstream_role": "Next Cycle Planning",
+      "ceremony_trigger": "Cycle Close",
+      "living_artifact": "Velocity / Throughput Chart",
+      "information_radiator": {
+        "yesterdays_weather": "Average output of last 3 cycles",
+        "capacity_adjustment": "Holidays / Leave / Burnout"
+      },
+      "definition_of_ready": [
+        "Is the velocity calculation accurate?",
+        "Is the team capacity for the next cycle known?",
+        "Are we ready to pull from the backlog again?"
+      ],
+      "impediment_handling": "Adjust scope for the next cycle based on actual capacity, not wishful thinking."
+    }
+  ],
+  "expert_nasa": [
+    {
+      "id": "ICD-T1-T2",
+      "name": "The Definition Handoff",
+      "source_tool": "T1: Define the Inquiry",
+      "target_tool": "T2: Research and Plan",
+      "trigger_event": "Completion of Initial Scoping / Pre-Phase A",
+      "payload_artifact": "Project Definition Statement",
+      "data_schema": {
+        "guiding_question": "String (Open-ended, non-binary)",
+        "identified_anomaly": "String (The specific signal or prediction error)",
+        "stakeholder_map": "List<Stakeholder> (Roles, Needs, Influence)",
+        "capability_gap": "String (Difference between current state and desired state)",
+        "initial_kpps": "List<Metric> (Key Performance Parameters - Draft)"
+      },
+      "protocol": {
+        "method": "Mission Concept Review (MCR)",
+        "gatekeeper": "Program Authority / Lead Inquirer"
+      },
+      "acceptance_criteria": [
+        "Is the Guiding Question specific enough to guide research but open enough to allow discovery?",
+        "Is the Capability Gap defined by evidence, not just opinion?",
+        "Have all critical stakeholders been identified?"
+      ],
+      "rejection_policy": "Return to T1 for 'Reframing' if the gap is ill-defined."
+    },
+    {
+      "id": "ICD-T2-T3",
+      "name": "The Constraints Handoff",
+      "source_tool": "T2: Research and Plan",
+      "target_tool": "T3: Generate Options",
+      "trigger_event": "Completion of Contextual Analysis / Phase A",
+      "payload_artifact": "Baseline Development Plan (BDP)",
+      "data_schema": {
+        "definition_of_done": "List<Criteria> (Binary Success Metrics)",
+        "constraints_matrix": "Object (Time, Budget, Ethics, Physics)",
+        "knowledge_gap_analysis": "Summary (What is known vs. unknown)",
+        "ad2_assessment": "Integer (Advancement Degree of Difficulty 1-9)"
+      },
+      "protocol": {
+        "method": "System Requirements Review (SRR)",
+        "gatekeeper": "Technical Authority / Facilitator"
+      },
+      "acceptance_criteria": [
+        "Are the constraints explicit and non-negotiable?",
+        "Is the Definition of Done binary (Pass/Fail)?",
+        "Does the plan account for the identified AD2 level (Research vs. Engineering)?"
+      ],
+      "rejection_policy": "Return to T2 if constraints are ambiguous or resources are insufficient."
+    },
+    {
+      "id": "ICD-T3-T4",
+      "name": "The Options Handoff",
+      "source_tool": "T3: Generate Options",
+      "target_tool": "T4: Select a Course of Action",
+      "trigger_event": "Completion of Ideation / Analysis of Alternatives",
+      "payload_artifact": "Options Portfolio",
+      "data_schema": {
+        "alternatives_list": "List<Option> (Minimum 3 distinct approaches)",
+        "trade_tree": "Visual Graph (Decision branches)",
+        "risk_profile_per_option": "Object (Pros, Cons, Unknowns)",
+        "safe_to_fail_probes": "List<Experiment> (Low-cost tests)"
+      },
+      "protocol": {
+        "method": "Trade Study Review",
+        "gatekeeper": "Systems Analysis Lead"
+      },
+      "acceptance_criteria": [
+        "Are the options truly distinct (structural variety)?",
+        "Do the options address the Capability Gap defined in T1?",
+        "Is the risk profile for each option based on data or logic, not just feeling?"
+      ],
+      "rejection_policy": "Return to T3 if options are variations of a single theme (premature convergence)."
+    },
+    {
+      "id": "ICD-T4-T5",
+      "name": "The Baseline Handoff",
+      "source_tool": "T4: Select a Course of Action",
+      "target_tool": "T5: Structure the Solution",
+      "trigger_event": "Key Decision Point B (KDP B)",
+      "payload_artifact": "Decision Memorandum",
+      "data_schema": {
+        "selected_architecture": "String (The chosen path)",
+        "decision_logic": "Text (Rationale for selection)",
+        "rejected_alternatives_log": "List<Option> (With rationale for rejection)",
+        "frozen_requirements": "List<Requirement> (The Technical Baseline)"
+      },
+      "protocol": {
+        "method": "Preliminary Design Review (PDR)",
+        "gatekeeper": "Convening Authority / Project Manager"
+      },
+      "acceptance_criteria": [
+        "Is the rationale for rejection of alternatives documented?",
+        "Does the selected path mathematically/logically meet the KPPs?",
+        "Is the team aligned (Disagree and Commit)?"
+      ],
+      "rejection_policy": "Return to T4 if the decision logic is weak or consensus is fake."
+    },
+    {
+      "id": "ICD-T5-T6",
+      "name": "The Blueprint Handoff",
+      "source_tool": "T5: Structure the Solution",
+      "target_tool": "T6: Execute the Plan",
+      "trigger_event": "Critical Design Review (CDR)",
+      "payload_artifact": "Technical Specification Package",
+      "data_schema": {
+        "product_breakdown_structure": "Tree (Hierarchical list of components)",
+        "interface_control_documents": "List<Protocol> (How components connect)",
+        "work_breakdown_structure": "List<Task> (Mapped to PBS)",
+        "acceptance_test_plan": "List<Test> (How to verify T6 output)"
+      },
+      "protocol": {
+        "method": "Handoff Ritual / Pre-Build Briefing",
+        "gatekeeper": "Integration & Test Lead / Builder"
+      },
+      "acceptance_criteria": [
+        "Is the PBS complete (no orphan components)?",
+        "Are the interfaces (ICDs) unambiguous?",
+        "Can a stranger execute this plan without asking the author questions?"
+      ],
+      "rejection_policy": "Return to T5 if the spec contains ambiguity ('TBD')."
+    },
+    {
+      "id": "ICD-T6-T7",
+      "name": "The Artifact Handoff",
+      "source_tool": "T6: Execute the Plan",
+      "target_tool": "T7: Analyze and Revise",
+      "trigger_event": "Completion of Build / Test Readiness",
+      "payload_artifact": "As-Built Configuration",
+      "data_schema": {
+        "physical_digital_artifact": "Object (The Thing itself)",
+        "non_conformance_log": "List<Deviation> (Differences between Spec and Build)",
+        "configuration_record": "String (Version number / Commit hash)",
+        "raw_performance_data": "Dataset (Logs, telemetry, observations)"
+      },
+      "protocol": {
+        "method": "Test Readiness Review (TRR)",
+        "gatekeeper": "Quality Assurance / Test Engineer"
+      },
+      "acceptance_criteria": [
+        "Is the artifact stable enough to be tested?",
+        "Are all known deviations logged?",
+        "Is the configuration version known and frozen?"
+      ],
+      "rejection_policy": "Return to T6 if the artifact is too unstable to generate valid test data."
+    },
+    {
+      "id": "ICD-T7-T8",
+      "name": "The Validation Handoff",
+      "source_tool": "T7: Analyze and Revise",
+      "target_tool": "T8: Present for Assessment",
+      "trigger_event": "Completion of V&V / Pre-Launch",
+      "payload_artifact": "Qualification Data Package",
+      "data_schema": {
+        "verification_matrix": "Table (Requirement vs. Test Result)",
+        "validation_evidence": "Text/Data (User needs met)",
+        "hazard_log": "List<Risk> (Residual risks and mitigations)",
+        "test_readiness_assessment": "Report (Pass/Fail summary)"
+      },
+      "protocol": {
+        "method": "Operational Readiness Review (ORR)",
+        "gatekeeper": "Technical Authority / Chief Engineer"
+      },
+      "acceptance_criteria": [
+        "Are all critical path requirements verified?",
+        "Are all open liens (risks) formally accepted?",
+        "Does the data support the claim of readiness?"
+      ],
+      "rejection_policy": "Return to T7 (or T6) if critical verification fails."
+    },
+    {
+      "id": "ICD-T8-T9",
+      "name": "The Outcome Handoff",
+      "source_tool": "T8: Present for Assessment",
+      "target_tool": "T9: Synthesize Learnings",
+      "trigger_event": "Mission Complete / Project Close",
+      "payload_artifact": "Validated Outcome Record",
+      "data_schema": {
+        "stakeholder_signoff": "Signature/Approval",
+        "final_impact_metrics": "List<Metric> (Actual vs. Predicted)",
+        "audience_feedback": "Text (Qualitative response)",
+        "deployment_status": "String (Live, Published, Shipped)"
+      },
+      "protocol": {
+        "method": "Post-Launch Assessment Review (PLAR)",
+        "gatekeeper": "Knowledge Management Officer"
+      },
+      "acceptance_criteria": [
+        "Was the work formally accepted by the stakeholder?",
+        "Is the impact data accurate and complete?",
+        "Is the project officially closed?"
+      ],
+      "rejection_policy": "Return to T8 if acceptance is conditional or ambiguous."
+    },
+    {
+      "id": "ICD-T9-T10",
+      "name": "The Wisdom Handoff",
+      "source_tool": "T9: Synthesize Learnings",
+      "target_tool": "T10: Orchestrate the System",
+      "trigger_event": "Consolidation Cycle",
+      "payload_artifact": "Knowledge Asset",
+      "data_schema": {
+        "generalizable_principles": "List<Rule> (Heuristics for future)",
+        "updated_playbook": "Document (Process improvements)",
+        "lessons_learned_entry": "Database Record (Root cause of failures)",
+        "stewardship_plan": "Plan (Long-term maintenance)"
+      },
+      "protocol": {
+        "method": "Strategic Portfolio Review",
+        "gatekeeper": "Organizational Leadership / Governance Board"
+      },
+      "acceptance_criteria": [
+        "Are the principles truly generalizable (not just anecdotes)?",
+        "Is the stewardship plan funded/resourced?",
+        "Is the playbook accessible to the organization?"
+      ],
+      "rejection_policy": "Return to T9 if learnings are superficial or not codified."
+    },
+    {
+      "id": "ICD-T10-T1",
+      "name": "The Cycle Handoff",
+      "source_tool": "T10: Orchestrate the System",
+      "target_tool": "T1: Define the Inquiry",
+      "trigger_event": "New Cycle Initiation",
+      "payload_artifact": "System Health Diagnosis",
+      "data_schema": {
+        "system_health_metrics": "Dashboard (Velocity, Quality, Morale)",
+        "strategic_alignment_check": "Boolean (Is the portfolio aligned?)",
+        "new_capability_gap": "String (The next problem to solve)",
+        "resource_availability": "Object (Available capacity)"
+      },
+      "protocol": {
+        "method": "Quarterly Planning / Strategy Sync",
+        "gatekeeper": "Program Authority"
+      },
+      "acceptance_criteria": [
+        "Is the system healthy enough to take on new work?",
+        "Does the new gap align with the long-term strategy?",
+        "Are resources actually available?"
+      ],
+      "rejection_policy": "Halt new T1 initiation if System Health is critical (Fix the system first)."
+    }
+  ],
+  "expert_agile": [
+    {
+      "contract_id": "AGILE-T1-T2",
+      "name": "The Vision Agreement",
+      "upstream_role": "Product Owner / Stakeholders",
+      "downstream_role": "The Product Backlog",
+      "ceremony_trigger": "Inception / Discovery Phase",
+      "living_artifact": "Product Vision Board",
+      "information_radiator": {
+        "vision_statement": "The 'Why' (Elevator Pitch)",
+        "target_customer": "User Persona",
+        "critical_needs": "Top 3 problems to solve",
+        "business_goal": "OKR / KPI target"
+      },
+      "definition_of_ready": [
+        "Is the problem validated by user research?",
+        "Is the value proposition clear?",
+        "Is the scope bounded (what are we NOT doing)?"
+      ],
+      "impediment_handling": "If Vision is unclear, trigger a 'Spike' (Research Task) to validate the market need."
+    },
+    {
+      "contract_id": "AGILE-T2-T3",
+      "name": "The Backlog Refinement",
+      "upstream_role": "Product Owner",
+      "downstream_role": "The Development Team",
+      "ceremony_trigger": "Backlog Grooming Session",
+      "living_artifact": "Product Backlog (DEEP)",
+      "information_radiator": {
+        "prioritized_list": "Stories ranked by value",
+        "story_points": "Rough estimation of effort",
+        "acceptance_criteria": "Draft conditions of satisfaction"
+      },
+      "definition_of_ready": [
+        "Are the top items DEEP (Detailed, Estimated, Emergent, Prioritized)?",
+        "Are dependencies identified?",
+        "Is the 'What' clear, leaving the 'How' to the team?"
+      ],
+      "impediment_handling": "Unclear items remain in the 'Icebox' and are not pulled into Sprint Planning."
+    },
+    {
+      "contract_id": "AGILE-T3-T4",
+      "name": "The Sprint Commitment",
+      "upstream_role": "The Scrum Team",
+      "downstream_role": "The Sprint Backlog",
+      "ceremony_trigger": "Sprint Planning (Part 1: Selection)",
+      "living_artifact": "Candidate Stories",
+      "information_radiator": {
+        "invest_check": "Independent, Negotiable, Valuable, Estimable, Small, Testable",
+        "capacity_check": "Team Velocity vs. Story Points"
+      },
+      "definition_of_ready": [
+        "Does the story meet INVEST criteria?",
+        "Does the team understand the Acceptance Criteria?",
+        "Does the team have the skills/tools to execute this now?"
+      ],
+      "impediment_handling": "If a story is too big, split it. If it's too vague, kick it back to Product Owner."
+    },
+    {
+      "contract_id": "AGILE-T4-T5",
+      "name": "The Task Breakdown",
+      "upstream_role": "The Development Team",
+      "downstream_role": "The Task Board",
+      "ceremony_trigger": "Sprint Planning (Part 2: Decomposition)",
+      "living_artifact": "Sprint Goal",
+      "information_radiator": {
+        "sub_tasks": "Technical steps to complete the story",
+        "owner_assignment": "Who is taking lead (optional)",
+        "hour_estimates": "Granular time check (optional)"
+      },
+      "definition_of_ready": [
+        "Do we have a shared technical approach?",
+        "Are all sub-tasks identified (coding, testing, documenting)?",
+        "Do we believe the Sprint Goal is achievable?"
+      ],
+      "impediment_handling": "If the plan exceeds capacity, negotiate scope reduction with the PO immediately."
+    },
+    {
+      "contract_id": "AGILE-T5-T6",
+      "name": "The Work In Progress (WIP)",
+      "upstream_role": "Individual Contributor",
+      "downstream_role": "In-Progress Column",
+      "ceremony_trigger": "Daily Standup / Pulling a Ticket",
+      "living_artifact": "Kanban Board",
+      "information_radiator": {
+        "wip_limits": "Max items allowed in progress",
+        "blocker_tags": "Visual indicators of impediments"
+      },
+      "definition_of_ready": [
+        "Is the previous task done?",
+        "Are we respecting the WIP limit?",
+        "Do I have everything I need to start this specific task?"
+      ],
+      "impediment_handling": "Swarm: If a ticket is blocked, the team pauses new work to unblock it."
+    },
+    {
+      "contract_id": "AGILE-T6-T7",
+      "name": "The Integration Gate",
+      "upstream_role": "Developer",
+      "downstream_role": "CI/CD Pipeline",
+      "ceremony_trigger": "Pull Request / Code Commit",
+      "living_artifact": "The Build",
+      "information_radiator": {
+        "test_results": "Pass/Fail status",
+        "code_coverage": "Percentage of code tested",
+        "linter_status": "Style compliance"
+      },
+      "definition_of_ready": [
+        "Does the code compile?",
+        "Do unit tests pass?",
+        "Has the code been peer-reviewed?"
+      ],
+      "impediment_handling": "Stop the Line: If the build breaks, fixing it is the top priority over new work."
+    },
+    {
+      "contract_id": "AGILE-T7-T8",
+      "name": "The Definition of Done (DoD)",
+      "upstream_role": "The Team",
+      "downstream_role": "The Stakeholders",
+      "ceremony_trigger": "Sprint Review (Demo)",
+      "living_artifact": "Potentially Shippable Increment (PSI)",
+      "information_radiator": {
+        "demo_script": "User journey to demonstrate",
+        "known_issues": "Release notes / caveats"
+      },
+      "definition_of_ready": [
+        "Is the feature 'Done' according to the DoD? (Coded, Tested, Documented)",
+        "Is it deployed to a demo environment?",
+        "Does it meet the Acceptance Criteria?"
+      ],
+      "impediment_handling": "If not Done, it is not shown. It returns to the Backlog."
+    },
+    {
+      "contract_id": "AGILE-T8-T9",
+      "name": "The Feedback Loop",
+      "upstream_role": "Stakeholders / Users",
+      "downstream_role": "Product Owner",
+      "ceremony_trigger": "Sprint Review Q&A",
+      "living_artifact": "Feedback Log",
+      "information_radiator": {
+        "new_stories": "Requests generated from the demo",
+        "bugs_found": "Issues spotted during demo"
+      },
+      "definition_of_ready": [
+        "Is the feedback captured?",
+        "Is the feedback validated against the vision?",
+        "Is it prioritized for the next or future sprints?"
+      ],
+      "impediment_handling": "Feedback is not a mandate. PO decides if it goes into the backlog."
+    },
+    {
+      "contract_id": "AGILE-T9-T10",
+      "name": "The Kaizen Agreement",
+      "upstream_role": "The Scrum Team",
+      "downstream_role": "The Process",
+      "ceremony_trigger": "Sprint Retrospective",
+      "living_artifact": "Action Item",
+      "information_radiator": {
+        "retro_board": "Start / Stop / Continue",
+        "happiness_metric": "Team morale score"
+      },
+      "definition_of_ready": [
+        "Is the improvement specific?",
+        "Is it actionable in the very next sprint?",
+        "Is there an owner assigned?"
+      ],
+      "impediment_handling": "If no improvement is identified, the team is stagnant. Facilitator must provoke."
+    },
+    {
+      "contract_id": "AGILE-T10-T1",
+      "name": "The Velocity Check",
+      "upstream_role": "Scrum Master",
+      "downstream_role": "Next Sprint Planning",
+      "ceremony_trigger": "Sprint Close",
+      "living_artifact": "Velocity Chart",
+      "information_radiator": {
+        "yesterdays_weather": "Average velocity of last 3 sprints",
+        "capacity_adjustment": "Holidays / Leave"
+      },
+      "definition_of_ready": [
+        "Is the velocity calculation accurate?",
+        "Is the team capacity for the next sprint known?",
+        "Are we ready to pull from the backlog again?"
+      ],
+      "impediment_handling": "Adjust scope for the next sprint based on actual velocity, not wishful thinking."
+    }
+  ]
+}

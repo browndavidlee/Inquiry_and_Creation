@@ -1,0 +1,102 @@
+﻿{
+  "_metadata": {
+    "schema_version": "5.0",
+    "file_type": "process_models_full",
+    "context": "Integrated Framework for Inquiry and Creation",
+    "purpose": "To provide domain-specific governance models and hierarchy definitions."
+  },
+  "roles": {
+    "science": {
+        "left": { "header": "Program Authority", "l3": "Agency Director", "l2": "Project Manager", "l1": "Practitioner" },
+        "right": { "header": "Technical Authority", "l3": "Engineering Director", "l2": "Chief Engineer", "l1": "Gatekeeper" }
+    },
+    "business": {
+        "left": { "header": "Value Authority", "l3": "Stakeholders", "l2": "Product Owner", "l1": "The Team" },
+        "right": { "header": "Process Authority", "l3": "Agile Coach", "l2": "Scrum Master", "l1": "The Team" }
+    },
+    "humanities": {
+        "left": { "header": "Authorial Voice", "l3": "The Field", "l2": "The Author", "l1": "The Writer" },
+        "right": { "header": "Critical Standard", "l3": "The Canon", "l2": "Peer Reviewer", "l1": "The Editor" }
+    },
+    "arts": {
+        "left": { "header": "Expressive Intent", "l3": "The Vision", "l2": "The Artist", "l1": "The Maker" },
+        "right": { "header": "Aesthetic Constraint", "l3": "Art History", "l2": "The Critic", "l1": "The Medium" }
+    },
+    "culture": {
+        "left": { "header": "Action", "l3": "The Movement", "l2": "The Leader", "l1": "The Participant" },
+        "right": { "header": "Values", "l3": "The Ancestors", "l2": "The Elders", "l1": "The Protocol" }
+    },
+    "pedagogy": {
+        "left": { "header": "Instruction", "l3": "Institution", "l2": "Teacher", "l1": "Facilitator" },
+        "right": { "header": "Learning", "l3": "Society", "l2": "Student", "l1": "Assessment" }
+    }
+  },
+  "processes": {
+    "science": [
+        { "id": "ICD-T1-T2", "name": "Mission Concept Review", "source": "Program Scientist", "target": "Technical Authority", "payload": "Project Definition Statement", "criteria": ["Guiding Question is falsifiable", "Capability Gap defined by evidence", "Stakeholders mapped to TA hierarchy"] },
+        { "id": "ICD-T2-T3", "name": "System Requirements Review", "source": "Systems Engineer", "target": "Chief Engineer", "payload": "Baseline Development Plan", "criteria": ["Constraints are non-negotiable", "Definition of Done is binary", "AD2 Assessment complete"] },
+        { "id": "ICD-T3-T4", "name": "Trade Study Review", "source": "Subsystem Lead", "target": "Systems Analysis", "payload": "Analysis of Alternatives", "criteria": ["Options cover solution space", "Risk profile based on data", "Weighting criteria pre-defined"] },
+        { "id": "ICD-T4-T5", "name": "Preliminary Design Review", "source": "Project Manager", "target": "Convening Authority", "payload": "Decision Memorandum", "criteria": ["Rationale for rejection documented", "Path meets KPPs", "Requirements Frozen"] },
+        { "id": "ICD-T5-T6", "name": "Critical Design Review", "source": "Component Engineer", "target": "Integration Lead", "payload": "Technical Spec Package", "criteria": ["PBS is complete", "Interfaces (ICDs) unambiguous", "Traceability verified"] },
+        { "id": "ICD-T6-T7", "name": "Test Readiness Review", "source": "I&T Engineer", "target": "Quality Assurance", "payload": "As-Built Configuration", "criteria": ["Artifact is stable", "Deviations logged", "Config frozen"] },
+        { "id": "ICD-T7-T8", "name": "Operational Readiness Review", "source": "Test Engineer", "target": "Chief Engineer", "payload": "Qualification Data Package", "criteria": ["Critical path verified", "Liens closed", "Data supports readiness"] },
+        { "id": "ICD-T8-T9", "name": "Post-Launch Assessment", "source": "Mission Team", "target": "Knowledge Officer", "payload": "Validated Outcome", "criteria": ["Stakeholder acceptance", "Impact data complete", "Project closed"] },
+        { "id": "ICD-T9-T10", "name": "Strategic Portfolio Review", "source": "Mission Team", "target": "Governance Board", "payload": "Lessons Learned", "criteria": ["Principles generalized", "Stewardship funded", "Playbook updated"] }
+    ],
+    "business": [
+        { "id": "AGILE-T1-T2", "name": "Vision Agreement", "source": "Product Owner", "target": "The Team", "payload": "Product Vision Board", "criteria": ["Problem validated by user research", "Value proposition clear", "Scope bounded"] },
+        { "id": "AGILE-T2-T3", "name": "Backlog Refinement", "source": "Product Owner", "target": "Dev Team", "payload": "Prioritized Backlog", "criteria": ["Items are DEEP", "Dependencies known", "Acceptance Criteria drafted"] },
+        { "id": "AGILE-T3-T4", "name": "Sprint Commitment", "source": "The Team", "target": "Sprint Backlog", "payload": "Candidate Stories", "criteria": ["Stories meet INVEST", "Capacity check passed", "Team commits"] },
+        { "id": "AGILE-T4-T5", "name": "Task Breakdown", "source": "Dev Team", "target": "Task Board", "payload": "Sprint Goal", "criteria": ["Technical approach shared", "Sub-tasks identified", "Goal achievable"] },
+        { "id": "AGILE-T5-T6", "name": "WIP Limit Check", "source": "Contributor", "target": "In-Progress", "payload": "Kanban Ticket", "criteria": ["Previous task done", "WIP limit respected", "Unblocked"] },
+        { "id": "AGILE-T6-T7", "name": "Integration Gate", "source": "Developer", "target": "CI Pipeline", "payload": "Pull Request", "criteria": ["Code compiles", "Tests pass", "Peer reviewed"] },
+        { "id": "AGILE-T7-T8", "name": "Definition of Done", "source": "The Team", "target": "Stakeholders", "payload": "Shippable Increment", "criteria": ["Meets DoD", "Deployed to demo", "Acceptance Criteria met"] },
+        { "id": "AGILE-T8-T9", "name": "Feedback Loop", "source": "Users", "target": "Product Owner", "payload": "Feedback Log", "criteria": ["Feedback captured", "Validated against vision", "Prioritized"] },
+        { "id": "AGILE-T9-T10", "name": "Kaizen Agreement", "source": "The Team", "target": "The Process", "payload": "Action Item", "criteria": ["Improvement specific", "Actionable next sprint", "Owner assigned"] }
+    ],
+    "humanities": [
+        { "id": "HUM-T1-T2", "name": "Contextualization", "source": "Researcher", "target": "Archivist / Theory", "payload": "Annotated Bibliography", "criteria": ["Sources are primary/secondary", "Gap identified", "Bias acknowledged"] },
+        { "id": "HUM-T2-T3", "name": "Methodology Review", "source": "Scholar", "target": "Peer / Advisor", "payload": "Research Prospectus", "criteria": ["Methodology aligns with question", "Scope is feasible", "Ethics reviewed"] },
+        { "id": "HUM-T3-T4", "name": "Interpretive Stance", "source": "Author", "target": "The Argument", "payload": "Thesis Statement", "criteria": ["Claim is arguable", "Evidence is sufficient", "Counter-arguments noted"] },
+        { "id": "HUM-T4-T5", "name": "Structural Outline", "source": "Writer", "target": "Logic", "payload": "Argument Map", "criteria": ["Flow is logical", "Warrants connect evidence", "No circular reasoning"] },
+        { "id": "HUM-T5-T6", "name": "Drafting Commitment", "source": "Writer", "target": "The Page", "payload": "Chapter Outline", "criteria": ["Sections defined", "Sources mapped", "Voice established"] },
+        { "id": "HUM-T6-T7", "name": "Review Draft", "source": "Author", "target": "Editor / Peer", "payload": "First Draft", "criteria": ["Argument is coherent", "Citations correct", "Prose is clear"] },
+        { "id": "HUM-T7-T8", "name": "Defense Readiness", "source": "Candidate", "target": "Committee", "payload": "Final Manuscript", "criteria": ["Contribution is original", "Methodology rigorous", "Ready for defense"] },
+        { "id": "HUM-T8-T9", "name": "Discourse Uptake", "source": "Scholar", "target": "The Field", "payload": "Publication", "criteria": ["Peer review passed", "Published", "Cited"] },
+        { "id": "HUM-T9-T10", "name": "Theoretical Synthesis", "source": "Thinker", "target": "The Canon", "payload": "New Framework", "criteria": ["Theory generalized", "New questions posed", "Legacy established"] }
+    ],
+    "arts": [
+        { "id": "ART-T1-T2", "name": "Inspiration Check", "source": "Artist", "target": "Muse / Constraint", "payload": "Moodboard", "criteria": ["Felt sense captured", "Visual language defined", "Motivation clear"] },
+        { "id": "ART-T2-T3", "name": "Briefing", "source": "Designer", "target": "Client / Director", "payload": "Creative Brief", "criteria": ["Constraints defined", "Audience identified", "Tone agreed"] },
+        { "id": "ART-T3-T4", "name": "Concept Selection", "source": "Creative", "target": "Curator", "payload": "Concept Sketches", "criteria": ["Concepts distinct", "Resonance check", "Feasibility check"] },
+        { "id": "ART-T4-T5", "name": "Design Freeze", "source": "Lead Artist", "target": "Production", "payload": "Maquette / Mockup", "criteria": ["Form finalized", "Materials selected", "Tech specs clear"] },
+        { "id": "ART-T5-T6", "name": "Studio Prep", "source": "Maker", "target": "The Medium", "payload": "Fabrication Plan", "criteria": ["Tools ready", "Materials sourced", "Safety check"] },
+        { "id": "ART-T6-T7", "name": "Studio Critique", "source": "Artist", "target": "Peers / Mentor", "payload": "Work in Progress", "criteria": ["Intent visible", "Technique sound", "Emotional impact"] },
+        { "id": "ART-T7-T8", "name": "Exhibition Prep", "source": "Exhibitor", "target": "Gallery / Venue", "payload": "Final Piece", "criteria": ["Finished quality", "Installation plan", "Statement ready"] },
+        { "id": "ART-T8-T9", "name": "Audience Reception", "source": "Artist", "target": "Public", "payload": "Exhibition", "criteria": ["Work displayed", "Feedback received", "Dialogue started"] },
+        { "id": "ART-T9-T10", "name": "Style Evolution", "source": "Master", "target": "The Oeuvre", "payload": "New Aesthetic", "criteria": ["Style evolved", "Technique refined", "Next series planned"] }
+    ],
+    "culture": [
+        { "id": "CUL-T1-T2", "name": "Relational Check", "source": "Guest / Researcher", "target": "Host / Elder", "payload": "Protocol of Entry", "criteria": ["Permission granted", "Intentions clear", "Reciprocity defined"] },
+        { "id": "CUL-T2-T3", "name": "Values Alignment", "source": "Project Lead", "target": "Community", "payload": "Values Charter", "criteria": ["Values shared", "Red lines defined", "Benefit mutual"] },
+        { "id": "CUL-T3-T4", "name": "Path Selection", "source": "Council", "target": "Wisdom", "payload": "Proposed Action", "criteria": ["7th Gen impact checked", "Consensus reached", "Harm minimized"] },
+        { "id": "CUL-T4-T5", "name": "Ritual Design", "source": "Facilitator", "target": "Tradition", "payload": "Ceremony Plan", "criteria": ["Culturally appropriate", "Roles defined", "Space prepared"] },
+        { "id": "CUL-T5-T6", "name": "Action Commitment", "source": "Participant", "target": "The Circle", "payload": "Pledge", "criteria": ["Commitment made", "Witnessed", "Supported"] },
+        { "id": "CUL-T6-T7", "name": "Reflection Circle", "source": "Actor", "target": "Community", "payload": "Experience", "criteria": ["Truth told", "Listening deep", "Judgment suspended"] },
+        { "id": "CUL-T7-T8", "name": "Accountability", "source": "Leader", "target": "The People", "payload": "Impact Report", "criteria": ["Promises kept", "Harm repaired", "Trust maintained"] },
+        { "id": "CUL-T8-T9", "name": "Ratification", "source": "Community", "target": "History", "payload": "Story", "criteria": ["Narrative accepted", "Lesson codified", "Memory preserved"] },
+        { "id": "CUL-T9-T10", "name": "Stewardship", "source": "Elder", "target": "Future", "payload": "Legacy", "criteria": ["Knowledge passed", "Guardians appointed", "Cycle renewed"] }
+    ],
+    "pedagogy": [
+        { "id": "PED-T1-T2", "name": "Needs Assessment", "source": "Teacher", "target": "Learner Profile", "payload": "Learning Gap", "criteria": ["Prior knowledge checked", "Interest sparked", "Goal relevant"] },
+        { "id": "PED-T2-T3", "name": "Objective Setting", "source": "Instructor", "target": "Curriculum", "payload": "Learning Objectives", "criteria": ["SWBAT defined", "Assessment aligned", "Scaffolding planned"] },
+        { "id": "PED-T3-T4", "name": "Activity Selection", "source": "Designer", "target": "Pedagogy", "payload": "Lesson Plan", "criteria": ["Active learning", "Differentiation", "Resources ready"] },
+        { "id": "PED-T4-T5", "name": "Instructional Design", "source": "Teacher", "target": "Flow", "payload": "Run of Show", "criteria": ["Timing realistic", "Transitions smooth", "Materials prepped"] },
+        { "id": "PED-T5-T6", "name": "Engagement Check", "source": "Facilitator", "target": "Room", "payload": "Hook / Provocation", "criteria": ["Attention gained", "Safety established", "Rules clear"] },
+        { "id": "PED-T6-T7", "name": "Formative Check", "source": "Learner", "target": "Teacher", "payload": "Practice Task", "criteria": ["Understanding checked", "Feedback given", "Adjustment made"] },
+        { "id": "PED-T7-T8", "name": "Summative Assessment", "source": "Learner", "target": "Evaluator", "payload": "Final Project", "criteria": ["Rubric met", "Mastery shown", "Transfer evident"] },
+        { "id": "PED-T8-T9", "name": "Grading / Feedback", "source": "Evaluator", "target": "Student Record", "payload": "Grade / Report", "criteria": ["Fair assessment", "Growth mindset", "Next steps clear"] },
+        { "id": "PED-T9-T10", "name": "Curriculum Review", "source": "Department", "target": "Institution", "payload": "Course Evaluation", "criteria": ["Outcomes achieved", "Methods refined", "Content updated"] }
+    ]
+  }
+}

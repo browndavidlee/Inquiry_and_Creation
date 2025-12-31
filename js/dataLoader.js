@@ -112,7 +112,8 @@
                 ...dataMap['system.json'],
                 'matrix_clusters.json': dataMap['matrix_clusters.json'],
                 tools: toolsArray, 
-                toolConcepts: toolConceptsMap 
+                toolConcepts: toolConceptsMap,
+                process_models_data: dataMap['process_models.json'] 
             }
         };
         

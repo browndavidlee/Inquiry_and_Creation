@@ -42,6 +42,7 @@
                   "onboarding_content.json",
                   "scaffold-model.json",
                   "comparative_analysis.json",
-                  "matrix_clusters.json"
+                  "matrix_clusters.json",
+                  "process_models.json"
               ]
 }

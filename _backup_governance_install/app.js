@@ -219,7 +219,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         ].join('');
 
         const metaLinks = [
-            createNavLink('governance', 'fa-sitemap', 'Governance Engine'),
             createNavLink('strategy', 'fa-chess-board', 'Strategic Blueprint'),
             createNavLink('protocol', 'fa-robot', 'AI Command Protocol'),
             createNavLink('playbooks-reports', 'fa-book-reader', 'Playbooks & Reports'),
@@ -708,7 +707,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             let content;
             switch(view) {
-                case 'governance': content = UI.renderGovernanceEngine(cognitiveToolkitData.framework_data.process_models_data); break;
                 case 'welcome':
                     content = UI.renderWelcome(cognitiveToolkitData.application_views, onboardingData, viewId);
                     break;
