@@ -49,16 +49,12 @@
                                        "definition":  "The original term for Tool 6, representing the act of putting a plan into practice."
                                    },
                                    {
-                                       "term":  "structure",
-                                       "definition":  "The underlying structure and organization of a complex system."
+                                       "term":  "Archiving",
+                                       "definition":  "The act of collecting, organizing, and preserving records for long-term storage and future reference."
                                    },
                                    {
                                        "term":  "Argument Map",
                                        "definition":  "A visual representation of the structure of an argument, mapping claims, evidence, and warrants."
-                                   },
-                                   {
-                                       "term":  "Archiving",
-                                       "definition":  "The act of collecting, organizing, and preserving records for long-term storage and future reference."
                                    },
                                    {
                                        "term":  "Assent",
@@ -149,12 +145,12 @@
                                        "definition":  "The act of dedicating oneself to a particular course of action."
                                    },
                                    {
-                                       "term":  "Complicated",
-                                       "definition":  "A domain in the Cynefin framework where there is a clear relationship between cause and effect, but it is not obvious and requires expert analysis to discover. This is the domain of \u0027known unknowns.\u0027 The correct approach is to Sense -\u003e Analyze -\u003e Respond."
-                                   },
-                                   {
                                        "term":  "Complex",
                                        "definition":  "A domain in the Cynefin framework where cause and effect can only be understood in retrospect. The system is unpredictable and emergent. This is the domain of \u0027unknown unknowns.\u0027 The correct approach is to Probe -\u003e Sense -\u003e Respond."
+                                   },
+                                   {
+                                       "term":  "Complicated",
+                                       "definition":  "A domain in the Cynefin framework where there is a clear relationship between cause and effect, but it is not obvious and requires expert analysis to discover. This is the domain of \u0027known unknowns.\u0027 The correct approach is to Sense -\u003e Analyze -\u003e Respond."
                                    },
                                    {
                                        "term":  "Conception",
@@ -170,7 +166,7 @@
                                    },
                                    {
                                        "term":  "Consolidation Period",
-                                       "definition":  "A period of rest following intense work, allowing for subconscious processing and memory consolidation."
+                                       "definition":  "A period of rest or inactivity following a period of intense work, allowing for subconscious processing and memory consolidation."
                                    },
                                    {
                                        "term":  "Constraints",
@@ -181,16 +177,16 @@
                                        "definition":  "The action of formally discussing or seeking advice."
                                    },
                                    {
+                                       "term":  "Contemplation",
+                                       "definition":  "Deep reflective thought."
+                                   },
+                                   {
                                        "term":  "Context",
                                        "definition":  "The circumstances that form the setting for an event or idea."
                                    },
                                    {
                                        "term":  "Contextual Analysis",
                                        "definition":  "The practice of situating a subject within its historical, cultural, and political context."
-                                   },
-                                   {
-                                       "term":  "Contemplation",
-                                       "definition":  "Deep reflective thought."
                                    },
                                    {
                                        "term":  "Contribution",
@@ -255,10 +251,6 @@
                                    {
                                        "term":  "Deeds",
                                        "definition":  "An action that is performed intentionally or consciously."
-                                   },
-                                   {
-                                       "term":  "Non-defensive listening",
-                                       "definition":  "A practice of receiving communication with full, non-judgmental attention."
                                    },
                                    {
                                        "term":  "Defense",
@@ -329,6 +321,10 @@
                                        "definition":  "A single, critical user story that is built first to validate that all architectural components of a system are connected correctly."
                                    },
                                    {
+                                       "term":  "Environment of Open Communication",
+                                       "definition":  "A shared belief that a team is safe for interpersonal risk-taking."
+                                   },
+                                   {
                                        "term":  "Exaptation",
                                        "definition":  "Finding a new, often surprising, use for an existing tool, technology, or idea."
                                    },
@@ -374,7 +370,7 @@
                                    },
                                    {
                                        "term":  "Feedback",
-                                       "definition":  "Information about reactions to a product or performance, used as a basis for improvement."
+                                       "definition":  "Information about reactions to a product or performance. Differentiates between Verification (Technical feedback) and Validation (User/Value feedback)."
                                    },
                                    {
                                        "term":  "Fieldwork",
@@ -393,16 +389,16 @@
                                        "definition":  "The center of interest or activity."
                                    },
                                    {
+                                       "term":  "Focused, Present-Moment Action",
+                                       "definition":  "The practice of performing an action with full, non-judgmental attention to the process and the present moment."
+                                   },
+                                   {
                                        "term":  "Formalization",
                                        "definition":  "The process of making something formal or official."
                                    },
                                    {
                                        "term":  "Formulation",
                                        "definition":  "The action of creating or preparing something methodically."
-                                   },
-                                   {
-                                       "term":  "Inquiry \u0026 Creation",
-                                       "definition":  "A basic structure underlying a system, concept, or text."
                                    },
                                    {
                                        "term":  "Framing",
@@ -413,12 +409,12 @@
                                        "definition":  "The achievement of something desired, promised, or predicted."
                                    },
                                    {
-                                       "term":  "Generation",
-                                       "definition":  "The original term for Tool 3, representing the process of producing or creating possibilities."
-                                   },
-                                   {
                                        "term":  "Generalization",
                                        "definition":  "The cognitive process of abstracting a general rule from specific examples."
+                                   },
+                                   {
+                                       "term":  "Generation",
+                                       "definition":  "The original term for Tool 3, representing the process of producing or creating possibilities."
                                    },
                                    {
                                        "term":  "Generosity",
@@ -449,12 +445,12 @@
                                        "definition":  "Mental shortcuts or rules of thumb that simplify complex problem-solving."
                                    },
                                    {
-                                       "term":  "How Might We (HMW)",
-                                       "definition":  "A linguistic formula for framing brainstorming prompts to be optimistic and open-ended."
-                                   },
-                                   {
                                        "term":  "Hiring Circumstance",
                                        "definition":  "In JTBD theory, this refers to the specific context in which a user decides to \"hire\" a product or service to solve a problem. It encompasses the user\u0027s situation, their emotional state, and the \"push\" and \"pull\" forces acting upon them."
+                                   },
+                                   {
+                                       "term":  "How Might We (HMW)",
+                                       "definition":  "A linguistic formula for framing brainstorming prompts to be optimistic and open-ended."
                                    },
                                    {
                                        "term":  "Hypothesis",
@@ -481,6 +477,10 @@
                                        "definition":  "An act of asking for information; a process of investigation."
                                    },
                                    {
+                                       "term":  "Inquiry \u0026 Creation",
+                                       "definition":  "A basic structure underlying a system, concept, or text."
+                                   },
+                                   {
                                        "term":  "Insight",
                                        "definition":  "A deep understanding of a person or thing."
                                    },
@@ -491,6 +491,10 @@
                                    {
                                        "term":  "Instruction",
                                        "definition":  "A direction or order."
+                                   },
+                                   {
+                                       "term":  "Integrated Knowledge",
+                                       "definition":  "The ability to use integrated knowledge and experience to make sound, context-aware judgments. In the framework, this represents the highest form of synthesis, where principles are integrated to guide future ethical and effective action."
                                    },
                                    {
                                        "term":  "Integration",
@@ -521,12 +525,12 @@
                                        "definition":  "The repetition of a process."
                                    },
                                    {
-                                       "term":  "Jobs-to-be-Done (JTBD)",
-                                       "definition":  "An innovation framework that focuses on the underlying \u0027job\u0027 a customer is trying to accomplish."
-                                   },
-                                   {
                                        "term":  "Job Story",
                                        "definition":  "A brief, powerful statement that describes a user\u0027s situation, motivation, and desired outcome. It follows the format: \"When [situation], I want to [motivation], so I can [expected outcome].\""
+                                   },
+                                   {
+                                       "term":  "Jobs-to-be-Done (JTBD)",
+                                       "definition":  "An innovation framework that focuses on the underlying \u0027job\u0027 a customer is trying to accomplish."
                                    },
                                    {
                                        "term":  "Judgment",
@@ -551,10 +555,6 @@
                                    {
                                        "term":  "Learn",
                                        "definition":  "To gain or acquire knowledge of or skill in something by study, experience, or being taught."
-                                   },
-                                   {
-                                       "term":  "outcomes",
-                                       "definition":  "Something left or handed down by a predecessor."
                                    },
                                    {
                                        "term":  "Leverage Points",
@@ -593,10 +593,6 @@
                                        "definition":  "The original term for Tool 10, representing awareness and understanding of one\u0027s own thought processes."
                                    },
                                    {
-                                       "term":  "Focused, Present-Moment Action",
-                                       "definition":  "The practice of performing an action with full, non-judgmental attention to the process and the present moment."
-                                   },
-                                   {
                                        "term":  "Modeling",
                                        "definition":  "The pedagogical act of demonstrating a skill or thought process for a learner."
                                    },
@@ -609,16 +605,16 @@
                                        "definition":  "The novel inquiries that are made possible by the completion of a research project."
                                    },
                                    {
+                                       "term":  "Non-defensive listening",
+                                       "definition":  "A practice of receiving communication with full, non-judgmental attention."
+                                   },
+                                   {
                                        "term":  "Observation",
                                        "definition":  "The action of observing something carefully to gain information."
                                    },
                                    {
                                        "term":  "Oral Tradition",
                                        "definition":  "A form of communication wherein knowledge and cultural material is transmitted orally."
-                                   },
-                                   {
-                                       "term":  "oversight",
-                                       "definition":  "The original term for Tool 10, representing the planning and coordination of the elements of a situation to produce a desired effect."
                                    },
                                    {
                                        "term":  "Order",
@@ -633,8 +629,16 @@
                                        "definition":  "The way a thing turns out; a consequence."
                                    },
                                    {
+                                       "term":  "outcomes",
+                                       "definition":  "Something left or handed down by a predecessor."
+                                   },
+                                   {
                                        "term":  "Outline",
                                        "definition":  "A plan giving the essential features of something but not the detail."
+                                   },
+                                   {
+                                       "term":  "oversight",
+                                       "definition":  "The original term for Tool 10, representing the planning and coordination of the elements of a situation to produce a desired effect."
                                    },
                                    {
                                        "term":  "Pattern Language",
@@ -705,12 +709,12 @@
                                        "definition":  "Evidence or argument establishing a fact or the truth of a statement."
                                    },
                                    {
-                                       "term":  "Prospective Memory",
-                                       "definition":  "The cognitive ability to remember to perform a planned action or recall a planned intention at some future point in time (e.g., remembering to stop at the store on the way home)."
-                                   },
-                                   {
                                        "term":  "Prospective Hindsight",
                                        "definition":  "The technique of imagining a future event has already occurred to improve foresight."
+                                   },
+                                   {
+                                       "term":  "Prospective Memory",
+                                       "definition":  "The cognitive ability to remember to perform a planned action or recall a planned intention at some future point in time (e.g., remembering to stop at the store on the way home)."
                                    },
                                    {
                                        "term":  "protégé Effect",
@@ -722,7 +726,7 @@
                                    },
                                    {
                                        "term":  "Prototyping",
-                                       "definition":  "The act of building a preliminary, testable version of an idea."
+                                       "definition":  "The act of building a preliminary version of an idea. Distinguishes between Low-Fidelity (Tool 3) and High-Fidelity (Tool 6) based on the NASA TRL scale."
                                    },
                                    {
                                        "term":  "Provocation",
@@ -731,10 +735,6 @@
                                    {
                                        "term":  "Prune for Focus",
                                        "definition":  "The difficult but necessary act of removing a part of the work that is clever or beautiful but does not serve the whole."
-                                   },
-                                   {
-                                       "term":  "Environment of Open Communication",
-                                       "definition":  "A shared belief that a team is safe for interpersonal risk-taking."
                                    },
                                    {
                                        "term":  "Publication",
@@ -793,16 +793,12 @@
                                        "definition":  "The systematic investigation into sources to establish facts and reach new conclusions."
                                    },
                                    {
-                                       "term":  "Resolve",
-                                       "definition":  "To settle or find a solution to a problem or contentious matter."
-                                   },
-                                   {
                                        "term":  "Resolution",
                                        "definition":  "The action of solving a problem or contentious matter."
                                    },
                                    {
-                                       "term":  "Significance Appraisal",
-                                       "definition":  "The power to evoke enduring images, memories, and emotions."
+                                       "term":  "Resolve",
+                                       "definition":  "To settle or find a solution to a problem or contentious matter."
                                    },
                                    {
                                        "term":  "Responsibility",
@@ -833,16 +829,12 @@
                                        "definition":  "A method of problem solving used for identifying the root causes of faults or problems."
                                    },
                                    {
-                                       "term":  "Consolidation Period",
-                                       "definition":  "A period of rest or inactivity following a period of intense work, allowing for subconscious processing and memory consolidation."
-                                   },
-                                   {
                                        "term":  "Salience",
                                        "definition":  "The quality of being particularly noticeable or important."
                                    },
                                    {
                                        "term":  "Scaffolding",
-                                       "definition":  "A temporary structure of support. In pedagogy, it refers to instructional techniques that provide temporary support to a learner."
+                                       "definition":  "A temporary structure of support. In pedagogy (Vygotsky), it refers to instructional techniques (soft or hard) that provide temporary support to a learner to reach the Zone of Proximal Development."
                                    },
                                    {
                                        "term":  "Scaling",
@@ -895,6 +887,10 @@
                                    {
                                        "term":  "Signal",
                                        "definition":  "A gesture, action, or sound that is used to convey information."
+                                   },
+                                   {
+                                       "term":  "Significance Appraisal",
+                                       "definition":  "The power to evoke enduring images, memories, and emotions."
                                    },
                                    {
                                        "term":  "Sketching",
@@ -1017,12 +1013,80 @@
                                        "definition":  "The process of ascertaining one\u0027s position and following a route."
                                    },
                                    {
-                                       "term":  "Integrated Knowledge",
-                                       "definition":  "The ability to use integrated knowledge and experience to make sound, context-aware judgments. In the framework, this represents the highest form of synthesis, where principles are integrated to guide future ethical and effective action."
-                                   },
-                                   {
                                        "term":  "Witnessing",
                                        "definition":  "The act of seeing an event take place."
+                                   },
+                                   {
+                                       "term":  "Product Breakdown Structure (PBS)",
+                                       "definition":  "A hierarchical decomposition of the physical components of a system."
+                                   },
+                                   {
+                                       "term":  "Prediction Error",
+                                       "definition":  "The discrepancy between the brain\u0027s expectation (prior model) and sensory reality. This is the primary trigger for learning and inquiry."
+                                   },
+                                   {
+                                       "term":  "Attractor",
+                                       "definition":  "In complexity theory, a set of states toward which a system tends to evolve."
+                                   },
+                                   {
+                                       "term":  "Transient Hypofrontality",
+                                       "definition":  "The temporary downregulation of the prefrontal cortex (executive control) to allow for flow states and divergent thinking."
+                                   },
+                                   {
+                                       "term":  "Causal Layered Analysis (CLA)",
+                                       "definition":  "A futures research method that deconstructs issues into four layers: Litany, System, Worldview, and Myth."
+                                   },
+                                   {
+                                       "term":  "Pre-Mortem",
+                                       "definition":  "A strategic exercise where the team imagines a future failure and works backward to determine its cause."
+                                   },
+                                   {
+                                       "term":  "Valuation Network (vmPFC)",
+                                       "definition":  "The neural circuit (centered in the ventromedial prefrontal cortex) responsible for assigning subjective value and emotional weight to options during decision-making."
+                                   },
+                                   {
+                                       "term":  "Participatory Action Research (PAR)",
+                                       "definition":  "A research approach that emphasizes participation and action, seeking to understand the world by trying to change it, collaboratively and following reflection."
+                                   },
+                                   {
+                                       "term":  "Verification vs. Validation (V\u0026V)",
+                                       "definition":  "Verification asks \u0027Did we build the product right?\u0027 (conformance to spec). Validation asks \u0027Did we build the right product?\u0027 (conformance to user need)."
+                                   },
+                                   {
+                                       "term":  "Interoception",
+                                       "definition":  "The sense of the internal state of the body. Used as a data point for \u0027gut feelings\u0027 and intuition."
+                                   },
+                                   {
+                                       "term":  "Hazard Log",
+                                       "definition":  "A living document that tracks all identified risks, their potential impact, and the status of mitigation efforts."
+                                   },
+                                   {
+                                       "term":  "Key Decision Point (KDP)",
+                                       "definition":  "A formal gate in the project lifecycle where the decision authority determines the readiness of the program to progress to the next phase."
+                                   },
+                                   {
+                                       "term":  "Technical Authority (TA)",
+                                       "definition":  "The governance structure responsible for setting and enforcing technical standards, independent of the program/project management chain."
+                                   },
+                                   {
+                                       "term":  "Technology Readiness Level (TRL)",
+                                       "definition":  "A measurement system used to assess the maturity level of a particular technology."
+                                   },
+                                   {
+                                       "term":  "Interface Control Document (ICD)",
+                                       "definition":  "A document that defines the inputs, outputs, and relationship requirements between two or more systems or subsystems."
+                                   },
+                                   {
+                                       "term":  "Safe-to-Fail Probe",
+                                       "definition":  "A small-scale experiment designed to test a hypothesis in a Complex domain where the outcome is unpredictable, but the cost of failure is acceptable."
+                                   },
+                                   {
+                                       "term":  "Neural Replay",
+                                       "definition":  "The reactivation of specific neural patterns during rest (Consolidation Period) that strengthens memory and enables abstraction."
+                                   },
+                                   {
+                                       "term":  "Salience Network (SN)",
+                                       "definition":  "The neural network responsible for detecting behaviorally relevant stimuli and switching between the Default Mode Network and the Executive Control Network."
                                    }
                                ]
                  },
@@ -1082,20 +1146,7 @@
                                          },
                                          {
                                              "citation":  "Anzaldúa, G. (1987). Borderlands/La Frontera: The New Mestiza. Aunt Lute Books.",
-                                             "rationale":  "Fills a key Thematic Gap in the Cultural traditions cluster by providing the seminal, authoritative source for the concept of Nepantla (the creative \u0027in-between\u0027 space) used in Tool 7."
-                                         },
-                                         {
-                                             "citation":  "Anzaldúa, G. (1987). Borderlands/La Frontera: The New Mestiza. Aunt Lute Books.",
                                              "rationale":  "Introduces \u0027Nepantla,\u0027 the creative \u0027in-between\u0027 space. This provides a powerful language for the synthesis that occurs in Tool 9 and the navigation of conflicting ideas in Tool 3."
-                                         },
-                                         {
-                                             "id":  "argyris-1991",
-                                             "citation":  "Argyris, C. (1991). Teaching smart people how to learn. *Harvard Business Review, 69*(3), 99--109.",
-                                             "rationale":  "This paper is the foundational source for \u0027double-loop learning\u0027--changing underlying assumptions, not just actions. This is the core cognitive task of Tool 9 and Tool 10, particularly in the \u0027Retrospective\u0027 and \u0027Playbook\u0027 pathways, adding academic credibility to the synthesis process.",
-                                             "associated_tools":  [
-                                                                      "tool9",
-                                                                      "tool10"
-                                                                  ]
                                          },
                                          {
                                              "id":  "argyris-1991",
@@ -1121,15 +1172,6 @@
                                              "rationale":  "A landmark example of \u0027close reading,\u0027 the foundational skill of the humanities that the \u0027Text-Driven Path\u0027 (Tool 1) describes."
                                          },
                                          {
-                                             "id":  "bakhtin-1981",
-                                             "citation":  "Bakhtin, M. M. (1981). *The Dialogic Imagination: Four Essays*. University of Texas Press.",
-                                             "rationale":  "Bakhtin\u0027s work is the theoretical foundation for understanding texts and ideas as multi-voiced process of action and responses, which is the central principle of the \u0027Dialogic Path\u0027 (Tool 5).",
-                                             "associated_tools":  [
-                                                                      "tool5",
-                                                                      "tool8"
-                                                                  ]
-                                         },
-                                         {
                                              "citation":  "Bakhtin, M. M. (1981). The Dialogic Imagination: Four Essays. University of Texas Press.",
                                              "rationale":  "Bakhtin\u0027s work is the theoretical foundation for understanding texts and ideas as multi-voiced process of action and responses, which is the central principle of the \u0027Dialogic Path\u0027 (Tool 5)."
                                          },
@@ -1153,12 +1195,6 @@
                                              "rationale":  "Provides a key modern theory of emotion (the Theory of Constructed Emotion), grounding the Interoceptive and Emotional modalities in contemporary affective neuroscience."
                                          },
                                          {
-                                             "id":  "beaty-2016",
-                                             "citation":  "Beaty, R. E., Benedek, M., Silvia, P. J., \u0026 Schacter, D. L. (2016). Creative cognition and brain network dynamics. *Trends in Cognitive Sciences, 20*(2), 87--95.",
-                                             "rationale":  "A key paper supporting the neurocognitive model\u0027s description of creative ideation (Tool 3), linking divergent thinking to the dynamic interplay between the Default Mode Network (DMN) and Executive Control Network (ECN).",
-                                             "associated_tools":  "tool3"
-                                         },
-                                         {
                                              "citation":  "Beaty, R. E., Benedek, M., Silvia, P. J., \u0026 Schacter, D. L. (2016). Creative cognition and brain network dynamics. Trends in Cognitive Sciences, 20(2), 87--95.",
                                              "rationale":  "A key paper supporting the neurocognitive model\u0027s description of creative ideation (Tool 3), linking divergent thinking to the dynamic interplay between the Default Mode Network (DMN) and Executive Control Network (ECN)."
                                          },
@@ -1167,12 +1203,6 @@
                                              "citation":  "Beaty, R. E., et al. (2016). Creative cognition and brain network dynamics. Trends in Cognitive Sciences, 20(2), 87--95.",
                                              "rationale":  "Provides key neuroscientific evidence for the interplay between the Default Mode Network (DMN) and Executive Control Network (ECN) during creative thought, supporting the cognitive model for Tool 3 (Generate).",
                                              "associated_tools":  "tool3"
-                                         },
-                                         {
-                                             "id":  "beck-1979",
-                                             "citation":  "Beck, A. T. (1979). *Cognitive Therapy of Depression*. Guilford Press.",
-                                             "rationale":  "The foundational text of Cognitive Behavioral Therapy (CBT) by its creator. It provides the evidence-based models for identifying and restructuring cognitive distortions, which are integrated throughout the framework to manage the \u0027inner game\u0027 of inquiry.",
-                                             "associated_tools":  null
                                          },
                                          {
                                              "id":  "beck-1979",
@@ -1255,12 +1285,6 @@
                                              "rationale":  "Serves as an important Bridge work, connecting the fast-paced world of Agile development with the slow, long-term thinking of ethical stewardship through the powerful mental model of \u0027pace layering.\u0027"
                                          },
                                          {
-                                             "id":  "bransford-2000",
-                                             "citation":  "Bransford, J. D., Brown, A. L., \u0026 Cocking, R. R. (Eds.). (2000). *How People Learn: Brain, Mind, Experience, and School*. National Academies Press.",
-                                             "rationale":  "A comprehensive synthesis of learning science that informs the entire pedagogical structure of the framework, especially the emphasis on metacognition and knowledge transfer (Tool 9).",
-                                             "associated_tools":  "tool9"
-                                         },
-                                         {
                                              "citation":  "Bransford, J. D., Brown, A. L., \u0026 Cocking, R. R. (Eds.). (2000). How People Learn: Brain, Mind, Experience, and School. National Academies Press.",
                                              "rationale":  "A comprehensive synthesis of learning science that informs the entire pedagogical structure of the framework, especially the emphasis on metacognition and knowledge transfer (Tool 9)."
                                          },
@@ -1289,15 +1313,6 @@
                                          {
                                              "citation":  "Brown, A. M. (2017). Emergent Strategy: Shaping Change, Changing Worlds. AK Press.",
                                              "rationale":  "Provides the theoretical and practical basis for many of the concepts in the Cultural traditions perspective, particularly the idea of adapting to and shaping change through relational, bottom-up processes."
-                                         },
-                                         {
-                                             "id":  "brown-roediger-mcdaniel-2014",
-                                             "citation":  "Brown, P. C., et al. (2014). Make It Stick: The Science of Successful Learning. Belknap Press.",
-                                             "rationale":  "Provides the scientific basis for the \u0027protégé Effect,\u0027 which explains why the act of preparing to teach is a powerful tool for synthesis and is explicitly used in the Facilitator playbook for Tool 5.",
-                                             "associated_tools":  [
-                                                                      "tool5",
-                                                                      "tool9"
-                                                                  ]
                                          },
                                          {
                                              "id":  "brown-roediger-mcdaniel-2014",
@@ -1419,12 +1434,6 @@
                                              "associated_tools":  null
                                          },
                                          {
-                                             "id":  "clark-2016",
-                                             "citation":  "Clark, A. (2016). *Surfing Uncertainty: Prediction, Action, and the Embodied Mind*. Oxford University Press.",
-                                             "rationale":  "The foundational text for the Predictive Processing (Bayesian Brain) theory, providing the scientific basis for reframing the entire inquiry cycle as a process of prediction error minimization.",
-                                             "associated_tools":  null
-                                         },
-                                         {
                                              "citation":  "Clark, A. (2016). Surfing Uncertainty: Prediction, Action, and the Embodied Mind. Oxford University Press.",
                                              "rationale":  "The foundational text for the Predictive Processing (Bayesian Brain) theory, providing the scientific basis for reframing the entire inquiry cycle as a process of prediction error minimization."
                                          },
@@ -1458,12 +1467,6 @@
                                              "rationale":  "Supports the neurocognitive model\u0027s emphasis on the insula for interoception and subjective feeling, particularly relevant to the \u0027Feel\u0027 step in the \u0027Internal/Muse Path\u0027 (Tool 1)."
                                          },
                                          {
-                                             "id":  "csikszentmihalyi-1990",
-                                             "citation":  "Csikszentmihalyi, M. (1990). *Flow: The Psychology of Optimal Experience*. Harper \u0026 Row.",
-                                             "rationale":  "The seminal work defining the psychological concept of \u0027flow.\u0027 It provides direct attribution for this optimal state of performance mentioned in the \u0027Drafting Path\u0027 (Tool 6).",
-                                             "associated_tools":  "tool6"
-                                         },
-                                         {
                                              "citation":  "Csikszentmihalyi, M. (1990). Flow: The Psychology of Optimal Experience. Harper \u0026 Row.",
                                              "rationale":  "The seminal work defining the psychological concept of \u0027flow.\u0027 It provides direct attribution for this optimal state of performance mentioned in the \u0027Drafting Path\u0027 (Tool 6)."
                                          },
@@ -1474,27 +1477,15 @@
                                              "associated_tools":  "tool6"
                                          },
                                          {
-                                             "id":  "damasio-1994",
-                                             "citation":  "Damasio, A. R. (1994). *Descartes\u0027 Error: Emotion, Reason, and the Human Brain*. Putnam.",
-                                             "rationale":  "The seminal work on the Somatic Marker Hypothesis, providing the neuroscientific grounding for the role of interoception (\u0027gut feelings\u0027) in decision-making, as integrated into Tool 4.",
-                                             "associated_tools":  null
-                                         },
-                                         {
-                                             "id":  "damasio-1994",
-                                             "citation":  "Damasio, A. R. (1994). *Descartes\u0027 Error: Emotion, Reason, and the Human Brain*. Putnam.",
-                                             "rationale":  "Foundational work on the role of the vmPFC in decision-making and the Somatic Marker Hypothesis, providing the source for the glossary term \u0027Valuation Network (vmPFC)\u0027 and grounding the `Interoceptive` modality.",
-                                             "associated_tools":  null
-                                         },
-                                         {
-                                             "id":  "damasio-1994",
-                                             "citation":  "Damasio, A. R. (1994). *Descartes\u0027 Error: Emotion, Reason, and the Human Brain*. Putnam.",
-                                             "rationale":  "The seminal work on the Somatic Marker Hypothesis, providing the neuroscientific grounding for the role of interoception (\u0027gut feelings\u0027) in decision-making, as integrated into Tool 4.",
-                                             "associated_tools":  null
-                                         },
-                                         {
                                              "id":  "new-damasio-1994",
                                              "citation":  "Damasio, A. R. (1994). *Descartes\u0027 Error: Emotion, Reason, and the Human Brain*. Putnam.",
                                              "rationale":  "A Keystone work in affective neuroscience that provides crucial Neurocognitive Grounding for the role of interoception (via the Insula) in decision-making. It validates the many pathways that rely on \u0027felt sense,\u0027 \u0027intuition,\u0027 and \u0027aesthetic judgment\u0027 (e.g., \u0027The Internal/Muse Path\u0027, Tool 1).",
+                                             "associated_tools":  null
+                                         },
+                                         {
+                                             "id":  "damasio-1994",
+                                             "citation":  "Damasio, A. R. (1994). *Descartes\u0027 Error: Emotion, Reason, and the Human Brain*. Putnam.",
+                                             "rationale":  "The seminal work on the Somatic Marker Hypothesis, providing the neuroscientific grounding for the role of interoception (\u0027gut feelings\u0027) in decision-making, as integrated into Tool 4.",
                                              "associated_tools":  null
                                          },
                                          {
@@ -1611,12 +1602,6 @@
                                          },
                                          {
                                              "id":  "eberle-1996",
-                                             "citation":  "Eberle, B. (1996). *SCAMPER: Games for Imagination Development*. Prufrock Press.",
-                                             "rationale":  "The canonical text that developed the SCAMPER mnemonic, cited in the \u0027Transformative Path\u0027 (Tool 3) and the glossary.",
-                                             "associated_tools":  "tool3"
-                                         },
-                                         {
-                                             "id":  "eberle-1996",
                                              "citation":  "Eberle, B. (1996). SCAMPER: Games for Imagination Development. Prufrock Press.",
                                              "rationale":  "The canonical source for the SCAMPER brainstorming technique, a structured creativity method applicable to Tool 3.",
                                              "associated_tools":  "tool3"
@@ -1624,15 +1609,6 @@
                                          {
                                              "citation":  "Eberle, B. (1996). SCAMPER: Games for Imagination Development. Prufrock Press.",
                                              "rationale":  "The canonical text that developed the SCAMPER mnemonic, cited in the \u0027Transformative Path\u0027 (Tool 3) and the glossary."
-                                         },
-                                         {
-                                             "id":  "edmondson-2018",
-                                             "citation":  "Edmondson, A. C. (2018). *The Fearless Organization: Creating Environment of Open Communication in the Workplace for Learning, Innovation, and Growth*. Wiley.",
-                                             "rationale":  "Provides the research basis for psychological safety, a critical condition for the effective use of the framework\u0027s collaborative and feedback-oriented tools (e.g., Tool 7 critique) and the \u0027Generative Field Path\u0027 (Tool 3).",
-                                             "associated_tools":  [
-                                                                      "tool3",
-                                                                      "tool7"
-                                                                  ]
                                          },
                                          {
                                              "id":  "edmondson-2018",
@@ -1905,15 +1881,15 @@
                                              "rationale":  "The classic text that introduced the concept of \u0027Kaizen\u0027 to the Western world, sourcing the glossary term."
                                          },
                                          {
-                                             "id":  "new-immordino-2015",
-                                             "citation":  "Immordino-Yang, M. H. (2015). *Emotions, Learning, and the Brain: Exploring the Educational Implications of Affective Neuroscience*. W. W. Norton \u0026 Company.",
-                                             "rationale":  "A crucial Bridge that also provides specific Neurocognitive Grounding. It directly connects affective neuroscience to classroom practice, providing research-backed evidence for why the framework\u0027s emphasis on emotional engagement is critical for deep learning.",
-                                             "associated_tools":  null
-                                         },
-                                         {
                                              "id":  "immordino-2015",
                                              "citation":  "Immordino-Yang, M. H. (2015). *Emotions, Learning, and the Brain: Exploring the Educational Implications of Affective Neuroscience*. W. W. Norton \u0026 Company.",
                                              "rationale":  "A crucial bridge connecting affective neuroscience to classroom practice, providing research-backed evidence for why the framework\u0027s emphasis on emotional engagement and the facilitator\u0027s role in social-emotional regulation (Tool 7) is critical for deep learning.",
+                                             "associated_tools":  null
+                                         },
+                                         {
+                                             "id":  "new-immordino-2015",
+                                             "citation":  "Immordino-Yang, M. H. (2015). *Emotions, Learning, and the Brain: Exploring the Educational Implications of Affective Neuroscience*. W. W. Norton \u0026 Company.",
+                                             "rationale":  "A crucial Bridge that also provides specific Neurocognitive Grounding. It directly connects affective neuroscience to classroom practice, providing research-backed evidence for why the framework\u0027s emphasis on emotional engagement is critical for deep learning.",
                                              "associated_tools":  null
                                          },
                                          {
@@ -2006,15 +1982,6 @@
                                              "citation":  "Klein, G. (2003). *The Power of Intuition: How to Use Your Gut Feelings to Make Better Decisions at Work*. Currency.",
                                              "rationale":  "The originator of the \u0027Pre-Mortem Exercise\u0027 (Node N11, Tool 2). Citing this work provides direct attribution for this powerful risk-management tool, grounding it in expert practice.",
                                              "associated_tools":  null
-                                         },
-                                         {
-                                             "id":  "klein-2007",
-                                             "citation":  "Klein, G. (2007). Performing a Project Premortem. *Harvard Business Review*. Retrieved from https://hbr.org/2007/09/performing-a-project-premortem",
-                                             "rationale":  "Provides the authoritative, accessible source for the Pre-Mortem technique, validating its use in T2 and T4.",
-                                             "associated_tools":  [
-                                                                      "tool2",
-                                                                      "tool4"
-                                                                  ]
                                          },
                                          {
                                              "id":  "klein-2007",
@@ -2245,15 +2212,6 @@
                                          },
                                          {
                                              "id":  "ohno-1988",
-                                             "citation":  "Ohno, T. (1988). *Toyota Production System: Beyond Large-Scale Production*. Productivity Press.",
-                                             "rationale":  "The primary source from the creator of the Toyota Production System, providing the origin for the \u00275 Whys\u0027 technique.",
-                                             "associated_tools":  [
-                                                                      "tool1",
-                                                                      "tool7"
-                                                                  ]
-                                         },
-                                         {
-                                             "id":  "ohno-1988",
                                              "citation":  "Ohno, T. (1988). Toyota Production System: Beyond Large-Scale Production. Productivity Press.",
                                              "rationale":  "The primary source for \u0027Root Cause Analysis\u0027 and the \u00275 Whys\u0027 technique, a core diagnostic method used in Tool 1 and Tool 7.",
                                              "associated_tools":  [
@@ -2289,15 +2247,6 @@
                                          {
                                              "citation":  "Oulasvirta, A., Kurvinen, E., \u0026 Kankainen, T. (2003). Understanding contexts by being there: case studies in bodystorming. Personal and Ubiquitous Computing, 7(2), 125--134.",
                                              "rationale":  "A key academic paper that formally defines and analyzes the \u0027Bodystorming\u0027 methodology."
-                                         },
-                                         {
-                                             "id":  "parker-2018",
-                                             "citation":  "Parker, P. (2018). *The Art of Gathering: How We Meet and Why It Matters*. Riverhead Books.",
-                                             "rationale":  "Provides a modern framework for intentional gathering, which informs the principles behind the \u0027Council\u0027 Path (Tool 7) and other collaborative activities.",
-                                             "associated_tools":  [
-                                                                      "tool3",
-                                                                      "tool4"
-                                                                  ]
                                          },
                                          {
                                              "id":  "parker-2018",
@@ -2382,15 +2331,6 @@
                                          {
                                              "citation":  "Rangel, A., Camerer, C., \u0026 Montague, P. R. (2008). A framework for studying the neurobiology of value-based decision making. Nature Reviews Neuroscience.",
                                              "rationale":  "Foundational model for the Valuation Network (vmPFC)."
-                                         },
-                                         {
-                                             "id":  "ries-2011",
-                                             "citation":  "Ries, E. (2011). *The Lean Startup: How Today\u0027s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses*. Crown Business.",
-                                             "rationale":  "The foundational text for the Lean Startup methodology, which informs numerous pathways related to agile development, MVPs, and validated learning.",
-                                             "associated_tools":  [
-                                                                      "tool2",
-                                                                      "tool7"
-                                                                  ]
                                          },
                                          {
                                              "id":  "ries-2011",
@@ -2493,12 +2433,6 @@
                                          {
                                              "id":  "smith-2012",
                                              "citation":  "Smith, L. T. (2012). *Decolonizing Methodologies: Research and Indigenous Peoples* (2nd ed.). Zed Books.",
-                                             "rationale":  "The seminal work that critiques the colonial history of Western research and articulates principles for conducting research respectfully and accountably with Indigenous communities.",
-                                             "associated_tools":  null
-                                         },
-                                         {
-                                             "id":  "smith-2012",
-                                             "citation":  "Smith, L. T. (2012). *Decolonizing Methodologies: Research and Indigenous Peoples* (2nd ed.). Zed Books.",
                                              "rationale":  "A foundational text for Indigenous research methodologies and the critique of colonial research practices. It informs the framework\u0027s \u0027Decolonial Critique\u0027 section and the \u0027Positional Path\u0027 (Tool 2).",
                                              "associated_tools":  null
                                          },
@@ -2507,15 +2441,15 @@
                                              "rationale":  "The seminal work that critiques the colonial history of Western research and articulates principles for conducting research respectfully and accountably with Indigenous communities."
                                          },
                                          {
-                                             "id":  "new-squire-2009",
-                                             "citation":  "Squire, L. R., \u0026 Kandel, E. R. (2009). *Memory: From Mind to Molecules* (2nd ed.). Roberts and Company Publishers.",
-                                             "rationale":  "A Keystone textbook that fills a major Neurocognitive Grounding gap by providing foundational evidence for the mechanisms of memory consolidation. This directly supports the neuroscientific claims about learning, reflection, and synthesis made in Tools 2 and 9.",
-                                             "associated_tools":  null
-                                         },
-                                         {
                                              "id":  "squire-2009",
                                              "citation":  "Squire, L. R., \u0026 Kandel, E. R. (2009). *Memory: From Mind to Molecules* (2nd ed.). Roberts and Company Publishers.",
                                              "rationale":  "A foundational textbook on the neuroscience of memory, providing the source for the glossary term \u0027Hippocampus\u0027.",
+                                             "associated_tools":  null
+                                         },
+                                         {
+                                             "id":  "new-squire-2009",
+                                             "citation":  "Squire, L. R., \u0026 Kandel, E. R. (2009). *Memory: From Mind to Molecules* (2nd ed.). Roberts and Company Publishers.",
+                                             "rationale":  "A Keystone textbook that fills a major Neurocognitive Grounding gap by providing foundational evidence for the mechanisms of memory consolidation. This directly supports the neuroscientific claims about learning, reflection, and synthesis made in Tools 2 and 9.",
                                              "associated_tools":  null
                                          },
                                          {
@@ -2619,15 +2553,6 @@
                                          },
                                          {
                                              "id":  "vygotsky-1978",
-                                             "citation":  "Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Harvard University Press.",
-                                             "rationale":  "Vygotsky\u0027s work on social learning and the Zone of Proximal Development (ZPD) is a foundational concept for the idea of \u0027scaffolding\u0027 in education, which is the central metaphor of the entire framework and the source for the \u0027Scaffolding Path\u0027 (Tool 2).",
-                                             "associated_tools":  [
-                                                                      "tool2",
-                                                                      "tool5"
-                                                                  ]
-                                         },
-                                         {
-                                             "id":  "vygotsky-1978",
                                              "citation":  "Vygotsky, L. S. (1978). Mind in Society. Harvard University Press.",
                                              "rationale":  "The origin of the \u0027Zone of Proximal Development (ZPD)\u0027 and the concept of \u0027scaffolding,\u0027 which are the core pedagogical principles for the facilitator\u0027s role in Tool 2.",
                                              "associated_tools":  [
@@ -2654,6 +2579,36 @@
                                          {
                                              "citation":  "Zehr, H. (2002). The Little Book of Restorative Justice. Good Books.",
                                              "rationale":  "A foundational text on restorative justice, providing the principles that inform the \u0027Restorative Path\u0027 (Tool 1 \u0026 8)."
+                                         },
+                                         {
+                                             "citation":  "Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*.",
+                                             "rationale":  "Grounds the \u0027Prediction Error\u0027 and \u0027Active Inference\u0027 concepts in Tool 1.",
+                                             "id":  "friston-2010"
+                                         },
+                                         {
+                                             "citation":  "Snowden, D. J., \u0026 Boone, M. E. (2007). A Leaders Framework for Decision Making. *Harvard Business Review*.",
+                                             "rationale":  "The foundational text for the Cynefin framework used in Tool 10.",
+                                             "id":  "snowden-2007"
+                                         },
+                                         {
+                                             "citation":  "NASA. (2007). *Systems Engineering Processes and Requirements (NPR 7123.1B)*.",
+                                             "rationale":  "The source for Technical Authority and Governance in Tool 10.",
+                                             "id":  "nasa-2007"
+                                         },
+                                         {
+                                             "citation":  "Sapolsky, R. M. (2017). *Behave: The Biology of Humans at Our Best and Worst*. Penguin Press.",
+                                             "rationale":  "Grounds the Limbic/Prefrontal interaction dynamics in Tool 4 and Tool 7.",
+                                             "id":  "sapolsky-2017"
+                                         },
+                                         {
+                                             "citation":  "Inayatullah, S. (1998). Causal Layered Analysis: Poststructuralism as method. *Futures*.",
+                                             "rationale":  "Source for the CLA pathway in Tool 1.",
+                                             "id":  "inayatullah-1998"
+                                         },
+                                         {
+                                             "citation":  "NASA. (2016). *NASA Systems Engineering Handbook (SP-2016-6105), Rev 2*. Washington, D.C.",
+                                             "rationale":  "The primary source for all \u0027NASA Registry\u0027 sections, KDPs, and TRLs.",
+                                             "id":  "nasa-2016"
                                          }
                                      ]
                      },
