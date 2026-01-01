@@ -16,35 +16,35 @@
                          "theory_application":  "Visually map the logical structure of an argument or system, showing the relationships between claims, evidence, and conclusions.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Stephen Toulmin - The Logician",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by Evidence and a Warrant. Procedural Link: The action is to map the research logic, ensuring every Claim is supported by Evidence and a clear Warrant (logical bridge).",
                                                 "specific_deliverable":  "A Toulmin Diagram of the economic argument.",
                                                 "rubric":  "Maps Claim, Evidence, Warrant."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Strategist",
                                                 "theory":  "Definition: Scrum uses User Stories as the core unit of work. Procedural Link: The action is to map the feature logic, ensuring every User Story (claim) is supported by Acceptance Criteria (evidence) and a Technical Spec (warrant).",
                                                 "specific_deliverable":  "A Benefit Map linking UBI to GDP growth.",
                                                 "rubric":  "Maps User Story to Criteria."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Writer",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to visually structure the paper, explicitly detailing the central claim, all supporting evidence, and the logical warrants (N22).",
                                                 "specific_deliverable":  "An Essay Outline structuring the chapters.",
                                                 "rubric":  "Visually structures paper."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to map the conceptual flow of the work, ensuring the visual elements logically support the core aesthetic intent.",
                                                 "specific_deliverable":  "A Visual Argument Map for the infographic.",
                                                 "rubric":  "Maps conceptual flow."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Jürgen Habermas - The Ethicist",
                                                 "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to map the ethical dilemma, showing the conflicting moral principles and the logical justification for the chosen resolution.",
                                                 "specific_deliverable":  "An Ethical Logic Tree justifying the policy.",
@@ -60,35 +60,35 @@
                          "theory_application":  "Maintain a dynamic equilibrium between opposing forces or needs to ensure the long-term health and stability of the system.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Scientist",
                                                 "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to ensure the experimental design has a balance between control, ecological validity, and replicability.",
                                                 "specific_deliverable":  "A Quality Metric Dashboard tracking bug rates.",
                                                 "rubric":  "Ensures balance: control/validity."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Manager",
                                                 "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to ensure the plan has a balanced workload that aligns with the team\u0027s capacity and mitigates the risk of burnout.",
                                                 "specific_deliverable":  "A Team Burnout Monitor tracking overtime.",
                                                 "rubric":  "Ensures balance: workload/capacity."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Analyst",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to ensure the argument maintains a balance between attention to detail (close reading) and broad theoretical synthesis.",
                                                 "specific_deliverable":  "A Scope Balance Chart managing feature creep.",
                                                 "rubric":  "Ensures balance: detail/synthesis."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to achieve visual or conceptual harmony by ensuring all aesthetic elements are in dynamic equilibrium.",
                                                 "specific_deliverable":  "A Visual Balance Check of the UI layout.",
                                                 "rubric":  "Achieves visual/conceptual harmony."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Donella Meadows - The Leader",
                                                 "theory":  "Definition: Meadows focuses on identifying leverage points. Procedural Link: The action is to achieve a dynamic equilibrium between the competing needs of stakeholders and the environment.",
                                                 "specific_deliverable":  "A Stakeholder Balance Matrix ensuring equity.",
@@ -104,35 +104,35 @@
                          "theory_application":  "Create a comprehensive, authoritative document that translates the abstract vision into precise, actionable specifications for execution.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Engineer",
                                                 "theory":  "Definition: The blueprint must be precise, unambiguous, and complete. Procedural Link: The action is to ensure the blueprint is precise, unambiguous, and complete enough that a team of strangers could build the system exactly as intended.",
                                                 "specific_deliverable":  "A Structural Blueprint for the foundation.",
                                                 "rubric":  "Blueprint is precise/unambiguous."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Planner",
                                                 "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to ensure the blueprint (Technical Spec - N25) must act as the source of truth for the entire execution team, reducing ambiguity.",
                                                 "specific_deliverable":  "A Master Construction Schedule.",
                                                 "rubric":  "Acts as source of truth."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Architect",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to ensure the blueprint (Outline) must dictate the linear flow of the written argument, ensuring logical progression.",
                                                 "specific_deliverable":  "A Spatial Flow Diagram for patrons.",
                                                 "rubric":  "Dictates linear flow."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Christopher Alexander - The Designer",
                                                 "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to ensure the blueprint (Storyboard/Maquette) must be the authoritative final specification used to guide the fabrication or construction team.",
                                                 "specific_deliverable":  "A Lighting Plan for reading areas.",
                                                 "rubric":  "Acts as authoritative spec."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "RRI Framework - The Governor",
                                                 "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to ensure the blueprint must detail the governance structure and all decision-making flows, ensuring transparency.",
                                                 "specific_deliverable":  "A Community Access Policy document.",
@@ -148,35 +148,35 @@
                          "theory_application":  "Translate tacit knowledge, intuition, or complex logic into explicit, written rules or protocols that can be followed by others.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Scientist",
                                                 "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to translate the intellectual logic of the hypothesis into the formal, rule-based syntax of the experimental protocol.",
                                                 "specific_deliverable":  "A Standard Operating Procedure for the lab.",
                                                 "rubric":  "Translate logic into protocol."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Manager",
                                                 "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to translate the abstract design concept into explicit, measurable user stories and acceptance criteria.",
                                                 "specific_deliverable":  "A Process Manual for the team.",
                                                 "rubric":  "Translate design into stories."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Writer",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to translate the initial interpretive insight into a formal, structured theoretical language.",
                                                 "specific_deliverable":  "A Theoretical Definition of the method.",
                                                 "rubric":  "Translate insight into theory."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Christopher Alexander - The Teacher",
                                                 "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to translate an ephemeral artistic idea into a durable, written form (e.g., a score, instructions, a pattern).",
                                                 "specific_deliverable":  "A Training Video Script demonstrating the technique.",
                                                 "rubric":  "Translate idea into durable form."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "M. M. Bakhtin - The Archivist",
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to translate tacit cultural integrated knowledge or a successful process into a repeatable ritual sequence (N88) or formal principle.",
                                                 "specific_deliverable":  "A Knowledge Transfer Guide for future staff.",
@@ -192,35 +192,35 @@
                          "theory_application":  "Create a collection of reusable components, standards, and guidelines that ensure consistency, efficiency, and quality across a complex system.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Edward Tufte - The Visualizer",
                                                 "theory":  "Definition: Tufte emphasizes maximizing the data-ink ratio and visual clarity. Procedural Link: The action is to create a framework for standardizing data visualization components to ensure clarity and honesty across all reports.",
                                                 "specific_deliverable":  "A Data Chart Library for consistency.",
                                                 "rubric":  "Create framework standardizing data."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Brad Frost - The Developer",
                                                 "theory":  "Definition: Atomic Design builds interfaces from reusable components. Procedural Link: The action is to ensure the Design System must be built using \u0027Atomic Design\u0027 principles, ensuring components are reusable and consistent.",
                                                 "specific_deliverable":  "An Atomic Component Library (buttons, forms).",
                                                 "rubric":  "Ensure system uses \u0027Atomic Design\u0027."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Writer",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to create a formal style guide or templated language to ensure the consistency and accessibility of all scholarly communication.",
                                                 "specific_deliverable":  "A Content Style Guide for plain language.",
                                                 "rubric":  "Create style guide for consistency."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Christopher Alexander - The Designer",
                                                 "theory":  "Definition: Alexander\u0027s patterns define reusable solutions and constraints. Procedural Link: The action is to ensure the Design System must be a \u0027kit of parts\u0027 that allows for both consistency and creative freedom.",
                                                 "specific_deliverable":  "A Pattern Library for page layouts.",
                                                 "rubric":  "Ensure system is \u0027kit of parts\u0027."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "RRI Framework - The Ethicist",
                                                 "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to ensure the Design System must include ethical tokens (e.g., a specific color for \u0027risk\u0027) to ensure ethical considerations are visually present in all designs.",
                                                 "specific_deliverable":  "An Accessibility Standard for diverse users.",
@@ -236,35 +236,35 @@
                          "theory_application":  "Build a minimal, functional thread that connects all system components from start to finish, proving integration before adding detail.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Engineer",
                                                 "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to build the minimal working system that proves the critical sensor, data pipeline, and analysis module are integrated and functional.",
                                                 "specific_deliverable":  "A Transaction Test Script verifying payment.",
                                                 "rubric":  "Build minimal system proving integration."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Developer",
                                                 "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to build a \u0027Walking Skeleton\u0027—the thinnest possible version of a complete feature that proves the architecture works before functionality is added.",
                                                 "specific_deliverable":  "A Hello World Checkout app (no UI).",
                                                 "rubric":  "Build \u0027Walking Skeleton\u0027."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Analyst",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to outline the argument from the introduction to the conclusion, ensuring a clear and continuous logical flow.",
                                                 "specific_deliverable":  "A User Flow Diagram from cart to receipt.",
                                                 "rubric":  "Outline argument from intro to conclusion."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to create a simple, connected prototype of the entire user journey or narrative arc.",
                                                 "specific_deliverable":  "A Clickable Wireframe of the happy path.",
                                                 "rubric":  "Create simple prototype of journey."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Donella Meadows - The Auditor",
                                                 "theory":  "Definition: Meadows focuses on identifying feedback loops. Procedural Link: The action is to map the complete flow of communication or accountability across all roles and systems.",
                                                 "specific_deliverable":  "A Data Privacy Audit of the transaction flow.",
@@ -280,35 +280,35 @@
                          "theory_application":  "Create a visual representation of a process or system, showing the sequence of steps, decision points, and relationships between components.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Analyst",
                                                 "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to use a flowchart to illustrate the sequence of experimental steps, decision points, and conditional logic.",
                                                 "specific_deliverable":  "A Decision Tree for ticket routing.",
                                                 "rubric":  "Illustrate sequence of steps."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Manager",
                                                 "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to use a flowchart to visualize the user flow or the system logic (state chart).",
                                                 "specific_deliverable":  "A Service Blueprint of the support lifecycle.",
                                                 "rubric":  "Visualize user flow/system logic."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Writer",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to use a flowchart to visualize the logical sequence of ideas in a paper (Argument Map - N22) or the decision process in a legal brief.",
                                                 "specific_deliverable":  "A Script Flowchart for agent responses.",
                                                 "rubric":  "Visualize logical sequence."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to use a flowchart to map the required sequence of movements, cuts, or technical steps.",
                                                 "specific_deliverable":  "A UX Flow Diagram for the help center.",
                                                 "rubric":  "Map required sequence of movements."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Donella Meadows - The Systems Thinker",
                                                 "theory":  "Definition: Meadows focuses on identifying feedback loops. Procedural Link: The action is to use a flowchart to diagram a social ritual (N88) or a conflict resolution process.",
                                                 "specific_deliverable":  "An Escalation Protocol for angry customers.",
@@ -324,35 +324,35 @@
                          "theory_application":  "Ensure that all elements of a system or composition relate to each other in a consistent, balanced, and mutually reinforcing way.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Analyst",
                                                 "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to ensure the experimental procedure is internally consistent and aligns perfectly with the stated hypothesis.",
                                                 "specific_deliverable":  "A Message Consistency Check across channels.",
                                                 "rubric":  "Ensure procedure is consistent."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Marketer",
                                                 "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to ensure all components of the plan (code, design, content) are aligned and work together without unnecessary friction.",
                                                 "specific_deliverable":  "A Campaign Timeline aligning email and social.",
                                                 "rubric":  "Ensure components align."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Editor",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to ensure all evidence and interpretations align to support the central thesis without contradiction.",
                                                 "specific_deliverable":  "A Brand Voice Audit ensuring tone consistency.",
                                                 "rubric":  "Ensure evidence aligns with thesis."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to achieve visual or conceptual harmony by ensuring all aesthetic elements are in dynamic equilibrium.",
                                                 "specific_deliverable":  "A Visual Identity Review of all assets.",
                                                 "rubric":  "Achieve visual/conceptual harmony."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "M. M. Bakhtin - The Strategist",
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to achieve a dynamic equilibrium between the competing needs of stakeholders and the environment.",
                                                 "specific_deliverable":  "A Stakeholder Alignment Report.",
@@ -368,35 +368,35 @@
                          "theory_application":  "Provide simple, practical rules of thumb or shortcuts that help people make effective decisions or solve problems quickly in complex situations.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Mentor",
                                                 "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to provide simple rules of thumb or computational shortcuts to guide complex data analysis.",
                                                 "specific_deliverable":  "A Decision-Making Checklist for hiring.",
                                                 "rubric":  "Provide rules of thumb."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Coach",
                                                 "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to provide simple, reusable rules (e.g., \u0027always use RICE scoring,\u0027 \u0027keep components modular\u0027) to accelerate decision-making.",
                                                 "specific_deliverable":  "A Meeting Protocol Card for efficiency.",
                                                 "rubric":  "Provide reusable rules."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Teacher",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to provide templates or frameworks (e.g., Claim-Evidence-Warrant) to structure logical arguments.",
                                                 "specific_deliverable":  "A Feedback Template for performance reviews.",
                                                 "rubric":  "Provide templates to structure."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Bob Eberle - The Innovator",
                                                 "theory":  "Definition: SCAMPER is a checklist for systematic variation. Procedural Link: The action is to provide the SCAMPER checklist or other creative constraint patterns to generate ideas.",
                                                 "specific_deliverable":  "A Brainstorming Prompt List.",
                                                 "rubric":  "Provide checklists to generate."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "RRI Framework - The Ethicist",
                                                 "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to codify principles of justice or care to guide ethical action (e.g., \u0027do no harm\u0027).",
                                                 "specific_deliverable":  "An Ethical Decision Guide for conflicts.",
@@ -412,35 +412,35 @@
                          "theory_application":  "Verify that the structure, sequence, and reasoning of a system or argument are sound, consistent, and free from contradictions.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Auditor",
                                                 "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to ensure the experimental procedure must follow a sound, consistent, and rational sequence to ensure the results are valid.",
                                                 "specific_deliverable":  "A Formula Audit Log checking calculations.",
                                                 "rubric":  "Ensure procedure follows sequence."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Analyst",
                                                 "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to ensure the project plan must be internally consistent and the tasks flow sequentially without contradiction.",
                                                 "specific_deliverable":  "A Logic Flow Review of the spreadsheet.",
                                                 "rubric":  "Ensure plan is consistent."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Critic",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to ensure the argument must follow the strict principles of validity and soundness (N22).",
                                                 "specific_deliverable":  "An Assumption Check of the forecast.",
                                                 "rubric":  "Ensure argument follows validity."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to ensure the internal, consistent system of rules that governs a final artistic composition or design layout.",
                                                 "specific_deliverable":  "A Visual Logic Check of the report layout.",
                                                 "rubric":  "Ensure consistent system of rules."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Jürgen Habermas - The Ethicist",
                                                 "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to ensure the consistency and fairness of the justification for an ethical decision.",
                                                 "specific_deliverable":  "A Fairness Audit of the budget allocation.",
@@ -456,35 +456,35 @@
                          "theory_application":  "Transmit knowledge, values, and skills through spoken word, storytelling, and direct mentorship, preserving integrated knowledge that cannot be fully captured in text.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Mentor",
                                                 "theory":  "Definition: The scientific method requires intellectual honesty. Procedural Link: The action is to transmit unwritten technical know-how (e.g., specific instrument calibration tricks) through verbal apprenticeship or direct mentorship.",
                                                 "specific_deliverable":  "A Mentorship Session Log recording tips.",
                                                 "rubric":  "Transmit know-how via apprenticeship."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Storyteller",
                                                 "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to pass on successful processes and tacit knowledge through training, storytelling, and direct coaching.",
                                                 "specific_deliverable":  "A \u0027War Stories\u0027 Archive of past projects.",
                                                 "rubric":  "Pass on knowledge via storytelling."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "M. M. Bakhtin - The Historian",
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to structure arguments around narrative elements and using public speaking to engage in scholarly debate.",
                                                 "specific_deliverable":  "An Oral History Interview with the founder.",
                                                 "rubric":  "Structure arguments around narrative."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Martha Graham - The Performer",
                                                 "theory":  "Definition: Graham\u0027s work sought to find the physical expression for the inner emotional landscape. Procedural Link: The action is to use narrative and performative techniques to organize and transfer knowledge (e.g., a musical score, a play script).",
                                                 "specific_deliverable":  "A Video Walkthrough of the facility.",
                                                 "rubric":  "Use narrative/performance to transfer."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "M. M. Bakhtin - The Elder",
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to use narrative structuring (N93) and Teaching Stories (N91) to codify integrated knowledge and communal history.",
                                                 "specific_deliverable":  "A Values Story Collection for onboarding.",
@@ -500,35 +500,35 @@
                          "theory_application":  "Impose a structured arrangement or sequence on elements to create stability, predictability, and efficiency.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Engineer",
                                                 "theory":  "Definition: Structuring is the formal, rule-based activity of creating order. Procedural Link: The action is to impose a deterministic sequence on a research process to ensure the results are replicable.",
                                                 "specific_deliverable":  "A Sorting Protocol for inventory.",
                                                 "rubric":  "Impose deterministic sequence."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Manager",
                                                 "theory":  "Definition: Scrum requires \u0027commitment\u0027 from the entire team. Procedural Link: The action is to structure the overall workflow and backlog to reduce chaos and maximize predictability.",
                                                 "specific_deliverable":  "A 5S Implementation Plan (Sort, Set, Shine...).",
                                                 "rubric":  "Structure workflow to reduce chaos."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Planner",
                                                 "theory":  "Definition: Toulmin\u0027s model requires a Claim to be supported by evidence. Procedural Link: The action is to structure the flow of the paper so that the reader is led logically from premise to conclusion.",
                                                 "specific_deliverable":  "A Logistics Flow Map from dock to shelf.",
                                                 "rubric":  "Structure flow logically."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: Arnheim analyzes the psychology of visual perception. Procedural Link: The action is to achieve a harmonious arrangement of visual or conceptual elements in the final work.",
                                                 "specific_deliverable":  "A Visual Signage System for navigation.",
                                                 "rubric":  "Achieve harmonious arrangement."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Jürgen Habermas - The Organizer",
                                                 "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to establish a transparent social order that minimizes conflict and maximizes collective well-being.",
                                                 "specific_deliverable":  "A Shift Schedule ensuring fairness.",
@@ -544,35 +544,35 @@
                          "theory_application":  "Create a hierarchical or sequential framework that organizes the main points and supporting details of a work before full execution.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Writer",
                                                 "theory":  "Definition: The outline is the hierarchical structure of the argument. Procedural Link: The action is to create a hierarchical structure of the argument, detailing the major sections, sub-sections, and the logical flow of the research paper.",
                                                 "specific_deliverable":  "A Proposal Outline detailing the hypothesis.",
                                                 "rubric":  "Create hierarchical structure."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Planner",
                                                 "theory":  "Definition: The outline is the hierarchical organization of tasks. Procedural Link: The action is to create a hierarchical organization of tasks (Work Breakdown Structure - N24) or the narrative spine of the user journey.",
                                                 "specific_deliverable":  "A Work Breakdown Structure for the grant.",
                                                 "rubric":  "Create hierarchical organization."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Rhetorician",
                                                 "theory":  "Definition: The outline is the linear structure of the written work. Procedural Link: The action is to create a detailed list of headings and key claims for each paragraph, ensuring the linear structure supports the central thesis.",
                                                 "specific_deliverable":  "A Narrative Arc for the impact statement.",
                                                 "rubric":  "Create linear structure."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: The outline is a sequential plan for a creative project. Procedural Link: The action is to create a sequential plan for a creative project, focusing on narrative arc and major visual beats.",
                                                 "specific_deliverable":  "A Visual Storyboard for the presentation.",
                                                 "rubric":  "Create sequential plan."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "M. M. Bakhtin - The Facilitator",
                                                 "theory":  "Definition: The outline is a sequenced list of steps for a workshop or dialogue. Procedural Link: The action is to create a sequenced list of steps for a workshop or community dialogue to ensure a logical progression of conversation.",
                                                 "specific_deliverable":  "A Stakeholder Engagement Plan.",
@@ -588,35 +588,35 @@
                          "theory_application":  "Identify and codify recurring problems and their solutions into a shared vocabulary or library that can be reused and adapted.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Christopher Alexander - The Engineer",
                                                 "theory":  "Definition: A pattern language is a reusable template for solutions. Procedural Link: The action is to create a reusable template for experimental protocols or data visualization standards that can be applied across different research problems.",
                                                 "specific_deliverable":  "A Standard Detail Library for insulation.",
                                                 "rubric":  "Create reusable template."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Christopher Alexander - The Developer",
                                                 "theory":  "Definition: A pattern language is a shared repository of repeatable solutions. Procedural Link: The action is to create a shared repository of repeatable solutions to common design or development challenges.",
                                                 "specific_deliverable":  "A Unit Layout Catalog for efficiency.",
                                                 "rubric":  "Create repository of solutions."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Christopher Alexander - The Planner",
                                                 "theory":  "Definition: A pattern language is a methodology guide. Procedural Link: The action is to create a methodology guide that describes repeatable approaches to structural analysis or critique.",
                                                 "specific_deliverable":  "A Community Design Guide for shared spaces.",
                                                 "rubric":  "Create methodology guide."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Christopher Alexander - The Architect",
                                                 "theory":  "Definition: A pattern language is a formalized catalog of aesthetic problems and tested solutions. Procedural Link: The action is to create a formalized catalog of aesthetic problems and tested solutions (e.g., \u0027How to organize 5 elements in a space\u0027).",
                                                 "specific_deliverable":  "A Pattern Language Book for the village.",
                                                 "rubric":  "Create catalog of aesthetic solutions."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Christopher Alexander - The Sociologist",
                                                 "theory":  "Definition: A pattern language is a codified set of social solutions. Procedural Link: The action is to codify social solutions and governance structures into a language that can be widely adopted (N142).",
                                                 "specific_deliverable":  "A Social Interaction Pattern Map.",
@@ -632,35 +632,35 @@
                          "theory_application":  "Establish a formal, agreed-upon set of rules or procedures that govern behavior, communication, or operations to ensure consistency and safety.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Director",
                                                 "theory":  "Definition: The protocol is a detailed set of instructions. Procedural Link: The action is to create a detailed, step-by-step set of instructions designed to ensure a scientific experiment is unambiguous and repeatable (N21).",
                                                 "specific_deliverable":  "A Crisis Response Checklist for intake.",
                                                 "rubric":  "Create detailed instructions."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Manager",
                                                 "theory":  "Definition: The protocol is a formalized, explicit process. Procedural Link: The action is to create a formalized, explicit process for tasks like code review, incident response, or deployment.",
                                                 "specific_deliverable":  "A Dispatch Workflow for resource allocation.",
                                                 "rubric":  "Create formalized process."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "The Belmont Report - The Compliance Officer",
                                                 "theory":  "Definition: The protocol is a formal methodology document. Procedural Link: The action is to create a formal methodology document detailing the exact procedures for fieldwork, data coding, or archival access.",
                                                 "specific_deliverable":  "A Data Handling Protocol for privacy.",
                                                 "rubric":  "Create formal methodology document."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "John Cage - The Coordinator",
                                                 "theory":  "Definition: The protocol is the written instructions for a conceptual art piece. Procedural Link: The action is to create the written instructions for a conceptual art piece or a musical score, defining the rules of the performance.",
                                                 "specific_deliverable":  "A Communication Script for operators.",
                                                 "rubric":  "Create written instructions."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "The Circle Way - The Facilitator",
                                                 "theory":  "Definition: The protocol is the explicit rules for a community dialogue. Procedural Link: The action is to create the explicit rules for a community dialogue (e.g., a Council format) to ensure psychological safety.",
                                                 "specific_deliverable":  "A Debriefing Protocol for staff support.",
@@ -676,35 +676,35 @@
                          "theory_application":  "Clarify roles and responsibilities by defining who is Responsible, Accountable, Consulted, and Informed for each task or decision.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "PMI - The Project Manager",
                                                 "theory":  "Definition: The RACI matrix clarifies roles and responsibilities. Procedural Link: The action is to create a chart clarifying who is Responsible, Accountable, Consulted, and Informed for each step of a complex research project.",
                                                 "specific_deliverable":  "A RACI Chart for the launch team.",
                                                 "rubric":  "Clarify roles/responsibilities."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "PMI - The Coordinator",
                                                 "theory":  "Definition: The RACI matrix is a tool for managing dependencies. Procedural Link: The action is to create a chart for managing dependencies and clarity in cross-functional teams, ensuring no task lacks an owner.",
                                                 "specific_deliverable":  "A Dependency Map linking tasks to owners.",
                                                 "rubric":  "Manage dependencies."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "PMI - The HR Lead",
                                                 "theory":  "Definition: The RACI matrix maps roles and decision rights. Procedural Link: The action is to create a map detailing the roles and decision rights of co-authors, collaborators, and ethical review boards.",
                                                 "specific_deliverable":  "A Decision Rights Matrix for approvals.",
                                                 "rubric":  "Map roles/decision rights."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "PMI - The Producer",
                                                 "theory":  "Definition: The RACI matrix defines roles in a complex project. Procedural Link: The action is to create a chart defining the roles of designers, fabricators, and production managers in a complex project.",
                                                 "specific_deliverable":  "A Production Crew List with duties.",
                                                 "rubric":  "Define production roles."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "PMI - The Governor",
                                                 "theory":  "Definition: The RACI matrix clarifies decision rights. Procedural Link: The action is to create a diagram clarifying the decision rights of the governance body and the implementing team.",
                                                 "specific_deliverable":  "A Governance Structure Diagram.",
@@ -720,35 +720,35 @@
                          "theory_application":  "Provide temporary structures, tools, and guidance that allow learners or teams to perform tasks beyond their current capability, gradually removing them as competence grows.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Lev Vygotsky - The Trainer",
                                                 "theory":  "Definition: Scaffolding provides supporting structures to reduce cognitive load. Procedural Link: The action is to provide supporting structures (e.g., calculation templates) to reduce the cognitive load of a new or complex planning process.",
                                                 "specific_deliverable":  "A Job Aid for common tasks.",
                                                 "rubric":  "Provide structures reducing load."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Lev Vygotsky - The Manager",
                                                 "theory":  "Definition: Scaffolding helps a novice perform a complex task. Procedural Link: The action is to provide tools (e.g., Burndown charts, planning poker) that help a team perform complex coordination tasks.",
                                                 "specific_deliverable":  "A Process Checklist for the first week.",
                                                 "rubric":  "Provide tools for coordination."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Lev Vygotsky - The Mentor",
                                                 "theory":  "Definition: Scaffolding aids in organizing complex reasoning. Procedural Link: The action is to provide structural aids (Argument Map, Reverse Outline) to help a writer organize a complex line of reasoning.",
                                                 "specific_deliverable":  "A Decision Framework for problem solving.",
                                                 "rubric":  "Provide aids organizing reasoning."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Lev Vygotsky - The Coach",
                                                 "theory":  "Definition: Scaffolding builds skill and confidence. Procedural Link: The action is to use simple materials or a highly constrained brief to build the artist\u0027s skills and confidence before engaging in a large project.",
                                                 "specific_deliverable":  "A Practice Exercise for skill building.",
                                                 "rubric":  "Use constraints to build skill."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Lev Vygotsky - The Guide",
                                                 "theory":  "Definition: Scaffolding simplifies complex social decisions. Procedural Link: The action is to provide an explicit framework or ritual to simplify a complex ethical decision.",
                                                 "specific_deliverable":  "A Values Card for daily reference.",
@@ -764,35 +764,35 @@
                          "theory_application":  "Create a detailed, formal document that defines the exact requirements, materials, and standards for a product or system.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Engineer",
                                                 "theory":  "Definition: The specification details technical requirements. Procedural Link: The action is to create a formal document detailing all technical requirements, tolerances, and interface definitions for an engineered solution (N25).",
                                                 "specific_deliverable":  "A Product Requirement Document (PRD).",
                                                 "rubric":  "Detail technical requirements."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The PO",
                                                 "theory":  "Definition: The specification details software requirements and data contracts. Procedural Link: The action is to create the detailed documentation of software requirements, API contracts, and user acceptance criteria (N25).",
                                                 "specific_deliverable":  "A Software Spec Sheet for the firmware.",
                                                 "rubric":  "Detail software requirements."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "The Belmont Report - The Safety Officer",
                                                 "theory":  "Definition: The specification details research methodology and data handling. Procedural Link: The action is to create a document detailing the research methodology, data handling procedures, and archival practices.",
                                                 "specific_deliverable":  "A Clinical Trial Protocol.",
                                                 "rubric":  "Detail methodology."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Christopher Alexander - The Designer",
                                                 "theory":  "Definition: The specification details materials, color codes, and production resolutions. Procedural Link: The action is to create a design spec detailing materials, color codes, and print resolutions for final production.",
                                                 "specific_deliverable":  "A Material Safety Data Sheet (MSDS).",
                                                 "rubric":  "Detail materials."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "RRI Framework - The Auditor",
                                                 "theory":  "Definition: The specification details technical safeguards. Procedural Link: The action is to create a document detailing the technical safeguards required to meet the ethical mandate (e.g., data encryption requirements).",
                                                 "specific_deliverable":  "A Safety Compliance Report.",
@@ -808,35 +808,35 @@
                          "theory_application":  "Create a sequence of visual panels that illustrate the flow of an experience, narrative, or process over time.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Edward Tufte - The Visualizer",
                                                 "theory":  "Definition: The storyboard is a sequential visual guide. Procedural Link: The action is to create a sequential visual guide used to plan a multi-phase experiment or a procedural video for a lab technique.",
                                                 "specific_deliverable":  "A Process Flow Storyboard of the service.",
                                                 "rubric":  "Create visual guide."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Patton - The Designer",
                                                 "theory":  "Definition: The storyboard is a sequential visual layout of the user journey. Procedural Link: The action is to create a sequential visual layout of the user journey, mapping out screens, interactions, and emotional states (N23).",
                                                 "specific_deliverable":  "A Customer Journey Map.",
                                                 "rubric":  "Create visual layout of journey."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Storyteller",
                                                 "theory":  "Definition: The storyboard is a visual timeline of the argument\u0027s flow. Procedural Link: The action is to create a visual timeline of historical events or a sequential map of the argument\u0027s narrative flow.",
                                                 "specific_deliverable":  "A Narrative Arc Diagram for the pitch.",
                                                 "rubric":  "Create visual timeline."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Walt Disney - The Animator",
                                                 "theory":  "Definition: The storyboard is a sequential visual planning tool. Procedural Link: The action is to create a sequential visual planning tool for film, animation, or interactive media (N23).",
                                                 "specific_deliverable":  "A Concept Art Board visualizing the future.",
                                                 "rubric":  "Create visual planning tool."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Donella Meadows - The Strategist",
                                                 "theory":  "Definition: The storyboard is a visual map of an intervention. Procedural Link: The action is to create a visual map of a community intervention showing the planned steps and human interactions.",
                                                 "specific_deliverable":  "A Change Management Storyboard.",
@@ -852,35 +852,35 @@
                          "theory_application":  "Design the internal organization, arrangement, and relationships of components within a system to ensure stability and function.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Architect",
                                                 "theory":  "Definition: Structure is the design of the internal organization. Procedural Link: The action is to design the internal organization and arrangement of an experiment, a model, or a data set.",
                                                 "specific_deliverable":  "A Database Schema for the platform.",
                                                 "rubric":  "Design internal organization."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Lead",
                                                 "theory":  "Definition: Structure is the design of the workflow and architecture. Procedural Link: The action is to design the workflow, the backlog organization, and the internal architecture of the product.",
                                                 "specific_deliverable":  "A System Architecture Diagram.",
                                                 "rubric":  "Design workflow/architecture."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Analyst",
                                                 "theory":  "Definition: Structure is the arrangement of arguments and evidence. Procedural Link: The action is to arrange arguments, evidence, and sections within a coherent paper.",
                                                 "specific_deliverable":  "An Information Architecture Map.",
                                                 "rubric":  "Arrange arguments/evidence."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: Structure is the physical and conceptual organization of formal elements. Procedural Link: The action is to organize the formal elements in a composition to achieve a desired aesthetic effect.",
                                                 "specific_deliverable":  "A UI Layout Grid.",
                                                 "rubric":  "Organize formal elements."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Jürgen Habermas - The Governor",
                                                 "theory":  "Definition: Structure is the design of governance and communication flows. Procedural Link: The action is to design governance, roles, and communication flows within the social system.",
                                                 "specific_deliverable":  "A User Permission Matrix.",
@@ -896,35 +896,35 @@
                          "theory_application":  "Engage in the active process of creating order, decomposing tasks, and organizing elements into a coherent whole.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Planner",
                                                 "theory":  "Definition: Structuring is the formal, rule-based activity of creating order. Procedural Link: The action is to engage in the formal, rule-based activity of creating order out of chaos in a scientific endeavor.",
                                                 "specific_deliverable":  "A Logistics Plan for the venue.",
                                                 "rubric":  "Engage in creating order."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Manager",
                                                 "theory":  "Definition: Structuring is the collective activity of decomposing and ordering tasks. Procedural Link: The action is to engage in the collective activity of decomposing and ordering tasks into a workable backlog.",
                                                 "specific_deliverable":  "A Task List for the team.",
                                                 "rubric":  "Engage in decomposing tasks."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Stephen Toulmin - The Coordinator",
                                                 "theory":  "Definition: Structuring is the act of organizing notes and evidence into a linear sequence. Procedural Link: The action is to engage in the act of taking notes and evidence and organizing them into a linear, argumentative sequence.",
                                                 "specific_deliverable":  "A Run of Show schedule.",
                                                 "rubric":  "Engage in organizing sequence."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: Structuring is the iterative manipulation of artistic elements. Procedural Link: The action is to engage in the iterative manipulation of artistic elements to achieve a desired aesthetic effect.",
                                                 "specific_deliverable":  "A Stage Design Plan.",
                                                 "rubric":  "Engage in manipulating elements."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "M. M. Bakhtin - The Host",
                                                 "theory":  "Definition: Structuring is the ongoing activity of designing and refining social rituals. Procedural Link: The action is to engage in the ongoing activity of designing and refining social rituals and organizational systems.",
                                                 "specific_deliverable":  "A Networking Event Plan.",
@@ -940,35 +940,35 @@
                          "theory_application":  "Define the entity of study as a set of interacting or interdependent component parts forming a complex/intricate whole.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Engineer",
                                                 "theory":  "Definition: The system is the defined entity of study. Procedural Link: The action is to define the entity of study (e.g., a reactor, a biological pathway) or the entire hardware/software environment of the lab.",
                                                 "specific_deliverable":  "A Network Topology Map.",
                                                 "rubric":  "Define entity of study."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Analyst",
                                                 "theory":  "Definition: The system is the entire product or workflow. Procedural Link: The action is to define the entire product, the organization, or the specific workflow being optimized.",
                                                 "specific_deliverable":  "A Route Optimization Model.",
                                                 "rubric":  "Define product/workflow."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Michel Foucault - The Sociologist",
                                                 "theory":  "Definition: The system is the historical, political, or cultural context. Procedural Link: The action is to define the historical, political, or cultural context being analyzed (e.g., the \u0027patriarchal system,\u0027 the \u0027modern university\u0027).",
                                                 "specific_deliverable":  "A Service Access Map by neighborhood.",
                                                 "rubric":  "Define historical/political context."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Rudolf Arnheim - The Designer",
                                                 "theory":  "Definition: The system is the complete artistic creation. Procedural Link: The action is to define the complete artistic creation, including all its interconnected, interdependent parts.",
                                                 "specific_deliverable":  "A Wayfinding System Design.",
                                                 "rubric":  "Define complete creation."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Donella Meadows - The Planner",
                                                 "theory":  "Definition: The system is the stakeholder ecosystem. Procedural Link: The action is to define the stakeholder ecosystem of human, natural, and institutional actors.",
                                                 "specific_deliverable":  "A Rider Demographic Analysis.",
@@ -984,35 +984,35 @@
                          "theory_application":  "Create a detailed document that defines the technical requirements, standards, and constraints for a product or system.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Richard Feynman - The Engineer",
                                                 "theory":  "Definition: The specification details technical requirements. Procedural Link: The action is to create a formal document detailing all technical requirements, tolerances, and interface definitions for an engineered solution (N25).",
                                                 "specific_deliverable":  "A Structural Load Spec.",
                                                 "rubric":  "Detail technical requirements."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Sutherland - The Manager",
                                                 "theory":  "Definition: The specification details software requirements and data contracts. Procedural Link: The action is to create the detailed documentation of software requirements, API contracts, and user acceptance criteria (N25).",
                                                 "specific_deliverable":  "A Sensor Integration Spec.",
                                                 "rubric":  "Detail software requirements."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "The Belmont Report - The Safety Officer",
                                                 "theory":  "Definition: The specification details research methodology and data handling. Procedural Link: The action is to create a document detailing the research methodology, data handling procedures, and archival practices.",
                                                 "specific_deliverable":  "A Safety Inspection Protocol.",
                                                 "rubric":  "Detail methodology."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Christopher Alexander - The Architect",
                                                 "theory":  "Definition: The specification details materials, color codes, and production resolutions. Procedural Link: The action is to create a design spec detailing materials, color codes, and print resolutions for final production.",
                                                 "specific_deliverable":  "A Material Finish Spec.",
                                                 "rubric":  "Detail materials."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "RRI Framework - The Auditor",
                                                 "theory":  "Definition: The specification details technical safeguards. Procedural Link: The action is to create a document detailing the technical safeguards required to meet the ethical mandate (e.g., data encryption requirements).",
                                                 "specific_deliverable":  "An Environmental Impact Spec.",
@@ -1028,35 +1028,35 @@
                          "theory_application":  "Create a visual map that arranges user stories into a narrative flow, helping to prioritize features and understand the user experience.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Jeff Patton - The Analyst",
                                                 "theory":  "Definition: The User Story Map is a visual tool for sequencing tasks. Procedural Link: The action is to use a visual tool for sequencing research tasks based on the narrative of a scientist\u0027s workflow.",
                                                 "specific_deliverable":  "A Booking Flow Map.",
                                                 "rubric":  "Sequence tasks based on workflow."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Jeff Patton - The PO",
                                                 "theory":  "Definition: The User Story Map is a visual backlog organized along a narrative backbone. Procedural Link: The action is to create a visual backlog organized along a narrative backbone of the user\u0027s journey, prioritized to deliver minimal end-to-end experiences.",
                                                 "specific_deliverable":  "A User Story Map for the MVP.",
                                                 "rubric":  "Create visual backlog."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Jeff Patton - The Researcher",
                                                 "theory":  "Definition: The User Story Map is a visual roadmap. Procedural Link: The action is to create a historical timeline or conceptual roadmap organized by the major claims a scholar must establish.",
                                                 "specific_deliverable":  "A Feature Release Plan.",
                                                 "rubric":  "Create visual roadmap."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Jeff Patton - The Designer",
                                                 "theory":  "Definition: The User Story Map is a detailed storyboard. Procedural Link: The action is to create a detailed storyboard that captures the viewer\u0027s emotional journey through the experience.",
                                                 "specific_deliverable":  "A UX Storyboard of the trip.",
                                                 "rubric":  "Create detailed storyboard."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Jeff Patton - The Strategist",
                                                 "theory":  "Definition: The User Story Map is a map of the sequence of community interactions. Procedural Link: The action is to create a map of the sequence of community interactions required to achieve a shared goal.",
                                                 "specific_deliverable":  "A Service Ecosystem Map.",
@@ -1072,35 +1072,35 @@
                          "theory_application":  "Organize the components of the plan into a dramatic sequence (Beginning, Middle, End) to maximize engagement and coherence.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Randy Olson - The Scientist-Filmmaker",
                                                 "theory":  "Definition: ABT (And, But, Therefore) is the DNA of story. Procedural Link: The action is to structure the abstract as: Context (And), Problem (But), Solution (Therefore).",
                                                 "specific_deliverable":  "An ABT Abstract.",
                                                 "rubric":  "Uses And/But/Therefore structure."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Nancy Duarte - The Communicator",
                                                 "theory":  "Definition: The Sparkline moves between \u0027What is\u0027 and \u0027What could be\u0027. Procedural Link: The action is to structure the presentation to oscillate between the status quo and the vision.",
                                                 "specific_deliverable":  "A Sparkline Diagram.",
                                                 "rubric":  "Oscillates between status quo and vision."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Hayden White - The Historiographer",
                                                 "theory":  "Definition: Metahistory analyzes the plot structure of historical accounts. Procedural Link: The action is to consciously choose the plot mode (e.g., Tragedy, Comedy) that best fits the argument.",
                                                 "specific_deliverable":  "A Plot Mode Selection.",
                                                 "rubric":  "Chooses explicit plot mode."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Aristotle - The Poetician",
                                                 "theory":  "Definition: Poetics defines the arc of reversal and recognition. Procedural Link: The action is to structure the experience to lead to a moment of catharsis.",
                                                 "specific_deliverable":  "A Catharsis Map.",
                                                 "rubric":  "Structures for catharsis."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Marshall Ganz - The Organizer",
                                                 "theory":  "Definition: Public Narrative (Story of Self, Us, Now). Procedural Link: The action is to structure the campaign to link personal motivation to collective identity and urgent action.",
                                                 "specific_deliverable":  "A Public Narrative Script.",
@@ -1116,35 +1116,35 @@
                          "theory_application":  "Identify the logical relationships between tasks to determine the sequence in which they must be performed.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "PERT Chart - The Project Manager",
                                                 "theory":  "Definition: Program Evaluation and Review Technique. Procedural Link: The action is to identify the sequence of chemical reactions where step B cannot start until step A yields a specific purity.",
                                                 "specific_deliverable":  "A Reaction Sequence Chart.",
                                                 "rubric":  "Identifies sequential prerequisites."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Eliyahu Goldratt - The Consultant",
                                                 "theory":  "Definition: Critical Chain Project Management. Procedural Link: The action is to identify the chain of tasks that determines the project\u0027s duration and protect it with buffers.",
                                                 "specific_deliverable":  "A Critical Chain Buffer.",
                                                 "rubric":  "Protects the critical chain."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "Logic - The Philosopher",
                                                 "theory":  "Definition: Premise dependency. Procedural Link: The action is to map which claims must be proven true before the subsequent claims can be accepted.",
                                                 "specific_deliverable":  "A Premise Dependency Tree.",
                                                 "rubric":  "Maps prerequisite claims."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Construction - The Architect",
                                                 "theory":  "Definition: Load-bearing logic. Procedural Link: The action is to determine which structural elements must be in place to support the aesthetic skin.",
                                                 "specific_deliverable":  "A Load-Bearing Diagram.",
                                                 "rubric":  "Identifies structural supports."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Social Change - The Activist",
                                                 "theory":  "Definition: Theory of Change. Procedural Link: The action is to map the preconditions (e.g., trust) that must exist before a specific intervention (e.g., voting) can succeed.",
                                                 "specific_deliverable":  "A Precondition Map.",
@@ -1160,35 +1160,35 @@
                          "theory_application":  "Decompose a system into distinct, independent parts that can be created, tested, and replaced individually.",
                          "variations":  [
                                             {
-                                                "domain":  "Science \u0026 Engineering",
+                                                "domain":  "Science",
                                                 "expert":  "Herbert Simon - The Systems Theorist",
                                                 "theory":  "Definition: Near-decomposability allows complex systems to evolve. Procedural Link: The action is to isolate variables so that a change in one sub-system does not crash the whole experiment.",
                                                 "specific_deliverable":  "A Variable Isolation Plan.",
                                                 "rubric":  "Isolates variables."
                                             },
                                             {
-                                                "domain":  "Business \u0026 Agile",
+                                                "domain":  "Business",
                                                 "expert":  "Microservices - The Architect",
                                                 "theory":  "Definition: Loose coupling, high cohesion. Procedural Link: The action is to define clear API boundaries between teams so they can deploy independently.",
                                                 "specific_deliverable":  "An API Contract.",
                                                 "rubric":  "Defines clear boundaries."
                                             },
                                             {
-                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "domain":  "Humanities",
                                                 "expert":  "The Encyclopedia - The Editor",
                                                 "theory":  "Definition: Knowledge can be chunked into discrete articles. Procedural Link: The action is to structure the work as a collection of independent essays that can be read in any order.",
                                                 "specific_deliverable":  "An Anthology Structure.",
                                                 "rubric":  "Structures as independent chunks."
                                             },
                                             {
-                                                "domain":  "Arts \u0026 Design",
+                                                "domain":  "Arts",
                                                 "expert":  "Brad Frost - The Web Designer",
                                                 "theory":  "Definition: Atomic Design (Atoms, Molecules, Organisms). Procedural Link: The action is to design the smallest visual elements first (buttons) and combine them into complex structures (pages).",
                                                 "specific_deliverable":  "An Atomic Component Library.",
                                                 "rubric":  "Builds from atoms to organisms."
                                             },
                                             {
-                                                "domain":  "Culture \u0026 Ethics",
+                                                "domain":  "Culture",
                                                 "expert":  "Holacracy - The Organizer",
                                                 "theory":  "Definition: Autonomous Circles. Procedural Link: The action is to define semi-autonomous working groups with clear domains of authority.",
                                                 "specific_deliverable":  "A Circle Constitution.",
@@ -1203,7 +1203,7 @@
                          "variations":  [
                                             {
                                                 "expert":  "CELTA",
-                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "domain":  "Pedagogy",
                                                 "theory":  "PPP (Presentation, Practice, Production). Procedural Link: Structure the lesson to move from teacher input to student output.",
                                                 "specific_deliverable":  "A Staged Lesson Plan.",
                                                 "rubric":  "Follows PPP/TTT structure."

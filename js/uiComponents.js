@@ -721,61 +721,43 @@ export const UI = {
         const uniqueDomains = Array.from(domains).sort();
 
         const domainIcons = {
+            // Standardized Domains
+            "Science & Engineering": "fa-flask",
+            "Business & Agile": "fa-rocket",
+            "Humanities & Social Sciences": "fa-landmark",
+            "Arts & Design": "fa-palette",
+            "Culture & Ethics": "fa-hand-holding-heart",
+            "Pedagogy & Facilitation": "fa-chalkboard-teacher",
+            "General / Pluralist": "fa-globe",
+            
+            // Legacy/Fallback Support
             "Science": "fa-flask", 
             "Business": "fa-chart-line", 
             "Humanities": "fa-book",
             "Arts": "fa-palette", 
             "Culture": "fa-globe-americas", 
             "Pedagogy": "fa-chalkboard-teacher",
-            "Arts & Design": "fa-palette",
-            "Business & Agile": "fa-rocket",
-            "Business Strategy": "fa-chess-board",
-            "Design Theory": "fa-shapes",
-            "Design Thinking": "fa-lightbulb",
-            "Social Science": "fa-user-friends",
-            "Systems Thinking": "fa-project-diagram",
-            "General / Pluralist": "fa-globe",
-            "Change Management": "fa-sync-alt",
-            "Decision Science": "fa-balance-scale",
-            "Decision Making": "fa-gavel",
-            "Project Management": "fa-tasks",
-            "Risk Management": "fa-shield-alt",
-            "Lean/Kanban": "fa-exchange-alt",
-            "Lean Startup": "fa-stopwatch",
-            "Entrepreneurship": "fa-seedling",
-            "Complexity Science": "fa-network-wired",
-            "Software Engineering": "fa-code",
-            "Industrial Engineering": "fa-industry",
-            "Agile": "fa-running"
+            "Agile": "fa-rocket"
         };
 
         const domainColors = {
-            "Science": "var(--domain-science)", 
-            "Business": "var(--domain-business)", 
-            "Humanities": "var(--domain-humanities)",
-            "Arts": "var(--domain-arts)", 
-            "Culture": "var(--domain-culture)", 
-            "Pedagogy": "var(--domain-pedagogy)",
-            "Arts & Design": "var(--domain-arts)",
-            "Business & Agile": "var(--domain-business)",
-            "Business Strategy": "var(--domain-business)",
-            "Design Theory": "var(--domain-arts)",
-            "Design Thinking": "var(--domain-arts)",
-            "Social Science": "var(--domain-humanities)",
-            "Systems Thinking": "var(--domain-general)",
-            "General / Pluralist": "var(--domain-general)",
-            "Change Management": "var(--domain-business)",
-            "Decision Science": "var(--domain-science)",
-            "Decision Making": "var(--domain-business)",
-            "Project Management": "var(--domain-business)",
-            "Risk Management": "var(--domain-business)",
-            "Lean/Kanban": "var(--domain-business)",
-            "Lean Startup": "var(--domain-business)",
-            "Entrepreneurship": "var(--domain-business)",
-            "Complexity Science": "var(--domain-science)",
-            "Software Engineering": "var(--domain-science)",
-            "Industrial Engineering": "var(--domain-science)",
-            "Agile": "var(--domain-business)"
+            // Standardized Domains
+            "Science & Engineering": "#2980b9",       // Strong Blue
+            "Business & Agile": "#27ae60",            // Agile Green
+            "Humanities & Social Sciences": "#8e44ad", // Academic Purple
+            "Arts & Design": "#e67e22",               // Creative Orange
+            "Culture & Ethics": "#c0392b",            // Ethical Red
+            "Pedagogy & Facilitation": "#16a085",     // Growth Teal
+            "General / Pluralist": "#7f8c8d",         // Neutral Grey
+
+            // Legacy/Fallback Support
+            "Science": "#2980b9", 
+            "Business": "#27ae60", 
+            "Humanities": "#8e44ad",
+            "Arts": "#e67e22", 
+            "Culture": "#c0392b", 
+            "Pedagogy": "#16a085",
+            "Agile": "#27ae60"
         };
 
         return html`
@@ -1233,60 +1215,42 @@ export const UI = {
         }
 
         const domainIcons = {
+            // Standardized Domains
+            "Science & Engineering": "fa-flask",
+            "Business & Agile": "fa-rocket",
+            "Humanities & Social Sciences": "fa-landmark",
+            "Arts & Design": "fa-palette",
+            "Culture & Ethics": "fa-hand-holding-heart",
+            "Pedagogy & Facilitation": "fa-chalkboard-teacher",
+            "General / Pluralist": "fa-globe",
+            
+            // Legacy/Fallback Support
             "Science": "fa-flask", 
             "Business": "fa-chart-line", 
             "Humanities": "fa-book",
             "Arts": "fa-palette", 
             "Culture": "fa-globe-americas", 
             "Pedagogy": "fa-chalkboard-teacher",
-            "Arts & Design": "fa-palette",
-            "Business & Agile": "fa-rocket",
-            "Business Strategy": "fa-chess-board",
-            "Design Theory": "fa-shapes",
-            "Design Thinking": "fa-lightbulb",
-            "Social Science": "fa-user-friends",
-            "Systems Thinking": "fa-project-diagram",
-            "General / Pluralist": "fa-globe",
-            "Change Management": "fa-sync-alt",
-            "Decision Science": "fa-balance-scale",
-            "Decision Making": "fa-gavel",
-            "Project Management": "fa-tasks",
-            "Risk Management": "fa-shield-alt",
-            "Lean/Kanban": "fa-exchange-alt",
-            "Lean Startup": "fa-stopwatch",
-            "Entrepreneurship": "fa-seedling",
-            "Complexity Science": "fa-network-wired",
-            "Software Engineering": "fa-code",
-            "Industrial Engineering": "fa-industry",
-            "Agile": "fa-running"
+            "Agile": "fa-rocket"
         };
         const domainColors = {
-            "Science": "var(--domain-science)", 
-            "Business": "var(--domain-business)", 
-            "Humanities": "var(--domain-humanities)",
-            "Arts": "var(--domain-arts)", 
-            "Culture": "var(--domain-culture)", 
-            "Pedagogy": "var(--domain-pedagogy)",
-            "Arts & Design": "var(--domain-arts)",
-            "Business & Agile": "var(--domain-business)",
-            "Business Strategy": "var(--domain-business)",
-            "Design Theory": "var(--domain-arts)",
-            "Design Thinking": "var(--domain-arts)",
-            "Social Science": "var(--domain-humanities)",
-            "Systems Thinking": "var(--domain-general)",
-            "General / Pluralist": "var(--domain-general)",
-            "Change Management": "var(--domain-business)",
-            "Decision Science": "var(--domain-science)",
-            "Decision Making": "var(--domain-business)",
-            "Project Management": "var(--domain-business)",
-            "Risk Management": "var(--domain-business)",
-            "Lean/Kanban": "var(--domain-business)",
-            "Lean Startup": "var(--domain-business)",
-            "Entrepreneurship": "var(--domain-business)",
-            "Complexity Science": "var(--domain-science)",
-            "Software Engineering": "var(--domain-science)",
-            "Industrial Engineering": "var(--domain-science)",
-            "Agile": "var(--domain-business)"
+            // Standardized Domains
+            "Science & Engineering": "#2980b9",       // Strong Blue
+            "Business & Agile": "#27ae60",            // Agile Green
+            "Humanities & Social Sciences": "#8e44ad", // Academic Purple
+            "Arts & Design": "#e67e22",               // Creative Orange
+            "Culture & Ethics": "#c0392b",            // Ethical Red
+            "Pedagogy & Facilitation": "#16a085",     // Growth Teal
+            "General / Pluralist": "#7f8c8d",         // Neutral Grey
+
+            // Legacy/Fallback Support
+            "Science": "#2980b9", 
+            "Business": "#27ae60", 
+            "Humanities": "#8e44ad",
+            "Arts": "#e67e22", 
+            "Culture": "#c0392b", 
+            "Pedagogy": "#16a085",
+            "Agile": "#27ae60"
         };
 
         const allDomains = new Set();
