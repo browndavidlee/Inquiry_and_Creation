@@ -49,6 +49,20 @@
                                                 "theory":  "Definition: Application is the embodiment of the plan through mindful action. Procedural Link: The action is to embody the plan through mindful, ethical, and purposeful action.",
                                                 "specific_deliverable":  "A Community Engagement Log.",
                                                 "rubric":  "Embody plan through action."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Application. Procedural Link: Apply this concept to: Put the plan into action, translating abstract protocols into concrete behaviors and recording the results.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Application. Procedural Link: Apply this concept to: Put the plan into action, translating abstract protocols into concrete behaviors and recording the results.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -93,6 +107,20 @@
                                                 "theory":  "Definition: Build is the focused effort of building social trust. Procedural Link: The action is to engage in the focused effort of building social trust or a new community resource.",
                                                 "specific_deliverable":  "A Team Building Report.",
                                                 "rubric":  "Engage in building trust."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Build. Procedural Link: Apply this concept to: Engage in the physical or digital construction of the product, system, or narrative.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Build. Procedural Link: Apply this concept to: Engage in the physical or digital construction of the product, system, or narrative.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -137,6 +165,20 @@
                                                 "theory":  "Definition: Conduct is performing a formal ceremony or ritual. Procedural Link: The action is to perform a formal ceremony or ritual (N88) with precision and integrity.",
                                                 "specific_deliverable":  "A Consent Ceremony Record.",
                                                 "rubric":  "Perform formal ceremony."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Conduct. Procedural Link: Apply this concept to: Perform a specific task or ceremony according to a defined protocol or methodology.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Conduct. Procedural Link: Apply this concept to: Perform a specific task or ceremony according to a defined protocol or methodology.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -181,6 +223,20 @@
                                                 "theory":  "Definition: Create is bringing a socially beneficial action into reality. Procedural Link: The action is to bring a socially beneficial action or community resource into reality.",
                                                 "specific_deliverable":  "A Reader Engagement Plan.",
                                                 "rubric":  "Bring action into reality."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Create. Procedural Link: Apply this concept to: Bring something new into existence, whether it is data, code, text, art, or social value.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Create. Procedural Link: Apply this concept to: Bring something new into existence, whether it is data, code, text, art, or social value.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -225,6 +281,20 @@
                                                 "theory":  "Definition: Deeds are the concrete acts of service. Procedural Link: The action is to focus on the concrete acts of service performed for the community.",
                                                 "specific_deliverable":  "A Service Log.",
                                                 "rubric":  "Focus on concrete acts."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Deeds. Procedural Link: Apply this concept to: Focus on the tangible, verifiable outcomes of action, recognizing the ethical dimension of what is done.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Deeds. Procedural Link: Apply this concept to: Focus on the tangible, verifiable outcomes of action, recognizing the ethical dimension of what is done.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -269,6 +339,20 @@
                                                 "theory":  "Definition: Drafting is writing a process journal. Procedural Link: The action is to engage in the writing of a process journal (N31) to capture reflections and tacit knowledge.",
                                                 "specific_deliverable":  "A Process Journal.",
                                                 "rubric":  "Engage in writing journal."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Drafting. Procedural Link: Apply this concept to: Engage in the initial creation of a document, code, or artwork, focusing on getting ideas down rather than perfection.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Drafting. Procedural Link: Apply this concept to: Engage in the initial creation of a document, code, or artwork, focusing on getting ideas down rather than perfection.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -313,6 +397,20 @@
                                                 "theory":  "Definition: Embodiment is mindful action. Procedural Link: The action is to focus on the Focused, Present-Moment Action (N164) that is a full expression of an internal value or principle.",
                                                 "specific_deliverable":  "A Design Ethics Review.",
                                                 "rubric":  "Focus on Focused, Present-Moment Action."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Embodiment. Procedural Link: Apply this concept to: Translate abstract knowledge into physical form or action, engaging the body and senses to deepen understanding.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Embodiment. Procedural Link: Apply this concept to: Translate abstract knowledge into physical form or action, engaging the body and senses to deepen understanding.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -357,6 +455,20 @@
                                                 "theory":  "Definition: Enactment is performing a relational ritual. Procedural Link: The action is to perform a relational ritual or ceremony in front of the community.",
                                                 "specific_deliverable":  "A Curtain Call.",
                                                 "rubric":  "Perform relational ritual."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Enactment. Procedural Link: Apply this concept to: Perform or execute a plan in real-time, bringing it to life and testing its viability in the real world.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Enactment. Procedural Link: Apply this concept to: Perform or execute a plan in real-time, bringing it to life and testing its viability in the real world.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -401,6 +513,20 @@
                                                 "theory":  "Definition: Execution is the conscious performance of ethical duties. Procedural Link: The action is to focus on the conscious performance of ethical duties (Virtue) with full attention.",
                                                 "specific_deliverable":  "A User Acceptance Sign-off.",
                                                 "rubric":  "Focus on conscious performance."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Execution. Procedural Link: Apply this concept to: Carry out the planned tasks with discipline, diligence, and attention to detail.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Execution. Procedural Link: Apply this concept to: Carry out the planned tasks with discipline, diligence, and attention to detail.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -445,6 +571,20 @@
                                                 "theory":  "Definition: Experiment is a small, safe-to-fail intervention. Procedural Link: The action is to engage in a small, safe-to-fail intervention in a community to test a new process.",
                                                 "specific_deliverable":  "A Community Feedback Log.",
                                                 "rubric":  "Engage in safe-to-fail intervention."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Experiment. Procedural Link: Apply this concept to: Conduct a controlled procedure to generate data, test a hypothesis, or validate an assumption.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Experiment. Procedural Link: Apply this concept to: Conduct a controlled procedure to generate data, test a hypothesis, or validate an assumption.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -489,6 +629,20 @@
                                                 "theory":  "Definition: Fabrication is creating community infrastructure. Procedural Link: The action is to focus on the physical creation of community-based infrastructure (e.g., a shared garden, a public space).",
                                                 "specific_deliverable":  "A Workshop Safety Log.",
                                                 "rubric":  "Focus on creating infrastructure."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Fabrication. Procedural Link: Apply this concept to: Engage in the physical construction or assembly of components to create a finished object or system.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Fabrication. Procedural Link: Apply this concept to: Engage in the physical construction or assembly of components to create a finished object or system.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -533,6 +687,20 @@
                                                 "theory":  "Definition: Fieldwork is on-site observation. Procedural Link: The action is to engage in on-site observation and engagement with the community or ecosystem to gather relational context.",
                                                 "specific_deliverable":  "A Community Interaction Log.",
                                                 "rubric":  "Engage in on-site observation."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Fieldwork. Procedural Link: Apply this concept to: Gather data and observations in a naturalistic setting, outside the controlled environment of the laboratory or office.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Fieldwork. Procedural Link: Apply this concept to: Gather data and observations in a naturalistic setting, outside the controlled environment of the laboratory or office.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -577,6 +745,20 @@
                                                 "theory":  "Definition: Flow is the optimal state where challenge matches skill. Procedural Link: The action is to design the ethical action to be challenging but achievable, allowing the individual to experience deep, mindful engagement.",
                                                 "specific_deliverable":  "A Mindfulness Log.",
                                                 "rubric":  "Design challenging/achievable action."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Flow State. Procedural Link: Apply this concept to: Design the work environment and task structure to facilitate a state of deep immersion, where challenge matches skill.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Flow State. Procedural Link: Apply this concept to: Design the work environment and task structure to facilitate a state of deep immersion, where challenge matches skill.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -621,6 +803,20 @@
                                                 "theory":  "Definition: Fulfillment is the perceived completion of an obligation. Procedural Link: The action is to recognize the fulfillment as the perceived completion of a communal obligation or ethical pledge.",
                                                 "specific_deliverable":  "A Graduation Certificate.",
                                                 "rubric":  "Recognize completion of obligation."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Fulfillment. Procedural Link: Apply this concept to: Recognize and validate the successful completion of a task, project, or obligation.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Fulfillment. Procedural Link: Apply this concept to: Recognize and validate the successful completion of a task, project, or obligation.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -672,6 +868,13 @@
                                                 "specific_deliverable":  "A TTT Audit.",
                                                 "expert":  "CELTA",
                                                 "theory":  "Teacher Talking Time (TTT). Procedural Link: Measure and minimize TTT to maximize Student Talking Time (STT)."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Guide: Coaching. Procedural Link: Apply this concept to: Support the development of another person through questioning, feedback, and guidance, rather than direct instruction.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -716,6 +919,20 @@
                                                 "theory":  "Definition: Implementation is the specific, technical deployment of a safeguard. Procedural Link: The action is to focus on the specific, technical deployment of a social or ethical safeguard (e.g., setting up a secure data system).",
                                                 "specific_deliverable":  "A Safety Compliance Report.",
                                                 "rubric":  "Focus on deployment of safeguard."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Implementation. Procedural Link: Apply this concept to: Execute the specific technical tasks required to put a plan into effect.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Implementation. Procedural Link: Apply this concept to: Execute the specific technical tasks required to put a plan into effect.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -760,6 +977,20 @@
                                                 "theory":  "Definition: Kaizen is continuous, incremental improvement. Procedural Link: The action is to focus on the dedication to continuous improvement in social processes and ethical governance.",
                                                 "specific_deliverable":  "A Team Feedback Form.",
                                                 "rubric":  "Focus on improvement in governance."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Kaizen. Procedural Link: Apply this concept to: Continuously improve processes through small, incremental changes to reduce waste and increase efficiency.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Kaizen. Procedural Link: Apply this concept to: Continuously improve processes through small, incremental changes to reduce waste and increase efficiency.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -811,6 +1042,20 @@
                                                 "specific_deliverable":  "A Pairing Session Log.",
                                                 "expert":  "XP (Extreme Programming)",
                                                 "theory":  "Pair Programming. Procedural Link: Two people work on one workstation to improve quality and focus."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Focused, Present-Moment Action. Procedural Link: Apply this concept to: Perform tasks with full, conscious attention and intention, avoiding distraction and automaticity.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Focused, Present-Moment Action. Procedural Link: Apply this concept to: Perform tasks with full, conscious attention and intention, avoiding distraction and automaticity.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -855,6 +1100,20 @@
                                                 "theory":  "Definition: Practice is the disciplined engagement in dialogue. Procedural Link: The action is to engage in the disciplined engagement in community dialogue or self-inquiry (N81).",
                                                 "specific_deliverable":  "A Race Strategy.",
                                                 "rubric":  "Engage in disciplined dialogue."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Practice. Procedural Link: Apply this concept to: Engage in deliberate, repetitive effort to improve skill and performance.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Practice. Procedural Link: Apply this concept to: Engage in deliberate, repetitive effort to improve skill and performance.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -899,6 +1158,20 @@
                                                 "theory":  "Definition: Prototyping is building a small, safe-to-fail model. Procedural Link: The action is to engage in building a small, safe-to-fail model of a new social process.",
                                                 "specific_deliverable":  "A Feedback Form.",
                                                 "rubric":  "Engage in building safe-to-fail model."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Prototyping. Procedural Link: Apply this concept to: Create a preliminary model or version of a product to test concepts and gather feedback.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Prototyping. Procedural Link: Apply this concept to: Create a preliminary model or version of a product to test concepts and gather feedback.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -943,6 +1216,20 @@
                                                 "theory":  "Definition: Rehearsal is practicing a dialogue protocol. Procedural Link: The action is to engage in practicing a community dialogue protocol or a social intervention in a safe setting.",
                                                 "specific_deliverable":  "A Q\u0026A Prep Sheet.",
                                                 "rubric":  "Engage in practicing protocol."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Rehearsal. Procedural Link: Apply this concept to: Practice a performance or procedure in advance to ensure readiness and identify issues.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Rehearsal. Procedural Link: Apply this concept to: Practice a performance or procedure in advance to ensure readiness and identify issues.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -987,6 +1274,20 @@
                                                 "theory":  "Definition: Service is the core value that all work is performed as an act of service. Procedural Link: The action is to ensure the core value that all work is performed as an act of service to the community and environment.",
                                                 "specific_deliverable":  "An Annual Report.",
                                                 "rubric":  "Ensure work serves community."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Service. Procedural Link: Apply this concept to: Perform actions with the primary intention of benefiting others or a larger cause.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Service. Procedural Link: Apply this concept to: Perform actions with the primary intention of benefiting others or a larger cause.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1031,6 +1332,20 @@
                                                 "theory":  "Definition: Storywork is the ceremonial practice of working with stories. Procedural Link: The action is to engage in the ceremonial practice of working with stories to renew relationships and transmit integrated knowledge.",
                                                 "specific_deliverable":  "A Release Form.",
                                                 "rubric":  "Engage in ceremonial practice."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Storywork. Procedural Link: Apply this concept to: Use narrative structures to organize information, communicate meaning, and engage others.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Storywork. Procedural Link: Apply this concept to: Use narrative structures to organize information, communicate meaning, and engage others.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1075,6 +1390,20 @@
                                                 "theory":  "Definition: Tinkering is improvisational adaptation. Procedural Link: The action is to engage in improvisational adaptation of a protocol in response to an emergent social reality.",
                                                 "specific_deliverable":  "A Hackathon Report.",
                                                 "rubric":  "Engage in improvisational adaptation."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Tinkering. Procedural Link: Apply this concept to: Engage in unstructured, playful experimentation with materials or systems to discover new possibilities.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Tinkering. Procedural Link: Apply this concept to: Engage in unstructured, playful experimentation with materials or systems to discover new possibilities.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1119,6 +1448,20 @@
                                                 "theory":  "Definition: Virtue is the conscious cultivation of moral character. Procedural Link: The action is to focus on the conscious cultivation of moral character (e.g., patience, courage, generosity) through daily action.",
                                                 "specific_deliverable":  "A Self-Assessment.",
                                                 "rubric":  "Focus on moral character."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Virtue. Procedural Link: Apply this concept to: Cultivate and demonstrate moral excellence and character in action.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Virtue. Procedural Link: Apply this concept to: Cultivate and demonstrate moral excellence and character in action.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1163,6 +1506,20 @@
                                                 "theory":  "Definition: Friction is information about unmet needs. Procedural Link: The action is to treat interpersonal conflict as a signal that a boundary has been crossed.",
                                                 "specific_deliverable":  "A Needs Assessment.",
                                                 "rubric":  "Treats conflict as signal."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Friction. Procedural Link: Apply this concept to: Treat the feeling of difficulty or resistance not as a personal failure, but as a signal that the tool, process, or plan is misaligned with the reality of the work.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Friction. Procedural Link: Apply this concept to: Treat the feeling of difficulty or resistance not as a personal failure, but as a signal that the tool, process, or plan is misaligned with the reality of the work.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1214,6 +1571,20 @@
                                                 "specific_deliverable":  "An EVM Forecast.",
                                                 "expert":  "PMP",
                                                 "theory":  "Earned Value Management (EVM). Procedural Link: Use CPI and SPI indices to mathematically forecast project completion."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Velocity. Procedural Link: Apply this concept to: Measure the rate of progress to predict completion and adjust scope, focusing on the direction of movement as much as the speed.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Velocity. Procedural Link: Apply this concept to: Measure the rate of progress to predict completion and adjust scope, focusing on the direction of movement as much as the speed.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1258,6 +1629,20 @@
                                                 "theory":  "Definition: Spoon Theory. Procedural Link: The action is to design the process so that people with limited energy (chronic illness, stress) can still participate.",
                                                 "specific_deliverable":  "An Accessibility Audit.",
                                                 "rubric":  "Designs for limited energy."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Cognitive Load. Procedural Link: Apply this concept to: Manage the amount of working memory resources used, ensuring that the task difficulty does not exceed the practitioner\u0027s or user\u0027s capacity.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Cognitive Load. Procedural Link: Apply this concept to: Manage the amount of working memory resources used, ensuring that the task difficulty does not exceed the practitioner\u0027s or user\u0027s capacity.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1272,6 +1657,48 @@
                                                 "theory":  "WIP = Throughput * Cycle Time. Procedural Link: Reduce Work In Progress (WIP) to decrease Cycle Time.",
                                                 "specific_deliverable":  "A Flow Optimization Plan.",
                                                 "rubric":  "Calculates WIP/Cycle Time relationship."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Little\u0027s Law. Procedural Link: Apply this concept to: Use the mathematical relationship between WIP, Throughput, and Cycle Time to optimize flow.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Little\u0027s Law. Procedural Link: Apply this concept to: Use the mathematical relationship between WIP, Throughput, and Cycle Time to optimize flow.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Little\u0027s Law. Procedural Link: Apply this concept to: Use the mathematical relationship between WIP, Throughput, and Cycle Time to optimize flow.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Little\u0027s Law. Procedural Link: Apply this concept to: Use the mathematical relationship between WIP, Throughput, and Cycle Time to optimize flow.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Little\u0027s Law. Procedural Link: Apply this concept to: Use the mathematical relationship between WIP, Throughput, and Cycle Time to optimize flow.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Little\u0027s Law. Procedural Link: Apply this concept to: Use the mathematical relationship between WIP, Throughput, and Cycle Time to optimize flow.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Debugging a slow support queue.",
@@ -1288,6 +1715,48 @@
                                                 "theory":  "Definition: MVP is for learning, not scaling. Procedural Link: Build a \u0027Concierge\u0027 or \u0027Wizard of Oz\u0027 prototype to test value before building technology.",
                                                 "specific_deliverable":  "A Concierge Prototype.",
                                                 "rubric":  "Optimized for learning, not scale."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Minimum Viable Product (MVP). Procedural Link: Apply this concept to: Build the smallest version of the product that allows you to complete the \u0027Build-Measure-Learn\u0027 loop with minimum effort.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Minimum Viable Product (MVP). Procedural Link: Apply this concept to: Build the smallest version of the product that allows you to complete the \u0027Build-Measure-Learn\u0027 loop with minimum effort.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Minimum Viable Product (MVP). Procedural Link: Apply this concept to: Build the smallest version of the product that allows you to complete the \u0027Build-Measure-Learn\u0027 loop with minimum effort.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Minimum Viable Product (MVP). Procedural Link: Apply this concept to: Build the smallest version of the product that allows you to complete the \u0027Build-Measure-Learn\u0027 loop with minimum effort.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Minimum Viable Product (MVP). Procedural Link: Apply this concept to: Build the smallest version of the product that allows you to complete the \u0027Build-Measure-Learn\u0027 loop with minimum effort.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Minimum Viable Product (MVP). Procedural Link: Apply this concept to: Build the smallest version of the product that allows you to complete the \u0027Build-Measure-Learn\u0027 loop with minimum effort.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Testing a new food delivery service.",

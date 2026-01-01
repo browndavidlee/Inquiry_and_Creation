@@ -49,6 +49,20 @@
                                                 "theory":  "Definition: Adaptation is adjusting governance. Procedural Link: The action is to ensure the capacity of the organization or community to adjust its governance in response to emergent social or environmental needs.",
                                                 "specific_deliverable":  "A Policy Revision.",
                                                 "rubric":  "Adjust governance."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Adaptation. Procedural Link: Apply this concept to: Adjust to new conditions or information.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Adaptation. Procedural Link: Apply this concept to: Adjust to new conditions or information.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -93,6 +107,20 @@
                                                 "theory":  "Definition: Awareness is communal self-awareness. Procedural Link: The action is to cultivate communal self-awareness of the group\u0027s current emotional state, power dynamics, and adherence to principles.",
                                                 "specific_deliverable":  "A Feedback Summary.",
                                                 "rubric":  "Communal self-awareness."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Awareness. Procedural Link: Apply this concept to: Cultivate conscious attention to internal and external states.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Awareness. Procedural Link: Apply this concept to: Cultivate conscious attention to internal and external states.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -137,6 +165,20 @@
                                                 "theory":  "Definition: Contemplation is self-inquiry. Procedural Link: The action is to engage in the practice of Self-Inquiry (N81), turning attention inward to diagnose one\u0027s motivations and attachments.",
                                                 "specific_deliverable":  "A Travel Journal.",
                                                 "rubric":  "Self-inquiry."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Contemplation. Procedural Link: Apply this concept to: Engage in deep, sustained thought or reflection.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Contemplation. Procedural Link: Apply this concept to: Engage in deep, sustained thought or reflection.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -181,6 +223,20 @@
                                                 "theory":  "Definition: Double-loop learning is questioning core beliefs. Procedural Link: The action is to question the core communal beliefs or values that led to a negative systemic outcome.",
                                                 "specific_deliverable":  "A Values Audit.",
                                                 "rubric":  "Question core beliefs."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Double-Loop Learning. Procedural Link: Apply this concept to: Question underlying assumptions and goals, rather than just adjusting actions.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Double-Loop Learning. Procedural Link: Apply this concept to: Question underlying assumptions and goals, rather than just adjusting actions.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -225,6 +281,20 @@
                                                 "theory":  "Definition: Inventory is a formal check-in on commitments. Procedural Link: The action is to conduct a formal check-in on the status of all ethical commitments and community relationships.",
                                                 "specific_deliverable":  "A Compliance Report.",
                                                 "rubric":  "Check-in on commitments."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Inventory. Procedural Link: Apply this concept to: Systematically count and assess available resources or assets.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Inventory. Procedural Link: Apply this concept to: Systematically count and assess available resources or assets.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -269,6 +339,20 @@
                                                 "theory":  "Definition: Metacognition is the highest state of self-awareness. Procedural Link: The action is to engage in the highest state of self-awareness and control over one\u0027s own cognitive and moral conduct.",
                                                 "specific_deliverable":  "A Personal Development Plan.",
                                                 "rubric":  "Highest state of self-awareness."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Metacognition. Procedural Link: Apply this concept to: Think about thinking; monitor and regulate one\u0027s own cognitive processes.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Metacognition. Procedural Link: Apply this concept to: Think about thinking; monitor and regulate one\u0027s own cognitive processes.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -313,6 +397,20 @@
                                                 "theory":  "Definition: Observation is intentional witnessing. Procedural Link: The action is to engage in the intentional, non-judgmental witnessing of a social ritual or interaction.",
                                                 "specific_deliverable":  "A Testimony.",
                                                 "rubric":  "Intentional witnessing."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Observation. Procedural Link: Apply this concept to: Watch and record behavior or performance without interfering.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Observation. Procedural Link: Apply this concept to: Watch and record behavior or performance without interfering.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -364,6 +462,20 @@
                                                 "specific_deliverable":  "A CAS Intervention Plan.",
                                                 "expert":  "DASSM",
                                                 "theory":  "Complex Adaptive Systems (CAS). Procedural Link: Treat the team as a semi-autonomous system; manage boundaries, not individuals."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Oversight. Procedural Link: Apply this concept to: Supervise and manage a system or process to ensure it meets its goals.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Oversight. Procedural Link: Apply this concept to: Supervise and manage a system or process to ensure it meets its goals.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -408,6 +520,20 @@
                                                 "theory":  "Definition: Process improvement is changing governance structure. Procedural Link: The action is to implement a systemic, long-term change to the governance or communication structure to improve collaboration.",
                                                 "specific_deliverable":  "A Policy Change Memo.",
                                                 "rubric":  "Change governance structure."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Process Improvement. Procedural Link: Apply this concept to: Identify and implement changes to a process to improve its efficiency or effectiveness.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Process Improvement. Procedural Link: Apply this concept to: Identify and implement changes to a process to improve its efficiency or effectiveness.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -452,6 +578,20 @@
                                                 "theory":  "Definition: Reflection is the deliberate pause. Procedural Link: The action is to engage in the deliberate pause to review recent communal actions against core values.",
                                                 "specific_deliverable":  "A Meeting Minutes.",
                                                 "rubric":  "Deliberate pause."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Reflection. Procedural Link: Apply this concept to: Look back on a period of time or an event to evaluate what happened and why.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Reflection. Procedural Link: Apply this concept to: Look back on a period of time or an event to evaluate what happened and why.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -496,6 +636,20 @@
                                                 "theory":  "Definition: Reflective practice is integrating experience and integrated knowledge. Procedural Link: The action is to engage in the lifelong discipline of integrating experience and integrated knowledge into ethical action.",
                                                 "specific_deliverable":  "A Personal Mission Statement.",
                                                 "rubric":  "Integrate experience and integrated knowledge."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Reflective Practice. Procedural Link: Apply this concept to: Engage in a continuous cycle of action and reflection to improve performance and understanding.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Reflective Practice. Procedural Link: Apply this concept to: Engage in a continuous cycle of action and reflection to improve performance and understanding.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -540,6 +694,20 @@
                                                 "theory":  "Definition: Retrospective is facilitated dialogue. Procedural Link: The action is to engage in a facilitated Council (N65) or dialogue session to reflect on collective actions and reaffirm shared agreements.",
                                                 "specific_deliverable":  "A Meeting Summary.",
                                                 "rubric":  "Facilitated dialogue."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Retrospective. Procedural Link: Apply this concept to: Look back on a completed phase of work to identify lessons learned and improve future performance.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Retrospective. Procedural Link: Apply this concept to: Look back on a completed phase of work to identify lessons learned and improve future performance.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -584,6 +752,20 @@
                                                 "theory":  "Definition: Self-regulation is governing oneself. Procedural Link: The action is to aim for the capacity of the individual and community to govern themselves according to integrated values and integrated knowledge.",
                                                 "specific_deliverable":  "A Leadership Self-Care Pledge.",
                                                 "rubric":  "Aims to govern themselves via values."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Self-Regulation. Procedural Link: Apply this concept to: Monitor and control one\u0027s own behavior, emotions, and thoughts to achieve a goal.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Self-Regulation. Procedural Link: Apply this concept to: Monitor and control one\u0027s own behavior, emotions, and thoughts to achieve a goal.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -598,6 +780,48 @@
                                                 "theory":  "Teams must go through conflict (Storming) to reach performance. Procedural Link: Diagnose the current stage and apply \u0027Directive\u0027 or \u0027Supportive\u0027 leadership accordingly.",
                                                 "specific_deliverable":  "A Leadership Adjustment Plan.",
                                                 "rubric":  "Diagnoses stage/adjusts style."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Tuckman\u0027s Stages. Procedural Link: Apply this concept to: Diagnose team maturity (Forming, Storming, Norming, Performing) to select the right leadership style.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Tuckman\u0027s Stages. Procedural Link: Apply this concept to: Diagnose team maturity (Forming, Storming, Norming, Performing) to select the right leadership style.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Tuckman\u0027s Stages. Procedural Link: Apply this concept to: Diagnose team maturity (Forming, Storming, Norming, Performing) to select the right leadership style.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Tuckman\u0027s Stages. Procedural Link: Apply this concept to: Diagnose team maturity (Forming, Storming, Norming, Performing) to select the right leadership style.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Tuckman\u0027s Stages. Procedural Link: Apply this concept to: Diagnose team maturity (Forming, Storming, Norming, Performing) to select the right leadership style.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Tuckman\u0027s Stages. Procedural Link: Apply this concept to: Diagnose team maturity (Forming, Storming, Norming, Performing) to select the right leadership style.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "A new team is fighting constantly.",
@@ -614,6 +838,48 @@
                                                 "theory":  "Change happens at the individual level (Awareness, Desire, Knowledge, Ability, Reinforcement). Procedural Link: Assess the team\u0027s ADKAR status and intervene where they are stuck.",
                                                 "specific_deliverable":  "An ADKAR Assessment.",
                                                 "rubric":  "Addresses human side of change."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Kotter / ADKAR. Procedural Link: Apply this concept to: Manage the human side of organizational change using a structured model.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Kotter / ADKAR. Procedural Link: Apply this concept to: Manage the human side of organizational change using a structured model.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Kotter / ADKAR. Procedural Link: Apply this concept to: Manage the human side of organizational change using a structured model.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Kotter / ADKAR. Procedural Link: Apply this concept to: Manage the human side of organizational change using a structured model.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Kotter / ADKAR. Procedural Link: Apply this concept to: Manage the human side of organizational change using a structured model.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Kotter / ADKAR. Procedural Link: Apply this concept to: Manage the human side of organizational change using a structured model.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Implementing a new software system.",
@@ -630,6 +896,48 @@
                                                 "theory":  "Optimization. Procedural Link: Use mathematical modeling to maximize efficiency under constraints.",
                                                 "specific_deliverable":  "A Linear Optimization Model.",
                                                 "rubric":  "Uses math to optimize."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Operations Research. Procedural Link: Apply this concept to: Use advanced analytical methods to help make better decisions.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Operations Research. Procedural Link: Apply this concept to: Use advanced analytical methods to help make better decisions.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Operations Research. Procedural Link: Apply this concept to: Use advanced analytical methods to help make better decisions.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Operations Research. Procedural Link: Apply this concept to: Use advanced analytical methods to help make better decisions.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Operations Research. Procedural Link: Apply this concept to: Use advanced analytical methods to help make better decisions.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Operations Research. Procedural Link: Apply this concept to: Use advanced analytical methods to help make better decisions.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Optimizing delivery routes.",
@@ -653,6 +961,41 @@
                                                 "theory":  "Flow Analysis. Link: Identify where the \u0027stock\u0027 of knowledge gets stuck in the \u0027pipes\u0027 of process.",
                                                 "specific_deliverable":  "Flow Map",
                                                 "rubric":  "Identifies bottlenecks."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Value Chain Analysis. Procedural Link: Apply this concept to: Analyze the workflow to identify where value is created and where it is lost (friction), then optimize the chain.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Value Chain Analysis. Procedural Link: Apply this concept to: Analyze the workflow to identify where value is created and where it is lost (friction), then optimize the chain.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Value Chain Analysis. Procedural Link: Apply this concept to: Analyze the workflow to identify where value is created and where it is lost (friction), then optimize the chain.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Value Chain Analysis. Procedural Link: Apply this concept to: Analyze the workflow to identify where value is created and where it is lost (friction), then optimize the chain.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Value Chain Analysis. Procedural Link: Apply this concept to: Analyze the workflow to identify where value is created and where it is lost (friction), then optimize the chain.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "A team feeling busy but producing little value.",
@@ -676,6 +1019,41 @@
                                                 "theory":  "Definition: Managing technical debt and feature decay. Procedural Link: Allocate 20% of capacity to refactoring and maintenance.",
                                                 "specific_deliverable":  "Technical Debt Budget",
                                                 "rubric":  "Debt is paid down by 20% per quarter."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Sustainment. Procedural Link: Apply this concept to: The active process of maintaining the artifact\u0027s value and function over its intended lifecycle.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Sustainment. Procedural Link: Apply this concept to: The active process of maintaining the artifact\u0027s value and function over its intended lifecycle.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Sustainment. Procedural Link: Apply this concept to: The active process of maintaining the artifact\u0027s value and function over its intended lifecycle.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Sustainment. Procedural Link: Apply this concept to: The active process of maintaining the artifact\u0027s value and function over its intended lifecycle.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Sustainment. Procedural Link: Apply this concept to: The active process of maintaining the artifact\u0027s value and function over its intended lifecycle.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Ensuring product longevity",
@@ -699,6 +1077,41 @@
                                                 "theory":  "Definition: The cost of weak citations or flawed methodology. Procedural Link: Schedule a \u0027Citation Audit\u0027 before submission.",
                                                 "specific_deliverable":  "Citation Audit Report",
                                                 "rubric":  "All claims are traceable to primary source."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Technical Debt. Procedural Link: Apply this concept to: The implied cost of future rework caused by choosing an easy, limited solution now instead of a better, more rigorous solution.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Technical Debt. Procedural Link: Apply this concept to: The implied cost of future rework caused by choosing an easy, limited solution now instead of a better, more rigorous solution.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Technical Debt. Procedural Link: Apply this concept to: The implied cost of future rework caused by choosing an easy, limited solution now instead of a better, more rigorous solution.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Technical Debt. Procedural Link: Apply this concept to: The implied cost of future rework caused by choosing an easy, limited solution now instead of a better, more rigorous solution.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Technical Debt. Procedural Link: Apply this concept to: The implied cost of future rework caused by choosing an easy, limited solution now instead of a better, more rigorous solution.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "A team is slowed by old code/bad habits",
@@ -722,6 +1135,41 @@
                                                 "theory":  "Definition: The plan for defending the aesthetic integrity and authorship of the work.",
                                                 "specific_deliverable":  "Authorship Statement",
                                                 "rubric":  "Authorship is legally protected."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of IP Strategy. Procedural Link: Apply this concept to: The governance plan for protecting the artifact\u0027s intellectual property and market value from external threats.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to IP Strategy. Procedural Link: Apply this concept to: The governance plan for protecting the artifact\u0027s intellectual property and market value from external threats.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of IP Strategy. Procedural Link: Apply this concept to: The governance plan for protecting the artifact\u0027s intellectual property and market value from external threats.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of IP Strategy. Procedural Link: Apply this concept to: The governance plan for protecting the artifact\u0027s intellectual property and market value from external threats.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of IP Strategy. Procedural Link: Apply this concept to: The governance plan for protecting the artifact\u0027s intellectual property and market value from external threats.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
                                             }
                                         ],
                          "scenario":  "A competitor copies the core idea",
@@ -745,6 +1193,41 @@
                                                 "theory":  "Definition: The strategy for defending empirical findings against misinformation. Procedural Link: Publish all raw data (T8) to ensure transparency.",
                                                 "specific_deliverable":  "Open Data Release",
                                                 "rubric":  "Data is publicly verifiable."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of FUD Mitigation. Procedural Link: Apply this concept to: The strategy for defending the artifact\u0027s public narrative and reputation against FUD (Fear, Uncertainty, and Doubt) or misinformation.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of FUD Mitigation. Procedural Link: Apply this concept to: The strategy for defending the artifact\u0027s public narrative and reputation against FUD (Fear, Uncertainty, and Doubt) or misinformation.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding FUD Mitigation. Procedural Link: Apply this concept to: The strategy for defending the artifact\u0027s public narrative and reputation against FUD (Fear, Uncertainty, and Doubt) or misinformation.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of FUD Mitigation. Procedural Link: Apply this concept to: The strategy for defending the artifact\u0027s public narrative and reputation against FUD (Fear, Uncertainty, and Doubt) or misinformation.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of FUD Mitigation. Procedural Link: Apply this concept to: The strategy for defending the artifact\u0027s public narrative and reputation against FUD (Fear, Uncertainty, and Doubt) or misinformation.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "A social media campaign attacks the product\u0027s reputation",

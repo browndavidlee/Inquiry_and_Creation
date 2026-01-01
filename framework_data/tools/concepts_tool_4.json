@@ -49,6 +49,20 @@
                                                 "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to ensure the final action must align with the \u0027red lines\u0027—the specific, non-negotiable ethical boundaries the project will not cross.",
                                                 "specific_deliverable":  "An Ethical Compliance Check for the ads.",
                                                 "rubric":  "Ensure action aligns with \u0027red lines\u0027."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Alignment. Procedural Link: Apply this concept to: Verify that a proposed action or decision is consistent with the established goals, values, evidence, and constraints of the project.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Alignment. Procedural Link: Apply this concept to: Verify that a proposed action or decision is consistent with the established goals, values, evidence, and constraints of the project.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -93,6 +107,20 @@
                                                 "theory":  "Definition: The Circle Way uses \u0027consent\u0027—no critical objection—for decision-making. Procedural Link: The action is to ensure the final decision must achieve \u0027consent\u0027—no member of the council has a critical objection that would harm the community.",
                                                 "specific_deliverable":  "A Council Resolution.",
                                                 "rubric":  "Achieve \u0027consent\u0027 (no objection)."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Assent. Procedural Link: Apply this concept to: Secure the formal agreement, commitment, or consent of all necessary parties to proceed with a decision or action.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Assent. Procedural Link: Apply this concept to: Secure the formal agreement, commitment, or consent of all necessary parties to proceed with a decision or action.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -137,6 +165,20 @@
                                                 "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to choose the action that honors the highest-ranked value in the hierarchy, acknowledging the sacrifice of the lower-ranked value.",
                                                 "specific_deliverable":  "A Value-Based Decision.",
                                                 "rubric":  "Choose action honoring value."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Choice. Procedural Link: Apply this concept to: Make a definitive selection from a set of alternatives based on specific criteria, logic, and values.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Choice. Procedural Link: Apply this concept to: Make a definitive selection from a set of alternatives based on specific criteria, logic, and values.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -181,6 +223,20 @@
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to commit to the dialogic process, ensuring all voices are heard and the final decision is collectively owned.",
                                                 "specific_deliverable":  "A Community Compact.",
                                                 "rubric":  "Commit to dialogic process."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Commitment. Procedural Link: Apply this concept to: Formally dedicate resources, reputation, and effort to a chosen course of action, accepting the risks and responsibilities involved.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Commitment. Procedural Link: Apply this concept to: Formally dedicate resources, reputation, and effort to a chosen course of action, accepting the risks and responsibilities involved.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -225,6 +281,20 @@
                                                 "theory":  "Definition: The Circle Way uses consent—no critical objection—for decision-making. Procedural Link: The action is to achieve convergence when the collective integrated knowledge of the council points toward a single, emergent path forward.",
                                                 "specific_deliverable":  "A Group Consensus.",
                                                 "rubric":  "Collective integrated knowledge points path."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Convergence. Procedural Link: Apply this concept to: Move from a state of broad possibilities to a single, focused solution by eliminating weaker options and synthesizing the strengths of the remaining ones.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Convergence. Procedural Link: Apply this concept to: Move from a state of broad possibilities to a single, focused solution by eliminating weaker options and synthesizing the strengths of the remaining ones.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -269,6 +339,20 @@
                                                 "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The action is to weigh the short-term cost against the long-term benefit to the seventh generation.",
                                                 "specific_deliverable":  "A 7th Generation Impact Report.",
                                                 "rubric":  "Weigh short-term vs long-term."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Cost-Benefit Analysis. Procedural Link: Apply this concept to: Systematically compare the expected costs (financial, time, effort) against the expected benefits (value, impact, learning) to determine the viability of an action.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Cost-Benefit Analysis. Procedural Link: Apply this concept to: Systematically compare the expected costs (financial, time, effort) against the expected benefits (value, impact, learning) to determine the viability of an action.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -313,6 +397,20 @@
                                                 "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to recognize the decision as the formal commitment to the action that honors the highest-ranked value.",
                                                 "specific_deliverable":  "A Value Choice Memo honoring the highest-ranked value.",
                                                 "rubric":  "Formal commitment to action honoring value."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Decision. Procedural Link: Apply this concept to: Execute the final act of selection, transforming deliberation into a binding commitment to a specific course of action.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Decision. Procedural Link: Apply this concept to: Execute the final act of selection, transforming deliberation into a binding commitment to a specific course of action.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -357,6 +455,20 @@
                                                 "theory":  "Definition: Meadows focuses on identifying leverage points. Procedural Link: The action is to concentrate the collective effort on the highest-leverage, most responsible course of action.",
                                                 "specific_deliverable":  "A Leverage Point Strategy focusing on fuel efficiency.",
                                                 "rubric":  "Concentrates effort on highest-leverage course."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Focus. Procedural Link: Apply this concept to: Concentrate limited attention, resources, and energy onto the single most critical objective, deliberately ignoring distractions.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Focus. Procedural Link: Apply this concept to: Concentrate limited attention, resources, and energy onto the single most critical objective, deliberately ignoring distractions.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -401,6 +513,20 @@
                                                 "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to ensure the Go/No-Go decision must be based on the \u0027red lines\u0027; if the project violates a core ethical boundary, the answer is No-Go.",
                                                 "specific_deliverable":  "A Compliance Checklist verifying safety standards.",
                                                 "rubric":  "Decision based on \u0027red lines\u0027."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Go/No-Go Decision. Procedural Link: Apply this concept to: Conduct a formal review point where the project is evaluated against critical success criteria to determine if it should proceed, pause, or stop.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Go/No-Go Decision. Procedural Link: Apply this concept to: Conduct a formal review point where the project is evaluated against critical success criteria to determine if it should proceed, pause, or stop.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -445,6 +571,20 @@
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to make the pledge a commitment to \u0027answerability\u0027—a promise to remain in dialogue with the community and be accountable for the work\u0027s impact.",
                                                 "specific_deliverable":  "A Stewardship Oath to the coastal residents.",
                                                 "rubric":  "Commitment to \u0027answerability\u0027."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Pledge. Procedural Link: Apply this concept to: Make a solemn, shared promise to uphold specific values, standards, or goals, binding the group together in a common purpose.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Pledge. Procedural Link: Apply this concept to: Make a solemn, shared promise to uphold specific values, standards, or goals, binding the group together in a common purpose.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -489,6 +629,20 @@
                                                 "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to prioritize the action that honors the highest-ranked value in the hierarchy, acknowledging the sacrifice of the lower-ranked value.",
                                                 "specific_deliverable":  "A Value Hierarchy placing \u0027safety\u0027 above \u0027speed.\u0027",
                                                 "rubric":  "Prioritizes action honoring value."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Prioritization. Procedural Link: Apply this concept to: Rank competing options based on a defined set of criteria (value, effort, risk) to determine the order of execution.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Prioritization. Procedural Link: Apply this concept to: Rank competing options based on a defined set of criteria (value, effort, risk) to determine the order of execution.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -533,6 +687,20 @@
                                                 "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to recognize the resolution as the formal commitment to the action that honors the highest-ranked value.",
                                                 "specific_deliverable":  "A Reconciliation Pledge to honor the treaty.",
                                                 "rubric":  "Formal commitment to action."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Resolve. Procedural Link: Apply this concept to: Bring a process of deliberation or conflict to a definitive end by making a final determination and committing to the outcome.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Resolve. Procedural Link: Apply this concept to: Bring a process of deliberation or conflict to a definitive end by making a final determination and committing to the outcome.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -577,6 +745,20 @@
                                                 "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The action is to use RICE to score interventions based on Reach (number of people affected) and ethical Impact on the seventh generation.",
                                                 "specific_deliverable":  "An Impact Scorecard for sustainable packaging.",
                                                 "rubric":  "Uses RICE to score interventions."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of RICE Scoring. Procedural Link: Apply this concept to: Use a quantitative framework (Reach, Impact, Confidence, Effort) to objectively score and rank competing options.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of RICE Scoring. Procedural Link: Apply this concept to: Use a quantitative framework (Reach, Impact, Confidence, Effort) to objectively score and rank competing options.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -621,6 +803,20 @@
                                                 "theory":  "Definition: Meadows focuses on identifying leverage points. Procedural Link: The action is to limit the intervention to a manageable, contained area to mitigate systemic risk and ensure a measurable outcome.",
                                                 "specific_deliverable":  "A Mission Scope Document focusing on one orbit.",
                                                 "rubric":  "Limits intervention to manageable area."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Scope Reduction. Procedural Link: Apply this concept to: Deliberately remove features, tasks, or variables to ensure the core objective can be achieved within the constraints of time and resources.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Scope Reduction. Procedural Link: Apply this concept to: Deliberately remove features, tasks, or variables to ensure the core objective can be achieved within the constraints of time and resources.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -665,6 +861,20 @@
                                                 "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to formally state the value that is being sacrificed when resolving a tragic choice (e.g., sacrificing convenience for security).",
                                                 "specific_deliverable":  "A Tragic Choice Document prioritizing integrity.",
                                                 "rubric":  "Formally states value sacrificed."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Trade-off. Procedural Link: Apply this concept to: Explicitly acknowledge and accept the loss of one value or benefit in exchange for gaining another, ensuring the decision is conscious and and transparent.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Trade-off. Procedural Link: Apply this concept to: Explicitly acknowledge and accept the loss of one value or benefit in exchange for gaining another, ensuring the decision is conscious and and transparent.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -709,6 +919,20 @@
                                                 "theory":  "Definition: The \u0027somatic marker\u0027 is the body\u0027s emotional signal guiding decision-making. Procedural Link: The action is to ensure the final commitment must be a value-based choice where the emotional signal of ethical rightness aligns with the logical analysis.",
                                                 "specific_deliverable":  "An Ethical Alignment Check confirming values.",
                                                 "rubric":  "Ensures commitment is value-based."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Volition. Procedural Link: Apply this concept to: Exercise the will to make a conscious, deliberate choice and stand by it, moving from deliberation to action.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Volition. Procedural Link: Apply this concept to: Exercise the will to make a conscious, deliberate choice and stand by it, moving from deliberation to action.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -753,6 +977,20 @@
                                                 "theory":  "Definition: Sense of the Meeting. Procedural Link: The action is to listen for the \u0027unity\u0027 underneath the words, distinguishing between a personal preference and a spiritual objection.",
                                                 "specific_deliverable":  "A Minute of Unity.",
                                                 "rubric":  "Distinguishes preference from objection."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Consent. Procedural Link: Apply this concept to: Shift the decision rule from \u0027Consensus\u0027 (everyone agrees) to \u0027Consent\u0027 (no one has a critical objection), enabling faster action while protecting against harm.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Consent. Procedural Link: Apply this concept to: Shift the decision rule from \u0027Consensus\u0027 (everyone agrees) to \u0027Consent\u0027 (no one has a critical objection), enabling faster action while protecting against harm.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -797,6 +1035,20 @@
                                                 "theory":  "Definition: If an action has a suspected risk of causing harm to the public or environment, the burden of proof falls on those taking the action. Procedural Link: The action is to prohibit the decision if the environmental consequences are potentially irreversible.",
                                                 "specific_deliverable":  "A Non-Regression Clause.",
                                                 "rubric":  "Prohibits irreversible environmental harm."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Reversibility. Procedural Link: Apply this concept to: Classify the decision based on the cost of reversing it. If low cost, decide quickly. If high cost, deliberate slowly.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Reversibility. Procedural Link: Apply this concept to: Classify the decision based on the cost of reversing it. If low cost, decide quickly. If high cost, deliberate slowly.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -841,6 +1093,20 @@
                                                 "theory":  "Definition: Time is the currency of community. Procedural Link: The action is to assess the cost of the meeting in terms of volunteer hours that could have been spent on direct service.",
                                                 "specific_deliverable":  "A Volunteer Hour Audit.",
                                                 "rubric":  "Assesses cost in volunteer hours."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Opportunity Cost. Procedural Link: Apply this concept to: Evaluate the decision not by what is gained, but by the value of the best alternative that must be sacrificed.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Opportunity Cost. Procedural Link: Apply this concept to: Evaluate the decision not by what is gained, but by the value of the best alternative that must be sacrificed.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -855,6 +1121,48 @@
                                                 "theory":  "The Vital Few vs The Trivial Many. Procedural Link: Rank options by impact and select the top 20% that deliver the most value.",
                                                 "specific_deliverable":  "A Pareto Chart.",
                                                 "rubric":  "Selects vital few."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Pareto Analysis. Procedural Link: Apply this concept to: Identify the 20% of causes that produce 80% of the effects to prioritize action.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Pareto Analysis. Procedural Link: Apply this concept to: Identify the 20% of causes that produce 80% of the effects to prioritize action.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Pareto Analysis. Procedural Link: Apply this concept to: Identify the 20% of causes that produce 80% of the effects to prioritize action.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Pareto Analysis. Procedural Link: Apply this concept to: Identify the 20% of causes that produce 80% of the effects to prioritize action.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Pareto Analysis. Procedural Link: Apply this concept to: Identify the 20% of causes that produce 80% of the effects to prioritize action.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Pareto Analysis. Procedural Link: Apply this concept to: Identify the 20% of causes that produce 80% of the effects to prioritize action.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Deciding which bugs to fix first.",
@@ -871,6 +1179,48 @@
                                                 "theory":  "Scope is the primary variable. Procedural Link: Classify every backlog item to protect the \u0027Must Haves\u0027 from scope creep.",
                                                 "specific_deliverable":  "A MoSCoW Matrix.",
                                                 "rubric":  "Categorizes into M/S/C/W."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of MoSCoW Prioritization. Procedural Link: Apply this concept to: Categorize requirements to manage scope: Must have, Should have, Could have, Won\u0027t have.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to MoSCoW Prioritization. Procedural Link: Apply this concept to: Categorize requirements to manage scope: Must have, Should have, Could have, Won\u0027t have.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of MoSCoW Prioritization. Procedural Link: Apply this concept to: Categorize requirements to manage scope: Must have, Should have, Could have, Won\u0027t have.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of MoSCoW Prioritization. Procedural Link: Apply this concept to: Categorize requirements to manage scope: Must have, Should have, Could have, Won\u0027t have.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of MoSCoW Prioritization. Procedural Link: Apply this concept to: Categorize requirements to manage scope: Must have, Should have, Could have, Won\u0027t have.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of MoSCoW Prioritization. Procedural Link: Apply this concept to: Categorize requirements to manage scope: Must have, Should have, Could have, Won\u0027t have.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Negotiating scope for a tight deadline.",
@@ -887,6 +1237,55 @@
                                                 "theory":  "Not all features create value equally. Procedural Link: Plot features against satisfaction vs. implementation investment.",
                                                 "specific_deliverable":  "A Kano Analysis.",
                                                 "rubric":  "Distinguishes Basic vs Excitement features."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Kano Model. Procedural Link: Apply this concept to: Classify features by customer satisfaction: Basic, Performance, and Excitement.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Kano Model. Procedural Link: Apply this concept to: Classify features by customer satisfaction: Basic, Performance, and Excitement.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Kano Model. Procedural Link: Apply this concept to: Classify features by customer satisfaction: Basic, Performance, and Excitement.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Kano Model. Procedural Link: Apply this concept to: Classify features by customer satisfaction: Basic, Performance, and Excitement.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Kano Model. Procedural Link: Apply this concept to: Classify features by customer satisfaction: Basic, Performance, and Excitement.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Kano Model. Procedural Link: Apply this concept to: Classify features by customer satisfaction: Basic, Performance, and Excitement.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Kano Model. Procedural Link: Apply this concept to: Classify features by customer satisfaction: Basic, Performance, and Excitement.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Choosing features for a product update.",
@@ -903,6 +1302,48 @@
                                                 "theory":  "Expected Value. Procedural Link: Calculate the weighted average value of each branch to select the optimal path.",
                                                 "specific_deliverable":  "A Decision Tree Calculation.",
                                                 "rubric":  "Calculates expected value."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Decision Trees. Procedural Link: Apply this concept to: Map out possible consequences, probabilities, and payoffs for each option mathematically.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Decision Trees. Procedural Link: Apply this concept to: Map out possible consequences, probabilities, and payoffs for each option mathematically.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Decision Trees. Procedural Link: Apply this concept to: Map out possible consequences, probabilities, and payoffs for each option mathematically.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Decision Trees. Procedural Link: Apply this concept to: Map out possible consequences, probabilities, and payoffs for each option mathematically.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Decision Trees. Procedural Link: Apply this concept to: Map out possible consequences, probabilities, and payoffs for each option mathematically.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Decision Trees. Procedural Link: Apply this concept to: Map out possible consequences, probabilities, and payoffs for each option mathematically.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Deciding whether to sue or settle.",
@@ -919,6 +1360,48 @@
                                                 "theory":  "Definition: Discounted Cash Flow. Link: Compare present value of future returns against hurdle rates.",
                                                 "specific_deliverable":  "NPV Spreadsheet",
                                                 "rubric":  "NPV \u003e 0"
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of NPV / IRR Analysis. Procedural Link: Apply this concept to: Calculate Net Present Value and Internal Rate of Return to determine the long-term profitability and time-value of money.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to NPV / IRR Analysis. Procedural Link: Apply this concept to: Calculate Net Present Value and Internal Rate of Return to determine the long-term profitability and time-value of money.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of NPV / IRR Analysis. Procedural Link: Apply this concept to: Calculate Net Present Value and Internal Rate of Return to determine the long-term profitability and time-value of money.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of NPV / IRR Analysis. Procedural Link: Apply this concept to: Calculate Net Present Value and Internal Rate of Return to determine the long-term profitability and time-value of money.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of NPV / IRR Analysis. Procedural Link: Apply this concept to: Calculate Net Present Value and Internal Rate of Return to determine the long-term profitability and time-value of money.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of NPV / IRR Analysis. Procedural Link: Apply this concept to: Calculate Net Present Value and Internal Rate of Return to determine the long-term profitability and time-value of money.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Selecting between two high-cost technology investments.",
@@ -935,6 +1418,48 @@
                                                 "theory":  "Definition: Learning Launch. Procedural Link: Isolate the single variable that, if false, kills the project. Test that first.",
                                                 "specific_deliverable":  "A Critical Assumption Test.",
                                                 "rubric":  "Tests the highest risk variable."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Assumption Testing. Procedural Link: Apply this concept to: Do not select the \u0027best idea\u0027. Select the \u0027riskiest assumption\u0027 inherent in the best idea to test first.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Assumption Testing. Procedural Link: Apply this concept to: Do not select the \u0027best idea\u0027. Select the \u0027riskiest assumption\u0027 inherent in the best idea to test first.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Assumption Testing. Procedural Link: Apply this concept to: Do not select the \u0027best idea\u0027. Select the \u0027riskiest assumption\u0027 inherent in the best idea to test first.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Assumption Testing. Procedural Link: Apply this concept to: Do not select the \u0027best idea\u0027. Select the \u0027riskiest assumption\u0027 inherent in the best idea to test first.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Assumption Testing. Procedural Link: Apply this concept to: Do not select the \u0027best idea\u0027. Select the \u0027riskiest assumption\u0027 inherent in the best idea to test first.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Assumption Testing. Procedural Link: Apply this concept to: Do not select the \u0027best idea\u0027. Select the \u0027riskiest assumption\u0027 inherent in the best idea to test first.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Choosing which feature to build next.",

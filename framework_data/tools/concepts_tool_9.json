@@ -49,6 +49,20 @@
                                                 "theory":  "Definition: Archiving is preserving traditional knowledge. Procedural Link: The action is to preserve traditional knowledge, stories, and historical records for future generations.",
                                                 "specific_deliverable":  "A Final Report.",
                                                 "rubric":  "Preserve knowledge."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Archiving. Procedural Link: Apply this concept to: Preserve records, data, and artifacts for future reference and use.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Archiving. Procedural Link: Apply this concept to: Preserve records, data, and artifacts for future reference and use.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -93,6 +107,20 @@
                                                 "theory":  "Definition: The Consolidation Period is a time for communal reflection. Procedural Link: The action is to schedule a formal time for rest and communal reflection to allow difficult lessons to be processed and integrated by the whole system.",
                                                 "specific_deliverable":  "A Return to Work Plan.",
                                                 "rubric":  "Schedule reflection."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Consolidation Period. Procedural Link: Apply this concept to: Take a break from active work to allow for rest, reflection, and integration of learning.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Consolidation Period. Procedural Link: Apply this concept to: Take a break from active work to allow for rest, reflection, and integration of learning.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -137,6 +165,20 @@
                                                 "theory":  "Definition: Contribution is the positive, measurable impact. Procedural Link: The action is to ensure the positive, measurable impact on communal well-being and the strengthening of social systems.",
                                                 "specific_deliverable":  "A Thank You Letter.",
                                                 "rubric":  "Ensure impact."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Contribution. Procedural Link: Apply this concept to: Articulate the specific value or benefit provided by the work.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Contribution. Procedural Link: Apply this concept to: Articulate the specific value or benefit provided by the work.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -181,6 +223,20 @@
                                                 "theory":  "Definition: Decommissioning is the planned phasing out of a process. Procedural Link: The action is to plan the planned phasing out of a social process or resource no longer serving the community.",
                                                 "specific_deliverable":  "A Final Status Report.",
                                                 "rubric":  "Plan phasing out."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Decommissioning. Procedural Link: Apply this concept to: Safely and responsibly retire a system, product, or process at the end of its life.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Decommissioning. Procedural Link: Apply this concept to: Safely and responsibly retire a system, product, or process at the end of its life.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -225,6 +281,20 @@
                                                 "theory":  "Definition: Exemplification is crafting a teaching story. Procedural Link: The action is to engage in Crafting a Teaching Story (N91) that uses a specific project to demonstrate a universal principle of integrated knowledge or conduct.",
                                                 "specific_deliverable":  "A Chapter Summary.",
                                                 "rubric":  "Engage in crafting story."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Exemplification. Procedural Link: Apply this concept to: Use a specific example to illustrate a general principle or concept.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Exemplification. Procedural Link: Apply this concept to: Use a specific example to illustrate a general principle or concept.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -269,6 +339,20 @@
                                                 "theory":  "Definition: Generalization is abstracting a lesson into a universal principle. Procedural Link: The action is to abstract the specific lesson of a communal event into a universal principle of conduct or integrated knowledge.",
                                                 "specific_deliverable":  "A Textbook Entry.",
                                                 "rubric":  "Abstract lesson."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Generalization. Procedural Link: Apply this concept to: Derive a general principle or rule from specific observations or instances.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Generalization. Procedural Link: Apply this concept to: Derive a general principle or rule from specific observations or instances.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -313,6 +397,20 @@
                                                 "theory":  "Definition: Generosity is the pro-social value of giving back. Procedural Link: The action is to fulfill the pro-social value of giving back resources and knowledge to the community.",
                                                 "specific_deliverable":  "A Release Announcement.",
                                                 "rubric":  "Fulfill value."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Generosity. Procedural Link: Apply this concept to: Freely share knowledge, resources, or time with others without expectation of direct return.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Generosity. Procedural Link: Apply this concept to: Freely share knowledge, resources, or time with others without expectation of direct return.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -357,6 +455,20 @@
                                                 "theory":  "Definition: Integration is the harmonious synthesis of experience. Procedural Link: The action is to ensure the harmonious synthesis of new experience into the continuous stream of communal integrated knowledge and tradition.",
                                                 "specific_deliverable":  "A Town Hall Meeting.",
                                                 "rubric":  "Ensure synthesis."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Integration. Procedural Link: Apply this concept to: Combine separate elements into a unified whole.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Integration. Procedural Link: Apply this concept to: Combine separate elements into a unified whole.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -408,6 +520,20 @@
                                                 "specific_deliverable":  "A Handover Protocol.",
                                                 "expert":  "PMP",
                                                 "theory":  "Knowledge Transfer. Procedural Link: Formal mechanisms (handover docs, training) to transfer project assets to operations."
+                                            },
+                                            {
+                                                "expert":  "David Perkins",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: High Road Transfer. Procedural Link: Explicitly abstract the principle from the context to enable application in new situations.",
+                                                "specific_deliverable":  "Transfer Task",
+                                                "rubric":  "Abstracts principle for new context."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Knowledge Transfer. Procedural Link: Apply this concept to: Pass knowledge or skills from one person or group to another.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -452,6 +578,20 @@
                                                 "theory":  "Definition: Learning is the metacognitive process of turning experience into integrated knowledge. Procedural Link: The action is to engage in the metacognitive process of turning experience into durable integrated knowledge and self-awareness.",
                                                 "specific_deliverable":  "A Final Report.",
                                                 "rubric":  "Engage in process."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Learning. Procedural Link: Apply this concept to: Acquire new knowledge or skills through experience, study, or being taught.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Learning. Procedural Link: Apply this concept to: Acquire new knowledge or skills through experience, study, or being taught.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -496,6 +636,20 @@
                                                 "theory":  "Definition: Maturation is the communal process reaching closure. Procedural Link: The action is to recognize the maturation as the communal process has reached a point of closure, and the primary objective is met.",
                                                 "specific_deliverable":  "A Celebration.",
                                                 "rubric":  "Recognize closure."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Maturation. Procedural Link: Apply this concept to: Reach a state of full development or completion.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Maturation. Procedural Link: Apply this concept to: Reach a state of full development or completion.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -540,6 +694,20 @@
                                                 "theory":  "Definition: New questions are critical questions about justice. Procedural Link: The action is to formulate the critical questions about justice and sustainability that the community must address next.",
                                                 "specific_deliverable":  "A Vision Statement.",
                                                 "rubric":  "Formulate questions."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of New Questions. Procedural Link: Apply this concept to: Identify new lines of inquiry or problems to solve based on the results of previous work.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of New Questions. Procedural Link: Apply this concept to: Identify new lines of inquiry or problems to solve based on the results of previous work.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -584,6 +752,20 @@
                                                 "theory":  "Definition: The playbook is the codified rules of engagement. Procedural Link: The action is to create the codified rules and rituals of engagement for a specific social process.",
                                                 "specific_deliverable":  "A Training.",
                                                 "rubric":  "Create rules."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Playbook. Procedural Link: Apply this concept to: Create a guide or manual that documents best practices and procedures for a specific activity.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Playbook. Procedural Link: Apply this concept to: Create a guide or manual that documents best practices and procedures for a specific activity.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -628,6 +810,20 @@
                                                 "theory":  "Definition: Sharing is passing down integrated knowledge. Procedural Link: The action is to engage in the act of passing down cultural integrated knowledge and principles to the next generation.",
                                                 "specific_deliverable":  "A Blog Post.",
                                                 "rubric":  "Engage in passing down."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Sharing. Procedural Link: Apply this concept to: Distribute information, resources, or knowledge to others.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Sharing. Procedural Link: Apply this concept to: Distribute information, resources, or knowledge to others.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -672,6 +868,20 @@
                                                 "theory":  "Definition: Stewardship is the fundamental commitment to long-term care. Procedural Link: The action is to commit to the fundamental commitment to long-term care of the community and the environment for future generations (Kaitiakitanga, N47).",
                                                 "specific_deliverable":  "A 7th Generation Plan.",
                                                 "rubric":  "Commit to long-term care."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Stewardship. Procedural Link: Apply this concept to: Take responsibility for the long-term care and preservation of a resource or system.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Stewardship. Procedural Link: Apply this concept to: Take responsibility for the long-term care and preservation of a resource or system.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -716,6 +926,20 @@
                                                 "theory":  "Definition: Sustainability is maximizing ecological and social resilience. Procedural Link: The action is to ensure the core aim of the project: maximizing ecological and social resilience over the long term.",
                                                 "specific_deliverable":  "A Resilience Strategy.",
                                                 "rubric":  "Maximize resilience."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Sustainability. Procedural Link: Apply this concept to: Ensure that a system or process can be maintained over the long term without depleting resources or causing harm.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Sustainability. Procedural Link: Apply this concept to: Ensure that a system or process can be maintained over the long term without depleting resources or causing harm.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -760,6 +984,20 @@
                                                 "theory":  "Definition: Synthesis is holistic integration. Procedural Link: The action is to engage in the holistic integration of experience, integrated knowledge, and ethical principles into a single, cohesive worldview.",
                                                 "specific_deliverable":  "A Reflection Paper.",
                                                 "rubric":  "Holistic integration."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Synthesis. Procedural Link: Apply this concept to: Combine separate elements or ideas into a coherent whole.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Synthesis. Procedural Link: Apply this concept to: Combine separate elements or ideas into a coherent whole.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -804,6 +1042,20 @@
                                                 "theory":  "Definition: Teaching story transmits integrated knowledge. Procedural Link: The action is to create a traditional narrative used to transmit ethical integrated knowledge and cultural values across generations (N91).",
                                                 "specific_deliverable":  "A Discussion Guide.",
                                                 "rubric":  "Transmit integrated knowledge via story."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Teaching Story. Procedural Link: Apply this concept to: Use a story to convey a lesson, principle, or value.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Teaching Story. Procedural Link: Apply this concept to: Use a story to convey a lesson, principle, or value.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -848,6 +1100,20 @@
                                                 "theory":  "Definition: Transmission is passing down integrated knowledge. Procedural Link: The action is to engage in the act of passing down cultural integrated knowledge and principles to the next generation.",
                                                 "specific_deliverable":  "A Lesson Plan.",
                                                 "rubric":  "Pass down integrated knowledge."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Transmission. Procedural Link: Apply this concept to: Pass knowledge or information from one person or group to another.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Transmission. Procedural Link: Apply this concept to: Pass knowledge or information from one person or group to another.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -892,6 +1158,20 @@
                                                 "theory":  "Definition: Integrated Knowledge is the integrated knowledge of what actions lead to flourishing. Procedural Link: The action is to aim for the integrated knowledge of what actions lead to collective flourishing and long-term resilience.",
                                                 "specific_deliverable":  "A Legacy Statement.",
                                                 "rubric":  "Integrated knowledge."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Integrated Knowledge. Procedural Link: Apply this concept to: Apply knowledge and experience to make sound judgments and decisions.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Integrated Knowledge. Procedural Link: Apply this concept to: Apply knowledge and experience to make sound judgments and decisions.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -936,6 +1216,20 @@
                                                 "theory":  "Definition: Shifting the window of discourse. Procedural Link: The action is to articulate the new social norm that the project has established.",
                                                 "specific_deliverable":  "A New Norm Statement.",
                                                 "rubric":  "Articulates new social norm."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Schema. Procedural Link: Apply this concept to: Update the fundamental mental structure or framework used to interpret the world based on the new evidence from the project.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Schema. Procedural Link: Apply this concept to: Update the fundamental mental structure or framework used to interpret the world based on the new evidence from the project.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -980,6 +1274,20 @@
                                                 "theory":  "Definition: Shoshin (Beginner\u0027s Mind). Procedural Link: The action is to empty the cup—to let go of the status of \u0027expert\u0027 to approach the next problem with humility.",
                                                 "specific_deliverable":  "A Beginner\u0027s Mind Ritual.",
                                                 "rubric":  "Relinquishes expert status."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Unlearning. Procedural Link: Apply this concept to: Consciously discard obsolete knowledge, habits, or processes that are no longer effective, creating space for new learning.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Unlearning. Procedural Link: Apply this concept to: Consciously discard obsolete knowledge, habits, or processes that are no longer effective, creating space for new learning.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1024,6 +1332,20 @@
                                                 "theory":  "Definition: \u0027Eat food. Not too much. Mostly plants.\u0027 Procedural Link: The action is to compress a complex ethical system into a haiku-like instruction.",
                                                 "specific_deliverable":  "A Living Maxim.",
                                                 "rubric":  "Compresses ethics into maxim."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Heuristic. Procedural Link: Apply this concept to: Distill complex wisdom into a simple, memorable rule of thumb that guides decision-making in uncertain situations.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Heuristic. Procedural Link: Apply this concept to: Distill complex wisdom into a simple, memorable rule of thumb that guides decision-making in uncertain situations.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1038,6 +1360,48 @@
                                                 "theory":  "Liminal Cynefin. Procedural Link: Hold the system in a state of suspended constraints to allow new patterns to emerge.",
                                                 "specific_deliverable":  "A Transition State Map.",
                                                 "rubric":  "Manages the threshold state."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Liminality. Procedural Link: Apply this concept to: Manage the \u0027threshold\u0027 state between the old way and the new way, where ambiguity is high but innovation is possible.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Liminality. Procedural Link: Apply this concept to: Manage the \u0027threshold\u0027 state between the old way and the new way, where ambiguity is high but innovation is possible.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Liminality. Procedural Link: Apply this concept to: Manage the \u0027threshold\u0027 state between the old way and the new way, where ambiguity is high but innovation is possible.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Liminality. Procedural Link: Apply this concept to: Manage the \u0027threshold\u0027 state between the old way and the new way, where ambiguity is high but innovation is possible.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Liminality. Procedural Link: Apply this concept to: Manage the \u0027threshold\u0027 state between the old way and the new way, where ambiguity is high but innovation is possible.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Liminality. Procedural Link: Apply this concept to: Manage the \u0027threshold\u0027 state between the old way and the new way, where ambiguity is high but innovation is possible.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Navigating a merger between companies.",
@@ -1054,6 +1418,48 @@
                                                 "theory":  "Learning requires the transformation of experience.",
                                                 "specific_deliverable":  "Reflection Paper",
                                                 "rubric":  "Completes all 4 stages."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Experiential Cycle. Procedural Link: Apply this concept to: Move from Concrete Experience to Active Experimentation.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Experiential Cycle. Procedural Link: Apply this concept to: Move from Concrete Experience to Active Experimentation.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Experiential Cycle. Procedural Link: Apply this concept to: Move from Concrete Experience to Active Experimentation.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Experiential Cycle. Procedural Link: Apply this concept to: Move from Concrete Experience to Active Experimentation.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Experiential Cycle. Procedural Link: Apply this concept to: Move from Concrete Experience to Active Experimentation.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Experiential Cycle. Procedural Link: Apply this concept to: Move from Concrete Experience to Active Experimentation.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Debriefing a team project.",

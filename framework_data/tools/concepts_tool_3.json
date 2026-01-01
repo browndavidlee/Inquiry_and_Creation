@@ -49,6 +49,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solution addresses the relational breakdown that must have occurred to cause the conflict, prioritizing relational causes over individual blame.",
                                                 "specific_deliverable":  "A Relational Inference of stress factors.",
                                                 "rubric":  "Infer relational breakdown."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Abduction. Procedural Link: Apply this concept to: Use abductive reasoning to infer the most plausible explanation for a surprising set of observations, prioritizing explanatory power and simplicity.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Abduction. Procedural Link: Apply this concept to: Use abductive reasoning to infer the most plausible explanation for a surprising set of observations, prioritizing explanatory power and simplicity.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -93,6 +107,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solution successfully uses a mythic analogy to frame a current social challenge, finding solutions in established integrated knowledge traditions.",
                                                 "specific_deliverable":  "A Mythic Analogy to the wind god.",
                                                 "rubric":  "Use mythic analogy."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Analogy. Procedural Link: Apply this concept to: Identify a structural similarity between the current problem and a solved problem in a different domain, transferring the solution\u0027s core principle.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Analogy. Procedural Link: Apply this concept to: Identify a structural similarity between the current problem and a solved problem in a different domain, transferring the solution\u0027s core principle.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -137,6 +165,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The ceremonial movement successfully explores relational dynamics and achieves a state of collective harmony.",
                                                 "specific_deliverable":  "A Physical Arrangement Map of the cockpit.",
                                                 "rubric":  "Use physical arrangement to explore."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Bodystorming. Procedural Link: Apply this concept to: Physically enact the user experience or system behavior using the body and props to discover constraints and opportunities that are invisible in abstract thought.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Bodystorming. Procedural Link: Apply this concept to: Physically enact the user experience or system behavior using the body and props to discover constraints and opportunities that are invisible in abstract thought.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -181,6 +223,20 @@
                                                 "theory":  "Definition: The Circle Way uses a \u0027go-round\u0027 protocol to ensure equitable participation. Procedural Link: The action is to generate ideas through a \u0027go-round\u0027 protocol, ensuring every voice contributes an idea before any discussion or critique begins.",
                                                 "specific_deliverable":  "An Intervention List for brand impact.",
                                                 "rubric":  "Brainstorm solutions targeting leverage."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Brainstorming. Procedural Link: Apply this concept to: Generate a large quantity of ideas by suspending judgment and building on others\u0027 contributions, prioritizing volume over quality in the initial phase.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Brainstorming. Procedural Link: Apply this concept to: Generate a large quantity of ideas by suspending judgment and building on others\u0027 contributions, prioritizing volume over quality in the initial phase.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -225,6 +281,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The final decision includes future generations (through simulation or proxy) in the decision-making process.",
                                                 "specific_deliverable":  "An Intergenerational Council Log of wishes.",
                                                 "rubric":  "Involve future generations."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Co-Creation. Procedural Link: Apply this concept to: Involve the end-users or stakeholders directly in the design process, sharing power and decision-making to ensure the outcome is relevant and owned by the community.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Co-Creation. Procedural Link: Apply this concept to: Involve the end-users or stakeholders directly in the design process, sharing power and decision-making to ensure the outcome is relevant and owned by the community.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -269,6 +339,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The conception is complete when the \u0027felt sense\u0027 of ethical rightness aligns with the logical analysis of the dilemma.",
                                                 "specific_deliverable":  "A Gut Check Log confirming alignment.",
                                                 "rubric":  "Complete when \u0027felt sense\u0027 aligns."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Conception. Procedural Link: Apply this concept to: Crystallize the initial, abstract idea into a concrete, communicable form that captures its essential nature and value.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Conception. Procedural Link: Apply this concept to: Crystallize the initial, abstract idea into a concrete, communicable form that captures its essential nature and value.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -313,6 +397,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solution successfully changes the rules of the system to generate a more sustainable and equitable outcome.",
                                                 "specific_deliverable":  "A Rule Change Proposal for congestion pricing.",
                                                 "rubric":  "Change system rules."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Creativity. Procedural Link: Apply this concept to: Generate a novel and useful solution by combining existing elements in a new way, often by connecting previously unrelated domains.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Creativity. Procedural Link: Apply this concept to: Generate a novel and useful solution by combining existing elements in a new way, often by connecting previously unrelated domains.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -357,6 +455,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solutions target high-leverage points in the system (e.g., changing a rule) rather than low-leverage points (e.g., fixing a symptom).",
                                                 "specific_deliverable":  "A Divergent Voice Log from the council.",
                                                 "rubric":  "Use \u0027go-round\u0027 protocol."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Divergence. Procedural Link: Apply this concept to: Expand the solution space by generating a wide variety of ideas, options, or interpretations without immediate judgment or selection.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Divergence. Procedural Link: Apply this concept to: Expand the solution space by generating a wide variety of ideas, options, or interpretations without immediate judgment or selection.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -401,6 +513,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The wise solution successfully emerges from the collective intelligence of the system.",
                                                 "specific_deliverable":  "A Collective Integrated Knowledge Summary of the trend.",
                                                 "rubric":  "Trust collective intelligence."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Emergence. Procedural Link: Apply this concept to: Observe and identify complex patterns or behaviors that arise spontaneously from the interaction of simple rules or agents, without central control.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Emergence. Procedural Link: Apply this concept to: Observe and identify complex patterns or behaviors that arise spontaneously from the interaction of simple rules or agents, without central control.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -452,6 +578,20 @@
                                                 "specific_deliverable":  "A Repurposing Proposal.",
                                                 "expert":  "Dave Snowden",
                                                 "theory":  "Exaptation (Cynefin). Procedural Link: Radically repurpose a tool or trait for a function it wasn\u0027t evolved for."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Exaptation. Procedural Link: Apply this concept to: Take a feature, tool, or resource that evolved for one specific purpose and adapt it to solve a completely different problem in a new context.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Exaptation. Procedural Link: Apply this concept to: Take a feature, tool, or resource that evolved for one specific purpose and adapt it to solve a completely different problem in a new context.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -496,6 +636,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The idea is expressed through dialogue and storytelling to ensure it is understood and integrated by the community.",
                                                 "specific_deliverable":  "A Narrative Script for the presentation.",
                                                 "rubric":  "Express via dialogue/storytelling."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Expression. Procedural Link: Apply this concept to: Translate an internal idea or abstract concept into an external, communicable form (visual, verbal, or physical) that others can understand and engage with.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Expression. Procedural Link: Apply this concept to: Translate an internal idea or abstract concept into an external, communicable form (visual, verbal, or physical) that others can understand and engage with.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -540,6 +694,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solutions target high-leverage points in the system (e.g., changing a rule) rather than low-leverage points (e.g., fixing a symptom).",
                                                 "specific_deliverable":  "A Circle Output Record of themes.",
                                                 "rubric":  "Generate via \u0027go-round\u0027."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Generation. Procedural Link: Apply this concept to: Produce a high volume of potential ideas or solutions using structured techniques to overcome creative blocks and explore the full solution space.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Generation. Procedural Link: Apply this concept to: Produce a high volume of potential ideas or solutions using structured techniques to overcome creative blocks and explore the full solution space.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -584,6 +752,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The facilitator successfully models humility and ensures the dialogue is focused on systemic issues, not individual blame.",
                                                 "specific_deliverable":  "A Facilitator\u0027s Guide on humility.",
                                                 "rubric":  "Model humility/focus on systems."
+                                            },
+                                            {
+                                                "expert":  "John Heron",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitation Styles (Hierarchical, Cooperative, Autonomous). Procedural Link: Match the facilitation style to the group\u0027s maturity and the task\u0027s complexity.",
+                                                "specific_deliverable":  "Facilitation Guide",
+                                                "rubric":  "Matches style to group maturity."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Guide: Facilitation. Procedural Link: Apply this concept to: Guide a group through a structured process of interaction, ensuring equitable participation, managing conflict, and steering the group toward a shared outcome.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -628,6 +810,20 @@
                                                 "theory":  "Definition: RRI requires anticipating and mitigating unintended consequences. Procedural Link: The action is to frame an ethical dilemma as an HMW question (e.g., \u0027HMW ensure both security and full privacy?\u0027) to generate novel, ethical solutions.",
                                                 "specific_deliverable":  "An Ethical HMW Challenge focusing on equity.",
                                                 "rubric":  "Generates novel, ethical solutions."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of How Might We. Procedural Link: Apply this concept to: Reframe a problem statement into an open-ended question that invites creative solutions, shifting the mindset from \u0027this is impossible\u0027 to \u0027what if\u0027.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of How Might We. Procedural Link: Apply this concept to: Reframe a problem statement into an open-ended question that invites creative solutions, shifting the mindset from \u0027this is impossible\u0027 to \u0027what if\u0027.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -672,6 +868,20 @@
                                                 "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The action is to formulate the hypothesis as a prediction of long-term impact (e.g., \u0027This action will benefit the seventh generation\u0027).",
                                                 "specific_deliverable":  "A Long-Term Impact Prediction for the ecosystem.",
                                                 "rubric":  "Formulate as prediction of impact."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Hypothesis. Procedural Link: Apply this concept to: Formulate a specific, testable prediction about the relationship between variables, ensuring that the statement can be proven false by evidence.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Hypothesis. Procedural Link: Apply this concept to: Formulate a specific, testable prediction about the relationship between variables, ensuring that the statement can be proven false by evidence.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -716,6 +926,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The generated solutions target high-leverage points in the system (e.g., changing a rule) rather than low-leverage points (e.g., fixing a symptom).",
                                                 "specific_deliverable":  "A Circle Input Record ensuring equity.",
                                                 "rubric":  "Generate via \u0027go-round\u0027."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Ideation. Procedural Link: Apply this concept to: Engage in a structured process of generating, developing, and communicating new ideas, prioritizing quantity and variety before selection.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Ideation. Procedural Link: Apply this concept to: Engage in a structured process of generating, developing, and communicating new ideas, prioritizing quantity and variety before selection.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -760,6 +984,20 @@
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to allow the collective dialogue to rest for a period, trusting that the emergent integrated knowledge will surface when the group reconvenes.",
                                                 "specific_deliverable":  "A Dialogue Pause Agreement for the group.",
                                                 "rubric":  "Allow dialogue to rest."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Incubation. Procedural Link: Apply this concept to: Deliberately step away from the problem after a period of intense focus, allowing subconscious processes to consolidate information and generate insights.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Incubation. Procedural Link: Apply this concept to: Deliberately step away from the problem after a period of intense focus, allowing subconscious processes to consolidate information and generate insights.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -804,6 +1042,20 @@
                                                 "theory":  "Definition: Damasio\u0027s theory defines the \u0027somatic marker\u0027 (the body\u0027s emotional signal) guiding decision-making. Procedural Link: The action is to treat the \u0027gut feeling\u0027 of ethical discomfort as a critical signal that demands immediate, slow, and deliberate moral analysis.",
                                                 "specific_deliverable":  "An Ethical Alarm Log of discomfort.",
                                                 "rubric":  "Treat ethical \u0027gut feeling\u0027 as signal."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Intuition. Procedural Link: Apply this concept to: Recognize and record immediate, non-conscious judgments or \u0027gut feelings\u0027 as valid data points that reflect deep pattern recognition, then subject them to verification.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Intuition. Procedural Link: Apply this concept to: Recognize and record immediate, non-conscious judgments or \u0027gut feelings\u0027 as valid data points that reflect deep pattern recognition, then subject them to verification.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -848,6 +1100,20 @@
                                                 "theory":  "Definition: Ostrom studied self-governing institutions. Procedural Link: The action is to focus on \u0027polycentric governance\u0027—inventing a new system of nested, self-governing institutions to manage shared resources.",
                                                 "specific_deliverable":  "A Polycentric Governance Plan for the water.",
                                                 "rubric":  "Focus on polycentric governance."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Invention. Procedural Link: Apply this concept to: Create a novel device, method, or process by combining existing elements in a new way or applying a principle from one domain to another.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Invention. Procedural Link: Apply this concept to: Create a novel device, method, or process by combining existing elements in a new way or applying a principle from one domain to another.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -892,6 +1158,20 @@
                                                 "theory":  "Definition: The Circle Way uses shared, low-stakes activities to build social capital. Procedural Link: The action is to use shared, low-stakes communal activity to build the social capital necessary for high-stakes dialogue.",
                                                 "specific_deliverable":  "A Community Game Plan for bonding.",
                                                 "rubric":  "Use shared low-stakes activity."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Play. Procedural Link: Apply this concept to: Engage in unstructured, non-goal-oriented activity to lower inhibitions, explore possibilities, and discover unexpected connections.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Play. Procedural Link: Apply this concept to: Engage in unstructured, non-goal-oriented activity to lower inhibitions, explore possibilities, and discover unexpected connections.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -936,6 +1216,20 @@
                                                 "theory":  "Definition: The principle requires considering the impact of current actions on seven generations into the future. Procedural Link: The action is to generate a portfolio of sustainable futures that honor the needs of the next seven generations.",
                                                 "specific_deliverable":  "A 7th Generation Plan for resilience.",
                                                 "rubric":  "Generate sustainable futures."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Possibility. Procedural Link: Apply this concept to: Generate a range of potential future states or solutions, moving beyond the probable to explore the plausible and the possible.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Possibility. Procedural Link: Apply this concept to: Generate a range of potential future states or solutions, moving beyond the probable to explore the plausible and the possible.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -980,6 +1274,20 @@
                                                 "theory":  "Definition: Restorative Justice focuses on repairing harm by addressing the needs of the victim. Procedural Link: The action is for the facilitator to ensure the dialogue is \u0027blameless\u0027 and focused on the harm and needs, not on individual punishment.",
                                                 "specific_deliverable":  "A Restorative Circle Guide for conflict.",
                                                 "rubric":  "Ensure dialogue is blameless."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Environment of Open Communication. Procedural Link: Apply this concept to: Create an environment where team members feel safe to take risks, share ideas, and admit mistakes without fear of negative consequences.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Environment of Open Communication. Procedural Link: Apply this concept to: Create an environment where team members feel safe to take risks, share ideas, and admit mistakes without fear of negative consequences.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1024,6 +1332,20 @@
                                                 "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to articulate the dilemma by presenting the strongest case for both conflicting values (e.g., security and freedom) before seeking a resolution.",
                                                 "specific_deliverable":  "A Value Conflict Memo outlining the dilemma.",
                                                 "rubric":  "Articulate strongest case."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Rival Readings. Procedural Link: Apply this concept to: Deliberately generate and explore multiple, conflicting interpretations of the same data or text to avoid confirmation bias and uncover deeper truths.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Rival Readings. Procedural Link: Apply this concept to: Deliberately generate and explore multiple, conflicting interpretations of the same data or text to avoid confirmation bias and uncover deeper truths.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1068,6 +1390,20 @@
                                                 "theory":  "Definition: SCAMPER is a checklist for systematic variation. Procedural Link: The action is to apply SCAMPER to existing governance protocols or rituals to transform them into more effective forms.",
                                                 "specific_deliverable":  "A Protocol Update Proposal using SCAMPER.",
                                                 "rubric":  "Apply prompts to governance."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of SCAMPER. Procedural Link: Apply this concept to: Use the SCAMPER checklist (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse) to systematically generate new ideas or variations.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of SCAMPER. Procedural Link: Apply this concept to: Use the SCAMPER checklist (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse) to systematically generate new ideas or variations.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1112,6 +1448,20 @@
                                                 "theory":  "Definition: Meadows focuses on identifying feedback loops. Procedural Link: The action is to sketch the system diagram to visualize the feedback loops and leverage points of the social problem.",
                                                 "specific_deliverable":  "A System Loop Sketch of user interaction.",
                                                 "rubric":  "Sketch system diagram."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Sketching. Procedural Link: Apply this concept to: Use rapid, low-fidelity visual representations to externalize thoughts, explore possibilities, and identify logical or aesthetic flaws before committing to a final design.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Sketching. Procedural Link: Apply this concept to: Use rapid, low-fidelity visual representations to externalize thoughts, explore possibilities, and identify logical or aesthetic flaws before committing to a final design.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1156,6 +1506,20 @@
                                                 "theory":  "Definition: Berlin defined tension as the conflict between core values that cannot be fully reconciled. Procedural Link: The action is to articulate the dilemma by presenting the strongest case for both conflicting values (e.g., security and freedom) before seeking a resolution.",
                                                 "specific_deliverable":  "A Value Conflict Analysis of the policy.",
                                                 "rubric":  "Articulate strongest case for values."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Steelmanning. Procedural Link: Apply this concept to: Articulate the strongest possible version of the opposing argument or hypothesis to ensure that your own position is robust and not based on attacking a \u0027straw man\u0027.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Steelmanning. Procedural Link: Apply this concept to: Articulate the strongest possible version of the opposing argument or hypothesis to ensure that your own position is robust and not based on attacking a \u0027straw man\u0027.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1200,6 +1564,20 @@
                                                 "theory":  "Definition: Restorative Justice focuses on repairing harm by addressing the needs of the victim. Procedural Link: The action is to frame a social issue in terms of the lived experience and needs of a community member.",
                                                 "specific_deliverable":  "A Community Needs Story for the app.",
                                                 "rubric":  "Frame social issue as lived experience."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of User Story. Procedural Link: Apply this concept to: Frame a requirement or feature request as a short, simple description from the perspective of the person who desires the new capability, focusing on the value it provides.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of User Story. Procedural Link: Apply this concept to: Frame a requirement or feature request as a short, simple description from the perspective of the person who desires the new capability, focusing on the value it provides.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1244,6 +1622,20 @@
                                                 "theory":  "Definition: The classroom must be a place of liberation. Procedural Link: The action is to validate the subjective experience of every participant as authoritative data.",
                                                 "specific_deliverable":  "A Validation Ritual.",
                                                 "rubric":  "Validates subjective experience."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Psychological Safety. Procedural Link: Apply this concept to: Create a condition where team members feel safe to take interpersonal risks, such as sharing half-baked ideas or admitting ignorance.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Psychological Safety. Procedural Link: Apply this concept to: Create a condition where team members feel safe to take interpersonal risks, such as sharing half-baked ideas or admitting ignorance.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1295,6 +1687,20 @@
                                                 "specific_deliverable":  "A Bisociation Matrix.",
                                                 "expert":  "Arthur Koestler",
                                                 "theory":  "Bisociation. Procedural Link: Force the intersection of two unrelated matrices of thought to generate novelty."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Combinatorial Play. Procedural Link: Apply this concept to: Generate novelty not by invention, but by the systematic combination of existing, unrelated concepts.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Combinatorial Play. Procedural Link: Apply this concept to: Generate novelty not by invention, but by the systematic combination of existing, unrelated concepts.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1339,6 +1745,20 @@
                                                 "theory":  "Definition: Rules of the Commons. Procedural Link: The action is to define the \u0027access rules\u0027 that constrain individual greed to enable collective flourishing.",
                                                 "specific_deliverable":  "A Commons Access Rule.",
                                                 "rubric":  "Constrains greed for collective good."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Enabling Constraints. Procedural Link: Apply this concept to: Introduce artificial boundaries that limit the solution space, forcing creativity and preventing paralysis.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Enabling Constraints. Procedural Link: Apply this concept to: Introduce artificial boundaries that limit the solution space, forcing creativity and preventing paralysis.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1353,6 +1773,48 @@
                                                 "theory":  "Visual thinking clarifies complexity. Procedural Link: Draw the \u0027Big Picture\u0027 of the solution using simple shapes and arrows.",
                                                 "specific_deliverable":  "A Visual Concept Sketch.",
                                                 "rubric":  "Explains core value visually."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Napkin Pitch. Procedural Link: Apply this concept to: Distill a complex concept into a simple visual and verbal explanation that fits on a napkin.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Napkin Pitch. Procedural Link: Apply this concept to: Distill a complex concept into a simple visual and verbal explanation that fits on a napkin.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Napkin Pitch. Procedural Link: Apply this concept to: Distill a complex concept into a simple visual and verbal explanation that fits on a napkin.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Napkin Pitch. Procedural Link: Apply this concept to: Distill a complex concept into a simple visual and verbal explanation that fits on a napkin.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Napkin Pitch. Procedural Link: Apply this concept to: Distill a complex concept into a simple visual and verbal explanation that fits on a napkin.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Napkin Pitch. Procedural Link: Apply this concept to: Distill a complex concept into a simple visual and verbal explanation that fits on a napkin.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
                                             }
                                         ],
                          "scenario":  "Explaining a startup idea in a bar.",
@@ -1369,6 +1831,48 @@
                                                 "theory":  "Definition: The brain works associatively, not linearly. Procedural Link: Use images and colors in a radial structure to trigger \u0027whole brain\u0027 thinking.",
                                                 "specific_deliverable":  "A Visual Mind Map.",
                                                 "rubric":  "Uses radial structure/images."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Radiant Thinking. Procedural Link: Apply this concept to: Mimic the brain\u0027s associative structure by generating ideas radially from a central node, rather than in linear lists.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Radiant Thinking. Procedural Link: Apply this concept to: Mimic the brain\u0027s associative structure by generating ideas radially from a central node, rather than in linear lists.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Radiant Thinking. Procedural Link: Apply this concept to: Mimic the brain\u0027s associative structure by generating ideas radially from a central node, rather than in linear lists.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Radiant Thinking. Procedural Link: Apply this concept to: Mimic the brain\u0027s associative structure by generating ideas radially from a central node, rather than in linear lists.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Radiant Thinking. Procedural Link: Apply this concept to: Mimic the brain\u0027s associative structure by generating ideas radially from a central node, rather than in linear lists.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Radiant Thinking. Procedural Link: Apply this concept to: Mimic the brain\u0027s associative structure by generating ideas radially from a central node, rather than in linear lists.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
                                             }
                                         ],
                          "scenario":  "Brainstorming uses for a new technology.",
@@ -1385,6 +1889,48 @@
                                                 "theory":  "Definition: Design thinking is the ability to exploit opposing ideas. Procedural Link: Identify the core tension and design a solution that resolves it (AND, not OR).",
                                                 "specific_deliverable":  "A Solution Matrix.",
                                                 "rubric":  "Resolves a binary tension."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Integrative Thinking. Procedural Link: Apply this concept to: Hold two opposing ideas in tension to create a new model that contains the superior aspects of both, rather than compromising.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Integrative Thinking. Procedural Link: Apply this concept to: Hold two opposing ideas in tension to create a new model that contains the superior aspects of both, rather than compromising.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Integrative Thinking. Procedural Link: Apply this concept to: Hold two opposing ideas in tension to create a new model that contains the superior aspects of both, rather than compromising.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Integrative Thinking. Procedural Link: Apply this concept to: Hold two opposing ideas in tension to create a new model that contains the superior aspects of both, rather than compromising.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Integrative Thinking. Procedural Link: Apply this concept to: Hold two opposing ideas in tension to create a new model that contains the superior aspects of both, rather than compromising.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Integrative Thinking. Procedural Link: Apply this concept to: Hold two opposing ideas in tension to create a new model that contains the superior aspects of both, rather than compromising.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Resolving the tension between luxury and affordability.",
@@ -1401,6 +1947,48 @@
                                                 "theory":  "The brain works radially, not linearly.",
                                                 "specific_deliverable":  "Mind Map",
                                                 "rubric":  "Links unrelated concepts."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Associative Thinking. Procedural Link: Apply this concept to: Connect unconnected ideas using non-linear logic.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Associative Thinking. Procedural Link: Apply this concept to: Connect unconnected ideas using non-linear logic.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Associative Thinking. Procedural Link: Apply this concept to: Connect unconnected ideas using non-linear logic.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Associative Thinking. Procedural Link: Apply this concept to: Connect unconnected ideas using non-linear logic.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Associative Thinking. Procedural Link: Apply this concept to: Connect unconnected ideas using non-linear logic.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Associative Thinking. Procedural Link: Apply this concept to: Connect unconnected ideas using non-linear logic.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Using a random word to solve a logistics problem.",
@@ -1417,6 +2005,48 @@
                                                 "theory":  "Social connection drives health behavior.",
                                                 "specific_deliverable":  "Driver Analysis",
                                                 "rubric":  "Identifies emotion over function."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Emotional Drivers. Procedural Link: Apply this concept to: Identify the core feeling that motivates behavior.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Emotional Drivers. Procedural Link: Apply this concept to: Identify the core feeling that motivates behavior.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Emotional Drivers. Procedural Link: Apply this concept to: Identify the core feeling that motivates behavior.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Emotional Drivers. Procedural Link: Apply this concept to: Identify the core feeling that motivates behavior.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Emotional Drivers. Procedural Link: Apply this concept to: Identify the core feeling that motivates behavior.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Emotional Drivers. Procedural Link: Apply this concept to: Identify the core feeling that motivates behavior.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Why do people actually buy health apps?",

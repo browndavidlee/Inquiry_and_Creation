@@ -374,11 +374,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
-    function handleConceptCloudEvents(e) {
+            function handleConceptCloudEvents(e) {
         const filterBtn = e.target.closest('.filter-chip');
         const bubbleBtn = e.target.closest('.concept-bubble');
         const closeBtn = e.target.closest('#popover-close-btn');
         const overlay = e.target.closest('#concept-popover-overlay');
+
+        // Initialize state if it doesn't exist
+        if (typeof window.activeConceptFilter === 'undefined') {
+            window.activeConceptFilter = 'all';
+        }
 
         const formatTheoryText = (text) => {
             if (!text) return "No theory available.";
@@ -387,18 +392,48 @@ document.addEventListener('DOMContentLoaded', async () => {
                 .replace('Procedural Link:', '<br><br><span class="highlight-key">Procedural Link:</span>');
         };
 
+        // --- FILTER CLICK HANDLER ---
         if (filterBtn) {
             document.querySelectorAll('.filter-chip').forEach(btn => btn.classList.remove('active'));
             filterBtn.classList.add('active');
 
             const selectedDomain = filterBtn.dataset.domain;
-            const bubbles = document.querySelectorAll('.concept-bubble');
+            window.activeConceptFilter = selectedDomain; // UPDATE GLOBAL STATE
 
+            // Define Domain Colors for Bubbles
+            const domainColors = {
+                "Science & Engineering": "var(--domain-science)",
+                "Business & Agile": "var(--domain-business)",
+                "Humanities & Social Sciences": "var(--domain-humanities)",
+                "Arts & Design": "var(--domain-arts)",
+                "Culture & Ethics": "var(--domain-culture)",
+                "Pedagogy & Facilitation": "var(--domain-pedagogy)",
+                "General / Pluralist": "var(--domain-general)"
+            };
+
+            const targetColor = domainColors[selectedDomain];
+
+            const bubbles = document.querySelectorAll('.concept-bubble');
             bubbles.forEach(bubble => {
                 const domains = bubble.dataset.domains.split(',');
+                // Check visibility
                 if (selectedDomain === 'all' || domains.includes(selectedDomain)) {
                     bubble.classList.remove('hidden');
                     bubble.classList.add('fade-in');
+
+                    // Apply Color Logic
+                    if (selectedDomain !== 'all' && targetColor) {
+                        bubble.style.backgroundColor = targetColor;
+                        bubble.style.color = '#ffffff';
+                        bubble.style.borderColor = targetColor;
+                        bubble.style.boxShadow = '0 2px 5px rgba(0,0,0,0.15)';
+                    } else {
+                        // Reset to default CSS styles for 'All' view
+                        bubble.style.backgroundColor = '';
+                        bubble.style.color = '';
+                        bubble.style.borderColor = '';
+                        bubble.style.boxShadow = '';
+                    }
                 } else {
                     bubble.classList.add('hidden');
                     bubble.classList.remove('fade-in');
@@ -407,6 +442,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
+        // --- BUBBLE CLICK HANDLER ---
         if (bubbleBtn) {
             const conceptId = bubbleBtn.dataset.conceptId;
             
@@ -418,13 +454,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             if (conceptData) {
-                const activeFilterBtn = document.querySelector('.filter-chip.active');
-                const activeFilter = activeFilterBtn ? activeFilterBtn.dataset.domain : 'all';
-                
+                // Use the global filter state to select the variation
                 let variation = conceptData.variations[0]; // Default
-                if (activeFilter !== 'all') {
-                    const match = conceptData.variations.find(v => v.domain === activeFilter);
-                    if (match) variation = match;
+                if (window.activeConceptFilter !== 'all') {
+                    const match = conceptData.variations.find(v => v.domain === window.activeConceptFilter);
+                    if (match) {
+                        variation = match;
+                    } else {
+                        // Fallback
+                        variation = conceptData.variations.find(v => v.domain === 'General / Pluralist') || conceptData.variations[0];
+                    }
                 }
 
                 document.getElementById('popover-title').textContent = conceptData.name;
@@ -435,15 +474,20 @@ document.addEventListener('DOMContentLoaded', async () => {
                 document.getElementById('popover-rubric').textContent = variation.rubric || "N/A";
 
                 const colors = {
-                    "Science": "var(--domain-science)",
-                    "Business": "var(--domain-business)",
-                    "Humanities": "var(--domain-humanities)",
-                    "Arts": "var(--domain-arts)",
-                    "Culture": "var(--domain-culture)",
-                    "Pedagogy": "var(--domain-pedagogy)"
+                    "Science & Engineering": "var(--domain-science)",
+                    "Business & Agile": "var(--domain-business)",
+                    "Humanities & Social Sciences": "var(--domain-humanities)",
+                    "Arts & Design": "var(--domain-arts)",
+                    "Culture & Ethics": "var(--domain-culture)",
+                    "Pedagogy & Facilitation": "var(--domain-pedagogy)",
+                    "General / Pluralist": "var(--domain-general)"
                 };
+                
                 const header = document.getElementById('popover-header');
-                if(header) header.style.borderTopColor = colors[variation.domain] || "#5f6368";
+                if(header) {
+                    const colorVar = colors[variation.domain] || "#5f6368";
+                    header.style.borderTopColor = colorVar;
+                }
 
                 document.getElementById('concept-popover-overlay').classList.add('visible');
                 document.getElementById('concept-popover-card').classList.add('visible');
@@ -451,7 +495,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
-        if (closeBtn || (e.target.id === 'concept-popover-overlay')) {
+        if (closeBtn || (e.target && e.target.id === 'concept-popover-overlay')) {
             document.getElementById('concept-popover-overlay').classList.remove('visible');
             document.getElementById('concept-popover-card').classList.remove('visible');
         }

@@ -49,6 +49,20 @@
                                                 "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to map the ethical dilemma, showing the conflicting moral principles and the logical justification for the chosen resolution.",
                                                 "specific_deliverable":  "An Ethical Logic Tree justifying the policy.",
                                                 "rubric":  "Maps ethical dilemma."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Argument Map. Procedural Link: Apply this concept to: Visually map the logical structure of an argument or system, showing the relationships between claims, evidence, and conclusions.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Argument Map. Procedural Link: Apply this concept to: Visually map the logical structure of an argument or system, showing the relationships between claims, evidence, and conclusions.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -93,6 +107,20 @@
                                                 "theory":  "Definition: Meadows focuses on identifying leverage points. Procedural Link: The action is to achieve a dynamic equilibrium between the competing needs of stakeholders and the environment.",
                                                 "specific_deliverable":  "A Stakeholder Balance Matrix ensuring equity.",
                                                 "rubric":  "Achieves equilibrium of needs."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Balance. Procedural Link: Apply this concept to: Maintain a dynamic equilibrium between opposing forces or needs to ensure the long-term health and stability of the system.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Balance. Procedural Link: Apply this concept to: Maintain a dynamic equilibrium between opposing forces or needs to ensure the long-term health and stability of the system.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -137,6 +165,20 @@
                                                 "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to ensure the blueprint must detail the governance structure and all decision-making flows, ensuring transparency.",
                                                 "specific_deliverable":  "A Community Access Policy document.",
                                                 "rubric":  "Details governance structure."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Blueprint. Procedural Link: Apply this concept to: Create a comprehensive, authoritative document that translates the abstract vision into precise, actionable specifications for execution.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Blueprint. Procedural Link: Apply this concept to: Create a comprehensive, authoritative document that translates the abstract vision into precise, actionable specifications for execution.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -181,6 +223,20 @@
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to translate tacit cultural integrated knowledge or a successful process into a repeatable ritual sequence (N88) or formal principle.",
                                                 "specific_deliverable":  "A Knowledge Transfer Guide for future staff.",
                                                 "rubric":  "Translate integrated knowledge into ritual."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Codification. Procedural Link: Apply this concept to: Translate tacit knowledge, intuition, or complex logic into explicit, written rules or protocols that can be followed by others.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Codification. Procedural Link: Apply this concept to: Translate tacit knowledge, intuition, or complex logic into explicit, written rules or protocols that can be followed by others.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -225,6 +281,20 @@
                                                 "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to ensure the Design System must include ethical tokens (e.g., a specific color for \u0027risk\u0027) to ensure ethical considerations are visually present in all designs.",
                                                 "specific_deliverable":  "An Accessibility Standard for diverse users.",
                                                 "rubric":  "Ensure system includes ethical tokens."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Design System. Procedural Link: Apply this concept to: Create a collection of reusable components, standards, and guidelines that ensure consistency, efficiency, and quality across a complex system.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Design System. Procedural Link: Apply this concept to: Create a collection of reusable components, standards, and guidelines that ensure consistency, efficiency, and quality across a complex system.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -269,6 +339,20 @@
                                                 "theory":  "Definition: Meadows focuses on identifying feedback loops. Procedural Link: The action is to map the complete flow of communication or accountability across all roles and systems.",
                                                 "specific_deliverable":  "A Data Privacy Audit of the transaction flow.",
                                                 "rubric":  "Map complete flow of communication."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of End-to-End Tracer. Procedural Link: Apply this concept to: Build a minimal, functional thread that connects all system components from start to finish, proving integration before adding detail.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of End-to-End Tracer. Procedural Link: Apply this concept to: Build a minimal, functional thread that connects all system components from start to finish, proving integration before adding detail.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -313,6 +397,20 @@
                                                 "theory":  "Definition: Meadows focuses on identifying feedback loops. Procedural Link: The action is to use a flowchart to diagram a social ritual (N88) or a conflict resolution process.",
                                                 "specific_deliverable":  "An Escalation Protocol for angry customers.",
                                                 "rubric":  "Diagram social ritual/resolution."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Flowchart. Procedural Link: Apply this concept to: Create a visual representation of a process or system, showing the sequence of steps, decision points, and relationships between components.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Flowchart. Procedural Link: Apply this concept to: Create a visual representation of a process or system, showing the sequence of steps, decision points, and relationships between components.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -357,6 +455,20 @@
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to achieve a dynamic equilibrium between the competing needs of stakeholders and the environment.",
                                                 "specific_deliverable":  "A Stakeholder Alignment Report.",
                                                 "rubric":  "Achieve equilibrium of needs."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Harmony. Procedural Link: Apply this concept to: Ensure that all elements of a system or composition relate to each other in a consistent, balanced, and mutually reinforcing way.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Harmony. Procedural Link: Apply this concept to: Ensure that all elements of a system or composition relate to each other in a consistent, balanced, and mutually reinforcing way.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -401,6 +513,20 @@
                                                 "theory":  "Definition: RRI requires defining \u0027red lines\u0027—non-negotiable ethical boundaries. Procedural Link: The action is to codify principles of justice or care to guide ethical action (e.g., \u0027do no harm\u0027).",
                                                 "specific_deliverable":  "An Ethical Decision Guide for conflicts.",
                                                 "rubric":  "Codify principles of justice."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Heuristics. Procedural Link: Apply this concept to: Provide simple, practical rules of thumb or shortcuts that help people make effective decisions or solve problems quickly in complex situations.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Heuristics. Procedural Link: Apply this concept to: Provide simple, practical rules of thumb or shortcuts that help people make effective decisions or solve problems quickly in complex situations.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -445,6 +571,20 @@
                                                 "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to ensure the consistency and fairness of the justification for an ethical decision.",
                                                 "specific_deliverable":  "A Fairness Audit of the budget allocation.",
                                                 "rubric":  "Ensure consistency/fairness."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Logic. Procedural Link: Apply this concept to: Verify that the structure, sequence, and reasoning of a system or argument are sound, consistent, and free from contradictions.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Logic. Procedural Link: Apply this concept to: Verify that the structure, sequence, and reasoning of a system or argument are sound, consistent, and free from contradictions.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -489,6 +629,20 @@
                                                 "theory":  "Definition: Bakhtin\u0027s theory emphasizes that meaning is created through dialogue. Procedural Link: The action is to use narrative structuring (N93) and Teaching Stories (N91) to codify integrated knowledge and communal history.",
                                                 "specific_deliverable":  "A Values Story Collection for onboarding.",
                                                 "rubric":  "Use narrative to codify integrated knowledge."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Oral Tradition. Procedural Link: Apply this concept to: Transmit knowledge, values, and skills through spoken word, storytelling, and direct mentorship, preserving integrated knowledge that cannot be fully captured in text.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Oral Tradition. Procedural Link: Apply this concept to: Transmit knowledge, values, and skills through spoken word, storytelling, and direct mentorship, preserving integrated knowledge that cannot be fully captured in text.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -533,6 +687,20 @@
                                                 "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to establish a transparent social order that minimizes conflict and maximizes collective well-being.",
                                                 "specific_deliverable":  "A Shift Schedule ensuring fairness.",
                                                 "rubric":  "Establish transparent social order."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Order. Procedural Link: Apply this concept to: Impose a structured arrangement or sequence on elements to create stability, predictability, and efficiency.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Order. Procedural Link: Apply this concept to: Impose a structured arrangement or sequence on elements to create stability, predictability, and efficiency.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -577,6 +745,20 @@
                                                 "theory":  "Definition: The outline is a sequenced list of steps for a workshop or dialogue. Procedural Link: The action is to create a sequenced list of steps for a workshop or community dialogue to ensure a logical progression of conversation.",
                                                 "specific_deliverable":  "A Stakeholder Engagement Plan.",
                                                 "rubric":  "Create sequenced list of steps."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Outline. Procedural Link: Apply this concept to: Create a hierarchical or sequential framework that organizes the main points and supporting details of a work before full execution.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Outline. Procedural Link: Apply this concept to: Create a hierarchical or sequential framework that organizes the main points and supporting details of a work before full execution.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -621,6 +803,20 @@
                                                 "theory":  "Definition: A pattern language is a codified set of social solutions. Procedural Link: The action is to codify social solutions and governance structures into a language that can be widely adopted (N142).",
                                                 "specific_deliverable":  "A Social Interaction Pattern Map.",
                                                 "rubric":  "Codify social solutions."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Pattern Language. Procedural Link: Apply this concept to: Identify and codify recurring problems and their solutions into a shared vocabulary or library that can be reused and adapted.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Pattern Language. Procedural Link: Apply this concept to: Identify and codify recurring problems and their solutions into a shared vocabulary or library that can be reused and adapted.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -665,6 +861,20 @@
                                                 "theory":  "Definition: The protocol is the explicit rules for a community dialogue. Procedural Link: The action is to create the explicit rules for a community dialogue (e.g., a Council format) to ensure psychological safety.",
                                                 "specific_deliverable":  "A Debriefing Protocol for staff support.",
                                                 "rubric":  "Create explicit rules for dialogue."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Protocol. Procedural Link: Apply this concept to: Establish a formal, agreed-upon set of rules or procedures that govern behavior, communication, or operations to ensure consistency and safety.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Protocol. Procedural Link: Apply this concept to: Establish a formal, agreed-upon set of rules or procedures that govern behavior, communication, or operations to ensure consistency and safety.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -709,6 +919,20 @@
                                                 "theory":  "Definition: The RACI matrix clarifies decision rights. Procedural Link: The action is to create a diagram clarifying the decision rights of the governance body and the implementing team.",
                                                 "specific_deliverable":  "A Governance Structure Diagram.",
                                                 "rubric":  "Clarify decision rights."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of RACI Matrix. Procedural Link: Apply this concept to: Clarify roles and responsibilities by defining who is Responsible, Accountable, Consulted, and Informed for each task or decision.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of RACI Matrix. Procedural Link: Apply this concept to: Clarify roles and responsibilities by defining who is Responsible, Accountable, Consulted, and Informed for each task or decision.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -753,6 +977,20 @@
                                                 "theory":  "Definition: Scaffolding simplifies complex social decisions. Procedural Link: The action is to provide an explicit framework or ritual to simplify a complex ethical decision.",
                                                 "specific_deliverable":  "A Values Card for daily reference.",
                                                 "rubric":  "Provide framework simplifying decisions."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Scaffolding. Procedural Link: Apply this concept to: Provide temporary structures, tools, and guidance that allow learners or teams to perform tasks beyond their current capability, gradually removing them as competence grows.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Scaffolding. Procedural Link: Apply this concept to: Provide temporary structures, tools, and guidance that allow learners or teams to perform tasks beyond their current capability, gradually removing them as competence grows.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -797,6 +1035,20 @@
                                                 "theory":  "Definition: The specification details technical safeguards. Procedural Link: The action is to create a document detailing the technical safeguards required to meet the ethical mandate (e.g., data encryption requirements).",
                                                 "specific_deliverable":  "A Safety Compliance Report.",
                                                 "rubric":  "Detail safeguards."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Specification. Procedural Link: Apply this concept to: Create a detailed, formal document that defines the exact requirements, materials, and standards for a product or system.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Specification. Procedural Link: Apply this concept to: Create a detailed, formal document that defines the exact requirements, materials, and standards for a product or system.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -841,6 +1093,20 @@
                                                 "theory":  "Definition: The storyboard is a visual map of an intervention. Procedural Link: The action is to create a visual map of a community intervention showing the planned steps and human interactions.",
                                                 "specific_deliverable":  "A Change Management Storyboard.",
                                                 "rubric":  "Create visual map of intervention."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Storyboard. Procedural Link: Apply this concept to: Create a sequence of visual panels that illustrate the flow of an experience, narrative, or process over time.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Storyboard. Procedural Link: Apply this concept to: Create a sequence of visual panels that illustrate the flow of an experience, narrative, or process over time.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -885,6 +1151,20 @@
                                                 "theory":  "Definition: Structure is the design of governance and communication flows. Procedural Link: The action is to design governance, roles, and communication flows within the social system.",
                                                 "specific_deliverable":  "A User Permission Matrix.",
                                                 "rubric":  "Design governance/communication."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Structure. Procedural Link: Apply this concept to: Design the internal organization, arrangement, and relationships of components within a system to ensure stability and function.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Structure. Procedural Link: Apply this concept to: Design the internal organization, arrangement, and relationships of components within a system to ensure stability and function.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -929,6 +1209,20 @@
                                                 "theory":  "Definition: Structuring is the ongoing activity of designing and refining social rituals. Procedural Link: The action is to engage in the ongoing activity of designing and refining social rituals and organizational systems.",
                                                 "specific_deliverable":  "A Networking Event Plan.",
                                                 "rubric":  "Engage in designing rituals."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Structuring. Procedural Link: Apply this concept to: Engage in the active process of creating order, decomposing tasks, and organizing elements into a coherent whole.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Structuring. Procedural Link: Apply this concept to: Engage in the active process of creating order, decomposing tasks, and organizing elements into a coherent whole.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -973,6 +1267,20 @@
                                                 "theory":  "Definition: The system is the stakeholder ecosystem. Procedural Link: The action is to define the stakeholder ecosystem of human, natural, and institutional actors.",
                                                 "specific_deliverable":  "A Rider Demographic Analysis.",
                                                 "rubric":  "Define stakeholder ecosystem."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of System. Procedural Link: Apply this concept to: Define the entity of study as a set of interacting or interdependent component parts forming a complex/intricate whole.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of System. Procedural Link: Apply this concept to: Define the entity of study as a set of interacting or interdependent component parts forming a complex/intricate whole.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1017,6 +1325,20 @@
                                                 "theory":  "Definition: The specification details technical safeguards. Procedural Link: The action is to create a document detailing the technical safeguards required to meet the ethical mandate (e.g., data encryption requirements).",
                                                 "specific_deliverable":  "An Environmental Impact Spec.",
                                                 "rubric":  "Detail safeguards."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Technical Specification. Procedural Link: Apply this concept to: Create a detailed document that defines the technical requirements, standards, and constraints for a product or system.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Technical Specification. Procedural Link: Apply this concept to: Create a detailed document that defines the technical requirements, standards, and constraints for a product or system.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1061,6 +1383,20 @@
                                                 "theory":  "Definition: The User Story Map is a map of the sequence of community interactions. Procedural Link: The action is to create a map of the sequence of community interactions required to achieve a shared goal.",
                                                 "specific_deliverable":  "A Service Ecosystem Map.",
                                                 "rubric":  "Create map of interactions."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of User Story Map. Procedural Link: Apply this concept to: Create a visual map that arranges user stories into a narrative flow, helping to prioritize features and understand the user experience.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of User Story Map. Procedural Link: Apply this concept to: Create a visual map that arranges user stories into a narrative flow, helping to prioritize features and understand the user experience.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1105,6 +1441,20 @@
                                                 "theory":  "Definition: Public Narrative (Story of Self, Us, Now). Procedural Link: The action is to structure the campaign to link personal motivation to collective identity and urgent action.",
                                                 "specific_deliverable":  "A Public Narrative Script.",
                                                 "rubric":  "Links Self, Us, and Now."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Narrative Arc. Procedural Link: Apply this concept to: Organize the components of the plan into a dramatic sequence (Beginning, Middle, End) to maximize engagement and coherence.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Narrative Arc. Procedural Link: Apply this concept to: Organize the components of the plan into a dramatic sequence (Beginning, Middle, End) to maximize engagement and coherence.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1149,6 +1499,20 @@
                                                 "theory":  "Definition: Theory of Change. Procedural Link: The action is to map the preconditions (e.g., trust) that must exist before a specific intervention (e.g., voting) can succeed.",
                                                 "specific_deliverable":  "A Precondition Map.",
                                                 "rubric":  "Maps social preconditions."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Dependency Mapping. Procedural Link: Apply this concept to: Identify the logical relationships between tasks to determine the sequence in which they must be performed.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Dependency Mapping. Procedural Link: Apply this concept to: Identify the logical relationships between tasks to determine the sequence in which they must be performed.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1193,6 +1557,20 @@
                                                 "theory":  "Definition: Autonomous Circles. Procedural Link: The action is to define semi-autonomous working groups with clear domains of authority.",
                                                 "specific_deliverable":  "A Circle Constitution.",
                                                 "rubric":  "Defines autonomous domains."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Modularity. Procedural Link: Apply this concept to: Decompose a system into distinct, independent parts that can be created, tested, and replaced individually.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Modularity. Procedural Link: Apply this concept to: Decompose a system into distinct, independent parts that can be created, tested, and replaced individually.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1207,6 +1585,48 @@
                                                 "theory":  "PPP (Presentation, Practice, Production). Procedural Link: Structure the lesson to move from teacher input to student output.",
                                                 "specific_deliverable":  "A Staged Lesson Plan.",
                                                 "rubric":  "Follows PPP/TTT structure."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Lesson Frameworks. Procedural Link: Apply this concept to: Use a proven structural template to organize the flow of learning.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Lesson Frameworks. Procedural Link: Apply this concept to: Use a proven structural template to organize the flow of learning.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Lesson Frameworks. Procedural Link: Apply this concept to: Use a proven structural template to organize the flow of learning.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Lesson Frameworks. Procedural Link: Apply this concept to: Use a proven structural template to organize the flow of learning.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Lesson Frameworks. Procedural Link: Apply this concept to: Use a proven structural template to organize the flow of learning.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Lesson Frameworks. Procedural Link: Apply this concept to: Use a proven structural template to organize the flow of learning.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Planning a 1-hour workshop.",
@@ -1223,6 +1643,55 @@
                                                 "theory":  "Enterprise agility requires modular governance. Procedural Link: Define the specific \u0027blade\u0027 (e.g., Finance, IT) and its interface with the agile teams.",
                                                 "specific_deliverable":  "A Process Blade Diagram.",
                                                 "rubric":  "Defines modular governance."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Process Blades. Procedural Link: Apply this concept to: Define modular governance structures for different organizational capabilities.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Process Blades. Procedural Link: Apply this concept to: Define modular governance structures for different organizational capabilities.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Process Blades. Procedural Link: Apply this concept to: Define modular governance structures for different organizational capabilities.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Process Blades. Procedural Link: Apply this concept to: Define modular governance structures for different organizational capabilities.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Process Blades. Procedural Link: Apply this concept to: Define modular governance structures for different organizational capabilities.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Process Blades. Procedural Link: Apply this concept to: Define modular governance structures for different organizational capabilities.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Process Blades. Procedural Link: Apply this concept to: Define modular governance structures for different organizational capabilities.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Scaling agile across a corporation.",
@@ -1239,6 +1708,48 @@
                                                 "theory":  "Definition: Scope Baseline. Link: Detail the boundaries of every task.",
                                                 "specific_deliverable":  "WBS Dictionary Entry",
                                                 "rubric":  "Exclusions explicitly listed"
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of WBS Dictionary. Procedural Link: Apply this concept to: Create a formal document describing every component in the Work Breakdown Structure to prevent scope creep.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to WBS Dictionary. Procedural Link: Apply this concept to: Create a formal document describing every component in the Work Breakdown Structure to prevent scope creep.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of WBS Dictionary. Procedural Link: Apply this concept to: Create a formal document describing every component in the Work Breakdown Structure to prevent scope creep.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of WBS Dictionary. Procedural Link: Apply this concept to: Create a formal document describing every component in the Work Breakdown Structure to prevent scope creep.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of WBS Dictionary. Procedural Link: Apply this concept to: Create a formal document describing every component in the Work Breakdown Structure to prevent scope creep.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of WBS Dictionary. Procedural Link: Apply this concept to: Create a formal document describing every component in the Work Breakdown Structure to prevent scope creep.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Providing absolute clarity on what is (and isn\u0027t) included in a specific work package.",

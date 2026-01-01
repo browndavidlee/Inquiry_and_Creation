@@ -49,6 +49,20 @@
                                                 "theory":  "Definition: A/B testing is testing ethical compliance. Procedural Link: The action is to test the ethical compliance of two different system designs (A/B) to measure which minimizes data leakage or bias.",
                                                 "specific_deliverable":  "A Bias Check Report.",
                                                 "rubric":  "Test ethical compliance."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of A/B Testing. Procedural Link: Apply this concept to: Compare two versions of a variable to determine which performs better against a defined metric.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of A/B Testing. Procedural Link: Apply this concept to: Compare two versions of a variable to determine which performs better against a defined metric.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -93,6 +107,20 @@
                                                 "theory":  "Definition: Analysis is diagnosing the root cause of friction. Procedural Link: The action is to use a structured framework to diagnose the root cause of process friction or a moral failure.",
                                                 "specific_deliverable":  "A Market Shift Report.",
                                                 "rubric":  "Diagnose root cause of friction."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Analysis. Procedural Link: Apply this concept to: Break down complex data or information into its constituent parts to understand its structure and relationships.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Analysis. Procedural Link: Apply this concept to: Break down complex data or information into its constituent parts to understand its structure and relationships.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -137,6 +165,20 @@
                                                 "theory":  "Definition: Calibration is adjusting moral intuition based on review. Procedural Link: The action is to adjust one’s own moral intuition or perspective based on a communal ethical review.",
                                                 "specific_deliverable":  "A Fairness Adjustment Log.",
                                                 "rubric":  "Adjust moral intuition."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Calibration. Procedural Link: Apply this concept to: Adjust a system or instrument to ensure accuracy and alignment with a standard.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Calibration. Procedural Link: Apply this concept to: Adjust a system or instrument to ensure accuracy and alignment with a standard.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -181,6 +223,20 @@
                                                 "theory":  "Definition: Correction is implementing systemic change. Procedural Link: The action is to implement a systemic change to governance or procedure to address a diagnosed problem.",
                                                 "specific_deliverable":  "A System Update Notification.",
                                                 "rubric":  "Implement systemic change."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Correction. Procedural Link: Apply this concept to: Identify and rectify errors or deviations from the intended plan or standard.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Correction. Procedural Link: Apply this concept to: Identify and rectify errors or deviations from the intended plan or standard.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -225,6 +281,20 @@
                                                 "theory":  "Definition: Critique is structured group reflection. Procedural Link: The action is to engage in a structured group reflection or facilitated dialogue used to process feedback on performance or behavior.",
                                                 "specific_deliverable":  "A Self-Reflection Note.",
                                                 "rubric":  "Engage in structured reflection."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Critique. Procedural Link: Apply this concept to: Subject work to critical analysis and feedback to identify strengths, weaknesses, and areas for improvement.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Critique. Procedural Link: Apply this concept to: Subject work to critical analysis and feedback to identify strengths, weaknesses, and areas for improvement.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -269,6 +339,20 @@
                                                 "theory":  "Definition: Cultivation is nurturing communal harmony. Procedural Link: The action is to focus on the active nurturing of communal harmony and ethical self-awareness.",
                                                 "specific_deliverable":  "A Team Charter Update.",
                                                 "rubric":  "Focus on nurturing harmony."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Cultivation. Procedural Link: Apply this concept to: Nurture and develop skills, qualities, or systems over time through consistent attention and effort.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Cultivation. Procedural Link: Apply this concept to: Nurture and develop skills, qualities, or systems over time through consistent attention and effort.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -313,6 +397,20 @@
                                                 "theory":  "Definition: Debugging is removing biases. Procedural Link: The action is to focus on the effort to identify and remove biases or flawed assumptions within a decision-making protocol.",
                                                 "specific_deliverable":  "A Performance Optimization Report.",
                                                 "rubric":  "Focus on removing biases."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Debugging. Procedural Link: Apply this concept to: Systematically identify, isolate, and correct errors or defects in a system or process.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Debugging. Procedural Link: Apply this concept to: Systematically identify, isolate, and correct errors or defects in a system or process.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -357,6 +455,20 @@
                                                 "theory":  "Definition: Deep listening is non-judgmental reception. Procedural Link: The action is to engage in the non-judgmental reception of input from a community, particularly when the feedback is emotionally charged or critical. (N92)",
                                                 "specific_deliverable":  "A Listening Session Log.",
                                                 "rubric":  "Engage in non-judgmental reception."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Non-defensive listening. Procedural Link: Apply this concept to: Listen with full attention and empathy, suspending judgment to truly understand the speaker\u0027s perspective and underlying needs.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Non-defensive listening. Procedural Link: Apply this concept to: Listen with full attention and empathy, suspending judgment to truly understand the speaker\u0027s perspective and underlying needs.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -401,6 +513,20 @@
                                                 "theory":  "Definition: Diagnosing is using a structured framework. Procedural Link: The action is to use a structured framework to diagnose the root cause of process friction or a moral failure.",
                                                 "specific_deliverable":  "A Recovery Plan.",
                                                 "rubric":  "Use structured framework."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Diagnosing. Procedural Link: Apply this concept to: Systematically investigate symptoms to identify the underlying cause of a problem or condition.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Diagnosing. Procedural Link: Apply this concept to: Systematically investigate symptoms to identify the underlying cause of a problem or condition.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -445,6 +571,20 @@
                                                 "theory":  "Definition: Discipline is moral fortitude. Procedural Link: The action is to focus on the moral fortitude required to enforce ethical principles when they conflict with convenience or speed.",
                                                 "specific_deliverable":  "A Final Draft Approval.",
                                                 "rubric":  "Focus on moral fortitude."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Discipline. Procedural Link: Apply this concept to: Maintain rigorous standards and consistent effort in the execution of tasks, even when difficult or tedious.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Discipline. Procedural Link: Apply this concept to: Maintain rigorous standards and consistent effort in the execution of tasks, even when difficult or tedious.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -489,6 +629,20 @@
                                                 "theory":  "Definition: Habermas defined \u0027communicative rationality\u0027—agreement reached through reasoned dialogue. Procedural Link: The action is to ensure feedback is received through a dialogic process that is free of coercion and power imbalances.",
                                                 "specific_deliverable":  "A Peer Review Summary.",
                                                 "rubric":  "Ensure dialogic process."
+                                            },
+                                            {
+                                                "expert":  "John Hattie",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Visible Learning. Procedural Link: Provide \u0027Just-in-Time\u0027 feedback that answers: Where am I going? How am I going? Where to next?",
+                                                "specific_deliverable":  "Feedback Form",
+                                                "rubric":  "Answers the 3 questions."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Feedback. Procedural Link: Apply this concept to: Provide and receive constructive information about performance or behavior to guide improvement.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -533,6 +687,20 @@
                                                 "theory":  "Definition: Meadows focuses on identifying leverage points. Procedural Link: The action is to recognize the insight as the \u0027leverage point\u0027—the small change in the system that yields a large, positive outcome.",
                                                 "specific_deliverable":  "A Win-Back Campaign.",
                                                 "rubric":  "Recognize \u0027leverage point\u0027."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Insight. Procedural Link: Apply this concept to: Achieve a sudden, deep understanding of a complex problem or situation, often involving a shift in perspective.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Insight. Procedural Link: Apply this concept to: Achieve a sudden, deep understanding of a complex problem or situation, often involving a shift in perspective.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -577,6 +745,20 @@
                                                 "theory":  "Definition: Iteration is the continual cycle of reflection-in-action. Procedural Link: The action is to engage in the continual cycle of reflection-in-action to refine process and conduct.",
                                                 "specific_deliverable":  "A Release Note.",
                                                 "rubric":  "Engage in continual cycle."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Iteration. Procedural Link: Apply this concept to: Repeat a process with the aim of approaching a desired goal, target, or result, making improvements in each cycle.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Iteration. Procedural Link: Apply this concept to: Repeat a process with the aim of approaching a desired goal, target, or result, making improvements in each cycle.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -621,6 +803,20 @@
                                                 "theory":  "Definition: Mastery is the ultimate self-regulation. Procedural Link: The action is to aim for the ultimate self-regulation (Tool 10) and consistency of ethical conduct.",
                                                 "specific_deliverable":  "A Promotion Recommendation.",
                                                 "rubric":  "Aim for ultimate self-regulation."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Mastery. Procedural Link: Apply this concept to: Achieve a high level of skill or command over a subject or activity through sustained practice and refinement.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Mastery. Procedural Link: Apply this concept to: Achieve a high level of skill or command over a subject or activity through sustained practice and refinement.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -665,6 +861,20 @@
                                                 "theory":  "Definition: Wilson advocates for research as a relational act. Procedural Link: The action is to engage in a structured working group where peers examine each other’s ethical dilemmas and decision-making processes.",
                                                 "specific_deliverable":  "A Final Manuscript.",
                                                 "rubric":  "Engage in structured working group."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Peer Review. Procedural Link: Apply this concept to: Subject work to the scrutiny of others in the same field to ensure quality, validity, and adherence to standards.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Peer Review. Procedural Link: Apply this concept to: Subject work to the scrutiny of others in the same field to ensure quality, validity, and adherence to standards.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -709,6 +919,20 @@
                                                 "theory":  "Definition: Pruning is cutting a project that diverts resources. Procedural Link: The action is to make the difficult decision to cut a project that, while well-intentioned, diverts resources from the core ethical mission.",
                                                 "specific_deliverable":  "A Product Update Email.",
                                                 "rubric":  "Cut project diverting resources."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Prune for Focus. Procedural Link: Apply this concept to: Deliberately remove elements, features, or data that do not contribute to the core purpose, enhancing clarity and efficiency.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Prune for Focus. Procedural Link: Apply this concept to: Deliberately remove elements, features, or data that do not contribute to the core purpose, enhancing clarity and efficiency.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -760,6 +984,20 @@
                                                 "specific_deliverable":  "A GCI Experiment Log.",
                                                 "expert":  "DASSM",
                                                 "theory":  "Guided Continuous Improvement (GCI). Procedural Link: Use data to identify the problem, select a solution, and verify the result in a loop."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Purging. Procedural Link: Apply this concept to: Remove unnecessary, obsolete, or harmful elements to restore order and efficiency.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Purging. Procedural Link: Apply this concept to: Remove unnecessary, obsolete, or harmful elements to restore order and efficiency.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -804,6 +1042,20 @@
                                                 "theory":  "Definition: QA testing is auditing compliance against standards. Procedural Link: The action is to audit the compliance of a product or process against predefined ethical standards.",
                                                 "specific_deliverable":  "A Sign-off Sheet.",
                                                 "rubric":  "Audit compliance."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of QA Testing. Procedural Link: Apply this concept to: Systematically verify that a product or system meets specified requirements and standards.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of QA Testing. Procedural Link: Apply this concept to: Systematically verify that a product or system meets specified requirements and standards.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -848,6 +1100,20 @@
                                                 "theory":  "Definition: Refinement is the continuous improvement of relational processes. Procedural Link: The action is to engage in the continuous improvement of relational processes and self-awareness.",
                                                 "specific_deliverable":  "A Performance Metric.",
                                                 "rubric":  "Engage in continuous improvement."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Refinement. Procedural Link: Apply this concept to: Make small changes to improve a process, product, or idea based on feedback and analysis.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Refinement. Procedural Link: Apply this concept to: Make small changes to improve a process, product, or idea based on feedback and analysis.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -892,6 +1158,20 @@
                                                 "theory":  "Definition: Retrospective is facilitated dialogue. Procedural Link: The action is to engage in a facilitated Council (N65) or dialogue session to reflect on collective actions and reaffirm shared agreements.",
                                                 "specific_deliverable":  "A Celebration Event.",
                                                 "rubric":  "Engage in facilitated Council."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Retrospective. Procedural Link: Apply this concept to: Look back on a past event or period to evaluate what went well, what didn\u0027t, and how to improve in the future.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Retrospective. Procedural Link: Apply this concept to: Look back on a past event or period to evaluate what went well, what didn\u0027t, and how to improve in the future.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -936,6 +1216,20 @@
                                                 "theory":  "Definition: Revision is the adjustment of a policy. Procedural Link: The action is to engage in the adjustment of a policy or social contract based on an ethical audit.",
                                                 "specific_deliverable":  "A Live Deployment.",
                                                 "rubric":  "Engage in adjustment of policy."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Revision. Procedural Link: Apply this concept to: Make changes to a work or plan based on feedback, new information, or further reflection.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Revision. Procedural Link: Apply this concept to: Make changes to a work or plan based on feedback, new information, or further reflection.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -980,6 +1274,20 @@
                                                 "theory":  "Definition: The Witness Consciousness. Procedural Link: The action is to observe one\u0027s own emotional reaction to a trigger without acting on it.",
                                                 "specific_deliverable":  "A Reaction Log.",
                                                 "rubric":  "Observes reaction without acting."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Metacognition. Procedural Link: Apply this concept to: Engage in \u0027thinking about thinking\u0027—monitoring and regulating your own cognitive processes to improve learning and performance.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Metacognition. Procedural Link: Apply this concept to: Engage in \u0027thinking about thinking\u0027—monitoring and regulating your own cognitive processes to improve learning and performance.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1024,6 +1332,20 @@
                                                 "theory":  "Definition: Internalized oppression. Procedural Link: The action is to identify where societal narratives are distorting the self-assessment of capability.",
                                                 "specific_deliverable":  "A Narrative Reframing.",
                                                 "rubric":  "Identifies internalized narrative."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Cognitive Distortion. Procedural Link: Apply this concept to: Identify irrational or exaggerated thought patterns (e.g., catastrophizing, all-or-nothing thinking) that skew the interpretation of feedback.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Cognitive Distortion. Procedural Link: Apply this concept to: Identify irrational or exaggerated thought patterns (e.g., catastrophizing, all-or-nothing thinking) that skew the interpretation of feedback.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1068,6 +1390,20 @@
                                                 "theory":  "Definition: Structural Violence. Procedural Link: The action is to trace an individual tragedy back to a policy decision.",
                                                 "specific_deliverable":  "A Policy Causality Map.",
                                                 "rubric":  "Traces tragedy to policy."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Root Cause. Procedural Link: Apply this concept to: Trace a symptom back to its fundamental origin to prevent recurrence, rather than just treating the surface issue.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Root Cause. Procedural Link: Apply this concept to: Trace a symptom back to its fundamental origin to prevent recurrence, rather than just treating the surface issue.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
                                             }
                                         ]
                      },
@@ -1082,6 +1418,55 @@
                                                 "theory":  "Muda (Waste) hides in processes. Procedural Link: Walk the process and tag instances of the 7 wastes.",
                                                 "specific_deliverable":  "A Waste Identification Map.",
                                                 "rubric":  "Identifies specific Muda types."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of The 7 Wastes (Muda). Procedural Link: Apply this concept to: Identify and eliminate the 7 specific types of waste: Transport, Inventory, Motion, Waiting, Overproduction, Overprocessing, Defects.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to The 7 Wastes (Muda). Procedural Link: Apply this concept to: Identify and eliminate the 7 specific types of waste: Transport, Inventory, Motion, Waiting, Overproduction, Overprocessing, Defects.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of The 7 Wastes (Muda). Procedural Link: Apply this concept to: Identify and eliminate the 7 specific types of waste: Transport, Inventory, Motion, Waiting, Overproduction, Overprocessing, Defects.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of The 7 Wastes (Muda). Procedural Link: Apply this concept to: Identify and eliminate the 7 specific types of waste: Transport, Inventory, Motion, Waiting, Overproduction, Overprocessing, Defects.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding The 7 Wastes (Muda). Procedural Link: Apply this concept to: Identify and eliminate the 7 specific types of waste: Transport, Inventory, Motion, Waiting, Overproduction, Overprocessing, Defects.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of The 7 Wastes (Muda). Procedural Link: Apply this concept to: Identify and eliminate the 7 specific types of waste: Transport, Inventory, Motion, Waiting, Overproduction, Overprocessing, Defects.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of The 7 Wastes (Muda). Procedural Link: Apply this concept to: Identify and eliminate the 7 specific types of waste: Transport, Inventory, Motion, Waiting, Overproduction, Overprocessing, Defects.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Optimizing a factory floor.",
@@ -1098,6 +1483,48 @@
                                                 "theory":  "Tornado Diagram. Procedural Link: Vary inputs to see which risk has the highest potential impact on the outcome.",
                                                 "specific_deliverable":  "A Tornado Diagram.",
                                                 "rubric":  "Identifies most sensitive variables."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Sensitivity Analysis. Procedural Link: Apply this concept to: Determine how different values of an independent variable affect a particular dependent variable under a given set of assumptions.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Sensitivity Analysis. Procedural Link: Apply this concept to: Determine how different values of an independent variable affect a particular dependent variable under a given set of assumptions.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Sensitivity Analysis. Procedural Link: Apply this concept to: Determine how different values of an independent variable affect a particular dependent variable under a given set of assumptions.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Sensitivity Analysis. Procedural Link: Apply this concept to: Determine how different values of an independent variable affect a particular dependent variable under a given set of assumptions.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Sensitivity Analysis. Procedural Link: Apply this concept to: Determine how different values of an independent variable affect a particular dependent variable under a given set of assumptions.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Sensitivity Analysis. Procedural Link: Apply this concept to: Determine how different values of an independent variable affect a particular dependent variable under a given set of assumptions.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Testing a financial model\u0027s robustness.",
@@ -1114,6 +1541,48 @@
                                                 "theory":  "Definition: Error Correction. Link: Match correction timing to the goal (Fluency vs Accuracy).",
                                                 "specific_deliverable":  "Correction Protocol",
                                                 "rubric":  "Timing of feedback justified"
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Correction Techniques. Procedural Link: Apply this concept to: Select between \u0027Immediate\u0027, \u0027Delayed\u0027, or \u0027Peer\u0027 correction to maintain flow while ensuring accuracy.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Correction Techniques. Procedural Link: Apply this concept to: Select between \u0027Immediate\u0027, \u0027Delayed\u0027, or \u0027Peer\u0027 correction to maintain flow while ensuring accuracy.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Correction Techniques. Procedural Link: Apply this concept to: Select between \u0027Immediate\u0027, \u0027Delayed\u0027, or \u0027Peer\u0027 correction to maintain flow while ensuring accuracy.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Value Stream Management",
+                                                "domain":  "Business \u0026 Agile",
+                                                "theory":  "Definition: Optimizing the flow of value regarding Correction Techniques. Procedural Link: Apply this concept to: Select between \u0027Immediate\u0027, \u0027Delayed\u0027, or \u0027Peer\u0027 correction to maintain flow while ensuring accuracy.",
+                                                "specific_deliverable":  "Business Case",
+                                                "rubric":  "ROI and market fit."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Correction Techniques. Procedural Link: Apply this concept to: Select between \u0027Immediate\u0027, \u0027Delayed\u0027, or \u0027Peer\u0027 correction to maintain flow while ensuring accuracy.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Correction Techniques. Procedural Link: Apply this concept to: Select between \u0027Immediate\u0027, \u0027Delayed\u0027, or \u0027Peer\u0027 correction to maintain flow while ensuring accuracy.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "Deciding when and how to correct errors during a live performance or pilot.",
@@ -1130,6 +1599,48 @@
                                                 "theory":  "The unit of progress is learning.",
                                                 "specific_deliverable":  "Validation Board",
                                                 "rubric":  "Measures truth, not output."
+                                            },
+                                            {
+                                                "expert":  "Instructional Design",
+                                                "domain":  "Pedagogy \u0026 Facilitation",
+                                                "theory":  "Definition: Facilitating the learning and transfer of Validated Learning. Procedural Link: Apply this concept to: Demonstrate progress not by code written, but by truth uncovered.",
+                                                "specific_deliverable":  "Lesson Plan",
+                                                "rubric":  "Learner comprehension."
+                                            },
+                                            {
+                                                "expert":  "Empirical Method",
+                                                "domain":  "Science \u0026 Engineering",
+                                                "theory":  "Definition: Applying rigorous observation and testing to Validated Learning. Procedural Link: Apply this concept to: Demonstrate progress not by code written, but by truth uncovered.",
+                                                "specific_deliverable":  "Technical Report",
+                                                "rubric":  "Reproducibility and accuracy."
+                                            },
+                                            {
+                                                "expert":  "Systems Thinking",
+                                                "domain":  "General / Pluralist",
+                                                "theory":  "Definition: The universal structural principle of Validated Learning. Procedural Link: Apply this concept to: Demonstrate progress not by code written, but by truth uncovered.",
+                                                "specific_deliverable":  "System Map",
+                                                "rubric":  "Coherence and logic."
+                                            },
+                                            {
+                                                "expert":  "Community Stewardship",
+                                                "domain":  "Culture \u0026 Ethics",
+                                                "theory":  "Definition: Ensuring the relational integrity of Validated Learning. Procedural Link: Apply this concept to: Demonstrate progress not by code written, but by truth uncovered.",
+                                                "specific_deliverable":  "Impact Assessment",
+                                                "rubric":  "Community alignment."
+                                            },
+                                            {
+                                                "expert":  "Critical Theory",
+                                                "domain":  "Humanities \u0026 Social Sciences",
+                                                "theory":  "Definition: Analyzing the historical and social context of Validated Learning. Procedural Link: Apply this concept to: Demonstrate progress not by code written, but by truth uncovered.",
+                                                "specific_deliverable":  "Critical Essay",
+                                                "rubric":  "Depth of interpretation."
+                                            },
+                                            {
+                                                "expert":  "Aesthetic Theory",
+                                                "domain":  "Arts \u0026 Design",
+                                                "theory":  "Definition: Exploring the expressive potential of Validated Learning. Procedural Link: Apply this concept to: Demonstrate progress not by code written, but by truth uncovered.",
+                                                "specific_deliverable":  "Creative Artifact",
+                                                "rubric":  "Aesthetic resonance."
                                             }
                                         ],
                          "scenario":  "A feature is finished but nobody clicks it.",
