@@ -23,8 +23,7 @@
                                                            "**Define the Destination:** Before you map the route, know where you\u0027re going. Co-create the Success Criteria (DoD) (`N09`). This is the most important part of your map.",
                                                            "**Survey the Known World:** Conduct a time-boxed Literature Review (`N08`) or competitive analysis. The goal is to find existing maps and avoid reinventing the wheel.",
                                                            "**Anticipate Risks:** Run a Pre-Mortem Exercise (`N11`). This is non-negotiable. Imagine the project has failed spectacularly and tell the story of why. This is the fastest way to find the true risks and build a resilient plan.",
-                                                           "**Draw the Map:** Create your Project Plan or Creative Brief. Crucially, it must include: the path, the destination (DoD), the risks (risks), and the signposts (key assumptions to monitor).",
-                                                           "**Select Governance Mode:** Explicitly choose your operating system (Rigorous/NASA vs. Adaptive/Agile). This determines the friction of your future gates (ICDs)."
+                                                           "**Draw the Map:** Create your Project Plan or Creative Brief. Crucially, it must include: the path, the destination (DoD), the risks (risks), and the signposts (key assumptions to monitor)."
                                                        ]
                                           },
                          "facilitator":  {
@@ -935,8 +934,7 @@
                                                        "points":  [
                                                                       "**The Bridge to Action:** This tool is the critical bridge between an abstract decision (Tool 4) and concrete execution (Tool 6). A failure here results in a well-chosen idea being poorly implemented.",
                                                                       "**Creates a Social Contract:** The \u0027blueprint\u0027 artifact becomes the shared source of truth for the team, reducing ambiguity and aligning the execution team on a common goal.",
-                                                                      "**Forces Clarity:** The JTBD highlights the core job of translating a non-linear mental model into a linear artifact. This act of translation forces the practitioner to clarify their own thinking.",
-                                                                      "**Establishes the Constitution:** By selecting a Governance Mode here, you define the \u0027Rules of Engagement\u0027 for Tool 10."
+                                                                      "**Forces Clarity:** The JTBD highlights the core job of translating a non-linear mental model into a linear artifact. This act of translation forces the practitioner to clarify their own thinking."
                                                                   ],
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [

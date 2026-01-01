@@ -11,7 +11,7 @@
     "simpleName":  "Present",
     "keyQuestion":  "To whom is this work accountable, and by what standards will it be assessed?",
     "color":  "var(--color-tool-8)",
-    "keyDeliverables":  "A final presentation to an authentic audience and documented validation against success criteria.",
+    "keyDeliverables":  "A final presentation, documented validation, and a Narrative Defense Protocol.",
     "principle":  "To persuade an external community to update their own predictive models by demonstrating the superior accuracy or value of the work\u0027s new model.",
     "keyMediatingArtifact":  "Validated Artifact",
     "jtbdAnalysis":  {
@@ -23,7 +23,8 @@
                                                            "**Analyze the Audience:** Don\u0027t present to \u0027everyone.\u0027 Identify the specific \u0027Gatekeepers\u0027 (e.g., the investor, the professor). What are their specific criteria for value?",
                                                            "**Structure the Narrative:** Use the \u0027Minto Pyramid Principle\u0027 or a classic story arc. Start with the conclusion (the value), then provide the supporting evidence. Don\u0027t bury the lead.",
                                                            "**Rehearse Under Stress:** Practice not just the script, but the Q\u0026A. Simulate the pressure (`N30`). This habituates the Amygdala, keeping your Prefrontal Cortex online during the real event.",
-                                                           "**Close the Loop:** Explicitly ask for the decision. \u0027Based on this evidence, do we have approval to proceed?\u0027 Don\u0027t leave the room with ambiguity."
+                                                           "**Close the Loop:** Explicitly ask for the decision. \u0027Based on this evidence, do we have approval to proceed?\u0027 Don\u0027t leave the room with ambiguity.",
+                                                           "**Prepare the Defense:** Don\u0027t just present; defend. Use the \u0027Framework Defense Protocol\u0027 (FDP) logic to pre-script responses to the most likely attacks (Rigidity, Jargon, etc.)."
                                                        ]
                                           },
                          "facilitator":  {

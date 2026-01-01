@@ -12,7 +12,7 @@
     "keyQuestion":  "What is the health of our overall inquiry system, and what is the highest-leverage intervention to improve it?",
     "color":  "var(--color-tool-10)",
     "keyDeliverables":  "A diagnosis of the system\u0027s state, a prioritized strategic roadmap, or a targeted process improvement.",
-    "principle":  "To ensure the long-term health of the inquiry system by diagnosing its state, enforcing governance (TA Hierarchy), and making strategic interventions.",
+    "principle":  "To ensure the long-term health and effectiveness of the inquiry system by diagnosing its state and making strategic interventions.",
     "keyMediatingArtifact":  "Process Improvement",
     "jtbdAnalysis":  {
                          "coreJobStory":  "When our organization feels reactive, chaotic, or stagnant, help me diagnose the health of our entire inquiry system, so I can make the highest-leverage strategic interventions to improve our long-term velocity and effectiveness.",
@@ -503,14 +503,6 @@
                                                                                   "practitioner_output":  "A Relational Health Check / Closing Ritual (N81/N83).",
                                                                                   "practitioner_method":  "Follow **The Self-Inquiry Path**: Diagnose internal and relational friction to restore balance and close the circle.",
                                                                                   "facilitator_method":  "Enforce **Wholeness**. Ask: \u0027Are we sacrificing our values or relationships to achieve our goals?\u0027"
-                                                                              },
-                                                                              {
-                                                                                  "domainName":  "Framework Stewardship",
-                                                                                  "facilitator_method":  "Enforce **Consistency**. Ask: \u0027Does this update follow the principles we preach?\u0027",
-                                                                                  "icon":  "fa-recycle",
-                                                                                  "phenotypeName":  "Recursive Update",
-                                                                                  "practitioner_output":  "A System Patch / Version Update.",
-                                                                                  "practitioner_method":  "Follow **The Recursive Path**: Apply the framework to itself to identify gaps (T1), plan improvements (T2), and execute patches (T6)."
                                                                               }
                                                                           ],
                                                          "simpleTitle":  "Field-Specific Methods",
