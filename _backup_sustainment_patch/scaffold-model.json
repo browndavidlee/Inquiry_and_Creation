@@ -33942,62 +33942,6 @@
                                                   "Establish a Change Control Board (CCB) to approve/reject changes.",
                                                   "Audit the configuration to ensure the \u0027As-Built\u0027 matches the \u0027As-Designed\u0027."
                                               ]
-                    },
-                    {
-                        "id":  "T10-P-SUSTAIN",
-                        "tool_id":  10,
-                        "domain":  "General / Pluralist",
-                        "neurocognitive_sequence":  [
-                                                        {
-                                                            "pfic_word":  "Diagnose Decay",
-                                                            "step":  "T1",
-                                                            "networks":  "SN, ACC",
-                                                            "rationale":  "The Salience Network detects the cost of Technical Debt (T10.18) and flags it as a critical problem."
-                                                        },
-                                                        {
-                                                            "pfic_word":  "Prioritize Debt",
-                                                            "step":  "T2",
-                                                            "networks":  "ECN, vmPFC",
-                                                            "rationale":  "The ECN prioritizes the debt based on its impact and cost (T10.18), balancing risk vs. reward."
-                                                        },
-                                                        {
-                                                            "pfic_word":  "Fund Maintenance",
-                                                            "step":  "T3",
-                                                            "networks":  "ECN, SCN",
-                                                            "rationale":  "The ECN allocates resources and communicates the need for maintenance to the team (T10.17)."
-                                                        }
-                                                    ],
-                        "type":  "strategic",
-                        "summary":  "The operational sequence for managing the long-term health and maintenance of the artifact.",
-                        "title":  "The Sustainment Path"
-                    },
-                    {
-                        "id":  "T10-P-DEFEND",
-                        "tool_id":  10,
-                        "domain":  "General / Pluralist",
-                        "neurocognitive_sequence":  [
-                                                        {
-                                                            "pfic_word":  "Sense Threat",
-                                                            "step":  "T1",
-                                                            "networks":  "Limbic System, SN",
-                                                            "rationale":  "The Limbic System detects an external threat (T10.20) and the SN flags it as urgent."
-                                                        },
-                                                        {
-                                                            "pfic_word":  "Legal Audit",
-                                                            "step":  "T2",
-                                                            "networks":  "ECN, Hippocampus",
-                                                            "rationale":  "The ECN directs a search of memory (T10.19) for the IP strategy and legal defense plan."
-                                                        },
-                                                        {
-                                                            "pfic_word":  "Narrative Counter",
-                                                            "step":  "T3",
-                                                            "networks":  "Language Network, SCN",
-                                                            "rationale":  "The Language Network crafts a public response (T10.20) tailored to the audience (SCN)."
-                                                        }
-                                                    ],
-                        "type":  "strategic",
-                        "summary":  "The strategic sequence for protecting the artifact\u0027s value and reputation from external threats (legal, narrative, competitive).",
-                        "title":  "The Defense Path"
                     }
                 ]
 }

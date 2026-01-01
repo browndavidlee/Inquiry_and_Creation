@@ -3741,3 +3741,27 @@ body.dark-mode-active .info-box {
     }
 }
 /* --- END GOVERNANCE ENGINE MOBILE RESPONSIVENESS PATCH --- */
+/* --- WELCOME PAGE MOBILE FIX (v4.5) --- */
+@media (max-width: 768px) {
+    /* 1. Fix the main welcome hub container */
+    .welcome-hub-container {
+        /* Switch from a 2-column grid to a single column stack */
+        grid-template-columns: 1fr;
+        gap: 20px; /* Reduce gap for mobile */
+        margin-top: 20px;
+    }
+
+    /* 2. Ensure the cards themselves fill the width */
+    .welcome-choice-card {
+        width: 100%;
+        max-width: 100%; /* Override the desktop max-width constraint */
+        min-height: 300px; /* Ensure a minimum height for readability */
+        padding: 25px;
+    }
+
+    /* 3. Adjust header font size for better fit */
+    .welcome-choice-card h2 {
+        font-size: 1.5rem;
+    }
+}
+/* --- END WELCOME PAGE MOBILE FIX --- */
