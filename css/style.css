@@ -3765,7 +3765,65 @@ body.dark-mode-active .info-box {
     }
 }
 /* --- END WELCOME PAGE MOBILE FIX --- */
-/* --- COGNITIVE EQUALIZER MOBILE FIX (v4.6) --- */
+
+/* --- COGNITIVE EQUALIZER MOBILE FIX (v4.7 - Final) --- */
+@media (max-width: 768px) {
+    /* 1. Main Chart Stage Scaling (Reduced further) */
+    .chart-stage {
+        height: 180px; /* Reduced overall height */
+        gap: 10px; /* Reduced gap between modality groups */
+        padding-bottom: 10px;
+    }
+
+    /* 2. Modality Group Scaling */
+    .modality-group {
+        gap: 3px; /* Reduced gap between individual bars */
+    }
+
+    /* 3. Bar Container Scaling */
+    .bar-container {
+        width: 18px; /* Reduced fixed width of bars */
+    }
+
+    /* 4. Label Scaling */
+    .group-label {
+        font-size: 0.5rem; /* Shrink group labels further */
+        bottom: -15px;
+    }
+
+    /* 5. Legend Container: Force Vertical Stacking */
+    .legend-container {
+        flex-direction: column; /* Stack groups vertically */
+        align-items: flex-start; /* Align groups to the left */
+        gap: 15px; /* Space between stacked groups */
+        padding-top: 15px;
+    }
+
+    /* 6. Legend Group: Force Vertical Stacking of Items */
+    .legend-group {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start;
+        gap: 4px;
+        width: 100%;
+    }
+    
+    .legend-group h6 {
+        font-size: 0.6rem; /* Shrink group header */
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .legend-item {
+        font-size: 0.7rem; /* Shrink legend text */
+    }
+    
+    /* 7. Domain Pills Scaling */
+    .domain-pill {
+        font-size: 0.65rem;
+        padding: 3px 6px;
+    }
+}
+/* --- END COGNITIVE EQUALIZER MOBILE FIX --- */
 @media (max-width: 768px) {
     /* 1. Main Chart Stage Scaling */
     .chart-stage {
