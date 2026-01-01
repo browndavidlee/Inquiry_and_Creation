@@ -713,8 +713,32 @@
                                        "definition":  "The evaluation of work by people with similar competencies."
                                    },
                                    {
+                                       "term":  "Phase A",
+                                       "definition":  "Concept \u0026 Technology Development. The stage where the mission architecture is defined and critical technologies are matured."
+                                   },
+                                   {
                                        "term":  "Phase A Loop",
                                        "definition":  "The Concept \u0026 Technology Development phase. The goal is to determine the feasibility and desirability of a new system and establish an initial baseline compatibility."
+                                   },
+                                   {
+                                       "term":  "Phase B",
+                                       "definition":  "Preliminary Design \u0026 Technology Completion. The stage where the project establishes a preliminary design and completes technology development."
+                                   },
+                                   {
+                                       "term":  "Phase C",
+                                       "definition":  "Final Design \u0026 Fabrication. The stage where the detailed design is completed and hardware fabrication begins."
+                                   },
+                                   {
+                                       "term":  "Phase D",
+                                       "definition":  "System Assembly, Integration \u0026 Test, Launch. The stage where the system is built, tested, and launched."
+                                   },
+                                   {
+                                       "term":  "Phase E",
+                                       "definition":  "Operations \u0026 Sustainment. The stage where the mission is executed and the system is maintained."
+                                   },
+                                   {
+                                       "term":  "Phase F",
+                                       "definition":  "Closeout. The stage where the mission is concluded and the system is decommissioned."
                                    },
                                    {
                                        "term":  "Phenomenon",
@@ -751,6 +775,10 @@
                                    {
                                        "term":  "Pre-Mortem",
                                        "definition":  "A strategic exercise where the team imagines a future failure and works backward to determine its cause."
+                                   },
+                                   {
+                                       "term":  "Pre-Phase A",
+                                       "definition":  "Concept Studies. The stage where the feasibility and desirability of a potential new system are determined."
                                    },
                                    {
                                        "term":  "Prioritization",
@@ -1117,6 +1145,42 @@
                                        "definition":  "Test Readiness Assessment Report. A formal document certifying that the system, test environment, and personnel are ready for formal verification testing. (Tool 7 Artifact)"
                                    },
                                    {
+                                       "term":  "TRL 1",
+                                       "definition":  "Basic principles observed and reported. Scientific research begins to be translated into applied research and development."
+                                   },
+                                   {
+                                       "term":  "TRL 2",
+                                       "definition":  "Technology concept and/or application formulated. Invention begins."
+                                   },
+                                   {
+                                       "term":  "TRL 3",
+                                       "definition":  "Analytical and experimental critical function and/or characteristic proof of concept."
+                                   },
+                                   {
+                                       "term":  "TRL 4",
+                                       "definition":  "Component and/or breadboard validation in laboratory environment."
+                                   },
+                                   {
+                                       "term":  "TRL 5",
+                                       "definition":  "Component and/or breadboard validation in relevant environment."
+                                   },
+                                   {
+                                       "term":  "TRL 6",
+                                       "definition":  "System/subsystem model or prototype demonstration in a relevant environment."
+                                   },
+                                   {
+                                       "term":  "TRL 7",
+                                       "definition":  "System prototype demonstration in an operational environment."
+                                   },
+                                   {
+                                       "term":  "TRL 8",
+                                       "definition":  "Actual system completed and \u0027flight qualified\u0027 through test and demonstration."
+                                   },
+                                   {
+                                       "term":  "TRL 9",
+                                       "definition":  "Actual system flight proven through successful mission operations."
+                                   },
+                                   {
                                        "term":  "TRL Options Portfolio",
                                        "definition":  "A strategic collection of potential technology solutions, analyzed by maturity and risk, used to avoid premature lock-in to a single solution. (Tool 3 Artifact)"
                                    },
@@ -1169,68 +1233,28 @@
                                        "definition":  "The act of seeing an event take place."
                                    },
                                    {
-                                       "term":  "TRL 2",
-                                       "definition":  "Technology concept and/or application formulated. Invention begins."
+                                       "term":  "KDP F",
+                                       "definition":  "Key Decision Point F. The review gate that authorizes the project to move from Operations (Phase E) into Closeout and Decommissioning (Phase F). It validates that the mission objectives have been met."
                                    },
                                    {
-                                       "term":  "Pre-Phase A",
-                                       "definition":  "Concept Studies. The stage where the feasibility and desirability of a potential new system are determined."
+                                       "term":  "KDP E",
+                                       "definition":  "Key Decision Point E. The review gate that authorizes the project to move from Integration (Phase D) into Operations and Launch (Phase E). This follows the Flight Readiness Review (FRR)."
                                    },
                                    {
-                                       "term":  "Phase E",
-                                       "definition":  "Operations \u0026 Sustainment. The stage where the mission is executed and the system is maintained."
+                                       "term":  "KDP B",
+                                       "definition":  "Key Decision Point B. The review gate that authorizes the project to move from Concept Development (Phase A) into Preliminary Design (Phase B). It validates that the technology is mature enough to begin engineering design."
                                    },
                                    {
-                                       "term":  "Phase B",
-                                       "definition":  "Preliminary Design \u0026 Technology Completion. The stage where the project establishes a preliminary design and completes technology development."
+                                       "term":  "KDP A",
+                                       "definition":  "Key Decision Point A. The review gate that authorizes the project to move from Concept Studies (Pre-Phase A) into Concept \u0026 Technology Development (Phase A). It validates that the mission concept is feasible and aligns with strategic goals."
                                    },
                                    {
-                                       "term":  "TRL 6",
-                                       "definition":  "System/subsystem model or prototype demonstration in a relevant environment."
+                                       "term":  "KDP D",
+                                       "definition":  "Key Decision Point D. The review gate that authorizes the project to move from Fabrication (Phase C) into System Assembly, Integration, and Test (Phase D). This follows the Critical Design Review (CDR)."
                                    },
                                    {
-                                       "term":  "TRL 9",
-                                       "definition":  "Actual system flight proven through successful mission operations."
-                                   },
-                                   {
-                                       "term":  "Phase C",
-                                       "definition":  "Final Design \u0026 Fabrication. The stage where the detailed design is completed and hardware fabrication begins."
-                                   },
-                                   {
-                                       "term":  "TRL 4",
-                                       "definition":  "Component and/or breadboard validation in laboratory environment."
-                                   },
-                                   {
-                                       "term":  "Phase F",
-                                       "definition":  "Closeout. The stage where the mission is concluded and the system is decommissioned."
-                                   },
-                                   {
-                                       "term":  "Phase A",
-                                       "definition":  "Concept \u0026 Technology Development. The stage where the mission architecture is defined and critical technologies are matured."
-                                   },
-                                   {
-                                       "term":  "TRL 1",
-                                       "definition":  "Basic principles observed and reported. Scientific research begins to be translated into applied research and development."
-                                   },
-                                   {
-                                       "term":  "TRL 8",
-                                       "definition":  "Actual system completed and \u0027flight qualified\u0027 through test and demonstration."
-                                   },
-                                   {
-                                       "term":  "TRL 5",
-                                       "definition":  "Component and/or breadboard validation in relevant environment."
-                                   },
-                                   {
-                                       "term":  "Phase D",
-                                       "definition":  "System Assembly, Integration \u0026 Test, Launch. The stage where the system is built, tested, and launched."
-                                   },
-                                   {
-                                       "term":  "TRL 7",
-                                       "definition":  "System prototype demonstration in an operational environment."
-                                   },
-                                   {
-                                       "term":  "TRL 3",
-                                       "definition":  "Analytical and experimental critical function and/or characteristic proof of concept."
+                                       "term":  "KDP C",
+                                       "definition":  "Key Decision Point C. The review gate that authorizes the project to move from Design (Phase B) into Final Design and Fabrication (Phase C). This follows the Preliminary Design Review (PDR) and freezes the requirements."
                                    }
                                ]
                  },
