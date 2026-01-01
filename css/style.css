@@ -3765,3 +3765,56 @@ body.dark-mode-active .info-box {
     }
 }
 /* --- END WELCOME PAGE MOBILE FIX --- */
+/* --- COGNITIVE EQUALIZER MOBILE FIX (v4.6) --- */
+@media (max-width: 768px) {
+    /* 1. Main Chart Stage Scaling */
+    .chart-stage {
+        height: 200px; /* Reduce overall height */
+        gap: 15px; /* Reduce gap between modality groups */
+        padding-bottom: 15px;
+    }
+
+    /* 2. Modality Group Scaling */
+    .modality-group {
+        gap: 4px; /* Reduce gap between individual bars */
+    }
+
+    /* 3. Bar Container Scaling */
+    .bar-container {
+        width: 20px; /* Reduce fixed width of bars */
+    }
+
+    /* 4. Label Scaling */
+    .group-label {
+        font-size: 0.55rem; /* Shrink group labels */
+        bottom: -20px;
+    }
+
+    /* 5. Legend Scaling */
+    .legend-container {
+        gap: 10px; /* Reduce gap between legend groups */
+        padding-top: 10px;
+    }
+
+    .legend-group {
+        flex-direction: row; /* Change legend to row layout to save vertical space */
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .legend-group h6 {
+        width: 100%; /* Ensure header takes full width */
+        margin-bottom: 0;
+    }
+
+    .legend-item {
+        font-size: 0.7rem; /* Shrink legend text */
+    }
+    
+    /* 6. Domain Pills Scaling */
+    .domain-pill {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+}
+/* --- END COGNITIVE EQUALIZER MOBILE FIX --- */
