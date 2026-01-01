@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -67,6 +67,13 @@
                           "title":  "PLAYBOOK: Finding \u0027Bright Spots\u0027 When Standard Solutions Fail",
                           "icon":  "fas fa-search-plus",
                           "content":  "### 1. Core Principle: The Solution is Already in the Room\n\nInstead of designing a new solution, use data to find the \u0027positive deviants\u0027—individuals in the community who are already succeeding against the odds. The inquiry then becomes about discovering and amplifying their uncommon but successful local strategies."
+                      },
+                      {
+                          "content":  "### Protocol ID: FDP-v5.0-SELF-DEFENSE\n**Source:** T10: Orchestrate the System (Strategic Intervention Path)\n**Purpose:** To provide a pre-scripted, evidence-based defense against the four most damaging external critiques.\n\n---\n\n#### 1. The \u0027Waterfall\u0027 Critique (Rigidity)\n*   **The Attack:** \u0027It is too rigid. It is a linear flowchart that kills creativity and cannot handle real-world change.\u0027\n*   **The Defense:** The framework is not a flowchart; it is a **GPS**. It gives you a route, but the **T10 Orchestrator** is the driver who can reroute instantly based on the **Cynefin** context.\n*   **Evidence:** The **ICD-T10-T1** loop closure proves the system is circular and adaptive, not linear.\n\n#### 2. The \u0027Jargon\u0027 Critique (Complexity)\n*   **The Attack:** \u0027It is overly complicated. It uses fancy words like Interoception and Exaptation to justify simple concepts.\u0027\n*   **The Defense:** The language is a **Rosetta Stone**. It allows a CEO to understand a Poet. If you want cross-functional teams to work, you need a shared, precise vocabulary. The jargon is the **lever** for compression.\n*   **Evidence:** The **Dynamic Glossary** and **Universal ICD Schema**.\n\n#### 3. The \u0027Colonial\u0027 Critique (Appropriation)\n*   **The Attack:** \u0027It is a Western, managerial system that co-opts Indigenous concepts like Stewardship and Reciprocity for corporate profit.\u0027\n*   **The Defense:** The framework is built on the principle of **Swaraj (Self-Rule)**. It is designed to be a tool for the community, not a mandate from the institution.\n*   **Evidence:** The **Culture \u0026 Ethics Governance Model** (where Elders are the Technical Authority) and the **Reciprocity** constraint in Tool 2.\n\n#### 4. The \u0027Academic\u0027 Critique (Rigor)\n*   **The Attack:** \u0027It is not rigorous. It mixes hard science (Neuroscience) with soft concepts (Muse/Felt Sense), making the whole thing unscientific.\u0027\n*   **The Defense:** We do not mix science and art; we map them. Every cognitive claim is traceable to a specific neural network (DMN/ECN). The framework is a **Hypothesis** about human performance.\n*   **Evidence:** The **Cognitive Equalizer** (T7) and the **Bibliography** (Traceability).",
+                          "title":  "Framework Defense Protocol (FDP)",
+                          "type":  "Protocol",
+                          "id":  "DOC-FDP-001",
+                          "icon":  "fas fa-shield-alt"
                       }
                   ]
 }
