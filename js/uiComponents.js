@@ -1030,23 +1030,114 @@ export const UI = {
             if (key === 'jobToBeDone') {
                 contentHTML = UI.renderJtbdPerspective(tool.jtbdAnalysis, currentPersona);
             } 
-            else if (key === 'nasa_registry' && tool.nasa_registry) {
+                                                                                    else if (key === 'nasa_registry' && tool.nasa_registry) {
                 const nr = tool.nasa_registry;
+                
+                // --- DATA COLLECTION ---
+                let allTerms = [];
+                const add = (source) => { if (Array.isArray(source)) allTerms = allTerms.concat(source); };
+
+                if (typeof frameworkData !== 'undefined') {
+                    add(frameworkData.glossary_tool_data);
+                    if (frameworkData.framework_data && frameworkData.framework_data.glossary) {
+                        add(frameworkData.framework_data.glossary.terms);
+                    }
+                }
+                if (allTerms.length === 0 && typeof window.cognitiveToolkitData !== 'undefined') {
+                    const gd = window.cognitiveToolkitData;
+                    add(gd.glossary_tool_data);
+                    if (gd.framework_data && gd.framework_data.glossary) {
+                        add(gd.framework_data.glossary.terms);
+                    }
+                }
+
+                // --- LOOKUP LOGIC ---
+                const getDef = (term) => {
+                    if (!term) return "";
+                    
+                    // Special Case: PBS Codes (e.g., "1.1")
+                    // We map these dynamically to the Tool Name
+                    if (/^\d+(\.\d+)*$/.test(term)) {
+                        // Try to find the tool with this ID number
+                        // Assuming PBS 1.X maps to Tool X
+                        const toolNum = term.split('.')[1]; // Get the '1' from '1.1'
+                        if (toolNum) {
+                            return `Hierarchical identifier for <strong>Tool ${toolNum}</strong>. Ensures this component is tracked in the master schedule.`;
+                        }
+                        return "Product Breakdown Structure (PBS) Identifier.";
+                    }
+
+                    if (allTerms.length === 0) return "Data loading...";
+                    
+                    const normalize = (str) => str ? str.toLowerCase().replace(/[^a-z0-9]/g, '') : '';
+                    const target = normalize(term);
+
+                    // 1. Exact Match
+                    let entry = allTerms.find(t => normalize(t.term) === target);
+                    
+                    // 2. Partial Match (Target inside Term) e.g. "TRL 1" inside "TRL 1: Basic..."
+                    if (!entry) {
+                        entry = allTerms.find(t => t.term && normalize(t.term).includes(target));
+                    }
+                    
+                    // 3. Reverse Partial (Term inside Target) e.g. "TRL 1" inside "TRL 1: Basic..."
+                    if (!entry) {
+                        // Sort by length desc to match "TRL 1" before "TRL"
+                        const candidates = allTerms.filter(t => t.term && target.includes(normalize(t.term)));
+                        if (candidates.length > 0) {
+                            entry = candidates.sort((a,b) => b.term.length - a.term.length)[0];
+                        }
+                    }
+
+                    if (!entry) return "Definition not found in glossary.";
+                    return entry.general_principle || entry.definition || "No definition available.";
+                };
+
+                // --- RENDER HELPER ---
+                const linkTerm = (label, term, isValue = false) => {
+                    const def = getDef(term);
+                    const safeDef = def.replace(/"/g, '&quot;');
+                    const classList = isValue ? "nasa-term value-term" : "nasa-term label-term";
+                    
+                    // If it's a value, we might want to strip extra text for the lookup but display full text
+                    // For now, we pass the full text to getDef which handles partial matching
+                    
+                    return `<span class="${classList}" tabindex="0">
+                                ${label}
+                                <span class="tooltip-text">
+                                    <strong style="display:block; margin-bottom:4px; text-transform:uppercase; opacity:0.8; border-bottom:1px solid rgba(255,255,255,0.2); padding-bottom:4px;">${term}</strong>
+                                    ${safeDef}
+                                </span>
+                            </span>`;
+                };
+
                 contentHTML = html`
-                    <div class="nasa-registry-view" style="border: 2px solid #0b3d91; padding: 1.5rem; border-radius: 8px; background: #f0f4fa; color: #0b3d91; margin-bottom: 1rem;">
-                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; border-bottom: 1px solid rgba(11,61,145,0.2); padding-bottom: 10px;">
-                            <i class="fas fa-rocket" style="font-size: 28px;"></i>
-                            <h4 style="margin:0; color: #0b3d91; text-transform: uppercase; letter-spacing: 1px; font-weight: 800;">Systems Engineering Technical Envelope</h4>
+                    <div class="nasa-registry-view">
+                        <div class="nasa-header">
+                            <i class="fas fa-rocket"></i>
+                            <h4>Systems Engineering Technical Envelope</h4>
                         </div>
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; font-size: 0.95em;">
-                            <div><strong>PBS Code:</strong> <code style="background: #0b3d91; color: white; padding: 2px 8px; border-radius: 4px; font-family: monospace;">${nr.pbs_id}</code></div>
-                            <div><strong>KDP Gate:</strong> <span style="color: #333;">${nr.kdp_gate}</span></div>
-                            <div><strong>Readiness Target:</strong> <span style="color: #333;">${nr.readiness_target}</span></div>
-                            <div><strong>Verification Artifact:</strong> <u style="color: #0b3d91; font-weight: 600;">${nr.verification_artifact}</u></div>
+                        <div class="nasa-grid">
+                            <div>
+                                ${unsafeHTML(linkTerm('PBS Code:', 'Product Breakdown Structure'))} 
+                                <span class="nasa-code-tag">${unsafeHTML(linkTerm(nr.pbs_id, nr.pbs_id, true))}</span>
+                            </div>
+                            <div>
+                                ${unsafeHTML(linkTerm('KDP Gate:', 'Key Decision Point'))} 
+                                <span>${unsafeHTML(linkTerm(nr.kdp_gate, nr.kdp_gate, true))}</span>
+                            </div>
+                            <div>
+                                ${unsafeHTML(linkTerm('Readiness Target:', 'Technology Readiness Level'))} 
+                                <span>${unsafeHTML(linkTerm(nr.readiness_target, nr.readiness_target, true))}</span>
+                            </div>
+                            <div>
+                                ${unsafeHTML(linkTerm('Verification Artifact:', 'Verification Artifact'))} 
+                                <u>${unsafeHTML(linkTerm(nr.verification_artifact, nr.verification_artifact, true))}</u>
+                            </div>
                         </div>
-                        <div style="margin-top: 1.5rem; padding: 1rem; background: white; border-radius: 6px; border-left: 4px solid #0b3d91; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
-                            <p style="margin:0; font-size: 0.85em; text-transform: uppercase; color: #666; margin-bottom: 5px;">NASA Technical Requirement (Appendix C compliant)</p>
-                            <p style="margin:0; color: #1a1a1a; line-height: 1.4; font-style: italic;">"${nr.requirement || nr.entry_criteria}"</p>
+                        <div class="nasa-quote-box">
+                            <p class="nasa-quote-label">NASA Technical Requirement (Appendix C Compliant)</p>
+                            <p class="nasa-quote-text">"${nr.requirement || nr.entry_criteria}"</p>
                         </div>
                     </div>`;
             }

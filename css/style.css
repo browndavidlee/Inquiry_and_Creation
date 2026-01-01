@@ -3876,3 +3876,177 @@ body.dark-mode-active .info-box {
     }
 }
 /* --- END COGNITIVE EQUALIZER MOBILE FIX --- */
+/* --- NASA REGISTRY THEME (Light/Dark Mode) --- */
+:root {
+    --nasa-border: #0b3d91;
+    --nasa-bg: #f0f4fa;
+    --nasa-text: #0b3d91;
+    --nasa-icon: #0b3d91;
+    --nasa-code-bg: #0b3d91;
+    --nasa-code-text: #ffffff;
+    --nasa-quote-bg: #ffffff;
+    --nasa-quote-text: #1a1a1a;
+    --nasa-quote-border: rgba(11,61,145,0.2);
+}
+
+body.dark-mode-active {
+    --nasa-border: #4fc3f7;       /* Light Blue */
+    --nasa-bg: #1c2833;           /* Dark Blue-Grey */
+    --nasa-text: #e1f5fe;         /* Off-white Blue */
+    --nasa-icon: #4fc3f7;         /* Light Blue */
+    --nasa-code-bg: #0277bd;      /* Medium Blue */
+    --nasa-code-text: #ffffff;
+    --nasa-quote-bg: #2c3e50;     /* Dark Card */
+    --nasa-quote-text: #ecf0f1;
+    --nasa-quote-border: rgba(79, 195, 247, 0.3);
+}
+
+.nasa-registry-view {
+    border: 2px solid var(--nasa-border);
+    background: var(--nasa-bg);
+    color: var(--nasa-text);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.nasa-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--nasa-quote-border);
+    padding-bottom: 10px;
+}
+
+.nasa-header i {
+    font-size: 28px;
+    color: var(--nasa-icon);
+}
+
+.nasa-header h4 {
+    margin: 0;
+    color: var(--nasa-text);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.nasa-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    font-size: 0.95em;
+}
+
+.nasa-code-tag {
+    background: var(--nasa-code-bg);
+    color: var(--nasa-code-text);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+.nasa-quote-box {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: var(--nasa-quote-bg);
+    border-radius: 6px;
+    border-left: 4px solid var(--nasa-border);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.nasa-quote-label {
+    margin: 0;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 5px;
+}
+
+.nasa-quote-text {
+    margin: 0;
+    color: var(--nasa-quote-text);
+    line-height: 1.4;
+    font-style: italic;
+}
+
+.nasa-glossary-link {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--nasa-border);
+    cursor: help;
+    color: inherit;
+    font-weight: bold;
+}
+
+.nasa-glossary-link:hover {
+    color: var(--color-highlight);
+    text-decoration-style: solid;
+}
+/* --- NASA TOOLTIP STYLES --- */
+.nasa-term {
+    position: relative;
+    cursor: help;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--nasa-border);
+    font-weight: bold;
+    color: inherit;
+}
+
+.nasa-term:hover {
+    color: var(--color-highlight);
+    text-decoration-style: solid;
+}
+
+.nasa-term .tooltip-text {
+    visibility: hidden;
+    width: 280px;
+    background-color: #2c3e50; /* Default Dark Background */
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 12px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 135%; /* Position above */
+    left: 50%;
+    margin-left: -140px; /* Center it */
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-weight: normal;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    pointer-events: none;
+    white-space: normal; /* Ensure text wraps */
+}
+
+/* Tooltip Arrow */
+.nasa-term .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #2c3e50 transparent transparent transparent;
+}
+
+.nasa-term:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Dark Mode Adjustment for Tooltip */
+body.dark-mode-active .nasa-term .tooltip-text {
+    background-color: #f0f4fa;
+    color: #0b3d91;
+    border: 1px solid #0b3d91;
+}
+body.dark-mode-active .nasa-term .tooltip-text::after {
+    border-color: #f0f4fa transparent transparent transparent;
+}

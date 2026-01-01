@@ -69,8 +69,16 @@
                                        "definition":  "Evidence or proof of something; a formal declaration that something is true."
                                    },
                                    {
+                                       "term":  "Attractor",
+                                       "definition":  "In complexity theory, a set of states toward which a system tends to evolve."
+                                   },
+                                   {
                                        "term":  "Attunement",
                                        "definition":  "The original term for Tool 1, representing the process of becoming aware of and responsive to a problem or phenomenon in its full context."
+                                   },
+                                   {
+                                       "term":  "Authenticated Qualification Data",
+                                       "definition":  "The final, verified data set proving that the system functions as intended in the relevant environment, used to certify flight readiness. (Tool 8 Artifact)"
                                    },
                                    {
                                        "term":  "Autoethnography",
@@ -83,6 +91,10 @@
                                    {
                                        "term":  "Balance",
                                        "definition":  "A condition in which different elements are in the correct proportions."
+                                   },
+                                   {
+                                       "term":  "Baseline Technology Development Plan (TDP)",
+                                       "definition":  "A strategic document outlining the schedule, resources, and milestones required to mature a technology from its current TRL to the required operational level. (Tool 2 Artifact)"
                                    },
                                    {
                                        "term":  "Blueprint",
@@ -107,6 +119,10 @@
                                    {
                                        "term":  "Case-Based Reasoning",
                                        "definition":  "A problem-solving paradigm that involves using the solutions to past, similar problems (cases) to inform the solution to a new problem."
+                                   },
+                                   {
+                                       "term":  "Causal Layered Analysis (CLA)",
+                                       "definition":  "A futures research method that deconstructs issues into four layers: Litany, System, Worldview, and Myth."
                                    },
                                    {
                                        "term":  "Chaotic",
@@ -267,6 +283,10 @@
                                    {
                                        "term":  "Deliberation",
                                        "definition":  "Long and careful consideration or discussion."
+                                   },
+                                   {
+                                       "term":  "Demonstrated Evidence Log",
+                                       "definition":  "A real-time record of the system\u0027s performance during fabrication or coding, capturing all deviations and non-conformances. (Tool 6 Artifact)"
                                    },
                                    {
                                        "term":  "Design System",
@@ -441,6 +461,10 @@
                                        "definition":  "The quality of forming a pleasing and consistent whole."
                                    },
                                    {
+                                       "term":  "Hazard Log",
+                                       "definition":  "A living document that tracks all identified risks, their potential impact, and the status of mitigation efforts."
+                                   },
+                                   {
                                        "term":  "Heuristics",
                                        "definition":  "Mental shortcuts or rules of thumb that simplify complex problem-solving."
                                    },
@@ -505,6 +529,14 @@
                                        "definition":  "The quality of being honest and having strong moral principles; the state of being whole and undivided."
                                    },
                                    {
+                                       "term":  "Interface Control Document (ICD)",
+                                       "definition":  "A document that defines the inputs, outputs, and relationship requirements between two or more systems or subsystems."
+                                   },
+                                   {
+                                       "term":  "Interoception",
+                                       "definition":  "The sense of the internal state of the body. Used as a data point for \u0027gut feelings\u0027 and intuition."
+                                   },
+                                   {
                                        "term":  "Intuition",
                                        "definition":  "The conscious experience of non-conscious pattern-matching. The framework treats these \u0027gut feelings\u0027 as valid data points for further inquiry, often grounded in interoceptive signals or extensive past experience."
                                    },
@@ -543,6 +575,22 @@
                                    {
                                        "term":  "Kaizen",
                                        "definition":  "A Japanese philosophy of continuous, incremental improvement."
+                                   },
+                                   {
+                                       "term":  "KDP B Decision Logic Report",
+                                       "definition":  "A formal record documenting the rationale for selecting the baseline architecture and explicitly justifying the rejection of alternative options. (Tool 4 Artifact)"
+                                   },
+                                   {
+                                       "term":  "KDP Gate",
+                                       "definition":  "Key Decision Point. A mandatory review gate in the NASA project lifecycle where the Decision Authority determines if the project is ready to progress to the next phase (e.g., Pre-Phase A to Phase A)."
+                                   },
+                                   {
+                                       "term":  "Key Decision Point",
+                                       "definition":  "A mandatory review gate in the project lifecycle where the Decision Authority determines readiness to progress to the next phase."
+                                   },
+                                   {
+                                       "term":  "Key Decision Point (KDP)",
+                                       "definition":  "A formal gate in the project lifecycle where the decision authority determines the readiness of the program to progress to the next phase."
                                    },
                                    {
                                        "term":  "Knowledge Transfer",
@@ -601,6 +649,10 @@
                                        "definition":  "A visual collage of images, text, and samples used to define a project\u0027s aesthetic and emotional territory."
                                    },
                                    {
+                                       "term":  "Neural Replay",
+                                       "definition":  "The reactivation of specific neural patterns during rest (Consolidation Period) that strengthens memory and enables abstraction."
+                                   },
+                                   {
                                        "term":  "New Questions",
                                        "definition":  "The novel inquiries that are made possible by the completion of a research project."
                                    },
@@ -641,6 +693,10 @@
                                        "definition":  "The original term for Tool 10, representing the planning and coordination of the elements of a situation to produce a desired effect."
                                    },
                                    {
+                                       "term":  "Participatory Action Research (PAR)",
+                                       "definition":  "A research approach that emphasizes participation and action, seeking to understand the world by trying to change it, collaboratively and following reflection."
+                                   },
+                                   {
                                        "term":  "Pattern Language",
                                        "definition":  "A method of describing good design practices as a network of solutions to common problems."
                                    },
@@ -649,8 +705,16 @@
                                        "definition":  "The process of identifying and understanding recurring patterns."
                                    },
                                    {
+                                       "term":  "PBS Code",
+                                       "definition":  "Product Breakdown Structure Code. A hierarchical numbering system used to index every physical component of a system, ensuring no orphan parts exist and enabling precise configuration control."
+                                   },
+                                   {
                                        "term":  "Peer Review",
                                        "definition":  "The evaluation of work by people with similar competencies."
+                                   },
+                                   {
+                                       "term":  "Phase A Loop",
+                                       "definition":  "The Concept \u0026 Technology Development phase. The goal is to determine the feasibility and desirability of a new system and establish an initial baseline compatibility."
                                    },
                                    {
                                        "term":  "Phenomenon",
@@ -681,6 +745,14 @@
                                        "definition":  "One of the two core personas in the framework, representing the individual or team directly engaged in the work of inquiry and creation. The Practitioner view focuses on \"What do I need to do right now to make progress?\""
                                    },
                                    {
+                                       "term":  "Prediction Error",
+                                       "definition":  "The discrepancy between the brain\u0027s expectation (prior model) and sensory reality. This is the primary trigger for learning and inquiry."
+                                   },
+                                   {
+                                       "term":  "Pre-Mortem",
+                                       "definition":  "A strategic exercise where the team imagines a future failure and works backward to determine its cause."
+                                   },
+                                   {
                                        "term":  "Prioritization",
                                        "definition":  "The action of deciding the relative importance of a set of items."
                                    },
@@ -701,8 +773,24 @@
                                        "definition":  "The proactive task of identifying, analyzing and improving upon existing business processes."
                                    },
                                    {
+                                       "term":  "Product Breakdown Map (Hierarchical)",
+                                       "definition":  "A visual decomposition of the system into its constituent parts, used to organize the work and ensure all interfaces are identified. (Tool 5 Artifact)"
+                                   },
+                                   {
+                                       "term":  "Product Breakdown Structure",
+                                       "definition":  "A hierarchical decomposition of the physical components of a system, used to organize work and ensure no orphan parts exist."
+                                   },
+                                   {
+                                       "term":  "Product Breakdown Structure (PBS)",
+                                       "definition":  "A hierarchical decomposition of the physical components of a system."
+                                   },
+                                   {
                                        "term":  "Product-Market Fit",
                                        "definition":  "The degree to which a product satisfies strong market demand."
+                                   },
+                                   {
+                                       "term":  "Project Legacy Playbook",
+                                       "definition":  "A codified set of generalizable principles, lessons learned, and reusable assets extracted from a completed project for future use. (Tool 9 Artifact)"
                                    },
                                    {
                                        "term":  "Proof",
@@ -759,6 +847,10 @@
                                    {
                                        "term":  "RACI Matrix",
                                        "definition":  "A responsibility assignment chart (Responsible, Accountable, Consulted, Informed)."
+                                   },
+                                   {
+                                       "term":  "Readiness Target",
+                                       "definition":  "The required Technology Readiness Level (TRL) that a system must achieve by a specific milestone to be considered viable for the next stage of development."
                                    },
                                    {
                                        "term":  "Reciprocity",
@@ -829,8 +921,16 @@
                                        "definition":  "A method of problem solving used for identifying the root causes of faults or problems."
                                    },
                                    {
+                                       "term":  "Safe-to-Fail Probe",
+                                       "definition":  "A small-scale experiment designed to test a hypothesis in a Complex domain where the outcome is unpredictable, but the cost of failure is acceptable."
+                                   },
+                                   {
                                        "term":  "Salience",
                                        "definition":  "The quality of being particularly noticeable or important."
+                                   },
+                                   {
+                                       "term":  "Salience Network (SN)",
+                                       "definition":  "The neural network responsible for detecting behaviorally relevant stimuli and switching between the Default Mode Network and the Executive Control Network."
                                    },
                                    {
                                        "term":  "Scaffolding",
@@ -961,8 +1061,32 @@
                                        "definition":  "A set of connected things or parts forming a complex whole."
                                    },
                                    {
+                                       "term":  "Systems Engineering Technical Envelope",
+                                       "definition":  "The set of limiting parameters, requirements, and constraints that define the boundaries within which a system must be designed, built, and operated to ensure mission success."
+                                   },
+                                   {
+                                       "term":  "Systems Health Diagnosis",
+                                       "definition":  "A continuous monitoring report assessing the stability, performance trends, and risk profile of the system or organization. (Tool 10 Artifact)"
+                                   },
+                                   {
                                        "term":  "Teaching Story",
                                        "definition":  "A narrative crafted to transmit a specific lesson, moral, or piece of cultural knowledge."
+                                   },
+                                   {
+                                       "term":  "Technical Authority (TA)",
+                                       "definition":  "The governance structure responsible for setting and enforcing technical standards, independent of the program/project management chain."
+                                   },
+                                   {
+                                       "term":  "Technology Needs Assessment (TNA)",
+                                       "definition":  "A formal analysis identifying the gap between current technological capabilities and the specific requirements of a proposed mission. (Tool 1 Artifact)"
+                                   },
+                                   {
+                                       "term":  "Technology Readiness Level",
+                                       "definition":  "A measurement system used to assess the maturity level of a particular technology (TRL 1-9)."
+                                   },
+                                   {
+                                       "term":  "Technology Readiness Level (TRL)",
+                                       "definition":  "A measurement system used to assess the maturity level of a particular technology."
                                    },
                                    {
                                        "term":  "Tension",
@@ -981,8 +1105,20 @@
                                        "definition":  "A balance achieved between two desirable but incompatible features; a compromise."
                                    },
                                    {
+                                       "term":  "Transient Hypofrontality",
+                                       "definition":  "The temporary downregulation of the prefrontal cortex (executive control) to allow for flow states and divergent thinking."
+                                   },
+                                   {
                                        "term":  "Transmission",
                                        "definition":  "The action of passing something from one person or place to another."
+                                   },
+                                   {
+                                       "term":  "TRAR (Maturity Report)",
+                                       "definition":  "Test Readiness Assessment Report. A formal document certifying that the system, test environment, and personnel are ready for formal verification testing. (Tool 7 Artifact)"
+                                   },
+                                   {
+                                       "term":  "TRL Options Portfolio",
+                                       "definition":  "A strategic collection of potential technology solutions, analyzed by maturity and risk, used to avoid premature lock-in to a single solution. (Tool 3 Artifact)"
                                    },
                                    {
                                        "term":  "User Acceptance Testing (UAT)",
@@ -1001,6 +1137,22 @@
                                        "definition":  "The original term for Tool 8, representing the action of checking or proving the accuracy of something."
                                    },
                                    {
+                                       "term":  "Valuation Network (vmPFC)",
+                                       "definition":  "The neural circuit (centered in the ventromedial prefrontal cortex) responsible for assigning subjective value and emotional weight to options during decision-making."
+                                   },
+                                   {
+                                       "term":  "Verification",
+                                       "definition":  "The process of proving that a system meets its specified requirements (\u0027Did we build the thing right?\u0027)."
+                                   },
+                                   {
+                                       "term":  "Verification Artifact",
+                                       "definition":  "A tangible document, data set, or test result used to prove that a system meets a specific requirement (Verification) or user need (Validation)."
+                                   },
+                                   {
+                                       "term":  "Verification vs. Validation (V\u0026V)",
+                                       "definition":  "Verification asks \u0027Did we build the product right?\u0027 (conformance to spec). Validation asks \u0027Did we build the right product?\u0027 (conformance to user need)."
+                                   },
+                                   {
                                        "term":  "Virtue",
                                        "definition":  "The consistent practice of high moral and professional standards. In Tool 6, it frames application as an opportunity to embody principles of excellence, care, and integrity."
                                    },
@@ -1017,76 +1169,68 @@
                                        "definition":  "The act of seeing an event take place."
                                    },
                                    {
-                                       "term":  "Product Breakdown Structure (PBS)",
-                                       "definition":  "A hierarchical decomposition of the physical components of a system."
+                                       "term":  "TRL 2",
+                                       "definition":  "Technology concept and/or application formulated. Invention begins."
                                    },
                                    {
-                                       "term":  "Prediction Error",
-                                       "definition":  "The discrepancy between the brain\u0027s expectation (prior model) and sensory reality. This is the primary trigger for learning and inquiry."
+                                       "term":  "Pre-Phase A",
+                                       "definition":  "Concept Studies. The stage where the feasibility and desirability of a potential new system are determined."
                                    },
                                    {
-                                       "term":  "Attractor",
-                                       "definition":  "In complexity theory, a set of states toward which a system tends to evolve."
+                                       "term":  "Phase E",
+                                       "definition":  "Operations \u0026 Sustainment. The stage where the mission is executed and the system is maintained."
                                    },
                                    {
-                                       "term":  "Transient Hypofrontality",
-                                       "definition":  "The temporary downregulation of the prefrontal cortex (executive control) to allow for flow states and divergent thinking."
+                                       "term":  "Phase B",
+                                       "definition":  "Preliminary Design \u0026 Technology Completion. The stage where the project establishes a preliminary design and completes technology development."
                                    },
                                    {
-                                       "term":  "Causal Layered Analysis (CLA)",
-                                       "definition":  "A futures research method that deconstructs issues into four layers: Litany, System, Worldview, and Myth."
+                                       "term":  "TRL 6",
+                                       "definition":  "System/subsystem model or prototype demonstration in a relevant environment."
                                    },
                                    {
-                                       "term":  "Pre-Mortem",
-                                       "definition":  "A strategic exercise where the team imagines a future failure and works backward to determine its cause."
+                                       "term":  "TRL 9",
+                                       "definition":  "Actual system flight proven through successful mission operations."
                                    },
                                    {
-                                       "term":  "Valuation Network (vmPFC)",
-                                       "definition":  "The neural circuit (centered in the ventromedial prefrontal cortex) responsible for assigning subjective value and emotional weight to options during decision-making."
+                                       "term":  "Phase C",
+                                       "definition":  "Final Design \u0026 Fabrication. The stage where the detailed design is completed and hardware fabrication begins."
                                    },
                                    {
-                                       "term":  "Participatory Action Research (PAR)",
-                                       "definition":  "A research approach that emphasizes participation and action, seeking to understand the world by trying to change it, collaboratively and following reflection."
+                                       "term":  "TRL 4",
+                                       "definition":  "Component and/or breadboard validation in laboratory environment."
                                    },
                                    {
-                                       "term":  "Verification vs. Validation (V\u0026V)",
-                                       "definition":  "Verification asks \u0027Did we build the product right?\u0027 (conformance to spec). Validation asks \u0027Did we build the right product?\u0027 (conformance to user need)."
+                                       "term":  "Phase F",
+                                       "definition":  "Closeout. The stage where the mission is concluded and the system is decommissioned."
                                    },
                                    {
-                                       "term":  "Interoception",
-                                       "definition":  "The sense of the internal state of the body. Used as a data point for \u0027gut feelings\u0027 and intuition."
+                                       "term":  "Phase A",
+                                       "definition":  "Concept \u0026 Technology Development. The stage where the mission architecture is defined and critical technologies are matured."
                                    },
                                    {
-                                       "term":  "Hazard Log",
-                                       "definition":  "A living document that tracks all identified risks, their potential impact, and the status of mitigation efforts."
+                                       "term":  "TRL 1",
+                                       "definition":  "Basic principles observed and reported. Scientific research begins to be translated into applied research and development."
                                    },
                                    {
-                                       "term":  "Key Decision Point (KDP)",
-                                       "definition":  "A formal gate in the project lifecycle where the decision authority determines the readiness of the program to progress to the next phase."
+                                       "term":  "TRL 8",
+                                       "definition":  "Actual system completed and \u0027flight qualified\u0027 through test and demonstration."
                                    },
                                    {
-                                       "term":  "Technical Authority (TA)",
-                                       "definition":  "The governance structure responsible for setting and enforcing technical standards, independent of the program/project management chain."
+                                       "term":  "TRL 5",
+                                       "definition":  "Component and/or breadboard validation in relevant environment."
                                    },
                                    {
-                                       "term":  "Technology Readiness Level (TRL)",
-                                       "definition":  "A measurement system used to assess the maturity level of a particular technology."
+                                       "term":  "Phase D",
+                                       "definition":  "System Assembly, Integration \u0026 Test, Launch. The stage where the system is built, tested, and launched."
                                    },
                                    {
-                                       "term":  "Interface Control Document (ICD)",
-                                       "definition":  "A document that defines the inputs, outputs, and relationship requirements between two or more systems or subsystems."
+                                       "term":  "TRL 7",
+                                       "definition":  "System prototype demonstration in an operational environment."
                                    },
                                    {
-                                       "term":  "Safe-to-Fail Probe",
-                                       "definition":  "A small-scale experiment designed to test a hypothesis in a Complex domain where the outcome is unpredictable, but the cost of failure is acceptable."
-                                   },
-                                   {
-                                       "term":  "Neural Replay",
-                                       "definition":  "The reactivation of specific neural patterns during rest (Consolidation Period) that strengthens memory and enables abstraction."
-                                   },
-                                   {
-                                       "term":  "Salience Network (SN)",
-                                       "definition":  "The neural network responsible for detecting behaviorally relevant stimuli and switching between the Default Mode Network and the Executive Control Network."
+                                       "term":  "TRL 3",
+                                       "definition":  "Analytical and experimental critical function and/or characteristic proof of concept."
                                    }
                                ]
                  },
