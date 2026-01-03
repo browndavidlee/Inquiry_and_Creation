@@ -28,7 +28,7 @@
                },
     "nodes":  [
                   {
-                      "id":  "ethical-red-flag",
+                      "id":  "pull-the-ethical-red-flag",
                       "uid":  "N01",
                       "name":  "Pull the \u0027Ethical Red Flag\u0027",
                       "description":  "Halt the current process to address an urgent ethical concern that has emerged, using the Contextual Lenses to guide the discussion.",
@@ -5514,7 +5514,7 @@
                       "_tag_description":  "JSON@nodes.json::nodeModal.body.description"
                   },
                   {
-                      "id":  "make-feature-cut",
+                      "id":  "feature-cut",
                       "uid":  "N63",
                       "name":  "Make a Feature Cut",
                       "description":  "Prioritize a list of features by value and draw a \u0027cut line\u0027 to decide what will not be built in order to meet a deadline or budget.",
@@ -6497,7 +6497,7 @@
                       "_tag_description":  "JSON@nodes.json::nodeModal.body.description"
                   },
                   {
-                      "id":  "engage-reflective-practice",
+                      "id":  "engage-in-reflective-practice",
                       "uid":  "N74",
                       "name":  "Engage in Reflective Practice",
                       "description":  "The act of analyzing one\u0027s own work and process to improve. In T10, it improves future performance. In T1, it is a tool for self-attunement to find an authentic inquiry. In T9, it is a tool for personal meaning-making.",
@@ -8007,7 +8007,7 @@
                       "_tag_description":  "JSON@nodes.json::nodeModal.body.description"
                   },
                   {
-                      "id":  "facilitate-deep-listening-session",
+                      "id":  "facilitate-deep-listening",
                       "uid":  "N92",
                       "name":  "Facilitate a Non-defensive listening Session",
                       "description":  "Conduct a feedback session where the primary goal is to receive communication with full, non-judgmental attention, seeking to understand the need behind the words rather than to rebut or problem-solve immediately.",
@@ -8265,7 +8265,7 @@
                       "_tag_description":  "JSON@nodes.json::nodeModal.body.description"
                   },
                   {
-                      "id":  "frame-the-ask",
+                      "id":  "frame-the-question",
                       "uid":  "N95",
                       "name":  "Frame the Question \u0026 Set the Rules",
                       "description":  "A protocol for defining what kind of feedback is needed. In T7, it focuses formative feedback. In T8, it is a boundary-setting tool to manage the validation environment and empower the presenter.",
@@ -8473,7 +8473,7 @@
                       "_tag_description":  "JSON@nodes.json::nodeModal.body.description"
                   },
                   {
-                      "id":  "consolidation-period",
+                      "id":  "enter-a-consolidation-period",
                       "uid":  "N97",
                       "name":  "Enter a Consolidation Period",
                       "description":  "A formal, mandated period of rest and reflection after a major inquiry cycle. All forward progress on new features is halted to allow for subconscious memory consolidation, strategic integration of learnings, and team recovery.",
@@ -8561,7 +8561,7 @@
                       "_tag_description":  "JSON@nodes.json::nodeModal.body.description"
                   },
                   {
-                      "id":  "the-handoff-ritual",
+                      "id":  "handoff-ritual",
                       "uid":  "N98",
                       "name":  "The Handoff Ritual",
                       "description":  "A formal meeting to ensure shared understanding. In T5, it ensures the plan is clear before execution. In T6, it serves as a \u0027kickoff\u0027 ritual to confirm alignment one last time before work begins.",
@@ -8656,7 +8656,7 @@
                       "_tag_description":  "JSON@nodes.json::nodeModal.body.description"
                   },
                   {
-                      "id":  "portfolio-review",
+                      "id":  "run-portfolio-review",
                       "uid":  "N99",
                       "name":  "Run a Portfolio Review",
                       "description":  "A strategic leadership ritual to evaluate a portfolio of potential projects against the organization\u0027s capacity and long-term goals, resulting in a prioritized roadmap for the upcoming cycle.",
@@ -8744,7 +8744,7 @@
                       "_tag_description":  "JSON@nodes.json::nodeModal.body.description"
                   },
                   {
-                      "id":  "diagnostic-hub",
+                      "id":  "use-diagnostic-hub",
                       "uid":  "N100",
                       "name":  "Use the Diagnostic Hub",
                       "description":  "An intervention for when a team is stuck, arguing, or lost. It is a structured process to pause the work, diagnose the current context (e.g., using Cynefin), and deliberately choose the appropriate tool or pathway to move forward.",

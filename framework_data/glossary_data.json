@@ -733,6 +733,82 @@
                       "home_domain":  "Systems Thinking",
                       "parent_tool":  "tool10",
                       "general_principle":  "A place in a complex system where a small shift in one thing can produce big changes in everything."
+                  },
+                  {
+                      "term":  "Pre-Phase A",
+                      "general_principle":  "Concept Studies: Identifying feasible mission concepts."
+                  },
+                  {
+                      "term":  "KDP A",
+                      "general_principle":  "Key Decision Point A: Transition to Technology Development."
+                  },
+                  {
+                      "term":  "TRL 1",
+                      "general_principle":  "TRL 1: Basic principles observed and reported."
+                  },
+                  {
+                      "term":  "TRL 2",
+                      "general_principle":  "TRL 2: Technology concept formulated."
+                  },
+                  {
+                      "term":  "TRL 3",
+                      "general_principle":  "TRL 3: Proof of Concept established."
+                  },
+                  {
+                      "term":  "KDP B",
+                      "general_principle":  "Key Decision Point B: Transition to Preliminary Design."
+                  },
+                  {
+                      "term":  "TRL 4",
+                      "general_principle":  "TRL 4: Component validation in laboratory."
+                  },
+                  {
+                      "term":  "Phase B/C Interface",
+                      "general_principle":  "The transition from Preliminary Design to Final Fabrication."
+                  },
+                  {
+                      "term":  "TRL 5",
+                      "general_principle":  "TRL 5: Validation in relevant environment."
+                  },
+                  {
+                      "term":  "Phase D",
+                      "general_principle":  "System Assembly, Integration, Test, and Launch."
+                  },
+                  {
+                      "term":  "TRL 6",
+                      "general_principle":  "TRL 6: System prototype demonstration."
+                  },
+                  {
+                      "term":  "Integration",
+                      "general_principle":  "The process of combining subsystems into one functional system."
+                  },
+                  {
+                      "term":  "TRL 7",
+                      "general_principle":  "TRL 7: System prototype in operational environment."
+                  },
+                  {
+                      "term":  "KDP C",
+                      "general_principle":  "Key Decision Point C: Authorization for Final Design and Fabrication."
+                  },
+                  {
+                      "term":  "TRL 8",
+                      "general_principle":  "TRL 8: Actual system flight qualified."
+                  },
+                  {
+                      "term":  "Phase F",
+                      "general_principle":  "Closeout: Final mission disposal and archiving."
+                  },
+                  {
+                      "term":  "TRL 9",
+                      "general_principle":  "TRL 9: Actual system flight proven."
+                  },
+                  {
+                      "term":  "Technical Management",
+                      "general_principle":  "The management of the technical envelope and requirements."
+                  },
+                  {
+                      "term":  "System Stability Maintenance",
+                      "general_principle":  "Ensuring the system remains functional and reliable over time."
                   }
               ],
     "_metadata":  {

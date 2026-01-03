@@ -61,6 +61,7 @@ const domainKeyMap = {
     "Humanities & SS.": "humanities_and_ss",
     "Arts & Design": "arts_and_design",
     "Business & Agile": "business_and_agile",
+    "Wisdom & Ethics": "wisdom_and_ethics",
     "Integrated Knowledge & Ethics": "integrated_knowledge_and_ethics",
     "Pedagogy & Facil.": "pedagogy_and_facil"
 };

@@ -4508,3 +4508,92 @@ body.dark-mode-active .nasa-term .tooltip-text::after {
         grid-column: span 2 !important;
     }
 }
+
+/* --- RESCUE FIX v35.1: Interaction Safety --- */
+#connection-svg {
+    pointer-events: none !important; /* Ensure clicks pass through */
+}
+.method-card, .tool-card {
+    cursor: pointer;
+    z-index: 10; /* Ensure cards are above SVG */
+    position: relative;
+}
+
+/* --- RESCUE FIX v36.0: Hard Reset --- */
+#connection-svg {
+    pointer-events: none !important;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.method-card, .tool-card {
+    cursor: pointer;
+    z-index: 10;
+    position: relative;
+    user-select: none; /* Prevent text selection on rapid clicks */
+}
+#network-grid {
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* --- RESCUE FIX v37.0: Stable Container --- */
+#network-grid {
+    position: relative;
+    overflow: auto; /* Allow scrolling */
+    width: 100%;
+    height: auto;
+    min-height: 600px; /* Ensure space for lines */
+}
+
+#connection-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none !important;
+    z-index: 0;
+    /* Width/Height set by JS once */
+}
+
+.method-row-container.single-row, .tool-row {
+    position: relative;
+    z-index: 1;
+    width: max-content; /* Force container to expand to fit cards */
+    padding: 20px;
+}
+
+/* --- RESCUE FIX v38.0: Positioning Context --- */
+#network-grid {
+    position: relative !important; /* Critical: Makes offsetLeft relative to this container */
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    min-height: 600px;
+    display: block; /* Ensure it's a block for scrolling */
+}
+
+#connection-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none !important;
+    z-index: 0;
+}
+
+.method-row-container.single-row, .tool-row {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: max-content; /* Force width to fit content */
+}
+
+.method-card, .tool-card {
+    position: relative;
+    z-index: 10;
+    background: var(--color-card);
+    cursor: pointer;
+}
