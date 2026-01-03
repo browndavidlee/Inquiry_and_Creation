@@ -1,4 +1,4 @@
-﻿// js/uiComponents.js
+// js/uiComponents.js
 
 import { html } from 'https://cdn.jsdelivr.net/npm/lit-html@3.1.2/lit-html.js';
 import { unsafeHTML } from 'https://cdn.jsdelivr.net/npm/lit-html@3.1.2/directives/unsafe-html.js';
@@ -2347,7 +2347,7 @@ createPlaybook: function(tool, currentPersona, currentStance, activePerspective 
             });
     
             return html`
-                <div class="accordion-item" data-id="${pathway.id}" data-domain="${pathway.domain}" data-type="${pathway.type}" data-category="${pathway.category || ''}">
+                <div class="accordion-item" id="pathway-${pathway.id}" data-id="${pathway.id}" data-domain="${pathway.domain}" data-type="${pathway.type}" data-category="${pathway.category || ''}">
                     <button class="accordion-header">
                         <span class="accordion-title-group">
                             <i class="fas ${domainInfo.icon} domain-icon" style="color: ${domainInfo.color};"></i>
@@ -2433,3 +2433,37 @@ createPlaybook: function(tool, currentPersona, currentStance, activePerspective 
         `;
     }
 };
+
+// --- AUTO-JUMP NAVIGATION LOGIC ---
+// This ensures that links like ?view=pathways&expand=123 actually scroll and open
+window.addEventListener('hashchange', handlePathwayJump);
+window.addEventListener('popstate', handlePathwayJump);
+
+function handlePathwayJump() {
+    const params = new URLSearchParams(window.location.search);
+    const expandId = params.get('expand');
+    if (!expandId) return;
+
+    // Wait for the DOM to finish rendering
+    setTimeout(() => {
+        const targetCard = document.getElementById('pathway-' + expandId);
+        if (targetCard) {
+            // 1. Open the accordion
+            targetCard.classList.add('active');
+            const content = targetCard.querySelector('.accordion-content');
+            if (content) {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+
+            // 2. Scroll into view
+            targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            
+            // 3. Highlight effect
+            targetCard.style.outline = "2px solid var(--color-highlight)";
+            setTimeout(() => { targetCard.style.outline = "none"; }, 2000);
+        }
+    }, 300); // Short delay to allow lit-html to finish
+}
+
+// Run on initial load in case we landed directly on the URL
+handlePathwayJump();

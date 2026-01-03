@@ -1,4 +1,4 @@
-﻿/* css/style.css */
+/* css/style.css */
 
 /* --- DEFENSIVE RULE FOR TOP SPACE --- */
 .main-content > *:first-child {
@@ -4050,3 +4050,51 @@ body.dark-mode-active .nasa-term .tooltip-text {
 body.dark-mode-active .nasa-term .tooltip-text::after {
     border-color: #f0f4fa transparent transparent transparent;
 }
+
+
+/* --- FIX V6: OFFSET HUD (Avoids Sidebar) --- */
+.tooltip, 
+.citation-tooltip, 
+.ref-tooltip,
+[data-tooltip]::after {
+    /* Break out of flow */
+    position: fixed !important; 
+    
+    /* Position: Bottom, but shifted RIGHT to avoid sidebar */
+    bottom: 20px !important;
+    
+    /* Center relative to the CONTENT area (assuming ~260px sidebar) */
+    left: calc(50% + 130px) !important; 
+    transform: translateX(-50%) !important;
+    
+    /* Reset others */
+    top: auto !important;
+    right: auto !important;
+    margin: 0 !important;
+    
+    /* Sizing */
+    width: auto !important;
+    min-width: 300px !important;
+    max-width: 600px !important; /* Slightly narrower for readability */
+    max-height: 35vh !important;
+    
+    /* Visuals */
+    background-color: #1a202c !important;
+    color: #f7fafc !important;
+    border: 2px solid #4fd1c5 !important;
+    border-radius: 8px !important;
+    padding: 15px 20px !important;
+    box-shadow: 0 0 50px rgba(0,0,0,0.9) !important;
+    z-index: 2147483647 !important;
+    
+    /* Text */
+    white-space: normal !important;
+    text-align: left !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    overflow-y: auto !important;
+    pointer-events: none !important;
+}
+
+/* Hide arrow */
+[data-tooltip]::before { display: none !important; }
