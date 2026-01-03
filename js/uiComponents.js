@@ -1,3 +1,4 @@
+const decodeHTML = (html) => { if(!html) return ''; var txt = document.createElement('textarea'); txt.innerHTML = html; return txt.value; };
 // js/uiComponents.js
 
 import { html } from 'https://cdn.jsdelivr.net/npm/lit-html@3.1.2/lit-html.js';
@@ -2326,7 +2327,7 @@ createPlaybook: function(tool, currentPersona, currentStance, activePerspective 
             return html`
                 <span class="citation-link" tabindex="0" role="button" aria-label="Show citation">
                     <i class="fas fa-book-open"></i>
-                    <span class="citation-tooltip">${escapeAttr(citationData.citation_text)}<br><br><strong>Rationale:</strong> ${escapeAttr(citationData.rationale || '')}</span>
+                    <span class="citation-tooltip">${decodeHTML(citationData.citation_text)}<br><br><strong>Rationale:</strong> ${escapeAttr(citationData.rationale || '')}</span>
                 </span>`;
         };
     

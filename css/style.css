@@ -4597,3 +4597,44 @@ body.dark-mode-active .nasa-term .tooltip-text::after {
     background: var(--color-card);
     cursor: pointer;
 }
+/* --- MOBILE TOOLTIP OVERFLOW FIX --- */
+@media (max-width: 768px) {
+    .citation-link { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+    .citation-link .citation-tooltip {
+        position: fixed !important;
+        bottom: 20px !important;
+        left: 50% !important;
+        top: auto !important;
+        transform: translateX(-50%) !important;
+        width: 92vw !important;
+        max-width: 450px !important;
+        white-space: normal !important;
+        z-index: 9999 !important; /* Below onboarding, above content */
+        padding: 16px !important;
+        background: #1a202c !important;
+        border: 2px solid var(--color-highlight) !important;
+        box-shadow: 0 -10px 30px rgba(0,0,0,0.5) !important;
+        pointer-events: auto !important;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+        max-height: 40vh;
+        overflow-y: auto;
+    }
+    .citation-link:focus .citation-tooltip,
+    .citation-link:active .citation-tooltip {
+        visibility: visible !important;
+        opacity: 1 !important;
+        bottom: 30px !important;
+    }
+    .citation-tooltip::before {
+        content: "Source Detail";
+        display: block;
+        font-size: 0.65rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: var(--color-highlight);
+        margin-bottom: 8px;
+        opacity: 0.8;
+    }
+}
