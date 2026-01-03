@@ -45,9 +45,9 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "ðŸ§  Psychological Dynamics",
+                                                       "title":  "🧠 Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "This stage requires \u0027transient hypofrontality\u0027â€”intentionally down-regulating the brain\u0027s critical judgment center (the ECN) to allow the creative, associative Default Mode Network (DMN) to operate freely. The core friction is \u0027Evaluation Apprehension\u0027â€”the social fear of being judged.",
+                                                       "content":  "This stage requires \u0027transient hypofrontality\u0027-intentionally down-regulating the brain\u0027s critical judgment center (the ECN) to allow the creative, associative Default Mode Network (DMN) to operate freely. The core friction is \u0027Evaluation Apprehension\u0027-the social fear of being judged.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -62,7 +62,7 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "ðŸ§© Integrative Strategies",
+                                                       "title":  "🧩 Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
                                                        "dynamic_playbook":  {
@@ -79,7 +79,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "🌏 Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective values receptive discovery as a complement to structured brainstorming, recognizing that breakthroughs often emerge from intuition and collective intelligence.",
                                                             "dynamic_playbook":  {
@@ -782,7 +782,7 @@
                                                   "dynamic_playbook":  {
                                                                            "practitioner":  [
                                                                                                 "Stand up and move around during brainstorming.",
-                                                                                                "Use \u0027Bodystorming\u0027â€”physically acting out an ideaâ€”to generate insights."
+                                                                                                "Use \u0027Bodystorming\u0027-physically acting out an idea-to generate insights."
                                                                                             ],
                                                                            "facilitator":  [
                                                                                                "Incorporate movement and icebreakers into the session.",
@@ -791,7 +791,7 @@
                                                                        }
                                               },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "ðŸ§  Cognitive Neuroscience",
+                                                       "title":  "🧠 Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Generation involves cooperative interplay between divergent, associative thinking (DMN) and the evaluative filtering of those ideas (ECN).",
                                                        "dynamic_playbook":  {
@@ -892,14 +892,14 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027-a small experiment designed to fail early-to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
                          "pedagogicalDynamics":  {
                                                      "title":  "ðŸ§‘â€ðŸ« Pedagogical Dynamics",
                                                      "simpleTitle":  "How We Learn Here",
-                                                     "content":  "The dynamic is **Field Creation**. The facilitator\u0027s primary job is to create and protect a \u0027generative field\u0027â€”a psychologically safe space where the learner\u0027s inner critic is quieted, allowing their creative, associative networks (DMN) to flourish.",
+                                                     "content":  "The dynamic is **Field Creation**. The facilitator\u0027s primary job is to create and protect a \u0027generative field\u0027-a psychologically safe space where the learner\u0027s inner critic is quieted, allowing their creative, associative networks (DMN) to flourish.",
                                                      "dynamic_playbook":  {
                                                                               "practitioner":  [
                                                                                                    "Trust the process. Allow yourself to generate \u0027bad\u0027 ideas.",
@@ -931,7 +931,7 @@
                                                                               },
                                                          "content":  "Generation requires a specific cognitive state: transient hypofrontality. Science achieves this by generating rival hypotheses; Art by sketching; Business by ideating user stories. The framework protects this fragile state from premature optimization.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "ðŸ“š Disciplinary Application",
+                                                         "title":  "📚 Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -982,7 +982,7 @@
                                                         "dynamic_playbook":  {
                                                                                  "practitioner":  [
                                                                                                       "Use physical tools to get away from the screen.",
-                                                                                                      "Combine different mediaâ€”sketching, writing, buildingâ€”to activate different parts of the brain."
+                                                                                                      "Combine different media-sketching, writing, building-to activate different parts of the brain."
                                                                                                   ],
                                                                                  "facilitator":  [
                                                                                                      "Choose the tool based on the desired outcome: digital for scale, physical for engagement.",
@@ -1164,7 +1164,7 @@
                         "title":  "Core Dynamics \u0026 Interactions"
                     },
                     {
-                        "human_display_content":  "##### Methodology Note\n\nThe following profile represents the cognitive state of *divergence*.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.1 | 1.0 | 0.5 | 0.5 | 0.8 | 0.5 | 2.5 | 1.5 | 2.8 | 2.0 | 4.8 | 1.2 | 1.5 | 4.5 | 2.5 |\n| **Humanities \u0026 SS.** | 1.5 | 1.5 | 0.2 | 0.2 | 1.5 | 0.2 | 4.2 | 0.5 | 1.5 | 2.5 | 4.9 | 2.5 | 2.8 | 4.2 | 3.0 |\n| **Arts \u0026 Design** | 4.5 | 2.5 | 3.0 | 2.5 | 3.5 | 3.0 | 1.5 | 0.2 | 4.0 | 1.0 | 5.0 | 4.0 | 1.5 | 5.0 | 2.0 |\n| **Business \u0026 Agile** | 3.0 | 2.5 | 1.5 | 0.5 | 1.5 | 1.0 | 3.5 | 1.0 | 2.5 | 2.0 | 4.5 | 2.0 | 4.5 | 4.0 | 2.0 |\n| **Integrated Knowledge \u0026 Ethics** | 1.5 | 2.0 | 0.5 | 0.5 | 4.0 | 0.5 | 3.0 | 0.5 | 1.5 | 2.0 | 4.5 | 3.5 | 3.0 | 4.0 | 4.0 |\n| **Pedagogy \u0026 Facil.** | 2.5 | 3.0 | 1.0 | 1.0 | 2.0 | 1.5 | 3.5 | 0.5 | 2.0 | 2.0 | 4.0 | 3.0 | 4.8 | 4.2 | 3.5 |\n\n#### Insight\n\nAcross all domains, **Associative** and **Creative** modalities spike, while **Logical** scores drop. This reflects the cognitive necessity of *transient hypofrontality*â€”down-regulating the executive control network to allow novel connections to form.",
+                        "human_display_content":  "##### Methodology Note\n\nThe following profile represents the cognitive state of *divergence*.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.1 | 1.0 | 0.5 | 0.5 | 0.8 | 0.5 | 2.5 | 1.5 | 2.8 | 2.0 | 4.8 | 1.2 | 1.5 | 4.5 | 2.5 |\n| **Humanities \u0026 SS.** | 1.5 | 1.5 | 0.2 | 0.2 | 1.5 | 0.2 | 4.2 | 0.5 | 1.5 | 2.5 | 4.9 | 2.5 | 2.8 | 4.2 | 3.0 |\n| **Arts \u0026 Design** | 4.5 | 2.5 | 3.0 | 2.5 | 3.5 | 3.0 | 1.5 | 0.2 | 4.0 | 1.0 | 5.0 | 4.0 | 1.5 | 5.0 | 2.0 |\n| **Business \u0026 Agile** | 3.0 | 2.5 | 1.5 | 0.5 | 1.5 | 1.0 | 3.5 | 1.0 | 2.5 | 2.0 | 4.5 | 2.0 | 4.5 | 4.0 | 2.0 |\n| **Integrated Knowledge \u0026 Ethics** | 1.5 | 2.0 | 0.5 | 0.5 | 4.0 | 0.5 | 3.0 | 0.5 | 1.5 | 2.0 | 4.5 | 3.5 | 3.0 | 4.0 | 4.0 |\n| **Pedagogy \u0026 Facil.** | 2.5 | 3.0 | 1.0 | 1.0 | 2.0 | 1.5 | 3.5 | 0.5 | 2.0 | 2.0 | 4.0 | 3.0 | 4.8 | 4.2 | 3.5 |\n\n#### Insight\n\nAcross all domains, **Associative** and **Creative** modalities spike, while **Logical** scores drop. This reflects the cognitive necessity of *transient hypofrontality*-down-regulating the executive control network to allow novel connections to form.",
                         "title":  "Data-Driven Modality Profile",
                         "ai_instructional_context":  {
                                                          "key_domain_variations":  {

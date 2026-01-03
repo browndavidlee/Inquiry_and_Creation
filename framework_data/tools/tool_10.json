@@ -46,9 +46,9 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "ðŸ§  Psychological Dynamics",
+                                                       "title":  "🧠 Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "This stage is about managing the cognitive load of self-monitoring. The core friction is \u0027Ego Depletion\u0027â€”the fatigue that comes from constantly analyzing one\u0027s own process, which can lead to a reversion to old, unhelpful habits.",
+                                                       "content":  "This stage is about managing the cognitive load of self-monitoring. The core friction is \u0027Ego Depletion\u0027-the fatigue that comes from constantly analyzing one\u0027s own process, which can lead to a reversion to old, unhelpful habits.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -63,7 +63,7 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "ðŸ§© Integrative Strategies",
+                                                       "title":  "🧩 Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This tool integrates self-awareness and systems thinking to manage the process of inquiry itself.",
                                                        "dynamic_playbook":  {
@@ -80,7 +80,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "🌏 Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective emphasizes self-awareness and reflection as the primary tools for skillful action.",
                                                             "dynamic_playbook":  {
@@ -345,7 +345,7 @@
                                        "Length":  25
                                    },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "ðŸ§  Cognitive Neuroscience",
+                                                       "title":  "🧠 Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Metacognition is the highest-order function of the Executive Control Network (ECN), involving self-monitoring, cognitive control, and the strategic allocation of other cognitive resources.",
                                                        "dynamic_playbook":  {
@@ -458,13 +458,13 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027-a small experiment designed to fail early-to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
                          "disciplinaryapplication":  {
                                                          "summary":  "How different fields apply the principle of metacognitive diagnosis and strategic intervention.",
-                                                         "title":  "ðŸ“š Disciplinary Application",
+                                                         "title":  "📚 Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",

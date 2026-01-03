@@ -46,9 +46,9 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "ðŸ§  Psychological Dynamics",
+                                                       "title":  "🧠 Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "Presentation is a high-stakes social performance that can trigger \u0027Impostor Syndrome\u0027â€”a status threat that activates the Amygdala. The goal is to regulate this threat response to keep the verbal and logical networks online.",
+                                                       "content":  "Presentation is a high-stakes social performance that can trigger \u0027Impostor Syndrome\u0027-a status threat that activates the Amygdala. The goal is to regulate this threat response to keep the verbal and logical networks online.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -63,7 +63,7 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "ðŸ§© Integrative Strategies",
+                                                       "title":  "🧩 Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This tool integrates analytical rigor with ethical and emotional intelligence to make wiser choices.",
                                                        "dynamic_playbook":  {
@@ -81,7 +81,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "🌏 Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective expands validation to include community-based and stakeholder-centered approaches, ensuring the work creates real-world value.",
                                                             "dynamic_playbook":  {
@@ -867,7 +867,7 @@
                                        "Length":  25
                                    },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "ðŸ§  Cognitive Neuroscience",
+                                                       "title":  "🧠 Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Validation coordinates logical assessment (ECN), social perspective-taking (Social Cognition Network), and value judgment (Valuation Network).",
                                                        "dynamic_playbook":  {
@@ -890,7 +890,7 @@
                                                      "simpleTitle":  "Vs. Other Models",
                                                      "models":  [
                                                                     {
-                                                                        "value_add":  "Tool 8 is a \u0027Defense\u0027â€”it proactively addresses risks and limitations to build trust and verify validity.",
+                                                                        "value_add":  "Tool 8 is a \u0027Defense\u0027-it proactively addresses risks and limitations to build trust and verify validity.",
                                                                         "derivation":  "Academic Defense",
                                                                         "model":  "Sales Pitch",
                                                                         "comparison":  "A pitch hides flaws to sell the product.",
@@ -955,7 +955,7 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027-a small experiment designed to fail early-to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
@@ -979,7 +979,7 @@
                                                                               },
                                                          "content":  "Validation is the social reality test. Science demands reproducibility; Business demands ROI; Culture demands accountability. The framework ensures the work is not just \u0027finished\u0027 but accepted and integrated by the target community.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "ðŸ“š Disciplinary Application",
+                                                         "title":  "📚 Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",

@@ -45,9 +45,9 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "ðŸ§  Psychological Dynamics",
+                                                       "title":  "🧠 Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "Decision-making is a battle between the logical ECN and the emotional Valuation Network (vmPFC). The core friction is \u0027Loss Aversion\u0027â€”the brain\u0027s tendency to feel the pain of losing options more strongly than the pleasure of choosing one. **Timing Tip:** Do this in the morning. Decision fatigue degrades the quality of choices later in the day.",
+                                                       "content":  "Decision-making is a battle between the logical ECN and the emotional Valuation Network (vmPFC). The core friction is \u0027Loss Aversion\u0027-the brain\u0027s tendency to feel the pain of losing options more strongly than the pleasure of choosing one. **Timing Tip:** Do this in the morning. Decision fatigue degrades the quality of choices later in the day.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -62,7 +62,7 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "ðŸ§ Â© Integrative Strategies",
+                                                       "title":  "🧩 Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This tool integrates analytical rigor with ethical and emotional intelligence to make wiser choices.",
                                                        "dynamic_playbook":  {
@@ -79,7 +79,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "🌏 Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective frames decision-making not as a calculation, but as an act of discernment and ethical commitment.",
                                                             "dynamic_playbook":  {
@@ -571,7 +571,7 @@
                                                                        }
                                               },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "ðŸ§  Cognitive Neuroscience",
+                                                       "title":  "🧠 Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Decision-making involves the Valuation Network (vmPFC) assigning subjective value to options, and the Executive Control Network (ECN) selecting an option based on goals.",
                                                        "dynamic_playbook":  {
@@ -671,7 +671,7 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027-a small experiment designed to fail early-to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
@@ -710,7 +710,7 @@
                                                                               },
                                                          "content":  "Decision-making is the pivot from thinking to doing. Science selects based on falsifiability; Business on ROI; Arts on aesthetic resonance. The framework ensures these decisions are explicit, defensible, and aligned with the original inquiry.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "ðŸ“š Disciplinary Application",
+                                                         "title":  "📚 Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",

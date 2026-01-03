@@ -46,7 +46,7 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "ðŸ§  Psychological Dynamics",
+                                                       "title":  "🧠 Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
                                                        "content":  "Receiving criticism triggers a \u0027Social Threat Response,\u0027 activating the same neural pathways as physical pain (Amygdala, ACC). The core friction is managing this defensive reaction to allow the ECN to process the feedback as data.",
                                                        "dynamic_playbook":  {
@@ -63,7 +63,7 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "ðŸ§© Integrative Strategies",
+                                                       "title":  "🧩 Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
                                                        "dynamic_playbook":  {
@@ -80,7 +80,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "🌏 Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective moves beyond \u0027debugging\u0027 to a process of discernment and listening, finding creative potential in unexpected outcomes.",
                                                             "dynamic_playbook":  {
@@ -836,7 +836,7 @@
                                        "Length":  25
                                    },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "ðŸ§  Cognitive Neuroscience",
+                                                       "title":  "🧠 Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Refinement is an interrupt-driven metacognitive loop. The Salience Network signals a \u0027prediction error,\u0027 engaging the ECN to analyze and plan a corrective action.",
                                                        "dynamic_playbook":  {
@@ -924,7 +924,7 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027-a small experiment designed to fail early-to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
@@ -948,7 +948,7 @@
                                                                               },
                                                          "content":  "Refinement is the loop of learning. Science analyzes data; Engineering debugs; Humanities revises. The framework emphasizes separating the \u0027signal\u0027 of the feedback from the \u0027noise\u0027 of emotional defensiveness.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "ðŸ“š Disciplinary Application",
+                                                         "title":  "📚 Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
