@@ -1741,3 +1741,176 @@ For example:
     }
 init();
 });
+
+// --- OMNIBUS LOGIC EXTENSION (v31.0) ---
+
+// 1. Toast System
+function showToast(msg) {
+    let container = document.getElementById('toast-container');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'toast-container';
+        document.body.appendChild(container);
+    }
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.textContent = msg;
+    container.appendChild(toast);
+    setTimeout(() => toast.remove(), 3000);
+}
+
+// 2. Auto-Save & Export (Safety Net)
+function initSafetyNet() {
+    // Auto-save
+    document.querySelectorAll('textarea, input[type="text"]').forEach(input => {
+        if (input.id) {
+            const saved = localStorage.getItem(input.id);
+            if (saved) input.value = saved;
+            input.addEventListener('input', (e) => {
+                localStorage.setItem(e.target.id, e.target.value);
+            });
+        }
+    });
+
+    // Markdown Export
+    const exportBtn = document.getElementById('export-log-btn');
+    if (exportBtn && !exportBtn.dataset.wired) {
+        exportBtn.addEventListener('click', () => {
+            let md = "# Positionality Log\n\n";
+            document.querySelectorAll('.log-entry').forEach(entry => {
+                const title = entry.querySelector('h3')?.textContent || 'Entry';
+                const prompt = entry.querySelector('blockquote')?.textContent || '';
+                const answer = entry.querySelector('.log-entry-answer')?.innerText || ''; // Use innerText to preserve newlines
+                md += `## ${title}\n**Prompt:** ${prompt}\n\n${answer}\n\n---\n\n`;
+            });
+            // Also grab planner inputs
+            document.querySelectorAll('.planner-field').forEach(field => {
+                const label = field.querySelector('label')?.textContent;
+                const val = field.querySelector('textarea')?.value;
+                if(val) md += `## ${label}\n${val}\n\n`;
+            });
+            
+            const blob = new Blob([md], {type: 'text/markdown'});
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = 'Inquiry_Log.md';
+            a.click();
+            showToast("Log exported as Markdown");
+        });
+        exportBtn.dataset.wired = 'true';
+    }
+}
+
+// 3. TOC Generator (Scannable Meta)
+function generateTOC() {
+    const main = document.getElementById('main-content');
+    // Only run on text-heavy views
+    if (!document.querySelector('.accordion-item') && !document.querySelector('.planner-field')) {
+        const headers = main.querySelectorAll('h2, h3');
+        if (headers.length < 3) return;
+
+        const existing = document.querySelector('.meta-toc');
+        if (existing) existing.remove();
+
+        const toc = document.createElement('div');
+        toc.className = 'meta-toc';
+        toc.innerHTML = '<h4>Contents</h4><ul></ul>';
+        const list = toc.querySelector('ul');
+
+        headers.forEach((h, index) => {
+            if (!h.id) h.id = 'toc-' + index;
+            const li = document.createElement('li');
+            li.innerHTML = `<a href="#${h.id}">${h.textContent}</a>`;
+            list.appendChild(li);
+        });
+        main.prepend(toc);
+    }
+}
+
+// 4. Natural Language Filter (Discovery)
+function injectNLFilter() {
+    const container = document.querySelector('.explorer-controls');
+    if (container && !document.getElementById('nl-filter')) {
+        const div = document.createElement('div');
+        div.id = 'nl-filter';
+        div.style.cssText = 'padding:15px; background:#f0f4f8; border-radius:8px; margin-bottom:20px; border:1px solid #dde1e6;';
+        div.innerHTML = `
+            <strong>I want to </strong>
+            <select id='nl-action' style='padding:5px; border-radius:4px;'><option value='all'>Explore</option><option value='create'>Create</option><option value='analyze'>Analyze</option></select>
+            <strong> a </strong>
+            <select id='nl-object' style='padding:5px; border-radius:4px;'><option value='all'>Project</option><option value='theory'>Theory</option><option value='product'>Product</option></select>
+            <button id='nl-go' style='margin-left:10px; padding:5px 15px; background:var(--color-highlight); color:white; border:none; border-radius:4px; cursor:pointer;'>Go</button>
+        `;
+        container.prepend(div);
+        
+        document.getElementById('nl-go').addEventListener('click', () => {
+            const action = document.getElementById('nl-action').value;
+            const object = document.getElementById('nl-object').value;
+            // Simple filter logic simulation
+            const items = document.querySelectorAll('.accordion-item');
+            let count = 0;
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                const match = (action === 'all' || text.includes(action)) && (object === 'all' || text.includes(object));
+                item.style.display = match ? 'block' : 'none';
+                if(match) count++;
+            });
+            showToast(`Found ${count} pathways`);
+        });
+    }
+}
+
+// 5. Bridge Content (Connection)
+function injectBridgeTags() {
+    document.querySelectorAll('.modality-card').forEach(card => {
+        if(!card.querySelector('.bridge-tag')) {
+            const id = card.dataset.modalityId;
+            // Mock mapping for demonstration
+            const map = { 'visual': 'Tool 5', 'verbal': 'Tool 8', 'logical': 'Tool 2' };
+            if (map[id]) {
+                const tag = document.createElement('div');
+                tag.className = 'bridge-tag';
+                tag.style.cssText = 'font-size:0.75rem; color:#666; margin-top:8px; padding-top:8px; border-top:1px solid #eee;';
+                tag.innerHTML = `<i class="fas fa-link"></i> Used heavily in: <strong>${map[id]}</strong>`;
+                card.appendChild(tag);
+            }
+        }
+    });
+}
+
+// 6. Diagnostic Tooltips
+function injectTooltips() {
+    const cards = document.querySelectorAll('.welcome-action-card');
+    cards.forEach(card => {
+        const title = card.querySelector('h4')?.textContent || '';
+        if (title.includes('Stuck')) card.setAttribute('data-tooltip', 'Goes to Tool 0: Diagnosis');
+        if (title.includes('Overview')) card.setAttribute('data-tooltip', 'See the big picture');
+    });
+}
+
+// Master Observer
+const observer = new MutationObserver((mutations) => {
+    // Debounce slightly to avoid thrashing
+    if (document.querySelector('.explorer-controls')) injectNLFilter();
+    if (document.querySelector('.modality-card')) injectBridgeTags();
+    if (document.querySelector('.welcome-action-card')) injectTooltips();
+    if (document.querySelector('textarea')) initSafetyNet();
+    
+    // Check for view changes to regen TOC
+    if (document.getElementById('main-content')) generateTOC();
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    observer.observe(document.body, { childList: true, subtree: true });
+    
+    // Stance Switch Toast Hook
+    document.body.addEventListener('click', (e) => {
+        const btn = e.target.closest('.stance-switch button');
+        if(btn && !btn.classList.contains('active')) {
+            const stance = btn.dataset.stance;
+            showToast(`Switched to ${stance.charAt(0).toUpperCase() + stance.slice(1)} Stance`);
+        }
+    });
+    
+    console.log("Omnibus Extensions v31.0 Loaded.");
+});

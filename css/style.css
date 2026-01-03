@@ -4408,3 +4408,46 @@ body.dark-mode-active .nasa-term .tooltip-text::after {
         grid-column: auto;
     }
 }
+
+/* --- OMNIBUS UI UPGRADE (v31.0) --- */
+
+/* Fix 1: Mobile Rescue (Tables to Cards) */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr { display: block !important; }
+    thead tr { position: absolute; top: -9999px; left: -9999px; }
+    tr { border: 1px solid #ccc; margin-bottom: 15px; border-radius: 8px; background: #fff; padding: 10px; }
+    td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 0 !important; text-align: left; display: block; margin-bottom: 5px; }
+    td:before { display: block; font-weight: bold; color: #666; content: attr(data-col-name); margin-bottom: 2px; }
+    .workflow-container { flex-direction: column !important; }
+    .workflow-stage { width: 100% !important; margin-bottom: 20px; }
+}
+
+/* Fix 3: Context-Aware Nav */
+.perspectives-nav { position: sticky; top: 0; z-index: 90; background: var(--color-background); padding: 10px 0; border-bottom: 1px solid var(--color-border); }
+@media (max-width: 768px) {
+    .perspectives-nav { position: fixed; bottom: 0; top: auto; left: 0; width: 100%; background: white; border-top: 1px solid #ccc; padding: 10px; display: flex; overflow-x: auto; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); z-index: 999; }
+    .perspective-tab { flex: 0 0 auto; margin-right: 10px; font-size: 0.8rem; padding: 8px 12px; white-space: nowrap; }
+    body { padding-bottom: 80px; } 
+}
+
+/* Fix 3: Toast Notifications */
+#toast-container { position: fixed; top: 20px; right: 20px; z-index: 9999; pointer-events: none; }
+.toast { background: #333; color: white; padding: 12px 24px; border-radius: 4px; margin-bottom: 10px; animation: fadein 0.5s, fadeout 0.5s 2.5s forwards; opacity: 0; pointer-events: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+@keyframes fadein { from {opacity: 0; transform: translateY(-20px);} to {opacity: 1; transform: translateY(0);} }
+@keyframes fadeout { from {opacity: 1;} to {opacity: 0;} }
+
+/* Fix 7: Scannable Meta (Sticky TOC) */
+.meta-toc { position: fixed; top: 100px; right: 20px; width: 200px; background: #fff; padding: 15px; border-radius: 8px; font-size: 0.85rem; border: 1px solid #eee; box-shadow: 0 2px 5px rgba(0,0,0,0.05); max-height: 80vh; overflow-y: auto; }
+.meta-toc h4 { margin-top: 0; margin-bottom: 10px; font-size: 0.9rem; color: #333; }
+.meta-toc ul { list-style: none; padding: 0; margin: 0; }
+.meta-toc li { margin-bottom: 8px; }
+.meta-toc a { text-decoration: none; color: #666; display: block; }
+.meta-toc a:hover { color: var(--color-highlight); }
+@media (max-width: 1200px) { .meta-toc { display: none; } }
+
+/* Fix 8: Tooltips */
+[data-tooltip] { position: relative; cursor: help; }
+[data-tooltip]:hover::after {
+    content: attr(data-tooltip); position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%);
+    background: #333; color: #fff; padding: 5px 10px; border-radius: 4px; font-size: 0.75rem; white-space: nowrap; z-index: 1000; margin-bottom: 5px;
+}
