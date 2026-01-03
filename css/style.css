@@ -4360,3 +4360,51 @@ body.dark-mode-active .nasa-term .tooltip-text::after {
         z-index: 2147483647 !important;
     }
 }
+
+
+/* --- MOBILE PERSPECTIVE GRID FIX (v29.0) --- */
+/* Mitigates vertical scrolling fatigue by using a 2-column grid */
+@media (max-width: 768px) {
+    .perspectives-nav {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px; /* Mitigation 5: Fat Finger (Increased gap for touch targets) */
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .perspective-tab {
+        width: 100% !important;
+        min-height: 50px; /* Mitigation 5: Minimum touch target size */
+        height: 100%; /* Mitigation 1: Tall Neighbor (Stretches to match tallest item in row) */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 !important;
+        padding: 8px 4px !important; /* Reduced side padding to fit text */
+        
+        /* Mitigation 2: Squished Word (Handle long words gracefully) */
+        hyphens: auto; 
+        word-break: break-word; 
+        font-size: 0.9rem;
+        line-height: 1.2;
+    }
+
+    /* Mitigation 3: The Orphaned Button */
+    /* If the last item is odd (leaving a gap), make it span the full width */
+    .perspective-tab:last-child:nth-child(odd) {
+        grid-column: span 2;
+    }
+}
+
+/* Mitigation 2 (Edge Case): Ultra-small screens */
+/* Revert to stack to prevent unreadable text on devices < 340px wide */
+@media (max-width: 340px) {
+    .perspectives-nav {
+        grid-template-columns: 1fr !important;
+    }
+    .perspective-tab:last-child:nth-child(odd) {
+        grid-column: auto;
+    }
+}
