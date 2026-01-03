@@ -1,4 +1,4 @@
-﻿{
+{
     "tools":  [
                   {
                       "toolId":  "tool1",
@@ -236,7 +236,7 @@
                       "toolId":  "tool9",
                       "streams":  [
                                       {
-                                          "application_prompt":  "Lift up from the details. This specific thing happened—what is the universal principle or pattern behind it that applies elsewhere?",
+                                          "application_prompt":  "Lift up from the details. This specific thing happened-what is the universal principle or pattern behind it that applies elsewhere?",
                                           "name":  "Abstractive \u0026 Theoretical",
                                           "id":  "T9.S1",
                                           "principle":  "Find the general rule."

@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -23,7 +23,8 @@
                                                            "**Reframe the Prompt:** Convert your problem statement into a \u0027How Might We\u0027 question. This linguistic shift primes the brain for possibility rather than analysis.",
                                                            "**Force Divergence:** Use a \u0027Silent Brainstorming\u0027 (`N15`) protocol first. Set a high quota (e.g., 20 ideas in 10 minutes) to exhaust obvious solutions and force novel associations.",
                                                            "**Apply Oblique Constraints:** If stuck, use a random constraint (`N66`) or analogy (`N18`). Ask: \u0027How would nature solve this?\u0027 or \u0027What if we had zero budget?\u0027",
-                                                           "**Defer Judgment:** Strictly separate generation from evaluation. Capture every idea, no matter how absurd. The \u0027bad\u0027 idea often contains the seed of the breakthrough."
+                                                           "**Defer Judgment:** Strictly separate generation from evaluation. Capture every idea, no matter how absurd. The \u0027bad\u0027 idea often contains the seed of the breakthrough.",
+                                                           "**The Harvest:** Before moving to Tool 4, group similar ideas and clean them up. Don\u0027t judge yet, just organize."
                                                        ]
                                           },
                          "facilitator":  {
@@ -44,9 +45,9 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "title":  "ðŸ§  Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "This stage requires \u0027transient hypofrontality\u0027—intentionally down-regulating the brain\u0027s critical judgment center (the ECN) to allow the creative, associative Default Mode Network (DMN) to operate freely. The core friction is \u0027Evaluation Apprehension\u0027—the social fear of being judged.",
+                                                       "content":  "This stage requires \u0027transient hypofrontality\u0027â€”intentionally down-regulating the brain\u0027s critical judgment center (the ECN) to allow the creative, associative Default Mode Network (DMN) to operate freely. The core friction is \u0027Evaluation Apprehension\u0027â€”the social fear of being judged.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -61,7 +62,7 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "🧩 Integrative Strategies",
+                                                       "title":  "ðŸ§© Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
                                                        "dynamic_playbook":  {
@@ -78,7 +79,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective values receptive discovery as a complement to structured brainstorming, recognizing that breakthroughs often emerge from intuition and collective intelligence.",
                                                             "dynamic_playbook":  {
@@ -114,7 +115,7 @@
                                                 "stage_name":  "Generation \u0026 Emergence",
                                                 "pathways":  [
                                                                  {
-                                                                     "pathway_name":  "📚 Science \u0026 Engineering - The Deductive Path",
+                                                                     "pathway_name":  "ðŸ“š Science \u0026 Engineering - The Deductive Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -180,7 +181,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ‘¥ Humanities \u0026 Social Sciences - The Dialectical Path",
+                                                                     "pathway_name":  "Ã°Å¸â€˜Â¥ Humanities \u0026 Social Sciences - The Dialectical Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -246,7 +247,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸŽ¨ Arts \u0026 Design - The Divergent Path",
+                                                                     "pathway_name":  "Ã°Å¸Å½Â¨ Arts \u0026 Design - The Divergent Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -309,7 +310,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸš€ Business \u0026 Agile - The User-Centered Path",
+                                                                     "pathway_name":  "Ã°Å¸Å¡â‚¬ Business \u0026 Agile - The User-Centered Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -373,7 +374,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🌍  Culture \u0026 Ethics - The Receptive Path",
+                                                                     "pathway_name":  "ðŸŒ  Culture \u0026 Ethics - The Receptive Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -432,7 +433,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "âœ¨ Speculative - The More-Than-Human Path",
+                                                                     "pathway_name":  "Ã¢Å“Â¨ Speculative - The More-Than-Human Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -495,7 +496,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🧠‘â€ ðŸ « Pedagogy \u0026 Facilitation - The Generative Field Path",
+                                                                     "pathway_name":  "ðŸ§ â€˜Ã¢â‚¬ Ã°Å¸ Â« Pedagogy \u0026 Facilitation - The Generative Field Path",
                                                                      "facilitator_model":  {
                                                                                                "sequence":  [
                                                                                                                 {
@@ -623,7 +624,7 @@
                                                                                        }
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Inspiration Log\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Inspiration Log\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -692,7 +693,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Failure Retrospective\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Failure Retrospective\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -775,13 +776,13 @@
                                                                      }
                                             },
                          "embodiedDynamics":  {
-                                                  "title":  "🤸 Embodied Dynamics",
+                                                  "title":  "ðŸ¤¸ Embodied Dynamics",
                                                   "simpleTitle":  "The Body\u0027s Role",
                                                   "content":  "Divergent thinking is highly embodied. Physical movement, gesture, and even laughter can break cognitive fixation and allow for new associations. A tense, still body is often a sign of a blocked mind.",
                                                   "dynamic_playbook":  {
                                                                            "practitioner":  [
                                                                                                 "Stand up and move around during brainstorming.",
-                                                                                                "Use \u0027Bodystorming\u0027—physically acting out an idea—to generate insights."
+                                                                                                "Use \u0027Bodystorming\u0027â€”physically acting out an ideaâ€”to generate insights."
                                                                                             ],
                                                                            "facilitator":  [
                                                                                                "Incorporate movement and icebreakers into the session.",
@@ -790,14 +791,15 @@
                                                                        }
                                               },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "title":  "ðŸ§  Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Generation involves cooperative interplay between divergent, associative thinking (DMN) and the evaluative filtering of those ideas (ECN).",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Identify the Cognitive State:** Read the description. What is the primary mental work required for this tool?",
                                                                                                      "**Anticipate Friction:** Based on the neuroscience, what part of this tool will be the most mentally taxing?",
-                                                                                                     "**Self-Regulate:** Use the insights to manage your own energy (e.g., \u0027This is an ECN-heavy tool, so I need to eliminate distractions\u0027)."
+                                                                                                     "**Self-Regulate:** Use the insights to manage your own energy (e.g., \u0027This is an ECN-heavy tool, so I need to eliminate distractions\u0027).",
+                                                                                                     "**Induce Hypofrontality:** To lower executive control: 1) Stand up. 2) Lower the lights. 3) Set a timer for 5 minutes (urgency bypasses the critic). 4) Use a \u0027bad idea\u0027 quota."
                                                                                                  ],
                                                                                 "facilitator":  [
                                                                                                     "**Diagnose the Group Brain:** Observe the team. Are they in the right cognitive state for this tool?",
@@ -841,7 +843,7 @@
                                                                           }
                                                  },
                          "teamDynamics":  {
-                                              "title":  "🤝 Team Dynamics",
+                                              "title":  "ðŸ¤ Team Dynamics",
                                               "simpleTitle":  "How We Work Together",
                                               "content":  "This stage requires high psychological safety. The team must trust that \u0027wild\u0027 ideas will be welcomed, not judged. The dynamic is one of \u0027building on\u0027 ideas (\u0027Yes, and...\u0027) rather than critiquing them.",
                                               "dynamic_playbook":  {
@@ -878,7 +880,7 @@
                                                                             }
                                                    },
                          "cynefinAnalysis":  {
-                                                 "title":  "🧭 Navigational Context",
+                                                 "title":  "ðŸ§­ Navigational Context",
                                                  "simpleTitle":  "Complexity Check",
                                                  "content":  "This stage re-engages with the unknown unknowns, seeking novel solutions that cannot be deduced from prior analysis. The goal is to create a portfolio of possibilities.",
                                                  "dynamic_playbook":  {
@@ -890,14 +892,14 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
                          "pedagogicalDynamics":  {
-                                                     "title":  "🧑‍🏫 Pedagogical Dynamics",
+                                                     "title":  "ðŸ§‘â€ðŸ« Pedagogical Dynamics",
                                                      "simpleTitle":  "How We Learn Here",
-                                                     "content":  "The dynamic is **Field Creation**. The facilitator\u0027s primary job is to create and protect a \u0027generative field\u0027—a psychologically safe space where the learner\u0027s inner critic is quieted, allowing their creative, associative networks (DMN) to flourish.",
+                                                     "content":  "The dynamic is **Field Creation**. The facilitator\u0027s primary job is to create and protect a \u0027generative field\u0027â€”a psychologically safe space where the learner\u0027s inner critic is quieted, allowing their creative, associative networks (DMN) to flourish.",
                                                      "dynamic_playbook":  {
                                                                               "practitioner":  [
                                                                                                    "Trust the process. Allow yourself to generate \u0027bad\u0027 ideas.",
@@ -929,7 +931,7 @@
                                                                               },
                                                          "content":  "Generation requires a specific cognitive state: transient hypofrontality. Science achieves this by generating rival hypotheses; Art by sketching; Business by ideating user stories. The framework protects this fragile state from premature optimization.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "📚 Disciplinary Application",
+                                                         "title":  "ðŸ“š Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -974,13 +976,13 @@
                                                                           ]
                                                      },
                          "technologicalMediation":  {
-                                                        "title":  "💻 Technological Mediation",
+                                                        "title":  "ðŸ’» Technological Mediation",
                                                         "simpleTitle":  "The Tools We Use",
                                                         "content":  "Digital whiteboards (like Miro) are excellent for volume and remote collaboration, but physical post-it notes can create a more tactile, embodied experience that fosters a different kind of creativity. The choice of medium matters.",
                                                         "dynamic_playbook":  {
                                                                                  "practitioner":  [
                                                                                                       "Use physical tools to get away from the screen.",
-                                                                                                      "Combine different media—sketching, writing, building—to activate different parts of the brain."
+                                                                                                      "Combine different mediaâ€”sketching, writing, buildingâ€”to activate different parts of the brain."
                                                                                                   ],
                                                                                  "facilitator":  [
                                                                                                      "Choose the tool based on the desired outcome: digital for scale, physical for engagement.",
@@ -1131,14 +1133,14 @@
                                 }
                             ],
     "tableData":  {
-                      "pedagogy":  "**Gagné:** Stimulate Recall\n**5E:** Explore\n**DLS:** Exploring\n**// NEW //**\n**Generative Field Path:** Constrain, Protect, Harvest",
+                      "pedagogy":  "**GagnÃ©:** Stimulate Recall\n**5E:** Explore\n**DLS:** Exploring\n**// NEW //**\n**Generative Field Path:** Constrain, Protect, Harvest",
                       "science":  "Construct Hypothesis / Competing Models",
                       "agile":  "Ideate User Stories / Options Portfolio",
                       "humanities":  "Formulate Interpretive Claim / Rival Readings",
                       "creative":  "Ideation / Sketching / Speculative Variants"
                   },
     "averagePathway":  {
-                           "title":  "The Average Pathway: Diverge → Compare → Converge on a Portfolio",
+                           "title":  "The Average Pathway: Diverge â†’ Compare â†’ Converge on a Portfolio",
                            "rationale":  "This is the classic creative problem-solving loop, improved to favor resilience over premature certainty. It begins by generating a wide range of possibilities, evaluates them against goals, and concludes by selecting a balanced portfolio of strong candidates to carry forward into more rigorous testing.",
                            "cognitiveSequence":  [
                                                      "Generate multiple, distinct options through divergent thinking, which involves a cooperative interplay between the DMN (for spontaneous idea generation) and the ECN (for combining ideas and strategic exploration).",
@@ -1162,7 +1164,7 @@
                         "title":  "Core Dynamics \u0026 Interactions"
                     },
                     {
-                        "human_display_content":  "##### Methodology Note\n\nThe following profile represents the cognitive state of *divergence*.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.1 | 1.0 | 0.5 | 0.5 | 0.8 | 0.5 | 2.5 | 1.5 | 2.8 | 2.0 | 4.8 | 1.2 | 1.5 | 4.5 | 2.5 |\n| **Humanities \u0026 SS.** | 1.5 | 1.5 | 0.2 | 0.2 | 1.5 | 0.2 | 4.2 | 0.5 | 1.5 | 2.5 | 4.9 | 2.5 | 2.8 | 4.2 | 3.0 |\n| **Arts \u0026 Design** | 4.5 | 2.5 | 3.0 | 2.5 | 3.5 | 3.0 | 1.5 | 0.2 | 4.0 | 1.0 | 5.0 | 4.0 | 1.5 | 5.0 | 2.0 |\n| **Business \u0026 Agile** | 3.0 | 2.5 | 1.5 | 0.5 | 1.5 | 1.0 | 3.5 | 1.0 | 2.5 | 2.0 | 4.5 | 2.0 | 4.5 | 4.0 | 2.0 |\n| **Integrated Knowledge \u0026 Ethics** | 1.5 | 2.0 | 0.5 | 0.5 | 4.0 | 0.5 | 3.0 | 0.5 | 1.5 | 2.0 | 4.5 | 3.5 | 3.0 | 4.0 | 4.0 |\n| **Pedagogy \u0026 Facil.** | 2.5 | 3.0 | 1.0 | 1.0 | 2.0 | 1.5 | 3.5 | 0.5 | 2.0 | 2.0 | 4.0 | 3.0 | 4.8 | 4.2 | 3.5 |\n\n#### Insight\n\nAcross all domains, **Associative** and **Creative** modalities spike, while **Logical** scores drop. This reflects the cognitive necessity of *transient hypofrontality*—down-regulating the executive control network to allow novel connections to form.",
+                        "human_display_content":  "##### Methodology Note\n\nThe following profile represents the cognitive state of *divergence*.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.1 | 1.0 | 0.5 | 0.5 | 0.8 | 0.5 | 2.5 | 1.5 | 2.8 | 2.0 | 4.8 | 1.2 | 1.5 | 4.5 | 2.5 |\n| **Humanities \u0026 SS.** | 1.5 | 1.5 | 0.2 | 0.2 | 1.5 | 0.2 | 4.2 | 0.5 | 1.5 | 2.5 | 4.9 | 2.5 | 2.8 | 4.2 | 3.0 |\n| **Arts \u0026 Design** | 4.5 | 2.5 | 3.0 | 2.5 | 3.5 | 3.0 | 1.5 | 0.2 | 4.0 | 1.0 | 5.0 | 4.0 | 1.5 | 5.0 | 2.0 |\n| **Business \u0026 Agile** | 3.0 | 2.5 | 1.5 | 0.5 | 1.5 | 1.0 | 3.5 | 1.0 | 2.5 | 2.0 | 4.5 | 2.0 | 4.5 | 4.0 | 2.0 |\n| **Integrated Knowledge \u0026 Ethics** | 1.5 | 2.0 | 0.5 | 0.5 | 4.0 | 0.5 | 3.0 | 0.5 | 1.5 | 2.0 | 4.5 | 3.5 | 3.0 | 4.0 | 4.0 |\n| **Pedagogy \u0026 Facil.** | 2.5 | 3.0 | 1.0 | 1.0 | 2.0 | 1.5 | 3.5 | 0.5 | 2.0 | 2.0 | 4.0 | 3.0 | 4.8 | 4.2 | 3.5 |\n\n#### Insight\n\nAcross all domains, **Associative** and **Creative** modalities spike, while **Logical** scores drop. This reflects the cognitive necessity of *transient hypofrontality*â€”down-regulating the executive control network to allow novel connections to form.",
                         "title":  "Data-Driven Modality Profile",
                         "ai_instructional_context":  {
                                                          "key_domain_variations":  {

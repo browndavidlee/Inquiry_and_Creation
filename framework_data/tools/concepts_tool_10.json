@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -64,7 +64,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.2",
@@ -122,7 +123,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.3",
@@ -180,7 +182,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.4",
@@ -238,7 +241,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.5",
@@ -296,7 +300,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.6",
@@ -354,7 +359,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.7",
@@ -412,7 +418,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.8",
@@ -477,7 +484,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.9",
@@ -535,7 +543,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.10",
@@ -593,7 +602,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.11",
@@ -651,7 +661,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.12",
@@ -709,7 +720,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.13",
@@ -767,7 +779,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.14",
@@ -825,7 +838,8 @@
                                             }
                                         ],
                          "scenario":  "A new team is fighting constantly.",
-                         "theory_application":  "Diagnose team maturity (Forming, Storming, Norming, Performing) to select the right leadership style."
+                         "theory_application":  "Diagnose team maturity (Forming, Storming, Norming, Performing) to select the right leadership style.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.15",
@@ -883,7 +897,8 @@
                                             }
                                         ],
                          "scenario":  "Implementing a new software system.",
-                         "theory_application":  "Manage the human side of organizational change using a structured model."
+                         "theory_application":  "Manage the human side of organizational change using a structured model.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.16",
@@ -941,7 +956,8 @@
                                             }
                                         ],
                          "scenario":  "Optimizing delivery routes.",
-                         "theory_application":  "Use advanced analytical methods to help make better decisions."
+                         "theory_application":  "Use advanced analytical methods to help make better decisions.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.VC.1",
@@ -999,7 +1015,8 @@
                                             }
                                         ],
                          "scenario":  "A team feeling busy but producing little value.",
-                         "theory_application":  "Analyze the workflow to identify where value is created and where it is lost (friction), then optimize the chain."
+                         "theory_application":  "Analyze the workflow to identify where value is created and where it is lost (friction), then optimize the chain.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.17",
@@ -1057,7 +1074,8 @@
                                             }
                                         ],
                          "scenario":  "Ensuring product longevity",
-                         "theory_application":  "The active process of maintaining the artifact\u0027s value and function over its intended lifecycle."
+                         "theory_application":  "The active process of maintaining the artifact\u0027s value and function over its intended lifecycle.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.18",
@@ -1115,7 +1133,8 @@
                                             }
                                         ],
                          "scenario":  "A team is slowed by old code/bad habits",
-                         "theory_application":  "The implied cost of future rework caused by choosing an easy, limited solution now instead of a better, more rigorous solution."
+                         "theory_application":  "The implied cost of future rework caused by choosing an easy, limited solution now instead of a better, more rigorous solution.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.19",
@@ -1173,7 +1192,8 @@
                                             }
                                         ],
                          "scenario":  "A competitor copies the core idea",
-                         "theory_application":  "The governance plan for protecting the artifact\u0027s intellectual property and market value from external threats."
+                         "theory_application":  "The governance plan for protecting the artifact\u0027s intellectual property and market value from external threats.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T10.20",
@@ -1231,7 +1251,8 @@
                                             }
                                         ],
                          "scenario":  "A social media campaign attacks the product\u0027s reputation",
-                         "theory_application":  "The strategy for defending the artifact\u0027s public narrative and reputation against FUD (Fear, Uncertainty, and Doubt) or misinformation."
+                         "theory_application":  "The strategy for defending the artifact\u0027s public narrative and reputation against FUD (Fear, Uncertainty, and Doubt) or misinformation.",
+                         "definition":  "See variations for domain-specific definitions."
                      }
                  ]
 }

@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -32,7 +32,8 @@
                                                           "**Provide the Heuristic:** Don\u0027t ask \u0027What\u0027s the plan?\u0027 Provide a specific template (e.g., \u0027User Story Map,\u0027 \u0027Argument Outline\u0027). This acts as an external Executive Control Network.",
                                                           "**Force Linearity:** The practitioner\u0027s mind is a web; the plan must be a line. Ask: \u0027What is step 1? What is step 2?\u0027 Force them to commit to a sequence.",
                                                           "**Check for Ambiguity:** Play the role of the naive builder. Point to a step and ask, \u0027If I did exactly this, would I get the result you want?\u0027",
-                                                          "**Facilitate the Handoff (`N98`):** Ensure the plan is not just written but *received*. Host a ritual where the builder explains the plan back to the planner to verify transfer."
+                                                          "**Facilitate the Handoff (`N98`):** Ensure the plan is not just written but *received*. Host a ritual where the builder explains the plan back to the planner to verify transfer.",
+                                                          "**The Handoff:** Don\u0027t just email the plan. Host a session where the builder explains the plan back to the planner."
                                                       ]
                                          },
                          "forces":  {
@@ -44,7 +45,7 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "title":  "ðŸ§  Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
                                                        "content":  "This stage involves a high cognitive load, translating a non-linear mental model (a web of ideas) into a linear sequence. The core friction is the \u0027Curse of Knowledge,\u0027 where the brain\u0027s \u0027chunked\u0027 expertise makes it difficult to explain the steps to a novice.",
                                                        "dynamic_playbook":  {
@@ -71,7 +72,7 @@
                                                                                          "title":  "Pedagogical Synthesis: The Scaffold"
                                                                                      }
                                                                                  ],
-                                                       "title":  "🧩 Integrative Strategies",
+                                                       "title":  "ðŸ§© Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
                                                        "dynamic_playbook":  {
@@ -88,7 +89,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective values diverse forms of communication beyond formal written documents, such as storytelling and performance.",
                                                             "dynamic_playbook":  {
@@ -124,7 +125,7 @@
                                                 "stage_name":  "Structuring \u0026 Articulation",
                                                 "pathways":  [
                                                                  {
-                                                                     "pathway_name":  "📚 Science \u0026 Engineering - The Protocol Path",
+                                                                     "pathway_name":  "ðŸ“š Science \u0026 Engineering - The Protocol Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -188,7 +189,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Teaching\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Teaching\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -258,7 +259,7 @@
                                                                      "rationale":  "This pathway forces the expert to simplify their mental model by simulating the perspective of a novice (Theory of Mind), revealing hidden complexities and gaps in the plan."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Reverse Outline\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Reverse Outline\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -329,7 +330,7 @@
                                                                      "rationale":  "This pathway uses deconstruction to verify coherence. By extracting the core point of each section, the writer can see the logical flow (or lack thereof) without getting lost in the prose."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🧠‘â€ ðŸ « HP2: The Universal Design for Learning (UDL) Path",
+                                                                     "pathway_name":  "ðŸ§ â€˜Ã¢â‚¬ Ã°Å¸ Â« HP2: The Universal Design for Learning (UDL) Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "pfic_word":  "Plan for Engagement",
@@ -388,7 +389,7 @@
                                                                      "rationale":  "This pathway activates the \u0027Universal Design\u0027 mindset, using the SCN to simulate the needs of diverse learners and the ECN to structure content that is accessible to all."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸš€ HP6: The Socio-Technical Path (Conway\u0027s Law)",
+                                                                     "pathway_name":  "Ã°Å¸Å¡â‚¬ HP6: The Socio-Technical Path (Conway\u0027s Law)",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "pfic_word":  "Design System",
@@ -445,7 +446,7 @@
                                                                      "rationale":  "This pathway aligns the technical architecture with the social architecture (Conway\u0027s Law), using the ACC to detect and resolve conflicts between the code structure and the team structure."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "📚 HP7: The Agent-Based Modeling (ABM) / Simulation Path (Advanced)",
+                                                                     "pathway_name":  "ðŸ“š HP7: The Agent-Based Modeling (ABM) / Simulation Path (Advanced)",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "pfic_word":  "Define Rules (Tool 5)",
@@ -516,7 +517,7 @@
                                                                      }
                                             },
                          "embodiedDynamics":  {
-                                                  "title":  "🤸 Embodied Dynamics",
+                                                  "title":  "ðŸ¤¸ Embodied Dynamics",
                                                   "simpleTitle":  "The Body\u0027s Role",
                                                   "content":  "Structuring is an act of \u0027cognitive offloading\u0027 onto a physical or spatial medium. The act of drawing a diagram or arranging post-it notes uses the body\u0027s spatial intelligence to solve problems that are too complex for verbal-only processing.",
                                                   "dynamic_playbook":  {
@@ -531,7 +532,7 @@
                                                                        }
                                               },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "title":  "ðŸ§  Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Articulation is a whole-brain process of translating internal concepts into external, structured communication, reliant on language networks and executive functions.",
                                                        "dynamic_playbook":  {
@@ -582,7 +583,7 @@
                                                                           }
                                                  },
                          "teamDynamics":  {
-                                              "title":  "🤝 Team Dynamics",
+                                              "title":  "ðŸ¤ Team Dynamics",
                                               "simpleTitle":  "How We Work Together",
                                               "content":  "This stage requires a clear handoff between roles (e.g., from strategist to designer, or designer to engineer). The core dynamic is \u0027knowledge transfer.\u0027 A failure here leads to execution errors and blame later.",
                                               "dynamic_playbook":  {
@@ -619,9 +620,9 @@
                                                                             }
                                                    },
                          "cynefinAnalysis":  {
-                                                 "title":  "🧭 Navigational Context",
+                                                 "title":  "ðŸ§­ Navigational Context",
                                                  "simpleTitle":  "Complexity Check",
-                                                 "content":  "This tool translates the chosen concept into a detailed, shareable plan. This is the domain of experts—engineers, architects, writers—who have the \u0027known knowns\u0027 of their craft.",
+                                                 "content":  "This tool translates the chosen concept into a detailed, shareable plan. This is the domain of expertsâ€”engineers, architects, writersâ€”who have the \u0027known knowns\u0027 of their craft.",
                                                  "dynamic_playbook":  {
                                                                           "practitioner":  [
                                                                                                "**Diagnose the Domain:** If the problem has no right answer, you are in **Complexity**. Stop planning; start probing. Shift from \u0027Analyst\u0027 to \u0027Naturalist.\u0027",
@@ -631,12 +632,12 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
                          "pedagogicalDynamics":  {
-                                                     "title":  "🧑‍🏫 Pedagogical Dynamics",
+                                                     "title":  "ðŸ§‘â€ðŸ« Pedagogical Dynamics",
                                                      "simpleTitle":  "How We Learn Here",
                                                      "content":  "The dynamic is **Cognitive Offloading**. The facilitator provides an external heuristic (a template or framework) that acts as an \u0027external ECN\u0027 for the learner, reducing the cognitive load of structuring their thoughts from scratch.",
                                                      "dynamic_playbook":  {
@@ -670,7 +671,7 @@
                                                                               },
                                                          "content":  "Structure is the bridge between idea and reality. Science uses protocols; Engineering uses specs; Humanities uses outlines. The framework emphasizes that the structure must be designed for the *audience* who will execute it.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "📚 Disciplinary Application",
+                                                         "title":  "ðŸ“š Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -715,12 +716,12 @@
                                                                           ]
                                                      },
                          "technologicalMediation":  {
-                                                        "title":  "💻 Technological Mediation",
+                                                        "title":  "ðŸ’» Technological Mediation",
                                                         "simpleTitle":  "The Tools We Use",
                                                         "content":  "The choice of structuring tool (e.g., a linear document vs. a mind map vs. a UML diagram) dictates the logic of the final plan. Each tool has a built-in bias; choosing the right tool is a critical strategic decision.",
                                                         "dynamic_playbook":  {
                                                                                  "practitioner":  [
-                                                                                                      "Select the tool that best represents the structure of your idea (e.g., a timeline for a sequence, a map for a system).",
+                                                                                                      "Use infinite canvas tools (e.g., Miro, Lucidchart) to map dependencies visually. Text documents hide complexity.",
                                                                                                       "If the tool is fighting you, your structure might be wrong."
                                                                                                   ],
                                                                                  "facilitator":  [
@@ -872,14 +873,14 @@
                                 }
                             ],
     "tableData":  {
-                      "pedagogy":  "**Gagné:** Present Content\n**5E:** Explain\n**DLS:** Communicating\n**// NEW //**\n**Articulation Bridge Path:** Heuristic, Feedback, Synthesis",
+                      "pedagogy":  "**GagnÃ©:** Present Content\n**5E:** Explain\n**DLS:** Communicating\n**// NEW //**\n**Articulation Bridge Path:** Heuristic, Feedback, Synthesis",
                       "science":  "Design Experiment / Operational Definitions",
                       "agile":  "Sprint Planning / Work Breakdown Structure",
                       "humanities":  "Argument Structure (CEW) / Outline",
                       "creative":  "Score / Design System / Storyboard"
                   },
     "averagePathway":  {
-                           "title":  "The Average Pathway: Deconstruct → Sequence for an Audience → Formalize",
+                           "title":  "The Average Pathway: Deconstruct â†’ Sequence for an Audience â†’ Formalize",
                            "rationale":  "This sequence translates a complex idea into a communicable format, improved by explicitly considering the audience. It breaks the idea into parts, arranges them in a logical and persuasive order for a specific reader, and codifies that order into a shared blueprint.",
                            "cognitiveSequence":  [
                                                      "Deconstruct the core idea into its component parts. This is a primary ECN function, involving hierarchical cognitive control to break a high-level goal into a structured set of manageable sub-goals.",

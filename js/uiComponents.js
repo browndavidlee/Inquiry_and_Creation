@@ -1,4 +1,6 @@
-﻿import { html } from 'https://cdn.jsdelivr.net/npm/lit-html@3.1.2/lit-html.js';
+﻿// js/uiComponents.js
+
+import { html } from 'https://cdn.jsdelivr.net/npm/lit-html@3.1.2/lit-html.js';
 import { unsafeHTML } from 'https://cdn.jsdelivr.net/npm/lit-html@3.1.2/directives/unsafe-html.js';
 
 // Helper function to safely parse markdown content
@@ -213,7 +215,7 @@ export const UI = {
         `;
     },
 
-        renderGovernanceEngine: function(data) {
+    renderGovernanceEngine: function(data) {
         if (!data) return html`<h1>Error: Governance data missing.</h1>`;
 
         if (!window.govState) {
@@ -708,8 +710,7 @@ export const UI = {
             </div>
         `;
     },
-
-    renderInteractiveConceptCloud: function(concepts) {
+renderInteractiveConceptCloud: function(concepts) {
         if (!concepts || concepts.length === 0) return html`<p>No concepts available.</p>`;
 
         const domains = new Set();
@@ -721,43 +722,21 @@ export const UI = {
         const uniqueDomains = Array.from(domains).sort();
 
         const domainIcons = {
-            // Standardized Domains
-            "Science & Engineering": "fa-flask",
-            "Business & Agile": "fa-rocket",
-            "Humanities & Social Sciences": "fa-landmark",
-            "Arts & Design": "fa-palette",
-            "Culture & Ethics": "fa-hand-holding-heart",
-            "Pedagogy & Facilitation": "fa-chalkboard-teacher",
-            "General / Pluralist": "fa-globe",
-            
-            // Legacy/Fallback Support
-            "Science": "fa-flask", 
-            "Business": "fa-chart-line", 
-            "Humanities": "fa-book",
-            "Arts": "fa-palette", 
-            "Culture": "fa-globe-americas", 
-            "Pedagogy": "fa-chalkboard-teacher",
-            "Agile": "fa-rocket"
+            "Science & Engineering": "fa-flask", "Business & Agile": "fa-rocket",
+            "Humanities & Social Sciences": "fa-landmark", "Arts & Design": "fa-palette",
+            "Culture & Ethics": "fa-hand-holding-heart", "Pedagogy & Facilitation": "fa-chalkboard-teacher",
+            "General / Pluralist": "fa-globe", "Science": "fa-flask", "Business": "fa-chart-line", 
+            "Humanities": "fa-book", "Arts": "fa-palette", "Culture": "fa-globe-americas", 
+            "Pedagogy": "fa-chalkboard-teacher", "Agile": "fa-rocket"
         };
 
         const domainColors = {
-            // Standardized Domains
-            "Science & Engineering": "#2980b9",       // Strong Blue
-            "Business & Agile": "#27ae60",            // Agile Green
-            "Humanities & Social Sciences": "#8e44ad", // Academic Purple
-            "Arts & Design": "#e67e22",               // Creative Orange
-            "Culture & Ethics": "#c0392b",            // Ethical Red
-            "Pedagogy & Facilitation": "#16a085",     // Growth Teal
-            "General / Pluralist": "#7f8c8d",         // Neutral Grey
-
-            // Legacy/Fallback Support
-            "Science": "#2980b9", 
-            "Business": "#27ae60", 
-            "Humanities": "#8e44ad",
-            "Arts": "#e67e22", 
-            "Culture": "#c0392b", 
-            "Pedagogy": "#16a085",
-            "Agile": "#27ae60"
+            "Science & Engineering": "#2980b9", "Business & Agile": "#27ae60",
+            "Humanities & Social Sciences": "#8e44ad", "Arts & Design": "#e67e22",
+            "Culture & Ethics": "#c0392b", "Pedagogy & Facilitation": "#16a085",
+            "General / Pluralist": "#7f8c8d", "Science": "#2980b9", "Business": "#27ae60", 
+            "Humanities": "#8e44ad", "Arts": "#e67e22", "Culture": "#c0392b", 
+            "Pedagogy": "#16a085", "Agile": "#27ae60"
         };
 
         return html`
@@ -797,6 +776,10 @@ export const UI = {
                         <button class="popover-close" id="popover-close-btn"><i class="fas fa-times"></i></button>
                     </div>
                     <div class="popover-body">
+                        <div class="data-section" id="popover-definition-section">
+                            <div class="data-label"><i class="fas fa-book-open"></i> Definition</div>
+                            <div class="data-content" id="popover-definition"></div>
+                        </div>
                         <div class="data-section">
                             <div class="data-label"><i class="fas fa-user-tie"></i> Expert Reference</div>
                             <div class="data-content" id="popover-expert"></div>
@@ -818,6 +801,7 @@ export const UI = {
             </div>
         `;
     },
+
     renderToolFocus: function(tool, currentStance, currentPersona, frameworkData, onboardingData, viewId, activePerspective, conceptCloudFilterDomain, currentDomain) {
         const currentToolConcepts = frameworkData.framework_data.toolConcepts[tool.id] || [];
         const scaffoldData = frameworkData.scaffold_model_data.content || [];
@@ -1533,8 +1517,7 @@ export const UI = {
                 </table>
             </div>`;
     },
-
-    createPlaybook: function(tool, currentPersona, currentStance, activePerspective = 'jobToBeDone') {
+createPlaybook: function(tool, currentPersona, currentStance, activePerspective = 'jobToBeDone') {
         let planData = [];
         let source = "Job to be Done (Default)";
 
@@ -2307,18 +2290,11 @@ export const UI = {
             return html`<h1>Error: Pathway data is missing or malformed.</h1>`;
         }
     
-        const localParseMarkdown = (text) =>
-            (window.marked ? window.marked.parse(text || '', { breaks: true }) : text);
-
-        const localParseMarkdownInline = (text) =>
-            (window.marked ? window.marked.parseInline(text || '') : text);
+        const localParseMarkdown = (text) => (window.marked ? window.marked.parse(text || '', { breaks: true }) : text);
+        const localParseMarkdownInline = (text) => (window.marked ? window.marked.parseInline(text || '') : text);
     
         const pathwaysByTool = {};
-        const toolIdToName = {};
-        tools.forEach(tool => {
-            pathwaysByTool[tool.id] = []; 
-            toolIdToName[tool.id] = tool.name;
-        });
+        tools.forEach(tool => { pathwaysByTool[tool.id] = []; });
     
         allPathways.forEach(pathway => {
             const toolKey = `tool${pathway.tool_id}`;
@@ -2329,78 +2305,55 @@ export const UI = {
     
         const uniqueDomains = [...new Set(allPathways.map(p => p.domain).filter(Boolean))].sort();
         const uniqueTypes = [...new Set(allPathways.map(p => p.type).filter(Boolean))].sort();
+        const uniqueCategories = [...new Set(allPathways.map(p => p.category).filter(Boolean))].sort();
     
         const domainMap = {
-            "🎨 Arts & Design": { icon: "fa-palette", color: "var(--domain-arts)" },
             "Arts & Design": { icon: "fa-palette", color: "var(--domain-arts)" },
-            
-            "🚀 Business & Agile": { icon: "fa-chart-line", color: "var(--domain-business)" },
             "Business & Agile": { icon: "fa-chart-line", color: "var(--domain-business)" },
-            
-            "🌏 Culture & Ethics": { icon: "fa-globe-americas", color: "var(--domain-culture)" },
             "Culture & Ethics": { icon: "fa-globe-americas", color: "var(--domain-culture)" },
-            "Integrated Knowledge & Ethics": { icon: "fa-balance-scale", color: "var(--domain-culture)" }, 
-            
-            "🌐 General / Pluralist": { icon: "fa-globe", color: "var(--domain-general)" },
             "General / Pluralist": { icon: "fa-globe", color: "var(--domain-general)" },
-            
-            "🧑‍🏫 Pedagogy & Facilitation": { icon: "fa-chalkboard-teacher", color: "var(--domain-pedagogy)" },
             "Pedagogy & Facilitation": { icon: "fa-chalkboard-teacher", color: "var(--domain-pedagogy)" },
-            
-            "📚 Science & Engineering": { icon: "fa-flask", color: "var(--domain-science)" },
             "Science & Engineering": { icon: "fa-flask", color: "var(--domain-science)" },
-            
-            "👥 Humanities & Social Sciences": { icon: "fa-landmark", color: "var(--domain-humanities)" },
             "Humanities & Social Sciences": { icon: "fa-landmark", color: "var(--domain-humanities)" },
-
-            "✨ Speculative": { icon: "fa-sparkles", color: "#9b59b6" }, 
             "Speculative": { icon: "fa-sparkles", color: "#9b59b6" }     
         };
     
         const renderCitation = (citationData) => {
             if (!citationData || !citationData.citation_text) return '';
-            const text = escapeAttr(citationData.citation_text);
-            const rationale = escapeAttr(citationData.rationale || '');
             return html`
                 <span class="citation-link" tabindex="0" role="button" aria-label="Show citation">
                     <i class="fas fa-book-open"></i>
-                    <span class="citation-tooltip">${text}<br><br><strong>Rationale:</strong> ${rationale}</span>
+                    <span class="citation-tooltip">${escapeAttr(citationData.citation_text)}<br><br><strong>Rationale:</strong> ${escapeAttr(citationData.rationale || '')}</span>
                 </span>`;
         };
     
         const renderPathwayCard = (pathway, parentToolId) => { 
             const domainInfo = domainMap[pathway.domain] || { icon: 'fa-project-diagram', color: '#ccc' };
             const speculativeTag = pathway.isSpeculative ? html`<span class="speculative-tag">Speculative</span>` : '';
+            const categoryTag = pathway.category ? html`<span class="category-tag">${pathway.category}</span>` : '';
             
-            const activityCitationHTML = renderCitation(pathway.activity_citation);
-            const neuroCitationHTML = renderCitation(pathway.neurocognitive_citation);
-    
             const activitySequenceHTML = (pathway.activity_sequence || []).map(s => html`<li>${unsafeHTML(localParseMarkdownInline(s))}</li>`);
             
             const cognitiveSequenceHTML = (pathway.neurocognitive_sequence || []).map(s => {
                 if (!s || !s.step) return '';
-                
                 const deepLink = `?view=tool&id=${parentToolId}&activePerspective=cognitiveModel`;
-                const networks = Array.isArray(s.networks) ? s.networks : [s.networks];
-                const networksHTML = (networks || []).map(n => html`<code>${n}</code>`);
-                
+                const networksHTML = (Array.isArray(s.networks) ? s.networks : [s.networks]).map(n => html`<code>${n}</code>`);
                 return html`
                     <li class="neuro-sequence-item">
-                        <a href="${deepLink}" class="step-link" title="View Cognitive Model">
-                            <i class="fas fa-external-link-alt"></i> ${s.step}
-                        </a>
+                        <a href="${deepLink}" class="step-link" title="View Cognitive Model"><i class="fas fa-external-link-alt"></i> ${s.step}</a>
                         <span class="step-networks">${networksHTML}</span>
                         <span class="step-desc">${s.pfic_word || ''}</span>
                     </li>`;
             });
     
             return html`
-                <div class="accordion-item" data-id="${pathway.id}" data-domain="${pathway.domain}" data-type="${pathway.type}">
+                <div class="accordion-item" data-id="${pathway.id}" data-domain="${pathway.domain}" data-type="${pathway.type}" data-category="${pathway.category || ''}">
                     <button class="accordion-header">
                         <span class="accordion-title-group">
                             <i class="fas ${domainInfo.icon} domain-icon" style="color: ${domainInfo.color};"></i>
                             ${pathway.title}
                             ${speculativeTag}
+                            ${categoryTag}
                         </span>
                         <i class="fas fa-chevron-down accordion-icon"></i>
                     </button>
@@ -2410,9 +2363,9 @@ export const UI = {
                             <div class="pathway-details-grid">
                                 <div><strong>Rationale:</strong> ${unsafeHTML(localParseMarkdown(pathway.rationale || 'N/A'))}</div>
                             </div>
-                            <h4>Activity Sequence ${activityCitationHTML}</h4>
+                            <h4>Activity Sequence ${renderCitation(pathway.activity_citation)}</h4>
                             <ol>${activitySequenceHTML}</ol>
-                            <h4>Cognitive Sequence ${neuroCitationHTML}</h4>
+                            <h4>Cognitive Sequence ${renderCitation(pathway.neurocognitive_citation)}</h4>
                             <ol>${cognitiveSequenceHTML}</ol>
                         </div>
                     </div>
@@ -2421,71 +2374,57 @@ export const UI = {
         };
     
         const matrixHTML = tools.map(tool => {
-            const toolId = tool.id; 
-            const toolName = tool.name;
-            const pathways = pathwaysByTool[toolId] || [];
-            const pathwayCardsHTML = pathways.map(p => renderPathwayCard(p, toolId)); 
-    
+            const pathways = pathwaysByTool[tool.id] || [];
             return html`
                 <div class="tool-column" id="tool-${tool.id}">
                     <div class="tool-column-header">T${tool.uid.replace('T','')}: ${tool.name}</div>
-                    ${pathwayCardsHTML}
+                    ${pathways.map(p => renderPathwayCard(p, tool.id))}
                 </div>
             `;
         });
     
-        const domainFiltersHTML = html`
-            <div class="segmented-control">
-                <button class="filter-btn active" data-domain="all">All</button>
-                ${uniqueDomains.map(domain => {
-                    const domainInfo = domainMap[domain] || { icon: 'fa-circle' }; // Fallback icon
-                    return html`<button class="filter-btn" data-domain="${domain}" title="${domain}"><i class="fas ${domainInfo.icon}"></i></button>`;
-                })}
-            </div>
-        `;
-    
-        const typeFiltersHTML = html`
-            <option value="all">All Types</option>
-            ${uniqueTypes.map(type => html`<option value="${type}">${type.charAt(0).toUpperCase() + type.slice(1)}</option>`)}
-        `;
-    
-        const toolFiltersHTML = html`
-            <option value="all">All Tools</option>
-            ${tools.map(tool => html`<option value="tool-${tool.id}">T${tool.uid.replace('T','')}: ${tool.name}</option>`)}
+        const categoryFiltersHTML = html`
+            <option value="all">All Categories</option>
+            ${uniqueCategories.map(cat => html`<option value="${cat}">${cat}</option>`)}
         `;
     
         return html`
             <div class="explorer-container">
                 <header class="explorer-header">
                     <h1>Pathway Explorer</h1>
-                    <p>Explore all high-probability pathways, which are effective, pre-defined workflows for specific tasks. Use the filters to narrow your search and click on any pathway to see its detailed rationale and sequence.</p>
+                    <p>Explore all high-probability pathways, which are effective, pre-defined workflows for specific tasks. Use the filters to narrow your search.</p>
                 </header>
-        
                 <div class="explorer-controls">
                     <div class="control-group search-group">
                         <label for="pathway-search">Search</label>
-                        <input type="search" id="pathway-search" placeholder="Search pathways by title, summary, rationale...">
+                        <input type="search" id="pathway-search" placeholder="Search pathways...">
                     </div>
                     <div class="control-group" id="domain-filter-group">
                         <h4 id="selected-domain-name">All Domains</h4>
-                        ${domainFiltersHTML}
+                        <div class="segmented-control">
+                            <button class="filter-btn active" data-domain="all">All</button>
+                            ${uniqueDomains.map(domain => {
+                                const domainInfo = domainMap[domain] || { icon: 'fa-circle' };
+                                return html`<button class="filter-btn" data-domain="${domain}" title="${domain}"><i class="fas ${domainInfo.icon}"></i></button>`;
+                            })}
+                        </div>
                     </div>
                     <div class="control-group">
-                        <label for="type-filter">Type</label>
-                        <select id="type-filter">${typeFiltersHTML}</select>
+                        <label for="category-filter">Category</label>
+                        <select id="category-filter">${categoryFiltersHTML}</select>
                     </div>
                     <div class="control-group">
                         <label for="tool-filter">Tool</label>
-                        <select id="tool-filter">${toolFiltersHTML}</select>
+                        <select id="tool-filter">
+                            <option value="all">All Tools</option>
+                            ${tools.map(tool => html`<option value="tool-${tool.id}">T${tool.uid.replace('T','')}: ${tool.name}</option>`)}
+                        </select>
                     </div>
                 </div>
-        
                 <div class="scroll-wrapper-relative" id="pathway-scroll-container">
                     <button class="scroll-paddle left" data-direction="left"><i class="fas fa-chevron-left"></i></button>
                     <div class="pathway-matrix-wrapper">
-                        <div class="pathway-matrix" id="pathway-matrix">
-                            ${matrixHTML}
-                        </div>
+                        <div class="pathway-matrix" id="pathway-matrix">${matrixHTML}</div>
                     </div>
                     <button class="scroll-paddle right" data-direction="right"><i class="fas fa-chevron-right"></i></button>
                 </div>

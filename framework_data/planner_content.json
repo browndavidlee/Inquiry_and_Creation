@@ -695,7 +695,7 @@
                                 {
                                     "toolId":  "tool7",
                                     "title":  "Tool 7: Analyze and Revise",
-                                    "coreChallenge":  "I know my work isn’t perfect, but I’m too close to see its flaws. I need to transform painful criticism into a clear, actionable plan for improvement.",
+                                    "coreChallenge":  "I know my work isn't perfect, but I'm too close to see its flaws. I need to transform painful criticism into a clear, actionable plan for improvement.",
                                     "facilitatorNote":  "\u003cstrong\u003eFocus\u003c/strong\u003e on the plan for the feedback loop, which is a diagnostic process in the \u003cstrong\u003eComplicated Domain\u003c/strong\u003e. How will the first iteration be analyzed and refined?",
                                     "keyInput":  "A tangible first iteration of the work from Tool 6.",
                                     "domains":  [

@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -25,7 +25,6 @@
                   "tool_7.json",
                   "tool_8.json",
                   "tool_9.json",
-                  "tool_9_1.json",
                   "tool_10.json",
                   "concepts_tool_1.json",
                   "concepts_tool_2.json",

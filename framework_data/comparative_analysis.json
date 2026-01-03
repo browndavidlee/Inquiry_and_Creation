@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -13,9 +13,9 @@
                                                                  "model":  "Agile Methodology (Backlog Refinement)",
                                                                  "vector":  "The Incumbent Standard",
                                                                  "comparison":  "While Agile methodologies focus on defining \u0027User Stories\u0027 as atomic units of execution, Tool 1 focuses on the \u0027Guiding Question\u0027 as a vector of inquiry. Agile prioritizes the production of features, whereas Tool 1 prioritizes the orientation of the team.",
-                                                                 "value_add":  "This approach mitigates the \u0027Feature Factory\u0027 risk—building efficiently without strategic direction—by ensuring the inquiry is correctly oriented before execution begins.",
+                                                                 "value_add":  "This approach mitigates the \u0027Feature Factory\u0027 risk-building efficiently without strategic direction-by ensuring the inquiry is correctly oriented before execution begins.",
                                                                  "derivation":  "Hierarchical Analysis: Agile Backlogs operate at the tactical \u0027Task\u0027 level (Schwaber \u0026 Sutherland, 2020), whereas Tool 1 operates at the strategic \u0027Purpose\u0027 level.",
-                                                                 "real_world_example":  "Quibi (2020): The streaming service executed perfectly on Agile principles—high-quality app, rapid content production, on-time launch. However, they failed to define the inquiry (Attunement). They assumed users wanted \u0027short-form Hollywood\u0027 on mobile, ignoring the ecosystem of TikTok and YouTube. They built the wrong thing, efficiently."
+                                                                 "real_world_example":  "Quibi (2020): The streaming service executed perfectly on Agile principles-high-quality app, rapid content production, on-time launch. However, they failed to define the inquiry (Attunement). They assumed users wanted \u0027short-form Hollywood\u0027 on mobile, ignoring the ecosystem of TikTok and YouTube. They built the wrong thing, efficiently."
                                                              },
                                                              {
                                                                  "model":  "The Scientific Method (Objective Observation)",
@@ -29,7 +29,7 @@
                                                                  "model":  "Design Thinking (Empathize Phase)",
                                                                  "vector":  "The Specific Mechanism",
                                                                  "comparison":  "Design Thinking typically directs empathy toward the specific \u0027User.\u0027 Tool 1\u0027s \u0027Stakeholder Mapping\u0027 expands this empathetic scope to the broader \u0027System,\u0027 including non-human actors, historical context, and community dynamics.",
-                                                                 "value_add":  "This prevents \u0027Solutionism\u0027—solving for a user\u0027s immediate desire while ignoring systemic externalities—by widening the boundary of analysis.",
+                                                                 "value_add":  "This prevents \u0027Solutionism\u0027-solving for a user\u0027s immediate desire while ignoring systemic externalities-by widening the boundary of analysis.",
                                                                  "derivation":  "System Boundary Expansion: Design Thinking centers the User (Brown, 2009); Tool 1 centers the Ecosystem (Meadows, 2008).",
                                                                  "real_world_example":  "TOMS Shoes: The \u0027Buy One, Give One\u0027 model was a triumph of User Empathy (donors felt good, recipients got shoes). However, it failed Systemic Mapping. The influx of free shoes devastated local cobblers and shoe markets in receiving communities, creating long-term economic harm."
                                                              }
@@ -57,10 +57,10 @@
                                                              {
                                                                  "model":  "Waterfall Project Management (Gantt Charts)",
                                                                  "vector":  "The Incumbent Standard",
-                                                                 "comparison":  "Waterfall methodology assumes a \u0027Complicated\u0027 domain where the future can be predicted and scheduled. Tool 2 assumes a \u0027Complex\u0027 domain, replacing fixed schedules with \u0027Orientation\u0027—a map of known constraints and success criteria—under the assumption that the specific path will evolve.",
+                                                                 "comparison":  "Waterfall methodology assumes a \u0027Complicated\u0027 domain where the future can be predicted and scheduled. Tool 2 assumes a \u0027Complex\u0027 domain, replacing fixed schedules with \u0027Orientation\u0027-a map of known constraints and success criteria-under the assumption that the specific path will evolve.",
                                                                  "value_add":  "This increases project resilience by planning for adaptation (Wayfinding) rather than creating fragility through rigid adherence to a predictive schedule.",
                                                                  "derivation":  "Cynefin Domain Mapping: Waterfall assumes a Complicated context; Tool 2 assumes a Complex context (Snowden \u0026 Boone, 2007).",
-                                                                 "real_world_example":  "Amundsen vs. Scott (South Pole Expedition): Scott planned a rigid schedule based on best-case scenarios (Waterfall). Amundsen planned for \u0027Orientation\u0027—he focused on constraints (weight), redundancies (extra food), and skills (skiing), assuming the route would change. Amundsen survived; Scott did not."
+                                                                 "real_world_example":  "Amundsen vs. Scott (South Pole Expedition): Scott planned a rigid schedule based on best-case scenarios (Waterfall). Amundsen planned for \u0027Orientation\u0027-he focused on constraints (weight), redundancies (extra food), and skills (skiing), assuming the route would change. Amundsen survived; Scott did not."
                                                              },
                                                              {
                                                                  "model":  "The Scientific Method (Background Research)",
@@ -105,7 +105,7 @@
                                                                  "comparison":  "Traditional brainstorming often lacks rigorous structure or safety protocols. Tool 3 operationalizes \u0027Psychological Safety\u0027 and \u0027Inhibition of Judgment\u0027 as biological prerequisites for activating the Default Mode Network (DMN).",
                                                                  "value_add":  "This transforms brainstorming from a social performance into a disciplined cognitive process that maximizes divergent thinking.",
                                                                  "derivation":  "Neurocognitive Overlay: Mapping \u0027No Judgment\u0027 rules to the neuroscience of \u0027Transient Hypofrontality\u0027 (Dietrich, 2004).",
-                                                                 "real_world_example":  "Google\u0027s Project Aristotle: Google spent millions studying team effectiveness. They found that \u0027Psychological Safety\u0027—the ability to take risks without insecurity—was the single most important factor in high-performing teams, validating Tool 3\u0027s core requirement."
+                                                                 "real_world_example":  "Google\u0027s Project Aristotle: Google spent millions studying team effectiveness. They found that \u0027Psychological Safety\u0027-the ability to take risks without insecurity-was the single most important factor in high-performing teams, validating Tool 3\u0027s core requirement."
                                                              },
                                                              {
                                                                  "model":  "The Scientific Method (Hypothesis Testing)",
@@ -113,7 +113,7 @@
                                                                  "comparison":  "Science focuses heavily on *testing* hypotheses. Tool 3 focuses on *generating* them using divergent techniques such as Analogy and Exaptation.",
                                                                  "value_add":  "This systematizes the \u0027spark\u0027 of discovery, making the generation of novel hypotheses a repeatable process rather than a random occurrence.",
                                                                  "derivation":  "Process Gap Analysis: The standard Scientific Method begins *after* the hypothesis exists; Tool 3 addresses the gap of *how* to form it (Peirce, 1903).",
-                                                                 "real_world_example":  "August Kekulé\u0027s Benzene Ring: The discovery of the ring structure of benzene didn\u0027t come from data analysis, but from a reverie (DMN state) where Kekulé saw a snake eating its own tail (Analogy). Tool 3 formalizes this associative state."
+                                                                 "real_world_example":  "August Kekul\u0027s Benzene Ring: The discovery of the ring structure of benzene didn\u0027t come from data analysis, but from a reverie (DMN state) where Kekul saw a snake eating its own tail (Analogy). Tool 3 formalizes this associative state."
                                                              },
                                                              {
                                                                  "model":  "The Lean Startup (Pivot)",
@@ -344,9 +344,9 @@
                                                                  "model":  "Arts (Exhibition)",
                                                                  "vector":  "The Epistemological Contrast",
                                                                  "comparison":  "Exhibition is often seen as a one-way broadcast. Tool 8 frames it as \u0027Witnessing,\u0027 a reciprocal act where the audience\u0027s reception completes the work.",
-                                                                 "value_add":  "It highlights the relational nature of value—a work is not finished until it is received and integrated by a community.",
+                                                                 "value_add":  "It highlights the relational nature of value-a work is not finished until it is received and integrated by a community.",
                                                                  "derivation":  "Reception Theory: The reader completes the text (Dewey, 1934).",
-                                                                 "real_world_example":  "Marina Abramović\u0027s \u0027The Artist is Present\u0027: The artwork was not the artist sitting in a chair; it was the interaction between the artist and the witness. The audience\u0027s presence validated and completed the work."
+                                                                 "real_world_example":  "Marina Abramovi\u0027s \u0027The Artist is Present\u0027: The artwork was not the artist sitting in a chair; it was the interaction between the artist and the witness. The audience\u0027s presence validated and completed the work."
                                                              }
                                                          ],
                                               "dynamic_playbook":  {

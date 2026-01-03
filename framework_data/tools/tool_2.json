@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -33,7 +33,9 @@
                                                           "**Provide the Scaffolding:** Don\u0027t ask for a plan from scratch. Provide a template (a Creative Brief, a Business Model Canvas, a research proposal outline). This externalizes the structure and reduces the \u0027Anxiety\u0027 of the blank page.",
                                                           "**Model the Process:** Do a \u0027think-aloud\u0027 as you fill out one section of the plan. This makes the tacit knowledge of strategic thinking explicit and learnable.",
                                                           "**Facilitate the Pre-Mortem (`N11`):** This is your highest-leverage action. You must create a safe space for the team to confront the possibility of failure, which is emotionally difficult but strategically essential for overcoming the \u0027Habit\u0027 of over-optimism.",
-                                                          "**Clarify Constraints:** Gently but firmly enforce reality. Ask the hard questions about time, budget, and resources. This helps the practitioner make the necessary trade-offs to create a feasible plan."
+                                                          "**Clarify Constraints:** Gently but firmly enforce reality. Ask the hard questions about time, budget, and resources. This helps the practitioner make the necessary trade-offs to create a feasible plan.",
+                                                          "**âš ï¸ Warning:** Watch for Analysis Paralysis. If the team is stuck in research, force a \u0027Good Enough\u0027 decision to move to the next step.",
+                                                          "**⚠️ Warning:** Watch for Analysis Paralysis. If the team is stuck in research, force a \u0027Good Enough\u0027 decision to move to the next step."
                                                       ]
                                          },
                          "forces":  {
@@ -105,9 +107,9 @@
                 ],
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "title":  "ðŸ§  Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "This stage is dominated by the anxiety of commitment and the fear of the unknown. The brain\u0027s threat-detection systems (Amygdala) are highly active, leading to \u0027Analysis Paralysis\u0027—a state of \u0027productive procrastination\u0027 to avoid making a risky choice.",
+                                                       "content":  "This stage is dominated by the anxiety of commitment and the fear of the unknown. The brain\u0027s threat-detection systems (Amygdala) are highly active, leading to \u0027Analysis Paralysis\u0027â€”a state of \u0027productive procrastination\u0027 to avoid making a risky choice.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -135,7 +137,7 @@
                                                                                  ],
                                                        "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
                                                        "simpleTitle":  "Ways to Connect Ideas",
-                                                       "title":  "🧩 Integrative Strategies",
+                                                       "title":  "ðŸ§© Integrative Strategies",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Force Bisociation:** Deliberately collide two unrelated frames (e.g., \u0027Treat this software bug as a biological virus\u0027). Novelty lives at the intersection.",
@@ -151,7 +153,7 @@
                                                    },
                          "CultureTraditionsAndEthics":  {
                                                             "summary":  "This perspective complements traditional planning with dynamic, adaptive models of navigation, learning to \u0027read the signs\u0027 of a changing system.",
-                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "**Adaptive Navigation (e.g., Polynesian Wayfinding):** A dynamic, relational approach that relies on interpreting a moving system of signs to guide the project.\n\n**Strategic Alignment:** The practice of orienting a project to align with existing flows of energy and resources.",
                                                             "dynamic_playbook":  {
@@ -187,7 +189,7 @@
                                                 "stage_name":  "Orientation \u0026 Wayfinding",
                                                 "pathways":  [
                                                                  {
-                                                                     "pathway_name":  "📚 Science \u0026 Engineering - The Research Path",
+                                                                     "pathway_name":  "ðŸ“š Science \u0026 Engineering - The Research Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -208,7 +210,7 @@
                                                                                                                              "supporting_evidence":  {
                                                                                                                                                          "citation_id":  "olafsdottir-2018",
                                                                                                                                                          "craap_score":  "25/25",
-                                                                                                                                                         "justification":  "This claim is supported by synthesizing the ECN\u0027s role in goal-directed cognition (Diamond, 2013) with the Hippocampus\u0027s role in memory retrieval (Ólafsdóttir et al., 2018)."
+                                                                                                                                                         "justification":  "This claim is supported by synthesizing the ECN\u0027s role in goal-directed cognition (Diamond, 2013) with the Hippocampus\u0027s role in memory retrieval (Ã“lafsdÃ³ttir et al., 2018)."
                                                                                                                                                      },
                                                                                                                              "confidence_score":  "Tier 1"
                                                                                                                          }
@@ -256,7 +258,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ‘¥ Humanities \u0026 Social Sciences - The Scholarly Path",
+                                                                     "pathway_name":  "Ã°Å¸â€˜Â¥ Humanities \u0026 Social Sciences - The Scholarly Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -321,7 +323,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸŽ¨ Arts \u0026 Design - The Brief-Driven Path",
+                                                                     "pathway_name":  "Ã°Å¸Å½Â¨ Arts \u0026 Design - The Brief-Driven Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -382,7 +384,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸš€ Business \u0026 Agile - The Ritual Path",
+                                                                     "pathway_name":  "Ã°Å¸Å¡â‚¬ Business \u0026 Agile - The Ritual Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -447,7 +449,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🌍  Culture \u0026 Ethics - The Alignment Path",
+                                                                     "pathway_name":  "ðŸŒ  Culture \u0026 Ethics - The Alignment Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -508,7 +510,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "âœ¨ Speculative - The Frontier Path",
+                                                                     "pathway_name":  "Ã¢Å“Â¨ Speculative - The Frontier Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -571,7 +573,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🧠‘â€ ðŸ « Pedagogy \u0026 Facilitation - The Scaffolding Path",
+                                                                     "pathway_name":  "ðŸ§ â€˜Ã¢â‚¬ Ã°Å¸ Â« Pedagogy \u0026 Facilitation - The Scaffolding Path",
                                                                      "facilitator_model":  {
                                                                                                "sequence":  [
                                                                                                                 {
@@ -695,7 +697,7 @@
                                                                                        }
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Exemplar\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Exemplar\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -765,7 +767,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027After Action Review\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027After Action Review\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -781,7 +783,7 @@
                                                                                                                                                    }
                                                                                                                    },
                                                                                           "validation_and_credibility":  {
-                                                                                                                             "key_neuroscientific_principle":  "The ACC and Insula generate an intuitive risk or feeling of \u0027dÃ©jÃ  vu\u0027 that the current plan is flawed.",
+                                                                                                                             "key_neuroscientific_principle":  "The ACC and Insula generate an intuitive risk or feeling of \u0027dÃƒÂ©jÃƒÂ  vu\u0027 that the current plan is flawed.",
                                                                                                                              "supporting_evidence":  {
                                                                                                                                                          "citation_id":  "craig-2009"
                                                                                                                                                      },
@@ -848,7 +850,7 @@
                                                                      }
                                             },
                          "embodiedDynamics":  {
-                                                  "title":  "🤸 Embodied Dynamics",
+                                                  "title":  "ðŸ¤¸ Embodied Dynamics",
                                                   "simpleTitle":  "The Body\u0027s Role",
                                                   "content":  "Planning is often seen as purely cognitive, but it has a strong embodied component. We \u0027feel out\u0027 the feasibility of a plan. A plan that feels too heavy or complex often is. Posture can also affect strategic thinking; standing up can promote a more active, commanding mindset.",
                                                   "dynamic_playbook":  {
@@ -863,7 +865,7 @@
                                                                        }
                                               },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "title":  "ðŸ§  Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Orientation involves toggling between focused planning (ECN) and broader contextual simulation (DMN) to establish goals and retrieve prior knowledge (Hippocampus).",
                                                        "dynamic_playbook":  {
@@ -914,7 +916,7 @@
                                                                           }
                                                  },
                          "teamDynamics":  {
-                                              "title":  "🤝 Team Dynamics",
+                                              "title":  "ðŸ¤ Team Dynamics",
                                               "simpleTitle":  "How We Work Together",
                                               "content":  "This stage is about \u0027Norming.\u0027 The team moves from conflict to cohesion by agreeing on the rules of engagement: the Definition of Done, the scope, and the roles. This creates a shared social contract.",
                                               "dynamic_playbook":  {
@@ -961,12 +963,12 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
                          "pedagogicalDynamics":  {
-                                                     "title":  "🧑‍🏫 Pedagogical Dynamics",
+                                                     "title":  "ðŸ§‘â€ðŸ« Pedagogical Dynamics",
                                                      "simpleTitle":  "How We Learn Here",
                                                      "content":  "The dynamic is **Scaffolding**. The facilitator provides external structures (templates, models, checklists) that allow the learner to perform a complex planning task that is currently beyond their independent capability. The goal is to reduce cognitive load.",
                                                      "dynamic_playbook":  {
@@ -1000,7 +1002,7 @@
                                                                               },
                                                          "content":  "Planning is the act of orientation. Science orients via literature; Business via metrics; Humanities via history. The framework ensures these maps are not just static documents, but adaptive tools for navigation.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "📚 Disciplinary Application",
+                                                         "title":  "ðŸ“š Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -1045,7 +1047,7 @@
                                                                           ]
                                                      },
                          "technologicalMediation":  {
-                                                        "title":  "💻 Technological Mediation",
+                                                        "title":  "ðŸ’» Technological Mediation",
                                                         "simpleTitle":  "The Tools We Use",
                                                         "content":  "The choice of planning software (e.g., a Gantt chart vs. a Kanban board) imposes a logic on the project. A Gantt chart emphasizes time and dependencies (Complicated); a Kanban board emphasizes flow and capacity (Complex).",
                                                         "dynamic_playbook":  {
@@ -1202,14 +1204,14 @@
                                 }
                             ],
     "tableData":  {
-                      "pedagogy":  "**Gagné:** Inform Objectives\n**5E:** Explain (partial)\n**DLS:** Framing\n**// NEW //**\n**Scaffolding Path:** Define, Model, Co-create",
+                      "pedagogy":  "**GagnÃ©:** Inform Objectives\n**5E:** Explain (partial)\n**DLS:** Framing\n**// NEW //**\n**Scaffolding Path:** Define, Model, Co-create",
                       "science":  "Background Research / Literature Review",
                       "agile":  "Sprint Goal / Definition of Done",
                       "humanities":  "Contextual Analysis / Historiography",
                       "creative":  "Creative Brief / References \u0026 Constraints"
                   },
     "averagePathway":  {
-                           "title":  "The Average Pathway: Define Success \u0026 Values → Map the Terrain → Create an Adaptive Plan",
+                           "title":  "The Average Pathway: Define Success \u0026 Values â†’ Map the Terrain â†’ Create an Adaptive Plan",
                            "rationale":  "A good plan is not just a logical sequence; it is a value-aligned, risk-aware, and adaptive strategy. This sequence establishes the boundaries and pathway for the work by defining the destination (success and values), surveying the known terrain (research), and creating a map that is designed to be updated as new information arrives.",
                            "cognitiveSequence":  [
                                                      "Define goals and principles by integrating value and control. The vmPFC assigns subjective value to ethical principles and success criteria, while the ECN uses these value signals to formulate and maintain concrete goals and plans.",

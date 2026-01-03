@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -23,7 +23,8 @@
                                                            "**Re-anchor in Criteria:** Before debating options, revisit the Success Criteria (`N09`) from Tool 2. Use these as the objective rubric to filter the subjective noise.",
                                                            "**Externalize the Decision:** Use a prioritization matrix (e.g., Impact vs. Effort, RICE). Moving the debate from verbal argument to visual scoring reduces social friction.",
                                                            "**Name the Sacrifice:** Explicitly state what you are choosing *not* to do. Strategy is sacrifice. Acknowledge the value of the rejected options to validate their proponents.",
-                                                           "**Finalize with Will:** Decision-making is an act of volition, not just calculation. Make the call, document it, and communicate it clearly to end the deliberation phase."
+                                                           "**Finalize with Will:** Decision-making is an act of volition, not just calculation. Make the call, document it, and communicate it clearly to end the deliberation phase.",
+                                                           "**Values Check:** Does this decision violate any of our \u0027Red Lines\u0027 (Tool 1)? If yes, stop."
                                                        ]
                                           },
                          "facilitator":  {
@@ -44,9 +45,9 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "title":  "ðŸ§  Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "Decision-making is a battle between the logical ECN and the emotional Valuation Network (vmPFC). The core friction is \u0027Loss Aversion\u0027—the brain\u0027s tendency to feel the pain of losing options more strongly than the pleasure of choosing one.",
+                                                       "content":  "Decision-making is a battle between the logical ECN and the emotional Valuation Network (vmPFC). The core friction is \u0027Loss Aversion\u0027â€”the brain\u0027s tendency to feel the pain of losing options more strongly than the pleasure of choosing one. **Timing Tip:** Do this in the morning. Decision fatigue degrades the quality of choices later in the day.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -61,7 +62,7 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "🧠© Integrative Strategies",
+                                                       "title":  "ðŸ§ Â© Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This tool integrates analytical rigor with ethical and emotional intelligence to make wiser choices.",
                                                        "dynamic_playbook":  {
@@ -78,7 +79,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective frames decision-making not as a calculation, but as an act of discernment and ethical commitment.",
                                                             "dynamic_playbook":  {
@@ -114,7 +115,7 @@
                                                 "stage_name":  "Decision \u0026 Commitment",
                                                 "pathways":  [
                                                                  {
-                                                                     "pathway_name":  "ðŸš€ HP0: The Diagnostic Path (Cynefin-Informed)",
+                                                                     "pathway_name":  "Ã°Å¸Å¡â‚¬ HP0: The Diagnostic Path (Cynefin-Informed)",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -182,7 +183,7 @@
                                                                      "rationale":  "This pathway uses the Cynefin framework as a metacognitive scaffold, helping the ECN categorize the problem domain before selecting a strategy, preventing the error of applying a simple tool to a complex problem."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🧠  Cognitive States of the Cynefin Domains",
+                                                                     "pathway_name":  "ðŸ§ Â  Cognitive States of the Cynefin Domains",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -267,7 +268,7 @@
                                                                      "rationale":  "This model maps the four Cynefin domains to distinct neurocognitive states, helping the practitioner recognize which brain networks must be online to navigate the current context effectively."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Principles\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Principles\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -377,7 +378,7 @@
                                                                      "rationale":  "This pathway resolves decision paralysis by shifting from a bottom-up comparison of features to a top-down application of core values (vmPFC), simplifying the choice architecture."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Decision Log\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Decision Log\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -484,7 +485,7 @@
                                                                      "rationale":  "This pathway combats \u0027decision amnesia\u0027 by retrieving the documented rationale for past choices, allowing the team to learn from the delta between expected and actual outcomes."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🌍  HP7: The Precedent Path",
+                                                                     "pathway_name":  "ðŸŒ  HP7: The Precedent Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "pfic_word":  "Recognize Pattern",
@@ -555,7 +556,7 @@
                                                                      }
                                             },
                          "embodiedDynamics":  {
-                                                  "title":  "🤸 Embodied Dynamics",
+                                                  "title":  "ðŸ¤¸ Embodied Dynamics",
                                                   "simpleTitle":  "The Body\u0027s Role",
                                                   "content":  "Decision-making has a strong somatic component. A \u0027gut feeling\u0027 is a real signal from the Insula and vmPFC processing complex data non-consciously. A decision that feels wrong in the body, even if logically sound, often has hidden risks.",
                                                   "dynamic_playbook":  {
@@ -570,7 +571,7 @@
                                                                        }
                                               },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "title":  "ðŸ§  Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Decision-making involves the Valuation Network (vmPFC) assigning subjective value to options, and the Executive Control Network (ECN) selecting an option based on goals.",
                                                        "dynamic_playbook":  {
@@ -621,7 +622,7 @@
                                                                           }
                                                  },
                          "teamDynamics":  {
-                                              "title":  "🤝 Team Dynamics",
+                                              "title":  "ðŸ¤ Team Dynamics",
                                               "simpleTitle":  "How We Work Together",
                                               "content":  "This stage is a high-risk moment for team cohesion. The rejection of ideas can feel personal. The key dynamic is moving from advocacy to inquiry, and finally to a shared commitment, even if individuals disagree.",
                                               "dynamic_playbook":  {
@@ -658,7 +659,7 @@
                                                                             }
                                                    },
                          "cynefinAnalysis":  {
-                                                 "title":  "🧭 Navigational Context",
+                                                 "title":  "ðŸ§­ Navigational Context",
                                                  "simpleTitle":  "Complexity Check",
                                                  "content":  "The decision model must match the domain. Complicated problems need analysis; Complex problems need probes.",
                                                  "dynamic_playbook":  {
@@ -670,12 +671,12 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
                          "pedagogicalDynamics":  {
-                                                     "title":  "🧑‍🏫 Pedagogical Dynamics",
+                                                     "title":  "ðŸ§‘â€ðŸ« Pedagogical Dynamics",
                                                      "simpleTitle":  "How We Learn Here",
                                                      "content":  "The dynamic is **Clarifying Trade-offs**. The facilitator\u0027s role is not to make the decision, but to make the consequences and sacrifices of each choice explicit. The goal is to empower the learner to make a conscious, well-informed choice.",
                                                      "dynamic_playbook":  {
@@ -709,7 +710,7 @@
                                                                               },
                                                          "content":  "Decision-making is the pivot from thinking to doing. Science selects based on falsifiability; Business on ROI; Arts on aesthetic resonance. The framework ensures these decisions are explicit, defensible, and aligned with the original inquiry.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "📚 Disciplinary Application",
+                                                         "title":  "ðŸ“š Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -754,7 +755,7 @@
                                                                           ]
                                                      },
                          "technologicalMediation":  {
-                                                        "title":  "💻 Technological Mediation",
+                                                        "title":  "ðŸ’» Technological Mediation",
                                                         "simpleTitle":  "The Tools We Use",
                                                         "content":  "Using a digital prioritization matrix or a shared spreadsheet makes the decision criteria explicit and the scoring transparent. It moves the debate from a verbal power struggle to a shared analytical process.",
                                                         "dynamic_playbook":  {
@@ -893,14 +894,14 @@
                                 }
                             ],
     "tableData":  {
-                      "pedagogy":  "**Gagné:** (Implicit) \n**5E:** (Implicit) \n**DLS:** (Implicit)",
+                      "pedagogy":  "**GagnÃ©:** (Implicit) \n**5E:** (Implicit) \n**DLS:** (Implicit)",
                       "science":  "Hypothesis Selection",
                       "agile":  "Prioritization / Commitment",
                       "humanities":  "Thesis Commitment",
                       "creative":  "Concept Selection"
                   },
     "averagePathway":  {
-                           "title":  "The Average Pathway: Evaluate → Prioritize → Commit",
+                           "title":  "The Average Pathway: Evaluate â†’ Prioritize â†’ Commit",
                            "rationale":  "This is the core sequence of rational decision-making. It involves systematically evaluating a set of options against pre-defined criteria, ranking them in order of value, and formally committing to the highest-ranked option.",
                            "cognitiveSequence":  [
                                                      "Evaluate options by engaging the Valuation Network (vmPFC) to assign subjective value to each choice, while the ECN holds the evaluation criteria in working memory.",

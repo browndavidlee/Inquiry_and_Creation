@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -64,7 +64,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.2",
@@ -122,7 +123,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "A deliberate pause in forward progress to allow for integration, rest, and subconscious processing."
                      },
                      {
                          "id":  "T9.3",
@@ -180,7 +182,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.4",
@@ -238,7 +241,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.5",
@@ -296,7 +300,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.6",
@@ -354,7 +359,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.7",
@@ -412,7 +418,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.8",
@@ -470,7 +477,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.9",
@@ -535,7 +543,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.10",
@@ -593,7 +602,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.11",
@@ -651,7 +661,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.12",
@@ -709,7 +720,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.13",
@@ -767,7 +779,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.14",
@@ -825,7 +838,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.15",
@@ -883,7 +897,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.16",
@@ -941,7 +956,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.17",
@@ -999,7 +1015,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.18",
@@ -1057,7 +1074,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.19",
@@ -1115,7 +1133,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.20",
@@ -1173,7 +1192,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.21",
@@ -1231,7 +1251,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.22",
@@ -1289,7 +1310,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.23",
@@ -1347,7 +1369,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.24",
@@ -1405,7 +1428,8 @@
                                             }
                                         ],
                          "scenario":  "Navigating a merger between companies.",
-                         "theory_application":  "Manage the \u0027threshold\u0027 state between the old way and the new way, where ambiguity is high but innovation is possible."
+                         "theory_application":  "Manage the \u0027threshold\u0027 state between the old way and the new way, where ambiguity is high but innovation is possible.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T9.DT.1",
@@ -1463,7 +1487,8 @@
                                             }
                                         ],
                          "scenario":  "Debriefing a team project.",
-                         "theory_application":  "Move from Concrete Experience to Active Experimentation."
+                         "theory_application":  "Move from Concrete Experience to Active Experimentation.",
+                         "definition":  "See variations for domain-specific definitions."
                      }
                  ]
 }

@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "1.0",
                       "type":  "node_database",
@@ -11212,7 +11212,7 @@
                       "inputs":  [
                                      "Completed project"
                                  ],
-                      "description":  "A formal retrospective practice distinct from \u0027Reflection-in-Action\u0027. It involves looking back on a completed event to analyze the knowledge used and outcomes generated (Based on Donald Schön).",
+                      "description":  "A formal retrospective practice distinct from \u0027Reflection-in-Action\u0027. It involves looking back on a completed event to analyze the knowledge used and outcomes generated (Based on Donald Schn).",
                       "outputs":  [
                                       "Codified lessons"
                                   ],

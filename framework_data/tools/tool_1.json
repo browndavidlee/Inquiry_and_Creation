@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -23,16 +23,17 @@
                                                            "**Isolate the Prediction Error:** Don\u0027t look for \u0027ideas\u0027; look for \u0027surprises.\u0027 Identify the specific moment reality violated your mental model. That gap is your inquiry\u0027s engine.",
                                                            "**Trace the Causal Chain:** Apply \u00275 Whys\u0027 to the anomaly. Move past the symptom (e.g., \u0027sales are down\u0027) to the systemic root (e.g., \u0027our value prop is obsolete\u0027).",
                                                            "**Map the Blast Radius:** Use Stakeholder Mapping (`N03`) to visualize who is impacted. Shift the frame from an abstract puzzle to a relational responsibility.",
-                                                           "**Codify the Guiding Question:** Draft a single question that is open enough to allow discovery but specific enough to forbid wandering. (e.g., \u0027How might we X so that Y?\u0027)"
+                                                           "**Codify the Guiding Question:** Draft a single question that is open enough to allow discovery but specific enough to forbid wandering. (e.g., \u0027How might we X so that Y?\u0027)",
+                                                           "**For Data Engineers:** Focus on data availability and pipeline integrity. **For Designers:** Focus on user empathy and visual consistency."
                                                        ]
                                           },
                          "facilitator":  {
                                              "job":  "Create a psychologically safe and structured environment that enables the practitioner to explore a vague problem and formulate a clear, compelling purpose for their inquiry.",
                                              "plan":  [
                                                           "**Declare Amnesty:** Explicitly suspend the \u0027need to be right.\u0027 Frame the session as \u0027generating raw material,\u0027 not \u0027finding the answer,\u0027 to lower the stakes.",
-                                                          "**Deploy a Provocation:** Bypass apathy with Invitational Design (`N07`). Present a \u0027discrepant event\u0027—data or an artifact that contradicts the group\u0027s assumptions.",
+                                                          "**Deploy a Provocation:** Bypass apathy with Invitational Design (`N07`). Present a \u0027discrepant event\u0027â€”data or an artifact that contradicts the group\u0027s assumptions.",
                                                           "**Externalize the Thinking:** Immediately move the discussion to a whiteboard or canvas. Cognitive load drops when the problem is spatialized, not just vocalized.",
-                                                          "**Follow the \u0027Heat\u0027:** Watch for the \u0027pupil dilation moment\u0027—when the group leans in. Pivot the inquiry toward that energy, even if it deviates from the agenda."
+                                                          "**Follow the \u0027Heat\u0027:** Watch for the \u0027pupil dilation moment\u0027â€”when the group leans in. Pivot the inquiry toward that energy, even if it deviates from the agenda."
                                                       ]
                                          },
                          "forces":  {
@@ -84,7 +85,7 @@
                     },
                     {
                         "title":  "Data-Driven Modality Profile",
-                        "human_display_content":  "##### Methodology Note\n\nThe following profile was generated using the \u0027Verb Lexicon Analysis\u0027 protocol. For each domain, a list of 20 representative action verbs was scored against all 15 modalities by independent raters. The scores represent the averaged relevance of each modality to the core work of that domain at this stage.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.90 | 1.10 | 0.90 | 0.90 | 0.50 | 1.20 | 1.40 | 1.50 | 2.10 | 1.60 | 1.30 | 0.40 | 0.80 | 1.10 | 1.30 |\n| **Humanities \u0026 SS.** | 1.50 | 1.80 | 0.20 | 0.10 | 1.10 | 0.20 | 3.10 | 0.50 | 1.20 | 1.80 | 2.10 | 1.50 | 2.20 | 1.90 | 2.20 |\n| **Arts \u0026 Design** | 3.10 | 1.90 | 2.10 | 2.20 | 3.60 | 2.50 | 1.80 | 0.20 | 2.80 | 0.90 | 2.90 | 2.80 | 1.50 | 3.20 | 1.10 |\n| **Business \u0026 Agile** | 1.20 | 2.10 | 0.50 | 0.40 | 1.50 | 0.60 | 2.10 | 1.10 | 1.30 | 1.90 | 1.80 | 1.60 | 2.90 | 1.70 | 1.40 |\n| **Integrated Knowledge \u0026 Ethics** | 0.80 | 1.20 | 1.10 | 1.50 | 3.90 | 0.90 | 2.10 | 0.30 | 0.90 | 1.50 | 2.20 | 3.60 | 2.90 | 2.10 | 2.80 |\n| **Pedagogy \u0026 Facil.** | 1.40 | 2.20 | 0.60 | 0.70 | 1.80 | 0.80 | 3.00 | 0.80 | 1.50 | 2.10 | 2.30 | 2.50 | 3.10 | 2.40 | 2.60 |\n\n#### Deeper Analysis \u0026 Insights\n\nThe initial insight—that the source of the inquiry signal differs by domain—is correct. However, a deeper analysis of this data reveals three more profound principles about how different disciplines are trained to \"sense\" the world at the beginning of an inquiry.\n\n#### Insight 1: From Dominant Modalities to \"Cognitive Signatures\"\n\nThe key is not just the single highest-scoring modality, but the entire **cognitive signature**—the unique cognitive profile of high *and* low scores. This signature defines the specific \"state of mind\" for each domain\u0027s inquiry process.\n\n* **Science\u0027s Signature:** High `Visual` and `Logical` scores combined with extremely low `Emotional` and `Interoceptive` scores define a state of *analytical observation*.\n* **Art\u0027s Signature:** High `Interoceptive`, `Creative`, and embodied scores combined with low `Logical` and `Numerical` scores define a state of *embodied, non-linear reception*.\n\n#### Insight 2: The Power of \"Quiet Modalities\"\n\nWhat a domain is trained to *ignore* is as revealing as what it is trained to notice. The lowest scores in each signature represent the signals that are actively suppressed to achieve clarity in that domain\u0027s preferred channel.\n\n* Science intentionally quiets the \"gut feeling\" (`Interoceptive`) to focus on objective data.\n* Art intentionally quiets premature \"analysis\" (`Logical`) to allow for emergent, associative thought.\n* This explains a core source of friction in cross-functional teams: each discipline is asking the other to suppress its primary sensing tool. This framework makes that tension visible and thus, manageable.\n\n#### Insight 3: A New Typology - The Three Clusters of Sensing\n\nThe six domains can be synthesized into three primary clusters based on the source of their inquiry signal:\n\n* **1. The External Sensors (Science \u0026 Engineering):** Sense the world through objective, empirical data and observation of physical systems. Their question is, \"What is the data telling me?\"\n* **2. The Social \u0026 Textual Sensors (Humanities, Business, Pedagogy):** Sense the world through the artifacts of human communication—listening to stakeholders, reading texts, and observing social dynamics. Their question is, \"What is being said (or unsaid)?\"\n* **3. The Internal Sensors (Arts, Integrated Knowledge \u0026 Ethics):** Sense the world through subjective, internal states—Felt Pertinence, emotional response, and moral intuition. Their question is, \"What am I feeling, and what does it mean?\"\n\nThis typology provides a powerful mental model for teams to diagnose their own dominant mode of sensing and to consciously adopt other perspectives to gain a more complete, holistic understanding of any complex problem.",
+                        "human_display_content":  "##### Methodology Note\n\nThe following profile was generated using the \u0027Verb Lexicon Analysis\u0027 protocol.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.90 | 1.10 | 0.90 | 0.90 | 0.50 | 1.20 | 1.40 | 1.50 | 2.10 | 1.60 | 1.30 | 0.40 | 0.80 | 1.10 | 1.30 |\n| **Humanities \u0026 SS.** | 1.50 | 1.80 | 0.20 | 0.10 | 1.10 | 0.20 | 3.10 | 0.50 | 1.20 | 1.80 | 2.10 | 1.50 | 2.20 | 1.90 | 2.20 |\n| **Arts \u0026 Design** | 3.10 | 1.90 | 2.10 | 2.20 | 3.60 | 2.50 | 1.80 | 0.20 | 2.80 | 0.90 | 2.90 | 2.80 | 1.50 | 3.20 | 1.10 |\n| **Business \u0026 Agile** | 1.20 | 2.10 | 0.50 | 0.40 | 1.50 | 0.60 | 2.10 | 1.10 | 1.30 | 1.90 | 1.80 | 1.60 | 2.90 | 1.70 | 1.40 |\n| **Integrated Knowledge \u0026 Ethics** | 0.80 | 1.20 | 1.10 | 1.50 | 3.90 | 0.90 | 2.10 | 0.30 | 0.90 | 1.50 | 2.20 | 3.60 | 2.90 | 2.10 | 2.80 |\n| **Pedagogy \u0026 Facil.** | 1.40 | 2.20 | 0.60 | 0.70 | 1.80 | 0.80 | 3.00 | 0.80 | 1.50 | 2.10 | 2.30 | 2.50 | 3.10 | 2.40 | 2.60 |\n\n#### Deeper Analysis \u0026 Insights\n\n*   **Humanities \u0026 SS:** The dominance of **Verbal** and **Associative** modalities highlights that inquiry begins by engaging with existing texts and social narratives, rather than raw sensory data. (Gadamer, H-G. *Truth and Method*. Continuum, 1975.)\n*   **Arts \u0026 Design:** Dominant **Interoceptive** and **Sensory** scores reveal that artistic inquiry often begins with a \u0027felt sense\u0027 or somatic signal, prioritizing internal resonance over immediate logical categorization. (Dewey, J. *Art as Experience*. Minton, Balch \u0026 Co., 1934.)\n*   **Business \u0026 Agile:** Elevated **Social** and **Auditory** scores indicate that business inquiry is driven by \u0027listening to the market\u0027—detecting signals through customer interviews and social observation. (Blank, S. *The Four Steps to the Epiphany*. K\u0026S Ranch, 2005.)\n*   **Culture \u0026 Ethics:** The peak **Metacognitive** and **Emotional** scores suggest that ethical inquiry begins with deep self-reflection and an assessment of one\u0027s own positionality and values. (Schön, D. *The Reflective Practitioner*. Basic Books, 1983.)\n*   **Pedagogy \u0026 Facilitation:** High **Social** and **Metacognitive** scores reflect the facilitator\u0027s need to \u0027read the room,\u0027 simultaneously sensing the group\u0027s dynamic and monitoring their own influence on it. (Hattie, J. *Visible Learning*. Routledge, 2008.)",
                         "ai_instructional_context":  {
                                                          "purpose":  "This data provides a heuristic for understanding the cognitive flavor of this tool. Use it to add nuance, not as a primary driver for generation. Your primary task is to design a lesson plan based on the tool\u0027s pathways and principles. When referencing this data, you must adhere to Core Directive CD-10.",
                                                          "methodology":  "The data was generated using the \u0027Verb Lexicon Analysis\u0027 protocol, a transparent and reproducible method. This should be mentioned to establish credibility.",
@@ -120,16 +121,16 @@
                                                                                        "business_and_agile":  "Elevated Social and Auditory scores indicate that business inquiry is driven by \u0027listening to the market\u0027detecting signals through customer interviews and social observation. (Blank, S. The Four Steps to the Epiphany. K\u0026S Ranch, 2005.)",
                                                                                        "wisdom_and_ethics":  "Signature of the \u0027introspective contemplative.\u0027 Senses via metacognitive and emotional self-inquiry.",
                                                                                        "pedagogy_and_facil":  "High Social and Metacognitive scores reflect the facilitator\u0027s need to \u0027read the room,\u0027 simultaneously sensing the group\u0027s dynamic and monitoring their own influence on it. (Hattie, J. Visible Learning. Routledge, 2008.)",
-                                                                                       "integrated_knowledge_and_ethics":  "The peak Metacognitive and Emotional scores suggest that ethical inquiry begins with deep self-reflection and an assessment of one\u0027s own positionality and values. (Schön, D. The Reflective Practitioner. Basic Books, 1983.)"
+                                                                                       "integrated_knowledge_and_ethics":  "The peak Metacognitive and Emotional scores suggest that ethical inquiry begins with deep self-reflection and an assessment of one\u0027s own positionality and values. (SchÃ¶n, D. The Reflective Practitioner. Basic Books, 1983.)"
                                                                                    }
                                                      }
                     }
                 ],
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "title":  "ðŸ§  Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "This stage is about managing the anxiety of the unknown. The core friction is \u0027Initiation Anxiety\u0027—the fear of the blank page or the overwhelming scale of the problem, which can lead to procrastination.",
+                                                       "content":  "This stage is about managing the anxiety of the unknown. The core friction is \u0027Initiation Anxiety\u0027â€”the fear of the blank page or the overwhelming scale of the problem, which can lead to procrastination.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -144,7 +145,7 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "🧩 Integrative Strategies",
+                                                       "title":  "ðŸ§© Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
                                                        "dynamic_playbook":  {
@@ -161,7 +162,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective enriches inquiry by focusing on relational purpose, encouraging understanding of our responsibilities to the context, not just identifying an isolated \u0027problem\u0027.",
                                                             "dynamic_playbook":  {
@@ -197,7 +198,7 @@
                                                 "stage_name":  "Define the Inquiry",
                                                 "pathways":  [
                                                                  {
-                                                                     "pathway_name":  "📚 HP1: The Empirical Path",
+                                                                     "pathway_name":  "ðŸ“š HP1: The Empirical Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -289,7 +290,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🧠‘â€ ðŸ « HP-NEW-1: The \u0027Analogy\u0027 Path",
+                                                                     "pathway_name":  "ðŸ§ â€˜Ã¢â‚¬ Ã°Å¸ Â« HP-NEW-1: The \u0027Analogy\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -359,7 +360,7 @@
                                                                      "rationale":  "This pathway leverages the brain\u0027s capacity for analogical reasoning (Parietal Lobe) to bypass a creative block by mapping the structure of a known success onto a new, ambiguous problem."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ§‘â€ ðŸ « HP-NEW-2: The \u0027Retrospective First\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸Â§â€˜Ã¢â‚¬ Ã°Å¸ Â« HP-NEW-2: The \u0027Retrospective First\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -426,7 +427,7 @@
                                                                      "rationale":  "This pathway uses the memory of a past failure (Hippocampus) as a negative constraint, forcing the Executive Control Network to inhibit known bad paths and search for novel solutions."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🌍  HP7: The Causal Layered Analysis (CLA) Path",
+                                                                     "pathway_name":  "ðŸŒ  HP7: The Causal Layered Analysis (CLA) Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "pfic_word":  "Identify Litany",
@@ -500,7 +501,7 @@
                                                                      "rationale":  "This pathway engages the Salience Network to detect high-leverage nodes within a complex system, directing executive attention to where a small intervention can produce a non-linear result."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸŒ  HP8: The Actor-Network Path",
+                                                                     "pathway_name":  "Ã°Å¸Å’  HP8: The Actor-Network Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "pfic_word":  "Identify Actors",
@@ -572,7 +573,7 @@
                                                                      }
                                             },
                          "embodiedDynamics":  {
-                                                  "title":  "🤸 Embodied Dynamics",
+                                                  "title":  "ðŸ¤¸ Embodied Dynamics",
                                                   "simpleTitle":  "The Body\u0027s Role",
                                                   "content":  "Inquiry begins with a somatic signal. This is the \u0027gut feeling\u0027 (interoception) or sensory \u0027jolt\u0027 (exteroception) that tells the brain something is salient. The body is the first instrument of sensing.",
                                                   "dynamic_playbook":  {
@@ -582,12 +583,12 @@
                                                                                             ],
                                                                            "facilitator":  [
                                                                                                "Use physical artifacts as provocations.",
-                                                                                               "Notice the group\u0027s collective body language—are they leaning in or pulling back?"
+                                                                                               "Notice the group\u0027s collective body languageâ€”are they leaning in or pulling back?"
                                                                                            ]
                                                                        }
                                               },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "title":  "ðŸ§  Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Attunement is the neural process of shifting attention, involving a dynamic interplay between networks for detecting salient, bottom-up stimuli (VAN) and directing top-down, goal-oriented focus (DAN).",
                                                        "dynamic_playbook":  {
@@ -638,7 +639,7 @@
                                                                           }
                                                  },
                          "teamDynamics":  {
-                                              "title":  "🤝 Team Dynamics",
+                                              "title":  "ðŸ¤ Team Dynamics",
                                               "simpleTitle":  "How We Work Together",
                                               "content":  "This stage is about \u0027Forming\u0027 and \u0027Storming.\u0027 The team is defining its purpose and often experiences conflict as different mental models of the problem collide. The goal is to achieve alignment on the \u0027why\u0027.",
                                               "dynamic_playbook":  {
@@ -675,7 +676,7 @@
                                                                             }
                                                    },
                          "cynefinAnalysis":  {
-                                                 "title":  "🧭 Navigational Context",
+                                                 "title":  "ðŸ§­ Navigational Context",
                                                  "simpleTitle":  "Complexity Check",
                                                  "content":  "The inquiry begins with unknown unknowns. The relationship between cause and effect is unclear and can only be understood in retrospect. The process requires probing the environment to allow patterns to emerge.",
                                                  "dynamic_playbook":  {
@@ -687,12 +688,12 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
                          "pedagogicalDynamics":  {
-                                                     "title":  "🧑‍🏫 Pedagogical Dynamics",
+                                                     "title":  "ðŸ§‘â€ðŸ« Pedagogical Dynamics",
                                                      "simpleTitle":  "How We Learn Here",
                                                      "content":  "The dynamic is **Catalysis**. The facilitator acts as a catalyst, using a planned provocation to trigger the learner\u0027s internal state of curiosity. The goal is to spark intrinsic motivation, not to provide answers.",
                                                      "dynamic_playbook":  {
@@ -726,7 +727,7 @@
                                                                               },
                                                          "content":  "Each domain senses the environment differently. Science looks for anomalies in data; Art looks for internal somatic tension; Business looks for gaps in the market. The framework formalizes these distinct sensing mechanisms into actionable starting points.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "📚 Disciplinary Application",
+                                                         "title":  "ðŸ“š Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -771,7 +772,7 @@
                                                                           ]
                                                      },
                          "technologicalMediation":  {
-                                                        "title":  "💻 Technological Mediation",
+                                                        "title":  "ðŸ’» Technological Mediation",
                                                         "simpleTitle":  "The Tools We Use",
                                                         "content":  "The tool used to capture the initial inquiry (e.g., a whiteboard vs. a formal document) frames what is considered a \u0027valid\u0027 starting point. A whiteboard invites messy, visual thinking; a document invites linear, formal thinking.",
                                                         "dynamic_playbook":  {
@@ -928,7 +929,7 @@
                                 }
                             ],
     "tableData":  {
-                      "pedagogy":  "**Gagné:** Gain Attention\n**5E:** Engage\n**DLS:** Priming\n**// NEW //**\n**Invitational Path:** Assess, Provoke, Facilitate",
+                      "pedagogy":  "**GagnÃ©:** Gain Attention\n**5E:** Engage\n**DLS:** Priming\n**// NEW //**\n**Invitational Path:** Assess, Provoke, Facilitate",
                       "science":  "Observation / Questioning",
                       "agile":  "Problem Framing / Stakeholder Narrative",
                       "humanities":  "Close Reading / Provocation",

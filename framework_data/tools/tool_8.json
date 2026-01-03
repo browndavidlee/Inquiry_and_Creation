@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -24,7 +24,8 @@
                                                            "**Structure the Narrative:** Use the \u0027Minto Pyramid Principle\u0027 or a classic story arc. Start with the conclusion (the value), then provide the supporting evidence. Don\u0027t bury the lead.",
                                                            "**Rehearse Under Stress:** Practice not just the script, but the Q\u0026A. Simulate the pressure (`N30`). This habituates the Amygdala, keeping your Prefrontal Cortex online during the real event.",
                                                            "**Close the Loop:** Explicitly ask for the decision. \u0027Based on this evidence, do we have approval to proceed?\u0027 Don\u0027t leave the room with ambiguity.",
-                                                           "**Prepare the Defense:** Don\u0027t just present; defend. Use the \u0027Framework Defense Protocol\u0027 (FDP) logic to pre-script responses to the most likely attacks (Rigidity, Jargon, etc.)."
+                                                           "**Prepare the Defense:** Don\u0027t just present; defend. Use the \u0027Framework Defense Protocol\u0027 (FDP) logic to pre-script responses to the most likely attacks (Rigidity, Jargon, etc.).",
+                                                           "**Force Closure:** Don\u0027t end with \u0027we\u0027ll see.\u0027 Ask for a specific outcome: Approved, Rejected, or Conditional Pass."
                                                        ]
                                           },
                          "facilitator":  {
@@ -45,9 +46,9 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "title":  "ðŸ§  Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "Presentation is a high-stakes social performance that can trigger \u0027Impostor Syndrome\u0027—a status threat that activates the Amygdala. The goal is to regulate this threat response to keep the verbal and logical networks online.",
+                                                       "content":  "Presentation is a high-stakes social performance that can trigger \u0027Impostor Syndrome\u0027â€”a status threat that activates the Amygdala. The goal is to regulate this threat response to keep the verbal and logical networks online.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -62,14 +63,15 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "🧩 Integrative Strategies",
+                                                       "title":  "ðŸ§© Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This tool integrates analytical rigor with ethical and emotional intelligence to make wiser choices.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Force Bisociation:** Deliberately collide two unrelated frames (e.g., \u0027Treat this software bug as a biological virus\u0027). Novelty lives at the intersection.",
                                                                                                      "**Bridge the Qualitative/Quantitative:** If you have data, find the story. If you have a story, find the data. The inquiry lies in the gap between them.",
-                                                                                                     "**Map the System:** Don\u0027t just define the node (the problem); define the edges (the relationships). How does this problem sustain the larger system?"
+                                                                                                     "**Map the System:** Don\u0027t just define the node (the problem); define the edges (the relationships). How does this problem sustain the larger system?",
+                                                                                                     "**Gatekeeper Analysis:** Who is the final decision maker? What is their currency (Money, Status, Rigor)? Tailor the pitch to them."
                                                                                                  ],
                                                                                 "facilitator":  [
                                                                                                     "**Translate Vocabularies:** Actively translate jargon. \u0027When the engineer says \u0027latency,\u0027 the anthropologist hears \u0027friction.\u0027 How are these the same?\u0027",
@@ -79,7 +81,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective expands validation to include community-based and stakeholder-centered approaches, ensuring the work creates real-world value.",
                                                             "dynamic_playbook":  {
@@ -115,7 +117,7 @@
                                                 "stage_name":  "Validation \u0026 Witnessing",
                                                 "pathways":  [
                                                                  {
-                                                                     "pathway_name":  "📚 Science \u0026 Engineering - The Peer Review Path",
+                                                                     "pathway_name":  "ðŸ“š Science \u0026 Engineering - The Peer Review Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -178,7 +180,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ‘¥ Humanities \u0026 Social Sciences - The Defense Path",
+                                                                     "pathway_name":  "Ã°Å¸â€˜Â¥ Humanities \u0026 Social Sciences - The Defense Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -239,7 +241,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸŽ¨ Arts \u0026 Design - The Exhibition/Performance Path",
+                                                                     "pathway_name":  "Ã°Å¸Å½Â¨ Arts \u0026 Design - The Exhibition/Performance Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -301,7 +303,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸš€ Business \u0026 Agile - The Sprint Review Path",
+                                                                     "pathway_name":  "Ã°Å¸Å¡â‚¬ Business \u0026 Agile - The Sprint Review Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -364,7 +366,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🌍  Culture \u0026 Ethics - The Community accountability Path",
+                                                                     "pathway_name":  "ðŸŒ  Culture \u0026 Ethics - The Community accountability Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -429,7 +431,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "âœ¨ Speculative - The \u0027Does It Heal?\u0027 Path",
+                                                                     "pathway_name":  "Ã¢Å“Â¨ Speculative - The \u0027Does It Heal?\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -494,7 +496,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🧠‘â€ ðŸ « Pedagogy \u0026 Facilitation - The Witnessing \u0026 Assessment Path",
+                                                                     "pathway_name":  "ðŸ§ â€˜Ã¢â‚¬ Ã°Å¸ Â« Pedagogy \u0026 Facilitation - The Witnessing \u0026 Assessment Path",
                                                                      "facilitator_model":  {
                                                                                                "sequence":  [
                                                                                                                 {
@@ -620,7 +622,7 @@
                                                                                        }
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Rehearsal\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Rehearsal\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -691,7 +693,7 @@
                                                                      "rationale":  "This pathway uses simulation to habituate the amygdala to the stress of performance, allowing the prefrontal cortex to remain online during the high-stakes event."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Decision Log Review\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Decision Log Review\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -761,7 +763,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Stakeholder Retrospective\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Stakeholder Retrospective\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -865,7 +867,7 @@
                                        "Length":  25
                                    },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "title":  "ðŸ§  Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Validation coordinates logical assessment (ECN), social perspective-taking (Social Cognition Network), and value judgment (Valuation Network).",
                                                        "dynamic_playbook":  {
@@ -888,7 +890,7 @@
                                                      "simpleTitle":  "Vs. Other Models",
                                                      "models":  [
                                                                     {
-                                                                        "value_add":  "Tool 8 is a \u0027Defense\u0027—it proactively addresses risks and limitations to build trust and verify validity.",
+                                                                        "value_add":  "Tool 8 is a \u0027Defense\u0027â€”it proactively addresses risks and limitations to build trust and verify validity.",
                                                                         "derivation":  "Academic Defense",
                                                                         "model":  "Sales Pitch",
                                                                         "comparison":  "A pitch hides flaws to sell the product.",
@@ -941,7 +943,7 @@
                                          "Length":  223
                                      },
                          "cynefinAnalysis":  {
-                                                 "title":  "🧭 Navigational Context",
+                                                 "title":  "ðŸ§­ Navigational Context",
                                                  "simpleTitle":  "Complexity Check",
                                                  "content":  "The reaction of an authentic audience is an emergent property of a complex social system. It cannot be predicted, only probed.",
                                                  "dynamic_playbook":  {
@@ -953,7 +955,7 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
@@ -977,7 +979,7 @@
                                                                               },
                                                          "content":  "Validation is the social reality test. Science demands reproducibility; Business demands ROI; Culture demands accountability. The framework ensures the work is not just \u0027finished\u0027 but accepted and integrated by the target community.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "📚 Disciplinary Application",
+                                                         "title":  "ðŸ“š Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -1146,14 +1148,14 @@
                                 }
                             ],
     "tableData":  {
-                      "pedagogy":  "**Gagné:** Assess Performance\n**5E:** Evaluate (Summative)\n**DLS:** Mastering\n**// NEW //**\n**Witnessing \u0026 Assessment Path:** Stage, Witness, Judge",
+                      "pedagogy":  "**GagnÃ©:** Assess Performance\n**5E:** Evaluate (Summative)\n**DLS:** Mastering\n**// NEW //**\n**Witnessing \u0026 Assessment Path:** Stage, Witness, Judge",
                       "science":  "Peer Review / Replication",
                       "agile":  "Sprint Review / Stakeholder Outcomes",
                       "humanities":  "Defense / Publication / Discourse Uptake",
                       "creative":  "Exhibition / Juried Review / Audience Reception"
                   },
     "averagePathway":  {
-                           "title":  "The Average Pathway: Present → Measure → Synthesize \u0026 Decide Next Steps",
+                           "title":  "The Average Pathway: Present â†’ Measure â†’ Synthesize \u0026 Decide Next Steps",
                            "rationale":  "This is the final test of the work\u0027s value, reframed to be more generative. It involves presenting the work, measuring its performance, and synthesizing the outcomes to decide on the next cycle of inquiry, rather than making a simple pass/fail judgment.",
                            "cognitiveSequence":  [
                                                      "Present the final work to an external audience. This is a demanding social performance requiring the Language Network for articulation and the SCN for monitoring audience reception, all while actively regulating the Limbic system\u0027s threat response to social evaluation.",

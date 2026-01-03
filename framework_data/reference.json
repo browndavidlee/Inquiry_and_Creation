@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -833,7 +833,7 @@
                                        "definition":  "The cognitive ability to remember to perform a planned action or recall a planned intention at some future point in time (e.g., remembering to stop at the store on the way home)."
                                    },
                                    {
-                                       "term":  "protégé Effect",
+                                       "term":  "protg Effect",
                                        "definition":  "A psychological phenomenon where teaching, pretending to teach, or preparing to teach information to others helps a person learn that information more effectively."
                                    },
                                    {
@@ -1302,18 +1302,18 @@
                                          },
                                          {
                                              "id":  "anzaldua-1987",
-                                             "citation":  "Anzaldúa, G. (1987). *Borderlands/La Frontera: The New Mestiza*. Aunt Lute Books.",
+                                             "citation":  "Anzalda, G. (1987). *Borderlands/La Frontera: The New Mestiza*. Aunt Lute Books.",
                                              "rationale":  "Introduces \u0027Nepantla,\u0027 the creative \u0027in-between\u0027 space. This provides a powerful language for the synthesis that occurs in Tool 9 and the navigation of conflicting ideas in Tool 3.",
                                              "associated_tools":  null
                                          },
                                          {
                                              "id":  "new-anzaldua-1987",
-                                             "citation":  "Anzaldúa, G. (1987). *Borderlands/La Frontera: The New Mestiza*. Aunt Lute Books.",
+                                             "citation":  "Anzalda, G. (1987). *Borderlands/La Frontera: The New Mestiza*. Aunt Lute Books.",
                                              "rationale":  "Fills a key Thematic Gap in the Cultural traditions cluster by providing the seminal, authoritative source for the concept of Nepantla (the creative \u0027in-between\u0027 space) used in Tool 7.",
                                              "associated_tools":  null
                                          },
                                          {
-                                             "citation":  "Anzaldúa, G. (1987). Borderlands/La Frontera: The New Mestiza. Aunt Lute Books.",
+                                             "citation":  "Anzalda, G. (1987). Borderlands/La Frontera: The New Mestiza. Aunt Lute Books.",
                                              "rationale":  "Introduces \u0027Nepantla,\u0027 the creative \u0027in-between\u0027 space. This provides a powerful language for the synthesis that occurs in Tool 9 and the navigation of conflicting ideas in Tool 3."
                                          },
                                          {
@@ -1485,7 +1485,7 @@
                                          {
                                              "id":  "brown-roediger-mcdaniel-2014",
                                              "citation":  "Brown, P. C., Roediger III, H. L., \u0026 McDaniel, M. A. (2014). *Make It Stick: The Science of Successful Learning*. Belknap Press.",
-                                             "rationale":  "The foundational text for evidence-based learning strategies like retrieval practice. It provides the scientific basis for the \u0027Storytelling\u0027 Path (as an application of the protégé effect) and the \u0027Retrieval Practice Path\u0027 (a new pathway for Tool 7 not yet created but implied by this work).",
+                                             "rationale":  "The foundational text for evidence-based learning strategies like retrieval practice. It provides the scientific basis for the \u0027Storytelling\u0027 Path (as an application of the protg effect) and the \u0027Retrieval Practice Path\u0027 (a new pathway for Tool 7 not yet created but implied by this work).",
                                              "associated_tools":  [
                                                                       "tool5",
                                                                       "tool9"
@@ -1493,7 +1493,7 @@
                                          },
                                          {
                                              "citation":  "Brown, P. C., Roediger III, H. L., \u0026 McDaniel, M. A. (2014). Make It Stick: The Science of Successful Learning. Belknap Press.",
-                                             "rationale":  "The foundational text for evidence-based learning strategies like retrieval practice. It provides the scientific basis for the \u0027Storytelling\u0027 Path (as an application of the protégé effect) and the \u0027Retrieval Practice Path\u0027 (a new pathway for Tool 7 not yet created but implied by this work)."
+                                             "rationale":  "The foundational text for evidence-based learning strategies like retrieval practice. It provides the scientific basis for the \u0027Storytelling\u0027 Path (as an application of the protg effect) and the \u0027Retrieval Practice Path\u0027 (a new pathway for Tool 7 not yet created but implied by this work)."
                                          },
                                          {
                                              "id":  "brown-2009",
@@ -1527,12 +1527,12 @@
                                          },
                                          {
                                              "id":  "buzsaki-2006",
-                                             "citation":  "Buzsáki, G. (2006). *Rhythms of the Brain*. Oxford University Press.",
+                                             "citation":  "Buzski, G. (2006). *Rhythms of the Brain*. Oxford University Press.",
                                              "rationale":  "A seminal work that provides the source for the glossary terms \u0027Alpha/Beta/Gamma Oscillations\u0027 and \u0027Sharp-Wave Ripples (SWRs)\u0027.",
                                              "associated_tools":  null
                                          },
                                          {
-                                             "citation":  "Buzsáki, G. (2006). Rhythms of the Brain. Oxford University Press.",
+                                             "citation":  "Buzski, G. (2006). Rhythms of the Brain. Oxford University Press.",
                                              "rationale":  "A seminal work that provides the source for the glossary terms \u0027Alpha/Beta/Gamma Oscillations\u0027 and \u0027Sharp-Wave Ripples (SWRs)\u0027."
                                          },
                                          {
@@ -1889,13 +1889,13 @@
                                          },
                                          {
                                              "id":  "gagne-1985",
-                                             "citation":  "Gagné, R. M. (1985). *The Conditions of Learning and Theory of Instruction* (4th ed.). Holt, Rinehart and Winston.",
-                                             "rationale":  "Gagné\u0027s Nine Events of Instruction provide a well-established pedagogical structure that maps closely to the tools, as shown in the \u0027Grand Table,\u0027 lending educational credibility to the \u0027Invitational Path\u0027 (Tool 1).",
+                                             "citation":  "Gagn, R. M. (1985). *The Conditions of Learning and Theory of Instruction* (4th ed.). Holt, Rinehart and Winston.",
+                                             "rationale":  "Gagn\u0027s Nine Events of Instruction provide a well-established pedagogical structure that maps closely to the tools, as shown in the \u0027Grand Table,\u0027 lending educational credibility to the \u0027Invitational Path\u0027 (Tool 1).",
                                              "associated_tools":  null
                                          },
                                          {
-                                             "citation":  "Gagné, R. M. (1985). The Conditions of Learning and Theory of Instruction (4th ed.). Holt, Rinehart and Winston.",
-                                             "rationale":  "Gagné\u0027s Nine Events of Instruction provide a well-established pedagogical structure that maps closely to the tools, as shown in the \u0027Grand Table,\u0027 lending educational credibility to the \u0027Invitational Path\u0027 (Tool 1)."
+                                             "citation":  "Gagn, R. M. (1985). The Conditions of Learning and Theory of Instruction (4th ed.). Holt, Rinehart and Winston.",
+                                             "rationale":  "Gagn\u0027s Nine Events of Instruction provide a well-established pedagogical structure that maps closely to the tools, as shown in the \u0027Grand Table,\u0027 lending educational credibility to the \u0027Invitational Path\u0027 (Tool 1)."
                                          },
                                          {
                                              "id":  "new-gandhi-1938",
@@ -2259,13 +2259,13 @@
                                          },
                                          {
                                              "id":  "marsden-2003",
-                                             "citation":  "Marsden, M., \u0026 Royal, T. A. C. (2003). *The Woven Universe: Selected Writings of Rev. Māori Marsden*. Estate of Rev. Māori Marsden.",
-                                             "rationale":  "An authoritative text on Māori philosophy that provides a deep, culturally-grounded definition for the glossary term \u0027Kaitiakitanga\u0027.",
+                                             "citation":  "Marsden, M., \u0026 Royal, T. A. C. (2003). *The Woven Universe: Selected Writings of Rev. Mori Marsden*. Estate of Rev. Mori Marsden.",
+                                             "rationale":  "An authoritative text on Mori philosophy that provides a deep, culturally-grounded definition for the glossary term \u0027Kaitiakitanga\u0027.",
                                              "associated_tools":  null
                                          },
                                          {
-                                             "citation":  "Marsden, M., \u0026 Royal, T. A. C. (2003). The Woven Universe: Selected Writings of Rev. Māori Marsden. Estate of Rev. Māori Marsden.",
-                                             "rationale":  "An authoritative text on Māori philosophy that provides a deep, culturally-grounded definition for the glossary term \u0027Kaitiakitanga\u0027."
+                                             "citation":  "Marsden, M., \u0026 Royal, T. A. C. (2003). The Woven Universe: Selected Writings of Rev. Mori Marsden. Estate of Rev. Mori Marsden.",
+                                             "rationale":  "An authoritative text on Mori philosophy that provides a deep, culturally-grounded definition for the glossary term \u0027Kaitiakitanga\u0027."
                                          },
                                          {
                                              "id":  "new-mcclelland-1995",
@@ -2466,18 +2466,18 @@
                                              "rationale":  "The foundational text of modern business strategy and competitive analysis, informing the \u0027Competitive Path\u0027 (Tool 1)."
                                          },
                                          {
-                                             "citation":  "Project Management Institute. (2017). A Guide to the Project Management Body of Knowledge (PMBOK® Guide) (6th ed.). Project Management Institute.",
+                                             "citation":  "Project Management Institute. (2017). A Guide to the Project Management Body of Knowledge (PMBOK Guide) (6th ed.). Project Management Institute.",
                                              "rationale":  "The standard reference for project management, providing the authoritative source for the \u0027RACI Matrix\u0027."
                                          },
                                          {
                                              "id":  "pmbok-2017",
-                                             "citation":  "Project Management Institute. (2017). A Guide to the Project Management Body of Knowledge (PMBOK® Guide).",
+                                             "citation":  "Project Management Institute. (2017). A Guide to the Project Management Body of Knowledge (PMBOK Guide).",
                                              "rationale":  "The standard reference for traditional project management, providing the context and terminology for the role of a formal Project Manager in Tool 2.",
                                              "associated_tools":  "tool2"
                                          },
                                          {
                                              "id":  "pmi-2017",
-                                             "citation":  "Project Management Institute. (2017).*A Guide to the Project Management Body of Knowledge (PMBOK® Guide)* (6th ed.). Project Management Institute.",
+                                             "citation":  "Project Management Institute. (2017).*A Guide to the Project Management Body of Knowledge (PMBOK Guide)* (6th ed.). Project Management Institute.",
                                              "rationale":  "The standard reference for project management, providing the authoritative source for the \u0027RACI Matrix\u0027.",
                                              "associated_tools":  null
                                          },
@@ -2531,13 +2531,13 @@
                                          },
                                          {
                                              "id":  "new-schon-1983",
-                                             "citation":  "Schön, D. A. (1983). *The Reflective Practitioner: How Professionals Think in Action*. Basic Books.",
+                                             "citation":  "Schn, D. A. (1983). *The Reflective Practitioner: How Professionals Think in Action*. Basic Books.",
                                              "rationale":  "A Keystone text in professional education that serves as a critical Bridge. It provides the theoretical language of \u0027reflective practice,\u0027 explicitly connecting the \u0027doing\u0027 of Tool 6 (application) with the \u0027refining\u0027 of Tool 7 (Critique) and sourcing the \u0027Coaching Loop Path\u0027 (Tool 6) and the \u0027Reflective Practice Path\u0027 (Tool 10).",
                                              "associated_tools":  null
                                          },
                                          {
                                              "id":  "schon-1983",
-                                             "citation":  "Schön, D. A. (1983). The Reflective Practitioner. Basic Books.",
+                                             "citation":  "Schn, D. A. (1983). The Reflective Practitioner. Basic Books.",
                                              "rationale":  "The source for the theory of the \u0027Reflective Practitioner,\u0027 which describes the process of learning through a \u0027conversation with the materials\u0027 during execution, a core concept for Tool 6.",
                                              "associated_tools":  [
                                                                       "tool6",
@@ -2545,18 +2545,18 @@
                                                                   ]
                                          },
                                          {
-                                             "citation":  "Schön, D. A. (1983). The Reflective Practitioner: How Professionals Think in Action. Basic Books.",
+                                             "citation":  "Schn, D. A. (1983). The Reflective Practitioner: How Professionals Think in Action. Basic Books.",
                                              "rationale":  "A Keystone text in professional education that serves as a critical Bridge. It provides the theoretical language of \u0027reflective practice,\u0027 explicitly connecting the \u0027doing\u0027 of Tool 6 (application) with the \u0027refining\u0027 of Tool 7 (Critique) and sourcing the \u0027Coaching Loop Path\u0027 (Tool 6) and the \u0027Reflective Practice Path\u0027 (Tool 10)."
                                          },
                                          {
                                              "id":  "scott-1998",
                                              "citation":  "Scott, J. C. (1998). *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. Yale University Press.",
-                                             "rationale":  "A powerful critique of large-scale, top-down planning (Tool 2) that ignores local, practical knowledge (mētis), providing a crucial cautionary tale for any framework.",
+                                             "rationale":  "A powerful critique of large-scale, top-down planning (Tool 2) that ignores local, practical knowledge (mtis), providing a crucial cautionary tale for any framework.",
                                              "associated_tools":  null
                                          },
                                          {
                                              "citation":  "Scott, J. C. (1998). Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed. Yale University Press.",
-                                             "rationale":  "A powerful critique of large-scale, top-down planning (Tool 2) that ignores local, practical knowledge (mētis), providing a crucial cautionary tale for any framework."
+                                             "rationale":  "A powerful critique of large-scale, top-down planning (Tool 2) that ignores local, practical knowledge (mtis), providing a crucial cautionary tale for any framework."
                                          },
                                          {
                                              "id":  "seeley-2007",
@@ -2995,7 +2995,7 @@
                                                                                    },
                                                                                    {
                                                                                        "name":  "Mind Reading",
-                                                                                       "description":  "You arbitrarily conclude that someone is reacting negatively to you, and you don’t bother to check this out.",
+                                                                                       "description":  "You arbitrarily conclude that someone is reacting negatively to you, and you don't bother to check this out.",
                                                                                        "example":  "During a brainstorm (Tool 3), thinking \u0027Everyone thinks my idea is stupid\u0027 without any evidence."
                                                                                    },
                                                                                    {

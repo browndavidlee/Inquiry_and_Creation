@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -64,7 +64,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.2",
@@ -122,7 +123,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.3",
@@ -180,7 +182,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.4",
@@ -238,7 +241,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.5",
@@ -296,7 +300,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.6",
@@ -354,7 +359,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.7",
@@ -412,7 +418,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.8",
@@ -470,7 +477,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.9",
@@ -528,7 +536,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.10",
@@ -586,7 +595,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.11",
@@ -644,7 +654,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.12",
@@ -702,7 +713,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.13",
@@ -760,7 +772,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.14",
@@ -818,7 +831,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.15",
@@ -876,7 +890,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.16",
@@ -934,7 +949,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.17",
@@ -992,7 +1008,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.18",
@@ -1050,7 +1067,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.19",
@@ -1108,7 +1126,8 @@
                                                 "specific_deliverable":  "System Map",
                                                 "rubric":  "Coherence and logic."
                                             }
-                                        ]
+                                        ],
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.20",
@@ -1166,7 +1185,8 @@
                                             }
                                         ],
                          "scenario":  "Deciding which bugs to fix first.",
-                         "theory_application":  "Identify the 20% of causes that produce 80% of the effects to prioritize action."
+                         "theory_application":  "Identify the 20% of causes that produce 80% of the effects to prioritize action.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.21",
@@ -1224,7 +1244,8 @@
                                             }
                                         ],
                          "scenario":  "Negotiating scope for a tight deadline.",
-                         "theory_application":  "Categorize requirements to manage scope: Must have, Should have, Could have, Won\u0027t have."
+                         "theory_application":  "Categorize requirements to manage scope: Must have, Should have, Could have, Won\u0027t have.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.22",
@@ -1289,7 +1310,8 @@
                                             }
                                         ],
                          "scenario":  "Choosing features for a product update.",
-                         "theory_application":  "Classify features by customer satisfaction: Basic, Performance, and Excitement."
+                         "theory_application":  "Classify features by customer satisfaction: Basic, Performance, and Excitement.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.23",
@@ -1347,7 +1369,8 @@
                                             }
                                         ],
                          "scenario":  "Deciding whether to sue or settle.",
-                         "theory_application":  "Map out possible consequences, probabilities, and payoffs for each option mathematically."
+                         "theory_application":  "Map out possible consequences, probabilities, and payoffs for each option mathematically.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.24",
@@ -1405,7 +1428,8 @@
                                             }
                                         ],
                          "scenario":  "Selecting between two high-cost technology investments.",
-                         "theory_application":  "Calculate Net Present Value and Internal Rate of Return to determine the long-term profitability and time-value of money."
+                         "theory_application":  "Calculate Net Present Value and Internal Rate of Return to determine the long-term profitability and time-value of money.",
+                         "definition":  "See variations for domain-specific definitions."
                      },
                      {
                          "id":  "T4.DT.1",
@@ -1463,7 +1487,8 @@
                                             }
                                         ],
                          "scenario":  "Choosing which feature to build next.",
-                         "theory_application":  "Do not select the \u0027best idea\u0027. Select the \u0027riskiest assumption\u0027 inherent in the best idea to test first."
+                         "theory_application":  "Do not select the \u0027best idea\u0027. Select the \u0027riskiest assumption\u0027 inherent in the best idea to test first.",
+                         "definition":  "See variations for domain-specific definitions."
                      }
                  ]
 }

@@ -1,4 +1,4 @@
-﻿// js/app.js
+// js/app.js
 
 import { loadFrameworkData } from './dataLoader.js';
 import { UI } from './uiComponents.js';
@@ -141,7 +141,7 @@ function setupScrollControls(containerId, wrapperClass) {
 document.addEventListener('DOMContentLoaded', async () => {
     const cognitiveToolkitData = await loadFrameworkData();
     
-    if (!cognitiveToolkitData) {
+        window.cognitiveToolkitData = cognitiveToolkitData;if (!cognitiveToolkitData) {
         const mainContent = document.getElementById('main-content');
         if (mainContent) {
             mainContent.innerHTML = `
@@ -374,13 +374,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
-            function handleConceptCloudEvents(e) {
+    function handleConceptCloudEvents(e) {
         const filterBtn = e.target.closest('.filter-chip');
         const bubbleBtn = e.target.closest('.concept-bubble');
         const closeBtn = e.target.closest('#popover-close-btn');
         const overlay = e.target.closest('#concept-popover-overlay');
 
-        // Initialize state if it doesn't exist
         if (typeof window.activeConceptFilter === 'undefined') {
             window.activeConceptFilter = 'all';
         }
@@ -392,15 +391,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 .replace('Procedural Link:', '<br><br><span class="highlight-key">Procedural Link:</span>');
         };
 
-        // --- FILTER CLICK HANDLER ---
         if (filterBtn) {
             document.querySelectorAll('.filter-chip').forEach(btn => btn.classList.remove('active'));
             filterBtn.classList.add('active');
 
             const selectedDomain = filterBtn.dataset.domain;
-            window.activeConceptFilter = selectedDomain; // UPDATE GLOBAL STATE
+            window.activeConceptFilter = selectedDomain;
 
-            // Define Domain Colors for Bubbles
             const domainColors = {
                 "Science & Engineering": "var(--domain-science)",
                 "Business & Agile": "var(--domain-business)",
@@ -416,19 +413,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             const bubbles = document.querySelectorAll('.concept-bubble');
             bubbles.forEach(bubble => {
                 const domains = bubble.dataset.domains.split(',');
-                // Check visibility
                 if (selectedDomain === 'all' || domains.includes(selectedDomain)) {
                     bubble.classList.remove('hidden');
                     bubble.classList.add('fade-in');
 
-                    // Apply Color Logic
                     if (selectedDomain !== 'all' && targetColor) {
                         bubble.style.backgroundColor = targetColor;
                         bubble.style.color = '#ffffff';
                         bubble.style.borderColor = targetColor;
                         bubble.style.boxShadow = '0 2px 5px rgba(0,0,0,0.15)';
                     } else {
-                        // Reset to default CSS styles for 'All' view
                         bubble.style.backgroundColor = '';
                         bubble.style.color = '';
                         bubble.style.borderColor = '';
@@ -442,31 +436,34 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
-        // --- BUBBLE CLICK HANDLER ---
         if (bubbleBtn) {
             const conceptId = bubbleBtn.dataset.conceptId;
-            
             let conceptData = null;
-            const allTools = cognitiveToolkitData.framework_data.toolConcepts;
-            for (const toolId in allTools) {
-                const found = allTools[toolId].find(c => c.id === conceptId);
-                if (found) { conceptData = found; break; }
+            
+            const allTools = window.cognitiveToolkitData ? window.cognitiveToolkitData.framework_data.toolConcepts : null;
+            
+            if (allTools) {
+                for (const toolId in allTools) {
+                    const found = allTools[toolId].find(c => c.id === conceptId);
+                    if (found) { conceptData = found; break; }
+                }
             }
 
             if (conceptData) {
-                // Use the global filter state to select the variation
-                let variation = conceptData.variations[0]; // Default
+                let variation = conceptData.variations[0];
                 if (window.activeConceptFilter !== 'all') {
                     const match = conceptData.variations.find(v => v.domain === window.activeConceptFilter);
                     if (match) {
                         variation = match;
                     } else {
-                        // Fallback
                         variation = conceptData.variations.find(v => v.domain === 'General / Pluralist') || conceptData.variations[0];
                     }
                 }
 
                 document.getElementById('popover-title').textContent = conceptData.name;
+                const defEl = document.getElementById('popover-definition');
+                if(defEl) defEl.textContent = conceptData.definition || "Definition not available.";
+                
                 document.getElementById('popover-domain-badge').textContent = variation.domain;
                 document.getElementById('popover-expert').textContent = variation.expert || "N/A";
                 document.getElementById('popover-theory').innerHTML = formatTheoryText(variation.theory);
@@ -500,7 +497,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             document.getElementById('concept-popover-card').classList.remove('visible');
         }
     }
-
     function handleMainContentClick(e) {
         if (handleDomainConceptFilter(e)) return;
 
@@ -853,8 +849,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             isRendering = false;
         }
     }
-    
-    function getLogData() {
+function getLogData() {
         return cognitiveToolkitData.framework_data.tools.map(tool => {
             const promptItem = tool.pedagogicalPlaybook.find(item => item.title.includes("Reflection Prompt"));
             if (!promptItem) return null;
@@ -1663,46 +1658,45 @@ For example:
         });
     }
 
-    function initializePathwayExplorerEvents() {
+            function initializePathwayExplorerEvents() {
         const searchInput = document.getElementById('pathway-search');
         const domainFilterGroup = document.getElementById('domain-filter-group');
-        const typeFilter = document.getElementById('type-filter');
+        const categoryFilter = document.getElementById('category-filter');
         const toolFilter = document.getElementById('tool-filter');
         const matrix = document.getElementById('pathway-matrix');
         const domainLabel = document.getElementById('selected-domain-name');
     
-        if (!searchInput || !domainFilterGroup || !typeFilter || !toolFilter || !matrix) {
-            console.warn("Pathway Explorer controls not found. Skipping event listener setup.");
+        if (!searchInput || !domainFilterGroup || !categoryFilter || !toolFilter || !matrix) {
             return;
         }
     
         function applyFilters() {
             const searchTerm = searchInput.value.toLowerCase();
             const activeDomain = domainFilterGroup.querySelector('.filter-btn.active')?.dataset.domain || 'all';
-            const activeType = typeFilter.value;
+            const activeCategory = categoryFilter.value;
     
             document.querySelectorAll('#pathway-matrix .accordion-item').forEach(card => {
                 const cardDomain = card.dataset.domain || '';
-                const cardType = card.dataset.type || '';
+                const cardCategory = card.dataset.category || '';
                 const cardText = (card.textContent || '').toLowerCase();
     
                 const matchesSearch = cardText.includes(searchTerm);
                 const matchesDomain = activeDomain === 'all' || cardDomain === activeDomain;
-                const matchesType = activeType === 'all' || cardType === activeType;
+                const matchesCategory = activeCategory === 'all' || cardCategory === activeCategory;
     
-                card.style.display = (matchesSearch && matchesDomain && matchesType) ? '' : 'none';
+                card.style.display = (matchesSearch && matchesDomain && matchesCategory) ? '' : 'none';
             });
         }
+
         function handleToolFilter() {
             const selectedTool = toolFilter.value;
-            
             document.querySelectorAll('.tool-column').forEach(col => {
                 col.style.display = (selectedTool === 'all' || col.id === selectedTool) ? '' : 'none';
             });
         }
 
         searchInput.addEventListener('input', applyFilters);
-        typeFilter.addEventListener('change', applyFilters);
+        categoryFilter.addEventListener('change', applyFilters);
         toolFilter.addEventListener('change', handleToolFilter);
 
         domainFilterGroup.addEventListener('click', (e) => {
@@ -1741,33 +1735,9 @@ For example:
 
         applyFilters();
         handleToolFilter();
-
-        const params = new URLSearchParams(window.location.search);
-        const expandId = params.get('expand');
-
-        if (expandId) {
-            const targetItem = document.querySelector(`.accordion-item[data-id="${expandId}"]`);
-            
-            if (targetItem) {
-                targetItem.classList.add('active');
-                const content = targetItem.querySelector('.accordion-content');
-                if (content) {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
-
-                setTimeout(() => {
-                    targetItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    targetItem.style.transition = 'box-shadow 0.5s ease';
-                    targetItem.style.boxShadow = '0 0 0 4px var(--color-highlight)';
-                    setTimeout(() => {
-                        targetItem.style.boxShadow = '';
-                    }, 2000);
-                }, 100);
-            }
+        if (typeof setupScrollControls === 'function') {
+             setupScrollControls('pathway-scroll-container', '.pathway-matrix-wrapper');
         }
-
-        setupScrollControls('pathway-scroll-container', '.pathway-matrix-wrapper');
     }
-
-    init();
+init();
 });

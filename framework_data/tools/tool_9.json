@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -15,7 +15,7 @@
     "principle":  "To update the high-level generative model by abstracting the learnings from a specific prediction error (a project) into a more generalizable and precise model (a Principle) for future prediction.",
     "keyMediatingArtifact":  "Generalizable Principles",
     "jtbdAnalysis":  {
-                         "coreJobStory":  "When a project is over, help me extract the generalizable principles from this specific experience, so I can become smarter for the future and share what I\u0027ve learned with others.",
+                         "coreJobStory":  "When a project is over, help me transform my experience into a \u0027Playbook\u0027 or \u0027Legacy,\u0027 so I can save time in the future and help others avoid my mistakes.",
                          "hiringCircumstance":  "The project is finished. The \u0027Push\u0027 is the desire not to lose the valuable, hard-won lessons. The \u0027Habit\u0027 is to immediately jump to the next project. The \u0027Anxiety\u0027 is that the reflection will be a bureaucratic waste of time.",
                          "practitioner":  {
                                               "job":  "Reflect on the completed project to abstract generalizable principles, codify them into a shareable artifact (e.g., a playbook), and identify the key questions that will drive the next cycle of inquiry.",
@@ -44,9 +44,9 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "title":  "ðŸ§  Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "Synthesis requires a shift from active execution to reflective consolidation. The core friction is overcoming the \u0027Zeigarnik Effect\u0027 (inverted)—the brain\u0027s desire to flush completed tasks from memory to free up cognitive resources, making reflection feel like a waste of time.",
+                                                       "content":  "Synthesis requires a shift from active execution to reflective consolidation. The core friction is overcoming the \u0027Zeigarnik Effect\u0027 (inverted)â€”the brain\u0027s desire to flush completed tasks from memory to free up cognitive resources, making reflection feel like a waste of time.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -61,7 +61,7 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "🧩 Integrative Strategies",
+                                                       "title":  "ðŸ§© Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
                                                        "dynamic_playbook":  {
@@ -78,7 +78,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective reframes the end of a project as the beginning of a long-term responsibility, emphasizing sustainability and intergenerational thinking.",
                                                             "dynamic_playbook":  {
@@ -114,7 +114,7 @@
                                                 "stage_name":  "Synthesis \u0026 Stewardship",
                                                 "pathways":  [
                                                                  {
-                                                                     "pathway_name":  "📚 Science \u0026 Engineering - The Generalization Path",
+                                                                     "pathway_name":  "ðŸ“š Science \u0026 Engineering - The Generalization Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -182,7 +182,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸš€ Business \u0026 Agile - The Playbook Path",
+                                                                     "pathway_name":  "Ã°Å¸Å¡â‚¬ Business \u0026 Agile - The Playbook Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -252,7 +252,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "âœ¨ Speculative - The \u0027Consolidation Period\u0027 Path",
+                                                                     "pathway_name":  "Ã¢Å“Â¨ Speculative - The \u0027Consolidation Period\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -314,7 +314,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "🧠‘â€ ðŸ « Pedagogy \u0026 Facilitation - The Transfer \u0026 Fading Path",
+                                                                     "pathway_name":  "ðŸ§ â€˜Ã¢â‚¬ Ã°Å¸ Â« Pedagogy \u0026 Facilitation - The Transfer \u0026 Fading Path",
                                                                      "facilitator_model":  {
                                                                                                "sequence":  [
                                                                                                                 {
@@ -453,7 +453,7 @@
                                                                                        }
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "âœ¨ NEW: The \u0027Storytelling\u0027 Path",
+                                                                     "pathway_name":  "Ã¢Å“Â¨ NEW: The \u0027Storytelling\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -522,7 +522,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "âœ¨ NEW: The \u0027Cross-Project Retrospective\u0027 Path",
+                                                                     "pathway_name":  "Ã¢Å“Â¨ NEW: The \u0027Cross-Project Retrospective\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -624,7 +624,7 @@
                                        "Length":  25
                                    },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "title":  "ðŸ§  Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Synthesis is a reflective state for abstracting general principles (schema formation) from specific experiences to guide future behavior.",
                                                        "dynamic_playbook":  {
@@ -647,14 +647,14 @@
                                                      "simpleTitle":  "Vs. Other Models",
                                                      "models":  [
                                                                     {
-                                                                        "value_add":  "Tool 9 focuses on \u0027Generalization\u0027—extracting reusable principles (Playbooks) that can be applied to *different* future contexts.",
+                                                                        "value_add":  "Tool 9 focuses on \u0027Generalization\u0027â€”extracting reusable principles (Playbooks) that can be applied to *different* future contexts.",
                                                                         "derivation":  "Medical Review",
                                                                         "model":  "Post-Mortem",
                                                                         "comparison":  "Post-mortems often focus on \u0027what went wrong\u0027.",
                                                                         "vector":  "Review"
                                                                     },
                                                                     {
-                                                                        "value_add":  "Tool 9 focuses on \u0027Stewardship\u0027—defining the active, ongoing responsibility for the work\u0027s impact after the project closes.",
+                                                                        "value_add":  "Tool 9 focuses on \u0027Stewardship\u0027â€”defining the active, ongoing responsibility for the work\u0027s impact after the project closes.",
                                                                         "derivation":  "Library Science",
                                                                         "model":  "Archiving",
                                                                         "comparison":  "Archiving stores files.",
@@ -700,7 +700,7 @@
                                          "Length":  276
                                      },
                          "cynefinAnalysis":  {
-                                                 "title":  "🧭 Navigational Context",
+                                                 "title":  "ðŸ§­ Navigational Context",
                                                  "simpleTitle":  "Complexity Check",
                                                  "content":  "This tool involves reflecting on a completed project to abstract generalizable principles. This is an expert task of analysis and synthesis.",
                                                  "dynamic_playbook":  {
@@ -712,7 +712,7 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
@@ -736,7 +736,7 @@
                                                                               },
                                                          "content":  "Synthesis is the engine of long-term growth. Science builds theory; Business builds playbooks; Culture builds traditions. The framework ensures that the \u0027waste\u0027 of one project becomes the \u0027fuel\u0027 for the next.",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "📚 Disciplinary Application",
+                                                         "title":  "ðŸ“š Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -810,7 +810,24 @@
                                                                                         ]
                                                                     },
                                                "title":  "NASA Compliance"
-                                           }
+                                           },
+                         "stewardship":  {
+                                             "title":  "🌱 Stewardship \u0026 Legacy",
+                                             "simpleTitle":  "Long-Term Care",
+                                             "content":  "This perspective reframes the end of a project as the beginning of a long-term responsibility. It focuses on the ethical obligation to maintain, curate, and eventually decommission the work responsibly.",
+                                             "dynamic_playbook":  {
+                                                                      "practitioner":  [
+                                                                                           "**Define the Owner:** Who is responsible for this work in 1 year? 5 years?",
+                                                                                           "**Plan for Decay:** How will this work fail or degrade? Create a maintenance schedule.",
+                                                                                           "**Close the Loop:** Ensure all promises made to stakeholders in Tool 1 have been fulfilled."
+                                                                                       ],
+                                                                      "facilitator":  [
+                                                                                          "**Facilitate the Handover:** Host a ritual where the creation team formally passes responsibility to the sustaining team.",
+                                                                                          "**Check for \u0027Orphans\u0027:** Ensure no part of the project is left without an owner.",
+                                                                                          "**Celebrate the Transition:** Mark the shift from \u0027Building\u0027 to \u0027Caring\u0027."
+                                                                                      ]
+                                                                  }
+                                         }
                      },
     "pedagogicalPlaybook":  [
                                 {
@@ -905,7 +922,7 @@
                                 }
                             ],
     "tableData":  {
-                      "pedagogy":  "**Gagné:** Enhance Transfer\n**5E:** Extend\n**DLS:** Transforming\n**// NEW //**\n**Transfer \u0026 Fading Path:** Metacognition, Transfer, Fade",
+                      "pedagogy":  "**GagnÃ©:** Enhance Transfer\n**5E:** Extend\n**DLS:** Transforming\n**// NEW //**\n**Transfer \u0026 Fading Path:** Metacognition, Transfer, Fade",
                       "science":  "Generalizable Models / New Questions",
                       "agile":  "Playbooks / Scaling / Productization",
                       "humanities":  "Theoretical Synthesis / Reframing Debates",
@@ -937,7 +954,7 @@
                         "title":  "Core Dynamics \u0026 Interactions"
                     },
                     {
-                        "human_display_content":  "##### Methodology Note\n\nThe following profile represents the cognitive state of *integration* and abstraction.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.5 | 1.5 | 0.5 | 0.5 | 1.0 | 0.5 | 4.0 | 3.5 | 3.0 | 5.0 | 4.0 | 1.0 | 2.0 | 3.0 | 4.0 |\n| **Humanities \u0026 SS.** | 1.5 | 1.5 | 0.2 | 0.2 | 1.5 | 0.2 | 5.0 | 1.0 | 2.0 | 4.5 | 4.5 | 2.0 | 2.5 | 3.5 | 4.5 |\n| **Arts \u0026 Design** | 3.5 | 1.5 | 1.5 | 1.0 | 3.0 | 1.0 | 3.5 | 0.5 | 3.5 | 3.0 | 5.0 | 3.5 | 2.0 | 4.5 | 4.0 |\n| **Business \u0026 Agile** | 2.5 | 2.0 | 0.5 | 0.5 | 1.5 | 0.5 | 4.0 | 2.5 | 2.5 | 4.0 | 4.0 | 2.0 | 3.0 | 3.0 | 4.5 |\n| **Integrated Knowledge \u0026 Ethics** | 1.5 | 2.0 | 0.5 | 0.5 | 3.5 | 0.5 | 4.5 | 1.0 | 2.0 | 3.5 | 4.5 | 3.0 | 3.5 | 3.0 | 5.0 |\n| **Pedagogy \u0026 Facil.** | 2.5 | 2.5 | 0.5 | 0.5 | 2.5 | 0.5 | 4.5 | 1.5 | 2.5 | 3.5 | 4.5 | 3.0 | 3.5 | 3.5 | 5.0 |\n\n#### Insight\n\n**Associative** scores spike significantly here, often matching **Logical** scores. This indicates that synthesis is not just summarizing facts, but creating new neural connections between disparate experiences—the definition of learning.",
+                        "human_display_content":  "##### Methodology Note\n\nThe following profile represents the cognitive state of *integration* and abstraction.\n\n| Domain | Vis | Aud | Tac | Prop | Int | Kin | Ver | Num | Spa | Log | Assoc | Emo | Soc | Crea | Meta |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **Science \u0026 Eng.** | 2.5 | 1.5 | 0.5 | 0.5 | 1.0 | 0.5 | 4.0 | 3.5 | 3.0 | 5.0 | 4.0 | 1.0 | 2.0 | 3.0 | 4.0 |\n| **Humanities \u0026 SS.** | 1.5 | 1.5 | 0.2 | 0.2 | 1.5 | 0.2 | 5.0 | 1.0 | 2.0 | 4.5 | 4.5 | 2.0 | 2.5 | 3.5 | 4.5 |\n| **Arts \u0026 Design** | 3.5 | 1.5 | 1.5 | 1.0 | 3.0 | 1.0 | 3.5 | 0.5 | 3.5 | 3.0 | 5.0 | 3.5 | 2.0 | 4.5 | 4.0 |\n| **Business \u0026 Agile** | 2.5 | 2.0 | 0.5 | 0.5 | 1.5 | 0.5 | 4.0 | 2.5 | 2.5 | 4.0 | 4.0 | 2.0 | 3.0 | 3.0 | 4.5 |\n| **Integrated Knowledge \u0026 Ethics** | 1.5 | 2.0 | 0.5 | 0.5 | 3.5 | 0.5 | 4.5 | 1.0 | 2.0 | 3.5 | 4.5 | 3.0 | 3.5 | 3.0 | 5.0 |\n| **Pedagogy \u0026 Facil.** | 2.5 | 2.5 | 0.5 | 0.5 | 2.5 | 0.5 | 4.5 | 1.5 | 2.5 | 3.5 | 4.5 | 3.0 | 3.5 | 3.5 | 5.0 |\n\n#### Insight\n\n**Associative** scores spike significantly here, often matching **Logical** scores. This indicates that synthesis is not just summarizing facts, but creating new neural connections between disparate experiencesâ€”the definition of learning.",
                         "title":  "Data-Driven Modality Profile",
                         "ai_instructional_context":  {
                                                          "key_domain_variations":  {

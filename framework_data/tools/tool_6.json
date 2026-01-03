@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -21,7 +21,7 @@
                                               "job":  "Execute the plan with focus and skill, transforming the abstract design into a tangible first iteration while remaining attentive to the feedback that emerges from the work itself.",
                                               "plan":  [
                                                            "**Design the Environment:** Create a \u0027Flow Container.\u0027 Eliminate all sensory distractions to support the Dorsal Attention Network. Your environment must signal \u0027Work\u0027 to your brain.",
-                                                           "**Lower the Threshold:** Overcome the \u0027Pain of Starting\u0027 (Insula activation) by committing to a \u0027Micro-Step\u0027—do the first 5 minutes of the task only. Action precedes motivation.",
+                                                           "**Lower the Threshold:** Overcome the \u0027Pain of Starting\u0027 (Insula activation) by committing to a \u0027Micro-Step\u0027â€”do the first 5 minutes of the task only. Action precedes motivation.",
                                                            "**Listen to the Material:** As you build, the reality will resist your plan. Don\u0027t force it. Treat this resistance as data (\u0027The material is speaking\u0027). Adjust the tactic, not the goal.",
                                                            "**Capture the Process:** Keep a \u0027Process Journal\u0027 (`N31`) open. Document deviations from the plan in real-time. These deviations are often more valuable than the plan itself."
                                                        ]
@@ -44,9 +44,9 @@
                      },
     "perspectives":  {
                          "psychologicalDynamics":  {
-                                                       "title":  "🧠 Psychological Dynamics",
+                                                       "title":  "ðŸ§  Psychological Dynamics",
                                                        "simpleTitle":  "Emotional Hurdles",
-                                                       "content":  "Execution is a state of \u0027enaction,\u0027 where the plan meets reality. The core friction is \u0027The Gap\u0027—the disappointment when the tangible work doesn\u0027t match the perfect vision, activating the brain\u0027s error-detection circuits (ACC).",
+                                                       "content":  "Execution is a state of \u0027enaction,\u0027 where the plan meets reality. The core friction is \u0027The Gap\u0027â€”the disappointment when the tangible work doesn\u0027t match the perfect vision, activating the brain\u0027s error-detection circuits (ACC). **The Messy Middle:** It is normal for the work to look ugly halfway through. This is not failure; it is the process.",
                                                        "dynamic_playbook":  {
                                                                                 "practitioner":  [
                                                                                                      "**Engage the Frontopolar Cortex:** Activate Brodmann Area 10 (metacognition) by physically stepping back. \u0027Zoom out\u0027 to monitor the process.",
@@ -61,7 +61,7 @@
                                                                             }
                                                    },
                          "integrativeStrategies":  {
-                                                       "title":  "🧩 Integrative Strategies",
+                                                       "title":  "ðŸ§© Integrative Strategies",
                                                        "simpleTitle":  "Ways to Connect Ideas",
                                                        "content":  "This perspective provides concrete pathways for synthesizing knowledge and cognitive approaches from different domains at this tool.",
                                                        "dynamic_playbook":  {
@@ -78,7 +78,7 @@
                                                                             }
                                                    },
                          "CultureTraditionsAndEthics":  {
-                                                            "title":  "🌍 Cross-Cultural \u0026 Ethical Frameworks",
+                                                            "title":  "ðŸŒ Cross-Cultural \u0026 Ethical Frameworks",
                                                             "simpleTitle":  "Ethical Viewpoints",
                                                             "content":  "This perspective reframes \u0027doing\u0027 as a relational act of performance or service, where the quality and intent of the action are as important as the outcome.",
                                                             "dynamic_playbook":  {
@@ -114,7 +114,7 @@
                                                 "stage_name":  "Execution \u0026 Embodiment",
                                                 "pathways":  [
                                                                  {
-                                                                     "pathway_name":  "🧠  Cognitive States of Execution (Cynefin-Informed)",
+                                                                     "pathway_name":  "ðŸ§ Â  Cognitive States of Execution (Cynefin-Informed)",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -199,7 +199,7 @@
                                                                                   ]
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Warm-up\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Warm-up\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -271,7 +271,7 @@
                                                                      "rationale":  "This pathway primes the motor cortex and basal ganglia with simple, familiar drills, lowering the activation energy required to engage in a complex, high-stakes task."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Deliberate Practice\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Deliberate Practice\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -343,7 +343,7 @@
                                                                      "rationale":  "This pathway breaks a complex skill into isolated components, allowing the ECN to exert high-focus control on a single variable to correct persistent errors."
                                                                  },
                                                                  {
-                                                                     "pathway_name":  "ðŸ†• NEW: The \u0027Mindfulness Trigger\u0027 Path",
+                                                                     "pathway_name":  "Ã°Å¸â€ â€¢ NEW: The \u0027Mindfulness Trigger\u0027 Path",
                                                                      "sequence":  [
                                                                                       {
                                                                                           "step":  "T1",
@@ -380,7 +380,7 @@
                                                                                                                                                    }
                                                                                                                    },
                                                                                           "validation_and_credibility":  {
-                                                                                                                             "key_neuroscientific_principle":  "The ECN and Hippocampus work together to set a \u0027prospective memory\u0027—an intention to perform an action (the check) in the future when a specific cue appears.",
+                                                                                                                             "key_neuroscientific_principle":  "The ECN and Hippocampus work together to set a \u0027prospective memory\u0027â€”an intention to perform an action (the check) in the future when a specific cue appears.",
                                                                                                                              "supporting_evidence":  {
                                                                                                                                                          "citation_id":  "squire-2009"
                                                                                                                                                      },
@@ -444,7 +444,7 @@
                                        "Length":  25
                                    },
                          "cognitiveNeuroscience":  {
-                                                       "title":  "🧠 Cognitive Neuroscience",
+                                                       "title":  "ðŸ§  Cognitive Neuroscience",
                                                        "simpleTitle":  "The Brain at Work",
                                                        "content":  "Execution is the neural process of executing a plan, guided by real-time sensory feedback and refined by subcortical loops for automation and error correction.",
                                                        "dynamic_playbook":  {
@@ -520,7 +520,7 @@
                                          "Length":  227
                                      },
                          "cynefinAnalysis":  {
-                                                 "title":  "🧭 Navigational Context",
+                                                 "title":  "ðŸ§­ Navigational Context",
                                                  "simpleTitle":  "Complexity Check",
                                                  "content":  "If the plan is perfect, execution is Clear. More often, reality provides unexpected feedback, making execution a Complex process of action and response.",
                                                  "dynamic_playbook":  {
@@ -532,7 +532,7 @@
                                                                           "facilitator":  [
                                                                                               "**Block Solutioning:** Actively intervene if the team jumps to \u0027fixing.\u0027 Say: \u0027We are in the Complex domain; we must map the terrain before we build the road.\u0027",
                                                                                               "**Ritualize Dissent:** In complexity, consensus is dangerous. Appoint a \u0027Devil\u0027s Advocate\u0027 or use \u0027Ritual Dissent\u0027 to surface hidden variables and weak signals.",
-                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027—a small experiment designed to fail early—to encourage risk-taking."
+                                                                                              "**Frame as \u0027Safe-to-Fail\u0027:** Lower the stakes. Define the inquiry as a \u0027probe\u0027â€”a small experiment designed to fail earlyâ€”to encourage risk-taking."
                                                                                           ]
                                                                       }
                                              },
@@ -556,7 +556,7 @@
                                                                               },
                                                          "content":  "Execution is where the map meets the territory. Science executes experiments; Arts executes fabrication; Humanities executes drafting. The framework reframes execution as a learning process, where the material \u0027talks back.\u0027",
                                                          "simpleTitle":  "Field-Specific Methods",
-                                                         "title":  "📚 Disciplinary Application",
+                                                         "title":  "ðŸ“š Disciplinary Application",
                                                          "applications":  [
                                                                               {
                                                                                   "domainName":  "Science \u0026 Engineering",
@@ -702,7 +702,7 @@
                                                         "performance":  "Emergence Check"
                                                     },
                                     "icon":  "fa-broadcast-tower",
-                                    "content":  "As we build, what are we learning from the material/code/data itself? Is there emergent behavior that contradicts our plan?",
+                                    "content":  "As we build, what are we learning from the material/code/data itself? Is the reality of the material contradicting our plan?",
                                     "stance":  {
                                                    "learning":  {
                                                                     "defaultState":  "collapsed"
@@ -732,14 +732,14 @@
                                 }
                             ],
     "tableData":  {
-                      "pedagogy":  "**Gagné:** Provide Guidance\n**5E:** Elaborate\n**DLS:** Applying\n**// NEW //**\n**Coaching Loop Path:** Observe, Diagnose, Intervene",
+                      "pedagogy":  "**GagnÃ©:** Provide Guidance\n**5E:** Elaborate\n**DLS:** Applying\n**// NEW //**\n**Coaching Loop Path:** Observe, Diagnose, Intervene",
                       "science":  "Conduct Experiment / Data Collection",
                       "agile":  "Sprint Execution / Build",
                       "humanities":  "Drafting / Archival Research / Fieldwork",
                       "creative":  "Fabrication / Rehearsal / Performance"
                   },
     "averagePathway":  {
-                           "title":  "The Average Pathway: Engage in Mindful application → Notice Emergence → Document Learnings",
+                           "title":  "The Average Pathway: Engage in Mindful application â†’ Notice Emergence â†’ Document Learnings",
                            "rationale":  "Good application is not just executing a plan; it is an active, mindful, and discovery-oriented process of action and response with the world. This sequence involves executing the plan with focused attention, monitoring the process for emergent properties, and documenting not just the output but the learnings from the process itself.",
                            "cognitiveSequence":  [
                                                      "Execute the planned actions. This involves the DAN directing goal-oriented attention and the Sensorimotor network controlling the physical action, while the Insula provides interoceptive awareness of the process, enabling the \u0027mindful\u0027 quality of the application.",
