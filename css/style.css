@@ -4098,3 +4098,70 @@ body.dark-mode-active .nasa-term .tooltip-text::after {
 
 /* Hide arrow */
 [data-tooltip]::before { display: none !important; }
+
+
+/* --- FIX V7: RESPONSIVE GRAND SYNTHESIS TABLE --- */
+@media screen and (max-width: 850px) {
+    /* 1. Force table elements to stack vertically */
+    #synthesis-table, 
+    #synthesis-table thead, 
+    #synthesis-table tbody, 
+    #synthesis-table th, 
+    #synthesis-table td, 
+    #synthesis-table tr { 
+        display: block !important; 
+    }
+
+    /* 2. Hide the original header row */
+    #synthesis-table thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    /* 3. Style each row as a distinct card */
+    #synthesis-table tr {
+        margin-bottom: 2rem !important;
+        border: 2px solid var(--color-border) !important;
+        border-radius: 12px !important;
+        background: var(--color-card) !important;
+        padding: 10px !important;
+        box-shadow: var(--shadow-md) !important;
+    }
+
+    /* 4. Style each cell to show its label on top */
+    #synthesis-table td {
+        border: none !important;
+        border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+        position: relative !important;
+        padding: 40px 15px 15px 15px !important; /* Space at top for label */
+        text-align: left !important;
+        width: 100% !important;
+    }
+
+    #synthesis-table td:last-child {
+        border-bottom: none !important;
+    }
+
+    /* 5. Inject the Column Name using the data-col-name attribute */
+    #synthesis-table td:before {
+        content: attr(data-col-name);
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-weight: 800;
+        color: var(--color-highlight);
+        opacity: 0.8;
+    }
+    
+    /* Special handling for the 'Tool' column to make it stand out */
+    #synthesis-table td[data-col="tool"] {
+        background: rgba(79, 209, 197, 0.1);
+        border-radius: 8px 8px 0 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
