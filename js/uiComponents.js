@@ -489,6 +489,7 @@ export const UI = {
     },
 
     renderDiagnostic: function(data) {
+        if (data.diagnostic) { data.diagnostic.title = 'Diagnostic Navigator (Tool 0: Frame the Situation)'; }
         if (!data || !data.diagnostic) return html`<h1>Error: Diagnostic data is missing.</h1>`;
         const { title, description, struggles } = data.diagnostic;
         const cardsHTML = struggles.map(item => renderActionCard({
