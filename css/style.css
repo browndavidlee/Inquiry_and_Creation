@@ -4165,3 +4165,75 @@ body.dark-mode-active .nasa-term .tooltip-text::after {
         font-weight: bold;
     }
 }
+
+
+/* --- FIX V13: TOTAL MOBILE TOGGLE PURGE --- */
+@media screen and (max-width: 768px) {
+    /* 1. Hide EVERY toggle, switch, and mode selector in the entire sidebar */
+    .sidebar .stance-switch,
+    .sidebar .sidebar-toggle-group,
+    .sidebar .persona-switch,
+    .sidebar .toggle-container,
+    .sidebar .mode-switch-wrapper,
+    .sidebar [class*="toggle"],
+    .sidebar [class*="switch"],
+    .sidebar [class*="mode"],
+    .sidebar label,
+    .sidebar input[type="checkbox"],
+    .sidebar-footer {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        pointer-events: none !important;
+    }
+
+    /* 2. Re-stabilize the Sidebar Header */
+    .sidebar-header {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 40px 20px 20px 20px !important;
+        text-align: center !important;
+        min-height: 120px !important;
+        position: relative !important;
+    }
+
+    /* 3. Isolate the Menu Button (Hamburger) in the Top Right */
+    /* We target the specific ID and common classes to be certain */
+    #sidebarCollapse,
+    .sidebar-toggle,
+    .menu-toggle {
+        position: fixed !important; /* Fixed to viewport to stay on top */
+        top: 15px !important;
+        right: 15px !important;
+        left: auto !important;
+        display: flex !important;
+        z-index: 2147483647 !important;
+        background: var(--color-text-headings) !important;
+        color: white !important;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3) !important;
+    }
+
+    /* 4. Ensure the Title is clean and centered */
+    .sidebar-header h1, 
+    .brand-title,
+    .sidebar-header h2 {
+        font-size: 1.6rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 1.2 !important;
+        color: white !important;
+    }
+
+    .sidebar-header p, 
+    .brand-subtitle {
+        margin-top: 10px !important;
+        font-size: 0.9rem !important;
+        opacity: 0.8 !important;
+        color: #b7c3cd !important;
+    }
+}
