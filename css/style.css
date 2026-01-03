@@ -4451,3 +4451,30 @@ body.dark-mode-active .nasa-term .tooltip-text::after {
     content: attr(data-tooltip); position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%);
     background: #333; color: #fff; padding: 5px 10px; border-radius: 4px; font-size: 0.75rem; white-space: nowrap; z-index: 1000; margin-bottom: 5px;
 }
+
+/* --- REVERT: MOBILE STACK LAYOUT (v31.1) --- */
+/* Reverts 2-column grid back to single column to prevent screen occlusion */
+@media (max-width: 768px) {
+    .perspectives-nav {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+        gap: 8px !important;
+        position: static !important; /* Prevents it from floating over content */
+        height: auto !important;
+        overflow-y: visible !important;
+        padding-bottom: 20px;
+    }
+
+    .perspective-tab {
+        width: 100% !important;
+        min-height: 45px !important;
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    /* Reset any grid-specific spans */
+    .perspective-tab:last-child:nth-child(odd) {
+        grid-column: auto !important;
+    }
+}
