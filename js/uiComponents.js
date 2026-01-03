@@ -1964,8 +1964,10 @@ createPlaybook: function(tool, currentPersona, currentStance, activePerspective 
             <div class="header">
                 <h1>The Framework as a Network</h1>
             </div>
-            <div class="network-horizon-container" id="network-grid">
-                <svg id="connection-svg"></svg>
+            <div class="network-horizon-container" id="network-grid"><svg id="connection-svg" style="position:absolute; top:0; left:0; pointer-events:none; z-index:100;"></svg>
+                
+                
+                
                 
                 <div class="method-row-container" id="row-top">
                     ${methodRow1HTML}

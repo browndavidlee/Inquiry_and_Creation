@@ -1922,161 +1922,83 @@ document.addEventListener('DOMContentLoaded', () => {
 // --- RESCUE FIX v37.0: Static Sizing (No Layout Thrashing) ---
 
 // --- RESCUE FIX v38.0: Offset Coordinate Logic ---
-function initializeNetworkMapEvents_Safe() {
-    // 1. Cleanup
-    if (window.networkMapInterval) clearInterval(window.networkMapInterval);
 
-    // 2. Wait for Layout (Polling)
+function initializeNetworkMapEvents_Safe() {
+    if (window.networkMapInterval) clearInterval(window.networkMapInterval);
     let attempts = 0;
     window.networkMapInterval = setInterval(() => {
-        attempts++;
-        const gridContainer = document.getElementById('network-grid');
+        const grid = document.getElementById('network-grid');
         const svg = document.getElementById('connection-svg');
-
-        // Wait until elements exist AND have width
-        if (gridContainer && svg && gridContainer.scrollWidth > 0) {
+        if (grid && svg && grid.offsetWidth > 0) {
             clearInterval(window.networkMapInterval);
-            setupInteraction(gridContainer, svg);
-        } else if (attempts > 50) {
-            clearInterval(window.networkMapInterval); // Timeout 5s
-        }
+            setupNetworkMap(grid, svg);
+        } else if (attempts++ > 50) clearInterval(window.networkMapInterval);
     }, 100);
 
-    function setupInteraction(gridContainer, svg) {
-        if (gridContainer.dataset.bound === 'true') return;
-        gridContainer.dataset.bound = 'true';
-
-        console.log("[Network Map] v38.0 Logic Bound.");
-
-        // 3. Set Canvas Size ONCE (Large enough to hold content)
-        // We do not resize on click to prevent thrashing
-        const updateCanvas = () => {
-            const w = Math.max(gridContainer.scrollWidth, 2000);
-            const h = Math.max(gridContainer.scrollHeight, 1000);
-            svg.setAttribute('width', w);
-            svg.setAttribute('height', h);
-            svg.style.width = w + 'px';
-            svg.style.height = h + 'px';
-        };
-        
-        // Initial size set
-        updateCanvas();
-        // Only resize on window change, never on click
-        window.addEventListener('resize', updateCanvas);
-
+    function setupNetworkMap(grid, svg) {
         const networkConnections = {
-            "N03": [{target:"tool1",type:"primary"},{target:"tool2",type:"secondary"},{target:"tool8",type:"secondary"},{target:"tool4",type:"missing-secondary"},{target:"tool9",type:"tertiary"}],
-            "N11": [{target:"tool2",type:"primary"},{target:"tool4",type:"secondary"},{target:"tool5",type:"missing-secondary"},{target:"tool10",type:"tertiary"}],
-            "N34": [{target:"tool7",type:"primary"},{target:"tool8",type:"secondary"},{target:"tool3",type:"missing-secondary"},{target:"tool5",type:"tertiary"}],
-            "N44": [{target:"tool10",type:"primary"},{target:"tool7",type:"secondary"},{target:"tool9",type:"secondary"},{target:"tool6",type:"missing-secondary"},{target:"tool2",type:"tertiary"}],
-            "N65": [{target:"tool4",type:"primary"},{target:"tool3",type:"secondary"},{target:"tool8",type:"secondary"},{target:"tool1",type:"missing-secondary"},{target:"tool9",type:"tertiary"}],
-            "N74": [{target:"tool10",type:"primary"},{target:"tool1",type:"secondary"},{target:"tool9",type:"secondary"},{target:"tool6",type:"missing-secondary"},{target:"tool7",type:"tertiary"}],
-            "N81": [{target:"tool7",type:"primary"},{target:"tool1",type:"secondary"},{target:"tool10",type:"secondary"},{target:"tool4",type:"missing-secondary"},{target:"tool8",type:"tertiary"}],
-            "N95": [{target:"tool7",type:"primary"},{target:"tool8",type:"secondary"},{target:"tool3",type:"missing-secondary"},{target:"tool1",type:"tertiary"}],
-            "N98": [{target:"tool5",type:"primary"},{target:"tool6",type:"secondary"},{target:"tool4",type:"missing-secondary"},{target:"tool9",type:"tertiary"}],
-            "N100": [{target:"tool10",type:"primary"},{target:"tool1",type:"missing-secondary"},{target:"tool7",type:"tertiary"}]
+            "N03": [{target:"tool1",type:"primary"},{target:"tool2",type:"secondary"},{target:"tool8",type:"secondary"},{target:"tool4",type:"secondary"},{target:"tool9",type:"tertiary"}],
+            "N11": [{target:"tool2",type:"primary"},{target:"tool4",type:"secondary"},{target:"tool5",type:"secondary"},{target:"tool10",type:"tertiary"}],
+            "N34": [{target:"tool7",type:"primary"},{target:"tool8",type:"secondary"},{target:"tool3",type:"secondary"},{target:"tool5",type:"tertiary"}],
+            "N44": [{target:"tool10",type:"primary"},{target:"tool7",type:"secondary"},{target:"tool9",type:"secondary"},{target:"tool6",type:"secondary"},{target:"tool2",type:"tertiary"}],
+            "N65": [{target:"tool4",type:"primary"},{target:"tool3",type:"secondary"},{target:"tool8",type:"secondary"},{target:"tool1",type:"secondary"},{target:"tool9",type:"tertiary"}],
+            "N74": [{target:"tool10",type:"primary"},{target:"tool1",type:"secondary"},{target:"tool9",type:"secondary"},{target:"tool6",type:"secondary"},{target:"tool7",type:"tertiary"}],
+            "N81": [{target:"tool7",type:"primary"},{target:"tool1",type:"secondary"},{target:"tool10",type:"secondary"},{target:"tool4",type:"secondary"},{target:"tool8",type:"tertiary"}],
+            "N95": [{target:"tool7",type:"primary"},{target:"tool8",type:"secondary"},{target:"tool3",type:"secondary"},{target:"tool1",type:"tertiary"}],
+            "N98": [{target:"tool5",type:"primary"},{target:"tool6",type:"secondary"},{target:"tool4",type:"secondary"},{target:"tool9",type:"tertiary"}],
+            "N100": [{target:"tool10",type:"primary"},{target:"tool1",type:"secondary"},{target:"tool7",type:"tertiary"}]
         };
 
-        let activeMethodId = null;
+        let activeId = null;
+        const updateCanvas = () => {
+            svg.setAttribute('width', grid.scrollWidth);
+            svg.setAttribute('height', grid.scrollHeight);
+            if (activeId) drawLines(activeId);
+        };
 
-        function drawLines(methodId) {
-            // Clear
-            while (svg.lastChild) { svg.removeChild(svg.lastChild); }
-            document.querySelectorAll('.highlighted').forEach(el => el.classList.remove('highlighted'));
-            
-            if (!methodId) return;
-
-            const methodCard = document.getElementById(methodId);
-            if (!methodCard) return;
-
-            methodCard.classList.add('highlighted');
-
-            // 4. Calculate Coordinates using OFFSET (Relative to Parent)
-            // This is the fix for the "Drifting Lines" bug.
-            // We use offsetLeft/Top which are relative to the nearest positioned ancestor (#network-grid)
-            const getCenter = (el) => {
-                return {
-                    x: el.offsetLeft + (el.offsetWidth / 2),
-                    y: el.offsetTop + (el.offsetHeight / 2)
-                };
+        const getCenter = (el) => {
+            const rect = el.getBoundingClientRect();
+            const gridRect = grid.getBoundingClientRect();
+            return {
+                x: (rect.left - gridRect.left) + (rect.width / 2) + grid.scrollLeft,
+                y: (rect.top - gridRect.top) + (rect.height / 2) + grid.scrollTop
             };
+        };
 
-            const start = getCenter(methodCard);
-            const connections = networkConnections[methodId] || [];
-
-            connections.forEach(conn => {
-                const targetCard = document.getElementById(conn.target);
-                if (targetCard) {
-                    targetCard.classList.add('highlighted');
-                    const end = getCenter(targetCard);
-                    
+        const drawLines = (id) => {
+            while (svg.lastChild) svg.removeChild(svg.lastChild);
+            document.querySelectorAll('.highlighted').forEach(e => e.classList.remove('highlighted'));
+            const startEl = document.getElementById(id);
+            if (!startEl) return;
+            startEl.classList.add('highlighted');
+            const start = getCenter(startEl);
+            (networkConnections[id] || []).forEach(conn => {
+                const targetEl = document.getElementById(conn.target);
+                if (targetEl) {
+                    targetEl.classList.add('highlighted');
+                    const end = getCenter(targetEl);
                     const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-                    line.setAttribute('x1', start.x);
-                    line.setAttribute('y1', start.y);
-                    line.setAttribute('x2', end.x);
-                    line.setAttribute('y2', end.y);
-                    
-                    let color = '#333';
-                    let width = '2';
-                    let dash = '';
-                    
-                    if (conn.type === 'primary') { color = 'var(--primary-line-color, #e74c3c)'; width = '4'; }
-                    else if (conn.type === 'secondary') { color = 'var(--secondary-line-color, #3498db)'; dash = '5,5'; }
-                    else { color = '#95a5a6'; width = '1'; dash = '2,2'; }
-
-                    line.setAttribute('stroke', color);
-                    line.setAttribute('stroke-width', width);
-                    if (dash) line.setAttribute('stroke-dasharray', dash);
-                    
+                    line.setAttribute('x1', start.x); line.setAttribute('y1', start.y);
+                    line.setAttribute('x2', end.x); line.setAttribute('y2', end.y);
+                    line.setAttribute('stroke', conn.type === 'primary' ? 'var(--color-highlight)' : '#5f6368');
+                    line.setAttribute('stroke-width', conn.type === 'primary' ? '3' : '1');
+                    if (conn.type !== 'primary') line.setAttribute('stroke-dasharray', '4,4');
                     svg.appendChild(line);
                 }
             });
-        }
+        };
 
-        gridContainer.onclick = (e) => {
+        grid.onclick = (e) => {
             const card = e.target.closest('.method-card');
             if (card) {
-                activeMethodId = (activeMethodId === card.id) ? null : card.id;
-                requestAnimationFrame(() => drawLines(activeMethodId));
-                e.stopPropagation();
+                activeId = (activeId === card.id) ? null : card.id;
+                drawLines(activeId);
             } else {
-                activeMethodId = null;
+                activeId = null;
                 drawLines(null);
             }
         };
+        window.addEventListener('resize', updateCanvas);
+        updateCanvas();
     }
 }
-
-// --- AUTO-JUMP NAVIGATION LOGIC ---
-// This ensures that links like ?view=pathways&expand=123 actually scroll and open
-window.addEventListener('hashchange', handlePathwayJump);
-window.addEventListener('popstate', handlePathwayJump);
-
-function handlePathwayJump() {
-    const params = new URLSearchParams(window.location.search);
-    const expandId = params.get('expand');
-    if (!expandId) return;
-
-    // Wait for the DOM to finish rendering
-    setTimeout(() => {
-        const targetCard = document.getElementById('pathway-' + expandId);
-        if (targetCard) {
-            // 1. Open the accordion
-            targetCard.classList.add('active');
-            const content = targetCard.querySelector('.accordion-content');
-            if (content) {
-                content.style.maxHeight = content.scrollHeight + "px";
-            }
-
-            // 2. Scroll into view
-            targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            
-            // 3. Highlight effect
-            targetCard.style.outline = "2px solid var(--color-highlight)";
-            setTimeout(() => { targetCard.style.outline = "none"; }, 2000);
-        }
-    }, 300); // Short delay to allow lit-html to finish
-}
-
-// Run on initial load in case we landed directly on the URL
-handlePathwayJump();
