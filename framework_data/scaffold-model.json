@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -21768,6 +21768,98 @@
                                               }
                     },
                     {
+                        "id":  516,
+                        "tool_id":  5,
+                        "tool_name":  "Structure the Solution",
+                        "title":  "The \u0027Design QA\u0027 Prep",
+                        "category":  "Creative \u0026 Generative",
+                        "type":  "pathway",
+                        "summary":  "Define Fidelity -\u003e Establish Grid -\u003e Audit Components -\u003e Set Standards",
+                        "rationale":  "Ensures design intent is preserved during the transition to engineering by establishing strict structural rules before the build begins.",
+                        "pathway_code":  "HP-DES-1",
+                        "phase":  "1a",
+                        "activity_citation":  {
+                                                  "citation_text":  "Derived from Design Ops best practices for cross-functional alignment.",
+                                                  "rationale":  "Ensures design intent is preserved during the transition to engineering."
+                                              },
+                        "domain":  "🎨 Arts \u0026 Design",
+                        "activity_sequence":  [
+                                                  "Define the \u0027Fidelity\u0027 Level: Before the team starts building, clarify exactly what level of fidelity is required for this phase.",
+                                                  "Establish the \u0027Grid\u0027: Ensure everyone is working on the same grid system and using the same base units.",
+                                                  "Facilitate a \u0027Component\u0027 Audit: Guide the team to review the proposed solution against the existing design system.",
+                                                  "Set the \u0027Hand-off\u0027 Standard: Agree on exactly how the design specs will be documented for engineering."
+                                              ]
+                    },
+                    {
+                        "id":  517,
+                        "tool_id":  5,
+                        "tool_name":  "Structure the Solution",
+                        "title":  "The Interaction Spec",
+                        "category":  "Creative \u0026 Generative",
+                        "type":  "pathway",
+                        "summary":  "Map Micro-States -\u003e Define Motion -\u003e Responsive Guide -\u003e Accessibility",
+                        "rationale":  "Prevents ambiguity during implementation by defining dynamic behaviors and edge cases that static comps miss.",
+                        "pathway_code":  "HP-DES-2",
+                        "phase":  "1a",
+                        "activity_citation":  {
+                                                  "citation_text":  "Standard practice in Interaction Design (IxD) and Accessibility (a11y) compliance.",
+                                                  "rationale":  "Prevents ambiguity during implementation by defining dynamic behaviors."
+                                              },
+                        "domain":  "🎨 Arts \u0026 Design",
+                        "activity_sequence":  [
+                                                  "Map the \u0027Micro-States\u0027: Explicitly design the empty states, loading states, and error states for every screen.",
+                                                  "Define the \u0027Motion\u0027 Logic: Write a brief spec for how elements should move (timing, easing).",
+                                                  "Create a \u0027Responsive\u0027 Guide: Define exactly how the layout changes at different breakpoints.",
+                                                  "Annotate for Accessibility: Mark up the design with accessibility notes, defining tab order and alt text."
+                                              ]
+                    },
+                    {
+                        "id":  576,
+                        "tool_id":  7,
+                        "tool_name":  "Analyze and Revise",
+                        "title":  "The \u0027Heuristic\u0027 Review",
+                        "category":  "Creative \u0026 Generative",
+                        "type":  "pathway",
+                        "summary":  "Select Heuristics -\u003e Walkthrough -\u003e Identify Debt -\u003e Prioritize",
+                        "rationale":  "Provides an objective framework for evaluating design quality, moving critique from subjective opinion to established principles.",
+                        "pathway_code":  "HP-DES-3",
+                        "phase":  "1a",
+                        "activity_citation":  {
+                                                  "citation_text":  "Based on Nielsen\u0027s 10 Usability Heuristics.",
+                                                  "rationale":  "Provides an objective framework for evaluating design quality."
+                                              },
+                        "domain":  "🎨 Arts \u0026 Design",
+                        "activity_sequence":  [
+                                                  "Select the Heuristics: Choose 3-5 specific usability heuristics to focus on (e.g., \u0027Consistency\u0027, \u0027Error Prevention\u0027).",
+                                                  "Facilitate a \u0027Walkthrough\u0027: Have the team walk through the build, scoring it strictly against those heuristics.",
+                                                  "Identify \u0027Debt\u0027: Explicitly label visual or interaction inconsistencies as \u0027Design Debt\u0027.",
+                                                  "Prioritize the \u0027Polish\u0027: Guide the team to select the top 3 visual fixes with the highest impact."
+                                              ]
+                    },
+                    {
+                        "id":  577,
+                        "tool_id":  7,
+                        "tool_name":  "Analyze and Revise",
+                        "title":  "The \u0027Pixel\u0027 Audit",
+                        "category":  "Creative \u0026 Generative",
+                        "type":  "pathway",
+                        "summary":  "Overlay -\u003e Check Rhythm -\u003e Audit Type -\u003e File Bugs",
+                        "rationale":  "Ensures high fidelity implementation of the visual language by checking the build against the mathematical rules of the design system.",
+                        "pathway_code":  "HP-DES-4",
+                        "phase":  "1a",
+                        "activity_citation":  {
+                                                  "citation_text":  "Standard Quality Assurance (QA) practice for Visual Designers.",
+                                                  "rationale":  "Ensures high fidelity implementation of the visual language."
+                                              },
+                        "domain":  "🎨 Arts \u0026 Design",
+                        "activity_sequence":  [
+                                                  "Overlay the Comp: Take a screenshot of the build and overlay it on the original design comp with 50% opacity.",
+                                                  "Check the \u0027Rhythm\u0027: Verify that vertical rhythm and spacing follow the established scale.",
+                                                  "Audit the \u0027Typography\u0027: Check line-heights, weights, and hierarchy against the type scale.",
+                                                  "File \u0027Visual Bugs\u0027: Log every deviation as a specific bug ticket."
+                                              ]
+                    },
+                    {
                         "id":  601,
                         "tool_id":  1,
                         "tool_name":  "Define the Inquiry",
@@ -21821,7 +21913,11 @@
                                                   "Draft the Mission Needs Statement (MNS) defining the specific capability gap.",
                                                   "Identify initial Key Performance Parameters (KPPs) for the system.",
                                                   "Map all stakeholders to the formal Technical Authority (TA) hierarchy."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  602,
@@ -21874,7 +21970,11 @@
                                                   "Develop the Baseline Development Plan (BDP) outlining resource requirements.",
                                                   "Perform a Degree of Difficulty (AD2) assessment for the proposed path.",
                                                   "Define specific entry/exit criteria for the next Key Decision Point (KDP)."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  603,
@@ -21930,7 +22030,11 @@
                                                   "Generate an Analysis of Alternatives (AoA) for critical subsystems.",
                                                   "Develop Trade Trees to visualize decision branches and options.",
                                                   "Identify \u0027Safe-to-Fail\u0027 prototype candidates for risk reduction."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  604,
@@ -21983,7 +22087,11 @@
                                                   "Select the Baseline Architecture based on formal Trade Study results.",
                                                   "Document Decision Logic for all rejected alternatives to ensure traceability.",
                                                   "Freeze requirements to establish the technical baseline for execution."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  605,
@@ -22039,7 +22147,11 @@
                                                   "Decompose the system into a hierarchical Product Breakdown Structure (PBS).",
                                                   "Define Interface Control Documents (ICDs) between all subsystems.",
                                                   "Map all components to the Work Breakdown Structure (WBS) for cost tracking."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  606,
@@ -22095,7 +22207,11 @@
                                                   "Execute fabrication or coding in the defined \u0027Relevant Environment\u0027.",
                                                   "Log all deviations from the Technical Specification in the non-conformance database.",
                                                   "Maintain strict configuration control of all artifacts during build."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  607,
@@ -22151,7 +22267,11 @@
                                                   "Perform Verification: Prove the system meets the specified requirements.",
                                                   "Perform Validation: Prove the system meets the stakeholder\u0027s operational need.",
                                                   "Generate the Test Readiness Assessment Report (TRAR)."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  608,
@@ -22207,7 +22327,11 @@
                                                   "Compile the Qualification Data Package for final review.",
                                                   "Demonstrate system performance to the Technical Authority in the operational environment.",
                                                   "Trace all verification evidence back to original requirements."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  609,
@@ -22260,7 +22384,11 @@
                                                   "Abstract project data into generalizable Engineering Standards.",
                                                   "Update the Lessons Learned Database (LLD) with root cause analyses.",
                                                   "Generate the Knowledge Capture Report for future programs."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  610,
@@ -22310,7 +22438,11 @@
                                                   "Execute the Decommissioning Plan per planetary protection protocols.",
                                                   "Sanitize and archive all sensitive technical data.",
                                                   "Transfer custody of remaining assets."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  611,
@@ -22363,7 +22495,11 @@
                                                   "Enforce Technical Authority (TA) independence from Program Authority.",
                                                   "Conduct periodic Systems Health Checks.",
                                                   "Arbitrate dissenting opinions via the formal Dissent Process."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  612,
@@ -22413,7 +22549,11 @@
                                                   "Monitor System Health metrics for drift or degradation.",
                                                   "Perform Continuous Risk Management (CRM) on the process itself.",
                                                   "Diagnose root causes of process anomalies using root cause analysis."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  613,
@@ -22463,7 +22603,11 @@
                                                   "Model the costs of Prevention (training, design reviews).",
                                                   "Model the costs of Appraisal (testing, inspection).",
                                                   "Optimize the plan to minimize the Total Cost of Quality (Prevention + Appraisal + Failure)."
-                                              ]
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
                     },
                     {
                         "id":  614,
@@ -22513,6 +22657,54 @@
                                                   "Identify Configuration Items (CIs) that require control.",
                                                   "Establish a Change Control Board (CCB) to approve/reject changes.",
                                                   "Audit the configuration to ensure the \u0027As-Built\u0027 matches the \u0027As-Designed\u0027."
+                                              ],
+                        "neurocognitive_citation":  {
+                                                        "citation_text":  "NASA Human Systems Integration Handbook (NASA/SP-2010-3407).",
+                                                        "rationale":  "Provides agency standards for integrating human cognitive capabilities into systems engineering."
+                                                    }
+                    },
+                    {
+                        "id":  615,
+                        "tool_id":  10,
+                        "tool_name":  "Orchestrate the System",
+                        "title":  "The Sustainment Path",
+                        "category":  "Strategic \u0026 Business",
+                        "type":  "pathway",
+                        "summary":  "Diagnose Decay -\u003e Prioritize Debt -\u003e Fund Maintenance",
+                        "rationale":  "Systems must be continually maintained or they progressively decay in utility (Lehman\u0027s Laws). This path prioritizes maintenance over new features.",
+                        "pathway_code":  "HP7",
+                        "phase":  "1a",
+                        "activity_citation":  {
+                                                  "citation_text":  "Lehman\u0027s Laws of Software Evolution (1974).",
+                                                  "rationale":  "Systems must be continually maintained or they progressively decay in utility."
+                                              },
+                        "domain":  "🚀 Systems Engineering (NASA)",
+                        "activity_sequence":  [
+                                                  "Diagnose Decay: The Salience Network detects the cost of Technical Debt and flags it as a critical problem.",
+                                                  "Prioritize Debt: The ECN prioritizes the debt based on its impact and cost, balancing risk vs. reward.",
+                                                  "Fund Maintenance: The ECN allocates resources and communicates the need for maintenance to the team."
+                                              ]
+                    },
+                    {
+                        "id":  616,
+                        "tool_id":  10,
+                        "tool_name":  "Orchestrate the System",
+                        "title":  "The Defense Path",
+                        "category":  "Strategic \u0026 Business",
+                        "type":  "pathway",
+                        "summary":  "Sense Threat -\u003e Legal Audit -\u003e Narrative Counter",
+                        "rationale":  "Strategic defense requires awareness, preparation, and rapid response to external threats to the project\u0027s viability.",
+                        "pathway_code":  "HP8",
+                        "phase":  "1a",
+                        "activity_citation":  {
+                                                  "citation_text":  "Sun Tzu, The Art of War.",
+                                                  "rationale":  "Strategic defense requires awareness, preparation, and rapid response."
+                                              },
+                        "domain":  "🚀 Systems Engineering (NASA)",
+                        "activity_sequence":  [
+                                                  "Sense Threat: The Limbic System detects an external threat and the SN flags it as urgent.",
+                                                  "Legal Audit: The ECN directs a search of memory for the IP strategy and legal defense plan.",
+                                                  "Narrative Counter: The Language Network crafts a public response tailored to the audience."
                                               ]
                     }
                 ]
