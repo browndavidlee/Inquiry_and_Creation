@@ -201,6 +201,7 @@ const createCollapsibleNodeCard = (node) => {
 
 export const UI = {
     renderOnboarding: function(data, viewId) {
+        if (localStorage.getItem('tour_enabled') === 'false') return '';
         if (!data) return '';
         return html`
             <div class="onboarding-card" id="onboarding-${viewId}">

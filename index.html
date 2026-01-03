@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -62,7 +62,14 @@
                 </div>
             </nav>
         </div>
-        <div class="sidebar-footer">
+                    <div class="sidebar-footer">
+                <div class="sidebar-toggle">
+                    <span>Guided Tour</span>
+                    <label class="switch">
+                        <input type="checkbox" id="tour-toggle" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
     <div class="author-info">
         <h4>About the Author</h4>
         <p>Created by David Lee Brown</p>
@@ -218,5 +225,15 @@
 
 <script type="module" src="js/onboarding.js"></script>
 
+    <script>
+        const tourToggle = document.getElementById('tour-toggle');
+        // Set initial state
+        tourToggle.checked = localStorage.getItem('tour_enabled') !== 'false';
+        // Handle change
+        tourToggle.addEventListener('change', (e) => {
+            localStorage.setItem('tour_enabled', e.target.checked);
+            window.location.reload();
+        });
+    </script>
 </body>
 </html>

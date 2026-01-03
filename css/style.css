@@ -4237,3 +4237,69 @@ body.dark-mode-active .nasa-term .tooltip-text::after {
         color: #b7c3cd !important;
     }
 }
+/* --- GUIDED TOUR TOGGLE --- */
+.sidebar-footer .sidebar-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 0.85rem;
+    color: #b7c3cd;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+
+/* --- FIX V14: FORCE MODALITY BARS TO FIT MOBILE --- */
+@media screen and (max-width: 768px) {
+    /* 1. Ensure the outer wrapper doesn't overflow */
+    .equalizer-wrapper {
+        padding: 10px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
+    }
+
+    /* 2. Shrink the chart stage and adjust spacing */
+    .chart-stage {
+        width: 100% !important;
+        height: 160px !important;
+        gap: 4px !important; /* Tighten gap between groups */
+        justify-content: space-between !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    /* 3. Shrink the modality groups */
+    .modality-group {
+        gap: 2px !important; /* Tighten gap between bars */
+        flex: 1 !important;
+        justify-content: center !important;
+    }
+
+    /* 4. Shrink individual bars to fit 15 across a small screen */
+    .bar-container {
+        width: 10px !important; /* Significant reduction in width */
+        min-width: 8px !important;
+    }
+
+    /* 5. Adjust group labels to prevent overlap */
+    .group-label {
+        font-size: 0.5rem !important;
+        bottom: -18px !important;
+        letter-spacing: 0 !important;
+    }
+
+    /* 6. Ensure the legend doesn't push the width out */
+    .legend-container {
+        width: 100% !important;
+        display: block !important;
+    }
+    
+    .legend-group {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important; /* Two columns for legend items */
+        gap: 5px !important;
+        margin-bottom: 10px !important;
+    }
+}
