@@ -359,8 +359,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             });
         }
     }
-
-    function handleSidebarClick(e) {
+function handleSidebarClick(e) {
         const link = e.target.closest('a');
         if (link && link.hasAttribute('data-view')) {
             e.preventDefault();
@@ -649,8 +648,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         // { scroll: false } prevents the page from jumping to the top
         renderView(view, id, { scroll: false });
     }
-    
-    function renderView(view, id = null, options = { scroll: true }) {
+function renderView(view, id = null, options = { scroll: true }) {
         if (isRendering) {
             console.warn(`[WARN] Render already in progress. Ignoring request for view: '${view}'`);
             return;
@@ -818,18 +816,20 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             render(content, targetView);
 
+            // --- CORRECTED INITIALIZATION LOGIC ---
+            // This block replaces the old, problematic setTimeout.
+            // It ensures that any code that measures the DOM runs *after* the browser has painted.
             requestAnimationFrame(() => {
                 if (announcer) { announcer.setAttribute('aria-label', `${viewLabels[view] || view} view loaded`); }
 
                 if (view === 'overview') {
-                    content = UI.renderOverviewView(cognitiveToolkitData.framework_data.tools, cognitiveToolkitData.methodologies_data.methodologies);
-                    render(content, targetView);
+                    // This view also has scroll controls that need post-render setup
                     requestAnimationFrame(() => {
                         setupScrollControls('overview-scroll-container', '.workflow-container-wrapper');
                     });
                 }
 
-                if (view === 'network') initializeNetworkMapEvents();
+                if (view === 'network') initializeNetworkMapEvents_Safe();
                 if (view === 'nodes') initializeNodeExplorerEvents();
                 if (view === 'map') initializeVisualMapEvents();
                 if (view === 'modalities') initializeModalityExplorerEvents();
@@ -1024,13 +1024,13 @@ function getLogData() {
 
     function initializeNativePlanner() {
         const domainData = {
-            general: { name: 'General / Pluralist', icon: '🌐' },
-            science_and_engineering: { name: 'Science & Engineering', icon: '🔬' },
-            humanities_and_ss: { name: 'Humanities & Social Sciences', icon: '🏛️' },
-            arts_and_design: { name: 'Arts & Design', icon: '🎨' },
-            business_and_agile: { name: 'Business & Agile', icon: '🚀' },
-            culture_and_ethics: { name: 'Culture & Ethics', icon: '🌏' },
-            pedagogy_and_facilitation: { name: 'Pedagogy & Facilitation', icon: '🧑‍🏫' }
+            general: { name: 'General / Pluralist', icon: 'ðŸŒ' },
+            science_and_engineering: { name: 'Science & Engineering', icon: 'ðŸ”¬' },
+            humanities_and_ss: { name: 'Humanities & Social Sciences', icon: 'ðŸ›ï¸' },
+            arts_and_design: { name: 'Arts & Design', icon: 'ðŸŽ¨' },
+            business_and_agile: { name: 'Business & Agile', icon: 'ðŸš€' },
+            culture_and_ethics: { name: 'Culture & Ethics', icon: 'ðŸŒ' },
+            pedagogy_and_facilitation: { name: 'Pedagogy & Facilitation', icon: 'ðŸ§‘â€ðŸ«' }
         };
 
         const domainSwitcherContainer = document.getElementById('domain-switcher-container');
@@ -1901,7 +1901,7 @@ const observer = new MutationObserver((mutations) => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    observer.observe(document.body, { childList: true, subtree: true });
+    // observer.observe(document.body, { childList: true, subtree: true }); // DISABLED FOR DIAGNOSTIC
     
     // Stance Switch Toast Hook
     document.body.addEventListener('click', (e) => {
@@ -1914,3 +1914,169 @@ document.addEventListener('DOMContentLoaded', () => {
     
     console.log("Omnibus Extensions v31.0 Loaded.");
 });
+
+// --- RESCUE FIX v35.1: Bulletproof Lazy Initialization ---
+
+// --- RESCUE FIX v36.0: Polite Polling Initialization ---
+
+// --- RESCUE FIX v37.0: Static Sizing (No Layout Thrashing) ---
+
+// --- RESCUE FIX v38.0: Offset Coordinate Logic ---
+function initializeNetworkMapEvents_Safe() {
+    // 1. Cleanup
+    if (window.networkMapInterval) clearInterval(window.networkMapInterval);
+
+    // 2. Wait for Layout (Polling)
+    let attempts = 0;
+    window.networkMapInterval = setInterval(() => {
+        attempts++;
+        const gridContainer = document.getElementById('network-grid');
+        const svg = document.getElementById('connection-svg');
+
+        // Wait until elements exist AND have width
+        if (gridContainer && svg && gridContainer.scrollWidth > 0) {
+            clearInterval(window.networkMapInterval);
+            setupInteraction(gridContainer, svg);
+        } else if (attempts > 50) {
+            clearInterval(window.networkMapInterval); // Timeout 5s
+        }
+    }, 100);
+
+    function setupInteraction(gridContainer, svg) {
+        if (gridContainer.dataset.bound === 'true') return;
+        gridContainer.dataset.bound = 'true';
+
+        console.log("[Network Map] v38.0 Logic Bound.");
+
+        // 3. Set Canvas Size ONCE (Large enough to hold content)
+        // We do not resize on click to prevent thrashing
+        const updateCanvas = () => {
+            const w = Math.max(gridContainer.scrollWidth, 2000);
+            const h = Math.max(gridContainer.scrollHeight, 1000);
+            svg.setAttribute('width', w);
+            svg.setAttribute('height', h);
+            svg.style.width = w + 'px';
+            svg.style.height = h + 'px';
+        };
+        
+        // Initial size set
+        updateCanvas();
+        // Only resize on window change, never on click
+        window.addEventListener('resize', updateCanvas);
+
+        const networkConnections = {
+            "N03": [{target:"tool1",type:"primary"},{target:"tool2",type:"secondary"},{target:"tool8",type:"secondary"},{target:"tool4",type:"missing-secondary"},{target:"tool9",type:"tertiary"}],
+            "N11": [{target:"tool2",type:"primary"},{target:"tool4",type:"secondary"},{target:"tool5",type:"missing-secondary"},{target:"tool10",type:"tertiary"}],
+            "N34": [{target:"tool7",type:"primary"},{target:"tool8",type:"secondary"},{target:"tool3",type:"missing-secondary"},{target:"tool5",type:"tertiary"}],
+            "N44": [{target:"tool10",type:"primary"},{target:"tool7",type:"secondary"},{target:"tool9",type:"secondary"},{target:"tool6",type:"missing-secondary"},{target:"tool2",type:"tertiary"}],
+            "N65": [{target:"tool4",type:"primary"},{target:"tool3",type:"secondary"},{target:"tool8",type:"secondary"},{target:"tool1",type:"missing-secondary"},{target:"tool9",type:"tertiary"}],
+            "N74": [{target:"tool10",type:"primary"},{target:"tool1",type:"secondary"},{target:"tool9",type:"secondary"},{target:"tool6",type:"missing-secondary"},{target:"tool7",type:"tertiary"}],
+            "N81": [{target:"tool7",type:"primary"},{target:"tool1",type:"secondary"},{target:"tool10",type:"secondary"},{target:"tool4",type:"missing-secondary"},{target:"tool8",type:"tertiary"}],
+            "N95": [{target:"tool7",type:"primary"},{target:"tool8",type:"secondary"},{target:"tool3",type:"missing-secondary"},{target:"tool1",type:"tertiary"}],
+            "N98": [{target:"tool5",type:"primary"},{target:"tool6",type:"secondary"},{target:"tool4",type:"missing-secondary"},{target:"tool9",type:"tertiary"}],
+            "N100": [{target:"tool10",type:"primary"},{target:"tool1",type:"missing-secondary"},{target:"tool7",type:"tertiary"}]
+        };
+
+        let activeMethodId = null;
+
+        function drawLines(methodId) {
+            // Clear
+            while (svg.lastChild) { svg.removeChild(svg.lastChild); }
+            document.querySelectorAll('.highlighted').forEach(el => el.classList.remove('highlighted'));
+            
+            if (!methodId) return;
+
+            const methodCard = document.getElementById(methodId);
+            if (!methodCard) return;
+
+            methodCard.classList.add('highlighted');
+
+            // 4. Calculate Coordinates using OFFSET (Relative to Parent)
+            // This is the fix for the "Drifting Lines" bug.
+            // We use offsetLeft/Top which are relative to the nearest positioned ancestor (#network-grid)
+            const getCenter = (el) => {
+                return {
+                    x: el.offsetLeft + (el.offsetWidth / 2),
+                    y: el.offsetTop + (el.offsetHeight / 2)
+                };
+            };
+
+            const start = getCenter(methodCard);
+            const connections = networkConnections[methodId] || [];
+
+            connections.forEach(conn => {
+                const targetCard = document.getElementById(conn.target);
+                if (targetCard) {
+                    targetCard.classList.add('highlighted');
+                    const end = getCenter(targetCard);
+                    
+                    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    line.setAttribute('x1', start.x);
+                    line.setAttribute('y1', start.y);
+                    line.setAttribute('x2', end.x);
+                    line.setAttribute('y2', end.y);
+                    
+                    let color = '#333';
+                    let width = '2';
+                    let dash = '';
+                    
+                    if (conn.type === 'primary') { color = 'var(--primary-line-color, #e74c3c)'; width = '4'; }
+                    else if (conn.type === 'secondary') { color = 'var(--secondary-line-color, #3498db)'; dash = '5,5'; }
+                    else { color = '#95a5a6'; width = '1'; dash = '2,2'; }
+
+                    line.setAttribute('stroke', color);
+                    line.setAttribute('stroke-width', width);
+                    if (dash) line.setAttribute('stroke-dasharray', dash);
+                    
+                    svg.appendChild(line);
+                }
+            });
+        }
+
+        gridContainer.onclick = (e) => {
+            const card = e.target.closest('.method-card');
+            if (card) {
+                activeMethodId = (activeMethodId === card.id) ? null : card.id;
+                requestAnimationFrame(() => drawLines(activeMethodId));
+                e.stopPropagation();
+            } else {
+                activeMethodId = null;
+                drawLines(null);
+            }
+        };
+    }
+}
+
+// --- AUTO-JUMP NAVIGATION LOGIC ---
+// This ensures that links like ?view=pathways&expand=123 actually scroll and open
+window.addEventListener('hashchange', handlePathwayJump);
+window.addEventListener('popstate', handlePathwayJump);
+
+function handlePathwayJump() {
+    const params = new URLSearchParams(window.location.search);
+    const expandId = params.get('expand');
+    if (!expandId) return;
+
+    // Wait for the DOM to finish rendering
+    setTimeout(() => {
+        const targetCard = document.getElementById('pathway-' + expandId);
+        if (targetCard) {
+            // 1. Open the accordion
+            targetCard.classList.add('active');
+            const content = targetCard.querySelector('.accordion-content');
+            if (content) {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+
+            // 2. Scroll into view
+            targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            
+            // 3. Highlight effect
+            targetCard.style.outline = "2px solid var(--color-highlight)";
+            setTimeout(() => { targetCard.style.outline = "none"; }, 2000);
+        }
+    }, 300); // Short delay to allow lit-html to finish
+}
+
+// Run on initial load in case we landed directly on the URL
+handlePathwayJump();
