@@ -4303,3 +4303,60 @@ body.dark-mode-active .nasa-term .tooltip-text::after {
         margin-bottom: 10px !important;
     }
 }
+
+
+/* --- FIX V15: MOBILE UX OPTIMIZATION --- */
+@media screen and (max-width: 768px) {
+    /* 1. Reduce wasted side-space */
+    .main-content {
+        padding: 15px 12px !important;
+    }
+
+    /* 2. Hide the Mini-map to clear the HUD area */
+    
+
+    /* 3. Increase Touch Targets (Fingers are bigger than cursors) */
+    .sidebar nav a, 
+    .accordion-header, 
+    .welcome-choice-button {
+        min-height: 48px !important; /* Apple/Google standard for touch */
+    }
+
+    /* 4. Fix Concept Cloud Bubbles (Prevent them from being tiny) */
+    .concept-bubble {
+        padding: 10px 16px !important;
+        font-size: 1rem !important;
+        margin: 4px !important;
+    }
+
+    /* 5. Ensure HUD Tooltip doesn't block the very bottom of the screen */
+    .tooltip, .citation-tooltip, .ref-tooltip {
+        bottom: 10px !important;
+        width: 95vw !important;
+    }
+}
+
+
+/* --- FIX V16: RESTORE MINI-MAP & ADJUST HUD POSITION --- */
+@media screen and (max-width: 768px) {
+    /* 1. Ensure Mini-map is visible and stays on top of the background but below tooltips */
+    #mini-map-container, 
+    .planner-minimap-container {
+        display: flex !important;
+        z-index: 1000 !important;
+        bottom: 15px !important;
+        right: 15px !important;
+        transform: scale(0.9); /* Slightly smaller to feel more 'mobile-native' */
+        background: rgba(255, 255, 255, 0.8) !important;
+        backdrop-filter: blur(5px);
+    }
+
+    /* 2. Nudge the HUD Tooltip UP so it doesn't block the dots */
+    .tooltip, 
+    .citation-tooltip, 
+    .ref-tooltip,
+    [data-tooltip]::after {
+        bottom: 80px !important; /* Lifted up to clear the dots */
+        z-index: 2147483647 !important;
+    }
+}
