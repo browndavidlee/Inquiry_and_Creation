@@ -4478,3 +4478,33 @@ body.dark-mode-active .nasa-term .tooltip-text::after {
         grid-column: auto !important;
     }
 }
+
+/* --- FIX: COMPACT 2-COLUMN GRID (v32.0) --- */
+/* Forces 2 columns but reduces size to prevent blocking the view */
+@media (max-width: 768px) {
+    .perspectives-nav {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important; /* Force 2 columns */
+        gap: 6px !important; /* Tight gap to save space */
+        margin-bottom: 10px !important;
+        flex-direction: row !important; /* Override flex-col if present */
+    }
+
+    .perspective-tab {
+        width: 100% !important;
+        min-height: 35px !important; /* Much smaller minimum height */
+        padding: 6px 2px !important; /* Minimal padding */
+        font-size: 0.75rem !important; /* Compact font size */
+        line-height: 1.1 !important; /* Tight line height */
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        margin: 0 !important;
+    }
+    
+    /* Make the last item span full width if there's an odd number */
+    .perspective-tab:last-child:nth-child(odd) {
+        grid-column: span 2 !important;
+    }
+}
