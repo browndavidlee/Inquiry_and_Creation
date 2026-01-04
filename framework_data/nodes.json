@@ -1,4 +1,4 @@
-﻿{
+{
     "_metadata":  {
                       "schema_version":  "1.0",
                       "type":  "node_database",
@@ -11378,6 +11378,158 @@
                                                           "domainAgnosticDescription":  "Tightens the learning loop to near-real-time."
                                                       }
                                                   ]
+                  },
+                  {
+                      "parentTool":  "tool1",
+                      "id":  "identify-felt-sense",
+                      "tags":  [
+                                   "Interoception",
+                                   "Focusing",
+                                   "Sensing"
+                               ],
+                      "inputs":  [
+                                     "Internal Unease"
+                                 ],
+                      "description":  "Pause to notice the vague, pre-verbal physical sensation of the problem in the body before it becomes a thought.",
+                      "outputs":  [
+                                      "Somatic Data"
+                                  ],
+                      "name":  "Identify the \u0027Felt Sense\u0027",
+                      "theme":  "council",
+                      "uid":  "N-SOM-1"
+                  },
+                  {
+                      "parentTool":  "tool7",
+                      "id":  "grounding-regulation",
+                      "tags":  [
+                                   "Regulation",
+                                   "Resilience",
+                                   "Safety"
+                               ],
+                      "inputs":  [
+                                     "Amygdala Hijack"
+                                 ],
+                      "description":  "Use grounding techniques (e.g., 5-4-3-2-1) to regulate the nervous system when the \u0027error signal\u0027 (anxiety) becomes overwhelming.",
+                      "outputs":  [
+                                      "Regulated State"
+                                  ],
+                      "name":  "Perform Somatic Triage",
+                      "theme":  "workshop",
+                      "uid":  "N-SOM-2"
+                  },
+                  {
+                      "parentTool":  "tool2",
+                      "id":  "map-institutional-gatekeepers",
+                      "tags":  [
+                                   "Power",
+                                   "Politics",
+                                   "Resources"
+                               ],
+                      "inputs":  [
+                                     "Org Chart"
+                                 ],
+                      "description":  "Identify the specific individuals who hold veto power or control the \u0027Valves\u0027 of resources, and map their personal and professional incentives.",
+                      "outputs":  [
+                                      "Gatekeeper Map"
+                                  ],
+                      "name":  "Map Institutional Gatekeepers",
+                      "theme":  "blueprint",
+                      "uid":  "N-PWR-1"
+                  },
+                  {
+                      "parentTool":  "tool4",
+                      "id":  "resource-dependency-audit",
+                      "tags":  [
+                                   "Risk",
+                                   "Dependencies",
+                                   "Strategy"
+                               ],
+                      "inputs":  [
+                                     "Project Plan"
+                                 ],
+                      "description":  "Analyze which external entities (vendors, departments, regulators) the project is dependent on, and assess the risk of those resources being restricted.",
+                      "outputs":  [
+                                      "Dependency Risk Profile"
+                                  ],
+                      "name":  "Conduct a Resource Dependency Audit",
+                      "theme":  "critique",
+                      "uid":  "N-PWR-2"
+                  },
+                  {
+                      "parentTool":  "tool3",
+                      "id":  "explore-latent-space",
+                      "tags":  [
+                                   "AI",
+                                   "Divergence",
+                                   "ANT"
+                               ],
+                      "inputs":  [
+                                     "Problem Statement"
+                                 ],
+                      "description":  "Use AI to identify concepts and patterns that are mathematically adjacent to the problem but outside the practitioner\u0027s current disciplinary frame.",
+                      "outputs":  [
+                                      "Adjacent Possible Concepts"
+                                  ],
+                      "name":  "Explore Latent Space",
+                      "theme":  "workshop",
+                      "uid":  "N-AI-1"
+                  },
+                  {
+                      "parentTool":  "tool7",
+                      "id":  "cross-examine-algorithm",
+                      "tags":  [
+                                   "AI Ethics",
+                                   "Bias",
+                                   "Critique"
+                               ],
+                      "inputs":  [
+                                     "AI Generated Content"
+                                 ],
+                      "description":  "Treat AI output as a biased witness. Systematically identify hallucinations, cultural biases, and logical leaps by comparing outputs from different models or human experts.",
+                      "outputs":  [
+                                      "Bias Audit Report"
+                                  ],
+                      "name":  "Cross-Examine the Algorithm",
+                      "theme":  "critique",
+                      "uid":  "N-AI-2"
+                  },
+                  {
+                      "parentTool":  "tool10",
+                      "id":  "calibrate-cognitive-signature",
+                      "tags":  [
+                                   "Neurodiversity",
+                                   "Metacognition",
+                                   "Inclusion"
+                               ],
+                      "inputs":  [
+                                     "Process Friction"
+                                 ],
+                      "description":  "Identify your unique cognitive strengths and friction points (e.g., Hyper-Focus vs. Executive Function Tax) to customize the framework\u0027s scaffolding.",
+                      "outputs":  [
+                                      "Personalized Scaffold Plan"
+                                  ],
+                      "name":  "Calibrate Cognitive Signature",
+                      "theme":  "critique",
+                      "uid":  "N-ND-1"
+                  },
+                  {
+                      "parentTool":  "tool6",
+                      "id":  "sensory-guardrails",
+                      "tags":  [
+                                   "Environment",
+                                   "Focus",
+                                   "ADHD/Autism"
+                               ],
+                      "inputs":  [
+                                     "Environmental Audit"
+                                 ],
+                      "description":  "Intentionally design the physical and digital environment to support your specific sensory needs and minimize cognitive load.",
+                      "outputs":  [
+                                      "Optimized Flow Container"
+                                  ],
+                      "name":  "Implement Sensory Guardrails",
+                      "theme":  "workshop",
+                      "uid":  "N-ND-2"
                   }
               ],
     "pathways":  {
@@ -11630,6 +11782,56 @@
                                                           "conduct-flash-retro",
                                                           "conduct-retrospective"
                                                       ]
-                                        }
+                                        },
+                     "chaoticTriage":  {
+                                           "color":  "#e74c3c",
+                                           "name":  "Chaotic Triage (OODA)",
+                                           "nodes":  [
+                                                         "rapid-triage",
+                                                         "least-regret-decision",
+                                                         "build-prototype",
+                                                         "triage-feedback"
+                                                     ]
+                                       },
+                     "somaticRegulation":  {
+                                               "color":  "#9b59b6",
+                                               "name":  "Somatic Regulation",
+                                               "nodes":  [
+                                                             "practice-self-inquiry",
+                                                             "identify-felt-sense",
+                                                             "grounding-regulation",
+                                                             "frame-the-question"
+                                                         ]
+                                           },
+                     "institutionalNavigation":  {
+                                                     "color":  "#f1c40f",
+                                                     "name":  "Institutional Navigation",
+                                                     "nodes":  [
+                                                                   "conduct-stakeholder-mapping",
+                                                                   "map-institutional-gatekeepers",
+                                                                   "resource-dependency-audit",
+                                                                   "least-regret-decision"
+                                                               ]
+                                                 },
+                     "aiSymbiosis":  {
+                                         "color":  "#3498db",
+                                         "name":  "AI Symbiosis (Post-Human)",
+                                         "nodes":  [
+                                                       "explore-latent-space",
+                                                       "cross-examine-algorithm",
+                                                       "run-peer-critique-workshop",
+                                                       "craft-a-teaching-story"
+                                                   ]
+                                     },
+                     "neurodivergentCalibration":  {
+                                                       "color":  "#2ecc71",
+                                                       "name":  "Neurodivergent Calibration",
+                                                       "nodes":  [
+                                                                     "calibrate-cognitive-signature",
+                                                                     "sensory-guardrails",
+                                                                     "create-work-breakdown-structure",
+                                                                     "identify-cognitive-distortions"
+                                                                 ]
+                                                   }
                  }
 }

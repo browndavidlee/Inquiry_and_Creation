@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -22706,6 +22706,184 @@
                                                   "Legal Audit: The ECN directs a search of memory for the IP strategy and legal defense plan.",
                                                   "Narrative Counter: The Language Network crafts a public response tailored to the audience."
                                               ]
+                    },
+                    {
+                        "id":  401,
+                        "tool_id":  1,
+                        "title":  "Chaotic Triage (OODA)",
+                        "category":  "v40.0 Expansion",
+                        "summary":  "Bypass slow loops to establish stability in chaotic environments.",
+                        "rationale":  "Based on John Boyd\u0027s OODA loop for rapid decision-making.",
+                        "domain":  "Social \u0026 Ethical",
+                        "activity_sequence":  [
+                                                  "Perform Rapid Triage",
+                                                  "Map the Blast Radius",
+                                                  "Select a Least-Regret Action",
+                                                  "Execute Stabilizing Probe"
+                                              ],
+                        "neurocognitive_sequence":  [
+                                                        {
+                                                            "pfic_word":  "Detecting immediate threat.",
+                                                            "step":  "Observe",
+                                                            "networks":  [
+                                                                             "VAN",
+                                                                             "Limbic"
+                                                                         ]
+                                                        },
+                                                        {
+                                                            "pfic_word":  "Mapping the blast radius.",
+                                                            "step":  "Orient",
+                                                            "networks":  [
+                                                                             "DAN",
+                                                                             "Parietal"
+                                                                         ]
+                                                        },
+                                                        {
+                                                            "pfic_word":  "Selecting least-regret move.",
+                                                            "step":  "Decide",
+                                                            "networks":  [
+                                                                             "ECN",
+                                                                             "vmPFC"
+                                                                         ]
+                                                        }
+                                                    ]
+                    },
+                    {
+                        "id":  402,
+                        "tool_id":  1,
+                        "title":  "Somatic Regulation",
+                        "category":  "v40.0 Expansion",
+                        "summary":  "Use interoceptive signals to detect wicked problems and prevent burnout.",
+                        "rationale":  "Integrates Gendlin\u0027s Focusing and Somatic Experiencing.",
+                        "domain":  "Pedagogical \u0026 Reflective",
+                        "activity_sequence":  [
+                                                  "Identify the Felt Sense",
+                                                  "Perform Somatic Triage",
+                                                  "Practice Self-Inquiry",
+                                                  "Frame the Question"
+                                              ],
+                        "neurocognitive_sequence":  [
+                                                        {
+                                                            "pfic_word":  "Locating the Felt Sense.",
+                                                            "step":  "Sensing",
+                                                            "networks":  [
+                                                                             "Insula",
+                                                                             "DMN"
+                                                                         ]
+                                                        },
+                                                        {
+                                                            "pfic_word":  "Dampening Amygdala arousal.",
+                                                            "step":  "Regulating",
+                                                            "networks":  [
+                                                                             "SMN",
+                                                                             "ACC"
+                                                                         ]
+                                                        },
+                                                        {
+                                                            "pfic_word":  "Framing the somatic signal.",
+                                                            "step":  "Translating",
+                                                            "networks":  [
+                                                                             "ECN",
+                                                                             "Language"
+                                                                         ]
+                                                        }
+                                                    ]
+                    },
+                    {
+                        "id":  403,
+                        "tool_id":  2,
+                        "title":  "Institutional Navigation",
+                        "category":  "v40.0 Expansion",
+                        "summary":  "Map the \u0027Shadow System\u0027 of power to secure resources.",
+                        "rationale":  "Based on Pfeffer\u0027s Power Analysis for organizational agency.",
+                        "domain":  "Strategic \u0026 Business",
+                        "activity_sequence":  [
+                                                  "Map Institutional Gatekeepers",
+                                                  "Resource Dependency Audit",
+                                                  "Align with Incentives"
+                                              ],
+                        "neurocognitive_sequence":  [
+                                                        {
+                                                            "pfic_word":  "Identifying Gatekeepers.",
+                                                            "step":  "Mapping",
+                                                            "networks":  [
+                                                                             "DAN",
+                                                                             "SCN"
+                                                                         ]
+                                                        },
+                                                        {
+                                                            "pfic_word":  "Calculating incentives.",
+                                                            "step":  "Analyzing",
+                                                            "networks":  [
+                                                                             "ECN",
+                                                                             "vmPFC"
+                                                                         ]
+                                                        }
+                                                    ]
+                    },
+                    {
+                        "id":  404,
+                        "tool_id":  3,
+                        "title":  "AI Symbiosis (Post-Human)",
+                        "category":  "v40.0 Expansion",
+                        "summary":  "Treat AI as a co-inquirer to explore the Latent Space of knowledge.",
+                        "rationale":  "Based on Actor-Network Theory (ANT) and Latent Space exploration.",
+                        "domain":  "Scientific \u0026 Empirical",
+                        "activity_sequence":  [
+                                                  "Explore Latent Space",
+                                                  "Cross-Examine the Algorithm",
+                                                  "Human-AI Peer Critique"
+                                              ],
+                        "neurocognitive_sequence":  [
+                                                        {
+                                                            "pfic_word":  "Exploring Latent Space.",
+                                                            "step":  "Probing",
+                                                            "networks":  [
+                                                                             "DMN",
+                                                                             "External-AI"
+                                                                         ]
+                                                        },
+                                                        {
+                                                            "pfic_word":  "Cross-examining bias.",
+                                                            "step":  "Auditing",
+                                                            "networks":  [
+                                                                             "ECN",
+                                                                             "ACC"
+                                                                         ]
+                                                        }
+                                                    ]
+                    },
+                    {
+                        "id":  405,
+                        "tool_id":  10,
+                        "title":  "Neurodivergent Calibration",
+                        "category":  "v40.0 Expansion",
+                        "summary":  "Optimize the framework scaffolding for your specific brain signature.",
+                        "rationale":  "Based on Thomas Armstrong\u0027s Neurodiversity optimization models.",
+                        "domain":  "Pedagogical \u0026 Reflective",
+                        "activity_sequence":  [
+                                                  "Calibrate Cognitive Signature",
+                                                  "Implement Sensory Guardrails",
+                                                  "Chunking for Executive Function"
+                                              ],
+                        "neurocognitive_sequence":  [
+                                                        {
+                                                            "pfic_word":  "Calibrating signature.",
+                                                            "step":  "Diagnosing",
+                                                            "networks":  [
+                                                                             "BA10",
+                                                                             "DMN"
+                                                                         ]
+                                                        },
+                                                        {
+                                                            "pfic_word":  "Implementing guardrails.",
+                                                            "step":  "Designing",
+                                                            "networks":  [
+                                                                             "ECN",
+                                                                             "SMN"
+                                                                         ]
+                                                        }
+                                                    ]
                     }
                 ]
 }

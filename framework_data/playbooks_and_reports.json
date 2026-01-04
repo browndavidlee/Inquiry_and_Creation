@@ -1,4 +1,4 @@
-{
+﻿{
     "_metadata":  {
                       "schema_version":  "2.0",
                       "file_type":  "framework_data",
@@ -74,6 +74,36 @@
                           "type":  "Protocol",
                           "id":  "DOC-FDP-001",
                           "icon":  "fas fa-shield-alt"
+                      },
+                      {
+                          "content":  "### 1. Core Principle: The Body as a Sensor\n\n**Synthesis:** Logic is a late-stage filter. To detect \u0027Wicked Problems\u0027 early, you must tune into the \u0027Felt Sense\u0027—the pre-verbal physical signal of complexity.\n\n### 2. The Somatic Loop\n\n* **Locate (T1):** Identify the \u0027Felt Sense\u0027 (N-SOM-1). Where is the tension? Is it a \u0027weight,\u0027 a \u0027flutter,\u0027 or a \u0027tightness\u0027?\n* **Regulate (T7):** If the feeling is overwhelming (Panic), perform Somatic Triage (N-SOM-2). Ground yourself in the SMN to bring the ECN back online.\n* **Inquire (T10):** Practice Self-Inquiry (N81). Ask the sensation: \u0027What is the one thing you are trying to tell me?\u0027\n* **Translate (T1):** Frame the Question (N95). Turn the sensation into a Guiding Question.\n\n**Goal:** Prevent burnout and leverage interoceptive data for higher-fidelity problem definition.",
+                          "title":  "PLAYBOOK: Somatic Regulation \u0026 The Felt Sense",
+                          "id":  "playbook-somatic-regulation",
+                          "icon":  "fas fa-heartbeat"
+                      },
+                      {
+                          "content":  "### 1. Core Principle: Map the Shadow System\n\n**Synthesis:** Projects don\u0027t fail because of bad logic; they fail because they hit a \u0027Valve\u0027 controlled by a gatekeeper whose incentives were ignored.\n\n### 2. The Navigation Loop\n\n* **Identify (T2):** Map Institutional Gatekeepers (N-PWR-1). Who can say \u0027No\u0027 and make it stick? What do they care about (Budget, Safety, Reputation)?\n* **Audit (T4):** Conduct a Resource Dependency Audit (N-PWR-2). If Vendor X or Department Y disappears, does the project die?\n* **Strategize (T4):** Select a \u0027Least-Regret\u0027 Action (N-OODA-3). Align your request with the Gatekeeper\u0027s existing goals to turn a \u0027Valve\u0027 into an \u0027Inflow.\u0027\n* **Execute (T6):** Build a \u0027Sacrificial Prototype\u0027 (N94) to prove value to gatekeepers with minimum resource risk.\n\n**Goal:** Transform institutional resistance into systemic support by navigating the material reality of power.",
+                          "title":  "PLAYBOOK: Institutional Power \u0026 Resource Mapping",
+                          "id":  "playbook-power-mapping",
+                          "icon":  "fas fa-sitemap"
+                      },
+                      {
+                          "content":  "### 1. Core Principle: AI as a Co-Inquirer\n\n**Synthesis:** AI is not a search engine; it is a non-human actor with agency. It probes the \u0027Latent Space\u0027 of human knowledge to find connections that are invisible to individual human experts.\n\n### 2. The Symbiotic Loop\n\n* **Probe (T3):** Explore Latent Space (N-AI-1). Ask the AI to find the \u0027Adjacent Possible.\u0027 What are the concepts from unrelated fields that share a mathematical structure with your problem?\n* **Audit (T7):** Cross-Examine the Algorithm (N-AI-2). Do not trust the machine. Identify where its \u0027training data\u0027 (the past) is limiting its \u0027vision\u0027 (the future).\n* **Integrate (T7):** Run a Peer Critique Workshop (N34). Bring the machine\u0027s \u0027hallucinations\u0027 into a human circle. Often, a machine\u0027s error is a human\u0027s creative breakthrough.\n* **Codify (T9):** Craft a Teaching Story (N91). Document the project as a collaboration between human intuition and machine pattern recognition.\n\n**Goal:** Evolve the inquiry process by leveraging the unique cognitive affordances of both human and artificial intelligence.",
+                          "title":  "PLAYBOOK: Post-Human Inquiry \u0026 AI Symbiosis",
+                          "id":  "playbook-ai-symbiosis",
+                          "icon":  "fas fa-robot"
+                      },
+                      {
+                          "content":  "### 1. Core Principle: Signature Optimization\n\n**Synthesis:** Neurodivergence is not a \u0027disorder\u0027 to be fixed, but a \u0027signature\u0027 to be calibrated. The framework is a scaffold; you must adjust the height and width of the bars to fit your brain.\n\n### 2. The Calibration Loop\n\n* **Diagnose (T10):** Calibrate Cognitive Signature (N-ND-1). Where is the friction? If you are \u0027Hyper-Associative,\u0027 Tool 3 is your playground, but Tool 5 is your \u0027Executive Tax.\u0027\n* **Design (T6):** Implement Sensory Guardrails (N-ND-2). Use \u0027Body Doubling\u0027 or \u0027Brown Noise\u0027 to anchor the DAN. Use \u0027Visual Timers\u0027 to externalize the passage of time.\n* **Scaffold (T5):** Use a Work Breakdown Structure (N24). Break \u0027Wicked Problems\u0027 into \u0027Atomic Tasks.\u0027 If a task feels \u0027heavy,\u0027 it is still too big.\n* **Refuse (T7):** Identify Cognitive Distortions (N-CBT-6). Reject the \u0027Masking\u0027 narrative. Your \u0027Low Logical\u0027 score in the Equalizer is often the price of your \u0027High Creative\u0027 breakthrough.\n\n**Goal:** Maximize creative velocity by aligning the framework\u0027s structure with your brain\u0027s natural affordances.",
+                          "title":  "PLAYBOOK: Neurodivergent Style Calibration",
+                          "id":  "playbook-nd-calibration",
+                          "icon":  "fas fa-brain"
+                      },
+                      {
+                          "content":  "### 1. Core Principle: Speed over Certainty\n\n**Synthesis:** In Chaos, the standard cycle is too slow. Bypass Research (T2) and Structure (T5) to establish stability.\n\n### 2. The OODA Fast-Track\n* **Observe (T1):** Perform Rapid Triage (N-OODA-1).\n* **Orient (T1):** Map the Blast Radius.\n* **Decide (T4):** Make a \u0027Least-Regret\u0027 Decision (N-OODA-3).\n* **Act (T6):** Execute a Stabilizing Probe.",
+                          "title":  "PLAYBOOK: The Chaotic Triage Protocol (OODA)",
+                          "id":  "playbook-chaotic-triage",
+                          "icon":  "fas fa-biohazard"
                       }
                   ]
 }
